@@ -1,0 +1,64 @@
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-10 offset-md-1">
+                <div class="row">
+                    <div class="col-12">
+                        Last.fm
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        Hecho con amor en Chihuahua, México.
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        &copy; 2014-{{ 'now' | date: "%Y" }} {{ site.author }}
+                    </div>
+                    <div class="col-12 col-md-6 text-right">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://m.do.co/c/03bd95f889e7">Deployed on DigitalOcean</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <span class="badge badge-dark">{{ site.version }}</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="//fast.eager.io/59b14hQlWM.js"></script>
+    <script src="assets/js/hammer.js"></script>
+    <script src="assets/js/lastfm.jquery.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+    <!-- Twitter -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+    <!-- Google+ -->
+    <script type="text/javascript" async defer src="https://apis.google.com/js/platform.js?publisherid=101399365717557340979">
+        {lang: 'es-419'}
+    </script>
+
+    <!-- Filament -->
+    <script data-cfasync="false" type="text/javascript" src="//filamentapp.s3.amazonaws.com/f78f3c7f4691a60451a0a8586627320f.js" async="async"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55422382-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-55422382-1');
+    </script>
+</body>
+</html>

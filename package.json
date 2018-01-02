@@ -1,0 +1,27 @@
+{
+  "name": "luiscarlospando.net-v2.0",
+  "version": "2.0.0",
+  "description": "Web developer, punk rocker, beer aficionado and a Nintendo freak since 1990. | Desarrollador web, punk rocker, aficionado de la cerveza y un fan de Nintendo desde 1990.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "LuisCarlosPando.net",
+    "Luis",
+    "Carlos",
+    "Pando",
+    "Technology",
+    "Music",
+    "VideoGames",
+    "Nintendo",
+    "YouTube",
+    "Streamer",
+    "Web",
+    "Development",
+    "Movies",
+    "Art"
+  ],
+  "author": "Luis Carlos Pando (@mijo)",
+  "license": "ISC"
+}

@@ -1,6 +1,11 @@
 ---
-# Front matter comment to ensure Jekyll properly reads file.
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
+// Variables to modify font folders
+$fa-font-path: "../fonts";
 
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "font-awesome";
+@import "fonts";
 @import "bootstrap";
 @import "styles";

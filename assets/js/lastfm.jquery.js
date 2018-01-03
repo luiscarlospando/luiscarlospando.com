@@ -6,7 +6,7 @@ shows recently played tracks
 Author: Ringo Rohe
        - with much help from Douglas Neiner
 
-Custom tweaks by: Luis Carlos Pando
+Custom tweaks by: Luis Carlos Pando (@mijo)
 
 
 -- lastplayed --

@@ -5,6 +5,36 @@
  */
 
 $(document).ready(function(){
+    // Enable nav menu
+    $("#menu").mmenu({
+        classes: "mm-slide",
+        "slidingSubmenus": true,
+        "header": {
+        "title": "LuisCarlosPando.net",
+        "add": true,
+        "update": true
+        },
+        "footer": {
+            "add": true,
+            "title": "Hecho con amor en Chihuahua, México."
+        },
+        "searchfield": {
+            "placeholder": "Buscar",
+            "noResults": "No se encontraron resultados.",
+            "add": true,
+            "search": false
+        },
+        dragOpen: {
+            open: false
+        }
+    });
+
+    $("#menu .mm-search input").keyup(function(e){
+        if(e.keyCode == 13){
+            window.location.href = 'https://blog.luiscarlospando.net/?s=' + $(this).val();
+        }
+    });
+
     // Enable Last.fm last played song
     $('#lastfm').lastplayed({
         apikey:     '0665c6724df040e8c33e44b1eb1ba888',

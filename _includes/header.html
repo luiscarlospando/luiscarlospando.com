@@ -110,7 +110,11 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/jquery.mmenu.all.css">
+  <link rel="stylesheet" href="/assets/css/jquery.mmenu.themes.css">
+  <link rel="stylesheet" href="/assets/css/animate.css">
+  <link rel="stylesheet" href="/assets/css/prism.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="canonical" href="{{ site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
 
@@ -127,23 +131,86 @@
         <p class="browsehappy">Lamento decirte que estás usando un <strong>navegador obsoleto</strong>. Te recomiendo que te tomes el tiempo de <a href="https://browsehappy.com/">actualizarlo</a> para mejorar tu experiencia en Internet.</p>
     <![endif]-->
 
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-10 offset-md-1">
-          <div class="row">
-              <div class="col-12 col-sm-2">
-                <div id="logo">
-                  <a href="#" data-toggle="tooltip" data-placement="right" title="" data-original-title="Test">
-                    <span>Logo</span>
-                  </a>
+    <!-- Wrapper for mmenu -->
+    <div>
+      <div class="burger">
+          <a class="desk-button" id="burger-btn" href="#menu">
+            <span></span>
+          </a>
+      </div>
+      <!-- Nav menu -->
+      <nav id="menu">
+        <ul>
+            <li><a href="/">Inicio</a></li>
+            <li>
+                <a href="https://blog.luiscarlospando.net/">Blog</a>
+                <ul>
+                    <li><a href="https://blog.luiscarlospando.net/personal/">Personal</a></li>
+                    <li><a href="https://blog.luiscarlospando.net/musica/">Música</a></li>
+                    <li><a href="https://blog.luiscarlospando.net/gaming/">Gaming</a></li>
+                    <li><a href="https://blog.luiscarlospando.net/tecnologia/">Tecnología</a></li>
+                    <li><a href="https://blog.luiscarlospando.net/programacion/">Programación</a></li>
+                    <li><a href="https://blog.luiscarlospando.net/diseno/">Diseño</a></li>
+                    <li><a href="https://blog.luiscarlospando.net/todo-lo-demas/">Todo lo demás</a></li>
+                    <li><a href="https://blog.luiscarlospando.net/author/me/">Archivos del blog</a></li>
+                    <li><a href="https://blog.luiscarlospando.net/hashtags/">Explorar por hashtag</a></li>
+                    <li><a href="https://blog.luiscarlospando.net/rss/">RSS</a></li>
+                </ul>
+            </li>
+            <li><a href="/contacto/">Contacto</a></li>
+            <li><a href="/apps/">Mis apps favoritas</a></li>
+            <li>
+                <a href="/nintendo/">Nintendo</a>
+              <ul>
+                    <li>
+                        <a href="/nintendo/switch/">Nintendo Switch</a>
+                        <ul>
+                            <li><a href="/nintendo/switch/super-mario-odyssey/">Super Mario Odyssey</a></li>
+                            <li><a href="/nintendo/switch/breath-of-the-wild/">The Legend of Zelda: Breath of the Wild</a></li>
+                            <li><a href="/nintendo/switch/mario-kart-8-deluxe/">Mario Kart 8 Deluxe</a></li>
+                            <li><a href="/nintendo/switch/splatoon-2/">Splatoon 2</a></li>
+                            <li><a href="/nintendo/switch/sonic-mania/">Sonic Mania</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/nintendo/wii-u/">Wii U</a>
+                        <ul>
+                            <li><a href="/nintendo/wii-u/mario-kart-8/">Mario Kart 8</a></li>
+                        <li><a href="/nintendo/wii-u/splatoon/">Splatoon</a></li>
+                        <li><a href="/nintendo/wii-u/super-mario-maker/">Super Mario Maker</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://blog.luiscarlospando.net/hashtag/nintendo/">Posts con el hashtag #Nintendo</a></li>
+              </ul>
+            </li>
+            <li>
+                <a href="/live/">Live</a>
+                <ul>
+                    <li><a href="/live/archivos/">Transmisiones pasadas</a></li>
+                </ul>
+            </li>
+            <li><a href="/acerca-de/">Acerca de</a></li>
+        </ul>
+      </nav>
+      <!-- /Nav menu -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 offset-md-1">
+            <div class="row">
+                <div class="col-12 col-sm-2">
+                  <div id="logo">
+                    <a href="/" data-toggle="tooltip" data-placement="right" title="" data-original-title="Sígueme en Twitter: @{{ site.twitter_username }}">
+                      <span>Logo</span>
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div class="col-12 col-sm-10">
-                <div class="tweet">
-                  Tweet
+                <div class="col-12 col-sm-10">
+                  <div class="tweet">
+                    Tweet
+                  </div>
                 </div>
-              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>

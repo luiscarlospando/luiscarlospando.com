@@ -121,6 +121,10 @@ h6 {
         position: relative;
         width: 30px;
     }
+
+    #burger-btn:before {
+        margin-top: 0;
+    }
 }
 
 // Avoiding MMenu FOUC

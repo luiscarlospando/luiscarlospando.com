@@ -22,18 +22,18 @@
     border: 1px solid #ddd;
     width: 100%;
     height: auto;
-    padding: 14px 0;
+    padding: 14px 0 11px;
     position: relative;
 
     p {
-        margin: 1rem;
+        margin: 0 1em;
     }
 }
 
 #tweet::after {
     content: "Último tweet";
     position: absolute;
-    font-size: 0.75em;
+    font-size: 0.7em;
     bottom: -26px;
     right: 0px;
     font-style: italic;

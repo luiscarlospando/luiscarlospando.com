@@ -1,5 +1,5 @@
 ---
-layout: switch
+layout: page
 title: Nintendo Switch
 description: Agréguenme en Nintendo Switch para jugar juntos.
 image: /assets/images/ns-logo.jpg
@@ -14,6 +14,12 @@ Hagan clic en alguno de estos juegos para saber de qué manera pueden jugar conm
 - [*Sonic Mania*][4]
 
 Por último, les pongo aquí mi Nintendo Switch Friend Code para que me agreguen y podamos jugar en línea.
+
+<div class="card text-center mb-3">
+<div class="card-body">
+### Nintendo Switch Friend Code: SW-3920-3330-9820
+</div>
+</div>
 
 [1]: /nintendo/switch/breath-of-the-wild/
 [2]: /nintendo/switch/super-mario-odyssey/

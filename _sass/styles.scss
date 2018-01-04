@@ -276,7 +276,9 @@ progress {
 	background-color: transparent;
 
 	/* Progress bar value for IE10+ */
-	color: #ff3530;
+    color: #ff3530;
+    
+    z-index: 2;
 }
 
 progress::-webkit-progress-bar {

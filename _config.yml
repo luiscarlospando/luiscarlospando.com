@@ -25,6 +25,7 @@ domain: luiscarlospando.net
 twitter_username: mijo
 twitter_feed: luiscarlospando
 github_username: luiscarlospando
+timezone: America/Chihuahua
 
 # Build settings
 markdown: kramdown

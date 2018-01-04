@@ -2,6 +2,7 @@
 layout: page
 title: Mis livestreams
 description: Me pueden ver jugando en vivo en este lugar cuando me pongo a streamear.
+image: /assets/images/youtube-play.jpg
 permalink: /live/
 ---
 

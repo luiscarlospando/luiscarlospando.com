@@ -2,6 +2,7 @@
 layout: page
 title: Transmisiones pasadas
 description: Este es un playlist con el archivo de mis streams pasados.
+image: /assets/images/youtube-play.jpg
 permalink: /live/archivos/
 ---
 

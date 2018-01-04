@@ -2,6 +2,7 @@
 layout: page
 title: Super Mario Odyssey
 description: En este lugar comparto algunos momentos que vivo en Super Mario Odyssey y que creo valen la pena ser compartidos.
+image: /assets/images/smo.jpg
 permalink: /nintendo/switch/super-mario-odyssey/
 ---
 

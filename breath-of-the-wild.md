@@ -2,6 +2,7 @@
 layout: page
 title: The Legend of Zelda&#58; Breath of the Wild
 description: En este lugar comparto algunos momentos que vivo en The Legend of Zelda&#58; Breath of the Wild y que creo valen la pena ser compartidos.
+image: /assets/images/breath-of-the-wild.png
 permalink: /nintendo/switch/breath-of-the-wild/
 ---
 

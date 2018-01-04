@@ -2,6 +2,7 @@
 layout: switch
 title: Nintendo Switch
 description: Agréguenme en Nintendo Switch para jugar juntos.
+image: /assets/images/ns-logo.jpg
 permalink: /nintendo/switch/
 ---
 

@@ -67,7 +67,7 @@
 
   <!-- Meta Tags -->
   <meta name="robots" content="index, follow" />
-  <meta name="description" content="{% if page.url == "/" %}{{ site.description }}{% else %}{{ page.description }}{% endif %}" />
+  <meta name="description" content="{{ page.description }}" />
   <meta name="author" content="{{ site.author }} (@{{ site.twitter_username }})" />
   <meta name="copyright" content="© 2014-{{ 'now' | date: "%Y" }} {{ site.author }}." />
   <meta name="email" content="{{ site.email }}" />
@@ -87,16 +87,16 @@
   <meta name="twitter:domain" content="{{ site.domain }}">
   <meta name="twitter:url" content="{% if page.url == "/" %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">
   <meta name="twitter:title" content="{% if page.url == "/" %}{% else %}{{ page.title }} « {% endif %}{{ site.title }}">
-  <meta name="twitter:description" content="{% if page.url == "/" %}{{ site.description }}{% else %}{{ page.description }}{% endif %}">
-  <meta name="twitter:image" content="{{ site.url }}/assets/images/logo.png">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
 
   <!-- Facebook Open Graph -->
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:title" content="{% if page.url == "/" %}{% else %}{{ page.title }} « {% endif %}{{ site.title }}" />
-  <meta property="og:description" content="{% if page.url == "/" %}{{ site.description }}{% else %}{{ page.description }}{% endif %}" />
+  <meta property="og:description" content="{{ page.description }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{% if page.url == "/" %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}" id="og-url"/>
-  <meta property="og:image" content="{{ site.url }}/assets/images/logo.png" />
+  <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
   <meta property="fb:admins" content="658977014" />
   <meta property="article:author" content="https://www.facebook.com/658977014" />
   <meta property="article:publisher" content="https://www.facebook.com/luiscarlospandodotnet" />
@@ -130,9 +130,18 @@
     <!--[if lt IE 8]>
         <p class="browsehappy">Lamento decirte que estás usando un <strong>navegador obsoleto</strong>. Te recomiendo que te tomes el tiempo de <a href="https://browsehappy.com/">actualizarlo</a> para mejorar tu experiencia en Internet.</p>
     <![endif]-->
+    
+    <progress value="0"></progress>
 
     <!-- Wrapper for mmenu -->
     <div>
+      <div class="nav-container">
+        <div class="burger">
+            <a id="burger-btn" href="#menu">
+              <span></span>
+            </a>
+        </div>
+      </div>
       <div class="burger">
           <a class="desk-button" id="burger-btn" href="#menu">
             <span></span>
@@ -197,7 +206,7 @@
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-10 d-flex align-content-center flex-wrap">
-                  <div class="mt-3 mb-3 text-center" id="tweet"></div>
+                  <div class="mt-3 text-center" id="tweet"></div>
                 </div>
             </div>
           </div>

@@ -9,6 +9,16 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+::selection {
+    background: #444;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #444;
+    color: #fff;
+}
+
 body {
     font-family: 'Libre Baskerville', serif;
     line-height: 180%;
@@ -155,6 +165,10 @@ h6 {
     color: #777 !important;
 }
 
+.nav-container {
+    display: none;
+}
+
 .burger {
     a {
         display: block;
@@ -238,4 +252,41 @@ a.badge {
 
 .subtitulo {
     margin: 0px 0 14px !important
+}
+
+progress {
+	/* Positioning */
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	/* Dimensions */
+	width: 100%;
+	height: 2px;
+
+	/* Reset the appearance */
+	-webkit-appearance: none;
+	 -moz-appearance: none;
+	      appearance: none;
+
+	/* Get rid of the default border in Firefox/Opera. */
+	border: none;
+
+	/* Progress bar container for Firefox/IE10+ */
+	background-color: transparent;
+
+	/* Progress bar value for IE10+ */
+	color: #ff3530;
+}
+
+progress::-webkit-progress-bar {
+	background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+	background-color: #ff3530;
+}
+
+progress::-moz-progress-bar {
+	background-color: #ff3530;
 }

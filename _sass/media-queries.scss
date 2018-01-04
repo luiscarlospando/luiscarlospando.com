@@ -1,0 +1,167 @@
+/* Mobile */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 30px;
+        margin: 0.67em 0 0.27em !important;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin: 0.83em 0 0.43em !important;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    p,
+    .pagination,
+    #lastfm {
+		font-size: 11pt;
+	}
+
+    blockquote {
+	    margin: 1em 0;
+	}
+
+    #horizon {
+        margin: 3% 0;
+    }
+
+    .first-letter {
+	    padding: 12px 8px 0 0;
+    }
+    
+    .burger {
+        a {
+            position: relative;
+            margin: 10px 20px 6px 10px;
+        }
+    }
+
+    .nav-container {
+        background: rgba(255,255,255,0.9);
+        border-bottom: 1px solid #ddd;
+        display: block;
+        height: 50px;
+        position: fixed;
+        top: -82px;
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        z-index: 3;
+    }
+
+    .scrolled-position {
+        top: 0 !important;
+    }
+
+    .desk-button {
+        display: none !important;
+    }
+
+    .cd-top {
+        bottom: 18px;
+        right: 15px;
+    }
+
+    progress {
+        display: none;
+    }
+
+}
+
+/* iPhone (landscape) */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+  	.tri-right.btm-left::after {
+    	left: 45.6%;
+    }
+
+}
+
+/* iPad (landscape and portrait) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    h1 {
+      font-size: 34px;
+      margin: 0.67em 0 0.27em !important;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin: 0.83em 0 0.43em !important;
+    }
+
+    h3 {
+      font-size: 22px;
+    }
+
+    h4 {
+      font-size: 16px;
+    }
+
+}
+
+/* iPad (landscape) */
+@media (min-width: 769px) and (max-width: 1090px) {
+
+}
+
+/* iPad (portrait) */
+@media (min-width: 751px) and (max-width: 768px) {
+
+
+}
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media (max-width: 868px) {
+
+    .burger {
+        a {
+            position: relative;
+            margin: 10px 20px 6px 10px;
+        }
+    }
+
+    .nav-container {
+        background: rgba(255,255,255,0.9);
+        border-bottom: 1px solid #ddd;
+        display: block;
+        height: 50px;
+        position: fixed;
+        top: -82px;
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        z-index: 3;
+    }
+
+    .scrolled-position {
+        top: 0 !important;
+    }
+
+    .desk-button {
+        display: none !important;
+    }
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}

@@ -2,6 +2,7 @@
 layout: page
 title: Acerca de
 description: Esta URL ha sido mi hogar en línea desde 2014 (ojalá hubiera empezado antes), en donde intento unificar mi presencia en Internet, un solo lugar en donde se me pueda encontrar. Como menciono en mi homepage, este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo que valen la pena leerse, dar mi opinión y ofrecer mis recomendaciones.
+image: /assets/images/logo.png
 permalink: /acerca-de/
 ---
 
@@ -47,7 +48,6 @@ Pueden suscribirse a mi blog vía [RSS][37] o vía [Twitter][38].
 Los estándares web son importantes y este sitio se adhiere a ellos. Si algo se ve extraño es muy probable que estés usando alguno que no soporte actuales estándares web.
 
 El diseño y el código de este sitio no puede ser reproducido, ni tampoco se encuentra a la venta.
-
 
 [1]: /
 [2]: https://blog.luiscarlospando.net/author/me/

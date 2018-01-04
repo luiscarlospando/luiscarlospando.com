@@ -2,6 +2,7 @@
 layout: page
 title: Sonic Mania
 description: En este lugar comparto algunos momentos que vivo en Sonic Mania y que creo valen la pena ser compartidos.
+image: /assets/images/sonic-mania.jpg
 permalink: /nintendo/switch/sonic-mania/
 ---
 

@@ -2,6 +2,7 @@
 layout: page
 title: Contacto
 description: Pónganse en contacto conmigo usando cualquiera de los siguientes métodos.
+image: /assets/images/logo.png
 permalink: /contacto/
 ---
 

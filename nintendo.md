@@ -1,6 +1,7 @@
 ---
 layout: nintendo
 title: Nintendo
+description: Agréguenme en Nintendo Switch, Wii U y Nintendo 3DS para jugar en línea.
 permalink: /nintendo/
 ---
 

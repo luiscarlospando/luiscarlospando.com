@@ -1,0 +1,52 @@
+
+footer {
+    font-size: 11pt;
+
+    #lastfm {
+        p {
+            margin: 0;
+        }
+    
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    
+        div {
+            display: inline;
+        }
+    
+        .track {
+            background: url('../images/icon_eq.gif') no-repeat;
+            background-position: 0 3px;
+            padding-left: 20px;
+        }
+    
+        .track::before {
+            content: '“';
+        }
+        
+        .track::after {
+            content: '” ';
+        }
+        
+        .track:first-child::after {
+            content: '" ';
+        }
+    
+        .album {
+            font-style: italic;
+        }
+    }
+
+    .version {
+        ul {
+            margin-top: 0;
+        }
+
+        .badge {
+            font-size: 100%;
+        }
+    }
+}

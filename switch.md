@@ -1,6 +1,7 @@
 ---
 layout: switch
 title: Nintendo Switch
+description: Agréguenme en Nintendo Switch para jugar juntos.
 permalink: /nintendo/switch/
 ---
 

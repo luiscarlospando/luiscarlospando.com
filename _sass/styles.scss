@@ -40,6 +40,52 @@ a:focus {
     text-decoration: underline;
 }
 
+ol,
+ul {
+    margin-bottom: 16px !important;
+}
+
+ol {
+    font-size: 12pt;
+    line-height: 180%;
+    padding: 0 2.5em;
+}
+
+ul {
+    margin-top: 16px;
+    list-style-type: disc;
+    line-height: 180%;
+
+    li {
+        p {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: circle;
+	        margin-top: 0;
+        }
+    }
+}
+
+audio {
+    width: 100%;
+    margin: 12px 0 0 0;
+}
+
+video {
+    width: 100%;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    line-height: $headings-lh;
+}
+
 h1,
 h2,
 h3,
@@ -93,6 +139,18 @@ h6 {
     font-size: 14px;
 }
 
+.card-header,
+.card-body {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+    }
+}
+
 .text-muted {
     color: #777 !important;
 }
@@ -127,11 +185,6 @@ h6 {
     }
 }
 
-// Avoiding MMenu FOUC
-nav#menu:not( .mm-menu ) {
-    display: none;
- }
-
  .cd-top {
     display: inline-block;
     height: 40px;
@@ -140,7 +193,6 @@ nav#menu:not( .mm-menu ) {
     bottom: 20px;
     right: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-    /* image replacement properties */
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
@@ -161,35 +213,29 @@ nav#menu:not( .mm-menu ) {
 }
   
 .cd-top.cd-is-visible {
-    /* the button becomes visible */
     visibility: visible;
     opacity: 1;
 }
   
 .cd-top.cd-fade-out {
-    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
     opacity: .5;
 }
 
- #logo {
-    background: url('../images/logo.png') no-repeat;
-    border-radius: 50%;
-    border: 1px #333 solid;
-    width: 96px;
-    height: 96px;
-    margin: 0 auto;
-
-    a {
-        width: 100%;
-        height: 100%;
-        display: block;
-    }
-
-    span {
-        display: none;
-    }
+.first-letter {
+    float: left;
+    font-size: 80px;
+    line-height: 60px;
+    padding: 13px 8px 0 0;
 }
 
-footer {
-    font-size: 11pt;
+.badge {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a.badge {
+    color: #fff;
+}
+
+.subtitulo {
+    margin: 0px 0 14px !important
 }

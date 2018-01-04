@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contacto
+description: Pónganse en contacto conmigo usando cualquiera de los siguientes métodos.
 permalink: /contacto/
 ---
 

@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Mis livestreams
+description: Me pueden ver jugando en vivo en este lugar cuando me pongo a streamear.
 permalink: /live/
 ---
 
-<h2 class="text-center"><small class="text-muted">#MijoRetroStreams</small> <small><span class="badge badge-danger">Currently on standby</span></small></h2>
+<h2 class="subtitulo text-center"><small class="text-muted">#MijoRetroStreams</small> <small><span class="badge badge-danger">Currently on standby</span></small></h2>
 
 Este lugar está hecho para que puedan ver mis streams en vivo cada vez que me pongo a jugar. También pueden verme en [mi canal de YouTube Gaming][1] y pueden ver mis streams pasados [aquí][2].
 

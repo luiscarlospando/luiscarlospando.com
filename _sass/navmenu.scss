@@ -1,0 +1,46 @@
+nav#menu {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif !important;
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style-type: none !important;
+
+        li {
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
+
+// Avoiding mmenu FOUC
+nav#menu:not( .mm-menu ) {
+    display: none;
+ }
+
+.mm-search input[type=text],
+.mm-search input[type=email],
+.mm-search input[type=password] {
+	border-radius: 30px;
+	border: none;
+	box-shadow: none;
+	-webkit-box-sizing: none;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 10px;
+}
+
+.mm-list > li > a:hover,
+.mm-list > li > span:hover,
+.mm-list > li > a:focus,
+.mm-list > li > span:focus {
+    color: #fff !important;
+}
+
+.mm-footer {
+    font-size: 12px;
+}

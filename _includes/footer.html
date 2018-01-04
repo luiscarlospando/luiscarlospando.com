@@ -2,14 +2,14 @@
         <footer class="container">
             <div class="row">
                 <div class="col-12 col-md-10 offset-md-1">
-                    <div class="row">
+                    <div class="row mt-3 mb-3">
                         <div class="col-12 text-center">
                             <div id="lastfm"></div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 col-md-6">
-
+                            Desde mi blog: 
                         </div>
                         <div class="col-12 col-md-6 text-right">
                             <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-lang="es">Seguir a @{{ site.twitter_username }}</a>
@@ -17,16 +17,16 @@
                     </div>
                     <hr>
                     <div class="row">
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 copyright">
                             &copy; 2014-{{ 'now' | date: "%Y" }} {{ site.author }}
                         </div>
-                        <div class="col-12 col-md-6 text-right">
+                        <div class="col-12 col-md-6 version text-right">
                             <ul class="list-inline">
                                 <li class="list-inline-item">
                                     <a href="https://m.do.co/c/03bd95f889e7" data-toggle="tooltip" data-placement="top" title="Deployed on DigitalOcean">Deployed on DigitalOcean</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="javascript:void(0)" class="badge badge-success" data-toggle="tooltip" data-placement="top" title="{{ site.title }} v{{ site.version }}">{{ site.version }}</a>
+                                    <a href="javascript:void(0)" class="badge badge-success" data-toggle="tooltip" data-placement="top" title="{{ site.title }} v{{ site.version }} (All systems operational)">{{ site.version }}</a>
                                 </li>
                             </ul>
                         </div>
@@ -45,6 +45,7 @@
     <script src="//fast.eager.io/59b14hQlWM.js"></script>
     <script src="/assets/js/jquery.mmenu.min.all.js"></script>
     <script src="/assets/js/hammer.js"></script>
+    <script src="/assets/js/twitter-fetcher.js"></script>
     <script src="/assets/js/lastfm.jquery.js"></script>
     <script src="/assets/js/plugins.js"></script>
     <script src="/assets/js/main.js"></script>

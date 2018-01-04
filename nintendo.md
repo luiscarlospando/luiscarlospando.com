@@ -61,4 +61,4 @@ También les comparto mi repositorio de posts en [Miiverse][6].
 [3]: /nintendo/switch/splatoon-2/
 [4]: /nintendo/switch/sonic-mania/
 [5]: https://support.miitomo.com/friend_code/f7f1a963f99b29bf/aa5f315f59daa9ce9e033bcc3900d7e9
-[6]: /nintendo/miiverse
+[6]: https://archiverse.guide/users/luiscpc85

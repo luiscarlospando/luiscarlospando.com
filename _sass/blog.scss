@@ -1,0 +1,76 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    a {
+        color: $secondaryColor !important;
+    }
+}
+
+blockquote {
+    font-family: 'Poppins', sans-serif;
+}
+
+p#category {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    margin: 1.67em 0 -24px;
+    text-transform: uppercase;
+
+    a {
+        color: $secondaryColor;
+    }
+}
+
+.post-details {
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.hashtag-list {
+    .badge {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 10pt;
+        line-height: 2em;
+        padding: 0 .4em;
+    }
+
+    a,
+    a:hover {
+        color: #fff;
+    }
+}
+
+.comments-button-container {
+    width: 100%;
+    float: left;
+    margin: 20px 0 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.follow p, 
+.primary_navigation p, 
+p.latest-post {
+    font-size: 11pt;
+}
+
+.pagination {
+    display: block !important;
+    font-size: 12pt;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footnotes {
+    .footnotedivider {
+        background-color: rgb(238, 238, 238);
+        height: 1px;
+        width: 20%;
+    }
+
+    ol {
+        margin-top: 15px;
+    }
+}

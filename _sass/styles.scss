@@ -10,12 +10,12 @@
 }
 
 ::selection {
-    background: #444;
+    background: $secondaryColor;;
     color: #fff;
 }
 
 ::-moz-selection {
-    background: #444;
+    background: $secondaryColor;
     color: #fff;
 }
 
@@ -23,14 +23,14 @@ body {
     font-family: 'Libre Baskerville', serif;
     line-height: 180%;
     font-size: 12pt;
-    color: #555;
+    color: $mainColor;
 }
 
 a,
 a:link,
 a:visited,
 a:active {
-    color: #ff3530;
+    color: $linkColor;
     text-decoration: none;
     border-bottom-style: none;
     -o-transition: all 0.3s ease 0s;
@@ -46,7 +46,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #555;
+    color: $mainColor;
     text-decoration: underline;
 }
 
@@ -103,10 +103,10 @@ h4,
 h5,
 h6 {
     font-family: 'Poppins', sans-serif;
-    color: #444;
+    color: $secondaryColor;
 
     a {
-        color: #444;
+        color: $secondaryColor;
     }
 }
 
@@ -184,7 +184,7 @@ h6 {
     #burger-btn span,
     #burger-btn:before,
     #burger-btn:after {
-        background-color: #444;
+        background-color: $secondaryColor;
         content: "";
         display: block;
         height: 6px;
@@ -276,7 +276,7 @@ progress {
 	background-color: transparent;
 
 	/* Progress bar value for IE10+ */
-    color: #ff3530;
+    color: $linkColor;
     
     z-index: 2;
 }
@@ -286,9 +286,9 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-	background-color: #ff3530;
+	background-color: $linkColor;
 }
 
 progress::-moz-progress-bar {
-	background-color: #ff3530;
+	background-color: $linkColor;
 }

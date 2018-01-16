@@ -1,3 +1,11 @@
+a {
+    img.aligncenter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 h1,
 h2,
 h3,
@@ -9,15 +17,17 @@ h6 {
     }
 }
 
-blockquote {
-    font-family: 'Poppins', sans-serif;
-}
-
 p#category {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     margin: 1.67em 0 -24px;
     text-transform: uppercase;
+    position: relative;
+    top: 3px;
+
+    span {
+        font-size: 85%;
+    }
 
     a {
         color: $secondaryColor;
@@ -27,6 +37,12 @@ p#category {
 .post-details {
     font-size: 10pt;
     font-style: italic;
+    position: relative;
+    top: -6px;
+}
+
+.card {
+    margin-bottom: 16px;
 }
 
 .hashtag-list {
@@ -47,7 +63,18 @@ p#category {
     width: 100%;
     float: left;
     margin: 20px 0 30px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    button {
+        color: #333;
+        border-color: #adadad;
+    }
+
+    button:hover {
+        color:#333;
+        background-color: #e6e6e6;
+        border-color: #adadad;
+    }
 }
 
 .follow p, 
@@ -73,4 +100,87 @@ p.latest-post {
     ol {
         margin-top: 15px;
     }
+}
+
+.twitter-tweet {
+    margin: 10px auto !important;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.wp-caption.alignleft {
+    margin: 0 20px 0 0 !important;
+}
+
+.wp-caption.alignright {
+    margin: 0 0 0 20px !important;
+}
+
+.wp-caption.aligncenter {
+    margin: 12px auto 20px !important;
+}
+
+.wp-caption {
+    background: transparent !important;
+    border: none !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    text-align: center !important;
+
+    img {
+        border: 0 none;
+        height: auto;
+        margin: 0 auto;
+        max-width: 98.5%;
+        padding: 0;
+        width: auto;
+        max-width: 100% !important;
+    }
+
+    .wp-caption-text {
+        color: #999 !important;
+        font-size: 10pt !important;
+        font-style: italic;
+        line-height: 17px !important;
+        margin: 0 0 0px !important;
+        padding: 3px 0 0 !important;
+    }
+}
+
+.gallery-caption {
+    color: #999 !important;
+    font-size: 10pt !important;
+    font-style: italic;
+    line-height: 17px !important;
+    margin: 0 0 0px !important;
+    padding: 3px 0 0 !important;
+}
+
+.old-post-notification {
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+iframe.instagram-media {
+    margin: 2% auto 3% !important;
+}
+
+.fb_iframe_widget {
+    display: block !important;
+    position: relative;
+    margin: 20px auto 20px;
+    width: 55% !important;
 }

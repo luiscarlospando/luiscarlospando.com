@@ -44,7 +44,7 @@
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
     <script src="//fast.eager.io/59b14hQlWM.js"></script>
     <script src="/assets/js/jquery.mmenu.min.all.js"></script>
     <script src="/assets/js/hammer.js"></script>
@@ -62,6 +62,25 @@
     <!-- Google+ -->
     <script type="text/javascript" async defer src="https://apis.google.com/js/platform.js?publisherid=101399365717557340979">
         {lang: 'es-419'}
+    </script>
+
+    <!-- Facebook -->
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId      : '306406826220378',
+                xfbml      : true,
+                version    : 'v2.1'
+            });
+        };
+
+        (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/es_LA/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
     </script>
 
     <!-- Filament -->

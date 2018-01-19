@@ -95,4 +95,14 @@ $(document).ready(function(){
          value = $(window).scrollTop();
          progressBar.attr('value', value);
     });
+
+    // RSS Feed
+    jQuery(function($) {
+        $("#blog").rss("https://blog.luiscarlospando.net/feed", {
+            limit: 1,
+            ssl: true,
+            layoutTemplate: "<div style='display: inline;'>{entries}</div>",
+            entryTemplate: '<a href="{url}">{title}</a>'
+        });
+    });
 });

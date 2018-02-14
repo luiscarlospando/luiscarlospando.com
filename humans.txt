@@ -10,10 +10,10 @@ Twitter: @mijo
 Location: Chihuahua, Mexico
 
 /* SITE */
-Last update: 2018/01/03
+Last update: 2018/02/14
 Standards: HTML, HTML5, CSS, CSS3, JSON, XML
 Components: Bootstrap 4, Normalize.css, Modernizr, Animate.css, Font Awesome, Google Fonts
 Language: Spanish
-Software: Visual Studio Code, Adobe Photoshop CC 2017, Git, npm, SCSS, Mii Maker
+Software: Visual Studio Code, Hyper, Adobe Photoshop CC 2018, Git, npm, SCSS, Jekyll, Mii Maker
 Deployed on: DigitalOcean - http://digitalocean.com
 Hardware: MacBook Pro (Late 2010)

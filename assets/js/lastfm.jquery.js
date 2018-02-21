@@ -191,6 +191,12 @@ $('#nowPlayingBox').nowplaying({
 							html: track.name
 						}).appendTo(listitem);
 
+						// ---------------- BY -----------------
+						$("<div>", {
+							class: 'by',
+							html: '<span> por </span>'
+						}).appendTo(listitem);
+
 						// ---------------- ARTIST -----------------
 						$("<div>", {
 							class: 'artist',

@@ -31,7 +31,7 @@ timezone: America/Chihuahua
 markdown: kramdown
 kramdown:
   parse_block_html: true
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 sass:

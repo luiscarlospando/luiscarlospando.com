@@ -9,7 +9,7 @@ image: /assets/images/logo.png
 
 <h1 class="text-center">{{ site.title }}</h1>
 
-<span class="first-letter">H</span>ola desde [Chihuahua, México][1]. Soy Luis Carlos Pando, un dude que [hace][2] cosas para el Internet y en mis ratos libres soy un [videojugador][3] y un fan del punk rock. También soy el feliz prometido de [Ale][4]. Algunos tal vez me conozcan por haber creado [Hitz-Musik.net][5] ― una comunidad en línea que existió para hablar sobre música poco apreciada por las masas y que también sirvió como plataforma para promover y apoyar la escena musical local de Chihuahua.
+<span class="first-letter">H</span>ola desde [Chihuahua, México][1]. Soy Luis Carlos Pando, un dude que [hace][2] cosas para el Internet, fan del punk rock y en mis ratos libres soy un [videojugador][3]. También soy el feliz prometido de [Ale][4]. Algunos tal vez me conozcan por haber creado [Hitz-Musik.net][5] ― una comunidad en línea que existió para hablar sobre música poco apreciada por las masas y que también sirvió como plataforma para promover y apoyar la escena musical local de Chihuahua.
 
 
 Una de las razones que me motivaron a crear este espacio fue mi amor por la tecnología, ― me fue necesario tener [mi propio lugar en Internet][6] para hablar de lo que yo quisiera, para equivocarme, para experimentar, para hacer cosas que solo a un nerd le gusta hacer. Básicamente el objetivo aquí es escribir de lo que traiga en la cabeza, compartir cosas que crea valgan la pena ser compartidas, dar mi opinión y ofrecer algunas recomendaciones.

@@ -10,13 +10,13 @@
 }
 
 ::selection {
-    background: $secondaryColor;;
-    color: #fff;
+    background: $tertiaryColor;
+    color: $mainColor;
 }
 
 ::-moz-selection {
-    background: $secondaryColor;
-    color: #fff;
+    background: $tertiaryColor;
+    color: $mainColor;
 }
 
 body {

@@ -55,7 +55,7 @@ Estos son los modos de juego en los que soy más activo en Splatoon 2 con mis am
 ## Tweets
 
 <div class="text-center mt20">
-<a class="twitter-timeline"  href="https://twitter.com/search?q=%23Splatoon2%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}" data-widget-id="933402336726278144">Tweets about #Splatoon2 AND #NintendoSwitch from:@{{ site.twitter_username }}</a>
+<a class="twitter-timeline" data-theme="dark" data-link-color="#ff4081" href="https://twitter.com/search?q=%23Splatoon2%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}" data-widget-id="933402336726278144">Tweets about #Splatoon2 AND #NintendoSwitch from:@{{ site.twitter_username }}</a>
 </div>
 
 Para recibir mis notificaciones sobre *Splatoon 2* pueden [seguirme en Twitter][4].

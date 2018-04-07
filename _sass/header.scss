@@ -33,11 +33,11 @@
 }
 
 #tweet::after {
-    content: "Último tweet";
+    content: attr(data-background-icon);
+    font-family: "FontAwesome";
     position: absolute;
     font-size: 0.7em;
     bottom: -26px;
     right: 0px;
-    font-style: italic;
     text-align: right;
 }

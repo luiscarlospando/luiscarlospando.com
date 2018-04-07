@@ -48,7 +48,7 @@ Estos son los modos de juego en los que soy más activo en Splatoon 2 con mis am
 
 - Pueden unirse al servidor [Splatoon2 México][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Revisen las estadísticas y resultados en usando SplatNet 2 que es parte de la app Nintendo Switch Online ([iOS][2] &#124; [Android][3])
-- Pueden revisar todos mis posts sobre *Splatoon 2* en este hashtag: <a class="badge badge-secondary" href="https://blog.luiscarlospando.net/hashtag/splatoon2/">#Splatoon2</a>
+- Pueden revisar todos mis posts sobre *Splatoon 2* en este hashtag: <a class="badge badge-primary" href="https://blog.luiscarlospando.net/hashtag/splatoon2/">#Splatoon2</a>
 </div>
 <div class="col-sm-6">
 

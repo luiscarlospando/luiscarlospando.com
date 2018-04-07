@@ -24,6 +24,7 @@ body {
     line-height: 180%;
     font-size: 12pt;
     color: $mainColor;
+    background-color: $bgColor;
 }
 
 a,
@@ -46,7 +47,7 @@ a {
 
 a:hover,
 a:focus {
-    color: $mainColor;
+    color: $hoverColor;
     text-decoration: underline;
 }
 
@@ -76,6 +77,10 @@ ul {
 	        margin-top: 0;
         }
     }
+}
+
+hr {
+    border-top: 1px solid #fff;
 }
 
 audio {
@@ -157,6 +162,27 @@ h6 {
     font-size: 14px;
 }
 
+.card {
+    background-color: #000;
+    border: 1px solid $fifthColor;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $fifthColor;
+    }
+}
+
+.alert-danger,
+.alert-info {
+    background-color: transparent;
+    color: $mainColor;
+    border-color: $mainColor;
+}
+
 .card-header,
 .card-body {
     h1,
@@ -169,8 +195,12 @@ h6 {
     }
 }
 
+.card-header {
+    border-bottom: 1px solid #ff4081;
+}
+
 .text-muted {
-    color: #777 !important;
+    color: $mainColor !important;
 }
 
 .nav-container {

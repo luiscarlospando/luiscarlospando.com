@@ -14,15 +14,11 @@ Les comparto mis friend codes de Nintendo Switch y 3DS y mi Nintendo Network ID 
 </div>
 </div>
 
----
-
 <div class="card text-center">
 <div class="card-body">
 ### Nintendo Network ID: luiscpc85 (Wii U)
 </div>
 </div>
-
----
 
 <div class="card text-center mb-3">
 <div class="card-body">

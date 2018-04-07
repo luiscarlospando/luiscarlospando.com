@@ -16,6 +16,16 @@ nav#menu {
     }
 }
 
+.mm-menu {
+    background-color: #000;
+    color: $mainColor;
+
+    .mm-header,
+    .mm-footer {
+        color: $mainColor;
+    }
+}
+
 // Avoiding mmenu FOUC
 nav#menu:not( .mm-menu ) {
     display: none;

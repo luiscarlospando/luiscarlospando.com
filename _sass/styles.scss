@@ -30,7 +30,8 @@ body {
 a,
 a:link,
 a:visited,
-a:active {
+a:active,
+a.alert-link {
     color: $linkColor;
     text-decoration: none;
     border-bottom-style: none;
@@ -46,7 +47,9 @@ a {
 }
 
 a:hover,
-a:focus {
+a:focus,
+a.alert-link:hover,
+a.alert-link:focus {
     color: $hoverColor;
     text-decoration: underline;
 }

@@ -179,7 +179,8 @@ h6 {
 
 .alert-danger,
 .alert-info,
-.alert-success {
+.alert-success,
+.alert-warning {
     background-color: transparent;
     color: $mainColor;
     border-color: $mainColor;

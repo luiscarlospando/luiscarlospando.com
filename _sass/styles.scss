@@ -119,7 +119,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    // font-family: 'Poppins', sans-serif;
     color: $secondaryColor;
 
     a {
@@ -130,40 +131,48 @@ h6 {
 h1,
 h2,
 h3 {
-    letter-spacing: -2px;
+    letter-spacing: 0px;
+    // letter-spacing: -2px;
 }
 
 h4,
 h5,
 h6,
 blockquote {
-    letter-spacing: -1px;
+    letter-spacing: 0px;
+    // letter-spacing: -1px;
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 42px;
+    // font-size: 38px;
     margin: 0.67em 0 0.17em !important;
 }
   
 h2 {
-    font-size: 32px;
+    font-size: 36px;
+    // font-size: 32px;
     margin: 0.67em 0 0.13em !important;
 }
   
 h3 {
-    font-size: 26px;
+    font-size: 30px;
+    // font-size: 26px;
 }
   
 h4 {
-    font-size: 20px;
+    font-size: 24px;
+    // font-size: 20px;
 }
   
 h5 {
-    font-size: 16px;
+    font-size: 20px;
+    // font-size: 16px;
 }
   
 h6 {
-    font-size: 14px;
+    font-size: 18px;
+    // font-size: 14px;
 }
 
 .card {

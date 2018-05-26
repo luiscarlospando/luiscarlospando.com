@@ -114,6 +114,9 @@ p.latest-post {
 .aligncenter,
 div.aligncenter {
     display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .alignleft {

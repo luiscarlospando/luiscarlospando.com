@@ -1,5 +1,5 @@
 This site is developed and maintained by Luis Carlos Pando.
-All of this is dedicated to my wonderful girlfriend and family.
+All of this is dedicated to my wonderful wife and family.
 Made with love in Chihuahua, Mexico.
 
 /* AUTHOR */
@@ -10,7 +10,7 @@ Twitter: @mijo
 Location: Chihuahua, Mexico
 
 /* SITE */
-Last update: 2018/02/14
+Last update: 2018/06/16
 Standards: HTML, HTML5, CSS, CSS3, JSON, XML
 Components: Bootstrap 4, Normalize.css, Modernizr, Animate.css, Font Awesome, Google Fonts
 Language: Spanish

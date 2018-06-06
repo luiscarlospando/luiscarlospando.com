@@ -16,7 +16,7 @@ $(document).ready(function(){
         },
         "footer": {
             "add": true,
-            "title": "Hecho con amor en Chihuahua, México."
+            "title": "Hi, how are you?"
         },
         "searchfield": {
             "placeholder": "Buscar",

@@ -40,7 +40,7 @@ Estos son los modos de juego en los que soy más activo en Splatoon 2 con mis am
     - Rainmaker
     - Splat Zones
     - Tower Control
-    - Clam Blitz <span class="badge badge-primary">Nuevo</span>
+    - Clam Blitz
 - League Battle
 - Salmon Run
 
@@ -76,7 +76,7 @@ Para chat de voz utilizo Discord principalmente, si en el futuro mejoran la app 
 
 ---
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332020614&amp;color=ff3530&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/435576657&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 ---
 

@@ -12,6 +12,7 @@ Hagan clic en alguno de estos juegos para saber de qué manera pueden jugar conm
 - [*Super Mario Odyssey*][2]
 - [*Splatoon 2*][3] *(es el juego en donde soy más activo, juego casi todas las noches)*
 - [*Sonic Mania*][4]
+- [*Mega Man Legacy Collection 1 + 2*][5]
 
 Por último, les pongo aquí mi Nintendo Switch Friend Code para que me agreguen y podamos jugar en línea.
 
@@ -25,3 +26,4 @@ Por último, les pongo aquí mi Nintendo Switch Friend Code para que me agreguen
 [2]: /nintendo/switch/super-mario-odyssey/
 [3]: /nintendo/switch/splatoon-2/
 [4]: /nintendo/switch/sonic-mania/
+[5]: /nintendo/switch/mega-man-legacy-collection/

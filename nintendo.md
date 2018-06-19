@@ -28,7 +28,7 @@ Les comparto mis friend codes de Nintendo Switch y 3DS y mi Nintendo Network ID 
 
 <div class="alert alert-danger" role="alert">
 **<i class="fa fa-exclamation-circle" aria-hidden="true"></i> Disclaimer**  
-Últimamente casi no juego en mi Wii U y Nintendo 3DS en línea, casi todo el tiempo ahora lo paso en mi Switch.
+Prácticamente ya no juego en línea con mi Wii U y Nintendo 3DS, casi todo el tiempo en línea lo paso ahora en mi Nintendo Switch.
 </div>
 
 Los juegos que estoy jugando actualmente son:
@@ -39,12 +39,12 @@ Los juegos que estoy jugando actualmente son:
 - [*Super Mario Odyssey*][2]
 - [*Splatoon 2*][3] *(es el juego en donde soy más activo, juego casi todas las noches)*
 - [*Sonic Mania*][4]
+- [*Mega Man Legacy Collection 1 + 2*][5]
 
 ## Nintendo iOS/Android
 
-La neta no soy tan activo en estos juegos, pero les comparto mis códigos de amigo por si quieren agregarme de todas maneras:
+La verdad no soy activo en estos juegos, pero les comparto mis códigos de amigo por si quieren agregarme de todas maneras:
 
-- [*Miitomo*][5]
 - *Super Mario Run Player* ID: 0101-8049-9956
 - *Fire Emblem Heroes Player* ID: 4780622090
 
@@ -56,5 +56,5 @@ También les comparto mi repositorio de posts en [Miiverse][6].
 [2]: /nintendo/switch/super-mario-odyssey/
 [3]: /nintendo/switch/splatoon-2/
 [4]: /nintendo/switch/sonic-mania/
-[5]: https://support.miitomo.com/friend_code/f7f1a963f99b29bf/aa5f315f59daa9ce9e033bcc3900d7e9
+[5]: /nintendo/switch/mega-man-legacy-collection/
 [6]: https://archiverse.guide/users/luiscpc85

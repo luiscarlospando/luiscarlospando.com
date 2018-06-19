@@ -85,6 +85,7 @@ Para chat de voz utilizo Discord principalmente, si en el futuro mejoran la app 
 - [*The Legend of Zelda: Breath of the Wild + DLC*][6]
 - [*Super Mario Odyssey*][7]
 - [*Sonic Mania*][8]
+- [*Mega Man Legacy Collection 1 + 2*][9]
 
 [1]: https://discord.gg/Fmmree8
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw
@@ -94,3 +95,4 @@ Para chat de voz utilizo Discord principalmente, si en el futuro mejoran la app 
 [6]: /nintendo/switch/breath-of-the-wild/
 [7]: /nintendo/switch/super-mario-odyssey/
 [8]: /nintendo/switch/sonic-mania/
+[9]: /nintendo/switch/mega-man-legacy-collection/

@@ -24,7 +24,9 @@ En este lugar comparto algunos momentos que vivo en *The Legend of Zelda: Breath
 - [*Super Mario Odyssey*][1]
 - [*Splatoon 2*][2]
 - [*Sonic Mania*][3]
+- [*Mega Man Legacy Collection 1 + 2*][4]
 
 [1]: /nintendo/switch/super-mario-odyssey/
 [2]: /nintendo/switch/splatoon-2/
 [3]: /nintendo/switch/sonic-mania/
+[4]: /nintendo/switch/mega-man-legacy-collection/

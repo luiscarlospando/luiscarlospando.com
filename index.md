@@ -16,7 +16,7 @@ Una de las razones que me motivaron a crear este espacio fue mi interés por la 
 
 Se darán cuenta también que hay cierto amor especial por los videojuegos. Desde que tenía 6 o 7 años de edad comencé a jugar y apreciar especialmente los videojuegos que hace [Nintendo][7].
 
-De manera cotidiana me confundo y confundo a los demás en [Twitter][8] (y a veces en Facebook), comparto cosas sin significado en [Tumblr][9] y también respondo mensajes por [correo electrónico][10]. Hay quienes me critican por mi pobre gusto musical, si quieren ser uno de ellos háganme el favor de pasar a mi cuenta de [Last.fm][11].
+De manera cotidiana me confundo y confundo a los demás en [Twitter][8], comparto cosas sin significado en [Tumblr][9] y también respondo mensajes por [correo electrónico][10]. Hay quienes me critican por mi pobre gusto musical, si quieren ser uno de ellos háganme el favor de pasar a mi cuenta de [Last.fm][11].
 
 Les agradezco su atención y gracias por pasar a saludar.
 

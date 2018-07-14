@@ -25,8 +25,10 @@ En este lugar comparto algunos momentos que vivo en *Mega Man Legacy Collection 
 - [*Super Mario Odyssey*][2]
 - [*Splatoon 2*][3]
 - [*Sonic Mania*][4]
+- [*Octopath Traveler*][5]
 
 [1]: /nintendo/switch/breath-of-the-wild/
 [2]: /nintendo/switch/super-mario-oddysey/
 [3]: /nintendo/switch/splatoon-2/
 [4]: /nintendo/switch/sonic-mania/
+[5]: /nintendo/switch/octopath-traveler/

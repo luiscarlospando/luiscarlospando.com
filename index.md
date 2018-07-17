@@ -9,16 +9,15 @@ image: /assets/images/logo.png
 
 <h1 class="text-center">{{ site.title }}</h1>
 
-<span class="first-letter">H</span>ola desde [Chihuahua, México][1]. Soy Luis Carlos Pando, un dude que [hace][2] cosas para el Internet, fan del punk rock y en mis ratos libres soy un [videojugador][3]. También soy el feliz esposo de [Ale][4]. Algunos tal vez me conozcan por haber creado [Hitz-Musik.net][5] ― una comunidad en línea que existió para hablar sobre música poco apreciada por las masas y que también sirvió como plataforma para promover y apoyar la escena musical local de Chihuahua.
+<span class="first-letter">H</span>ola, me llamo Luis Carlos Pando y vivo en [Chihuahua, México][1] con mi esposa [Alejandra][4]. Soy un dude que [hace][2] cosas para el Internet, me gusta el punk rock y en mis ratos libres soy un [videojugador][3]. Algunos tal vez me conozcan por haber creado [Hitz-Musik.net][5] ― una comunidad en línea que existió para hablar sobre música poco apreciada por las masas y que también sirvió como plataforma para promover y apoyar la escena musical local de mi ciudad, Chihuahua.
 
+Una de las razones que me motivaron a crear este espacio fue mi interés por la tecnología, ― me fue necesario tener [mi propio lugar en Internet][6] para hablar de lo que yo quisiera, para equivocarme, para experimentar, para hacer cosas que solo a un nerd le gusta hacer. Básicamente el objetivo aquí es escribir de lo que traiga en la cabeza, compartir cosas que crea que valen la pena, dar mi opinión sin miedo y ofrecer algunas recomendaciones en lo que pueda.
 
-Una de las razones que me motivaron a crear este espacio fue mi interés por la tecnología, ― me fue necesario tener [mi propio lugar en Internet][6] para hablar de lo que yo quisiera, para equivocarme, para experimentar, para hacer cosas que solo a un nerd le gusta hacer. Básicamente el objetivo aquí es escribir de lo que traiga en la cabeza, compartir cosas que crea valgan la pena ser compartidas, dar mi opinión sin miedo y ofrecer algunas recomendaciones.
+También le tengo un cierto amor a los videojuegos, especialmente los que hace [Nintendo][7].
 
-Se darán cuenta también que hay cierto amor especial por los videojuegos. Desde que tenía 6 o 7 años de edad comencé a jugar y apreciar especialmente los videojuegos que hace [Nintendo][7].
+De manera cotidiana me confundo y confundo a los demás en [Twitter][8], comparto cosas sin significado en [Tumblr][9] y también respondo mensajes por [correo electrónico][10]. Hay quienes me critican por mi pobre gusto musical, si quieren ser uno de ellos, pueden pasar a mi cuenta en [Last.fm][11].
 
-De manera cotidiana me confundo y confundo a los demás en [Twitter][8], comparto cosas sin significado en [Tumblr][9] y también respondo mensajes por [correo electrónico][10]. Hay quienes me critican por mi pobre gusto musical, si quieren ser uno de ellos háganme el favor de pasar a mi cuenta de [Last.fm][11].
-
-Les agradezco su atención y gracias por pasar a saludar.
+Para comenzar a navegar mi sitio, puedes utilizar el botón de la izquierda. Gracias por tu interés. ✌️
 
 [1]: http://www.municipiochihuahua.gob.mx/
 [2]: https://github.com/luiscarlospando

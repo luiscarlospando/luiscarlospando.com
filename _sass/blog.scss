@@ -204,7 +204,7 @@ iframe.instagram-media {
 
 .tag-cloud-link {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #fff;
+    color: #fff !important;
     background-color: #007bff;
     display: inline-block;
     padding: .25em .4em;
@@ -215,4 +215,8 @@ iframe.instagram-media {
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: .25rem;
+}
+
+.tag-cloud-link::before {
+    content: '#';
 }

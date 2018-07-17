@@ -201,3 +201,18 @@ iframe.instagram-media {
     margin: 20px auto 20px;
     width: 55% !important;
 }
+
+.tag-cloud-link {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    background-color: #007bff;
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}

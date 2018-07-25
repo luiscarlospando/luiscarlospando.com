@@ -10,7 +10,7 @@ permalink: /live/
 
 Este lugar está hecho para que puedan ver mis streams en vivo cada vez que me pongo a jugar. También pueden verme en [mi canal de YouTube Gaming][1] y pueden ver mis streams pasados [aquí][2].
 
-<div class="embed-responsive embed-responsive-16by9 mt-1 mb-3">
+<div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://gaming.youtube.com/embed/live_stream?channel=UCYPxthHLMvx9exdHlqRDIiQ" frameborder="0" allowfullscreen></iframe>
 </div>
 

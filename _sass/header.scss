@@ -33,11 +33,14 @@
 }
 
 #tweet::after {
-    content: attr(data-background-icon);
-    font-family: "FontAwesome";
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
     position: absolute;
     font-size: 0.7em;
     bottom: -26px;
     right: 0px;
     text-align: right;
+    font-variant: normal;
+    text-rendering: auto;
+     -webkit-font-smoothing: antialiased;
 }

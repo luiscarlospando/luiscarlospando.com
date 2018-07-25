@@ -106,3 +106,8 @@ $(document).ready(function(){
         });
     });
 });
+
+// Font Awesome Pseudo Elements Enabling
+window.FontAwesomeConfig = {
+    searchPseudoElements: true
+}

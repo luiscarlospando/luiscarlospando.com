@@ -1,6 +1,6 @@
 {
-  "name": "luiscarlospando.net-v2.0",
-  "version": "2.0.0",
+  "name": "luiscarlospando.net-v2.2.0",
+  "version": "2.2.0",
   "description": "Web developer, punk rocker, beer aficionado and a Nintendo freak since 1990. | Desarrollador web, punk rocker, aficionado de la cerveza y un fan de Nintendo desde 1990.",
   "main": "index.js",
   "scripts": {
@@ -30,5 +30,8 @@
     "jquery": "^1.9.1",
     "jquery-rss": "^3.3.0",
     "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0"
   }
 }

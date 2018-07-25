@@ -12,7 +12,7 @@ Estos son los modos de juego en los que soy más activo en Splatoon 2 con mis am
 <div class="col-xs-12 col-sm-6">
 <div class="card">
 <div class="card-header">
-<h5 class="card-title text-left">Nintendo Switch Friend Code</h5>
+<h5 class="card-title text-left"><i class="fab fa-nintendo-switch"></i> Nintendo Switch Friend Code</h5>
 </div>
 <div class="card-body">
 <h3 class="card-text text-center">SW-3920-3330-9820</h3>
@@ -22,7 +22,7 @@ Estos son los modos de juego en los que soy más activo en Splatoon 2 con mis am
 <div class="col-xs-12 col-sm-6">
 <div class="card">
 <div class="card-header">
-<h5 class="card-title  text-left">Discord Tag</h5>
+<h5 class="card-title  text-left"><i class="fab fa-discord"></i> Discord Tag</h5>
 </div>
 <div class="card-body">
 <h3 class="card-text text-center">Mijo#0438</h3>
@@ -52,7 +52,7 @@ Estos son los modos de juego en los que soy más activo en Splatoon 2 con mis am
 </div>
 <div class="col-sm-6">
 
-## Tweets
+## <i class="fab fa-twitter"></i> Tweets
 
 <div class="text-center mt20">
 <a class="twitter-timeline" data-theme="dark" data-link-color="#ff4081" href="https://twitter.com/search?q=%23Splatoon2%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}" data-widget-id="933402336726278144">Tweets about #Splatoon2 AND #NintendoSwitch from:@{{ site.twitter_username }}</a>
@@ -66,11 +66,11 @@ Para recibir mis notificaciones sobre *Splatoon 2* pueden [seguirme en Twitter][
 </div>
 </div>
 
-## Chat de voz
+## <i class="fas fa-microphone"></i> Chat de voz
 
 Para chat de voz utilizo Discord principalmente, si en el futuro mejoran la app de Nintendo Switch Online ([iOS][2] &#124; [Android][3]) es posible que comience a usarla también.
 
-## Discord
+## <i class="fab fa-discord"></i> Discord
 
 Únanse al servidor [Splatoon2 México][1], es en donde he visto que anda más activa la comunidad de *Splatoon*. El servidor es bien útil para armar partidas, armar cotorreo, conocer gente, entrar a torneos o reclutar gente para Salmon Run. Si quieren, también pueden unirse a la [Comunidad Splatoon Chihuahua][5], grupo de la escena local de *Splatoon* en mi zona.
 

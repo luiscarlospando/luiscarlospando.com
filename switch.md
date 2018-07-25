@@ -18,7 +18,7 @@ Por último, les pongo aquí mi Nintendo Switch Friend Code para que me agreguen
 
 <div class="card text-center mb-3">
 <div class="card-body">
-### Nintendo Switch Friend Code: SW-3920-3330-9820
+### <i class="fab fa-nintendo-switch"></i> Nintendo Switch Friend Code: SW-3920-3330-9820
 </div>
 </div>
 

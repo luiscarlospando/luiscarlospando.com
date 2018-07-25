@@ -10,7 +10,7 @@ Les comparto mis friend codes de Nintendo Switch y 3DS y mi Nintendo Network ID 
 
 <div class="card text-center">
 <div class="card-body">
-### Nintendo Switch Friend Code: SW-3920-3330-9820
+### <i class="fab fa-nintendo-switch"></i> Nintendo Switch Friend Code: SW-3920-3330-9820
 </div>
 </div>
 
@@ -27,8 +27,8 @@ Les comparto mis friend codes de Nintendo Switch y 3DS y mi Nintendo Network ID 
 </div>
 
 <div class="alert alert-danger" role="alert">
-**<i class="fa fa-exclamation-circle" aria-hidden="true"></i> Disclaimer**  
-Prácticamente ya no juego en línea con mi Wii U y Nintendo 3DS, ahora todo el tiempo en línea lo paso ahora en en el Nintendo Switch.
+**<i class="fas fa-exclamation-circle"></i> Disclaimer**  
+Prácticamente ya no juego en línea con mi Wii U y Nintendo 3DS, ahora todo el tiempo en línea lo paso ahora en el Nintendo Switch.
 </div>
 
 Los juegos que estoy jugando actualmente son:

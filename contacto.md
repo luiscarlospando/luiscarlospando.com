@@ -6,11 +6,11 @@ image: /assets/images/logo.png
 permalink: /contacto/
 ---
 
-## Email
+## <i class="fas fa-envelope"></i> Email
 
-Estoy en varias redes sociales pero también me pueden contactar vía [<i class="fa fa-envelope-o" aria-hidden="true"></i> luiscarlos@luiscarlospando.net][1], leo todos los mensajes, aunque a veces no me es posible contestarlos todos. Si tardo un poco en responder por favor no se lo tomen personal.
+Estoy en varias redes sociales pero también me pueden contactar vía [luiscarlos@luiscarlospando.net][1], leo todos los mensajes, aunque a veces no me es posible contestarlos todos. Si tardo un poco en responder por favor no se lo tomen personal.
 
-## Twitter
+## <i class="fab fa-twitter"></i> Twitter
 
 <div class="twitter-btns">
 <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-lang="es">Seguir a @{{ site.twitter_username }}</a>
@@ -25,64 +25,37 @@ Cuenta personal.
 
 Cuenta automatizada con posts del sitio.
 
-## Messenger
+## <i class="fab fa-facebook-messenger"></i> Messenger
 Estoy disponible en Messenger de Facebook, pueden contactarme por [aquí][2].
 
-## Google+
+## <i class="fab fa-google-plus-g"></i> Google+
 <div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/103903944770204897795" data-rel="author"></div>
 
 Un poco abandonado aunque a veces me da por compartir posts de tecnología por aquí.
 
-## Instagram
-<style>
-    .ig-b- { 
-        display: inline-block;
-    }
-    
-    .ig-b- img { 
-        visibility: hidden;
-    }
-    
-    .ig-b-:hover { 
-        background-position: 0 -60px; 
-    } 
-    
-    .ig-b-:active { 
-        background-position: 0 -120px;
-    }
-                    
-    .ig-b-v-24 {
-        width: 137px; 
-        height: 24px;
-        background: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24.png) no-repeat 0 0; 
-    }
-    
-    @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-        .ig-b-v-24 { 
-            background-image: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png);
-            background-size: 160px 178px; 
-        } 
-    }
-</style>
-<a href="http://instagram.com/luiscarlospando?ref=badge" class="ig-b- ig-b-v-24">
-    <img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" />
-</a>
+## <i class="fab fa-instagram"></i> Instagram
+[Aquí publico imágenes][3] que creo que valen la pena ser compartidas.
 
-Aquí publico fotografías que creo que valen la pena ser compartidas.
+## <i class="fab fa-discord"></i> Discord
+Mi tag en Discord es Mijo#0438.
 
-## GitHub
+## <i class="fab fa-github"></i> GitHub
 <a class="github-button" href="https://github.com/{{ site.github_username }}" aria-label="Follow @{{ site.github_username }} on GitHub">Follow @{{ site.github_username }}</a>
 
-## Stack Overflow
+Parte de mi trabajo se puede encontrar aquí.
+
+## <i class="fab fa-stack-overflow"></i> Stack Overflow
 <a href="http://stackoverflow.com/users/2197860/luis-carlos-pando">
     <img src="https://stackoverflow.com/users/flair/2197860.png" width="208" height="58" alt="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 </a>
 
-## Periscope
+## <i class="fab fa-periscope"></i> Periscope
 <script>window.twttr=function(t,e,r){var n,i=t.getElementsByTagName(e)[0],w=window.twttr||{};return t.getElementById(r)?w:(n=t.createElement(e),n.id=r,n.src="https://platform.twitter.com/widgets.js",i.parentNode.insertBefore(n,i),w._e=[],w.ready=function(t){w._e.push(t)},w)}(document,"script","twitter-wjs")</script><a href="https://www.periscope.tv/{{ site.twitter_username }}" class="periscope-on-air" data-size="small">@{{ site.twitter_username }}</a>
 
-## Tumblr
+## <i class="fab fa-tumblr"></i> Tumblr
 <iframe frameborder="0" border="0" scrolling="no" allowtransparency="true" height="24" width="143" src="https://platform.tumblr.com/v1/follow_button.html?button_type=2&tumblelog=fakechorus&color_scheme=dark"></iframe>
 
+
 [1]: mailto:luiscarlos@luiscarlospando.net
-[2]: http://m.me/luiscarlospandodotnet
+[2]: https://m.me/luiscarlospandodotnet
+[3]: https://instagram.com/luiscarlospando

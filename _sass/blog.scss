@@ -17,9 +17,9 @@ h6 {
     }
 }
 
-img {
-    margin-bottom: 20px !important;
-}
+// img {
+//     margin-bottom: 20px !important;
+// }
 
 p#category {
     font-family: 'Poppins', sans-serif;
@@ -157,7 +157,7 @@ img.alignright {
     img {
         border: 0 none;
         height: auto;
-        margin: 0 auto;
+        margin: 0 auto 20px !important;
         max-width: 98.5%;
         padding: 0;
         width: auto;
@@ -171,7 +171,7 @@ img.alignright {
         line-height: 18px !important;
         margin: 0;
         position: relative;
-        top: -12px;
+        top: -10px;
     }
 }
 

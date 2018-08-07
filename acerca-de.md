@@ -17,7 +17,7 @@ Si quieren ponerse en contacto conmigo, por favor diríjanse [aquí][3].
 - Generado con [Jekyll][15]
 - Debuggeado con [Google Chrome Developer Tools][6]
 - Las estadísticas del sitio son obtenidas con [Google Analytics][7]
-- El logotipo fue creado usando [Mii Maker][8] en un [Wii U][9]
+- El logotipo fue creado usando un [Nintendo Switch][9]
 - Deployeado en [DigitalOcean][10] - <small>*$10 dólares de crédito en DigitalOcean (válido por dos meses gratis) si usan este link: [https://m.do.co/c/03bd95f889e7][10]*</small>
 - Mi dominio está registrado en [Hover][11] - <small>*[Les recomiendo usar Hover][12] para comprar y administrar sus dominios. Ayúdenme a obtener crédito con ellos comprando algún dominio con ellos si usan este link: [https://hover.com/BZSDFJ4G][11]*</small>
 
@@ -57,7 +57,7 @@ El diseño y el código de este sitio no puede ser reproducido, ni tampoco se en
 [6]: https://www.google.com/chrome
 [7]: http://www.google.com/analytics/
 [8]: http://www.nintendo.com/wiiu/built-in-software#/mii-maker
-[9]: http://www.nintendo.com/wiiu
+[9]: https://www.nintendo.com/switch/
 [10]: https://m.do.co/c/03bd95f889e7
 [11]: https://hover.com/BZSDFJ4G
 [12]: http://blog.luiscarlospando.net/personal/2015/03/25/adios-godaddy-hola-hover/

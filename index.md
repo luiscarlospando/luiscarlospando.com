@@ -13,7 +13,7 @@ image: /assets/images/logo.png
 
 Una de las razones que me motivaron a crear este espacio fue mi interés por la tecnología, ― me fue necesario tener [mi propio lugar en Internet][6] para hablar de lo que yo quisiera, para equivocarme, para experimentar, para hacer cosas que solo a un nerd le gusta hacer. Básicamente el objetivo aquí es escribir de lo que traiga en la cabeza, compartir cosas que crea que valen la pena, dar mi opinión sin miedo y ofrecer algunas recomendaciones en lo que pueda.
 
-También le tengo un cierto amor a los videojuegos, especialmente los que hace [Nintendo][7].
+También le tengo un amor especial a los videojuegos, para rendir tributo y hacer de esto algo más divertido de lo que ya es, creé [Mode 7][7].
 
 De manera cotidiana me confundo y confundo a los demás en [Twitter][8], comparto cosas sin significado en [Tumblr][9] y también respondo mensajes por [correo electrónico][10]. Hay quienes me critican por mi pobre gusto musical, si quieren ser uno de ellos, pueden pasar a mi cuenta en [Last.fm][11].
 
@@ -25,7 +25,7 @@ Para comenzar a navegar mi sitio, puedes utilizar el botón de la izquierda. Gra
 [4]: https://www.instagram.com/primitivegirl
 [5]: http://hitz-musik.net
 [6]: https://blog.luiscarlospando.net/
-[7]: /nintendo/
+[7]: /mode7vg/
 [8]: http://twitter.com/intent/user?screen_name=mijo&lang=es
 [9]: http://fakechorus.tumblr.com/
 [10]: mailto:luiscarlos@luiscarlospando.net

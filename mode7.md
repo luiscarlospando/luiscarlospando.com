@@ -23,23 +23,23 @@ La idea es tener un lugar donde ponernos de acuerdo para jugar  y por supuesto, 
 </div>
 </div>
 
-Aprovecho y les comparto mis códigos de amigo en Nintendo Switch, 3DS y mi Nintendo Network ID de Wii U por si me quieren agregar (no olviden mandarme su código de 3DS para agregarlos yo también).
+Aprovecho y les comparto mis códigos de amigo en Nintendo Switch, 3DS y mi Nintendo Network ID de Wii U por si desean agregarme (no olviden mandarme su código de 3DS para agregarlos yo también).
 
 <div class="card text-center">
 <div class="card-body">
-### <i class="fab fa-nintendo-switch"></i> Nintendo Switch Friend Code: SW-3920-3330-9820
+### <i class="fab fa-nintendo-switch"></i> Nintendo Switch: SW-3920-3330-9820
 </div>
 </div>
 
 <div class="card text-center">
 <div class="card-body">
-### Nintendo Network ID: luiscpc85 (Wii U)
+### Nintendo Network ID (Wii U): luiscpc85
 </div>
 </div>
 
 <div class="card text-center mb-3">
 <div class="card-body">
-### Nintendo 3DS Friend Code: 2853-0168-4709
+### Nintendo 3DS: 2853-0168-4709
 </div>
 </div>
 

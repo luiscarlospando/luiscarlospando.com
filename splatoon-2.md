@@ -12,7 +12,7 @@ Estos son los modos de juego en los que soy más activo en *Splatoon 2* con mis 
 <div class="col-xs-12 col-sm-6">
 <div class="card">
 <div class="card-header">
-<h5 class="card-title text-left"><i class="fab fa-nintendo-switch"></i> Nintendo Switch Friend Code</h5>
+<h5 class="card-title text-center"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</h5>
 </div>
 <div class="card-body">
 <h3 class="card-text text-center">SW-3920-3330-9820</h3>
@@ -22,7 +22,7 @@ Estos son los modos de juego en los que soy más activo en *Splatoon 2* con mis 
 <div class="col-xs-12 col-sm-6">
 <div class="card">
 <div class="card-header">
-<h5 class="card-title  text-left"><i class="fab fa-discord"></i> Discord Tag</h5>
+<h5 class="card-title  text-center"><i class="fab fa-discord"></i> Discord Tag</h5>
 </div>
 <div class="card-body">
 <h3 class="card-text text-center">Mijo#0438</h3>

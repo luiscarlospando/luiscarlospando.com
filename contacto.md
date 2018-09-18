@@ -46,7 +46,7 @@ Parte de mi trabajo se puede encontrar aquí.
 
 ## <i class="fab fa-stack-overflow"></i> Stack Overflow
 <a href="http://stackoverflow.com/users/2197860/luis-carlos-pando">
-    <img src="https://stackoverflow.com/users/flair/2197860.png" width="208" height="58" alt="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+    <img src="https://stackoverflow.com/users/flair/2197860.png?theme=dark" width="208" height="58" alt="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 </a>
 
 ## <i class="fab fa-periscope"></i> Periscope

@@ -34,10 +34,10 @@ Estoy disponible en Messenger de Facebook, pueden contactarme por [aquí][2].
 Un poco abandonado aunque a veces me da por compartir posts de tecnología por aquí.
 
 ## <i class="fab fa-instagram"></i> Instagram
-[Aquí publico imágenes][3] que creo que valen la pena ser compartidas.
+[Aquí posteo fotos][3] que creo que valen la pena ser compartidas.
 
 ## <i class="fab fa-discord"></i> Discord
-Mi tag en Discord es Mijo#0438.
+Mi tag en Discord es Mijo#0438 y mi servidor en Discord es [Mode 7][4] (feel free to join in!).
 
 ## <i class="fab fa-github"></i> GitHub
 <a class="github-button" href="https://github.com/{{ site.github_username }}" aria-label="Follow @{{ site.github_username }} on GitHub">Follow @{{ site.github_username }}</a>
@@ -59,3 +59,4 @@ Parte de mi trabajo se puede encontrar aquí.
 [1]: mailto:luiscarlos@luiscarlospando.net
 [2]: https://m.me/luiscarlospandodotnet
 [3]: https://instagram.com/luiscarlospando
+[4]: https://discord.gg/N2m8gKw

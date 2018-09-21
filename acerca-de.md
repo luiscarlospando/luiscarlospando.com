@@ -8,18 +8,18 @@ permalink: /acerca-de/
 
 <h2 class="subtitulo text-center"><small class="text-muted">{{ site.title }} v{{ site.version }}</small></h2>
 
-Esta URL ha sido mi hogar en línea desde octubre de 2014 (ojalá hubiera empezado antes). Desde entonces he publicado **364 entradas en total** y es aquí mismo en donde intento unificar mi presencia en Internet, un solo lugar en donde se me pueda encontrar. Al igual que como lo menciono en mi [homepage][1], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo que valen la pena leerse, dar mi opinión y ofrecer mis recomendaciones. Aquí tienen el [archivo completo][2] de todas mis publicaciones.
+Este URL ha sido mi hogar en línea desde octubre de 2014 (ojalá hubiera empezado antes). Desde entonces he publicado **373 entradas en total** y es aquí mismo en donde intento unificar mi presencia en Internet, un solo lugar en donde se me pueda encontrar. Y justo como lo menciono en mi [homepage][1], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo que valen la pena leerse, dar mi opinión y ofrecer mis recomendaciones. Aquí tienen el [archivo completo][2] de todas mis publicaciones.
 
 Si quieren ponerse en contacto conmigo, por favor diríjanse [aquí][3].
 
-- Este sitio fue diseñado y desarrollado con una Mac en la ciudad de Chihuahua, México
-- Desarrollado y mantenido con mi nuevo editor de código favorito: [Visual Studio Code][5]
+- Este sitio fue diseñado y desarrollado usando una Mac en la ciudad de Chihuahua, México
+- Actualmente desarrollo y mantengo este sitio con mi nuevo editor de código favorito: [Visual Studio Code][5]
 - Generado con [Jekyll][15]
 - Debuggeado con [Google Chrome Developer Tools][6]
-- Las estadísticas del sitio son obtenidas con [Google Analytics][7]
+- Las estadísticas del sitio las obtengo con [Google Analytics][7]
 - El logotipo fue creado usando un [Nintendo Switch][9]
 - Deployeado en [DigitalOcean][10] - <small>*$10 dólares de crédito en DigitalOcean (válido por dos meses gratis) si usan este link: [https://m.do.co/c/03bd95f889e7][10]*</small>
-- Mi dominio está registrado en [Hover][11] - <small>*[Les recomiendo usar Hover][12] para comprar y administrar sus dominios. Ayúdenme a obtener crédito con ellos comprando algún dominio con ellos si usan este link: [https://hover.com/BZSDFJ4G][11]*</small>
+- Mi dominio lo registré en [Hover][11] - <small>*[Hover es el mejor registrar en mi opinión][12], recomendado para comprar y administrar sus dominios. Si usan este link para comprar su dominio me ayudarán a tener crédito en mi cuenta: [https://hover.com/BZSDFJ4G][11]*</small>
 
 Este pequeño espacio en Internet no sería posible de no ser por estas hermosas tecnologías:
 
@@ -35,19 +35,19 @@ Este pequeño espacio en Internet no sería posible de no ser por estas hermosas
 - [Animate.css][22], trabajo bajo una [Licencia MIT][33]
 - [Google Fonts][23], todas las fuentes usadas en este sitio son [Open Source][34]
 
-La música de fondo mientras desarrollé este sitio fue gracias a:
+El soundtrack al desarrollar este sitio fue proporcionado por:
 
 - [Spotify][35]
 
-Con un agradecimiento especial a mi (difunta) banda favorita:
+Agradeciendo especialmente a mi (difunta) banda favorita:
 
 - [Funeral for a Friend][36]
 
-Pueden suscribirse a mi blog vía [RSS][37] o vía [Twitter][38].
+Pueden suscribirse a mi blog con [RSS][37] o en [Twitter][38].
 
-Los estándares web son importantes y este sitio se adhiere a ellos. Si algo se ve extraño es muy probable que estés usando alguno que no soporte actuales estándares web.
+Los estándares web son importantes y este sitio se adhiere a ellos. Si algo se ve extraño es muy probable que el navegador que estés usando alguno no soporte actuales estándares web.
 
-El diseño y el código de este sitio no puede ser reproducido, ni tampoco se encuentra a la venta.
+El diseño y el código de este sitio no puede ser ni debe de ser reproducido. Tampoco se encuentra a la venta.
 
 [1]: /
 [2]: https://blog.luiscarlospando.net/author/me/

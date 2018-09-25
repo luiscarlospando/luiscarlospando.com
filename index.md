@@ -13,7 +13,7 @@ image: /assets/images/logo.png
 
 Una de las razones que me motivaron a crear este espacio fue mi interés por la tecnología, ― me fue necesario tener [mi propio lugar en Internet][6] para hablar de lo que yo quisiera, para equivocarme, para experimentar, para hacer cosas que solo a un nerd le gusta hacer. Básicamente el objetivo aquí es escribir de lo que traiga en la cabeza, compartir cosas que crea que valen la pena, dar mi opinión sin miedo y ofrecer algunas recomendaciones en lo que pueda.
 
-También le tengo un amor especial a los videojuegos, para rendir tributo y hacer de esto algo más divertido de lo que ya es, creé [Mode 7][7].
+También le [tengo un amor especial a los videojuegos][12], para rendir tributo y hacer de esto algo más divertido de lo que ya es, creé [Mode 7][7].
 
 De manera cotidiana me confundo y confundo a los demás en [Twitter][8], comparto cosas sin significado en [Tumblr][9] y también respondo mensajes por [correo electrónico][10].
 
@@ -30,3 +30,4 @@ Hay quienes me critican por mi pobre gusto musical, para ello puedes pasar a mi 
 [9]: https://fakechorus.tumblr.com/
 [10]: mailto:luiscarlos@luiscarlospando.net
 [11]: https://www.last.fm/user/hmstarlight/
+[12]: https://backloggery.com/mijo

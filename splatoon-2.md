@@ -34,7 +34,7 @@ Estos son los modos de juego en los que soy más activo en *Splatoon 2* con mis 
 <div class="row">
 <div class="col-sm-6">
 
-## Modos de Juego
+## <i class="fas fa-gamepad"></i> Modos de Juego
 
 - Ranked Battle (Por lo general no juego Turf War)
     - Rainmaker
@@ -49,20 +49,24 @@ Estos son los modos de juego en los que soy más activo en *Splatoon 2* con mis 
 - Pueden unirse a [Mode 7][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Revisen las estadísticas y resultados en usando SplatNet 2 que es parte de la app Nintendo Switch Online ([iOS][2] &#124; [Android][3])
 - Pueden revisar todos mis posts sobre *Splatoon 2* en este hashtag: <a class="badge badge-primary" href="https://blog.luiscarlospando.net/hashtag/splatoon2/">#Splatoon2</a>
-</div>
-<div class="col-sm-6">
 
 ## <i class="fab fa-twitter"></i> Tweets
-
-<div class="text-center mt20">
-<a class="twitter-timeline" data-theme="dark" data-link-color="#ff4081" href="https://twitter.com/search?q=%23Splatoon2%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}" data-widget-id="933402336726278144">Tweets about #Splatoon2 AND #NintendoSwitch from:@{{ site.twitter_username }}</a>
-</div>
 
 Para recibir mis notificaciones sobre *Splatoon 2* pueden [seguirme en Twitter][4].
 
 <div class="text-center">
 <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button text-center" data-show-count="false">Follow @{{ site.twitter_username }}</a>
 </div>
+
+</div>
+<div class="col-sm-6">
+
+## Splatoon 2 @ Mode 7
+
+<div class="text-center mt20">
+<img class="img-fluid" src="{{ site.url }}/assets/images/banner-splatoon2.png" alt="" />
+</div>
+
 </div>
 </div>
 
@@ -72,14 +76,10 @@ Para chat de voz utilizo Discord principalmente, si en el futuro mejoran la app 
 
 ## <i class="fab fa-discord"></i> Discord
 
-Únanse [Mode 7][1]. Este Discord es bien útil para armar partidas, armar cotorreo, conocer gente, entrar a torneos o para Salmon Run. Si quieren, también pueden unirse a la [Comunidad Splatoon Chihuahua][5], grupo de la escena local de *Splatoon* en mi zona.
-
----
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/435576657&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+Únanse [Mode 7][1]. Este Discord es bien útil para armar partidas, armar cotorreo, conocer gente, entrar a torneos o para Salmon Run.
 
 [1]: https://discord.gg/N2m8gKw
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw
 [3]: https://play.google.com/store/apps/details?id=com.nintendo.znca&gl=us&hl=en
-[4]: http://twitter.com/intent/user?screen_name={{ site.twitter_username }}&lang=es
+[4]: https://twitter.com/search?q=%23Splatoon2%20AND%20%23NintendoSwitch%20from%3A%40mijo
 [5]: https://www.facebook.com/groups/splatoonchihuahua

@@ -4,16 +4,16 @@ Made with love in Chihuahua, Mexico.
 
 /* AUTHOR */
 Luis Carlos Pando
-Developer/Designer/SysAdmin
+Developer/Designer
 Email: luiscarlos[at]luiscarlospando.net
 Twitter: @mijo
 Location: Chihuahua, Mexico
 
 /* SITE */
-Last update: 2018/06/16
+Last update: 2018/09/25
 Standards: HTML, HTML5, CSS, CSS3, JSON, XML
 Components: Bootstrap 4, Normalize.css, Modernizr, Animate.css, Font Awesome, Google Fonts
 Language: Spanish
-Software: Visual Studio Code, Hyper, Adobe Photoshop CC 2018, Git, npm, SCSS, Jekyll, Mii Maker
+Software: Visual Studio Code, Hyper, Adobe Photoshop CC 2018, Git, npm, SCSS, Jekyll
 Deployed on: DigitalOcean - http://digitalocean.com
-Hardware: MacBook Pro (Late 2010)
+Hardware: MacBook Pro (Mid 2010)

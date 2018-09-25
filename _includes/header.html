@@ -107,15 +107,17 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-    <link rel="stylesheet" href="/assets/css/jquery.mmenu.all.css">
-    <link rel="stylesheet" href="/assets/css/jquery.mmenu.themes.css">
-    <link rel="stylesheet" href="/assets/css/animate.css">
-    <link rel="stylesheet" href="/assets/css/prism.css">
+    {% css_asset_tag global %}
+    - /assets/css/jquery.mmenu.all.css
+    - /assets/css/jquery.mmenu.themes.css
+    - /assets/css/animate.css
+    - /assets/css/prism.css
+    {% endcss_asset_tag %}
     <link rel="stylesheet" href="/assets/css/main.css">
+
     <link rel="canonical" href="{{ site.url }}">
     <!-- <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml"> -->
 
-    <script src="/assets/js/vendor/modernizr-2.6.2.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

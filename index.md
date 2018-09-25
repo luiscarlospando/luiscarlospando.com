@@ -15,9 +15,9 @@ Una de las razones que me motivaron a crear este espacio fue mi interés por la 
 
 También le tengo un amor especial a los videojuegos, para rendir tributo y hacer de esto algo más divertido de lo que ya es, creé [Mode 7][7].
 
-De manera cotidiana me confundo y confundo a los demás en [Twitter][8], comparto cosas sin significado en [Tumblr][9] y también respondo mensajes por [correo electrónico][10]. Hay quienes me critican por mi pobre gusto musical, si quieren ser uno de ellos, pueden pasar a mi cuenta en [Last.fm][11].
+De manera cotidiana me confundo y confundo a los demás en [Twitter][8], comparto cosas sin significado en [Tumblr][9] y también respondo mensajes por [correo electrónico][10].
 
-Para comenzar a navegar mi sitio, puedes utilizar el botón de la izquierda. Gracias por tu interés. ✌️
+Hay quienes me critican por mi pobre gusto musical, para ello puedes pasar a mi [Last.fm][11].
 
 [1]: http://www.municipiochihuahua.gob.mx/
 [2]: https://github.com/luiscarlospando
@@ -26,7 +26,7 @@ Para comenzar a navegar mi sitio, puedes utilizar el botón de la izquierda. Gra
 [5]: http://hitz-musik.net
 [6]: https://blog.luiscarlospando.net/
 [7]: /mode7vg/
-[8]: http://twitter.com/intent/user?screen_name=mijo&lang=es
-[9]: http://fakechorus.tumblr.com/
+[8]: https://twitter.com/intent/user?screen_name=mijo&lang=es
+[9]: https://fakechorus.tumblr.com/
 [10]: mailto:luiscarlos@luiscarlospando.net
-[11]: http://www.last.fm/user/hmstarlight/
+[11]: https://www.last.fm/user/hmstarlight/

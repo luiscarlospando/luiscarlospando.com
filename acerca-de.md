@@ -50,8 +50,8 @@ Los estándares web son importantes y este sitio se adhiere a ellos. Si algo se 
 El diseño y el código de este sitio no puede ser ni debe de ser reproducido. Tampoco se encuentra a la venta.
 
 [1]: /
-[2]: https://blog.luiscarlospando.net/author/me/
-[3]: https://luiscarlospando.net/contacto
+[2]: https://blog.{{ site.domain }}/author/me/
+[3]: /contacto/
 [4]: https://www.apple.com/mac/
 [5]: https://code.visualstudio.com/
 [6]: https://www.google.com/chrome
@@ -60,7 +60,7 @@ El diseño y el código de este sitio no puede ser ni debe de ser reproducido. T
 [9]: https://www.nintendo.com/switch/
 [10]: https://m.do.co/c/03bd95f889e7
 [11]: https://hover.com/BZSDFJ4G
-[12]: https://blog.luiscarlospando.net/personal/2015/03/25/adios-godaddy-hola-hover/
+[12]: https://blog.{{ site.domain }}/personal/2015/03/25/adios-godaddy-hola-hover/
 [13]: https://github.com/git/git-scm.com/blob/master/README.md#license
 [14]: https://www.npmjs.com/
 [15]: https://jekyllrb.com/
@@ -84,6 +84,6 @@ El diseño y el código de este sitio no puede ser ni debe de ser reproducido. T
 [33]: https://opensource.org/licenses/MIT
 [34]: https://github.com/google/fonts
 [35]: https://www.spotify.com/mx/
-[36]: https://blog.luiscarlospando.net/hashtag/funeral-for-a-friend/
-[37]: https://blog.luiscarlospando.net/feed/
-[38]: https://twitter.com/intent/user?screen_name=luiscarlospando&lang=es
+[36]: https://blog.{{ site.domain }}/hashtag/funeral-for-a-friend/
+[37]: https://blog.{{ site.domain }}/feed/
+[38]: https://twitter.com/intent/user?screen_name={{ site.twitter_feed }}&lang=es

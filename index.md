@@ -20,14 +20,14 @@ De manera cotidiana me confundo y confundo a los demás en [Twitter][8], compart
 Hay quienes me critican por mi pobre gusto musical, para ello puedes pasar a mi [Last.fm][11].
 
 [1]: http://www.municipiochihuahua.gob.mx/
-[2]: https://github.com/luiscarlospando
+[2]: https://github.com/{{ site.github_username }}
 [3]: /live/
 [4]: https://www.instagram.com/primitivegirl
 [5]: http://hitz-musik.net
-[6]: https://blog.luiscarlospando.net/
+[6]: https://blog.{{ site.domain }}/
 [7]: /mode7vg/
-[8]: https://twitter.com/intent/user?screen_name=mijo&lang=es
+[8]: https://twitter.com/intent/user?screen_name={{ site.twitter_username }}&lang=es
 [9]: https://fakechorus.tumblr.com/
-[10]: mailto:luiscarlos@luiscarlospando.net
+[10]: mailto:{{ site.email }}
 [11]: https://www.last.fm/user/hmstarlight/
 [12]: https://backloggery.com/mijo

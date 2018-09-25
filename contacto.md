@@ -56,7 +56,7 @@ Parte de mi trabajo se puede encontrar aquí.
 <iframe frameborder="0" border="0" scrolling="no" allowtransparency="true" height="24" width="143" src="https://platform.tumblr.com/v1/follow_button.html?button_type=2&tumblelog=fakechorus&color_scheme=dark"></iframe>
 
 
-[1]: mailto:luiscarlos@luiscarlospando.net
+[1]: mailto:{{ site.email }}
 [2]: https://m.me/luiscarlospandodotnet
-[3]: https://instagram.com/luiscarlospando
+[3]: https://instagram.com/{{ site.instagram_username }}
 [4]: https://discord.gg/N2m8gKw

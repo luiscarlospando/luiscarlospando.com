@@ -35,9 +35,9 @@ Este pequeño espacio en Internet no sería posible de no ser por estas hermosas
 - [Animate.css][22], trabajo bajo una [Licencia MIT][33]
 - [Google Fonts][23], todas las fuentes usadas en este sitio son [Open Source][34]
 
-El soundtrack al desarrollar este sitio fue proporcionado por:
+El soundtrack al desarrollar/mantener este sitio es proporcionado por:
 
-- [Spotify][35]
+- [TIDAL][35]
 
 Agradeciendo especialmente a mi (difunta) banda favorita:
 
@@ -83,7 +83,7 @@ El diseño y el código de este sitio no puede ser ni debe de ser reproducido. T
 [32]: https://opensource.org/licenses/mit-license.html
 [33]: https://opensource.org/licenses/MIT
 [34]: https://github.com/google/fonts
-[35]: https://www.spotify.com/mx/
+[35]: http://tidal.com/
 [36]: https://blog.{{ site.domain }}/hashtag/funeral-for-a-friend/
 [37]: https://blog.{{ site.domain }}/feed/
 [38]: https://twitter.com/intent/user?screen_name={{ site.twitter_feed }}&lang=es

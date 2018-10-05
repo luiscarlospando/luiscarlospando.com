@@ -74,7 +74,7 @@ Para recibir mis notificaciones sobre *Splatoon 2* pueden [seguirme en Twitter][
 
 ## <i class="fas fa-microphone"></i> Chat de voz
 
-Para chat de voz utilizo [Discord][5] principalmente y la app de Nintendo Switch Online ([iOS][2] &#124; [Android][3]), que también me sirve para enviar invitaciones a #splatoon-2 dentro de Mode 7.
+Para chat de voz utilizo [Discord][5] principalmente y la app de Nintendo Switch Online ([iOS][2] &#124; [Android][3]), que también me sirve para enviar invitaciones a [#splatoon-2 dentro de Mode 7][1].
 
 ## <i class="fab fa-discord"></i> Discord
 

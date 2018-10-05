@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Splatoon 2
-description: Estos son los modos de juego en los que soy más activo en Splatoon 2 con mis amigos y toda la información para podernos poner a jugar en línea.
-image: /assets/images/splatoon-2.jpg
+description: Esta la información necesaria para jugar Splatoon 2 en línea conmigo y con mis amigos que estamos en Mode 7.
+image: /assets/images/banner-splatoon2.png
 permalink: /splatoon-2/
 ---
 
-Estos son los modos de juego en los que soy más activo en *Splatoon 2* con mis amigos y toda la información para podernos poner a jugar en línea.
+Esta la información necesaria para jugar *Splatoon 2* en línea conmigo y con mis amigos que estamos en [Mode 7][6].
 
 <div class="row">
 <div class="col-xs-12 col-sm-6">
@@ -22,10 +22,12 @@ Estos son los modos de juego en los que soy más activo en *Splatoon 2* con mis 
 <div class="col-xs-12 col-sm-6">
 <div class="card">
 <div class="card-header">
-<h5 class="card-title  text-center"><i class="fab fa-discord"></i> Discord Tag</h5>
+<h5 class="card-title  text-center"><i class="fab fa-discord"></i> Discord</h5>
 </div>
 <div class="card-body">
-<h3 class="card-text text-center">Mijo#0438</h3>
+<h3 class="card-text text-center">
+[Mode 7 (#splatoon-2)][1]
+</h3>
 </div>
 </div>
 </div>
@@ -36,18 +38,18 @@ Estos son los modos de juego en los que soy más activo en *Splatoon 2* con mis 
 
 ## <i class="fas fa-gamepad"></i> Modos de Juego
 
-- Ranked Battle (Por lo general no juego Turf War)
+- Ranked Battle (No juego Turf War)
     - Rainmaker
     - Splat Zones
     - Tower Control
     - Clam Blitz
-- League Battle
+- League Battle (en parejas o equipo completo cuando se puede)
 - Salmon Run
 
 ## Información
 
-- Pueden unirse a [Mode 7][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
-- Revisen las estadísticas y resultados en usando SplatNet 2 que es parte de la app Nintendo Switch Online ([iOS][2] &#124; [Android][3])
+- Pueden unirse a [Mode 7 (#splatoon-2)][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
+- Revisen las estadísticas y resultados usando SplatNet 2 que es parte de la app Nintendo Switch Online ([iOS][2] &#124; [Android][3])
 - Pueden revisar todos mis posts sobre *Splatoon 2* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/splatoon-2/">#Splatoon2</a>
 
 ## <i class="fab fa-twitter"></i> Tweets
@@ -72,13 +74,15 @@ Para recibir mis notificaciones sobre *Splatoon 2* pueden [seguirme en Twitter][
 
 ## <i class="fas fa-microphone"></i> Chat de voz
 
-Para chat de voz utilizo Discord principalmente, si en el futuro mejoran la app de Nintendo Switch Online ([iOS][2] &#124; [Android][3]) es posible que comience a usarla también.
+Para chat de voz utilizo [Discord][5] principalmente y la app de Nintendo Switch Online ([iOS][2] &#124; [Android][3]), que también me sirve para enviar invitaciones a #splatoon-2 dentro de Mode 7.
 
 ## <i class="fab fa-discord"></i> Discord
 
-Únanse [Mode 7][1]. Este Discord es bien útil para armar partidas, armar cotorreo, conocer gente, entrar a torneos o para Salmon Run.
+Únanse a [Mode 7 (#splatoon-2)][1]. La intención de este Discord es ser útil para armar partidas, armar cotorreo, conocer gente, jugar en parejas, hablar sobre *Splatoon* y mucho más.
 
-[1]: https://discord.gg/N2m8gKw
+[1]: https://discord.gg/NUSDKeJ
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw
 [3]: https://play.google.com/store/apps/details?id=com.nintendo.znca&gl=us&hl=en
 [4]: https://twitter.com/search?q=%23Splatoon2%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}
+[5]: https://discordapp.com/
+[6]: ../mode7vg

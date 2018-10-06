@@ -113,10 +113,10 @@ $('#nowPlayingBox').nowplaying({
 				var foundCurrentPlayingTrack = false;
 
 				//check for errors
-				if ( !data || !data.recenttracks ) {
-					return error('¡El usuario "' + options.username + '" no existe!');
-				} else if( !data.recenttracks.track ) {
-					return error('¡"' + options.username + '" no tiene canciones para mostrar!');
+				if (!data || !data.recenttracks) {
+					return error('Username "' + options.username + '" does not exist!');
+				} else if (!data.recenttracks.track) {
+					return error('"' + options.username + '" has no tracks to show!');
 				}
 
 				//create ul if not exists
@@ -150,16 +150,29 @@ $('#nowPlayingBox').nowplaying({
 						// ------------ create list item -----------
 						listitem = $( "<li>", {
 							// add nowplaying class
-							className: tracknowplaying ? "ahora-escuchando" : ""
+							className: tracknowplaying ? "nowplaying" : ""
 						});
 
 						// ----------------- IMAGE -----------------
 						if (options.cover) {
 							if (track.image[2]['#text']) {
-								$("<img>", {
+								var $cover = $("<img>", {
+									alt: track.artist['#text'],
 									src: track.image[2]['#text'],
-									width: "64"
+									width: parseInt(options.coversize, 10)
 								}).appendTo(listitem);
+
+								if (options.coverlinks) {
+									var coverpath = [
+										track.artist['#text'], '/',
+										track.album['#text']
+									].join('').replace(/[\s]/gi, '+');
+
+									$cover.wrap($("<a>", {
+										href: lastfmLinkPrefix + coverpath,
+										target: options.linktarget
+									}));
+								}
 							}
 						}
 
@@ -170,7 +183,7 @@ $('#nowPlayingBox').nowplaying({
 								dateCont = 'now';
 							} else {
 								ts = new Date(tracktime * 1000);
-								dateCont = makeTwo(ts.getDate())+'.'+makeTwo(ts.getMonth()+1)+' - '+makeTwo(ts.getHours())+':'+makeTwo(ts.getMinutes());
+								dateCont = makeTwo(ts.getDate()) + '.' + makeTwo(ts.getMonth() + 1) + ' - ' + makeTwo(ts.getHours()) + ':' + makeTwo(ts.getMinutes());
 							}
 
 							$("<div>", {
@@ -179,41 +192,48 @@ $('#nowPlayingBox').nowplaying({
 							}).appendTo(listitem);
 						}
 
-						// ----------- THIS MOMENT -----------------
-						$("<div>", {
-							class: 'this-moment',
-							html: '<p class="latest-post text-center zero-margin"><strong>En este momento estoy escuchando:</strong></p>'
-						}).appendTo(listitem);
+						if (tracknowplaying) {
+							// ----------- THIS MOMENT -----------------
+							$("<div>", {
+								class: 'this-moment',
+								html: '<p class="latest-post text-center zero-margin"><strong>En este momento estoy escuchando:</strong></p>'
+							}).appendTo(listitem);
+							
 
-						// ----------------- TRACK -----------------
-						$("<div>", {
-							class: 'track',
-							html: track.name
-						}).appendTo(listitem);
+							// ----------------- TRACK -----------------
+							$("<div>", {
+								class: 'track',
+								html: track.name
+							}).appendTo(listitem);
 
-						// ---------------- BY -----------------
-						$("<div>", {
-							class: 'by',
-							html: '<span> por </span>'
-						}).appendTo(listitem);
 
-						// ---------------- ARTIST -----------------
-						$("<div>", {
-							class: 'artist',
-							html: track.artist['#text']
-						}).appendTo(listitem);
+							// ---------------- BY -----------------
+							$("<div>", {
+								class: 'by',
+								html: '<span> por </span>'
+							}).appendTo(listitem);
 
-						// ---------------- FROM -----------------
-						$("<div>", {
-							class: 'from',
-							html: '<span> del álbum </span>'
-						}).appendTo(listitem);
 
-						// ---------------- ALBUM ------------------
-						$("<div>", {
-							class: 'album',
-							html: track.album['#text']
-						}).appendTo(listitem);
+							// ---------------- ARTIST -----------------
+							$("<div>", {
+								class: 'artist',
+								html: track.artist['#text']
+							}).appendTo(listitem);
+
+
+							// ---------------- FROM -----------------
+							$("<div>", {
+								class: 'from',
+								html: '<span> del álbum </span>'
+							}).appendTo(listitem);
+
+
+							// ---------------- ALBUM ------------------
+							$("<div>", {
+								class: 'album',
+								html: track.album['#text']
+							}).appendTo(listitem);
+						}
 
 						//add listitem to list
 						$list.prepend(listitem);
@@ -298,10 +318,10 @@ $('#nowPlayingBox').nowplaying({
 			$.getJSON(url, params, function(data) {
 
 				//check for errors
-				if ( !data || !data.recenttracks ) {
-					return error('¡El usuario "' + options.username + '" no existe!');
-				} else if( !data.recenttracks.track ) {
-					return error('¡"' + options.username + '" no tiene canciones para mostrar!');
+				if (!data || !data.recenttracks) {
+					return error('Username "' + options.username + '" does not exist!');
+				} else if (!data.recenttracks.track) {
+					return error('"' + options.username + '" has no tracks to show!');
 				}
 
 				var track = data.recenttracks.track[0];
@@ -412,7 +432,7 @@ $('#nowPlayingBox').nowplaying({
 		refresh:		0,
 		icon:			false,
 		hide:			false,
-		notplayingtext: 'No estoy escuchando nada en este momento.'
+		notplayingtext: 'nothing playing'
 	};
 
 }(jQuery));

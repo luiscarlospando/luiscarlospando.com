@@ -11,13 +11,13 @@
             classes: "mm-slide",
             "slidingSubmenus": true,
             "header": {
-                "title": "LuisCarlosPando.net",
+                "title": "Menú",
                 "add": true,
                 "update": true
             },
             "footer": {
                 "add": true,
-                "title": "Hi, how are you?"
+                "title": "Hi, how are you? 🖖"
             },
             "searchfield": {
                 "placeholder": "Buscar",

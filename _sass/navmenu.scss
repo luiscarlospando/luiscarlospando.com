@@ -1,5 +1,5 @@
 nav#menu {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif !important;
+    font-family: 'Raleway', sans-serif;
 
     a {
         text-decoration: none;
@@ -44,6 +44,10 @@ nav#menu:not( .mm-menu ) {
 	padding: 0 10px;
 }
 
+.mm-list {
+    font-size: 16px;
+}
+
 .mm-list > li > a:hover,
 .mm-list > li > span:hover,
 .mm-list > li > a:focus,
@@ -52,5 +56,5 @@ nav#menu:not( .mm-menu ) {
 }
 
 .mm-footer {
-    font-size: 11px;
+    font-size: 13px;
 }

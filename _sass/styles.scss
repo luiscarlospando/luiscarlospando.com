@@ -100,7 +100,7 @@ blockquote {
     margin: 0 40px;
     padding: 10px 20px;
     font-size: 22px;
-    border-left: 5px solid #ff4081;
+    border-left: 5px solid $fifthColor;
     line-height: 1.4em;
 }
 
@@ -215,7 +215,7 @@ h6 {
 }
 
 .card-header {
-    border-bottom: 1px solid #ff4081;
+    border-bottom: 1px solid $fifthColor;
 }
 
 .text-muted {
@@ -316,9 +316,13 @@ a.btn {
 
 .btn-primary,
 .btn-primary:hover {
-    background-color: #ff4081;
-    border-color: #ff4081;
+    background-color: $fifthColor;
+    border-color: $fifthColor;
     color: #fff !important;
+}
+
+code {
+    background-color: #000;
 }
 
 .subtitulo {

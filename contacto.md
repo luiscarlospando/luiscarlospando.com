@@ -23,7 +23,7 @@ Cuenta personal.
 <a href="https://twitter.com/{{ site.twitter_feed }}" class="twitter-follow-button" data-show-count="false" data-lang="es">Seguir a @{{ site.twitter_feed }}</a>
 </div>
 
-Cuenta automatizada con posts del sitio.
+Cuenta automatizada con posts de mi sitio.
 
 ## <i class="fab fa-facebook-messenger"></i> Messenger
 Estoy disponible en Messenger de Facebook, pueden contactarme por [aquí][2].
@@ -42,7 +42,7 @@ Mi tag en Discord es Mijo#0438 y mi servidor en Discord es [Mode 7][4] (feel fre
 ## <i class="fab fa-github"></i> GitHub
 <a class="github-button" href="https://github.com/{{ site.github_username }}" aria-label="Follow @{{ site.github_username }} on GitHub">Follow @{{ site.github_username }}</a>
 
-Parte de mi trabajo se puede encontrar aquí.
+Parte de mi trabajo se puede encontrar [aquí][5].
 
 ## <i class="fab fa-stack-overflow"></i> Stack Overflow
 <a href="http://stackoverflow.com/users/2197860/luis-carlos-pando">
@@ -60,3 +60,4 @@ Parte de mi trabajo se puede encontrar aquí.
 [2]: https://m.me/luiscarlospandodotnet
 [3]: https://instagram.com/{{ site.instagram_username }}
 [4]: https://discord.gg/N2m8gKw
+[5]: https://github.com/{{ site.github_username }}

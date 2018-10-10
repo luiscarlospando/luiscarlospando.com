@@ -303,16 +303,26 @@ h6 {
     padding: 13px 8px 0 0;
 }
 
-.badge {
+
+.badge,
+.btn {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-a.badge {
+a.badge,
+a.btn {
     color: #fff;
 }
 
+.btn-primary,
+.btn-primary:hover {
+    background-color: #ff4081;
+    border-color: #ff4081;
+    color: #fff !important;
+}
+
 .subtitulo {
-    margin: 0px 0 14px !important
+    margin: 0px 0 14px !important;
 }
 
 progress {

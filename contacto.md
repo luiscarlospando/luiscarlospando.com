@@ -8,7 +8,7 @@ permalink: /contacto/
 
 ## <i class="fas fa-envelope"></i> Email
 
-Estoy en varias redes sociales pero también me pueden contactar vía [luiscarlos@luiscarlospando.net][1], leo todos los mensajes, aunque a veces no me es posible contestarlos todos. Si tardo un poco en responder por favor no se lo tomen personal.
+Mi medio principal de contacto es mi email [luiscarlos@luiscarlospando.net][1].
 
 ## <i class="fab fa-twitter"></i> Twitter
 
@@ -26,7 +26,7 @@ Cuenta personal.
 Cuenta automatizada con posts de mi sitio.
 
 ## <i class="fab fa-facebook-messenger"></i> Messenger
-Estoy disponible en Messenger de Facebook, pueden contactarme por [aquí][2].
+También pueden contactarme usando [Messenger][2] de Facebook.
 
 ## <i class="fab fa-google-plus-g"></i> Google+
 <div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/103903944770204897795" data-rel="author"></div>
@@ -37,7 +37,7 @@ Un poco abandonado aunque a veces me da por compartir posts de tecnología por a
 [Aquí posteo fotos][3] que creo que valen la pena ser compartidas.
 
 ## <i class="fab fa-discord"></i> Discord
-Mi tag en Discord es Mijo#0438 y mi servidor en Discord es [Mode 7][4] (feel free to join in!).
+Mi tag en Discord es <code>Mijo#0438</code> y mi servidor en Discord es [Mode 7][4] (feel free to join in!).
 
 ## <i class="fab fa-github"></i> GitHub
 <a class="github-button" href="https://github.com/{{ site.github_username }}" aria-label="Follow @{{ site.github_username }} on GitHub">Follow @{{ site.github_username }}</a>
@@ -48,12 +48,6 @@ Parte de mi trabajo se puede encontrar [aquí][5].
 <a href="http://stackoverflow.com/users/2197860/luis-carlos-pando">
     <img src="https://stackoverflow.com/users/flair/2197860.png?theme=dark" width="208" height="58" alt="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 </a>
-
-## <i class="fab fa-periscope"></i> Periscope
-<script>window.twttr=function(t,e,r){var n,i=t.getElementsByTagName(e)[0],w=window.twttr||{};return t.getElementById(r)?w:(n=t.createElement(e),n.id=r,n.src="https://platform.twitter.com/widgets.js",i.parentNode.insertBefore(n,i),w._e=[],w.ready=function(t){w._e.push(t)},w)}(document,"script","twitter-wjs")</script><a href="https://www.periscope.tv/{{ site.twitter_username }}" class="periscope-on-air" data-size="small">@{{ site.twitter_username }}</a>
-
-## <i class="fab fa-tumblr"></i> Tumblr
-<iframe frameborder="0" border="0" scrolling="no" allowtransparency="true" height="24" width="143" src="https://platform.tumblr.com/v1/follow_button.html?button_type=2&tumblelog=fakechorus&color_scheme=dark"></iframe>
 
 
 [1]: mailto:{{ site.email }}

@@ -233,6 +233,12 @@ iframe.instagram-media {
     }
 }
 
+.wp-block-image {
+    figcaption {
+        color: #fff;
+    }
+}
+
 .wp-block-embed.wp-embed-aspect-1-1 .wp-block-embed__wrapper:before, 
 .wp-block-embed.wp-embed-aspect-1-2 .wp-block-embed__wrapper:before, 
 .wp-block-embed.wp-embed-aspect-4-3 .wp-block-embed__wrapper:before, 

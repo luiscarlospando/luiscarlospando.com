@@ -28,11 +28,6 @@ Cuenta automatizada con posts de mi sitio.
 ## <i class="fab fa-facebook-messenger"></i> Messenger
 También pueden contactarme usando [Messenger][2] de Facebook.
 
-## <i class="fab fa-google-plus-g"></i> Google+
-<div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/103903944770204897795" data-rel="author"></div>
-
-Un poco abandonado aunque a veces me da por compartir posts de tecnología por aquí.
-
 ## <i class="fab fa-instagram"></i> Instagram
 [Aquí posteo fotos][3] que creo que valen la pena ser compartidas.
 

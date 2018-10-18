@@ -56,9 +56,7 @@ Esta la información necesaria para jugar *Splatoon 2* en línea conmigo y con m
 
 Para recibir mis notificaciones sobre *Splatoon 2* pueden [seguirme en Twitter][4].
 
-<div class="text-center">
 <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button text-center" data-show-count="false">Follow @{{ site.twitter_username }}</a>
-</div>
 
 </div>
 <div class="col-sm-6">

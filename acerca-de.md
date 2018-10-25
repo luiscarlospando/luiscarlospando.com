@@ -21,16 +21,16 @@ Aquí tienes el [archivo completo][2] de todas mis publicaciones.
 
 ## Tecnlogías usadas
 
-- [Git][13], trabajo bajo una [Licencia MIT][24]
+- [Git][13], obra bajo una [Licencia MIT][24]
 - [npm][14], pueden revisar la licencia aquí: [Licencia][25]
-- [Jekyll][15], trabajo bajo una [Licencia MIT][26]
-- [Bootstrap][16], trabajo bajo una [Licencia MIT][27]
-- [Sass][17], trabajo bajo una [Licencia MIT][28]
-- [Modernizr][18], trabajo bajo una [Licencia MIT][29]
-- [Normalize.css][19], trabajo bajo una [Licencia MIT][30]
-- [Respond.js][20], trabajo bajo una [Licencia MIT][31]
-- [Font Awesome][21], trabajo bajo una [Licencia MIT][32]
-- [Animate.css][22], trabajo bajo una [Licencia MIT][33]
+- [Jekyll][15], obra bajo una [Licencia MIT][26]
+- [Bootstrap][16], obra bajo una [Licencia MIT][27]
+- [Sass][17], obra bajo una [Licencia MIT][28]
+- [Modernizr][18], obra bajo una [Licencia MIT][29]
+- [Normalize.css][19], obra bajo una [Licencia MIT][30]
+- [Respond.js][20], obra bajo una [Licencia MIT][31]
+- [Font Awesome][21], obra bajo una [Licencia MIT][32]
+- [Animate.css][22], obra bajo una [Licencia MIT][33]
 - [Google Fonts][23], todas las fuentes usadas en este sitio son [Open Source][34]
 
 ## Soundtrack proporcionado por

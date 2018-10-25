@@ -39,7 +39,7 @@ Aquí tienes el [archivo completo][2] de todas mis publicaciones.
 
 ## Suscríbete
 
-Puedes suscribirte a mi blog con este [RSS][37] o si prefieres, en este [Twitter][38].
+Puedes suscribirte a mi blog con este [<i class="fas fa-rss"></i> RSS][37] o si prefieres, en este [<i class="fab fa-twitter"></i> Twitter][38].
 
 ## Errores en el sitio
 

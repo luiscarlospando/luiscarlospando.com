@@ -47,10 +47,8 @@
             var scroll = $(window).scrollTop();
             if (scroll >= 1) {
                 $(".nav-container").addClass("scrolled-position");
-            } else
-                if (scroll <= 0) {
-                    $(".nav-container").removeClass("scrolled-position");
-                }
+            } else if (scroll <= 0) {
+                $(".nav-container").removeClass("scrolled-position");
             }
         });
 

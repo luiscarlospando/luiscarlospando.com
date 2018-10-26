@@ -51,6 +51,7 @@
                 if (scroll <= 0) {
                     $(".nav-container").removeClass("scrolled-position");
                 }
+            }
         });
 
         // Browser window scroll (in pixels) after which the "back to top" link is shown
@@ -108,7 +109,7 @@
         });
     });
 
-    // Font Awesome Pseudo Elements Enabling
+    // Enabling Font Awesome Pseudo Elements
     window.FontAwesomeConfig = {
         searchPseudoElements: true
     }

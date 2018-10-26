@@ -13,11 +13,11 @@ permalink: /privacidad/
 ### Cookies
 
 #### Contenido incrustado de otros sitios web
-Los posts publicados en mi sitio pueden incluir contenido incrustado (por ejemplo, videos, imágenes, media players, etc.) que podrían hacer uso de cookies. El contenido incrustado de otros sitios se comporta exactamente de la misma manera que si hubieras visitado el otro website.
+Algunas de las cosas que publico en mi sitio pueden incluir contenido incrustado (por ejemplo, videos, imágenes, media players, etc.) que podrían hacer uso de cookies. El contenido incrustado de otros sitios se comporta exactamente de la misma manera que si hubieras visitado el otro website.
 
 Estas web pueden recopilar datos sobre ti, utilizar cookies, incrustar un seguimiento adicional de terceros, y supervisar tu interacción con ese contenido incrustado, incluido el seguimiento de su interacción con el contenido incrustado si tienes una cuenta y estás conectado a esa web.
 
-### Analíticas
+### Google Analytics
 Para efectos de generación de estadísiticas y rastreo del público que visita mi sitio utilizo Google Analytics. [Puedes revisar su política de privacidad aquí][1] para más información.
 
 [1]: https://policies.google.com/privacy

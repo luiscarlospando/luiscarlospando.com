@@ -58,19 +58,11 @@
     - /assets/js/main.js
     {% endjavascript_asset_tag %}
     
-    <!-- GitHub -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    
     <!-- Twitter -->
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-    <!-- Google+ -->
-    <script type="text/javascript" async defer src="https://apis.google.com/js/platform.js?publisherid=101399365717557340979">
-        {lang: 'es-419'}
-    </script>
+    <script async defer src="//platform.twitter.com/widgets.js" charset="utf-8"> </script>
 
     <!-- Facebook -->
-    <script>
+    <script async defer>
         window.fbAsyncInit = function() {
             FB.init({
                 appId      : '306406826220378',
@@ -87,6 +79,9 @@
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
     </script>
+
+    <!-- GitHub -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55422382-1"></script>

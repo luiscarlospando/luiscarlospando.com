@@ -194,9 +194,9 @@ h6 {
 .alert-info,
 .alert-success,
 .alert-warning {
-    background-color: transparent;
+    background-color: #000;
     color: $mainColor;
-    border-color: $mainColor;
+    border-color: $fifthColor;
 }
 
 .alert-link {

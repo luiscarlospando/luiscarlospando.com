@@ -11,7 +11,7 @@ image: /assets/images/logo.png
 
 <span class="first-letter">H</span>ola, me llamo Luis Carlos Pando y vivo en [Chihuahua, México][1] con mi bella esposa [Alejandra][4]. Soy un dude al que le gusta el punk rock, [hace][2] cosas para el Internet y sus ratos libres disfruta jugar [videojuegos][3]. Algunos tal vez me conozcan por haber creado [Hitz-Musik.net][5] ― una comunidad en línea que existió para hablar sobre música poco apreciada por las masas y que también sirvió como plataforma para promover y apoyar la escena musical local de mi ciudad, Chihuahua.
 
-Una de las razones que me motivaron a crear este espacio fue mi interés por la tecnología, ― me fue necesario tener [mi propio lugar en Internet][6] para hablar de lo que yo quisiera, para equivocarme, para experimentar, para hacer cosas que solo a un nerd le gusta hacer. Básicamente el objetivo aquí es escribir de lo que traiga en la cabeza, compartir cosas que crea que valen la pena, dar mi opinión sin miedo y ofrecer algunas recomendaciones en lo que pueda.
+Una de las razones que me motivaron a crear este espacio fue mi interés por la tecnología, ― me fue necesario tener [mi propio lugar en Internet][6] para hablar de lo que yo quisiera, para equivocarme, para experimentar y para hacer cosas que solo a un nerd le gustan hacer. El objetivo aquí es escribir de cosas que traiga en la cabeza, dar mi opinión sin miedo y compartirles algo que considere que valga la pena.
 
 También le [tengo un amor especial a los videojuegos][11], para rendir tributo y hacer de esto algo más divertido de lo que ya es, creé [Mode 7][7].
 

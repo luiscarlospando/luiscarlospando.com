@@ -6,6 +6,8 @@ image: /assets/images/logo.png
 permalink: /contacto/
 ---
 
+<p class="text-center">Gracias por tu interés en comunicarte conmigo. 😃</p>
+
 ## <i class="fas fa-envelope"></i> Email
 
 Mi medio principal de contacto es mi email [luiscarlos@luiscarlospando.net][1].

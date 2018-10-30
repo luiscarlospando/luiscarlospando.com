@@ -18,6 +18,7 @@ Aquí tienes el [archivo completo][2] de todas mis publicaciones.
 - Este sitio es completamente estático y corre con [Jekyll][15], luego hago <code>push</code> de todos mis cambios en un servidor remoto que tengo en [DigitalOcean][10]
 - El logotipo fue creado usando un [Nintendo Switch][9]
 - Mi dominio está registrado en [Hover][11]
+- Muchas tazas de ☕
 
 ## Tecnlogías usadas
 

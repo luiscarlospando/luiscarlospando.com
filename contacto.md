@@ -36,6 +36,9 @@ También pueden contactarme usando [Messenger][2] de Facebook.
 ## <i class="fab fa-discord"></i> Discord
 Mi tag en Discord es <code>Mijo#0438</code> y mi servidor en Discord es [Mode 7][4] (feel free to join in!).
 
+## <i class="fab fa-spotify"></i> Spotify
+Este es mi [perfil en Spotify][8].
+
 ## <i class="fas fa-code"></i> Developer Stuff
 
 ---
@@ -64,3 +67,4 @@ Mi perfil en CodePen es [este][7].
 [5]: https://github.com/{{ site.github_username }}
 [6]: https://gitlab.com/{{ site.github_username }}
 [7]: https://codepen.io/{{ site.github_username }}
+[8]: https://open.spotify.com/user/1269830478?si=TZzw_OTYRbWpUuk9SMW2Ow

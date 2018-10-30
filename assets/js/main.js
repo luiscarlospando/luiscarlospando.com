@@ -26,7 +26,7 @@
                 "search": false
             },
             dragOpen: {
-                open: true
+                open: false
             }
         });
 

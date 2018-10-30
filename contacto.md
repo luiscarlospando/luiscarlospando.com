@@ -31,20 +31,30 @@ Cuenta automatizada con posts de mi sitio.
 También pueden contactarme usando [Messenger][2] de Facebook.
 
 ## <i class="fab fa-instagram"></i> Instagram
-[Aquí posteo fotos][3] que creo que valen la pena ser compartidas.
+[Aquí posteo fotos][3] de momentos que creo que valen la pena ser compartido.
 
 ## <i class="fab fa-discord"></i> Discord
 Mi tag en Discord es <code>Mijo#0438</code> y mi servidor en Discord es [Mode 7][4] (feel free to join in!).
 
-## <i class="fab fa-github"></i> GitHub
+## <i class="fas fa-code"></i> Developer Stuff
+
+---
+
+### <i class="fab fa-github"></i> GitHub
 <a class="github-button" href="https://github.com/{{ site.github_username }}" aria-label="Follow @{{ site.github_username }} on GitHub">Follow @{{ site.github_username }}</a>
 
 Parte de mi trabajo se puede encontrar [aquí][5].
 
-## <i class="fab fa-stack-overflow"></i> Stack Overflow
+### <i class="fab fa-gitlab"></i> GitLab
+También parte de mi trabajo se puede encontrar [aquí][6].
+
+### <i class="fab fa-stack-overflow"></i> Stack Overflow
 <a href="http://stackoverflow.com/users/2197860/luis-carlos-pando">
     <img src="https://stackoverflow.com/users/flair/2197860.png?theme=dark" width="208" height="58" alt="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 </a>
+
+### <i class="fab fa-codepen"></i> CodePen
+Mi perfil en CodePen es [este][7].
 
 
 [1]: mailto:{{ site.email }}
@@ -52,3 +62,5 @@ Parte de mi trabajo se puede encontrar [aquí][5].
 [3]: https://instagram.com/{{ site.instagram_username }}
 [4]: https://discord.gg/N2m8gKw
 [5]: https://github.com/{{ site.github_username }}
+[6]: https://gitlab.com/{{ site.github_username }}
+[7]: https://codepen.io/{{ site.github_username }}

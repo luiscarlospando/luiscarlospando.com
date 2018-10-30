@@ -8,17 +8,16 @@ permalink: /acerca-de/
 
 <h2 class="subtitulo text-center"><small class="text-muted">{{ site.title }} v{{ site.version }}</small></h2>
 
-Este URL ha sido mi hogar en línea desde octubre de 2014 (ojalá hubiera empezado antes). Desde entonces he publicado **374 entradas en total** y es aquí mismo en donde intento unificar mi presencia en Internet, un solo lugar en donde se me pueda encontrar. Justo como lo menciono en la [portada][1], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo que valen la pena, dar mi opinión, ofrecer algunas recomendaciones y dar algunos consejos. 
+Este URL ha sido mi hogar en línea desde octubre de 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado **374 entradas en total** y es aquí mismo en donde intento unificar mi presencia en Internet, un solo lugar en donde se me pueda encontrar. Justo como lo menciono en la [portada][1], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo que valen la pena, dar mi opinión, ofrecer algunas recomendaciones y dar algunos consejos. 
 
 Aquí tienes el [archivo completo][2] de todas mis publicaciones.
 
 ## Detalles
 
-- Desarrollo y mantengo este sitio con [Visual Studio Code][5] usando una Mac
+- Desarrollo y mantengo este sitio con [Visual Studio Code][5] usando una Mac y muchas tazas de ☕
 - Este sitio es completamente estático y corre con [Jekyll][15], luego hago <code>push</code> de todos mis cambios en un servidor remoto que tengo en [DigitalOcean][10]
 - El logotipo fue creado usando un [Nintendo Switch][9]
 - Mi dominio está registrado en [Hover][11]
-- Muchas tazas de ☕
 
 ## Tecnlogías usadas
 

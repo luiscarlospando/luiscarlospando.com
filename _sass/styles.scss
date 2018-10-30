@@ -10,12 +10,12 @@
 }
 
 ::selection {
-    background: $tertiaryColor;
+    background: $transparentGray;
     color: $fourthColor;
 }
 
 ::-moz-selection {
-    background: $tertiaryColor;
+    background: $transparentGray;
     color: $fourthColor;
 }
 
@@ -84,7 +84,7 @@ ul {
 }
 
 hr {
-    border-top: 1px solid $borderColor;
+    border-top: 1px solid $transparentGray;
 }
 
 audio {

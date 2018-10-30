@@ -1,7 +1,7 @@
 #logo {
     background: url('../images/logo.png') no-repeat;
     border-radius: 50%;
-    border: 1px solid $borderColor;
+    border: 1px solid $transparentGray;
     width: 96px;
     height: 96px;
     margin: 0 auto;
@@ -19,7 +19,7 @@
 
 #tweet {
     background-color: transparent;
-    border: 1px solid $borderColor;
+    border: 1px solid $transparentGray;
     border-radius: .25rem;
     width: 100%;
     height: auto;
@@ -34,7 +34,7 @@
 
 #tweet::after {
     content: "\f099";
-    color: $borderColor;
+    color: $transparentGray;
     font-family: "Font Awesome 5 Brands";
     position: absolute;
     font-size: 0.7em;

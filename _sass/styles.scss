@@ -53,6 +53,7 @@ a.alert-link:hover,
 a.alert-link:focus {
     color: $hoverColor;
     text-decoration: underline;
+    text-decoration-color: $underlineColor;
 }
 
 ol,

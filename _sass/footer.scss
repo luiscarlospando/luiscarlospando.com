@@ -3,11 +3,8 @@ footer {
     font-size: 11pt;
 
     #lastfm {
-        border: 1px solid $transparentGray;
-        border-radius: .25rem;
-        padding: 16px 14px 15px;
-        margin: 0 0 1rem;
-        position: relative;
+        width: 100%;
+        float: left;
 
         p {
             margin: 0;
@@ -17,47 +14,61 @@ footer {
             list-style-type: none;
             margin: 0 !important;
             padding: 0;
-        }
-    
-        div {
-            display: inline;
-        }
-    
-        .track {
-            background: url('../images/icon_eq.gif') no-repeat;
-            background-position: 0 3px;
-            padding-left: 20px;
-        }
-    
-        .track::before {
-            content: '“';
-        }
-        
-        .track::after {
-            content: '” ';
-        }
-        
-        .track:first-child::after {
-            content: '" ';
-        }
-    
-        .album {
-            font-style: italic;
-        }
-    }
 
-    #lastfm::after {
-        content: "\f202";
-        color: $transparentGray;
-        font-family: "Font Awesome 5 Brands";
-        position: absolute;
-        font-size: 1em;
-        bottom: -26px;
-        right: 0;
-        text-align: right;
-        font-variant: normal;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
+            .nowplaying {
+                border: 1px solid $transparentGray;
+                border-radius: .25rem;
+                padding: 16px 14px 14px;
+                margin: 0 0 1rem;
+                position: relative;
+                width: 100%;
+                float: left;
+
+                div {
+                    display: inline;
+                }
+            
+                .track {
+                    background: url('../images/icon_eq.gif') no-repeat;
+                    background-position: 0 3px;
+                    padding-left: 20px;
+                }
+            
+                .track::before {
+                    content: '“';
+                }
+                
+                .track::after {
+                    content: '” ';
+                }
+                
+                .track:first-child::after {
+                    content: '" ';
+                }
+            
+                .album {
+                    font-style: italic;
+                }
+            }
+
+            .nowplaying::after {
+                content: "\f202";
+                color: $transparentGray;
+                font-family: "Font Awesome 5 Brands";
+                position: absolute;
+                font-size: 1em;
+                bottom: -26px;
+                right: 0;
+                text-align: right;
+                font-variant: normal;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            .notplaying {
+                display: none;
+            }
+        }
     }
 
     .twitter-follow-btn {

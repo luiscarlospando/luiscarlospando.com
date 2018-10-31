@@ -150,7 +150,7 @@ $('#nowPlayingBox').nowplaying({
 						// ------------ create list item -----------
 						listitem = $( "<li>", {
 							// add nowplaying class
-							className: tracknowplaying ? "nowplaying" : ""
+							class: tracknowplaying ? "nowplaying" : "notplaying"
 						});
 
 						// ----------------- IMAGE -----------------

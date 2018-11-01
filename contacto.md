@@ -56,6 +56,9 @@ También parte de mi trabajo se puede encontrar [aquí][6].
     <img src="https://stackoverflow.com/users/flair/2197860.png?theme=dark" width="208" height="58" alt="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 </a>
 
+### <i class="fab fa-dev"></i> Dev.to
+Me puedes encontrar en Dev.to [aquí][9].
+
 ### <i class="fab fa-codepen"></i> CodePen
 Mi perfil en CodePen es [este][7].
 
@@ -68,3 +71,4 @@ Mi perfil en CodePen es [este][7].
 [6]: https://gitlab.com/{{ site.github_username }}
 [7]: https://codepen.io/{{ site.github_username }}
 [8]: https://open.spotify.com/user/1269830478?si=TZzw_OTYRbWpUuk9SMW2Ow
+[9]: https://dev.to/luiscarlospando

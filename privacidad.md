@@ -6,7 +6,7 @@ image: /assets/images/logo.png
 permalink: /privacidad/
 ---
 
-<p class="text-center">*Modificado por última vez: 25/10/2018*</p>
+<p class="text-center">*Actualizado el 2 de noviembre, 2018*</p>
 
 ## ¿Qué datos personales se recolectan en mi sitio?
 

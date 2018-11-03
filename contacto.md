@@ -28,7 +28,7 @@ Cuenta personal.
 Cuenta automatizada con posts de mi sitio.
 
 ## <i class="fab fa-facebook-messenger"></i> Messenger
-También pueden contactarme usando [Messenger][2] de Facebook.
+También puedes contactarme a través de [Messenger][2].
 
 ## <i class="fab fa-instagram"></i> Instagram
 [Aquí posteo fotos][3] de momentos que considero valen la pena ser compartidos.

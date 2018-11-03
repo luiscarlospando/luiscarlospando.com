@@ -31,7 +31,7 @@ Cuenta automatizada con posts de mi sitio.
 También pueden contactarme usando [Messenger][2] de Facebook.
 
 ## <i class="fab fa-instagram"></i> Instagram
-[Aquí posteo fotos][3] de momentos que creo que valen la pena ser compartido.
+[Aquí posteo fotos][3] de momentos que considero valen la pena ser compartidos.
 
 ## <i class="fab fa-discord"></i> Discord
 Mi tag en Discord es <code>Mijo#0438</code> y mi servidor en Discord es [Mode 7][4] (feel free to join in!).

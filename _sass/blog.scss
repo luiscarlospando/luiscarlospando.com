@@ -34,7 +34,12 @@ p#category {
     }
 
     a {
-        color: $secondaryColor;
+        color: $mainColor;
+    }
+    
+    a:hover,
+    a:focus {
+        text-decoration-color: $mainColor;
     }
 }
 

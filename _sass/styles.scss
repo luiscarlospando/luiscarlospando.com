@@ -123,10 +123,15 @@ h5,
 h6 {
     font-family: 'Raleway', sans-serif;
     // font-family: 'Poppins', sans-serif;
-    color: $secondaryColor;
+    color: $mainColor;
 
     a {
-        color: $secondaryColor;
+        color: $mainColor;
+    }
+
+    a:hover,
+    a:focus {
+        text-decoration-color: $mainColor;
     }
 }
 

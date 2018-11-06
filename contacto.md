@@ -48,6 +48,9 @@ Este es mi [perfil en Spotify][8].
 
 Parte de mi trabajo se puede encontrar [aquí][5].
 
+### <i class="fas fa-code-branch"></i> Ask me anything (AMA) @ GitHub
+[Tengo un repo en GitHub][10] para que me preguntes lo que sea, solo es cuestión de [abrir](https://github.com/luiscarlospando/ama/issues/new) un nuevo `issue`.
+
 ### <i class="fab fa-gitlab"></i> GitLab
 También parte de mi trabajo se puede encontrar [aquí][6].
 
@@ -72,3 +75,4 @@ Mi perfil en CodePen es [este][7].
 [7]: https://codepen.io/{{ site.github_username }}
 [8]: https://open.spotify.com/user/1269830478?si=TZzw_OTYRbWpUuk9SMW2Ow
 [9]: https://dev.to/luiscarlospando
+[10]: https://github.com/luiscarlospando/ama

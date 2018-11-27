@@ -10,7 +10,7 @@ permalink: /mode7vg/
 
 <div class="card text-center">
 <div class="card-body">
-### <i class="fas fa-gamepad"></i> Actualmente jugando: [*Splatoon 2* c/noche][1], *Super Hydorah*
+#### <i class="fas fa-gamepad"></i> Actualmente jugando: [*Splatoon 2* c/noche][1], *Super Hydorah*, *Minit*
 </div>
 </div>
 

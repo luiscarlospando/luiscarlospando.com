@@ -39,6 +39,9 @@ Mi tag en Discord es <code>Mijo#0438</code> y mi servidor en Discord es [Mode 7]
 ## <i class="fab fa-spotify"></i> Spotify
 Este es mi [perfil en Spotify][8].
 
+## <i class="fab fa-reddit"></i> Reddit
+Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquier forma este es [mi Reddit][11].
+
 ## <i class="fas fa-code"></i> Developer Stuff
 
 ---
@@ -76,3 +79,4 @@ Mi perfil en CodePen es [este][7].
 [8]: https://open.spotify.com/user/1269830478?si=TZzw_OTYRbWpUuk9SMW2Ow
 [9]: https://dev.to/{{ site.github_username }}
 [10]: https://github.com/{{ site.github_username }}/ama
+[11]: https://reddit.com/user/{{ site.github_username }}

@@ -64,7 +64,9 @@ Para recibir mis notificaciones sobre *Splatoon 2* pueden [seguirme en Twitter][
 ## Splatoon 2 @ Mode 7
 
 <div class="text-center mt20">
+<a href="https://discord.gg/NUSDKeJ">
 <img class="img-fluid" src="{{ site.url }}/assets/images/banner-splatoon2.png" alt="" />
+</a>
 </div>
 
 </div>

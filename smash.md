@@ -58,7 +58,9 @@ Para recibir mis notificaciones sobre *Super Smash Bros. Ultimate* pueden [segui
 ## Super Smash Bros. Ultimate @ Mode 7
 
 <div class="text-center mt20">
+<a href="https://discord.gg/3Tws9AQ">
 <img class="img-fluid" src="{{ site.url }}/assets/images/smash-banner.png" alt="" />
+</a>
 </div>
 
 </div>

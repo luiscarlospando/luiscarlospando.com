@@ -10,7 +10,12 @@ permalink: /mode7vg/
 
 <div class="card text-center">
 <div class="card-body">
-#### <i class="fas fa-gamepad"></i> Actualmente jugando: [*Splatoon 2* c/noche][1], *Super Hydorah*, *Minit*
+<h3 class="card-title">
+<i class="fas fa-gamepad"></i> Actualmente jugando:
+</h3>
+<h3 class="card-text">
+[*Splatoon 2* c/noche][1], *Super Smash Bros. Ultimate*, *Super Hydorah* y *Minit*
+</h3>
 </div>
 </div>
 
@@ -20,7 +25,7 @@ permalink: /mode7vg/
 #### Mode 7 [<i class="fas fa-link" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i>][2]
 *<small>Videojuegos clásicos y modernos. Aquí solamente hablamos de los juegos que más nos gustan.</small>*
 
-Únanse a [Mode 7 en Discord][2] para cotorrear y echar retas en línea, ya sea por ejemplo en *Mario Kart 8 Deluxe*, [*Splatoon 2*][1] y más...
+Únanse a [Mode 7 en Discord][2] para cotorrear y echar retas en línea, ya sea por ejemplo en [*Splatoon 2*][1], *Mario Kart 8 Deluxe*, *Super Smash Bros. Ultimate* y más...
 
 La idea es tener un lugar donde ponernos de acuerdo para jugar  y por supuesto, platicar y conversar sobre nuestros videojuegos favoritos.
 </div>

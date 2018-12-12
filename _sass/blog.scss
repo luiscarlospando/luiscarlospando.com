@@ -64,7 +64,8 @@ p#category {
 
     a,
     a:hover {
-        color: #fff;
+        color: $mainColor;
+        text-decoration-color: $mainColor;
     }
 }
 

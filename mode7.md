@@ -6,7 +6,7 @@ image: /assets/images/mode-7.png
 permalink: /mode7vg/
 ---
 
-[Mode 7][1] (mode7vg para los compas) es mi proyecto para mostrar el amor que siento por los videojuegos, pero no quiero hacerlo solo, sino quiero hacerlo con amigos. Por lo pronto, Mode 7 será un lugar en Discord para hablar de videojuegos y para ponernos a jugar videojuegos por su puesto, pero la idea es en un futuro no muy lejano, tener un podcast de Mode 7 con mi carnal <a href="http://twitter.com/intent/user?screen_name=malanndro&lang=es">@malanndro</a>.
+[Mode 7][1] (mode7vg para los compas) es mi proyecto para mostrar el amor que siento por los videojuegos, pero no quiero hacerlo solo, sino quiero hacerlo con amigos. Por lo pronto, Mode 7 será un lugar en Discord para hablar de videojuegos y para ponernos a jugar videojuegos por su puesto, pero la idea es en un futuro no muy lejano, tener un podcast de Mode 7 (para empezar) y crear algo de contenido para ustedes.
 
 <div class="card text-center">
 <div class="card-header">

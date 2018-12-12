@@ -17,7 +17,7 @@ También le [tengo un amor especial a los videojuegos][11], para rendir tributo 
 
 De manera cotidiana me confundo y confundo a los demás en [Twitter][8] y comparto mi pobre gusto musical en [Last.fm][10] (been there since &rsquo;05, baby!).
 
-Eso es todo por ahora, gracias por pasar por aquí 🔥.
+Es todo por ahora, gracias por pasar por aquí 🔥.
 
 [1]: http://www.municipiochihuahua.gob.mx/
 [2]: https://github.com/{{ site.github_username }}

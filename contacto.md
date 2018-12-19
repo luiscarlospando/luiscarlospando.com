@@ -34,7 +34,7 @@ También puedes contactarme a través de [Messenger][2].
 [Aquí posteo fotos][3] de momentos que considero valen la pena ser compartidos.
 
 ## <i class="fab fa-discord"></i> Discord
-Mi tag en Discord es <code>Mijo#0438</code> y mi servidor en Discord es [Mode 7][4] (feel free to join in!).
+Mi tag en Discord es <code>{{ site.discord_tag }}</code> y mi servidor en Discord es [Mode 7][4] (feel free to join in!).
 
 ## <i class="fab fa-spotify"></i> Spotify
 Este es mi [perfil en Spotify][8].
@@ -72,11 +72,11 @@ Mi perfil en CodePen es [este][7].
 [1]: mailto:{{ site.email }}
 [2]: https://m.me/luiscarlospandodotnet
 [3]: https://instagram.com/{{ site.instagram_username }}
-[4]: https://discord.gg/N2m8gKw
+[4]: {{ site.mode7_discord }}
 [5]: https://github.com/{{ site.github_username }}
-[6]: https://gitlab.com/{{ site.github_username }}
-[7]: https://codepen.io/{{ site.github_username }}
-[8]: https://open.spotify.com/user/1269830478?si=TZzw_OTYRbWpUuk9SMW2Ow
-[9]: https://dev.to/{{ site.github_username }}
+[6]: https://gitlab.com/{{ site.gitlab_username }}
+[7]: https://codepen.io/{{ site.codepen_username }}
+[8]: https://open.spotify.com/user/{{ site.spotify_username }}
+[9]: https://dev.to/{{ site.devto_username }}
 [10]: https://github.com/{{ site.github_username }}/ama
-[11]: https://reddit.com/u/{{ site.github_username }}
+[11]: https://reddit.com/u/{{ site.reddit_username }}

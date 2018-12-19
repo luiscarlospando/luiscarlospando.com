@@ -54,6 +54,6 @@ Aprovecho y les comparto mis códigos de amigo en Nintendo Switch, 3DS y mi Nint
 </div>
 </div>
 
-[1]: https://discord.gg/N2m8gKw
+[1]: {{ site.mode7_discord }}
 [2]: /splatoon-2/
 [3]: /smash-bros/

@@ -12,6 +12,7 @@ permalink: /live/archivos/
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PL15FCirCIaHrE0ymaqlyG9tb2PV3yUcvp" frameborder="0" allowfullscreen></iframe>
 </div>
 
-No olviden suscribirse a [mi canal de YouTube Gaming][1].
+#### <i class="fas fa-arrow-left"></i> Anterior
+[Volver a Live][1]
 
-[1]: https://gaming.youtube.com/LuisCarlosPando
+[1]: /live

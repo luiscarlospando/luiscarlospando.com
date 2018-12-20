@@ -6,7 +6,7 @@ image: /assets/images/youtube-play.jpg
 permalink: /live/
 ---
 
-<h2 class="subtitulo text-center"><small class="text-muted">#MijoRetroStreams</small> <small><span class="badge badge-danger">Currently on standby</span></small></h2>
+<h2 class="subtitulo text-center"><small class="text-muted">#MijoRetroStreams</small> <small><span class="badge badge-danger animated infinite flash stream-status">Currently on standby</span></small></h2>
 
 ## <i class="fab fa-youtube"></i> YouTube
 

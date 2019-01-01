@@ -1,7 +1,7 @@
 (function() {
     /*!
     * LuisCarlosPando.net
-    * Copyright © 2014-2018 Luis Carlos Pando.
+    * Copyright © 2014-2019 Luis Carlos Pando.
     * Made with love in Chihuahua, Mexico.
     */
 

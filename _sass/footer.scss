@@ -24,6 +24,20 @@ footer {
                 width: 100%;
                 float: left;
 
+                &::after {
+                    content: "\f202";
+                    color: $transparentGray;
+                    font-family: "Font Awesome 5 Brands";
+                    position: absolute;
+                    font-size: 1em;
+                    bottom: -26px;
+                    right: 0;
+                    text-align: right;
+                    font-variant: normal;
+                    text-rendering: auto;
+                    -webkit-font-smoothing: antialiased;
+                }
+
                 div {
                     display: inline;
                 }
@@ -32,37 +46,23 @@ footer {
                     background: url('../images/icon_eq.gif') no-repeat;
                     background-position: 0 3px;
                     padding-left: 20px;
-                }
-            
-                .track::before {
-                    content: '“';
-                }
-                
-                .track::after {
-                    content: '” ';
-                }
-                
-                .track:first-child::after {
-                    content: '" ';
+
+                    &::before {
+                        content: '“';
+                    }
+
+                    &::after {
+                        content: '” ';
+                    }
+
+                    &:first-child::after {
+                        content: '" ';
+                    }
                 }
             
                 .album {
                     font-style: italic;
                 }
-            }
-
-            .nowplaying::after {
-                content: "\f202";
-                color: $transparentGray;
-                font-family: "Font Awesome 5 Brands";
-                position: absolute;
-                font-size: 1em;
-                bottom: -26px;
-                right: 0;
-                text-align: right;
-                font-variant: normal;
-                text-rendering: auto;
-                -webkit-font-smoothing: antialiased;
             }
 
             .notplaying {

@@ -83,8 +83,10 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
-  	.tri-right.btm-left::after {
-    	left: 45.6%;
+  	.tri-right.btm-left {
+        &::after {
+            left: 45.6%;
+        }
     }
 
 }

@@ -226,10 +226,10 @@ iframe.instagram-media {
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: .25rem;
-}
 
-.tag-cloud-link::before {
-    content: '#';
+    &::before {
+        content: '#';
+    }
 }
 
 .arve-wrapper {

@@ -249,21 +249,23 @@ h6 {
         z-index: 2;
     }
 
-    #burger-btn span,
-    #burger-btn:before,
-    #burger-btn:after {
-        background-color: $secondaryColor;
-        content: "";
-        display: block;
-        height: 6px;
-        left: 5px;
-        margin: 6px 0;
-        position: relative;
-        width: 30px;
-    }
+    #burger-btn {
+        span,
+        &::before,
+        &::after {
+            background-color: $secondaryColor;
+            content: "";
+            display: block;
+            height: 6px;
+            left: 5px;
+            margin: 6px 0;
+            position: relative;
+            width: 30px;
+        }
 
-    #burger-btn:before {
-        margin-top: 0;
+        &::before {
+            margin-top: 0;
+        }
     }
 }
 

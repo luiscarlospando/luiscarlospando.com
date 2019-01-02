@@ -30,18 +30,18 @@
         font-size: 11pt;
         margin: 0 1em;
     }
-}
 
-#tweet::after {
-    content: "\f099";
-    color: $transparentGray;
-    font-family: "Font Awesome 5 Brands";
-    position: absolute;
-    font-size: 0.7em;
-    bottom: -26px;
-    right: 0;
-    text-align: right;
-    font-variant: normal;
-    text-rendering: auto;
-     -webkit-font-smoothing: antialiased;
+    &::after {
+        content: "\f099";
+        color: $transparentGray;
+        font-family: "Font Awesome 5 Brands";
+        position: absolute;
+        font-size: 0.7em;
+        bottom: -26px;
+        right: 0;
+        text-align: right;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased; 
+    }
 }

@@ -19,7 +19,7 @@ Aquí está el [archivo completo][2] de todos mis posts.
 - El logotipo lo hice usando mi [Nintendo Switch][9]
 - Mi dominio lo registré en [Hover][11]
 
-## Tecnlogías usadas
+## Tecnologías usadas
 
 - [Git][13], obra bajo una [Licencia MIT][24]
 - [npm][14], pueden revisar la licencia aquí: [Licencia][25]

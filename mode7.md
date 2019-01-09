@@ -14,7 +14,7 @@ permalink: /mode7vg/
 </div>
 <div class="card-body">
 <h3 class="card-text">
-[*Splatoon 2* c/noche][2], [*Super Smash Bros. Ultimate*][3], *Super Hydorah* y *Minit*
+[*Splatoon 2* c/noche][2], [*Super Smash Bros. Ultimate*][3], *GRIS*
 </h3>
 </div>
 </div>

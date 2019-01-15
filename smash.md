@@ -41,7 +41,7 @@ Esta la información necesaria para jugar *Super Smash Bros. Ultimate* en línea
 - Mode 7 Battle Arena (preguntar ID vía [#smash-bros en Mode 7][1])
     - Tipo: All Skill Levels
     - Formato: 4-Player Smash
-    - Reglas: 5 Stock 10:00
+    - Reglas: 3 Stock 10:00
     - Rotación: Bottom Two Leave
 
 ## Información

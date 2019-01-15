@@ -1,10 +1,10 @@
-(function() {
-    /*!
-    * LuisCarlosPando.net
-    * Copyright © 2014-2019 Luis Carlos Pando.
-    * Made with love in Chihuahua, Mexico.
-    */
+/*!
+* LuisCarlosPando.net
+* Copyright © 2014-2019 Luis Carlos Pando.
+* Made with love in Chihuahua, Mexico.
+*/
 
+(function() {
     $(document).ready(function () {
         // Enable nav menu
         $("#menu").mmenu({

@@ -34,6 +34,21 @@ Esta la información necesaria para jugar *Splatoon 2* en línea conmigo y con m
 </div>
 
 <div class="row">
+<div class="col-12">
+<div class="card">
+<div class="card-header">
+<h5 class="card-title  text-center"><i class="fas fa-chart-area"></i> Estadísticas personales (vía stat.ink)</h5>
+</div>
+<div class="card-body">
+<h3 class="card-text text-center">
+[https://stat.ink/@mijo][7]
+</h3>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
 <div class="col-sm-6">
 
 ## <i class="fas fa-gamepad"></i> Modos de Juego
@@ -43,8 +58,7 @@ Esta la información necesaria para jugar *Splatoon 2* en línea conmigo y con m
     - Splat Zones
     - Tower Control
     - Clam Blitz
-- League Battle (en parejas o equipo completo cuando se puede)
-- Salmon Run
+- League Battle (organizamos equipos en [Mode 7 (#splatoon-2)][1])
 
 ## Información
 
@@ -86,3 +100,4 @@ Para chat de voz utilizo [Discord][5] principalmente y la app de Nintendo Switch
 [4]: https://twitter.com/search?q=%23Splatoon2%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}
 [5]: https://discordapp.com/
 [6]: ../mode7vg
+[7]: https://stat.ink/@mijo/spl2

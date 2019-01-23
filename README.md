@@ -16,10 +16,10 @@ Este es el código fuente de [LuisCarlosPando.net][1]. Este sitio es completamen
 1. Instala las dependencias
 
   ```
-  npm start
+  npm install
   ```
 
-1. Corre el servidor, genera el sitio y observa los cambios
+1. Inicia el servidor
    
    ```
    npm start

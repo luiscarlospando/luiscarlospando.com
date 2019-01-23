@@ -6,7 +6,7 @@ Este es el código fuente de [LuisCarlosPando.net][1]. Este sitio es completamen
 
 ## Instalación
 
-1. Clona el repo y entra en el directorio
+1. Clona el repo (o descárgalo) y entra al directorio
    
    ```
    git clone https://github.com/luiscarlospando/luiscarlospando.github.io.git luiscarlospando.net
@@ -14,10 +14,12 @@ Este es el código fuente de [LuisCarlosPando.net][1]. Este sitio es completamen
    ```
 
 1. Instala las dependencias
+   
+   ```
+   npm install
+   ```
 
-  ```
-  npm install
-  ```
+## Inicialización
 
 1. Inicia el servidor
    
@@ -25,7 +27,7 @@ Este es el código fuente de [LuisCarlosPando.net][1]. Este sitio es completamen
    npm start
    ```
 
-1. Navega a [http://localhost:4100/][4].
+1. Navega a [http://localhost:4100/][4]
 
 [1]: https://luiscarlospando.net
 [2]: http://jekyllrb.com/

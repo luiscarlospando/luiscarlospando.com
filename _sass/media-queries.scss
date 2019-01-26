@@ -45,12 +45,13 @@
     }
 
     .nav-container {
-        background: rgba(0,0,0,0.9);
-        border-bottom: 1px solid #000;
+        background: transparent;
+        // border-bottom: none;
         display: block;
         height: 50px;
         position: fixed;
-        top: -82px;
+        top: 0;
+        // top: -82px;
         width: 100%;
         transition: all 0.3s ease-in-out;
         -webkit-transition: all 0.3s ease-in-out;
@@ -58,7 +59,8 @@
     }
 
     .scrolled-position {
-        top: 0 !important;
+        background: rgba(0,0,0,0.9);
+        // border-bottom: 1px solid #000;
     }
 
     .desk-button {
@@ -139,12 +141,13 @@
     }
 
     .nav-container {
-        background: rgba(0,0,0,0.9);
-        border-bottom: 1px solid #000;
+        background: transparent;
+        // border-bottom: none;
         display: block;
         height: 50px;
         position: fixed;
-        top: -82px;
+        top: 0;
+        // top: -82px;
         width: 100%;
         transition: all 0.3s ease-in-out;
         -webkit-transition: all 0.3s ease-in-out;
@@ -152,7 +155,8 @@
     }
 
     .scrolled-position {
-        top: 0 !important;
+        background: rgba(0,0,0,0.9);
+        // border-bottom: 1px solid #000;
     }
 
     .desk-button {

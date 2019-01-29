@@ -72,7 +72,7 @@ Para recibir mis notificaciones sobre *Super Smash Bros. Ultimate* pueden [segui
 
 ## <i class="fas fa-microphone"></i> Chat de voz
 
-Para chat de voz utilizo [Discord][1] usando el [canal de voz Smash Bros. dentro de Mode 7][5] y ocasionalmente la app Nintendo Switch Online ([iOS][2] &#124; [Android][3]).
+Para chat de voz utilizo [Discord][1] usando el [canal de voz *Smash Bros.* dentro de Mode 7][5] y ocasionalmente la app Nintendo Switch Online ([iOS][2] &#124; [Android][3]).
 
 ## <i class="fab fa-discord"></i> Discord
 

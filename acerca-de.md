@@ -24,6 +24,8 @@ Aquí está el [archivo completo][2] de todos mis posts.
 - [Git][13], obra bajo una [Licencia MIT][24]
 - [npm][14], pueden revisar la licencia aquí: [Licencia][25]
 - [Jekyll][15], obra bajo una [Licencia MIT][26]
+- [React][39], obra bajo una [Licencia MIT][41]
+- [Babel][40], obra bajo una [Licencia MIT][42]
 - [Bootstrap][16], obra bajo una [Licencia MIT][27]
 - [Sass][17], obra bajo una [Licencia MIT][28]
 - [Modernizr][18], obra bajo una [Licencia MIT][29]
@@ -78,3 +80,7 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [35]: https://www.spotify.com/mx/
 [37]: https://blog.{{ site.domain }}/feed/
 [38]: https://twitter.com/intent/user?screen_name={{ site.twitter_feed }}&lang=es
+[39]: https://reactjs.org/
+[40]: https://babeljs.io/
+[41]: https://github.com/facebook/react/blob/master/LICENSE
+[42]: https://github.com/babel/babel/blob/master/LICENSE

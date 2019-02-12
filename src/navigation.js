@@ -11,18 +11,18 @@ class Navigation extends React.Component {
                 <ul>
                     <li><a href="/">Inicio</a></li>
                     <li>
-                        <a href="https://blog.{{ site.domain }}/">Blog</a>
+                        <a href="https://blog.luiscarlospando.net/">Blog</a>
                         <ul>
-                            <li><a href="https://blog.{{ site.domain }}/personal/">Personal</a></li>
-                            <li><a href="https://blog.{{ site.domain }}/musica/">Música</a></li>
-                            <li><a href="https://blog.{{ site.domain }}/gaming/">Gaming</a></li>
-                            <li><a href="https://blog.{{ site.domain }}/tecnologia/">Tecnología</a></li>
-                            <li><a href="https://blog.{{ site.domain }}/programacion/">Programación</a></li>
-                            <li><a href="https://blog.{{ site.domain }}/diseno/">Diseño</a></li>
-                            <li><a href="https://blog.{{ site.domain }}/todo-lo-demas/">Todo lo demás</a></li>
-                            <li><a href="https://blog.{{ site.domain }}/author/me/">Archivos del blog</a></li>
-                            <li><a href="https://blog.{{ site.domain }}/hashtags/">Explorar por hashtag</a></li>
-                            <li><a href="https://blog.{{ site.domain }}/rss/">RSS</a></li>
+                            <li><a href="https://blog.luiscarlospando.net/personal/">Personal</a></li>
+                            <li><a href="https://blog.luiscarlospando.net/musica/">Música</a></li>
+                            <li><a href="https://blog.luiscarlospando.net/gaming/">Gaming</a></li>
+                            <li><a href="https://blog.luiscarlospando.net/tecnologia/">Tecnología</a></li>
+                            <li><a href="https://blog.luiscarlospando.net/programacion/">Programación</a></li>
+                            <li><a href="https://blog.luiscarlospando.net/diseno/">Diseño</a></li>
+                            <li><a href="https://blog.luiscarlospando.net/todo-lo-demas/">Todo lo demás</a></li>
+                            <li><a href="https://blog.luiscarlospando.net/author/me/">Archivos del blog</a></li>
+                            <li><a href="https://blog.luiscarlospando.net/hashtags/">Explorar por hashtag</a></li>
+                            <li><a href="https://blog.luiscarlospando.net/rss/">RSS</a></li>
                         </ul>
                     </li>
                     <li><a href="/contacto/">Contacto</a></li>

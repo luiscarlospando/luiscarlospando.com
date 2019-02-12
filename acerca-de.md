@@ -63,7 +63,7 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [18]: https://modernizr.com/
 [19]: https://necolas.github.io/normalize.css/
 [20]: https://github.com/scottjehl/Respond
-[21]: https://fontawesome.io/
+[21]: https://fontawesome.com/
 [22]: https://daneden.github.io/animate.css/
 [23]: https://fonts.google.com/
 [24]: https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt

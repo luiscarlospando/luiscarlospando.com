@@ -14,7 +14,7 @@ permalink: /mode7vg/
 </div>
 <div class="card-body">
 <h3 class="card-text">
-[*Splatoon 2* c/noche][2], [*Super Smash Bros. Ultimate*][3], *Monster Boy and the Cursed Kingdom*
+[*Splatoon 2* c/noche][2], [*Super Smash Bros. Ultimate*][3], *Monster Boy and the Cursed Kingdom*, *Tetris 99*
 </h3>
 </div>
 </div>

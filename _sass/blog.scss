@@ -78,22 +78,30 @@ p#category {
     }
 }
 
-.comments-button-container {
+.comments-disclaimer {
+    border: 1px solid $transparentGray;
+    border-radius: .25rem;
+    padding: 16px 14px 15px;
+    margin: 0;
+    position: relative;
+    font-size: 11pt;
     width: 100%;
     float: left;
-    margin: 20px 0 30px;
-    font-family: 'Poppins', sans-serif;
+}
 
-    button {
-        color: #555;
-        border-color: #adadad;
+.utterances,
+.tweet-post,
+.primary_navigation {
+    width: 100%;
+    float: left;
+}
 
-        &:hover {
-            color:#555;
-            background-color: #e6e6e6;
-            border-color: #adadad;
-        }
-    }
+.utterances {
+    max-width: 100%;
+}
+
+.tweet-post {
+    font-size: 11pt;
 }
 
 .follow p, 
@@ -108,6 +116,24 @@ p.latest-post {
     text-align: center;
     margin: 20px 0;
 }
+
+// .comments-button-container {
+//     width: 100%;
+//     float: left;
+//     margin: 20px 0 30px;
+//     font-family: 'Poppins', sans-serif;
+
+//     button {
+//         color: #555;
+//         border-color: #adadad;
+
+//         &:hover {
+//             color:#555;
+//             background-color: #e6e6e6;
+//             border-color: #adadad;
+//         }
+//     }
+// }
 
 .footnotes {
     .footnotedivider {

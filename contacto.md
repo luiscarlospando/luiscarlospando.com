@@ -10,7 +10,7 @@ permalink: /contacto/
 
 ## <i class="fas fa-envelope"></i> Email
 
-Mi medio principal de contacto es mi email [hey@luiscarlospando.net][1].
+Mi forma principal de contacto es mi email [hey@luiscarlospando.net][1].
 
 ## <i class="fab fa-twitter"></i> Twitter
 

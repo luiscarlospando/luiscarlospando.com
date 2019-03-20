@@ -35,11 +35,11 @@ p#category {
 
     a {
         color: $mainColor;
-    }
-    
-    a:hover,
-    a:focus {
-        text-decoration-color: $mainColor;
+
+        &:hover,
+        &:focus {
+            text-decoration-color: $mainColor;
+        }
     }
 }
 
@@ -67,10 +67,14 @@ p#category {
         padding: 0em 0.8em;
     }
 
-    a,
-    a:hover {
+    a {
         color: $mainColor;
         text-decoration-color: $mainColor;
+
+        &:hover {
+            color: $mainColor;
+            text-decoration-color: $mainColor;
+        }
     }
 }
 
@@ -83,12 +87,12 @@ p#category {
     button {
         color: #555;
         border-color: #adadad;
-    }
 
-    button:hover {
-        color:#555;
-        background-color: #e6e6e6;
-        border-color: #adadad;
+        &:hover {
+            color:#555;
+            background-color: #e6e6e6;
+            border-color: #adadad;
+        }
     }
 }
 

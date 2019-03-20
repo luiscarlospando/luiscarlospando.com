@@ -45,15 +45,16 @@ a.alert-link {
 
 a {
     outline: 0 !important;
-}
 
-a:hover,
-a:focus,
-a.alert-link:hover,
-a.alert-link:focus {
-    color: $hoverColor;
-    text-decoration: underline;
-    text-decoration-color: $underlineColor;
+    &:hover,
+    &:focus,
+    &.alert-link:hover,
+    &.alert-link:focus {
+        color: $hoverColor;
+        text-decoration: underline;
+        text-decoration-color: $underlineColor;
+    }
+
 }
 
 ol,
@@ -127,11 +128,11 @@ h6 {
 
     a {
         color: $mainColor;
-    }
 
-    a:hover,
-    a:focus {
-        text-decoration-color: $mainColor;
+        &:hover,
+        &:focus {
+            text-decoration-color: $mainColor;
+        }
     }
 }
 
@@ -327,11 +328,23 @@ a.btn {
     animation-duration: 5s;
 }
 
-.btn-primary,
-.btn-primary:hover {
-    background-color: $fifthColor;
-    border-color: $fifthColor;
-    color: #fff !important;
+.btn-primary {
+    background-color: $btnBgColor;
+    border-color: $btnBorderTextColor;
+    border-bottom: 1px solid $btnBorderTextColor !important;
+    color: $btnBorderTextColor !important;
+
+    &:hover {
+        background-color: $btnBgHoverColor;
+        border-color: $btnBorderHoverColor;
+        border-bottom: 1px solid $btnBorderHoverColor !important;
+        color: $btnTextHoverColor !important;
+    }
+}
+
+.btn-sm,
+.btn-group-sm>.btn {
+    padding: 0.10rem .5rem;
 }
 
 code {

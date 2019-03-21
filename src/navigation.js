@@ -17,7 +17,7 @@ class Navigation extends React.Component {
                             <li><a href="https://blog.luiscarlospando.net/musica/">Música</a></li>
                             <li><a href="https://blog.luiscarlospando.net/gaming/">Gaming</a></li>
                             <li><a href="https://blog.luiscarlospando.net/tecnologia/">Tecnología</a></li>
-                            <li><a href="https://blog.luiscarlospando.net/programacion/">Programación</a></li>
+                            <li><a href="https://blog.luiscarlospando.net/coding/">Coding</a></li>
                             <li><a href="https://blog.luiscarlospando.net/diseno/">Diseño</a></li>
                             <li><a href="https://blog.luiscarlospando.net/todo-lo-demas/">Todo lo demás</a></li>
                             <li><a href="https://blog.luiscarlospando.net/author/me/">Archivos del blog</a></li>

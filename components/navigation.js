@@ -87,8 +87,8 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "https://blog.luiscarlospando.net/programacion/" },
-                                    "Programaci\xF3n"
+                                    { href: "https://blog.luiscarlospando.net/coding/" },
+                                    "Coding"
                                 )
                             ),
                             React.createElement(

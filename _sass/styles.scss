@@ -19,6 +19,11 @@
     color: $fourthColor;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     font-family: 'Libre Baskerville', serif;
     line-height: 180%;

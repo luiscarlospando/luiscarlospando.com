@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{% if page.url == "/" %}{% else %}{{ page.title }} « {% endif %}{{ site.title }}</title>
+    <title>{% if page.url == "/" %}{% else %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
     <!--
     ================================================================================
@@ -83,7 +83,7 @@
     <meta name="twitter:creator" content="@{{ site.twitter_username }}">
     <meta name="twitter:domain" content="{{ site.domain }}">
     <meta name="twitter:url" content="{% if page.url == "/" %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">
-    <meta name="twitter:title" content="{% if page.url == "/" %}{% else %}{{ page.title }} « {% endif %}{{ site.title }}">
+    <meta name="twitter:title" content="{% if page.url == "/" %}{% else %}{{ page.title }} - {% endif %}{{ site.title }}">
     <meta name="twitter:description" content="{{ page.description }}">
     <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
     <meta name="twitter:widgets:theme" content="dark">
@@ -92,7 +92,7 @@
 
     <!-- Facebook -->
     <meta property="og:site_name" content="{{ site.title }}" />
-    <meta property="og:title" content="{% if page.url == "/" %}{% else %}{{ page.title }} « {% endif %}{{ site.title }}" />
+    <meta property="og:title" content="{% if page.url == "/" %}{% else %}{{ page.title }} - {% endif %}{{ site.title }}" />
     <meta property="og:description" content="{{ page.description }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{% if page.url == "/" %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}" id="og-url"/>

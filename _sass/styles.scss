@@ -204,6 +204,14 @@ h6 {
     h6 {
         color: $fifthColor;
     }
+
+    .card-footer {
+        background-color: $cardFooterBgColor;
+
+        p {
+            margin: 0;
+        }
+    }
 }
 
 .alert {

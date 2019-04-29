@@ -17,6 +17,9 @@ permalink: /mode7vg/
 [*Splatoon 2* c/noche][2], *Phantasy Star IV: The End of the Millennium*, *Monster Boy and the Cursed Kingdom*, *Octopath Traveler*
 </h3>
 </div>
+<div class="card-footer text-muted">
+<code>Actualizado el 29 de abril, 2019</code>
+</div>
 </div>
 
 <div class="row">

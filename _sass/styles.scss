@@ -205,13 +205,20 @@ h6 {
         color: $fifthColor;
     }
 
+    .card-header,
     .card-footer {
-        background-color: $cardFooterBgColor;
-
         p {
             margin: 0;
         }
     }
+
+    .card-footer {
+        background-color: $cardFooterBgColor;
+    }
+}
+
+.last-updated {
+    background-color: $cardFooterBgColor;
 }
 
 .alert {

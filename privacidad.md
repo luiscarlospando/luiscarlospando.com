@@ -6,7 +6,15 @@ image: /assets/images/logo.png
 permalink: /privacidad/
 ---
 
-<p class="text-center">*Actualizado el 2 de noviembre, 2018*</p>
+<p class="text-center">*Actualizado el 2 de mayo, 2019*</p>
+
+<div class="card last-updated text-center">
+<div class="card-body">
+<h3 class="card-text">
+<code>Actualizado el 2 de mayo, 2019</code>
+</h3>
+</div>
+</div>
 
 ## ¿Qué datos personales se recolectan en mi sitio?
 
@@ -21,6 +29,6 @@ Estas web pueden recopilar datos sobre ti, utilizar cookies, incrustar un seguim
 Para efectos de generación de estadísiticas y rastreo del público que visita mi sitio utilizo Google Analytics. [Puedes revisar su política de privacidad aquí][1] para más información.
 
 ### Links afiliados de Amazon
-Algunas ocasiones utilizo links de afiliados de Amazon o de cualquier otro proveedor. Cualquier compra hecha desde los links que comparto hacia algún producto en Amazon harán que reciba una pequeña comisión por la venta realizada.
+Algunas ocasiones utilizo links afiliados de Amazon o de cualquier otro proveedor. Cualquier compra hecha desde los links que comparto hacia algún producto en Amazon harán que reciba una pequeña comisión por la venta realizada.
 
 [1]: https://policies.google.com/privacy

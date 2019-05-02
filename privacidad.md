@@ -6,15 +6,7 @@ image: /assets/images/logo.png
 permalink: /privacidad/
 ---
 
-<p class="text-center">*Actualizado el 2 de mayo, 2019*</p>
-
-<div class="card last-updated text-center">
-<div class="card-body">
-<h3 class="card-text">
-<code>Actualizado el 2 de mayo, 2019</code>
-</h3>
-</div>
-</div>
+<div id="privacy-last-updated"></div>
 
 ## ¿Qué datos personales se recolectan en mi sitio?
 

@@ -10,15 +10,17 @@ permalink: /mode7vg/
 
 <div class="card text-center">
 <div class="card-header">
-<h5 class="card-title text-center"><i class="fas fa-gamepad"></i> Actualmente jugando:</h5>
+<h5 class="card-title text-center"><i class="fas fa-gamepad"></i> Actualmente estoy jugando:</h5>
 </div>
-<div class="card-body">
+<div class="card-body text-center">
 <h3 class="card-text">
-[*Splatoon 2* c/noche][2], *Phantasy Star IV: The End of the Millennium*, *Monster Boy and the Cursed Kingdom*, *Octopath Traveler*
+[*Splatoon 2* c/noche][2]<br>
+<span data-toggle="tooltip" data-placement="top" title="Jugando en: Castlevania Anniversary Collection">*Super Castlevania IV*</span><br>
+<span data-toggle="tooltip" data-placement="top" title="Jugando en: Sega Genesis Classics">*Phantasy Star IV: The End of the Millennium*</span><br> *Monster Boy and the Cursed Kingdom*
 </h3>
 </div>
 <div class="card-footer text-muted">
-<code>Actualizado el 29 de abril, 2019</code>
+<code>Actualizado el 16 de mayo, 2019</code>
 </div>
 </div>
 
@@ -30,14 +32,14 @@ permalink: /mode7vg/
 
 Únanse a [Mode 7 en Discord][1] para cotorrear y echar retas en línea, ya sea por ejemplo en [*Splatoon 2*][2], [*Super Smash Bros. Ultimate*][3], *Mario Kart 8 Deluxe* y más...
 
-La idea es tener un lugar donde ponernos de acuerdo para jugar  y por supuesto, platicar y conversar sobre nuestros videojuegos favoritos.
+La idea es tener un lugar donde ponernos de acuerdo para jugar y por supuesto, platicar y conversar sobre nuestros videojuegos favoritos.
 </div>
 <div class="col-md-12 col-lg-6">
 <iframe src="https://discordapp.com/widget?id=478777821087662092&theme=dark" width="100%" height="340" allowtransparency="true" frameborder="0"></iframe>
 </div>
 </div>
 
-Aprovecho y les comparto mis códigos de amigo en [<i class="fas fa-link"></i> Nintendo Switch][4], [<i class="fas fa-link"></i> 3DS][5] y mi [<i class="fas fa-link"></i> Nintendo Network ID de Wii U][6] por si desean agregarme (no olviden mandarme su código de 3DS para agregarlos yo también).
+Aprovecho y les comparto mis códigos de amigo en [<i class="fas fa-link"></i> Nintendo Switch][4], [<i class="fas fa-link"></i> 3DS][5] y mi [<i class="fas fa-link"></i> Nintendo Network ID de Wii U][6] por si desean agregarme (no olviden [mandarme su código de 3DS][7] para agregarlos yo también).
 
 <div class="card text-center" id="nintendo-switch">
 <div class="card-body">
@@ -63,3 +65,4 @@ Aprovecho y les comparto mis códigos de amigo en [<i class="fas fa-link"></i> N
 [4]: #nintendo-switch
 [5]: #nintendo-3ds
 [6]: #nnid
+[7]: mailto:hey@luiscarlospando.net

@@ -6,7 +6,7 @@ image: /assets/images/mode-7.png
 permalink: /mode7vg/
 ---
 
-[Mode 7][1] (mode7vg para los compas) es un proyecto que tengo con unos amigos para compartir el amor que sentimos por los videojuegos. Por lo pronto, Mode 7 es un lugar en Discord para hablar de videojuegos y para ponernos a jugar por su puesto, pero la idea es tener un podcast de Mode 7 en un futuro no muy lejano.
+[Mode 7][1] (mode7vg para los compas) es un proyecto que tengo con unos amigos para compartir el amor que sentimos por los videojuegos. Por el momento Mode 7 es un lugar en Discord para hablar de videojuegos y para jugar juntos por su puesto, pero la idea es tener el podcast de Mode 7 en un futuro no muy lejano.
 
 <div class="card text-center">
 <div class="card-header">
@@ -30,7 +30,7 @@ permalink: /mode7vg/
 #### Mode 7 [<i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i>][1]
 *<small>Videojuegos clásicos y modernos. Aquí solamente hablamos de los juegos que más nos gustan.</small>*
 
-Únanse a [Mode 7 en Discord][1] para cotorrear y echar retas en línea, ya sea por ejemplo en [*Splatoon 2*][2], [*Super Smash Bros. Ultimate*][3], *Mario Kart 8 Deluxe* y más...
+Únete a [Mode 7 en Discord][1] para cotorrear y jugar junto con la comunidad, ya sea por ejemplo en [*Splatoon 2*][2], [*Super Smash Bros. Ultimate*][3], *Mario Kart 8 Deluxe* y más...
 
 La idea es tener un lugar donde ponernos de acuerdo para jugar y por supuesto, platicar y conversar sobre nuestros videojuegos favoritos.
 </div>
@@ -39,7 +39,7 @@ La idea es tener un lugar donde ponernos de acuerdo para jugar y por supuesto, p
 </div>
 </div>
 
-Aprovecho y les comparto mis códigos de amigo en [<i class="fas fa-link"></i> Nintendo Switch][4], [<i class="fas fa-link"></i> 3DS][5] y mi [<i class="fas fa-link"></i> Nintendo Network ID de Wii U][6] por si desean agregarme (no olviden [mandarme su código de 3DS][7] para agregarlos yo también).
+Aprovecho y comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switch][4], [<i class="fas fa-link"></i> 3DS][5] (no olvides [mandarme tu código de 3DS][7] para agregarte yo también) y mi [<i class="fas fa-link"></i> Nintendo Network ID de Wii U][6].
 
 <div class="card text-center" id="nintendo-switch">
 <div class="card-body">

@@ -5,12 +5,12 @@ Made with love in Chihuahua, Mexico.
 /* AUTHOR */
 Luis Carlos Pando
 Developer/Designer
-Email: luiscarlos[at]luiscarlospando.net
+Email: hey[at]luiscarlospando.com
 Twitter: @mijo
 Location: Chihuahua, Mexico
 
 /* SITE */
-Last update: 2018/09/25
+Last update: 2019/05/17
 Standards: HTML, HTML5, CSS, CSS3, JSON, XML
 Components: Bootstrap 4, Normalize.css, Modernizr, Animate.css, Font Awesome, Google Fonts
 Language: Spanish

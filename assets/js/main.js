@@ -1,5 +1,5 @@
 /*!
-* LuisCarlosPando.net
+* LuisCarlosPando.com
 * Copyright © 2014-2019 Luis Carlos Pando.
 * Made with love in Chihuahua, Mexico.
 */
@@ -32,7 +32,7 @@
 
         $("#menu .mm-search input").keyup(function (e) {
             if (e.keyCode == 13) {
-                window.location.href = 'https://blog.luiscarlospando.net/?s=' + $(this).val();
+                window.location.href = 'https://blog.luiscarlospando.com/?s=' + $(this).val();
             }
         });
 
@@ -98,7 +98,7 @@
 
         // RSS Feed
         jQuery(function ($) {
-            $("#blog").rss("https://blog.luiscarlospando.net/feed", {
+            $("#blog").rss("https://blog.luiscarlospando.com/feed", {
                 limit: 1,
                 ssl: true,
                 layoutTemplate: "<div style='display: inline;'>{entries}</div>",

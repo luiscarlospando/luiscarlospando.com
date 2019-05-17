@@ -65,4 +65,4 @@ Aprovecho y comparto mis códigos de amigo de [<i class="fas fa-link"></i> Ninte
 [4]: #nintendo-switch
 [5]: #nintendo-3ds
 [6]: #nnid
-[7]: mailto:hey@luiscarlospando.net
+[7]: mailto:{{ site.email }}

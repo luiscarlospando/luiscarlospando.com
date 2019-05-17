@@ -1,5 +1,5 @@
 {
-  "name": "luiscarlospando.net",
+  "name": "luiscarlospando.com",
   "version": "2.6.0",
   "description": "Web developer, punk rocker, beer aficionado and a Nintendo freak since 1990.",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "LuisCarlosPando.net",
+    "LuisCarlosPando.com",
     "Luis Carlos Pando",
     "Web",
     "Development",
@@ -19,9 +19,9 @@
   "author": "Luis Carlos Pando (@mijo)",
   "license": "ISC",
   "bugs": {
-    "url": "https://luiscarlospando.net/contacto"
+    "url": "https://luiscarlospando.com/contacto"
   },
-  "homepage": "https://luiscarlospando.net",
+  "homepage": "https://luiscarlospando.com",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "jquery": "^3.3.1",

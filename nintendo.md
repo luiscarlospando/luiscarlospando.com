@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Nintendo
-description: Les comparto mis códigos de amigo de Nintendo Switch, 3DS y mi Nintendo Network ID de Wii U.
+description: Te comparto mis códigos de amigo de Nintendo Switch, 3DS y mi Nintendo Network ID de Wii U.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
 ---
 
-Les comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switch][1], [<i class="fas fa-link"></i> 3DS][2] (no olvides [mandarme tu código de 3DS][4] para agregarte yo también) y mi [<i class="fas fa-link"></i> Nintendo Network ID de Wii U][3].
+Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switch][1], [<i class="fas fa-link"></i> 3DS][2] (no olvides [mandarme tu código de 3DS][4] para agregarte yo también) y mi [<i class="fas fa-link"></i> Nintendo Network ID de Wii U][3].
 
 <div class="card text-center" id="nintendo-switch">
 <div class="card-body">

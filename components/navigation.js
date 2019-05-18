@@ -40,7 +40,7 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "https://blog.luiscarlospando.net/" },
+                            { href: "https://blog.luiscarlospando.com/" },
                             "Blog"
                         ),
                         React.createElement(
@@ -51,7 +51,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "https://blog.luiscarlospando.net/personal/" },
+                                    { href: "https://blog.luiscarlospando.com/personal/" },
                                     "Personal"
                                 )
                             ),
@@ -60,7 +60,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "https://blog.luiscarlospando.net/musica/" },
+                                    { href: "https://blog.luiscarlospando.com/musica/" },
                                     "M\xFAsica"
                                 )
                             ),
@@ -69,7 +69,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "https://blog.luiscarlospando.net/gaming/" },
+                                    { href: "https://blog.luiscarlospando.com/gaming/" },
                                     "Gaming"
                                 )
                             ),
@@ -78,7 +78,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "https://blog.luiscarlospando.net/tecnologia/" },
+                                    { href: "https://blog.luiscarlospando.com/tecnologia/" },
                                     "Tecnolog\xEDa"
                                 )
                             ),
@@ -87,7 +87,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "https://blog.luiscarlospando.net/coding/" },
+                                    { href: "https://blog.luiscarlospando.com/coding/" },
                                     "Coding"
                                 )
                             ),
@@ -96,7 +96,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "https://blog.luiscarlospando.net/diseno/" },
+                                    { href: "https://blog.luiscarlospando.com/diseno/" },
                                     "Dise\xF1o"
                                 )
                             ),
@@ -105,7 +105,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "https://blog.luiscarlospando.net/todo-lo-demas/" },
+                                    { href: "https://blog.luiscarlospando.com/todo-lo-demas/" },
                                     "Todo lo dem\xE1s"
                                 )
                             ),
@@ -114,7 +114,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "https://blog.luiscarlospando.net/author/me/" },
+                                    { href: "https://blog.luiscarlospando.com/author/me/" },
                                     "Archivos del blog"
                                 )
                             ),
@@ -123,7 +123,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "https://blog.luiscarlospando.net/hashtags/" },
+                                    { href: "https://blog.luiscarlospando.com/hashtags/" },
                                     "Explorar por hashtag"
                                 )
                             ),
@@ -132,7 +132,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "https://blog.luiscarlospando.net/rss/" },
+                                    { href: "https://blog.luiscarlospando.com/rss/" },
                                     "RSS"
                                 )
                             )
@@ -170,7 +170,7 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "#" },
+                            { href: "/nintendo/" },
                             "Nintendo Switch"
                         ),
                         React.createElement(

@@ -11,18 +11,18 @@ class Navigation extends React.Component {
                 <ul>
                     <li><a href="/">Inicio</a></li>
                     <li>
-                        <a href="https://blog.luiscarlospando.net/">Blog</a>
+                        <a href="https://blog.luiscarlospando.com/">Blog</a>
                         <ul>
-                            <li><a href="https://blog.luiscarlospando.net/personal/">Personal</a></li>
-                            <li><a href="https://blog.luiscarlospando.net/musica/">Música</a></li>
-                            <li><a href="https://blog.luiscarlospando.net/gaming/">Gaming</a></li>
-                            <li><a href="https://blog.luiscarlospando.net/tecnologia/">Tecnología</a></li>
-                            <li><a href="https://blog.luiscarlospando.net/coding/">Coding</a></li>
-                            <li><a href="https://blog.luiscarlospando.net/diseno/">Diseño</a></li>
-                            <li><a href="https://blog.luiscarlospando.net/todo-lo-demas/">Todo lo demás</a></li>
-                            <li><a href="https://blog.luiscarlospando.net/author/me/">Archivos del blog</a></li>
-                            <li><a href="https://blog.luiscarlospando.net/hashtags/">Explorar por hashtag</a></li>
-                            <li><a href="https://blog.luiscarlospando.net/rss/">RSS</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/personal/">Personal</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/musica/">Música</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/gaming/">Gaming</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/tecnologia/">Tecnología</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/coding/">Coding</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/diseno/">Diseño</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/todo-lo-demas/">Todo lo demás</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/author/me/">Archivos del blog</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/hashtags/">Explorar por hashtag</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/rss/">RSS</a></li>
                         </ul>
                     </li>
                     <li><a href="/contacto/">Contacto</a></li>
@@ -31,7 +31,7 @@ class Navigation extends React.Component {
                         <a href="/mode7vg/">Mode 7</a>
                     </li>
                     <li>
-                        <a href="#">Nintendo Switch</a>
+                        <a href="/nintendo/">Nintendo Switch</a>
                         <ul>
                             <li><a href="/splatoon-2/">Splatoon 2</a></li>
                             <li><a href="/smash-bros/">Super Smash Bros. Ultimate</a></li>

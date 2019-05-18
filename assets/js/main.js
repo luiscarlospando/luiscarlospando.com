@@ -1,6 +1,6 @@
 /*!
 * LuisCarlosPando.com
-* Copyright © 2014-2019 Luis Carlos Pando.
+* © 2019 Luis Carlos Pando
 * Made with love in Chihuahua, Mexico.
 */
 

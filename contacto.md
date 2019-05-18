@@ -70,7 +70,7 @@ Mi perfil en CodePen es [este][7].
 
 
 [1]: mailto:{{ site.email }}
-[2]: https://m.me/luiscarlospandodotnet
+[2]: https://m.me/luiscarlospandodotcom
 [3]: https://instagram.com/{{ site.instagram_username }}
 [4]: {{ site.mode7_discord }}
 [5]: https://github.com/{{ site.github_username }}

@@ -13,7 +13,7 @@ image: /assets/images/logo.png
 
 Una de las razones que me motivaron a crear este espacio fue mi interés por la tecnología, ― me fue necesario tener [mi propio lugar en Internet 💻][6] para hablar de lo que yo quiera, para equivocarme, escribir principalmente para mi y para hacer cosas que solo a un nerd le gustan hacer. El objetivo aquí es escribir de cosas que traiga en la cabeza, dar mi opinión sin miedo y compartirles algo que considere que valga la pena. 😉
 
-También le [tengo un amor especial a los videojuegos][11], para rendir tributo y hacer de esto algo más divertido de lo que ya es, creé [Mode 7 🎮 🕹️][7] con algunos amigos.
+También le [tengo un amor especial a los videojuegos][11], para rendir tributo y hacer de esto algo más divertido de lo que ya es, creé [Mode 7 🎮 🕹️][7] con algunos amigos. [Aquí][12] pongo los juegos que estoy jugando actualmente.
 
 De manera cotidiana me confundo y confundo a los demás en [Twitter][8] y comparto mi pobre gusto musical en [Last.fm][10] (been there since &rsquo;05, baby!).
 
@@ -30,3 +30,4 @@ Es todo por ahora, gracias por pasar por aquí. 🔥
 [9]: mailto:{{ site.email }}
 [10]: https://www.last.fm/user/hmstarlight/
 [11]: https://backloggery.com/mijo
+[12]: https://{{ site.domain }}/nintendo

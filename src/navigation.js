@@ -9,41 +9,41 @@ class Navigation extends React.Component {
         return (
             <nav id="menu">
                 <ul>
-                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/"><i class="fas fa-home"></i> Inicio</a></li>
                     <li>
-                        <a href="https://blog.luiscarlospando.com/">Blog</a>
+                        <a href="https://blog.luiscarlospando.com/"><i class="fas fa-quote-left"></i> Blog</a>
                         <ul>
-                            <li><a href="https://blog.luiscarlospando.com/personal/">Personal</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/musica/">Música</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/gaming/">Gaming</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/tecnologia/">Tecnología</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/coding/">Coding</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/diseno/">Diseño</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/todo-lo-demas/">Todo lo demás</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/author/me/">Archivos del blog</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/hashtags/">Explorar por hashtag</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/rss/">RSS</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/personal/"><i class="fas fa-user"></i> Personal</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/musica/"><i class="fas fa-music"></i> Música</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/gaming/"><i class="fas fa-gamepad"></i> Gaming</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/tecnologia/"><i class="fas fa-microchip"></i> Tecnología</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/coding/"><i class="fas fa-code"></i> Coding</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/diseno/"><i class="fas fa-paint-brush"></i> Diseño</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/todo-lo-demas/"><i class="fas fa-mouse-pointer"></i> Todo lo demás</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/author/me/"><i class="fas fa-folder-open"></i> Archivos del blog</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/hashtags/"><i class="fas fa-hashtag"></i> Explorar por hashtag</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/rss/"><i class="fas fa-rss-square"></i> RSS</a></li>
                         </ul>
                     </li>
-                    <li><a href="/contacto/">Contacto</a></li>
-                    <li><a href="/apps/">Mis apps favoritas</a></li>
+                    <li><a href="/contacto/"><i class="fas fa-envelope"></i> Contacto</a></li>
+                    <li><a href="/apps/"><i class="fas fa-heart"></i> Mis apps favoritas</a></li>
                     <li>
-                        <a href="/mode7vg/">Mode 7</a>
+                        <a href="/mode7vg/"><i class="fas fa-gamepad"></i> Mode 7</a>
                     </li>
                     <li>
-                        <a href="/nintendo/">Nintendo Switch</a>
+                        <a href="/nintendo/"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</a>
                         <ul>
                             <li><a href="/splatoon-2/">Splatoon 2</a></li>
                             <li><a href="/smash-bros/">Super Smash Bros. Ultimate</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="/live/">Live</a>
+                        <a href="/live/"><i class="fas fa-video"></i> Live</a>
                         <ul>
-                            <li><a href="/live/archivos/">Transmisiones pasadas</a></li>
+                            <li><a href="/live/archivos/"><i class="fas fa-folder-open"></i> Transmisiones pasadas</a></li>
                         </ul>
                     </li>
-                    <li><a href="/acerca-de/">Acerca de</a></li>
+                    <li><a href="/acerca-de/"><i class="fas fa-info-circle"></i> Acerca de</a></li>
                 </ul>
             </nav>
         );

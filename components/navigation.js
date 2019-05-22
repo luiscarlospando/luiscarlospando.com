@@ -32,7 +32,8 @@ var Navigation = function (_React$Component) {
                         React.createElement(
                             "a",
                             { href: "/" },
-                            "Inicio"
+                            React.createElement("i", { "class": "fas fa-home" }),
+                            " Inicio"
                         )
                     ),
                     React.createElement(
@@ -41,7 +42,8 @@ var Navigation = function (_React$Component) {
                         React.createElement(
                             "a",
                             { href: "https://blog.luiscarlospando.com/" },
-                            "Blog"
+                            React.createElement("i", { "class": "fas fa-quote-left" }),
+                            " Blog"
                         ),
                         React.createElement(
                             "ul",
@@ -52,7 +54,8 @@ var Navigation = function (_React$Component) {
                                 React.createElement(
                                     "a",
                                     { href: "https://blog.luiscarlospando.com/personal/" },
-                                    "Personal"
+                                    React.createElement("i", { "class": "fas fa-user" }),
+                                    " Personal"
                                 )
                             ),
                             React.createElement(
@@ -61,7 +64,8 @@ var Navigation = function (_React$Component) {
                                 React.createElement(
                                     "a",
                                     { href: "https://blog.luiscarlospando.com/musica/" },
-                                    "M\xFAsica"
+                                    React.createElement("i", { "class": "fas fa-music" }),
+                                    " M\xFAsica"
                                 )
                             ),
                             React.createElement(
@@ -70,7 +74,8 @@ var Navigation = function (_React$Component) {
                                 React.createElement(
                                     "a",
                                     { href: "https://blog.luiscarlospando.com/gaming/" },
-                                    "Gaming"
+                                    React.createElement("i", { "class": "fas fa-gamepad" }),
+                                    " Gaming"
                                 )
                             ),
                             React.createElement(
@@ -79,7 +84,8 @@ var Navigation = function (_React$Component) {
                                 React.createElement(
                                     "a",
                                     { href: "https://blog.luiscarlospando.com/tecnologia/" },
-                                    "Tecnolog\xEDa"
+                                    React.createElement("i", { "class": "fas fa-microchip" }),
+                                    " Tecnolog\xEDa"
                                 )
                             ),
                             React.createElement(
@@ -88,7 +94,8 @@ var Navigation = function (_React$Component) {
                                 React.createElement(
                                     "a",
                                     { href: "https://blog.luiscarlospando.com/coding/" },
-                                    "Coding"
+                                    React.createElement("i", { "class": "fas fa-code" }),
+                                    " Coding"
                                 )
                             ),
                             React.createElement(
@@ -97,7 +104,8 @@ var Navigation = function (_React$Component) {
                                 React.createElement(
                                     "a",
                                     { href: "https://blog.luiscarlospando.com/diseno/" },
-                                    "Dise\xF1o"
+                                    React.createElement("i", { "class": "fas fa-paint-brush" }),
+                                    " Dise\xF1o"
                                 )
                             ),
                             React.createElement(
@@ -106,7 +114,8 @@ var Navigation = function (_React$Component) {
                                 React.createElement(
                                     "a",
                                     { href: "https://blog.luiscarlospando.com/todo-lo-demas/" },
-                                    "Todo lo dem\xE1s"
+                                    React.createElement("i", { "class": "fas fa-mouse-pointer" }),
+                                    " Todo lo dem\xE1s"
                                 )
                             ),
                             React.createElement(
@@ -115,7 +124,8 @@ var Navigation = function (_React$Component) {
                                 React.createElement(
                                     "a",
                                     { href: "https://blog.luiscarlospando.com/author/me/" },
-                                    "Archivos del blog"
+                                    React.createElement("i", { "class": "fas fa-folder-open" }),
+                                    " Archivos del blog"
                                 )
                             ),
                             React.createElement(
@@ -124,7 +134,8 @@ var Navigation = function (_React$Component) {
                                 React.createElement(
                                     "a",
                                     { href: "https://blog.luiscarlospando.com/hashtags/" },
-                                    "Explorar por hashtag"
+                                    React.createElement("i", { "class": "fas fa-hashtag" }),
+                                    " Explorar por hashtag"
                                 )
                             ),
                             React.createElement(
@@ -133,7 +144,8 @@ var Navigation = function (_React$Component) {
                                 React.createElement(
                                     "a",
                                     { href: "https://blog.luiscarlospando.com/rss/" },
-                                    "RSS"
+                                    React.createElement("i", { "class": "fas fa-rss-square" }),
+                                    " RSS"
                                 )
                             )
                         )
@@ -144,7 +156,8 @@ var Navigation = function (_React$Component) {
                         React.createElement(
                             "a",
                             { href: "/contacto/" },
-                            "Contacto"
+                            React.createElement("i", { "class": "fas fa-envelope" }),
+                            " Contacto"
                         )
                     ),
                     React.createElement(
@@ -153,7 +166,8 @@ var Navigation = function (_React$Component) {
                         React.createElement(
                             "a",
                             { href: "/apps/" },
-                            "Mis apps favoritas"
+                            React.createElement("i", { "class": "fas fa-heart" }),
+                            " Mis apps favoritas"
                         )
                     ),
                     React.createElement(
@@ -162,7 +176,8 @@ var Navigation = function (_React$Component) {
                         React.createElement(
                             "a",
                             { href: "/mode7vg/" },
-                            "Mode 7"
+                            React.createElement("i", { "class": "fas fa-gamepad" }),
+                            " Mode 7"
                         )
                     ),
                     React.createElement(
@@ -171,7 +186,8 @@ var Navigation = function (_React$Component) {
                         React.createElement(
                             "a",
                             { href: "/nintendo/" },
-                            "Nintendo Switch"
+                            React.createElement("i", { "class": "fab fa-nintendo-switch" }),
+                            " Nintendo Switch"
                         ),
                         React.createElement(
                             "ul",
@@ -202,7 +218,8 @@ var Navigation = function (_React$Component) {
                         React.createElement(
                             "a",
                             { href: "/live/" },
-                            "Live"
+                            React.createElement("i", { "class": "fas fa-video" }),
+                            " Live"
                         ),
                         React.createElement(
                             "ul",
@@ -213,7 +230,8 @@ var Navigation = function (_React$Component) {
                                 React.createElement(
                                     "a",
                                     { href: "/live/archivos/" },
-                                    "Transmisiones pasadas"
+                                    React.createElement("i", { "class": "fas fa-folder-open" }),
+                                    " Transmisiones pasadas"
                                 )
                             )
                         )
@@ -224,7 +242,8 @@ var Navigation = function (_React$Component) {
                         React.createElement(
                             "a",
                             { href: "/acerca-de/" },
-                            "Acerca de"
+                            React.createElement("i", { "class": "fas fa-info-circle" }),
+                            " Acerca de"
                         )
                     )
                 )

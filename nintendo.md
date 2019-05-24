@@ -22,7 +22,7 @@ Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switc
 </h3>
 </div>
 <div class="card-footer text-muted">
-<code>Actualizado el 16 de mayo, 2019</code>
+<code>Actualizado el 24 de mayo, 2019</code>
 </div>
 </div>
 

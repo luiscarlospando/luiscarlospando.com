@@ -14,6 +14,7 @@ Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switc
 </div>
 <div class="card-body text-center">
 <h3 class="card-text">
+*Super Mario Maker 2*<br>
 [*Splatoon 2* c/noche][5]<br>
 *SEGA AGES Virtua Racing*<br>
 <span data-toggle="tooltip" data-placement="top" title="Jugando en: Castlevania Anniversary Collection">*Super Castlevania IV*</span><br>

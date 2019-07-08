@@ -18,12 +18,12 @@ Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switc
 [*Splatoon 2* c/noche][5]<br>
 *SEGA AGES Virtua Racing*<br>
 <span data-toggle="tooltip" data-placement="top" title="Jugando en: Castlevania Anniversary Collection">*Super Castlevania IV*</span><br>
-<span data-toggle="tooltip" data-placement="top" title="Jugando en: Sega Genesis Classics">*Phantasy Star IV: The End of the Millennium*</span><br> *Monster Boy and the Cursed Kingdom*
+<span data-toggle="tooltip" data-placement="top" title="Jugando en: Sega Genesis Classics">*Phantasy Star IV: The End of the Millennium*</span><br> *Monster Boy and the Cursed Kingdom*<br>
 *Tetris 99*
 </h3>
 </div>
 <div class="card-footer text-muted">
-<code>Actualizado el 28 de junio, 2019</code>
+<code>Última actualización: 28/07/2019</code>
 </div>
 </div>
 

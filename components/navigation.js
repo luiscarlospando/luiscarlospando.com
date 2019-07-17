@@ -206,6 +206,15 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
+                                    { href: "/super-mario-maker-2/" },
+                                    "Super Mario Maker 2"
+                                )
+                            ),
+                            React.createElement(
+                                "li",
+                                null,
+                                React.createElement(
+                                    "a",
                                     { href: "/smash-bros/" },
                                     "Super Smash Bros. Ultimate"
                                 )

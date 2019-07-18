@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Nintendo
-description: Te comparto mis códigos de amigo de Nintendo Switch, 3DS y mi Nintendo Network ID de Wii U.
+description: Te comparto mis códigos de amigo de Nintendo Switch y Nintendo 3DS.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
 ---
 
-Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switch][1], [<i class="fas fa-link"></i> 3DS][2] (no olvides [mandarme tu código de 3DS][4] para agregarte yo también) y mi [<i class="fas fa-link"></i> Nintendo Network ID de Wii U][3].
+Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switch][1] y [<i class="fas fa-link"></i> Nintendo 3DS][2] (no olvides [mandarme tu código de 3DS][4] para agregarte yo también).
 
 <div class="card text-center">
 <div class="card-header">
@@ -14,16 +14,14 @@ Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switc
 </div>
 <div class="card-body text-center">
 <h3 class="card-text">
-*Super Mario Maker 2*<br>
-[*Splatoon 2* c/noche][5]<br>
-*SEGA AGES Virtua Racing*<br>
-<span data-toggle="tooltip" data-placement="top" title="Jugando en: Castlevania Anniversary Collection">*Super Castlevania IV*</span><br>
+[*Super Mario Maker 2*][6]<br>
+[*Splatoon 2*][5]<br>
 <span data-toggle="tooltip" data-placement="top" title="Jugando en: Sega Genesis Classics">*Phantasy Star IV: The End of the Millennium*</span><br> *Monster Boy and the Cursed Kingdom*<br>
-*Tetris 99*
+*Tetris 99*<br>
 </h3>
 </div>
 <div class="card-footer text-muted">
-<code>Última actualización: 28/07/2019</code>
+<code>Última actualización: 17/07/2019</code>
 </div>
 </div>
 
@@ -39,14 +37,8 @@ Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switc
 </div>
 </div>
 
-<div class="card text-center" id="nnid">
-<div class="card-body">
-### Nintendo Network ID (Wii U): luiscpc85
-</div>
-</div>
-
 [1]: #nintendo-switch
 [2]: #nintendo-3ds
-[3]: #nnid
 [4]: mailto:{{ site.email }}
 [5]: /splatoon-2/
+[6]: /super-mario-maker-2/

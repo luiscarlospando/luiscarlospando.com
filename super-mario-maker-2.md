@@ -2,7 +2,7 @@
 layout: page
 title: Super Mario Maker 2
 description: Esta la información necesaria para jugar Super Mario Maker 2 en línea conmigo y con mis amigos que estamos en Mode 7.
-image: /assets/images/super-mario-maker-2.jpg
+image: /assets/images/banner-smm2.jpg
 permalink: /super-mario-maker-2/
 ---
 
@@ -69,7 +69,7 @@ Para recibir mis notificaciones sobre *Super Mario Maker 2* pueden [seguirme en 
 
 <div class="text-center mt20">
 <a href="https://discord.gg/NUSDKeJ">
-<img class="img-fluid" src="{{ site.url }}/assets/images/super-mario-maker-2.jpg" alt="" />
+<img class="img-fluid" src="{{ site.url }}/assets/images/banner-smm2.jpg" alt="" />
 </a>
 </div>
 

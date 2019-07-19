@@ -68,7 +68,7 @@ Para recibir mis notificaciones sobre *Super Mario Maker 2* pueden [seguirme en 
 ## Super Mario Maker 2 @ Mode 7
 
 <div class="text-center mt20">
-<a href="https://discord.gg/NUSDKeJ">
+<a href="https://discord.gg/t8VtFw7">
 <img class="img-fluid" src="{{ site.url }}/assets/images/banner-smm2.jpg" alt="" />
 </a>
 </div>

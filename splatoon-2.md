@@ -22,7 +22,7 @@ Esta la información necesaria para jugar *Splatoon 2* en línea conmigo y con m
 <div class="col-xs-12 col-sm-6">
 <div class="card">
 <div class="card-header">
-<h5 class="card-title  text-center"><i class="fab fa-discord"></i> Discord</h5>
+<h5 class="card-title text-center"><i class="fab fa-discord"></i> Discord</h5>
 </div>
 <div class="card-body">
 <h3 class="card-text text-center">
@@ -37,12 +37,15 @@ Esta la información necesaria para jugar *Splatoon 2* en línea conmigo y con m
 <div class="col-12">
 <div class="card">
 <div class="card-header">
-<h5 class="card-title  text-center"><i class="fas fa-chart-area"></i> Estadísticas personales (vía stat.ink)</h5>
+<h5 class="card-title text-center"><i class="fas fa-poll"></i> Mi combate más reciente <small>(vía stat.ink)</small></h5>
 </div>
 <div class="card-body">
 <h3 class="card-text text-center">
-[https://stat.ink/@mijo][7]
+<span id="splatlog"></span>
 </h3>
+</div>
+<div class="card-footer text-center">
+<span id="splatlog-timestamp"></span>
 </div>
 </div>
 </div>

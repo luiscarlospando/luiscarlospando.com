@@ -104,6 +104,20 @@
                 layoutTemplate: "<div style='display: inline;'>{entries}</div>",
                 entryTemplate: '<a href="{url}">{title}</a>'
             });
+
+            $("#splatlog").rss("https://stat.ink/@mijo.2.en-US.rss", {
+                limit: 1,
+                ssl: true,
+                layoutTemplate: "<div style='display: inline;'>{entries}</div>",
+                entryTemplate: '<a href="{url}" target="_blank"><i class="fas fa-external-link-alt"></i> {title}</a>'
+            });
+
+            $("#splatlog-timestamp").rss("https://stat.ink/@mijo.2.en-US.rss", {
+                limit: 1,
+                ssl: true,
+                layoutTemplate: "<div style='display: inline;'>{entries}</div>",
+                entryTemplate: '<a href="{url}" target="_blank"><code>{date}</code></a>'
+            });
         });
     });
 

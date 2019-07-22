@@ -3,29 +3,29 @@ layout: page
 title: Super Smash Bros. Ultimate
 description: Esta la información necesaria para jugar Super Smash Bros. Ultimate en línea conmigo y con mis amigos que estamos en Mode 7.
 image: /assets/images/smash-banner.png
-permalink: /smash-bros/
+permalink: /smash/
 ---
 
 Esta la información necesaria para jugar *Super Smash Bros. Ultimate* en línea conmigo y con mis amigos que estamos en [Mode 7][6].
 
 <div class="row">
 <div class="col-xs-12 col-sm-6">
-<div class="card">
+<div class="card text-center">
 <div class="card-header">
-<h5 class="card-title text-center"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</h5>
+<h5 class="card-title"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</h5>
 </div>
 <div class="card-body">
-<h3 class="card-text text-center">SW-3920-3330-9820</h3>
+<h3 class="card-text">SW-3920-3330-9820</h3>
 </div>
 </div>
 </div>
 <div class="col-xs-12 col-sm-6">
-<div class="card">
+<div class="card text-center">
 <div class="card-header">
-<h5 class="card-title  text-center"><i class="fab fa-discord"></i> Discord Tag</h5>
+<h5 class="card-title"><i class="fab fa-discord"></i> Discord Tag</h5>
 </div>
 <div class="card-body">
-<h3 class="card-text text-center">
+<h3 class="card-text">
 Mijo#0438
 </h3>
 </div>

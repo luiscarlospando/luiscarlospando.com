@@ -6,7 +6,7 @@ image: /assets/images/mode-7.png
 permalink: /mode7vg/
 ---
 
-[Mode 7][1] (mode7vg para los compas) es un proyecto que tenemos unos amigos y yo para compartir el amor que sentimos por los videojuegos. Por el momento Mode 7 es un lugar en Discord para hablar de videojuegos y para jugar juntos por su puesto, pero la idea es tener el podcast de Mode 7 en un futuro no muy lejano.
+[Mode 7][1] (Mode7vg para los compas) es un proyecto que tenemos unos amigos y yo para compartir el amor que sentimos por los videojuegos. Por el momento Mode 7 es un lugar en Discord para hablar de videojuegos y para jugar juntos por su puesto, pero la idea es tener el podcast de Mode 7 en un futuro no muy lejano.
 
 <div class="row">
 <div class="col-md-12 col-lg-6">
@@ -24,5 +24,5 @@ La idea es tener un lugar donde ponernos de acuerdo para jugar y por supuesto, p
 </div>
 
 [1]: {{ site.mode7_discord }}
-[2]: /splatoon-2/
-[3]: /smash-bros/
+[2]: /splatoon/
+[3]: /smash/

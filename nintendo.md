@@ -12,7 +12,7 @@ Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switc
 <div class="card-header">
 <h5 class="card-title text-center"><i class="fas fa-gamepad"></i> Actualmente estoy jugando:</h5>
 </div>
-<div class="card-body text-center">
+<div class="card-body">
 <h3 class="card-text">
 [*Super Mario Maker 2*][6]<br>
 [*Splatoon 2*][5]<br>
@@ -37,8 +37,17 @@ Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switc
 </div>
 </div>
 
+---
+
+<div class="card text-center">
+<div class="card-body">
+### <i class="fab fa-discord"></i>Discord Tag: Mijo#0438
+</div>
+</div>
+
+
 [1]: #nintendo-switch
 [2]: #nintendo-3ds
 [4]: mailto:{{ site.email }}
-[5]: /splatoon-2/
-[6]: /super-mario-maker-2/
+[5]: /splatoon/
+[6]: /super-mario-maker/

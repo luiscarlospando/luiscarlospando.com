@@ -10,22 +10,22 @@ Esta la información necesaria para jugar *Super Mario Maker 2* en línea conmig
 
 <div class="row">
 <div class="col-xs-12 col-sm-6">
-<div class="card">
+<div class="card text-center">
 <div class="card-header">
-<h5 class="card-title text-center"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</h5>
+<h5 class="card-title"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</h5>
 </div>
 <div class="card-body">
-<h3 class="card-text text-center">SW-3920-3330-9820</h3>
+<h3 class="card-text">SW-3920-3330-9820</h3>
 </div>
 </div>
 </div>
 <div class="col-xs-12 col-sm-6">
-<div class="card">
+<div class="card text-center">
 <div class="card-header">
-<h5 class="card-title  text-center"><i class="fab fa-discord"></i> Discord Tag</h5>
+<h5 class="card-title"><i class="fab fa-discord"></i> Discord Tag</h5>
 </div>
 <div class="card-body">
-<h3 class="card-text text-center">
+<h3 class="card-text">
 Mijo#0438
 </h3>
 </div>
@@ -35,12 +35,12 @@ Mijo#0438
 
 <div class="row">
 <div class="col-12">
-<div class="card">
+<div class="card text-center">
 <div class="card-header">
-<h5 class="card-title  text-center"><i class="fas fa-user"></i> Super Mario Maker 2 Maker ID</h5>
+<h5 class="card-title"><i class="fas fa-user"></i> Super Mario Maker 2 Maker ID</h5>
 </div>
 <div class="card-body">
-<h3 class="card-text text-center">
+<h3 class="card-text">
 ID: N4H-6H3-T7G
 </h3>
 </div>

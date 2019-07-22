@@ -888,7 +888,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "/splatoon-2/" },
+                                    { href: "/splatoon/" },
                                     "Splatoon 2"
                                 )
                             ),
@@ -897,7 +897,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "/super-mario-maker-2/" },
+                                    { href: "/super-mario-maker/" },
                                     "Super Mario Maker 2"
                                 )
                             ),
@@ -906,7 +906,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "/smash-bros/" },
+                                    { href: "/smash/" },
                                     "Super Smash Bros. Ultimate"
                                 )
                             )

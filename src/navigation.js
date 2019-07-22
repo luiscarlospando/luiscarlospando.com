@@ -33,9 +33,9 @@ class Navigation extends React.Component {
                     <li>
                         <a href="/nintendo/"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</a>
                         <ul>
-                            <li><a href="/splatoon-2/">Splatoon 2</a></li>
-                            <li><a href="/super-mario-maker-2/">Super Mario Maker 2</a></li>
-                            <li><a href="/smash-bros/">Super Smash Bros. Ultimate</a></li>
+                            <li><a href="/splatoon/">Splatoon 2</a></li>
+                            <li><a href="/super-mario-maker/">Super Mario Maker 2</a></li>
+                            <li><a href="/smash/">Super Smash Bros. Ultimate</a></li>
                         </ul>
                     </li>
                     <li>

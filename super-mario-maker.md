@@ -3,7 +3,7 @@ layout: page
 title: Super Mario Maker 2
 description: Esta la información necesaria para jugar Super Mario Maker 2 en línea conmigo y con mis amigos que estamos en Mode 7.
 image: /assets/images/banner-smm2.jpg
-permalink: /super-mario-maker-2/
+permalink: /super-mario-maker/
 ---
 
 Esta la información necesaria para jugar *Super Mario Maker 2* en línea conmigo y con mis amigos que estamos en [Mode 7][6].

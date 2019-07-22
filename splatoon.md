@@ -3,7 +3,7 @@ layout: page
 title: Splatoon 2
 description: Esta la información necesaria para jugar Splatoon 2 en línea conmigo y con mis amigos que estamos en Mode 7.
 image: /assets/images/banner-splatoon2.png
-permalink: /splatoon-2/
+permalink: /splatoon/
 ---
 
 Esta la información necesaria para jugar *Splatoon 2* en línea conmigo y con mis amigos que estamos en [Mode 7][6].

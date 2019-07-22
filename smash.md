@@ -22,11 +22,11 @@ Esta la información necesaria para jugar *Super Smash Bros. Ultimate* en línea
 <div class="col-xs-12 col-sm-6">
 <div class="card">
 <div class="card-header">
-<h5 class="card-title  text-center"><i class="fab fa-discord"></i> Discord</h5>
+<h5 class="card-title  text-center"><i class="fab fa-discord"></i> Discord Tag</h5>
 </div>
 <div class="card-body">
 <h3 class="card-text text-center">
-[Mode 7 (#smash-bros)][1]
+Mijo#0438
 </h3>
 </div>
 </div>

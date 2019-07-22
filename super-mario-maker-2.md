@@ -22,11 +22,11 @@ Esta la información necesaria para jugar *Super Mario Maker 2* en línea conmig
 <div class="col-xs-12 col-sm-6">
 <div class="card">
 <div class="card-header">
-<h5 class="card-title  text-center"><i class="fab fa-discord"></i> Discord</h5>
+<h5 class="card-title  text-center"><i class="fab fa-discord"></i> Discord Tag</h5>
 </div>
 <div class="card-body">
 <h3 class="card-text text-center">
-[Mode 7 (#super-mario-maker-2)][1]
+Mijo#0438
 </h3>
 </div>
 </div>

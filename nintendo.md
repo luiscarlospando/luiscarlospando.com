@@ -41,7 +41,7 @@ Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switc
 
 <div class="card text-center">
 <div class="card-body">
-### <i class="fab fa-discord"></i>Discord Tag: Mijo#0438
+### <i class="fab fa-discord"></i> Discord Tag: Mijo#0438
 </div>
 </div>
 

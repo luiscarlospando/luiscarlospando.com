@@ -109,7 +109,7 @@
                 limit: 1,
                 ssl: true,
                 layoutTemplate: "<div style='display: inline;'>{entries}</div>",
-                entryTemplate: '<a href="{url}" target="_blank">{title} <i class="fas fa-external-link-alt"></i></a>'
+                entryTemplate: '<a href="{url}" target="_blank">{title} <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i></a>'
             });
 
             $("#splatlog-timestamp").rss("https://stat.ink/@mijo.2.en-US.rss", {

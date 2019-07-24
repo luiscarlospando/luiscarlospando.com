@@ -6,7 +6,9 @@ image: /assets/images/banner-smm2.jpg
 permalink: /super-mario-maker/
 ---
 
+<div class="text-center">
 Juega mis niveles y los niveles de la comunidad de [Mode 7][6] en *Super Mario Maker 2.
+</div>
 
 <div class="row">
 <div class="col-xs-12 col-sm-6">

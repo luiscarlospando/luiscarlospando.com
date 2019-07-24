@@ -6,7 +6,9 @@ image: /assets/images/banner-splatoon2.png
 permalink: /splatoon/
 ---
 
+<div class="text-center">
 Juega *Splatoon 2* conmigo y mis amigos que estamos en [Mode 7][6].
+</div>
 
 <div class="row">
 <div class="col-xs-12 col-sm-6">

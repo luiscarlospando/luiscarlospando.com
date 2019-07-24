@@ -6,7 +6,9 @@ image: /assets/images/smash-banner.png
 permalink: /smash/
 ---
 
+<div class="text-center">
 Juega *Super Smash Bros. Ultimate* conmigo y mis amigos que estamos en [Mode 7][6].
+</div>
 
 <div class="row">
 <div class="col-xs-12 col-sm-6">

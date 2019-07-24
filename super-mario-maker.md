@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Super Mario Maker 2
-description: Esta la información necesaria para jugar Super Mario Maker 2 en línea conmigo y con mis amigos que estamos en Mode 7.
+description: Juega mis niveles y los niveles de la comunidad de Mode 7 en Super Mario Maker 2.
 image: /assets/images/banner-smm2.jpg
 permalink: /super-mario-maker/
 ---
 
-Esta la información necesaria para jugar *Super Mario Maker 2* en línea conmigo y con mis amigos que estamos en [Mode 7][6].
+Juega mis niveles y los niveles de la comunidad de [Mode 7][6] en *Super Mario Maker 2.
 
 <div class="row">
 <div class="col-xs-12 col-sm-6">
@@ -53,12 +53,12 @@ ID: N4H-6H3-T7G
 
 ## Información
 
-- Pueden unirse a [Mode 7 (#super-mario-maker-2)][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
-- Pueden revisar todos mis posts sobre *Super Mario Maker 2* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/super-mario-maker-2/">#Super Mario Maker2</a>
+- Puedes unite a [Mode 7 (#super-mario-maker-2)][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
+- Puedes revisar todos mis posts sobre *Super Mario Maker 2* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/super-mario-maker-2/">#Super Mario Maker2</a>
 
 ## <i class="fab fa-twitter"></i> Tweets
 
-Para recibir mis notificaciones sobre *Super Mario Maker 2* pueden [seguirme en Twitter][4].
+Para recibir mis notificaciones sobre *Super Mario Maker 2* puedes [seguirme en Twitter][4].
 
 <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button text-center" data-show-count="false">Follow @{{ site.twitter_username }}</a>
 
@@ -78,7 +78,7 @@ Para recibir mis notificaciones sobre *Super Mario Maker 2* pueden [seguirme en 
 
 ## <i class="fab fa-discord"></i> Discord
 
-Únanse a [Mode 7 (#super-mario-maker-2)][1]. La intención de este Discord es ser útil para armar cotorreo, conocer gente, compartir tus niveles, hablar sobre *Super Mario Maker 2* y mucho más.
+Únete a [Mode 7 (#super-mario-maker-2)][1]. La intención de este Discord es ser útil para armar cotorreo, conocer gente, compartir tus niveles, hablar sobre *Super Mario Maker 2* y mucho más.
 
 [1]: https://discord.gg/t8VtFw7
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw

@@ -6,7 +6,7 @@ image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
 ---
 
-Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switch][1] y [<i class="fas fa-link"></i> Nintendo 3DS][2] (no olvides [mandarme tu código de 3DS][4] para agregarte yo también).
+Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switch][1] y [<i class="fas fa-link"></i> Nintendo 3DS][2] (no olvides [mandarme tu código de 3DS][4] para agregarte yo también). Encuéntrame también en [<i class="fas fa-link"></i> Discord][3].
 
 <div class="card text-center">
 <div class="card-header">
@@ -14,14 +14,16 @@ Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switc
 </div>
 <div class="card-body">
 <h3 class="card-text">
-[*Super Mario Maker 2*][6]<br>
-[*Splatoon 2*][5]<br>
-<span data-toggle="tooltip" data-placement="top" title="Jugando en: Sega Genesis Classics">*Phantasy Star IV: The End of the Millennium*</span><br> *Monster Boy and the Cursed Kingdom*<br>
-*Tetris 99*<br>
+[*Super Mario Maker 2*][5]<br>
+[*Splatoon 2*][4]<br>
+*Doom*<br>
+*Doom II: Hell on Earth*<br>
+*Doom 3*<br>
+<span data-toggle="tooltip" data-placement="top" title="Jugando en: Sega Genesis Classics">*Phantasy Star IV: The End of the Millennium*</span>
 </h3>
 </div>
 <div class="card-footer text-muted">
-<code>Última actualización: 17/07/2019</code>
+<code>Última actualización: 26/07/2019</code>
 </div>
 </div>
 
@@ -39,7 +41,7 @@ Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switc
 
 ---
 
-<div class="card text-center">
+<div class="card text-center" id="discord-tag">
 <div class="card-body">
 ### <i class="fab fa-discord"></i> Discord Tag: Mijo#0438
 </div>
@@ -48,6 +50,6 @@ Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switc
 
 [1]: #nintendo-switch
 [2]: #nintendo-3ds
-[4]: mailto:{{ site.email }}
-[5]: /splatoon/
-[6]: /super-mario-maker/
+[3]: #discord-tag
+[4]: /splatoon/
+[5]: /super-mario-maker/

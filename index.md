@@ -28,6 +28,6 @@ Es todo por ahora, gracias por pasar por aquí. 🔥
 [7]: /mode7vg/
 [8]: https://twitter.com/intent/user?screen_name={{ site.twitter_username }}&lang=es
 [9]: mailto:{{ site.email }}
-[10]: https://www.last.fm/user/hmstarlight/
+[10]: https://last.fm/user/{{ site.lastfm_username }}
 [11]: https://backloggery.com/mijo
 [12]: https://{{ site.domain }}/nintendo

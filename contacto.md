@@ -37,7 +37,10 @@ También puedes contactarme a través de [Messenger][2].
 Mi tag en Discord es <code>{{ site.discord_tag }}</code> y mi servidor en Discord es [Mode 7][4] (feel free to join in!).
 
 ## <i class="fab fa-spotify"></i> Spotify
-Este es mi [perfil en Spotify][8].
+Este es [mi perfil en Spotify][8].
+
+## <i class="fab fa-lastfm"></i> Last.fm
+Este es [mi perfil en Last.fm][12].
 
 ## <i class="fab fa-reddit"></i> Reddit
 Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquier forma este es [mi perfil en Reddit][11].
@@ -80,3 +83,4 @@ Mi perfil en CodePen es [este][7].
 [9]: https://dev.to/{{ site.devto_username }}
 [10]: https://github.com/{{ site.github_username }}/ama
 [11]: https://reddit.com/u/{{ site.reddit_username }}
+[12]: https://last.fm/user/{{ site.lastfm_username }}

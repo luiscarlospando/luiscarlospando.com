@@ -14,30 +14,30 @@ Aquí está el [archivo completo][2] de todos mis posts.
 
 ## Detalles
 
-- Desarrollo y mantengo este sitio con [Visual Studio Code][5] usando mi Mac y muchas tazas de ☕
-- Este sitio es completamente estático y corre con [Jekyll][15], luego hago <code>push</code> de todos mis cambios a un <code>droplet</code> que tengo en [DigitalOcean][10]
-- El logotipo lo hice usando mi [Nintendo Switch][9]
-- Mi dominio lo registré en [Hover][11]
+- Desarrollo y mantengo este sitio con [Visual Studio Code][5]{:target="_blank"} usando mi Mac y muchas tazas de ☕
+- Este sitio es completamente estático y corre con [Jekyll][15]{:target="_blank"}, luego hago <code>push</code> de todos mis cambios en un <code>droplet</code> que tengo en [DigitalOcean][10]{:target="_blank"}
+- El logotipo lo hice usando mi [Nintendo Switch][9]{:target="_blank"}
+- Mi dominio lo registré con [Hover][11]{:target="_blank"}
 
 ## Tecnologías usadas
 
-- [Git][13], obra bajo una [Licencia MIT][24]
-- [npm][14], pueden revisar la licencia aquí: [Licencia][25]
-- [Jekyll][15], obra bajo una [Licencia MIT][26]
-- [React][39], obra bajo una [Licencia MIT][41]
-- [Babel][40], obra bajo una [Licencia MIT][42]
-- [Bootstrap][16], obra bajo una [Licencia MIT][27]
-- [Sass][17], obra bajo una [Licencia MIT][28]
-- [Modernizr][18], obra bajo una [Licencia MIT][29]
-- [Normalize.css][19], obra bajo una [Licencia MIT][30]
-- [Respond.js][20], obra bajo una [Licencia MIT][31]
-- [Font Awesome][21], obra bajo una [Licencia MIT][32]
-- [Animate.css][22], obra bajo una [Licencia MIT][33]
-- [Google Fonts][23], todas las fuentes usadas en este sitio son [Open Source][34]
+- [Git][13]{:target="_blank"}, obra bajo una [Licencia MIT][24]{:target="_blank"}
+- [npm][14]{:target="_blank"}, pueden revisar la licencia aquí: [Licencia][25]{:target="_blank"}
+- [Jekyll][15]{:target="_blank"}, obra bajo una [Licencia MIT][26]{:target="_blank"}
+- [React][39]{:target="_blank"}, obra bajo una [Licencia MIT][41]{:target="_blank"}
+- [Babel][40]{:target="_blank"}, obra bajo una [Licencia MIT][42]{:target="_blank"}
+- [Bootstrap][16]{:target="_blank"}, obra bajo una [Licencia MIT][27]{:target="_blank"}
+- [Sass][17]{:target="_blank"}, obra bajo una [Licencia MIT][28]{:target="_blank"}
+- [Modernizr][18]{:target="_blank"}, obra bajo una [Licencia MIT][29]{:target="_blank"}
+- [Normalize.css][19]{:target="_blank"}, obra bajo una [Licencia MIT][30]{:target="_blank"}
+- [Respond.js][20]{:target="_blank"}, obra bajo una [Licencia MIT][31]{:target="_blank"}
+- [Font Awesome][21]{:target="_blank"}, obra bajo una [Licencia MIT][32]{:target="_blank"}
+- [Animate.css][22]{:target="_blank"}, obra bajo una [Licencia MIT][33]{:target="_blank"}
+- [Google Fonts][23]{:target="_blank"}, todas las fuentes usadas en este sitio son [Open Source][34]{:target="_blank"}
 
 ## Música proporcionada por
 
-- [Spotify][35]
+- [Spotify][35]{:target="_blank"}
 
 ## Suscríbete
 

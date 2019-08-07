@@ -28,22 +28,22 @@ Cuenta personal.
 Cuenta automatizada con posts de mi sitio.
 
 ## <i class="fab fa-facebook-messenger"></i> Messenger
-También puedes contactarme a través de [Messenger][2].
+También puedes contactarme a través de [Messenger][2]{:target="_blank"}.
 
 ## <i class="fab fa-instagram"></i> Instagram
-[Aquí posteo fotos][3] de momentos que considero valen la pena ser compartidos.
+[Aquí posteo fotos][3]{:target="_blank"} de momentos que considero valen la pena ser compartidos.
 
 ## <i class="fab fa-discord"></i> Discord
-Mi tag en Discord es <code>{{ site.discord_tag }}</code> y mi servidor en Discord es [Mode 7][4] (feel free to join in!).
+Mi tag en Discord es <code>{{ site.discord_tag }}</code> y mi servidor en Discord es [Mode 7][4]{:target="_blank"} (feel free to join in!).
 
 ## <i class="fab fa-spotify"></i> Spotify
-Este es [mi perfil en Spotify][8].
+Este es [mi perfil en Spotify][8]{:target="_blank"}.
 
 ## <i class="fab fa-lastfm"></i> Last.fm
-Este es [mi perfil en Last.fm][12].
+Este es [mi perfil en Last.fm][12]{:target="_blank"}.
 
 ## <i class="fab fa-reddit"></i> Reddit
-Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquier forma este es [mi perfil en Reddit][11].
+Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquier forma este es [mi perfil en Reddit][11]{:target="_blank"}.
 
 ## <i class="fas fa-code"></i> Developer Stuff
 
@@ -52,24 +52,24 @@ Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquie
 ### <i class="fab fa-github"></i> GitHub
 <a class="github-button" href="https://github.com/{{ site.github_username }}" aria-label="Follow @{{ site.github_username }} on GitHub">Follow @{{ site.github_username }}</a>
 
-Parte de mi trabajo se puede encontrar [aquí][5].
+Parte de mi trabajo se puede encontrar [aquí][5]{:target="_blank"}.
 
 ### <i class="fas fa-code-branch"></i> Ask me anything (AMA) @ GitHub
-[Tengo un repo en GitHub][10] para que me preguntes lo que sea, solo es cuestión de [abrir](https://github.com/{{ site.github_username }}/ama/issues/new) un nuevo `issue`.
+[Tengo un repo en GitHub][10] para que me preguntes lo que sea, solo es cuestión de [abrir](https://github.com/{{ site.github_username }}/ama/issues/new){:target="_blank"} un nuevo `issue`.
 
 ### <i class="fab fa-gitlab"></i> GitLab
-También parte de mi trabajo se puede encontrar [aquí][6].
+También parte de mi trabajo se puede encontrar [aquí][6]{:target="_blank"}.
 
 ### <i class="fab fa-stack-overflow"></i> Stack Overflow
-<a href="https://stackoverflow.com/users/2197860/luis-carlos-pando">
+<a href="https://stackoverflow.com/users/2197860/luis-carlos-pando" target="_blank">
     <img src="https://stackoverflow.com/users/flair/2197860.png?theme=dark" width="208" height="58" alt="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 </a>
 
 ### <i class="fab fa-dev"></i> Dev.to
-Me puedes encontrar en Dev.to [aquí][9].
+Me puedes encontrar en Dev.to [aquí][9]{:target="_blank"}.
 
 ### <i class="fab fa-codepen"></i> CodePen
-Mi perfil en CodePen es [este][7].
+Mi perfil en CodePen es [este][7]{:target="_blank"}.
 
 
 [1]: mailto:{{ site.email }}

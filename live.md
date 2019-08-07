@@ -14,7 +14,7 @@ permalink: /live/
   <iframe class="embed-responsive-item" src="https://gaming.youtube.com/embed/live_stream?channel=UCYPxthHLMvx9exdHlqRDIiQ" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Este es [mi canal de YouTube Gaming][1], puedes ver mis streams pasados [aquí][2].
+Este es [mi canal de YouTube Gaming][1]{:target="_blank"}, puedes ver mis streams pasados [aquí][2].
 
 ---
 
@@ -24,7 +24,7 @@ Este es [mi canal de YouTube Gaming][1], puedes ver mis streams pasados [aquí][
   <iframe src="https://player.twitch.tv/?channel=itsmemijo" frameborder="0" allowfullscreen="true" scrolling="no"></iframe><a href="https://www.twitch.tv/itsmemijo?tt_content=text_link&tt_medium=live_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;">Ver vídeo en directo de ItsMeMijo en www.twitch.tv</a>
 </div>
 
-Y este es [mi canal de Twitch][3].
+Y este es [mi canal de Twitch][3]{:target="_blank"}.
 
 [1]: https://gaming.youtube.com/LuisCarlosPando
 [2]: /live/archivos/

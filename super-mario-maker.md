@@ -55,7 +55,7 @@ ID: N4H-6H3-T7G
 
 ## Información
 
-- Puedes unite a [Mode 7 (#super-mario-maker-2)][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
+- Puedes unite a [Mode 7 (#super-mario-maker-2)][1]{:target="_blank"} en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Puedes revisar todos mis posts sobre *Super Mario Maker 2* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/super-mario-maker-2/">#Super Mario Maker2</a>
 
 ## <i class="fab fa-twitter"></i> Tweets
@@ -70,7 +70,7 @@ Para recibir mis notificaciones sobre *Super Mario Maker 2* puedes [seguirme en 
 ## Super Mario Maker 2 @ Mode 7
 
 <div class="text-center mt20">
-<a href="https://discord.gg/t8VtFw7">
+<a href="https://discord.gg/t8VtFw7" target="_blank">
 <img class="img-fluid" src="{{ site.url }}/assets/images/banner-smm2.jpg" alt="" />
 </a>
 </div>
@@ -80,7 +80,7 @@ Para recibir mis notificaciones sobre *Super Mario Maker 2* puedes [seguirme en 
 
 ## <i class="fab fa-discord"></i> Discord
 
-Únete a [Mode 7 (#super-mario-maker-2)][1]. La intención de este Discord es ser útil para armar cotorreo, conocer gente, compartir tus niveles, hablar sobre *Super Mario Maker 2* y mucho más.
+Únete a [Mode 7 (#super-mario-maker-2)][1]{:target="_blank"}. La intención de este Discord es ser útil para armar cotorreo, conocer gente, compartir tus niveles, hablar sobre *Super Mario Maker 2* y mucho más.
 
 [1]: https://discord.gg/t8VtFw7
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw

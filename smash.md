@@ -40,7 +40,7 @@ Mijo#0438
 
 ## <i class="fas fa-gamepad"></i> Modos de Juego
 
-- Mode 7 Battle Arena (preguntar ID vía [#smash-bros en Mode 7][1])
+- Mode 7 Battle Arena (preguntar ID vía [#smash-bros en Mode 7][1]{:target="_blank"})
     - Tipo: All Skill Levels
     - Formato: 2/4-Player Smash
     - Reglas: 3 Stock 10:00
@@ -63,7 +63,7 @@ Para recibir mis notificaciones sobre *Super Smash Bros. Ultimate* puedes [segui
 ## Super Smash Bros. Ultimate @ Mode 7
 
 <div class="text-center mt20">
-<a href="https://discord.gg/3Tws9AQ">
+<a href="https://discord.gg/3Tws9AQ" target="_blank">
 <img class="img-fluid" src="{{ site.url }}/assets/images/smash-banner.png" alt="" />
 </a>
 </div>
@@ -73,11 +73,11 @@ Para recibir mis notificaciones sobre *Super Smash Bros. Ultimate* puedes [segui
 
 ## <i class="fas fa-microphone"></i> Chat de voz
 
-Para chat de voz utilizo [Discord][1] usando el [canal de voz *Smash Bros.* dentro de Mode 7][5].
+Para chat de voz utilizo [Discord][1]{:target="_blank"} usando el [canal de voz *Smash Bros.* dentro de Mode 7][5].
 
 ## <i class="fab fa-discord"></i> Discord
 
-Únete a [Mode 7 (#smash-bros)][1]. La intención de este Discord es ser útil para armar partidas, armar cotorreo, conocer gente, jugar, hablar sobre *Super Smash Bros. Ultimate* y mucho más.
+Únete a [Mode 7 (#smash-bros)][1]{:target="_blank"}. La intención de este Discord es ser útil para armar partidas, armar cotorreo, conocer gente, jugar, hablar sobre *Super Smash Bros. Ultimate* y mucho más.
 
 [1]: https://discord.gg/3Tws9AQ
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw

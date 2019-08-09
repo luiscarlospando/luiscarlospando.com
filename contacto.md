@@ -45,6 +45,9 @@ Este es [mi perfil en Last.fm][12]{:target="_blank"}.
 ## <i class="fab fa-reddit"></i> Reddit
 Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquier forma este es [mi perfil en Reddit][11]{:target="_blank"}.
 
+## <i class="fab fa-twitch"></i> Twitch
+[Tengo un canal en Twitch][13]{:target="_blank"}, muy inactivo por lo pronto, la idea es llenarlo de vida uno de estos días.
+
 ## <i class="fas fa-code"></i> Developer Stuff
 
 ---
@@ -84,3 +87,4 @@ Mi perfil en CodePen es [este][7]{:target="_blank"}.
 [10]: https://github.com/{{ site.github_username }}/ama
 [11]: https://reddit.com/u/{{ site.reddit_username }}
 [12]: https://last.fm/user/{{ site.lastfm_username }}
+[13]: https://twitch.tv/{{ site.twitch_username }}

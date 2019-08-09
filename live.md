@@ -28,4 +28,4 @@ Y este es [mi canal de Twitch][3]{:target="_blank"}.
 
 [1]: https://gaming.youtube.com/LuisCarlosPando
 [2]: /live/archivos/
-[3]: https://www.twitch.tv/itsmemijo
+[3]: https://www.twitch.tv/{{ site.twitch_username }}

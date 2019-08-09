@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
-description: Web developer, punk rocker, beer aficionado and a Nintendo freak since 1990. | Desarrollador web, punk rocker, aficionado de la cerveza y un fan de Nintendo desde 1990.
+description: Web developer 💻, punk rocker 🤘, beer aficionado 🍺 and a Nintendo freak 🕹 since 1990. Probably better than you at Mario Kart 🏁.
 image: /assets/images/logo.png
 ---
 

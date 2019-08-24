@@ -47,9 +47,9 @@ Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switc
 </div>
 <div class="card-body">
 <div class="input-group justify-content-center">
-<input type="text" class="form-control" id="discord-tag" value="Mijo#0438" aria-label="" aria-describedby readonly>
+<input type="text" class="form-control" id="discord-tag-value" value="Mijo#0438" aria-label="" aria-describedby readonly>
 <div class="input-group-append">
-<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag" data-toggle="tooltip" data-placement="top" title="Copiar al portapapeles"><i class="fas fa-clipboard"></i></button>
+<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag-value" data-toggle="tooltip" data-placement="top" title="Copiar al portapapeles"><i class="fas fa-clipboard"></i></button>
 </div>
 </div>
 </div>

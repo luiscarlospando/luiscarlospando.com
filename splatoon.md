@@ -27,9 +27,12 @@ Juega *Splatoon 2* conmigo y mis amigos que estamos en [Mode 7][6].
 <h5 class="card-title text-center"><i class="fab fa-discord"></i> Discord Tag</h5>
 </div>
 <div class="card-body">
-<h3 class="card-text text-center">
-Mijo#0438
-</h3>
+<div class="input-group justify-content-center">
+<input type="text" class="form-control" id="discord-tag" value="Mijo#0438" aria-label="" aria-describedby readonly>
+<div class="input-group-append">
+<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag" data-toggle="tooltip" data-placement="top" title="Copiar al portapapeles"><i class="fas fa-clipboard"></i></button>
+</div>
+</div>
 </div>
 </div>
 </div>

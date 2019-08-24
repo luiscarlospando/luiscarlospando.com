@@ -27,9 +27,12 @@ Juega mis niveles y los niveles de la comunidad de [Mode 7][6] en *Super Mario M
 <h5 class="card-title"><i class="fab fa-discord"></i> Discord Tag</h5>
 </div>
 <div class="card-body">
-<h3 class="card-text">
-Mijo#0438
-</h3>
+<div class="input-group justify-content-center">
+<input type="text" class="form-control" id="discord-tag" value="Mijo#0438" aria-label="" aria-describedby readonly>
+<div class="input-group-append">
+<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag" data-toggle="tooltip" data-placement="top" title="Copiar al portapapeles"><i class="fas fa-clipboard"></i></button>
+</div>
+</div>
 </div>
 </div>
 </div>

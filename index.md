@@ -30,4 +30,4 @@ Es todo por ahora. Tal vez no sepas ni como llegaste aquí, pero aún así graci
 [9]: mailto:{{ site.email }}
 [10]: https://last.fm/user/{{ site.lastfm_username }}
 [11]: https://backloggery.com/mijo
-[12]: https://{{ site.domain }}/nintendo
+[12]: /nintendo/

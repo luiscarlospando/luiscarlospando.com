@@ -215,6 +215,30 @@ h6 {
     .card-footer {
         background-color: $cardFooterBgColor;
     }
+
+    .input-group {
+        width: 100%;
+
+        .form-control {
+            font-family: "Liberation Mono", "Courier New", monospace;
+            font-size: 1.5rem;
+            background-color: transparent;
+            border: 1px solid $fifthColor;
+            color: $linkColor;
+        }
+
+        .btn-outline-secondary {
+            color: $linkColor;
+            border-color: transparent;
+        }
+
+        .btn-outline-secondary:hover,
+        .btn-outline-secondary:focus {
+            color: $linkColor;
+            border-color: transparent;
+            background-color: transparent;
+        }
+    }
 }
 
 .last-updated {

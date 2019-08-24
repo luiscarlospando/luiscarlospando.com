@@ -1,7 +1,7 @@
 {
   "name": "luiscarlospando.com",
-  "version": "2.6.0",
-  "description": "Web developer, punk rocker, beer aficionado and a Nintendo freak since 1990.",
+  "version": "2.7.0",
+  "description": "Web developer 💻, punk rocker 🤘, beer aficionado 🍺 and a Nintendo freak 🕹 since 1990. Probably better than you at Mario Kart 🏁.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,6 +24,7 @@
   "homepage": "https://luiscarlospando.com",
   "dependencies": {
     "bootstrap": "^4.1.3",
+    "clipboard": "^2.0.4",
     "jquery": "^3.4.1",
     "jquery-rss": "^3.3.0",
     "popper.js": "^1.14.4"

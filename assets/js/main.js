@@ -125,5 +125,8 @@
     window.FontAwesomeConfig = {
         searchPseudoElements: true
     }
-    
+
+    // Copy to clipboard instantiation
+    new ClipboardJS('.btn');
+
 })();

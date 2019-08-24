@@ -16,14 +16,12 @@ Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switc
 <h3 class="card-text">
 [*Super Mario Maker 2*][5]<br>
 [*Splatoon 2*][4]<br>
-*Doom*<br>
-*Doom II: Hell on Earth*<br>
-*Doom 3*<br>
+*Dragon Quest XI S* (Demo)<br>
 <span data-toggle="tooltip" data-placement="top" title="Jugando en: Sega Genesis Classics">*Phantasy Star IV: The End of the Millennium*</span>
 </h3>
 </div>
 <div class="card-footer text-muted">
-<code>Última actualización: 26/07/2019</code>
+<code>Última actualización: 22/08/2019</code>
 </div>
 </div>
 

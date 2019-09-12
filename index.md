@@ -25,7 +25,7 @@ Es todo por ahora. Tal vez no sepas ni como llegaste aquí, pero aún así graci
 [4]: https://www.instagram.com/primitivegirl
 [5]: http://hitz-musik.net
 [6]: https://blog.{{ site.domain }}/
-[7]: /mode7vg/
+[7]: /mode7gg/
 [8]: https://twitter.com/intent/user?screen_name={{ site.twitter_username }}&lang=es
 [9]: mailto:{{ site.email }}
 [10]: https://last.fm/user/{{ site.lastfm_username }}

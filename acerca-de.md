@@ -1,23 +1,23 @@
 ---
 layout: page
 title: Acerca de
-description: Esta URL ha sido mi hogar en línea desde 2014 (ojalá hubiera empezado antes), en donde intento unificar mi presencia en Internet, un solo lugar en donde se me pueda encontrar. Como menciono en mi homepage, este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo que valen la pena leerse, dar mi opinión y ofrecer mis recomendaciones.
+description: Esta URL ha sido mi hogar en línea desde 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado 385 entradas en total y es en este lugar donde intento unificar mi presencia en línea.
 image: /assets/images/logo.png
 permalink: /acerca-de/
 ---
 
 <h2 class="subtitulo text-center"><small class="text-muted">{{ site.title }} v{{ site.version }}</small></h2>
 
-Este URL ha sido mi hogar en línea desde octubre de 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado **376 entradas en total** y aquí mismo es donde intento unificar mi presencia en línea. Justo como lo mencioné en la [portada][1], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, ofrecer algunas recomendaciones y dar algunos consejos. 
+Este URL ha sido mi hogar en línea desde octubre de 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado **385 entradas en total** y es en este lugar donde intento unificar mi presencia en línea. Justo como lo mencioné en la [portada][1], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, ofrecer algunas recomendaciones y dar algunos consejos. 
 
 Aquí está el [archivo completo][2] de todos mis posts.
 
 ## Detalles
 
-- Desarrollo y mantengo este sitio con [Visual Studio Code][5]{:target="_blank"} usando mi Mac y muchas tazas de ☕
-- Este sitio es completamente estático y corre con [Jekyll][15]{:target="_blank"}, luego hago <code>push</code> de todos mis cambios en un <code>droplet</code> que tengo en [DigitalOcean][10]{:target="_blank"}
+- Desarrollo y mantengo este sitio usando [Visual Studio Code][5]{:target="_blank"} en mi Mac y tomando muchas tazas de ☕
+- Este sitio es completamente estático y generado con [Jekyll][15]{:target="_blank"}, luego hago <code>push</code> de todos mis cambios en un <code>droplet</code> que tengo en [DigitalOcean][10]{:target="_blank"}
 - El logotipo lo hice usando mi [Nintendo Switch][9]{:target="_blank"}
-- Mi dominio lo registré con [Hover][11]{:target="_blank"}
+- Mi dominio está registrado con [Hover][11]{:target="_blank"}
 
 ## Tecnologías usadas
 
@@ -33,6 +33,7 @@ Aquí está el [archivo completo][2] de todos mis posts.
 - [Respond.js][20]{:target="_blank"}, obra bajo una [Licencia MIT][31]{:target="_blank"}
 - [Font Awesome][21]{:target="_blank"}, obra bajo una [Licencia MIT][32]{:target="_blank"}
 - [Animate.css][22]{:target="_blank"}, obra bajo una [Licencia MIT][33]{:target="_blank"}
+- [Prism.js][43]{:target="_blank"}, obra bajo una [Licencia MIT][44]{:target="_blank"}
 - [Google Fonts][23]{:target="_blank"}, todas las fuentes usadas en este sitio son [Open Source][34]{:target="_blank"}
 
 ## Música proporcionada por
@@ -84,3 +85,5 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [40]: https://babeljs.io/
 [41]: https://github.com/facebook/react/blob/master/LICENSE
 [42]: https://github.com/babel/babel/blob/master/LICENSE
+[43]: https://prismjs.com
+[44]: https://github.com/PrismJS/prism/blob/master/LICENSE

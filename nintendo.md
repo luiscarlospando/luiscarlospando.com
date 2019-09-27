@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Nintendo
-description: Te comparto mis códigos de amigo de Nintendo Switch y Nintendo 3DS.
+description: Aquí pongo mis códigos de Nintendo Switch y Nintendo 3DS. También estoy en Discord.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
 ---
 
-Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switch][1] y [<i class="fas fa-link"></i> Nintendo 3DS][2] (no olvides [mandarme tu código de 3DS][4] para agregarte yo también). Encuéntrame también en [<i class="fas fa-link"></i> Discord][3].
+Aquí pongo mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y [<i class="fas fa-link"></i> Nintendo 3DS][2] (no olvides [mandarme tu código de 3DS][4] para agregarte yo también). También estoy en [<i class="fas fa-link"></i> Discord][3].
 
 <div class="card text-center">
 <div class="card-header">
@@ -14,14 +14,15 @@ Te comparto mis códigos de amigo de [<i class="fas fa-link"></i> Nintendo Switc
 </div>
 <div class="card-body">
 <h3 class="card-text">
+*Doom (1993)*<br>
+*Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition*<br>
 [*Super Mario Maker 2*][5]<br>
 [*Splatoon 2*][4]<br>
-*Dragon Quest XI S* (Demo)<br>
 <span data-toggle="tooltip" data-placement="top" title="Jugando en: Sega Genesis Classics">*Phantasy Star IV: The End of the Millennium*</span>
 </h3>
 </div>
 <div class="card-footer text-muted">
-<code>Última actualización: 22/08/2019</code>
+<code>Última actualización: 27/09/2019</code>
 </div>
 </div>
 

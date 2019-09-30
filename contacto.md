@@ -9,11 +9,9 @@ permalink: /contacto/
 <p class="text-center">Gracias por tu interés en comunicarte conmigo. 😃</p>
 
 ## <i class="fas fa-envelope"></i> Email
-
-Mi forma principal de contacto es [{{ site.email }}][1].
+Mi principal medio de contacto es [{{ site.email }}][1].
 
 ## <i class="fab fa-twitter"></i> Twitter
-
 <div class="twitter-btns">
 <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-lang="es">Seguir a @{{ site.twitter_username }}</a>
 <a href="https://twitter.com/intent/tweet?screen_name={{ site.twitter_username }}" class="twitter-mention-button" data-lang="es" data-related="{{ site.twitter_username }},{{ site.twitter_feed }}">Tweet to @{{ site.twitter_username }}</a>
@@ -29,6 +27,9 @@ Cuenta automatizada con posts de mi sitio.
 
 ## <i class="fab fa-facebook-messenger"></i> Messenger
 También puedes contactarme a través de [Messenger][2]{:target="_blank"}.
+
+## <i class="fab fa-google"></i> Google Forms
+Si lo prefieres, puedes escribirme por [aquí][14]{:target="_blank"}.
 
 ## <i class="fab fa-instagram"></i> Instagram
 [Aquí posteo fotos][3]{:target="_blank"} de momentos que considero valen la pena ser compartidos.
@@ -88,3 +89,4 @@ Mi perfil en CodePen es [este][7]{:target="_blank"}.
 [11]: https://reddit.com/u/{{ site.reddit_username }}
 [12]: https://last.fm/user/{{ site.lastfm_username }}
 [13]: https://twitch.tv/{{ site.twitch_username }}
+[14]: https://forms.gle/RAUiuVmfByzAuQuQA

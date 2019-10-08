@@ -192,6 +192,12 @@ h6 {
     // font-size: 14px;
 }
 
+header,
+.site-body,
+footer {
+    opacity: 0;
+}
+
 .card {
     background-color: #000;
     border: 1px solid $fifthColor;

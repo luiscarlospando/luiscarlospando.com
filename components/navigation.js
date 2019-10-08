@@ -175,7 +175,7 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "/mode7vg/" },
+                            { href: "/mode7gg/" },
                             React.createElement("i", { "class": "fas fa-gamepad" }),
                             " Mode 7"
                         )

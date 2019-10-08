@@ -28,7 +28,7 @@ class Navigation extends React.Component {
                     <li><a href="/contacto/"><i class="fas fa-envelope"></i> Contacto</a></li>
                     <li><a href="/apps/"><i class="fas fa-heart"></i> Mis apps favoritas</a></li>
                     <li>
-                        <a href="/mode7vg/"><i class="fas fa-gamepad"></i> Mode 7</a>
+                        <a href="/mode7gg/"><i class="fas fa-gamepad"></i> Mode 7</a>
                     </li>
                     <li>
                         <a href="/nintendo/"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</a>

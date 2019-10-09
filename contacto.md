@@ -38,6 +38,7 @@ Si lo prefieres, puedes escribirme por [aquí][14]{:target="_blank"}.
 Mi tag en Discord es <code>{{ site.discord_tag }}</code> y mi servidor en Discord es [Mode 7][4]{:target="_blank"} (feel free to join in!).
 
 ## <i class="fab fa-spotify"></i> Spotify
+<iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:1269830478&size=detail&theme=dark&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
 Este es [mi perfil en Spotify][8]{:target="_blank"}.
 
 ## <i class="fab fa-lastfm"></i> Last.fm

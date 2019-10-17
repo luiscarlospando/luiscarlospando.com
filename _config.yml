@@ -17,8 +17,7 @@ title: LuisCarlosPando.com
 version: 2.7.0
 author: Luis Carlos Pando
 email: hey@luiscarlospando.com
-description: >- # this means to ignore newlines until "baseurl:"
-  I do stuff for the web 💻, love punk rock 🤘, sort of a vinyl junkie 🎧 and a Nintendo freak 🕹 since 1990. Probably better than you at Mario Kart 🏁.
+description: I do stuff for the web 💻, love punk rock 🤘, sort of a vinyl junkie 🎧 and a Nintendo freak 🕹 since 1990. Probably better than you at Mario Kart 🏁.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://luiscarlospando.com" # the base hostname & protocol for your site, e.g. http://example.com
 domain: luiscarlospando.com

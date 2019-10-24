@@ -42,7 +42,7 @@ Juega *Splatoon 2* conmigo y mis amigos que estamos en [Mode 7][6].
 <div class="col-12">
 <div class="card text-center">
 <div class="card-header">
-<h5 class="card-title"><i class="fas fa-poll"></i> Mi combate más reciente <small>(vía stat.ink)</small></h5>
+<h5 class="card-title"><i class="fas fa-poll"></i> Mi combate más reciente <small class="font-italic">(vía <a href="https://stat.ink/@mijo/spl2" target="_blank">stat.ink</a>)</small></h5>
 </div>
 <div class="card-body">
 <h3 class="card-text">

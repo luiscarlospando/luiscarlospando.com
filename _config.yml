@@ -43,13 +43,16 @@ markdown: kramdown
 kramdown:
   parse_block_html: true
 # theme: minima
-#plugins:
+plugins:
+- jekyll-info
 #  - jekyll-feed
 sass:
   sass_dir: _sass
   style: compressed
 asset_pipeline:
   compress: true
+info:
+  production: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -36,6 +36,17 @@
             }
         });
 
+        // Add Animate.css
+        var header = document.querySelector('header');
+        var siteBody = document.querySelector('.site-body');
+        var footer = document.querySelector('footer');
+
+        setTimeout(function () {
+            header.classList.add('animated', 'fadeInDown');
+        }, 800);
+        siteBody.classList.add('animated', 'fadeIn');
+        footer.classList.add('animated', 'fadeIn');
+
         // Enable Last.fm last played song
         $('#lastfm').lastplayed({
             apikey: '0665c6724df040e8c33e44b1eb1ba888',

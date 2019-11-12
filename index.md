@@ -13,7 +13,7 @@ image: /assets/images/logo.png
 
 Una de las razones que me motivaron a crear este espacio fue mi interés en la tecnología 👨‍💻 y en la web 🌐, ― sentí la necesidad de tener [mi propio lugar en Internet 🔖][6] para hablar de lo que yo quisiera, para equivocarme, escribir principalmente para mi y para hacer cosas que solo a los nerds le gustan hacer. El objetivo aquí es escribir sobre lo que traiga en la cabeza, dar mi opinión sin miedo 😎 y compartirles cosas que considero que valen la pena. 😉
 
-[Le tengo un amor especial a los videojuegos][11]{:target="_blank"} y para rendir tributo y hacer de esto algo más divertido de lo que ya es, creé [Mode 7 🎮 🕹️][7] con algunos amigos.
+[Le tengo un amor especial a los videojuegos][11]{:target="_blank"} y para rendir tributo y hacer de esto algo más divertido de lo que ya es, creé [Mode 7 🎮 🕹️][7] con algunos amigos. Ah, [tengo un canal en Twitch][3] que ni uso.
 
 También de manera cotidiana, me confundo y confundo a los demás en [Twitter][8]. Y toda la música que escucho la voy documentando y la comparto en mi perfil de [Last.fm 🎵][10]{:target="_blank"} (been there since &rsquo;05, baby!).
 
@@ -21,7 +21,7 @@ Es todo por ahora. Tal vez no sepas ni como llegaste aquí, pero aún así graci
 
 [1]: https://es.wikipedia.org/wiki/Chihuahua_(Chihuahua)
 [2]: https://github.com/{{ site.github_username }}
-[3]: /live/
+[3]: /twitch/
 [4]: https://www.instagram.com/primitivegirl
 [5]: http://hitz-musik.net
 [6]: https://blog.{{ site.domain }}/

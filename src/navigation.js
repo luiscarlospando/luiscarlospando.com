@@ -39,9 +39,13 @@ class Navigation extends React.Component {
                         </ul>
                     </li>
                     <li>
-                        <a href="/live/"><i class="fas fa-video"></i> Live</a>
+                        <a href="#"><i class="fas fa-video"></i> Live</a>
                         <ul>
-                            <li><a href="/live/archivos/"><i class="fas fa-folder-open"></i> Transmisiones pasadas</a></li>
+                            <li><a href="/twitch/"><i class="fab fa-folder-open"></i> Twitch</a></li>
+                            <li><a href="/youtube/"><i class="fab fa-folder-open"></i> YouTube</a></li>
+                            <ul>
+                                <li><a href="/youtube/archivos/"><i class="fas fa-folder-open"></i> Transmisiones pasadas</a></li>
+                            </ul>
                         </ul>
                     </li>
                     <li><a href="/acerca-de/"><i class="fas fa-info-circle"></i> Acerca de</a></li>

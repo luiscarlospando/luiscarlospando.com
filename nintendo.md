@@ -14,14 +14,14 @@ Aquí pongo mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y [
 </div>
 <div class="card-body">
 <h3 class="card-text">
-*Luigi's Mansion 3*<br>
+*Pokémon Sword*<br>
 *Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition*<br>
 [*Splatoon 2*][4]<br>
 <span data-toggle="tooltip" data-placement="top" title="Jugando en: Sega Genesis Classics">*Phantasy Star IV: The End of the Millennium*</span>
 </h3>
 </div>
 <div class="card-footer text-muted">
-<code>Última actualización: 31/10/2019</code>
+<code>Última actualización: 25/11/2019</code>
 </div>
 </div>
 

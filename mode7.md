@@ -9,7 +9,7 @@ permalink: /mode7gg/
 [Mode 7][1]{:target="_blank"} (Mode7gg para los compas) es un proyecto que tenemos unos amigos y yo para compartir el amor que sentimos por los videojuegos. Por el momento Mode 7 es un lugar en Discord para hablar de videojuegos y para jugar juntos por su puesto, pero la idea es tener el podcast de Mode 7 en un futuro no muy lejano.
 
 <div class="row">
-<div class="col-md-12 col-lg-6">
+<div class="col-md-12 col-lg-6 my-auto">
 ## <i class="fab fa-discord"></i> Discord
 #### [Mode 7 <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i>][1]{:target="_blank"}
 *<small>Videojuegos clásicos y modernos. Aquí solamente hablamos de los juegos que más nos gustan.</small>*
@@ -18,8 +18,15 @@ permalink: /mode7gg/
 
 La idea es tener un lugar donde ponernos de acuerdo para jugar y por supuesto, platicar y conversar sobre nuestros videojuegos favoritos.
 </div>
-<div class="col-md-12 col-lg-6">
-<iframe src="https://discordapp.com/widget?id=478777821087662092&theme=dark" width="100%" height="340" allowtransparency="true" frameborder="0"></iframe>
+<div class="col-md-12 col-lg-6 my-auto">
+<widgetbot
+  server="478777821087662092"
+  channel="478782494666129419"
+  width="100%"
+  height="380"
+  shard="https://disweb.dashflo.net"
+></widgetbot>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
 </div>
 </div>
 

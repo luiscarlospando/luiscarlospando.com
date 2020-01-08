@@ -67,11 +67,11 @@ Juega *Splatoon 2* conmigo y mis amigos que estamos en [Mode 7][6].
     - Splat Zones (soy Rank S+)
     - Tower Control (soy Rank S+)
     - Clam Blitz (soy Rank S+)
-- League Battle (organizamos equipos en [Mode 7 (#splatoon-2)][1]{:target="_blank"})
+- League Battle (organizamos equipos en [Mode 7 (#splatoon)][1]{:target="_blank"})
 
 ## Información
 
-- Puedes unirte a [Mode 7 (#splatoon-2)][1]{:target="_blank"} en Discord para recibir updates y notificaciones de todas las personas que jugamos
+- Puedes unirte a [Mode 7 (#splatoon)][1]{:target="_blank"} en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Llevo registro y estadísticas personales en [mi perfil de stat.ink][7]{:target="_blank"}
 - Uso la app Nintendo Switch Online ([iOS][2]{:target="itunes_store"} &#124; [Android][3]{:target="_blank"}) para mandar invitaciones a salas de juego
 - Puedes revisar todos mis posts sobre *Splatoon 2* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/splatoon-2/">#Splatoon2</a>
@@ -102,7 +102,7 @@ Para chat de voz utilizo [Discord][1]{:target="_blank"} usando el [canal de voz 
 
 ## <i class="fab fa-discord"></i> Discord
 
-Únete a [Mode 7 (#splatoon-2)][1]{:target="_blank"}. La intención de este Discord es ser útil para armar partidas, armar cotorreo, conocer gente, jugar en parejas, hablar sobre *Splatoon* y mucho más.
+Únete a [Mode 7 (#splatoon)][1]{:target="_blank"}. La intención de este Discord es ser útil para armar partidas, armar cotorreo, conocer gente, jugar en parejas, hablar sobre *Splatoon* y mucho más.
 
 [1]: https://discord.gg/NUSDKeJ
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw

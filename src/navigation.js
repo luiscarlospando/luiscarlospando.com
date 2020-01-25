@@ -39,7 +39,7 @@ class Navigation extends React.Component {
                         </ul>
                     </li>
                     <li>
-                        <a href="#"><i class="fas fa-video"></i> Live</a>
+                        <a href="/twitch/"><i class="fas fa-video"></i> Live</a>
                         <ul>
                             <li><a href="/twitch/"><i class="fab fa-folder-open"></i> Twitch</a></li>
                             <li><a href="/youtube/"><i class="fab fa-folder-open"></i> YouTube</a></li>

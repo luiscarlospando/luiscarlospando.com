@@ -226,7 +226,7 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "#" },
+                            { href: "/twitch/" },
                             React.createElement("i", { "class": "fas fa-video" }),
                             " Live"
                         ),

@@ -6,8 +6,6 @@ image: /assets/images/youtube-play.jpg
 permalink: /youtube/
 ---
 
-<h2 class="subtitulo text-center"><small><span class="badge badge-danger animated infinite flash stream-status">Currently on standby</span></small></h2>
-
 <div class="row no-gutters mb-4">
 <div class="col-12">
 <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 0;">

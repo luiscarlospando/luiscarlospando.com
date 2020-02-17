@@ -6,7 +6,7 @@ image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
 ---
 
-Aquí pongo mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y [<i class="fas fa-link"></i> Nintendo 3DS][2] (no olvides [mandarme tu código de 3DS][4] para agregarte yo también). También estoy en [<i class="fas fa-link"></i> Discord][3].
+Aquí pongo mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y [<i class="fas fa-link"></i> Nintendo 3DS][2] ([envíame tu código de 3DS][4] para agregarte yo también). También estoy en [<i class="fas fa-link"></i> Discord][3].
 
 <div class="card text-center">
 <div class="card-header">
@@ -34,6 +34,12 @@ Aquí pongo mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y [
 <div class="card text-center mb-3" id="nintendo-3ds">
 <div class="card-body">
 ### Nintendo 3DS: 2853-0168-4709
+</div>
+</div>
+
+<div class="card text-center mb-3" id="pokemon-home">
+<div class="card-body my-auto">
+### Pokémon HOME: WYWZPBXZKZZS
 </div>
 </div>
 

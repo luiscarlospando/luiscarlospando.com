@@ -14,13 +14,14 @@ Aquí pongo mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y [
 </div>
 <div class="card-body">
 <h3 class="card-text">
+*Pokémon Sword*<br>
 *Shovel Knight: Treasure Trove*<br>
 *Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition*<br>
 [*Splatoon 2*][4]
 </h3>
 </div>
 <div class="card-footer text-muted">
-<code>Última actualización: 7/01/2020</code>
+<code>Última actualización: 17/02/2020</code>
 </div>
 </div>
 

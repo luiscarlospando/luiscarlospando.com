@@ -19,7 +19,7 @@ También de manera cotidiana, me confundo y confundo a los demás en [Twitter][8
 
 Tal vez no sepas ni como ni por qué llegaste aquí, pero aún así te agradezco tu tiempo y tu visita. 🔥
 
-[1]: https://es.wikipedia.org/wiki/Chihuahua_(Chihuahua)
+[1]: http://www.chihuahuatucapital.org/
 [2]: https://github.com/{{ site.github_username }}
 [3]: /twitch/
 [4]: https://www.instagram.com/primitivegirl

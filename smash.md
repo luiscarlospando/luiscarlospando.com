@@ -28,7 +28,7 @@ Juega *Super Smash Bros. Ultimate* conmigo y mis amigos que estamos en [Mode 7][
 </div>
 <div class="card-body">
 <div class="input-group justify-content-center">
-<input type="text" class="form-control" id="discord-tag" value="Mijo#0438" aria-label="" aria-describedby readonly>
+<input type="text" class="form-control" id="discord-tag" value="{{ site.discord_tag }}" aria-label="" aria-describedby readonly>
 <div class="input-group-append">
 <button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag" data-toggle="tooltip" data-placement="top" title="Copiar al portapapeles"><i class="fas fa-clipboard"></i></button>
 </div>

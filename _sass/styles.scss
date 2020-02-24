@@ -141,10 +141,10 @@ h6 {
     a {
         color: $mainColor;
 
-        &:hover,
-        &:focus {
-            text-decoration-color: $mainColor;
-        }
+        // &:hover,
+        // &:focus {
+        //     text-decoration-color: $mainColor;
+        // }
     }
 }
 
@@ -205,13 +205,22 @@ footer {
     background-color: #000;
     border: 1px solid $fifthColor;
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        color: $fifthColor;
+    // h1,
+    // h2,
+    // h3,
+    // h4,
+    // h5,
+    // h6 {
+    //     color: $fifthColor;
+    // }
+
+    a {
+        color: $fifthColor !important;
+    }
+
+    a:hover,
+    a:focus {
+        color: $hoverColor !important;
     }
 
     .card-header,

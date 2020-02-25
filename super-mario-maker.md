@@ -1,17 +1,32 @@
 ---
 layout: page
 title: Super Mario Maker 2
-description: Juega mis niveles y los niveles de la comunidad de Mode 7 en Super Mario Maker 2.
+description: Te invito a jugar mis niveles y los niveles de la comunidad de Mode 7 en Super Mario Maker 2.
 image: /assets/images/banner-smm2.jpg
 permalink: /super-mario-maker/
 ---
 
 <div class="text-center">
-Juega mis niveles y los niveles de la comunidad de [Mode 7][6] en *Super Mario Maker 2.
+Te invito a jugar mis niveles y los niveles de la comunidad de [Mode 7][6] en *Super Mario Maker 2*.
 </div>
 
 <div class="row">
-<div class="col-xs-12 col-sm-6">
+<div class="col-12">
+<div class="card text-center">
+<div class="card-header">
+<h5 class="card-title"><i class="fas fa-user"></i> Super Mario Maker 2 Maker ID</h5>
+</div>
+<div class="card-body">
+<h3 class="card-text">
+ID: N4H-6H3-T7G
+</h3>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-12 col-sm-6 my-auto">
 <div class="card text-center">
 <div class="card-header">
 <h5 class="card-title"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</h5>
@@ -33,21 +48,6 @@ Juega mis niveles y los niveles de la comunidad de [Mode 7][6] en *Super Mario M
 <button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag" data-toggle="tooltip" data-placement="top" title="Copiar al portapapeles"><i class="fas fa-clipboard"></i></button>
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="row">
-<div class="col-12">
-<div class="card text-center">
-<div class="card-header">
-<h5 class="card-title"><i class="fas fa-user"></i> Super Mario Maker 2 Maker ID</h5>
-</div>
-<div class="card-body">
-<h3 class="card-text">
-ID: N4H-6H3-T7G
-</h3>
 </div>
 </div>
 </div>

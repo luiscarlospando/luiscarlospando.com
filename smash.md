@@ -11,7 +11,7 @@ Juega *Super Smash Bros. Ultimate* conmigo y mis amigos que estamos en [Mode 7][
 </div>
 
 <div class="row">
-<div class="col-xs-12 col-sm-6">
+<div class="col-xs-12 col-sm-6 my-auto">
 <div class="card text-center">
 <div class="card-header">
 <h5 class="card-title"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</h5>

@@ -19,10 +19,17 @@ permalink: /mode7gg/
 Este es un lugar donde ponernos de acuerdo para jugar juntos y por supuesto, platicar y conversar de nuestros videojuegos favoritos.
 </div>
 <div class="col-md-12 col-lg-6 my-auto">
+<iframe src="https://discordapp.com/widget?id=478777821087662092&theme=dark" width="100%" height="380" allowtransparency="true" frameborder="0"></iframe>
+</div>
+</div>
+
+<hr>
+
+<div class="row">
+<div class="col-12">
 ## <i class="fab fa-twitch"></i> Twitch
 <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 0;">
 <iframe src="https://player.twitch.tv/?channel=mode7gg" frameborder="0" allowfullscreen="true" scrolling="no"></iframe><a href="https://www.twitch.tv/mode7gg?tt_content=text_link&tt_medium=live_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;">Ver vídeo en directo de Mode7gg en www.twitch.tv</a>
-</div>
 </div>
 </div>
 

@@ -75,11 +75,6 @@ Aquí están mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y 
 </div>
 </div>
 
-
-
-
-
-
 [1]: #nintendo-switch
 [2]: #nintendo-3ds
 [3]: #discord-tag

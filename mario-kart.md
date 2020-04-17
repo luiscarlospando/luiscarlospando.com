@@ -1,13 +1,28 @@
 ---
 layout: page
-title: Super Smash Bros. Ultimate
-description: Juega Super Smash Bros. Ultimate con nosotros en Mode 7.
-image: /assets/images/smash-banner.png
-permalink: /smash/
+title: Mode 7 Grand Prix
+description: Juega Mario Kart 8 Deluxe con nosotros en Mode 7.
+image: /assets/images/mode7-mk8dx-flyer.png
+permalink: /mario-kart/
 ---
 
 <div class="text-center">
-Juega *Super Smash Bros. Ultimate* con nosotros en [Mode 7][6].
+Juega *Mario Kart 8 Deluxe* con nosotros en [Mode 7][6].
+</div>
+
+<div class="row">
+<div class="col-12">
+<div class="card text-center">
+<div class="card-header">
+<h5 class="card-title"><i class="fas fa-gamepad"></i> Código del torneo</h5>
+</div>
+<div class="card-body">
+<h3 class="card-text">
+0746-6549-8155
+</h3>
+</div>
+</div>
+</div>
 </div>
 
 <div class="row">
@@ -43,31 +58,36 @@ Juega *Super Smash Bros. Ultimate* con nosotros en [Mode 7][6].
 
 ## <i class="fas fa-gamepad"></i> Modos de Juego
 
-- Mode 7 Battle Arena (preguntar ID vía [#smash-bros en Mode 7][1]{:target="_blank"})
-    - Tipo: All Skill Levels
-    - Formato: 2/4-Player Smash
-    - Reglas: 3 Stock 10:00
-    - Rotación: Bottom Two Leave
+- Todos los jueves @ 9:00 pm CUU / 10:00 pm CDMX
+- Reglas
+    - 150cc
+    - Si equipos
+    - Items normales (a veces jugamos Fractic)
+    - COM difícil
+    - Sin Smart Steering
+    - 16 carreras
+    - Sin rotación
+    - Cualquier rating
 
 ## Información
 
-- Puedes unirte a [Mode 7 (#smash-bros)][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
-- Pueden revisar todos mis posts sobre *Super Smash Bros. Ultimate* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/super-smash-bros-ultimate/">#Super Smash Bros. Ultimate</a>
+- Puedes unirte a [Mode 7 (#mario-kart)][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
+- Pueden revisar todos mis posts sobre *Mario Kart 8 Deluxe* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/mario-kart/">#Mario Kart 8</a>
 
 ## <i class="fab fa-twitter"></i> Tweets
 
-Para recibir mis notificaciones sobre *Super Smash Bros. Ultimate* puedes [seguirme en Twitter][4].
+Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en Twitter][4].
 
 <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button text-center" data-show-count="false">Follow @{{ site.twitter_username }}</a>
 
 </div>
 <div class="col-sm-6">
 
-## Super Smash Bros. Ultimate @ Mode 7
+## Mario Kart 8 @ Mode 7
 
 <div class="text-center mt20">
-<a href="https://discord.gg/3Tws9AQ" target="_blank">
-<img class="img-fluid" src="{{ site.url }}/assets/images/smash-banner.png" alt="" />
+<a href="https://discord.gg/U77J5c6" target="_blank">
+<img class="img-fluid" src="{{ site.url }}/assets/images/mode7-mk8dx-flyer.png" alt="" />
 </a>
 </div>
 
@@ -76,15 +96,15 @@ Para recibir mis notificaciones sobre *Super Smash Bros. Ultimate* puedes [segui
 
 ## <i class="fas fa-microphone"></i> Chat de voz
 
-Para chat de voz utilizamos [Discord][1]{:target="_blank"} usando el [canal de voz *Smash Bros.* dentro de Mode 7][5].
+Para chat de voz utilizamos [Discord][1]{:target="_blank"} usando el [canal de voz *Mario Kart* dentro de Mode 7][5].
 
 ## <i class="fab fa-discord"></i> Discord
 
-Únete a [Mode 7 (#smash-bros)][1]{:target="_blank"}. La intención de este Discord es ser útil para armar partidas, armar cotorreo, conocer gente, jugar, hablar sobre *Super Smash Bros. Ultimate* y mucho más.
+Únete a [Mode 7 (#mario-kart)][1]{:target="_blank"}. La intención de este Discord es ser útil para armar partidas, armar cotorreo, conocer gente, jugar, hablar sobre *Mario Kart 8 Deluxe* y mucho más.
 
-[1]: https://discord.gg/3Tws9AQ
+[1]: https://discord.gg/U77J5c6
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw
 [3]: https://play.google.com/store/apps/details?id=com.nintendo.znca&gl=us&hl=en
 [4]: https://twitter.com/search?q=%23Splatoon2%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}
-[5]: https://discord.gg/fDuYJnW
+[5]: https://discord.gg/qtT3kPY
 [6]: ../mode7gg

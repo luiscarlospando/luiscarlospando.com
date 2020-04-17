@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Splatoon 2
-description: Juega Splatoon 2 con la banda que estamos en Mode 7.
+description: Juega Splatoon 2 con nosotros en Mode 7.
 image: /assets/images/banner-splatoon2.png
 permalink: /splatoon/
 ---
 
 <div class="text-center">
-Juega *Splatoon 2* con la banda que estamos en [Mode 7][6].
+Juega *Splatoon 2* con nosotros en [Mode 7][6].
 </div>
 
 <div class="row">

@@ -20,17 +20,16 @@ Aquí están mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y 
 [*Splatoon 2*][4]<br>
 <small>Retas de Splatoon 2 todos los martes en la noche @ 9:00 pm (Chihuahua) | [<i class="fab fa-discord"></i>][7]</small><br>
 ---<br>
-*Mario Kart 8 Deluxe*<br>
+[*Mario Kart 8 Deluxe*][5]<br>
 <small>Mode 7 Grand Prix todos los jueves en la noche @ 9:00 pm (Chihuahua)</small><br>
 <small>Código del torneo: 0746-6549-8155 | [<i class="fab fa-discord"></i>][6]</small><br>
 ---<br>
 *Pokémon Sword*<br>
-*Shovel Knight: Treasure Trove*<br>
 *Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition*<br>
 </h4>
 </div>
 <div class="card-footer text-muted">
-<code>Última actualización: 25/02/2020</code>
+<code>Última actualización: 17/04/2020</code>
 </div>
 </div>
 
@@ -79,6 +78,6 @@ Aquí están mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y 
 [2]: #nintendo-3ds
 [3]: #discord-tag
 [4]: /splatoon/
-[5]: /super-mario-maker/
+[5]: /mario-kart/
 [6]: https://discord.gg/U77J5c6
 [7]: https://discord.gg/NUSDKeJ

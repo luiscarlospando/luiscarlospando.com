@@ -33,6 +33,7 @@ class Navigation extends React.Component {
                     <li>
                         <a href="/nintendo/"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</a>
                         <ul>
+                            <li><a href="/mario-kart/">Mario Kart 8 Deluxe</a></li>
                             <li><a href="/splatoon/">Splatoon 2</a></li>
                             <li><a href="/super-mario-maker/">Super Mario Maker 2</a></li>
                             <li><a href="/smash/">Super Smash Bros. Ultimate</a></li>

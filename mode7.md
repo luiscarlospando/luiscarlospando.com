@@ -14,7 +14,7 @@ permalink: /mode7gg/
 #### [Mode 7 <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i>][1]{:target="_blank"}
 *<small>Videojuegos clásicos y modernos. Aquí solamente hablamos de los juegos que más nos gustan.</small>*
 
-Únete a [Mode 7 en Discord][1]{:target="_blank"} para cotorrear y jugar junto con la comunidad, ya sea por ejemplo en [*Splatoon 2*][2], [*Super Smash Bros. Ultimate*][3], *Mario Kart 8 Deluxe*, *Overwatch* y más...
+Únete a [Mode 7 en Discord][1]{:target="_blank"} para cotorrear y jugar junto con la comunidad, ya sea por ejemplo en [*Splatoon 2*][2], [*Super Smash Bros. Ultimate*][3], [*Mario Kart 8 Deluxe*][4], *Overwatch* y más...
 
 Este es un lugar donde ponernos de acuerdo para jugar juntos y por supuesto, platicar y conversar de nuestros videojuegos favoritos.
 </div>
@@ -36,3 +36,4 @@ Este es un lugar donde ponernos de acuerdo para jugar juntos y por supuesto, pla
 [1]: {{ site.mode7_discord }}
 [2]: /splatoon/
 [3]: /smash/
+[4]: /mario-kart/

@@ -61,7 +61,7 @@ Juega *Mario Kart 8 Deluxe* con nosotros en [Mode 7][6].
 - Todos los jueves @ 9:00 pm CUU / 10:00 pm CDMX
 - Reglas
     - 150cc
-    - Si equipos
+    - Sin equipos
     - Items normales (a veces jugamos Fractic)
     - COM difícil
     - Sin Smart Steering

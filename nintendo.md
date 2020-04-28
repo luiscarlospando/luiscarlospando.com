@@ -9,7 +9,7 @@ permalink: /nintendo/
 Aquí están mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y [<i class="fas fa-link"></i> Nintendo 3DS][2]. También estoy en [<i class="fas fa-link"></i> Discord][3].
 
 <div class="row">
-<div class="col-12 col-md-6 my-auto">
+<div class="col-12 col-md-7 my-auto">
 
 <div class="card text-center">
 <div class="card-header">
@@ -18,24 +18,24 @@ Aquí están mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y 
 <div class="card-body">
 <h4 class="card-text">
 [*Splatoon 2*][4]<br>
-<small>Retas de Splatoon 2 todos los martes en la noche @ 9:00 pm (Chihuahua) | [<i class="fab fa-discord"></i>][7]</small><br>
+<small>Retas de Splatoon 2 todos los martes @ 9:00 pm | [<i class="fab fa-discord"></i>][7]</small><br>
 ---<br>
 [*Mario Kart 8 Deluxe*][5]<br>
-<small>Mode 7 Grand Prix todos los jueves en la noche @ 9:00 pm (Chihuahua)</small><br>
+<small>Mode 7 Grand Prix todos los jueves @ 9:00 pm</small><br>
 <small>Código del torneo: 0746-6549-8155 | [<i class="fab fa-discord"></i>][6]</small><br>
 ---<br>
-*Pokémon Sword*<br>
-*Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition*<br>
+*Capcom Beat 'Em Up Bundle*<br>
+*Cuphead*<br>
 </h4>
 </div>
 <div class="card-footer text-muted">
-<code>Última actualización: 17/04/2020</code>
+<code>Última actualización: 28/04/2020</code>
 </div>
 </div>
 
 </div>
 
-<div class="col-12 col-md-6">
+<div class="col-12 col-md-5">
 
 <div class="card text-center" id="discord-tag">
 <div class="card-header">

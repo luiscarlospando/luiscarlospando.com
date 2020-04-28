@@ -17,12 +17,12 @@ Aquí están mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y 
 </div>
 <div class="card-body">
 <h4 class="card-text">
-[*Splatoon 2*][4]<br>
-<small>Retas de Splatoon 2 todos los martes @ 9:00 pm | [<i class="fab fa-discord"></i>][7]</small><br>
----<br>
 [*Mario Kart 8 Deluxe*][5]<br>
 <small>Mode 7 Grand Prix todos los jueves @ 9:00 pm</small><br>
 <small>Código del torneo: 0746-6549-8155 | [<i class="fab fa-discord"></i>][6]</small><br>
+---<br>
+[*Splatoon 2*][4]<br>
+<small>Retas de Splatoon 2 todos los martes @ 9:00 pm | [<i class="fab fa-discord"></i>][7]</small><br>
 ---<br>
 *Capcom Beat 'Em Up Bundle*<br>
 *Cuphead*<br>

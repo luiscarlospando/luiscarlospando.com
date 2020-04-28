@@ -25,17 +25,17 @@ Cuenta personal.
 
 Cuenta automatizada con posts de mi sitio.
 
+## <i class="fab fa-instagram"></i> Instagram
+[Aquí publico fotos][3]{:target="_blank"} de momentos que considero valen la pena ser compartidos.
+
+## <i class="fab fa-discord"></i> Discord
+Mi Discord tag es <code>{{ site.discord_tag }}</code> y mi tengo un server con unos amigos, se llama [Mode 7][4]{:target="_blank"} (feel free to join in!).
+
 ## <i class="fab fa-facebook-messenger"></i> Messenger
 También puedes contactarme a través de [Messenger][2]{:target="_blank"}.
 
 ## <i class="fab fa-google"></i> Google Forms
 Si lo prefieres, puedes escribirme por [aquí][14]{:target="_blank"}.
-
-## <i class="fab fa-instagram"></i> Instagram
-[Aquí posteo fotos][3]{:target="_blank"} de momentos que considero valen la pena ser compartidos.
-
-## <i class="fab fa-discord"></i> Discord
-Mi tag en Discord es <code>{{ site.discord_tag }}</code> y mi servidor en Discord es [Mode 7][4]{:target="_blank"} (feel free to join in!).
 
 ## <i class="fab fa-spotify"></i> Spotify
 <iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:1269830478&size=detail&theme=dark&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>

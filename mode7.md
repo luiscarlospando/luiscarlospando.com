@@ -33,6 +33,14 @@ Este es un lugar donde ponernos de acuerdo para jugar juntos y por supuesto, pla
 </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+  new Crate({
+    server: '478777821087662092',
+    channel: '478782494666129419',
+    shard: 'https://e.widgetbot.io'
+  })
+</script>
+
 [1]: {{ site.mode7_discord }}
 [2]: /splatoon/
 [3]: /smash/

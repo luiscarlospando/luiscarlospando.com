@@ -74,6 +74,14 @@ Aquí están mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y 
 </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+  new Crate({
+    server: '478777821087662092',
+    channel: '478782494666129419',
+    shard: 'https://e.widgetbot.io'
+  })
+</script>
+
 [1]: #nintendo-switch
 [2]: #nintendo-3ds
 [3]: #discord-tag

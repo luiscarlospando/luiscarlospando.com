@@ -31,6 +31,9 @@ Cuenta automatizada con posts de mi sitio.
 ## <i class="fab fa-discord"></i> Discord
 Mi Discord tag es <code>{{ site.discord_tag }}</code> y mi tengo un server con unos amigos, se llama [Mode 7][4]{:target="_blank"} (feel free to join in!).
 
+## <i class="fab fa-keybase"></i> Keybase
+Este es [mi perfil público en Keybase][15]{:target="_blank"}.
+
 ## <i class="fab fa-facebook-messenger"></i> Messenger
 También puedes contactarme a través de [Messenger][2]{:target="_blank"}.
 
@@ -91,3 +94,4 @@ Mi perfil en CodePen es [este][7]{:target="_blank"}.
 [12]: https://last.fm/user/{{ site.lastfm_username }}
 [13]: https://twitch.tv/{{ site.twitch_username }}
 [14]: https://forms.gle/RAUiuVmfByzAuQuQA
+[15]: https://keybase.io/luiscarlospando

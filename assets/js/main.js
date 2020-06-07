@@ -133,9 +133,8 @@
 
         // WP Total post count via REST API
         $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts', function (data, status, request) {
-            numPosts = request.getResponseHeader('x-wp-total');
-            $('#total-post-count').append(numPosts);
-            console.log(numPosts); //outputs number of posts to console
+            postCount = request.getResponseHeader('x-wp-total');
+            $('#contador-posts').append(postCount);
         });
     });
 

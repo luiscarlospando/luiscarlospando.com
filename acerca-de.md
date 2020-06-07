@@ -8,7 +8,7 @@ permalink: /acerca-de/
 
 <h2 class="subtitulo text-center"><small class="text-muted">{{ site.title }} v{{ site.version }}</small></h2>
 
-Este URL ha sido mi hogar en línea desde octubre de 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado **<span id="total-post-count"></span> entradas en total** y es en este lugar donde intento unificar mi presencia en línea. Justo como lo mencioné en la [portada][1], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, ofrecer algunas recomendaciones y dar algunos consejos. 
+Este URL ha sido mi hogar en línea desde octubre de 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado **<span id="contador-posts"></span> entradas en total** y es en este lugar donde intento unificar mi presencia en línea. Justo como lo mencioné en la [portada][1], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, ofrecer algunas recomendaciones y dar algunos consejos. 
 
 Aquí está el [archivo completo][2] de todos mis posts.
 

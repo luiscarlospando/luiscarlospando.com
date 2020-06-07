@@ -130,6 +130,12 @@
                 entryTemplate: '<a href="{url}" target="_blank"><code>Última actualización: {date}</code></a>'
             });
         });
+
+        // WP Total post count via REST API
+        $.get('http://blog.luiscarlospando.com/wp-json/wp/v2/posts', function (data, status, request) {
+            numPosts = request.getResponseHeader('x-wp-total');
+            console.log(numPosts); //outputs number of posts to console
+        });
     });
 
     // Enabling Font Awesome Pseudo Elements

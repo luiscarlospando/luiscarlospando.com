@@ -8,9 +8,7 @@ permalink: /apps/
 
 <div class="card last-updated mt-3 text-center">
 <div class="card-body">
-<h3 class="card-text">
-<code>Última actualización: 25/01/2020</code>
-</h3>
+#### <code>Última actualización: 25/01/2020</code>
 </div>
 </div>
 

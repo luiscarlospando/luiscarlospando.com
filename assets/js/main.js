@@ -129,6 +129,7 @@
         // WP REST API actions
         // Retrieve latest post via API and fetch link
         $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1', function (data) {
+            console.log(data);
             $('#blog').append('<div style="display: inline;"><a href="' + data.link + '">' + data.title + '</a></div>');
         });
 

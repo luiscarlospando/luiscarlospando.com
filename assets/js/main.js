@@ -128,9 +128,7 @@
 
         // WP REST API actions
         // Retrieve latest post via API and fetch link
-        $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1', function (data) {
-            $('#blog').append('<div style="display: inline;"><a href="' + data.posts[0].link + '">' + data.posts[0].title + '</a></div>');
-        });
+
 
         // Append total post count to element #contador-posts in "Acerca de" page
         $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts', function (data, status, request) {

@@ -111,7 +111,7 @@
         // Retrieve latest post via API and fetch link
         $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1', function (data) {
             // console.log(data);
-            $('#blog').append('<div style="display: inline;"><a href="' + data[0].link + '" data-toggle="tooltip" data-placement="top" title="' + data[0].title.rendered + '">' + data[0].title.rendered + '</a></div>');
+            $('#blog').append('<a href="' + data[0].link + '" data-toggle="tooltip" data-placement="top" title="' + data[0].title.rendered + '">' + data[0].title.rendered + '</a>');
         });
 
         // Append total post count to element #contador-posts in "Acerca de" page

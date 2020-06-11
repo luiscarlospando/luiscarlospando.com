@@ -13,29 +13,25 @@ Aquí están mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y 
 
 <div class="card text-center">
 <div class="card-header">
-<h5 class="card-title text-center"><i class="fas fa-gamepad"></i> Actualmente estoy jugando:</h5>
+<h5 class="card-title"><i class="fas fa-gamepad"></i> Actualmente estoy jugando</h5>
 </div>
-<div class="card-body">
-<h4 class="card-text">
-[*Mario Kart 8 Deluxe*][5]<br>
-<small>Mode 7 Grand Prix todos los jueves @ 9:00 pm</small><br>
-<small>Código del torneo: 0746-6549-8155 | [<i class="fab fa-discord"></i>][6]</small><br>
----<br>
-[*Splatoon 2*][4]<br>
-<small>Retas de Splatoon 2 todos los martes @ 9:00 pm | [<i class="fab fa-discord"></i>][7]</small><br>
----<br>
-*Capcom Beat 'Em Up Bundle*<br>
-*Cuphead*<br>
-</h4>
+<div class="card-body text-left">
+- [*Mario Kart 8 Deluxe*][5]<br>
+Mode 7 Grand Prix todos los jueves @ 9:00 pm
+Código del torneo: 0746-6549-8155 | [<i class="fab fa-discord"></i>][6]
+- [*Splatoon 2*][4]<br>
+Retas de Splatoon 2 todos los martes @ 9:00 pm | [<i class="fab fa-discord"></i>][7]
+- *Xenoblade Chronicles: Definitive Edition*
+- *Clubhouse Games: 51 Worldwide Classics*
 </div>
 <div class="card-footer text-muted">
-<code>Última actualización: 28/04/2020</code>
+<code>Última actualización: 11/06/2020</code>
 </div>
 </div>
 
 </div>
 
-<div class="col-12 col-md-5">
+<div class="col-12 col-md-5 my-auto">
 
 <div class="card text-center" id="discord-tag">
 <div class="card-header">
@@ -62,12 +58,6 @@ Aquí están mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y 
 <div class="card text-center mb-3" id="nintendo-3ds">
 <div class="card-body">
 ##### Nintendo 3DS: 2853-0168-4709
-</div>
-</div>
-
-<div class="card text-center mb-3" id="pokemon-home">
-<div class="card-body my-auto">
-##### Pokémon HOME: WYWZPBXZKZZS
 </div>
 </div>
 

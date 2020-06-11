@@ -107,25 +107,6 @@
             progressBar.attr('value', value);
         });
 
-        // RSS Feed
-        jQuery(function ($) {
-
-
-            $("#splatlog").rss("https://stat.ink/@mijo.2.en-US.rss", {
-                limit: 1,
-                ssl: true,
-                layoutTemplate: "<div style='display: inline;'>{entries}</div>",
-                entryTemplate: '<a href="{url}" target="_blank">{title} <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i></a>'
-            });
-
-            $("#splatlog-timestamp").rss("https://stat.ink/@mijo.2.en-US.rss", {
-                limit: 1,
-                ssl: true,
-                layoutTemplate: "<div style='display: inline;'>{entries}</div>",
-                entryTemplate: '<a href="{url}" target="_blank"><code>Última actualización: {date}</code></a>'
-            });
-        });
-
         // WP REST API actions
         // Retrieve latest post via API and fetch link
         $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1', function (data) {
@@ -138,6 +119,30 @@
             postCount = request.getResponseHeader('x-wp-total');
             $('#contador-posts').append(postCount);
         });
+
+        // RSS Feed
+        jQuery(function ($) {
+            $("#blog").rss("https://blog.luiscarlospando.com/feed", {
+                limit: 1,
+                ssl: true,
+                layoutTemplate: "<div style='display: inline;'>{entries}</div>",
+                entryTemplate: '<a href="{url}">{title}</a>'
+            });
+
+            $("#splatlog").rss("https://stat.ink/@mijo.2.en-US.rss", {
+                limit: 1,
+                ssl: true,
+                layoutTemplate: "<div style='display: inline;'>{entries}</div>",
+                entryTemplate: '<a href="{url}" target="_blank">{title} <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i></a>'
+            });
+
+            $("#splatlog-timestamp").rss("https://stat.ink/@mijo.2.en-US.rss", {
+                limit: 1,
+                ssl: true,
+                layoutTemplate: "<div style='display: inline;'>{entries}</div>",
+                entryTemplate: '<a href="https://stat.ink/@mijo/spl2" target="_blank"><code>Última actualización: {date}</code></a>'
+            });
+        });
     });
 
     // Enabling Font Awesome Pseudo Elements
@@ -147,5 +152,4 @@
 
     // Copy to clipboard instantiation
     new ClipboardJS('.btn');
-
 })();

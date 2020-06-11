@@ -109,12 +109,7 @@
 
         // RSS Feed
         jQuery(function ($) {
-            $("#blog").rss("https://blog.luiscarlospando.com/feed", {
-                limit: 1,
-                ssl: true,
-                layoutTemplate: "<div style='display: inline;'>{entries}</div>",
-                entryTemplate: '<a href="{url}">{title}</a>'
-            });
+
 
             $("#splatlog").rss("https://stat.ink/@mijo.2.en-US.rss", {
                 limit: 1,
@@ -131,7 +126,10 @@
             });
         });
 
-        // WP Total post count via REST API
+        // WP REST API actions
+
+
+        // Append total post count to element #contador-posts in "Acerca de" page
         $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts', function (data, status, request) {
             postCount = request.getResponseHeader('x-wp-total');
             $('#contador-posts').append(postCount);

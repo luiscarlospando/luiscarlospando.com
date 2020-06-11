@@ -110,7 +110,7 @@
         // WP REST API actions
         // Retrieve latest post via API and fetch link
         $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1', function (data) {
-            console.log(data);
+            // console.log(data);
             $('#blog').append('<div style="display: inline;"><a href="' + data[0].link + '">' + data[0].title.rendered + '</a></div>');
         });
 
@@ -122,13 +122,6 @@
 
         // RSS Feed
         jQuery(function ($) {
-            $("#blog").rss("https://blog.luiscarlospando.com/feed", {
-                limit: 1,
-                ssl: true,
-                layoutTemplate: "<div style='display: inline;'>{entries}</div>",
-                entryTemplate: '<a href="{url}">{title}</a>'
-            });
-
             $("#splatlog").rss("https://stat.ink/@mijo.2.en-US.rss", {
                 limit: 1,
                 ssl: true,

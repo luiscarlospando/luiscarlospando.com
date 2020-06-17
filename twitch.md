@@ -9,7 +9,12 @@ permalink: /twitch/
 <div class="row no-gutters mb-4">
 <div class="col-12 col-md-8">
 <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 0;">
-<iframe src="https://player.twitch.tv/?channel=itsmemijo" frameborder="0" allowfullscreen="true" scrolling="no"></iframe><a href="https://www.twitch.tv/itsmemijo?tt_content=text_link&tt_medium=live_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;">Ver vídeo en directo de ItsMeMijo en www.twitch.tv</a>
+<iframe
+    src="https://player.twitch.tv/?itsmemijo&parent=luiscarlospando.com"
+    frameborder="0"
+    scrolling="no"
+    allowfullscreen="true">
+</iframe>
 </div>
 </div>
 <div class="col-12 col-md-4">

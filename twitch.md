@@ -18,7 +18,13 @@ permalink: /twitch/
 </div>
 </div>
 <div class="col-12 col-md-4">
-<iframe frameborder="0" scrolling="no" id="itsmemijo" src="https://www.twitch.tv/embed/itsmemijo/chat?darkpopout" width="100%" height="100%"></iframe>
+<iframe frameborder="0"
+    scrolling="no"
+    id="itsmemijo"
+    src="https://www.twitch.tv/embed/itsmemijo/chat?parent=luiscarlospando.com"
+    height="100%"
+    width="100%">
+</iframe>
 </div>
 </div>
 

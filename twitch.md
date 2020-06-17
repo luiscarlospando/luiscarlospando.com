@@ -10,7 +10,7 @@ permalink: /twitch/
 <div class="col-12 col-md-8">
 <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 0;">
 <iframe
-    src="https://player.twitch.tv/?itsmemijo&parent=luiscarlospando.com"
+    src="https://player.twitch.tv/?channel=itsmemijo&parent=luiscarlospando.com"
     frameborder="0"
     scrolling="no"
     allowfullscreen="true">

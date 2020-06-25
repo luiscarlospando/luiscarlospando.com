@@ -74,7 +74,7 @@ Juega *Mario Kart 8 Deluxe* con nosotros en [Mode 7][6].
 - Puedes unirte a [Mode 7 (#mario-kart)][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Pueden revisar todos mis posts sobre *Mario Kart 8 Deluxe* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/mario-kart/">#Mario Kart 8</a>
 
-## <i class="fab fa-twitter"></i> Tweets
+## <i class="fab fa-twitter"></i> Twitter
 
 Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en Twitter][4].
 
@@ -83,13 +83,10 @@ Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en 
 </div>
 <div class="col-sm-6">
 
-## Mario Kart 8 @ Mode 7
+## <i class="fab fa-twitter"></i> Últimas noticias
 
-<div class="text-center mt20">
-<a href="https://discord.gg/U77J5c6" target="_blank">
-<img class="img-fluid" src="{{ site.url }}/assets/images/mode7-mk8dx-flyer.png" alt="" />
-</a>
-</div>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-60ffd943-eb58-499d-aee6-8a7ee4a6d314"></div>
 
 </div>
 </div>

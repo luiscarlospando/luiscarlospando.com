@@ -15,7 +15,7 @@ Una de las razones que me motivaron a crear este espacio fue mi interés y pasi�
 
 [Le tengo un amor especial a los videojuegos][11]{:target="_blank"} y para rendir tributo y hacer de esto algo más divertido de lo que ya es, creé [Mode 7 🎮 🕹️][7] con unos amigos. Ahí hablamos de nuestros videojuegos y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][13]. Ah, también [tengo un canal en Twitch][3] que ni uso.
 
-¿Y pues qué más? De manera constante, me confundo y confundo a los demás en [Twitter][8]. Amo machín la música y todo lo que escucho lo voy documentando en mi perfil de [Last.fm 🎵][10]{:target="_blank"} (hasta mis vinilos perros 📻).
+¿Y pues qué más? De manera constante, me confundo y confundo a los demás en [Twitter][8]. Amo machín la música y todo lo que escucho lo voy documentando en mi perfil de [Last.fm 🎵][10]{:target="_blank"} (hasta mis vinilos, perros 📻).
 
 Lo más seguro es que ni sepas como llegaste aquí, pero eso no importa, agradecido estoy por tu tiempo y tu estancia. 🔥
 

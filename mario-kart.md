@@ -62,10 +62,10 @@ Juega *Mario Kart 8 Deluxe* con nosotros en [Mode 7][6].
 - Reglas
     - 150cc
     - Sin equipos
-    - Items normales (a veces jugamos Fractic)
+    - Items normales
     - COM difícil
     - Sin Smart Steering
-    - 16 carreras
+    - 24 carreras
     - Sin rotación
     - Cualquier rating
 

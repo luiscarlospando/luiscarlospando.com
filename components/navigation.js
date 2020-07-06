@@ -235,47 +235,9 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "/twitch/" },
+                            { href: "/live/" },
                             React.createElement("i", { "class": "fas fa-video" }),
                             " Live"
-                        ),
-                        React.createElement(
-                            "ul",
-                            null,
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "/twitch/" },
-                                    React.createElement("i", { "class": "fab fa-twitch" }),
-                                    " Twitch"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "/youtube/" },
-                                    React.createElement("i", { "class": "fab fa-youtube" }),
-                                    " YouTube"
-                                ),
-                                React.createElement(
-                                    "ul",
-                                    null,
-                                    React.createElement(
-                                        "li",
-                                        null,
-                                        React.createElement(
-                                            "a",
-                                            { href: "/youtube/archivos/" },
-                                            React.createElement("i", { "class": "fas fa-folder-open" }),
-                                            " Transmisiones pasadas"
-                                        )
-                                    )
-                                )
-                            )
                         )
                     ),
                     React.createElement(

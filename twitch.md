@@ -3,7 +3,7 @@ layout: livestreams
 title: Twitch
 description: Bienvenidos a mi canal de Twitch.
 image: /assets/images/twitch-logo.jpg
-permalink: /twitch/
+permalink: /live/
 ---
 
 <div class="row no-gutters mb-4">
@@ -21,7 +21,7 @@ permalink: /twitch/
 <iframe frameborder="0"
     scrolling="no"
     id="itsmemijo"
-    src="https://www.twitch.tv/embed/itsmemijo/chat?parent=luiscarlospando.com"
+    src="https://www.twitch.tv/embed/itsmemijo/chat?darkpopout&parent=luiscarlospando.com"
     height="100%"
     width="100%">
 </iframe>

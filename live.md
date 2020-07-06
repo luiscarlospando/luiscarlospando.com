@@ -1,6 +1,6 @@
 ---
 layout: livestreams
-title: Twitch
+title: Live
 description: Bienvenidos a mi canal de Twitch.
 image: /assets/images/twitch-logo.jpg
 permalink: /live/

@@ -75,7 +75,7 @@ Retas de Splatoon 2 todos los martes @ 9:00 pm | [<i class="fab fa-discord"></i>
 [1]: #nintendo-switch
 [2]: #nintendo-3ds
 [3]: #discord-tag
-[4]: /splatoon/
-[5]: /mario-kart/
+[4]: /mode-7/splatoon/
+[5]: /mode-7/mario-kart/
 [6]: https://discord.gg/U77J5c6
 [7]: https://discord.gg/NUSDKeJ

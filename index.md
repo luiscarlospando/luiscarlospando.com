@@ -21,14 +21,14 @@ Lo más seguro es que ni sepas como llegaste aquí, pero eso no importa, agradec
 
 [1]: http://www.chihuahuatucapital.org/
 [2]: https://github.com/{{ site.github_username }}
-[3]: /twitch/
+[3]: /live/
 [4]: https://www.instagram.com/primitivegirl
 [5]: http://hitz-musik.net
 [6]: https://blog.{{ site.domain }}/
-[7]: /mode7gg/
+[7]: /mode-7/
 [8]: https://twitter.com/intent/user?screen_name={{ site.twitter_username }}&lang=es
 [9]: mailto:{{ site.email }}
 [10]: https://last.fm/user/{{ site.lastfm_username }}
 [11]: https://backloggery.com/mijo
 [12]: /nintendo/
-[13]: /mario-kart/
+[13]: /mode-7/mario-kart/

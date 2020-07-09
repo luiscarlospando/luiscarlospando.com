@@ -175,9 +175,49 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "/mode7gg/" },
+                            { href: "/mode-7/" },
                             React.createElement("i", { "class": "fas fa-gamepad" }),
                             " Mode 7"
+                        ),
+                        React.createElement(
+                            "ul",
+                            null,
+                            React.createElement(
+                                "li",
+                                null,
+                                React.createElement(
+                                    "a",
+                                    { href: "/mode-7/mario-kart/" },
+                                    "Mode 7 Grand Prix (Mario Kart 8 Deluxe)"
+                                )
+                            ),
+                            React.createElement(
+                                "li",
+                                null,
+                                React.createElement(
+                                    "a",
+                                    { href: "/mode-7/splatoon/" },
+                                    "Retas de Splatoon 2"
+                                )
+                            ),
+                            React.createElement(
+                                "li",
+                                null,
+                                React.createElement(
+                                    "a",
+                                    { href: "/mode-7/super-mario-maker/" },
+                                    "Niveles en Super Mario Maker 2"
+                                )
+                            ),
+                            React.createElement(
+                                "li",
+                                null,
+                                React.createElement(
+                                    "a",
+                                    { href: "/mode-7/smash/" },
+                                    "Retas de Super Smash Bros. Ultimate"
+                                )
+                            )
                         )
                     ),
                     React.createElement(
@@ -188,46 +228,6 @@ var Navigation = function (_React$Component) {
                             { href: "/nintendo/" },
                             React.createElement("i", { "class": "fab fa-nintendo-switch" }),
                             " Nintendo Switch"
-                        ),
-                        React.createElement(
-                            "ul",
-                            null,
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "/mario-kart/" },
-                                    "Mario Kart 8 Deluxe"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "/splatoon/" },
-                                    "Splatoon 2"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "/super-mario-maker/" },
-                                    "Super Mario Maker 2"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "/smash/" },
-                                    "Super Smash Bros. Ultimate"
-                                )
-                            )
                         )
                     ),
                     React.createElement(

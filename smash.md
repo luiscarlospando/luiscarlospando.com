@@ -3,7 +3,7 @@ layout: page
 title: Super Smash Bros. Ultimate
 description: Juega Super Smash Bros. Ultimate con nosotros en Mode 7.
 image: /assets/images/smash-banner.png
-permalink: /smash/
+permalink: /mode-7/smash/
 ---
 
 <div class="text-center">
@@ -49,7 +49,7 @@ Juega *Super Smash Bros. Ultimate* con nosotros en [Mode 7][6].
     - Reglas: 3 Stock 10:00
     - Rotación: Bottom Two Leave
 
-## Información
+## <i class="fas fa-info-circle"></i> Información
 
 - Puedes unirte a [Mode 7 (#smash-bros)][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Pueden revisar todos mis posts sobre *Super Smash Bros. Ultimate* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/super-smash-bros-ultimate/">#Super Smash Bros. Ultimate</a>
@@ -95,4 +95,4 @@ Para chat de voz utilizamos [Discord][1]{:target="_blank"} usando el [canal de v
 [3]: https://play.google.com/store/apps/details?id=com.nintendo.znca&gl=us&hl=en
 [4]: https://twitter.com/search?q=%23Splatoon2%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}
 [5]: https://discord.gg/fDuYJnW
-[6]: ../mode7gg
+[6]: ../mode-7

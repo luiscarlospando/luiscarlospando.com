@@ -3,7 +3,7 @@ layout: page
 title: Splatoon 2
 description: Juega Splatoon 2 con nosotros en Mode 7.
 image: /assets/images/banner-splatoon2.png
-permalink: /splatoon/
+permalink: /mode-7/splatoon/
 ---
 
 <div class="text-center">
@@ -69,7 +69,7 @@ Juega *Splatoon 2* con nosotros en [Mode 7][6].
     - Clam Blitz (soy Rank S+)
 - League Battle (organizamos equipos en [Mode 7 (#splatoon)][1]{:target="_blank"})
 
-## Información
+## <i class="fas fa-info-circle"></i> Información
 
 - Te invito a unirte a [Mode 7 (#splatoon)][1]{:target="_blank"} en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Jugamos todos los martes por las noches, a las 9:00 pm hora de Chihuahua / 10:00 pm hora de CDMX
@@ -118,5 +118,5 @@ Para chat de voz utilizamos [Discord][1]{:target="_blank"} usando el [canal de v
 [3]: https://play.google.com/store/apps/details?id=com.nintendo.znca&gl=us&hl=en
 [4]: https://twitter.com/search?q=%23Splatoon2%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}
 [5]: https://discord.gg/bMPKcCj
-[6]: ../mode7gg
+[6]: ../mode-7
 [7]: https://stat.ink/@mijo/spl2

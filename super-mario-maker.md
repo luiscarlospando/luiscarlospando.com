@@ -3,7 +3,7 @@ layout: page
 title: Super Mario Maker 2
 description: Te invito a jugar mis niveles y los niveles de la comunidad de Mode 7 en Super Mario Maker 2.
 image: /assets/images/banner-smm2.jpg
-permalink: /super-mario-maker/
+permalink: /mode-7/super-mario-maker/
 ---
 
 <div class="text-center">
@@ -56,7 +56,7 @@ ID: N4H-6H3-T7G
 <div class="row">
 <div class="col-sm-6">
 
-## Información
+## <i class="fas fa-info-circle"></i> Información
 
 - Puedes unite a [Mode 7 (#super-mario-maker)][1]{:target="_blank"} en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Puedes revisar todos mis posts sobre *Super Mario Maker 2* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/super-mario-maker-2/">#Super Mario Maker2</a>
@@ -90,4 +90,4 @@ Para recibir mis notificaciones sobre *Super Mario Maker 2* puedes [seguirme en 
 [3]: https://play.google.com/store/apps/details?id=com.nintendo.znca&gl=us&hl=en
 [4]: https://twitter.com/search?q=%23SuperMarioMaker2%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}
 [5]: https://discord.gg/bMPKcCj
-[6]: ../mode7gg
+[6]: ../mode-7

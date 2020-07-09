@@ -3,7 +3,7 @@ layout: page
 title: Mode 7 Grand Prix
 description: Juega Mario Kart 8 Deluxe con nosotros en Mode 7.
 image: /assets/images/mode7-mk8dx-flyer.png
-permalink: /mario-kart/
+permalink: /mode-7/mario-kart/
 ---
 
 <div class="text-center">
@@ -69,7 +69,7 @@ Juega *Mario Kart 8 Deluxe* con nosotros en [Mode 7][6].
     - Sin rotación
     - Cualquier rating
 
-## Información
+## <i class="fas fa-info-circle"></i> Información
 
 - Puedes unirte a [Mode 7 (#mario-kart)][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Pueden revisar todos mis posts sobre *Mario Kart 8 Deluxe* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/mario-kart/">#Mario Kart 8</a>
@@ -87,6 +87,9 @@ Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en 
 
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-60ffd943-eb58-499d-aee6-8a7ee4a6d314"></div>
+
+## Regístrate
+<iframe src="https://smash.gg/tournament/mode-7-grand-prix/register/embed" frameborder="0" height="300" width="100%"></iframe>
 
 </div>
 </div>
@@ -112,4 +115,4 @@ Para chat de voz utilizamos [Discord][1]{:target="_blank"} usando el [canal de v
 [3]: https://play.google.com/store/apps/details?id=com.nintendo.znca&gl=us&hl=en
 [4]: https://twitter.com/search?q=%23Splatoon2%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}
 [5]: https://discord.gg/qtT3kPY
-[6]: ../mode7gg
+[6]: ../mode-7

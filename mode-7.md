@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Mode 7
-description: Videojuegos clásicos y modernos. Aquí solamente hablamos de los juegos que más nos gustan.
+description: Videojuegos clásicos y modernos. Aquí solo hablamos de los juegos que más nos gustan. 🎮 🕹️
 image: /assets/images/mode-7.png
-permalink: /mode7gg/
+permalink: /mode-7/
 ---
 
-[Mode 7][1]{:target="_blank"} (Mode7gg para los compas) es un proyecto que tenemos unos amigos y yo para compartir el amor que sentimos por los videojuegos. Por el momento Mode 7 es un lugar en Discord para hablar de videojuegos y para jugar juntos por su puesto, pero la idea es tener el podcast de Mode 7 en un futuro no muy lejano.
+[Mode 7][1]{:target="_blank"} (`Mode7gg` para los compas) es un proyecto que tenemos unos amigos y yo para compartir el amor que sentimos por los videojuegos. Por el momento Mode 7 es un lugar en Discord para hablar de videojuegos y para jugar juntos por su puesto, pero la idea es tener el podcast de Mode 7 en un futuro no muy lejano.
 
 <div class="row">
 <div class="col-md-12 col-lg-6 my-auto">
@@ -47,6 +47,6 @@ Este es un lugar donde ponernos de acuerdo para jugar juntos y por supuesto, pla
 </script>
 
 [1]: {{ site.mode7_discord }}
-[2]: /splatoon/
-[3]: /smash/
-[4]: /mario-kart/
+[2]: /mode-7/splatoon/
+[3]: /mode-7/smash/
+[4]: /mode-7/mario-kart/

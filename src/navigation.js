@@ -28,16 +28,16 @@ class Navigation extends React.Component {
                     <li><a href="/contacto/"><i class="fas fa-envelope"></i> Contacto</a></li>
                     <li><a href="/apps/"><i class="fas fa-heart"></i> Mis apps favoritas</a></li>
                     <li>
-                        <a href="/mode7gg/"><i class="fas fa-gamepad"></i> Mode 7</a>
+                        <a href="/mode-7/"><i class="fas fa-gamepad"></i> Mode 7</a>
+                        <ul>
+                            <li><a href="/mode-7/mario-kart/">Mode 7 Grand Prix (Mario Kart 8 Deluxe)</a></li>
+                            <li><a href="/mode-7/splatoon/">Retas de Splatoon 2</a></li>
+                            <li><a href="/mode-7/super-mario-maker/">Niveles en Super Mario Maker 2</a></li>
+                            <li><a href="/mode-7/smash/">Retas de Super Smash Bros. Ultimate</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="/nintendo/"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</a>
-                        <ul>
-                            <li><a href="/mario-kart/">Mario Kart 8 Deluxe</a></li>
-                            <li><a href="/splatoon/">Splatoon 2</a></li>
-                            <li><a href="/super-mario-maker/">Super Mario Maker 2</a></li>
-                            <li><a href="/smash/">Super Smash Bros. Ultimate</a></li>
-                        </ul>
                     </li>
                     <li>
                         <a href="/live/"><i class="fas fa-video"></i> Live</a>

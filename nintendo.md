@@ -21,11 +21,12 @@ Mode 7 Grand Prix todos los jueves @ 9:00 pm
 Código del torneo: 0746-6549-8155 | [<i class="fab fa-discord"></i>][6]
 - [*Splatoon 2*][4]<br>
 Retas de Splatoon 2 todos los martes @ 9:00 pm | [<i class="fab fa-discord"></i>][7]
+- *Bloodstained: Curse of the Moon 2*
 - *Xenoblade Chronicles: Definitive Edition*
 - *Clubhouse Games: 51 Worldwide Classics*
 </div>
 <div class="card-footer text-muted">
-<code>Última actualización: 11/06/2020</code>
+<code>Última actualización: 10/07/2020</code>
 </div>
 </div>
 

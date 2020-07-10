@@ -2,7 +2,7 @@
 layout: page
 title: Mode 7 Grand Prix
 description: Juega Mario Kart 8 Deluxe con nosotros en Mode 7.
-image: /assets/images/mode7-mk8dx-flyer.png
+image: /assets/images/banner-mode7grandprix.png
 permalink: /mode-7/mario-kart/
 ---
 
@@ -58,7 +58,7 @@ Juega *Mario Kart 8 Deluxe* con nosotros en [Mode 7][6].
 
 ## <i class="fas fa-gamepad"></i> Modos de Juego
 
-- Todos los jueves @ 9:00 pm CUU / 10:00 pm CDMX
+- Todos los jueves @ 8:00 pm CUU / 9:00 pm CDMX
 - Reglas
     - 150cc
     - Sin equipos
@@ -66,7 +66,7 @@ Juega *Mario Kart 8 Deluxe* con nosotros en [Mode 7][6].
     - COM difícil
     - Sin Smart Steering
     - 24 carreras
-    - Sin rotación
+    - Con rotación
     - Cualquier rating
 
 ## <i class="fas fa-info-circle"></i> Información
@@ -87,6 +87,12 @@ Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en 
 
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-60ffd943-eb58-499d-aee6-8a7ee4a6d314"></div>
+
+## Mario Kart 8 @ Mode 7
+
+<div class="text-center mt20">
+[<img class="img-fluid" src="/assets/images/banner-mode7grandprix.png" alt="">][1]{:target="_blank"}
+</div>
 
 </div>
 </div>

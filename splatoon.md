@@ -63,8 +63,8 @@ Juega *Splatoon 2* con nosotros en [Mode 7][6].
 
 - Turf War (aunque la mayor parte del tiempo juego Ranked)
 - Ranked Battle
-    - Rainmaker (soy Rank S+)
-    - Splat Zones (soy Rank S+)
+    - Rainmaker (soy Rank X)
+    - Splat Zones (soy Rank X)
     - Tower Control (soy Rank S+)
     - Clam Blitz (soy Rank S+)
 - League Battle (organizamos equipos en [Mode 7 (#splatoon)][1]{:target="_blank"})
@@ -90,7 +90,7 @@ Para recibir mis notificaciones sobre *Splatoon 2* puedes [seguirme en Twitter][
 
 <div class="text-center mt20">
 <a href="https://discord.gg/NUSDKeJ" target="_blank">
-<img class="img-fluid" src="{{ site.url }}/assets/images/banner-splatoon2.png" alt="" />
+[<img class="img-fluid" src="/assets/images/banner-splatoon2.png" alt="" />][1]{:target="_blank"}
 </a>
 </div>
 

@@ -88,9 +88,6 @@ Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en 
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-60ffd943-eb58-499d-aee6-8a7ee4a6d314"></div>
 
-## Regístrate
-<iframe src="https://smash.gg/tournament/mode-7-grand-prix/register/embed" frameborder="0" height="300" width="100%"></iframe>
-
 </div>
 </div>
 

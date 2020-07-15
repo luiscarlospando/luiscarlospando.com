@@ -120,6 +120,14 @@
             $('#contador-posts').append(postCount);
         });
 
+        // Retrieve Splatoon 2 ranks
+        $.get('https://stat.ink/api/v2/battle?screen_name=mijo', function (data) {
+            console.log(data);
+
+            // Rainmaker rank
+            $('#rank-rm').append('');
+        });
+
         // RSS Feed
         jQuery(function ($) {
             $("#splatlog").rss("https://stat.ink/@mijo.2.en-US.rss", {

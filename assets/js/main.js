@@ -122,6 +122,7 @@
 
         // stat.ink REST API actions
         $.get('https://stat.ink/api/v2/battle?screen_name=mijo', function (data) {
+            console.log(data);
             $('#rank-rm').append(data.id);
         });
 

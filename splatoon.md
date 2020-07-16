@@ -63,7 +63,7 @@ Juega *Splatoon 2* con nosotros en [Mode 7][6].
 
 - Turf War (aunque la mayor parte del tiempo juego Ranked)
 - Ranked Battle
-    - Rainmaker (soy Rank X)
+    - Rainmaker (soy <span id="rank-rm"></span>)
     - Splat Zones (soy Rank X)
     - Tower Control (soy Rank S+)
     - Clam Blitz (soy Rank S+)

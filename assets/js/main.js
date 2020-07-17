@@ -120,12 +120,6 @@
             $('#contador-posts').append(postCount);
         });
 
-        // stat.ink REST API actions
-        $.get('https://stat.ink/api/v2/battle?screen_name=mijo', function (data) {
-            console.log(data);
-            $('#rank-rm').append(data.id);
-        });
-
         // RSS Feed
         jQuery(function ($) {
             $("#splatlog").rss("https://stat.ink/@mijo.2.en-US.rss", {

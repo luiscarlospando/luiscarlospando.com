@@ -66,7 +66,7 @@ Juega *Mario Kart 8 Deluxe* con nosotros en [Mode 7][6].
     - COM difícil
     - Sin Smart Steering
     - 24 carreras
-    - Con rotación
+    - Con rotación de sala (cada 4 carreras)
     - Cualquier rating
 
 ## <i class="fas fa-info-circle"></i> Información

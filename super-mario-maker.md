@@ -88,4 +88,4 @@ Para recibir mis notificaciones sobre *Super Mario Maker 2* puedes [seguirme en 
 [3]: https://play.google.com/store/apps/details?id=com.nintendo.znca&gl=us&hl=en
 [4]: https://twitter.com/search?q=%23SuperMarioMaker2%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}
 [5]: https://discord.gg/bMPKcCj
-[6]: ../mode-7
+[6]: /mode-7

@@ -83,16 +83,16 @@ Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en 
 </div>
 <div class="col-sm-6">
 
-## <i class="fab fa-twitter"></i> Últimas noticias
-
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-60ffd943-eb58-499d-aee6-8a7ee4a6d314"></div>
-
 ## Mario Kart 8 @ Mode 7
 
 <div class="text-center mt20">
 [<img class="img-fluid" src="/assets/images/banner-mode7grandprix.png" alt="">][1]{:target="_blank"}
 </div>
+
+## <i class="fab fa-twitter"></i> Últimas noticias
+
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-60ffd943-eb58-499d-aee6-8a7ee4a6d314"></div>
 
 </div>
 </div>

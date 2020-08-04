@@ -40,7 +40,7 @@ Obvio a la comunidad le interesa muchos más juegos que estos, entra a Mode 7 y 
 <div class="row">
 <div class="col-12">
 ## <i class="fab fa-twitch"></i> Twitch
-<div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 0;">
+<div class="embed-responsive embed-responsive-16by9 mb-5" style="margin-bottom: 0;">
 <iframe
     src="https://player.twitch.tv/?channel=mode7gg&parent=luiscarlospando.com"
     frameborder="0"

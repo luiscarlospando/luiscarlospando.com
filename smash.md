@@ -2,7 +2,7 @@
 layout: page
 title: Super Smash Bros. Ultimate
 description: Juega Super Smash Bros. Ultimate con nosotros en Mode 7.
-image: /assets/images/smash-banner.png
+image: /assets/images/flyer-smash.png
 permalink: /mode-7/smash/
 ---
 
@@ -41,13 +41,12 @@ Juega *Super Smash Bros. Ultimate* con nosotros en [Mode 7][6].
 <div class="row">
 <div class="col-sm-6">
 
-## <i class="fas fa-gamepad"></i> Modos de Juego
+## <i class="fas fa-gamepad"></i> Modo de Juego
 
 - Mode 7 Battle Arena (preguntar ID vía [#smash-bros en Mode 7][1]{:target="_blank"})
     - Tipo: All Skill Levels
-    - Formato: 2/4-Player Smash
-    - Reglas: 3 Stock 10:00
-    - Rotación: Bottom Two Leave
+    - Formato: 1v1, no items
+    - Reglas: 3 Stock 8:00
 
 ## <i class="fas fa-info-circle"></i> Información
 
@@ -66,7 +65,7 @@ Para recibir mis notificaciones sobre *Super Smash Bros. Ultimate* puedes [segui
 ## Super Smash Bros. Ultimate @ Mode 7
 
 <div class="text-center mt20">
-[<img class="img-fluid" src="/assets/images/smash-banner.png" alt="">][1]{:target="_blank"}
+[<img class="img-fluid" src="/assets/images/flyer-smash.png" alt="">][1]{:target="_blank"}
 </div>
 
 </div>

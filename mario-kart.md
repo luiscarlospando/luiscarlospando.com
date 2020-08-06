@@ -58,6 +58,8 @@ Juega *Mario Kart 8 Deluxe* con nosotros en [Mode 7][6].
 
 ## <i class="fas fa-gamepad"></i> Modos de Juego
 
+<code>Última actualización: 06/08/2020</code>
+
 - Todos los jueves @ 8:00 pm CUU / 9:00 pm CDMX
 - Reglas
     - 150cc
@@ -65,8 +67,8 @@ Juega *Mario Kart 8 Deluxe* con nosotros en [Mode 7][6].
     - Items normales
     - COM difícil
     - Sin Smart Steering
-    - 24 carreras
-    - Con rotación de sala (cada 4 carreras)
+    - 16 carreras
+    - No rotación de lobby
     - Cualquier rating
 
 ## <i class="fas fa-info-circle"></i> Información

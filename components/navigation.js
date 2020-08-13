@@ -187,7 +187,18 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
+                                    { href: "https://blog.luiscarlospando.com/hashtag/mode-7-podcast/" },
+                                    React.createElement("i", { "class": "fas fa-microphone-alt" }),
+                                    "Mode 7 Podcast"
+                                )
+                            ),
+                            React.createElement(
+                                "li",
+                                null,
+                                React.createElement(
+                                    "a",
                                     { href: "/mode-7/mario-kart/" },
+                                    React.createElement("i", { "class": "fas fa-gamepad" }),
                                     "Mode 7 Grand Prix (Mario Kart 8 Deluxe)"
                                 )
                             ),
@@ -197,6 +208,7 @@ var Navigation = function (_React$Component) {
                                 React.createElement(
                                     "a",
                                     { href: "/mode-7/splatoon/" },
+                                    React.createElement("i", { "class": "fas fa-gamepad" }),
                                     "Retas de Splatoon 2"
                                 )
                             ),
@@ -206,6 +218,7 @@ var Navigation = function (_React$Component) {
                                 React.createElement(
                                     "a",
                                     { href: "/mode-7/super-mario-maker/" },
+                                    React.createElement("i", { "class": "fas fa-gamepad" }),
                                     "Niveles en Super Mario Maker 2"
                                 )
                             ),
@@ -215,6 +228,7 @@ var Navigation = function (_React$Component) {
                                 React.createElement(
                                     "a",
                                     { href: "/mode-7/smash/" },
+                                    React.createElement("i", { "class": "fas fa-gamepad" }),
                                     "Retas de Super Smash Bros. Ultimate"
                                 )
                             )

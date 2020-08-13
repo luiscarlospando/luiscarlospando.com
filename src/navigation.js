@@ -30,12 +30,14 @@ class Navigation extends React.Component {
                     <li>
                         <a href="/mode-7/"><i class="fas fa-gamepad"></i> Mode 7</a>
                         <ul>
-                            <li><a href="https://blog.luiscarlospando.com/hashtag/mode-7-podcast/"><i class="fas fa-microphone-alt"></i> Mode 7 Podcast</a>
                             <li><a href="/mode-7/mario-kart/"><i class="fas fa-gamepad"></i> Mode 7 Grand Prix (Mario Kart 8 Deluxe)</a></li>
                             <li><a href="/mode-7/splatoon/"><i class="fas fa-gamepad"></i> Retas de Splatoon 2</a></li>
                             <li><a href="/mode-7/super-mario-maker/"><i class="fas fa-gamepad"></i> Niveles en Super Mario Maker 2</a></li>
                             <li><a href="/mode-7/smash/"><i class="fas fa-gamepad"></i> Retas de Super Smash Bros. Ultimate</a></li>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="https://blog.luiscarlospando.com/hashtag/mode-7-podcast/"><i class="fas fa-microphone-alt"></i> Mode 7 Podcast</a>
                     </li>
                     <li>
                         <a href="/nintendo/"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</a>

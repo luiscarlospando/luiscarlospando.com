@@ -187,16 +187,6 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "https://blog.luiscarlospando.com/hashtag/mode-7-podcast/" },
-                                    React.createElement("i", { "class": "fas fa-microphone-alt" }),
-                                    "Mode 7 Podcast"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
                                     { href: "/mode-7/mario-kart/" },
                                     React.createElement("i", { "class": "fas fa-gamepad" }),
                                     "Mode 7 Grand Prix (Mario Kart 8 Deluxe)"
@@ -232,6 +222,16 @@ var Navigation = function (_React$Component) {
                                     "Retas de Super Smash Bros. Ultimate"
                                 )
                             )
+                        )
+                    ),
+                    React.createElement(
+                        "li",
+                        null,
+                        React.createElement(
+                            "a",
+                            { href: "https://blog.luiscarlospando.com/hashtag/mode-7-podcast/" },
+                            React.createElement("i", { "class": "fas fa-microphone-alt" }),
+                            " Mode 7 Podcast"
                         )
                     ),
                     React.createElement(

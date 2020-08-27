@@ -26,6 +26,9 @@ permalink: /mode-7/
 <span id="mode-7-podcast-latest-episode"></span>
 </h3>
 </div>
+<div class="card-footer text-muted">
+<span id="mode-7-podcast-latest-episode-timestamp"></span>
+</div>
 </div>
 </div>
 </div>

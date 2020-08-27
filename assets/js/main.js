@@ -123,7 +123,7 @@
         // Retrieve latest post timestamp from tag 'Mode 7 Podcast' via API and fetch link
         $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1&tags=778', function (data) {
             // console.log(data);
-            $('#mode-7-podcast-latest-episode-timestamp').append('<a href="' + data[0].link + '"><code>' + data[0].date + '</code></a>');
+            $('#mode-7-podcast-latest-episode-timestamp').append('<a href="' + data[0].link + '"><code>Última actualización: ' + data[0].date + '</code></a>');
         });
 
         // Append total post count to element #contador-posts in "Acerca de" page

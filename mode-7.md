@@ -19,7 +19,7 @@ permalink: /mode-7/
 <div class="col-12">
 <div class="card text-center">
 <div class="card-header">
-<h5 class="card-title"><i class="fas fa-microphone-alt"></i> Mode 7 Podcast (episodio más reciente)</h5>
+<h5 class="card-title"><i class="fas fa-microphone-alt"></i> Mode 7 Podcast <small>(episodio más reciente)</small></h5>
 </div>
 <div class="card-body">
 <h3 class="card-text">

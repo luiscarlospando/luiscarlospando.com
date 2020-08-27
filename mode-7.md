@@ -16,6 +16,21 @@ permalink: /mode-7/
 </div>
 
 <div class="row">
+<div class="col-12">
+<div class="card text-center">
+<div class="card-header">
+<h5 class="card-title"><i class="fas fa-microphone-alt"></i> Mode 7 Podcast (episodio más reciente)</h5>
+</div>
+<div class="card-body">
+<h3 class="card-text">
+<span id="mode-7-podcast-latest-episode"></span>
+</h3>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
 <div class="col-md-12 col-lg-6 my-auto">
 ## <i class="fab fa-discord"></i> Discord
 #### [Mode 7 <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i>][1]{:target="_blank"}

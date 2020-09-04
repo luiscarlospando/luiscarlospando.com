@@ -80,4 +80,4 @@ Obvio a la comunidad le interesa muchos más juegos que estos, entra a Mode 7 y 
 [2]: /mode-7/splatoon/
 [3]: /mode-7/smash/
 [4]: /mode-7/mario-kart/
-[5]: https://anchor.fm/mode7gg
+[5]: https://blog.luiscarlospando.com/hashtag/mode-7-podcast/

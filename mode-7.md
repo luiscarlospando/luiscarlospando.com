@@ -11,7 +11,7 @@ permalink: /mode-7/
 [<img class="img-fluid" src="/assets/images/mode-7-logo.jpg" alt="" />][1]{:target="_blank"}
 </div>
 <div class="col-6 col-sm-8 col-md-9 col-lg-10 my-auto">
-[Mode 7][1]{:target="_blank"} (`Mode7gg` para los compas) es un proyecto que tenemos unos amigos y yo para compartir el amor que sentimos por los videojuegos. Mode 7 es un lugar en Discord y un [podcast][5]{:target="_blank"} para hablar de videojuegos y por supuesto, jugarlos.
+[Mode 7][1]{:target="_blank"} (`Mode7gg` para los compas) es un proyecto que tenemos unos amigos y yo para compartir el amor que sentimos por los videojuegos. Mode 7 es un lugar en Discord y un [podcast][5] para hablar de videojuegos y por supuesto, jugarlos.
 </div>
 </div>
 

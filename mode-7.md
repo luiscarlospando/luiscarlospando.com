@@ -43,7 +43,7 @@ permalink: /mode-7/
 
 En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7:
 - [*Mario Kart 8 Deluxe*][4]
-- [*Rocket League*][3]
+- [*Rocket League*][6]
 - [*Splatoon 2*][2]
 - [*Super Smash Bros. Ultimate*][3]
 

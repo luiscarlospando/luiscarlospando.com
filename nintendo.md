@@ -19,13 +19,15 @@ Aquí están mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y 
 - [*Mario Kart 8 Deluxe*][5]<br>
 Mode 7 Grand Prix todos los jueves @ 9:00 pm
 Código del torneo: 0746-6549-8155 | [<i class="fab fa-discord"></i>][6]
+- [*Rocket League*][8]<br>
+Liga Mode 7 en Rocket League todos los viernes @ 9:00 pm | [<i class="fab fa-discord"></i>][9]
 - [*Splatoon 2*][4]<br>
 Retas de Splatoon 2 todos los martes @ 9:00 pm | [<i class="fab fa-discord"></i>][7]
 - *Super Mario All-Stars*
 - *Streets of Rage 4*
 </div>
 <div class="card-footer text-muted">
-<code>Última actualización: 4/09/2020</code>
+<code>Última actualización: 25/09/2020</code>
 </div>
 </div>
 
@@ -79,3 +81,5 @@ Retas de Splatoon 2 todos los martes @ 9:00 pm | [<i class="fab fa-discord"></i>
 [5]: /mode-7/mario-kart/
 [6]: https://discord.gg/U77J5c6
 [7]: https://discord.gg/NUSDKeJ
+[8]: /mode-7/rocket-league/
+[9]: https://discord.gg/D6mjaEA

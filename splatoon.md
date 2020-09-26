@@ -6,10 +6,6 @@ image: /assets/images/banner-splatoon2.png
 permalink: /mode-7/splatoon/
 ---
 
-<div class="text-center">
-Juega *Splatoon 2* con nosotros en [Mode 7][6].
-</div>
-
 <div class="row">
 <div class="col-12">
 <div class="card text-center">
@@ -23,34 +19,6 @@ Juega *Splatoon 2* con nosotros en [Mode 7][6].
 </div>
 <div class="card-footer text-muted">
 <span id="splatlog-timestamp"></span>
-</div>
-</div>
-</div>
-</div>
-
-<div class="row">
-<div class="col-xs-12 col-sm-6 my-auto">
-<div class="card text-center">
-<div class="card-header">
-<h5 class="card-title"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</h5>
-</div>
-<div class="card-body">
-<h3 class="card-text">SW-3920-3330-9820</h3>
-</div>
-</div>
-</div>
-<div class="col-xs-12 col-sm-6">
-<div class="card text-center">
-<div class="card-header">
-<h5 class="card-title text-center"><i class="fab fa-discord"></i> Discord Tag</h5>
-</div>
-<div class="card-body">
-<div class="input-group justify-content-center">
-<input type="text" class="form-control" id="discord-tag" value="{{ site.discord_tag }}" aria-label="" aria-describedby readonly>
-<div class="input-group-append">
-<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag" data-toggle="tooltip" data-placement="top" title="Copiar al portapapeles"><i class="fas fa-clipboard"></i></button>
-</div>
-</div>
 </div>
 </div>
 </div>

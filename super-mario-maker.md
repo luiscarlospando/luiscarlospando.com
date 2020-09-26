@@ -6,10 +6,6 @@ image: /assets/images/banner-smm2.jpg
 permalink: /mode-7/super-mario-maker/
 ---
 
-<div class="text-center">
-Te invito a jugar mis niveles y los niveles de la comunidad de [Mode 7][6] en *Super Mario Maker 2*.
-</div>
-
 <div class="row">
 <div class="col-12">
 <div class="card text-center">
@@ -20,34 +16,6 @@ Te invito a jugar mis niveles y los niveles de la comunidad de [Mode 7][6] en *S
 <h3 class="card-text">
 ID: N4H-6H3-T7G
 </h3>
-</div>
-</div>
-</div>
-</div>
-
-<div class="row">
-<div class="col-xs-12 col-sm-6 my-auto">
-<div class="card text-center">
-<div class="card-header">
-<h5 class="card-title"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</h5>
-</div>
-<div class="card-body">
-<h3 class="card-text">SW-3920-3330-9820</h3>
-</div>
-</div>
-</div>
-<div class="col-xs-12 col-sm-6">
-<div class="card text-center">
-<div class="card-header">
-<h5 class="card-title"><i class="fab fa-discord"></i> Discord Tag</h5>
-</div>
-<div class="card-body">
-<div class="input-group justify-content-center">
-<input type="text" class="form-control" id="discord-tag" value="{{ site.discord_tag }}" aria-label="" aria-describedby readonly>
-<div class="input-group-append">
-<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag" data-toggle="tooltip" data-placement="top" title="Copiar al portapapeles"><i class="fas fa-clipboard"></i></button>
-</div>
-</div>
 </div>
 </div>
 </div>

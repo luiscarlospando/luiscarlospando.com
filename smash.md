@@ -6,38 +6,6 @@ image: /assets/images/flyer-smash.png
 permalink: /mode-7/smash/
 ---
 
-<div class="text-center">
-Juega *Super Smash Bros. Ultimate* con nosotros en [Mode 7][6].
-</div>
-
-<div class="row">
-<div class="col-xs-12 col-sm-6 my-auto">
-<div class="card text-center">
-<div class="card-header">
-<h5 class="card-title"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</h5>
-</div>
-<div class="card-body">
-<h3 class="card-text">SW-3920-3330-9820</h3>
-</div>
-</div>
-</div>
-<div class="col-xs-12 col-sm-6">
-<div class="card text-center">
-<div class="card-header">
-<h5 class="card-title"><i class="fab fa-discord"></i> Discord Tag</h5>
-</div>
-<div class="card-body">
-<div class="input-group justify-content-center">
-<input type="text" class="form-control" id="discord-tag" value="{{ site.discord_tag }}" aria-label="" aria-describedby readonly>
-<div class="input-group-append">
-<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag" data-toggle="tooltip" data-placement="top" title="Copiar al portapapeles"><i class="fas fa-clipboard"></i></button>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
 <div class="row">
 <div class="col-sm-6">
 
@@ -90,6 +58,6 @@ Para chat de voz utilizamos [Discord][1]{:target="_blank"} usando el [canal de v
 [1]: https://discord.gg/3Tws9AQ
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw
 [3]: https://play.google.com/store/apps/details?id=com.nintendo.znca&gl=us&hl=en
-[4]: https://twitter.com/search?q=%23Splatoon2%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}
-[5]: https://discord.gg/fDuYJnW
+[4]: https://twitter.com/search?q=%23SmashBros%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}
+[5]: https://discord.gg/6aVatTF
 [6]: /mode-7

@@ -36,6 +36,13 @@ body {
     margin: 0;
 }
 
+.mm-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 a,
 a:link,
 a:visited,

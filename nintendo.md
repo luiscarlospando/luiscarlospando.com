@@ -27,7 +27,7 @@ Retas de Splatoon 2 todos los martes @ 9:00 pm | [<i class="fab fa-discord"></i>
 - *Streets of Rage 4*
 </div>
 <div class="card-footer text-muted">
-<code>Última actualización: 13/10/2020</code>
+<code>Última actualización: {{ site.time | date: "%d/%m/%Y" }}</code>
 </div>
 </div>
 

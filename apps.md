@@ -8,7 +8,7 @@ permalink: /apps/
 
 <div class="card last-updated mt-3 text-center">
 <div class="card-body">
-#### <code>Última actualización: 04/10/2020</code>
+#### <code>Última actualización: {{ site.time | date: "%d/%m/%Y" }}</code>
 </div>
 </div>
 

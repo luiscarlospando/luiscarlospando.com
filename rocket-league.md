@@ -26,7 +26,7 @@ Liga Mode 7
 
 ## <i class="fas fa-gamepad"></i> Modos de Juego
 
-<code>Última actualización: 25/09/2020</code>
+<code>Última actualización: {{ site.time | date: "%d/%m/%Y" }}</code>
 
 - Todos los viernes @ 8:00 pm CUU / 9:00 pm CDMX
 - Reglas

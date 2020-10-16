@@ -8,7 +8,7 @@ permalink: /privacidad/
 
 <div class="card last-updated mt-3 text-center">
 <div class="card-body">
-#### <code>Última actualización: 02/05/2019</code>
+#### <code>Última actualización: {{ site.time | date: "%d/%m/%Y" }}</code>
 </div>
 </div>
 

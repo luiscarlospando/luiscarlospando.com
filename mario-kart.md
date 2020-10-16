@@ -26,9 +26,9 @@ permalink: /mode-7/mario-kart/
 
 ## <i class="fas fa-gamepad"></i> Modos de Juego
 
-<code>Última actualización: 06/08/2020</code>
+<code>Última actualización: 15/10/2020</code>
 
-- Todos los jueves @ 8:00 pm CUU / 9:00 pm CDMX
+- Todos los jueves @ 9:00 pm CUU / 10:00 pm CDMX
 - Reglas
     - 150cc
     - Sin equipos

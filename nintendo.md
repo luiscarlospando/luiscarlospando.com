@@ -23,8 +23,8 @@ Código del torneo: 0746-6549-8155 | [<i class="fab fa-discord"></i>][5]
 Liga Mode 7 en Rocket League todos los viernes @ 9:00 pm | [<i class="fab fa-discord"></i>][8]
 - [*Splatoon 2*][3]<br>
 Retas de Splatoon 2 todos los martes @ 9:00 pm | [<i class="fab fa-discord"></i>][6]
-- *Super Mario All-Stars*
-- *Streets of Rage 4*
+- *Super Mario 3D All-Stars*
+- *Mega Man 8*
 </div>
 <div class="card-footer text-muted">
 <code>Última actualización: {{ site.time | date: "%d/%m/%Y" }}</code>

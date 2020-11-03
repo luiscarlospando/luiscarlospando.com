@@ -16,6 +16,7 @@ Aquí está el [archivo completo][2] de todos mis posts.
 
 - Desarrollo y mantengo este sitio usando [Visual Studio Code][5]{:target="_blank"} en mi Mac y tomando muchas tazas de ☕
 - Este sitio es completamente estático y generado con [Jekyll][15]{:target="_blank"} ([<code>site-info</code>][45]), luego hago <code>push</code> de todos mis cambios en un <code>droplet</code> que tengo en [DigitalOcean][10]{:target="_blank"}
+- DNS manejado con [Cloudflare][46]{:target="_blank"}.
 - El logotipo lo hice usando mi [Nintendo Switch][9]{:target="_blank"}
 - Mi dominio está registrado con [Hover][11]{:target="_blank"}
 
@@ -88,3 +89,4 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [43]: https://prismjs.com
 [44]: https://github.com/PrismJS/prism/blob/master/LICENSE
 [45]: https://{{ site.domain }}/jekyll-info.html
+[46]: https://www.cloudflare.com/

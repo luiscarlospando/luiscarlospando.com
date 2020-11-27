@@ -22,7 +22,7 @@ permalink: /mode-7/mario-kart/
 </div>
 
 <div class="row">
-<div class="col-sm-6">
+<div class="col-sm-6 order-2 order-sm-1">
 
 ## <i class="fas fa-gamepad"></i> Modos de Juego
 
@@ -51,21 +51,21 @@ Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en 
 <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button text-center" data-show-count="false">Follow @{{ site.twitter_username }}</a>
 
 </div>
-<div class="col-sm-6">
+<div class="col-sm-6 order-1 order-sm-2">
 
-## Mario Kart 8 @ Mode 7
+## <i class="fas fa-flag-checkered"></i> Mario Kart 8 @ Mode 7
 
 <div class="text-center mt20">
-[<img class="img-fluid" src="/assets/images/banner-mode7grandprix.png" alt="">][1]{:target="_blank"}
+[<img class="img-fluid" src="/assets/images/mode7-mk8dx-new-flyer.png" alt="">][1]{:target="_blank"}
+</div>
+
+</div>
 </div>
 
 ## <i class="fab fa-twitter"></i> Últimas noticias
 
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-60ffd943-eb58-499d-aee6-8a7ee4a6d314"></div>
-
-</div>
-</div>
 
 ## <i class="fas fa-microphone"></i> Chat de voz
 

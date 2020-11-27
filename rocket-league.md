@@ -22,7 +22,7 @@ Liga Mode 7
 </div>
 
 <div class="row">
-<div class="col-sm-6">
+<div class="col-sm-6 order-2 order-sm-1">
 
 ## <i class="fas fa-gamepad"></i> Modos de Juego
 
@@ -48,9 +48,9 @@ Para recibir mis notificaciones sobre *Rocket League* puedes [seguirme en Twitte
 <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button text-center" data-show-count="false">Follow @{{ site.twitter_username }}</a>
 
 </div>
-<div class="col-sm-6">
+<div class="col-sm-6 order-1 order-sm-2">
 
-## Rocket League @ Mode 7
+## <i class="fas fa-car"></i> Rocket League
 
 <div class="text-center mt20">
 [<img class="img-fluid" src="/assets/images/mode7-rocket-league.png" alt="">][1]{:target="_blank"}

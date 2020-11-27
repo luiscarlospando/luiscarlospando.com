@@ -25,16 +25,18 @@ permalink: /mode-7/splatoon/
 </div>
 
 <div class="row">
-<div class="col-sm-6">
+<div class="col-sm-6 order-2 order-sm-1">
 
 ## <i class="fas fa-gamepad"></i> Modos de juego
+
+<code>Última actualización: {{ site.time | date: "%d/%m/%Y" }}</code>
 
 - Turf War (aunque la mayor parte del tiempo juego Ranked)
 - Ranked Battle
     - Rainmaker (soy Rank X)
-    - Splat Zones (soy Rank S+9)
-    - Tower Control (soy Rank S+7)
-    - Clam Blitz (soy Rank S+1)
+    - Splat Zones (soy Rank X)
+    - Tower Control (soy Rank S+6)
+    - Clam Blitz (soy Rank S+0)
 - League Battle (organizamos equipos en [Mode 7 (#splatoon)][1]{:target="_blank"})
 
 ## <i class="fas fa-info-circle"></i> Información
@@ -52,9 +54,9 @@ Para recibir mis notificaciones sobre *Splatoon 2* puedes [seguirme en Twitter][
 <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button text-center" data-show-count="false">Follow @{{ site.twitter_username }}</a>
 
 </div>
-<div class="col-sm-6">
+<div class="col-sm-6 order-1 order-sm-2">
 
-## Splatoon 2 @ Mode 7
+## <i class="fas fa-paint-roller"></i> Splatoon 2 @ Mode 7
 
 <div class="text-center mt20">
 <a href="https://discord.gg/NUSDKeJ" target="_blank">

@@ -197,6 +197,16 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
+                                    { href: "/mode-7/rocket-league/" },
+                                    React.createElement("i", { "class": "fas fa-gamepad" }),
+                                    "Retas de Rocket League"
+                                )
+                            ),
+                            React.createElement(
+                                "li",
+                                null,
+                                React.createElement(
+                                    "a",
                                     { href: "/mode-7/splatoon/" },
                                     React.createElement("i", { "class": "fas fa-gamepad" }),
                                     "Retas de Splatoon 2"

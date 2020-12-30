@@ -59,7 +59,9 @@
     }
 
     .scrolled-position {
-        background: rgba(0,0,0,0.9);
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+        background-color: rgba(0,0,0,0.7) !important;
         // border-bottom: 1px solid #000;
     }
 
@@ -155,7 +157,9 @@
     }
 
     .scrolled-position {
-        background: rgba(0,0,0,0.9);
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+        background-color: rgba(0,0,0,0.7) !important;
         // border-bottom: 1px solid #000;
     }
 

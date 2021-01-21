@@ -4,6 +4,7 @@ title: Super Smash Bros. Ultimate
 description: Juega Super Smash Bros. Ultimate con nosotros en Mode 7.
 image: /assets/images/flyer-smash.png
 permalink: /mode-7/smash/
+modified-date: 20/01/2021
 ---
 
 <div class="row">
@@ -11,7 +12,7 @@ permalink: /mode-7/smash/
 
 ## <i class="fas fa-gamepad"></i> Modo de Juego
 
-<code>Última actualización: {{ site.time | date: "%d/%m/%Y" }}</code>
+<code>Última actualización: {{ page.modified-date }}</code>
 
 - Mode 7 Battle Arena (preguntar ID vía [#smash-bros en Mode 7][1]{:target="_blank"})
     - Tipo: All Skill Levels

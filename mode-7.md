@@ -37,7 +37,7 @@ permalink: /mode-7/
 <div class="col-md-12 col-lg-6 my-auto">
 ## <i class="fab fa-discord"></i> Discord
 #### [Mode 7 <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i>][1]{:target="_blank"}
-*<small>Videojuegos clásicos y modernos. Aquí solamente hablamos de los juegos que más nos gustan.</small>*
+*<small>Video games & friends!</small>* 🎮 🕹️
 
 Únete a [Mode 7 en Discord][1]{:target="_blank"} para conversar y jugar junto a la comunidad.
 
@@ -45,7 +45,7 @@ En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7
 - [*Mario Kart 8 Deluxe*][4]
 - [*Splatoon 2*][2]
 
-Obvio a la comunidad le interesa muchos más juegos que estos, entra a Mode 7 y encuentra amigos con tus mismos intereses.
+Pero obvio a nuestra comunidad le interesan muchos más juegos que estos. Entra a Mode 7 y haz amigos con tus mismos intereses.
 </div>
 <div class="col-md-12 col-lg-6 my-auto">
 <iframe src="https://discordapp.com/widget?id=478777821087662092&theme=dark" width="100%" height="380" allowtransparency="true" frameborder="0"></iframe>

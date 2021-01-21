@@ -4,6 +4,7 @@ title: Liga Mode 7 en Rocket League
 description: Juega Rocket League con nosotros en Mode 7.
 image: /assets/images/mode7-rocket-league.png
 permalink: /mode-7/rocket-league/
+modified-date: 20/01/2021
 ---
 
 <div class="row">
@@ -26,7 +27,7 @@ Liga Mode 7
 
 ## <i class="fas fa-gamepad"></i> Modos de Juego
 
-<code>Última actualización: {{ site.time | date: "%d/%m/%Y" }}</code>
+<code>Última actualización: {{ page.modified-date }}</code>
 
 - Todos los viernes @ 8:00 pm CUU / 9:00 pm CDMX
 - Reglas

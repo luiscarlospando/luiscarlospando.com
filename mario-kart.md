@@ -4,6 +4,7 @@ title: Mode 7 Grand Prix
 description: Juega Mario Kart 8 Deluxe con nosotros en Mode 7.
 image: /assets/images/banner-mode7grandprix.png
 permalink: /mode-7/mario-kart/
+modified-date: 20/01/2021
 ---
 
 <div class="row">
@@ -26,7 +27,7 @@ permalink: /mode-7/mario-kart/
 
 ## <i class="fas fa-gamepad"></i> Modos de Juego
 
-<code>Última actualización: {{ site.time | date: "%d/%m/%Y" }}</code>
+<code>Última actualización: {{ page.modified-date }}</code>
 
 - Todos los jueves @ 9:00 pm CUU / 10:00 pm CDMX
 - Reglas

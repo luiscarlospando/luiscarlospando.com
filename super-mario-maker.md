@@ -4,6 +4,7 @@ title: Super Mario Maker 2
 description: Te invito a jugar mis niveles y los niveles de la comunidad de Mode 7 en Super Mario Maker 2.
 image: /assets/images/banner-smm2.jpg
 permalink: /mode-7/super-mario-maker/
+modified-date: 20/01/2021
 ---
 
 <div class="row">
@@ -26,7 +27,7 @@ ID: N4H-6H3-T7G
 
 ## <i class="fas fa-info-circle"></i> Información
 
-<code>Última actualización: {{ site.time | date: "%d/%m/%Y" }}</code>
+<code>Última actualización: {{ page.modified-date }}</code>
 
 - Puedes unite a [Mode 7 (#super-mario-maker)][1]{:target="_blank"} en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Puedes revisar todos mis posts sobre *Super Mario Maker 2* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/super-mario-maker-2/">#Super Mario Maker2</a>

@@ -4,6 +4,7 @@ title: Splatoon 2
 description: Juega Splatoon 2 con nosotros en Mode 7.
 image: /assets/images/banner-splatoon2.png
 permalink: /mode-7/splatoon/
+modified-date: 20/01/2021
 ---
 
 <div class="row">
@@ -29,7 +30,7 @@ permalink: /mode-7/splatoon/
 
 ## <i class="fas fa-gamepad"></i> Modos de juego
 
-<code>Última actualización: {{ site.time | date: "%d/%m/%Y" }}</code>
+<code>Última actualización: {{ page.modified-date }}</code>
 
 - Turf War (aunque la mayor parte del tiempo juego Ranked)
 - Ranked Battle

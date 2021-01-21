@@ -19,7 +19,7 @@ author: Luis Carlos Pando
 email: hey@luiscarlospando.com
 description: >- # this means to ignore newlines until "baseurl:"
   Computers, punk rock, vinyl records and vide ogames.
-  Used to be good at Mario Kart 🏁
+  Used to be good at Mario Kart. 🏁
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://luiscarlospando.com" # the base hostname & protocol for your site, e.g. http://example.com
 domain: luiscarlospando.com

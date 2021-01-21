@@ -4,6 +4,7 @@ title: Nintendo
 description: Aquí están mis códigos de Nintendo Switch y Discord. También lo que estoy jugando actualmente.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
+modified-date: 20/01/2021
 ---
 
 Aquí están mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y [<i class="fas fa-link"></i> Discord][2]. También lo que estoy jugando actualmente.
@@ -25,9 +26,10 @@ Liga Mode 7 en Rocket League todos los viernes @ 9:00 pm | [<i class="fab fa-dis
 Retas de Splatoon 2 todos los martes @ 9:00 pm | [<i class="fab fa-discord"></i>][6]
 - *Dragon Quest XI: Echoes of an Elusive Age*
 - *Streets of Rage 4*
+- *Pokémon Sword*
 </div>
 <div class="card-footer text-muted">
-<code>Última actualización: {{ site.time | date: "%d/%m/%Y" }}</code>
+<code>Última actualización: {{ page.modified-date }}</code>
 </div>
 </div>
 

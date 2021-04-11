@@ -43,7 +43,7 @@ Retas de Splatoon 2 todos los martes @ 9:00 pm | [<i class="fab fa-discord"></i>
 <div class="input-group justify-content-center">
 <input type="text" class="form-control" id="discord-tag-value" value="{{ site.discord_tag }}" aria-label="" aria-describedby readonly>
 <div class="input-group-append">
-<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag-value" data-toggle="tooltip" data-placement="top" title="Copiar Discord Tag"><i class="fas fa-clipboard"></i></button>
+<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag-value" data-toggle="tooltip" data-placement="top" title="¡Código copiado!"><i class="fas fa-clipboard"></i></button>
 </div>
 </div>
 </div>
@@ -59,7 +59,7 @@ Retas de Splatoon 2 todos los martes @ 9:00 pm | [<i class="fab fa-discord"></i>
 <div class="input-group justify-content-center">
 <input type="text" class="form-control" id="nintendo-switch-code" value="SW-3920-3330-9820" aria-label="" aria-describedby readonly>
 <div class="input-group-append">
-<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#nintendo-switch-code" data-toggle="tooltip" data-placement="top" title="Copiar código de Nintendo Switch"><i class="fas fa-clipboard"></i></button>
+<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#nintendo-switch-code" data-toggle="tooltip" data-placement="top" title="¡Código copiado!"><i class="fas fa-clipboard"></i></button>
 </div>
 </div>
 </div>

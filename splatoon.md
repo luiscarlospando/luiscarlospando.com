@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Splatoon 2
-description: Juega Splatoon 2 con nosotros en Mode 7.
+description: Juega Splatoon 2 con la banda de Mode 7.
 image: /assets/images/banner-splatoon2.png
 permalink: /mode-7/splatoon/
-modified-date: 20/01/2021
+modified-date: 14/04/2021
 ---
 
 <div class="row">
@@ -32,18 +32,18 @@ modified-date: 20/01/2021
 
 <code>Última actualización: {{ page.modified-date }}</code>
 
-- Turf War (aunque la mayor parte del tiempo juego Ranked)
+- Turf War
 - Ranked Battle
-    - Rainmaker (soy Rank X)
-    - Splat Zones (soy Rank X)
-    - Tower Control (soy Rank S+6)
-    - Clam Blitz (soy Rank S+0)
-- League Battle (organizamos equipos en [Mode 7 (#splatoon)][1]{:target="_blank"})
+    - Rainmaker <span class="badge badge-dark">Rank X</span>
+    - Splat Zones <span class="badge badge-dark">Rank X</span>
+    - Tower Control <span class="badge badge-dark">Rank S+4</span>
+    - Clam Blitz <span class="badge badge-dark">Rank S</span>
+- League Battle (organizamos matches en equipos en [Mode 7 (#splatoon)][1]{:target="_blank"})
 
 ## <i class="fas fa-info-circle"></i> Información
 
 - Te invito a unirte a [Mode 7 (#splatoon)][1]{:target="_blank"} en Discord para recibir updates y notificaciones de todas las personas que jugamos
-- Jugamos todos los martes por las noches, a las 9:00 pm hora de Chihuahua / 10:00 pm hora de CDMX
+- Jugamos generalmente por las noches, aproximadamente a las 9:00 pm hora de Chihuahua / 10:00 pm hora de CDMX
 - Llevo un registro de mis batallas y estadísticas personales en [mi perfil de stat.ink][7]{:target="_blank"}
 - Uso la app Nintendo Switch Online ([iOS][2]{:target="itunes_store"} &#124; [Android][3]{:target="_blank"}) para mandar invitaciones a salas de juego
 - Puedes revisar todos mis posts sobre *Splatoon 2* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/splatoon-2/">#Splatoon2</a>
@@ -61,7 +61,7 @@ Para recibir mis notificaciones sobre *Splatoon 2* puedes [seguirme en Twitter][
 
 <div class="text-center mt20">
 <a href="https://discord.gg/NUSDKeJ" target="_blank">
-[<img class="img-fluid" src="/assets/images/banner-splatoon2.png" alt="" />][1]{:target="_blank"}
+[<img class="img-fluid" src="/assets/images/splatoon-flyer-2021.png" alt="" />][1]{:target="_blank"}
 </a>
 </div>
 

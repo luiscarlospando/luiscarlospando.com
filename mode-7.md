@@ -67,14 +67,6 @@ Pero obvio a nuestra comunidad le interesan muchos más juegos que estos. Entra 
 </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-  new Crate({
-    server: '478777821087662092',
-    channel: '478782494666129419',
-    shard: 'https://e.widgetbot.io'
-  })
-</script>
-
 [1]: {{ site.mode7_discord }}
 [2]: /mode-7/splatoon/
 [3]: /mode-7/smash/

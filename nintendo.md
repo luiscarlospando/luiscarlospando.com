@@ -66,14 +66,6 @@ Retas de *Splatoon 2*, días aleatoreos por la noche
 </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-  new Crate({
-    server: '478777821087662092',
-    channel: '478782494666129419',
-    shard: 'https://e.widgetbot.io'
-  })
-</script>
-
 [1]: #nintendo-switch
 [2]: #discord-tag
 [3]: /mode-7/splatoon/

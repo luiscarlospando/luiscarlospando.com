@@ -76,14 +76,6 @@ Para chat de voz utilizamos [Discord][1]{:target="_blank"} usando el [canal de v
 
 Únete a [Mode 7 (#mario-kart)][1]{:target="_blank"}. La intención de este Discord es ser útil para armar partidas, armar cotorreo, conocer gente, jugar, hablar sobre *Mario Kart 8 Deluxe* y mucho más.
 
-<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-  new Crate({
-    server: '478777821087662092',
-    channel: '478782450806292481',
-    shard: 'https://e.widgetbot.io'
-  })
-</script>
-
 [1]: https://discord.gg/U77J5c6
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw
 [3]: https://play.google.com/store/apps/details?id=com.nintendo.znca&gl=us&hl=en

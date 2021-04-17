@@ -3,6 +3,10 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+    .container {
+        min-width: 540px !important;
+    }
+
     .mm-page {
         min-height: 100vh;
         display: flex;
@@ -13,19 +17,24 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-
+    .container {
+        min-width: 720px !important;
+    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-
+    .container {
+        min-width: 960px !important;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-
+    .container {
+        min-width: 1140px !important;
+    }
 }
-
 
 /* Mobile */
 @media (max-width: 768px) {

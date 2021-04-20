@@ -32,66 +32,34 @@ Cuenta automatizada con posts de mi sitio.
 Mi Discord tag es <code>{{ site.discord_tag }}</code> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (feel free to join in!).
 
 ## <i class="fab fa-keybase"></i> Keybase
-Este es [mi perfil público en Keybase][15]{:target="_blank"}.
+Este es [mi perfil público en Keybase][10]{:target="_blank"}.
 
 ## <i class="fab fa-facebook-messenger"></i> Messenger
 También puedes contactarme a través de [Messenger][2]{:target="_blank"}.
 
 ## <i class="fab fa-google"></i> Google Forms
-Si lo prefieres, puedes escribirme por [aquí][14]{:target="_blank"}.
+Si lo prefieres, puedes escribirme por [aquí][9]{:target="_blank"}.
 
 ## <i class="fab fa-spotify"></i> Spotify
 <iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:1269830478&size=detail&theme=dark&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-Este es [mi perfil en Spotify][8]{:target="_blank"}.
+Este es [mi perfil en Spotify][5]{:target="_blank"}.
 
 ## <i class="fab fa-lastfm"></i> Last.fm
-Este es [mi perfil en Last.fm][12]{:target="_blank"}.
+Este es [mi perfil en Last.fm][7]{:target="_blank"}.
 
 ## <i class="fab fa-reddit"></i> Reddit
-Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquier forma este es [mi perfil en Reddit][11]{:target="_blank"}.
+Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquier forma este es [mi perfil en Reddit][6]{:target="_blank"}.
 
 ## <i class="fab fa-twitch"></i> Twitch
-[Tengo un canal en Twitch][13]{:target="_blank"}, muy inactivo por lo pronto, la idea es llenarlo de vida uno de estos días.
-
-## <i class="fas fa-code"></i> Developer Stuff
-
----
-
-### <i class="fab fa-github"></i> GitHub
-<a class="github-button" href="https://github.com/{{ site.github_username }}" aria-label="Follow @{{ site.github_username }} on GitHub">Follow @{{ site.github_username }}</a>
-
-Parte de mi trabajo se puede encontrar [aquí][5]{:target="_blank"}.
-
-### <i class="fas fa-code-branch"></i> Ask me anything (AMA) @ GitHub
-[Tengo un repo en GitHub][10] para que me preguntes lo que sea, solo es cuestión de [abrir](https://github.com/{{ site.github_username }}/ama/issues/new){:target="_blank"} un nuevo `issue`.
-
-### <i class="fab fa-gitlab"></i> GitLab
-También parte de mi trabajo se puede encontrar [aquí][6]{:target="_blank"}.
-
-### <i class="fab fa-stack-overflow"></i> Stack Overflow
-<a href="https://stackoverflow.com/users/2197860/luis-carlos-pando" target="_blank">
-    <img src="https://stackoverflow.com/users/flair/2197860.png?theme=dark" width="208" height="58" alt="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
-</a>
-
-### <i class="fab fa-dev"></i> Dev.to
-Me puedes encontrar en Dev.to [aquí][9]{:target="_blank"}.
-
-### <i class="fab fa-codepen"></i> CodePen
-Mi perfil en CodePen es [este][7]{:target="_blank"}.
-
+[Tengo un canal en Twitch][8]{:target="_blank"}, muy inactivo por lo pronto, la idea es llenarlo de vida uno de estos días.
 
 [1]: mailto:{{ site.email }}
 [2]: https://m.me/luiscarlospandodotcom
 [3]: https://instagram.com/{{ site.instagram_username }}
 [4]: /mode-7/
-[5]: https://github.com/{{ site.github_username }}
-[6]: https://gitlab.com/{{ site.gitlab_username }}
-[7]: https://codepen.io/{{ site.codepen_username }}
-[8]: https://open.spotify.com/user/{{ site.spotify_username }}
-[9]: https://dev.to/{{ site.devto_username }}
-[10]: https://github.com/{{ site.github_username }}/ama
-[11]: https://reddit.com/u/{{ site.reddit_username }}
-[12]: https://last.fm/user/{{ site.lastfm_username }}
-[13]: https://twitch.tv/{{ site.twitch_username }}
-[14]: https://forms.gle/RAUiuVmfByzAuQuQA
-[15]: https://keybase.io/luiscarlospando
+[5]: https://open.spotify.com/user/{{ site.spotify_username }}
+[6]: https://reddit.com/u/{{ site.reddit_username }}
+[7]: https://last.fm/user/{{ site.lastfm_username }}
+[8]: https://twitch.tv/{{ site.twitch_username }}
+[9]: https://forms.gle/RAUiuVmfByzAuQuQA
+[10]: https://keybase.io/luiscarlospando

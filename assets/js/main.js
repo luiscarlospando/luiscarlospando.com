@@ -157,4 +157,9 @@
 
     // Copy to clipboard instantiation
     new ClipboardJS('.btn');
+
+    // Add button classes to elements in pagination
+    $(window).on('load', function () {
+        $(".page-numbers").addClass("btn btn-primary");
+    });
 })();

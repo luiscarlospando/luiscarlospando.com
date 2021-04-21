@@ -17,7 +17,7 @@ nav#menu {
 }
 
 .mm-menu {
-    background-color: #000;
+    background-color: $navMenuBgColor;
     color: $mainColor;
 
     .mm-header,
@@ -53,6 +53,10 @@ nav#menu:not( .mm-menu ) {
 .mm-list > li > a:focus,
 .mm-list > li > span:focus {
     color: $linkColor !important;
+}
+
+.mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults):after {
+    border-bottom-width: 0;
 }
 
 .mm-footer {

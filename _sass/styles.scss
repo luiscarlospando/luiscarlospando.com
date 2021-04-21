@@ -403,13 +403,13 @@ a.btn {
     background-color: $btnBgColor;
     border-color: $btnBorderTextColor;
     border-bottom: 1px solid $btnBorderTextColor !important;
-    color: $btnBorderTextColor !important;
+    color: $mainColor !important;
 
     &:hover {
         background-color: $btnBgHoverColor;
         border-color: $btnBorderHoverColor;
         border-bottom: 1px solid $btnBorderHoverColor !important;
-        color: $btnTextHoverColor !important;
+        color: $mainColor !important;
     }
 }
 

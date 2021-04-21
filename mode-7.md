@@ -36,12 +36,8 @@ permalink: /mode-7/
 <div class="row">
 <div class="col-md-12 col-lg-6 my-auto">
 ## <i class="fab fa-discord"></i> Discord
-#### [Mode 7 <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i>][1]{:target="_blank"}
+#### [Mode 7][1]{:target="_blank"}
 *<small>Video games & friends!</small>* 🎮 🕹️
-
-<a class="btn btn-primary" href="{{ site.mode7_discord }}" target="_blank">
-Abrir Mode 7 en Discord <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i>
-</a>
 
 Únete a [Mode 7 en Discord][1]{:target="_blank"} para conversar y jugar junto a la comunidad.
 
@@ -53,6 +49,10 @@ Pero obvio a nuestra comunidad le interesan muchos más juegos que estos. Entra 
 </div>
 <div class="col-md-12 col-lg-6 my-auto">
 <iframe src="https://discordapp.com/widget?id=478777821087662092&theme=dark" width="100%" height="380" allowtransparency="true" frameborder="0"></iframe>
+
+<a class="btn btn-primary d-block" href="{{ site.mode7_discord }}" target="_blank">
+Abrir Mode 7 en Discord <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i>
+</a>
 </div>
 </div>
 

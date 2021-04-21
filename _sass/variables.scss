@@ -16,7 +16,10 @@ $btnBorderTextColor: #ff4081;
 $btnBgHoverColor: transparent;
 $btnBorderHoverColor: rgb(128, 1, 218);
 $btnTextHoverColor: rgb(128, 1, 218);
-$cardFooterBgColor: #111;
+$cardHeaderBgColor: #111;
+$cardBgColor: hsl(210deg, 30%, 8%);
+$cardFooterBgColor: transparent;
+$cardBorderColor: hsl(210deg, 30%, 12%);
 
 // Headings line height
 $headings-lh: 1.5;

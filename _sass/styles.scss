@@ -212,17 +212,18 @@ footer {
 }
 
 .card {
-    background-color: #000;
-    border: 1px solid $fifthColor;
+    background-color: $cardBgColor;
+    border: 1px solid $cardBorderColor;
 
-    // h1,
-    // h2,
-    // h3,
-    // h4,
-    // h5,
-    // h6 {
-    //     color: $fifthColor;
-    // }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin: 0;
+    }
 
     a {
         color: $linkColor !important;
@@ -233,11 +234,13 @@ footer {
         color: $hoverColor !important;
     }
 
-    .card-header,
-    .card-footer {
-        p {
-            margin: 0;
-        }
+    .card-header {
+        background-color: $cardHeaderBgColor;
+        border-bottom: 1px solid $cardBorderColor;
+    }
+
+    .card-body {
+        background-color: $cardBgColor;
     }
 
     .card-footer {
@@ -292,22 +295,6 @@ footer {
 
 .alert-link {
     color: $linkColor !important;
-}
-
-.card-header,
-.card-body {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        margin: 0;
-    }
-}
-
-.card-header {
-    border-bottom: 1px solid $fifthColor;
 }
 
 .text-muted {

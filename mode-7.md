@@ -39,6 +39,10 @@ permalink: /mode-7/
 #### [Mode 7 <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i>][1]{:target="_blank"}
 *<small>Video games & friends!</small>* 🎮 🕹️
 
+<a class="btn btn-primary" href="{{ site.mode7_discord }}" target="_blank">
+Abrir Mode 7 en Discord <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i>
+</a>
+
 Únete a [Mode 7 en Discord][1]{:target="_blank"} para conversar y jugar junto a la comunidad.
 
 En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7:

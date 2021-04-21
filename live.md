@@ -27,7 +27,12 @@ permalink: /live/
 </iframe>
 </div>
 </div>
-
-<p class="text-center">[Ver directamente en Twitch <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="bottom" title="Abrir en nueva pestaña"></i>][1]{:target="_blank"}</p>
+<div class="row no-gutters">
+<div class="col text-center">
+<a class="btn btn-primary" href="https://www.twitch.tv/{{ site.twitch_username }}" target="_blank">
+Ver directamente en Twitch <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i>
+</a>
+</div>
+</div>
 
 [1]: https://www.twitch.tv/{{ site.twitch_username }}

@@ -288,9 +288,9 @@ footer {
 .alert-info,
 .alert-success,
 .alert-warning {
-    background-color: #000;
+    background-color: $alertBgColor;
     color: $mainColor;
-    border-color: $fifthColor;
+    border-color: $cardBorderColor;
 }
 
 .alert-link {

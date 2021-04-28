@@ -56,7 +56,7 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [5]: https://code.visualstudio.com/
 [9]: https://www.nintendo.com/switch/
 [10]: https://m.do.co/c/03bd95f889e7
-[11]: https://www.cloudflare.com/
+[11]: https://cloudflare.com/
 [13]: https://github.com/git/git-scm.com/blob/master/README.md#license
 [14]: https://www.npmjs.com/
 [15]: https://jekyllrb.com/

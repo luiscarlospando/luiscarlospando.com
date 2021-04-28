@@ -37,7 +37,7 @@ Aquí está el [archivo completo][2] de todos mis posts.
 - [Prism.js][43]{:target="_blank"}, obra bajo una [Licencia MIT][44]{:target="_blank"}
 - [Google Fonts][23]{:target="_blank"}, todas las fuentes usadas en este sitio son [Open Source][34]{:target="_blank"}
 
-## Música de fondo gracias por
+## Música de fondo gracias a
 
 - [Spotify][35]{:target="_blank"}
 

@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: luiscarlospando.com
+Token: 381af129eff3357fddac01a4956e22c0f59eb2d7e0566d643165a74c85951dfb

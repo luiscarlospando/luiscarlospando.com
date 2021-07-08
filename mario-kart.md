@@ -4,7 +4,7 @@ title: Mode 7 Grand Prix
 description: Juega Mario Kart 8 Deluxe con nosotros en Mode 7.
 image: /assets/images/banner-mode7grandprix.png
 permalink: /mode-7/mario-kart/
-modified-date: 20/01/2021
+modified-date: 8/07/2021
 ---
 
 <div class="row">
@@ -57,7 +57,7 @@ Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en 
 ## <i class="fas fa-flag-checkered"></i> Mario Kart 8 @ Mode 7
 
 <div class="text-center mt20">
-[<img class="img-fluid" src="/assets/images/mode7-mk8dx-new-flyer.png" alt="">][1]{:target="_blank"}
+[<img class="img-fluid" src="/assets/images/m7gp-moder7-flyer.png" alt="">][1]{:target="_blank"}
 </div>
 
 </div>

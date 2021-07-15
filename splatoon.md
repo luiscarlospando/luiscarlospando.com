@@ -4,7 +4,7 @@ title: Splatoon 2
 description: Juega Splatoon 2 con la banda de Mode 7.
 image: /assets/images/banner-splatoon2.png
 permalink: /mode-7/splatoon/
-modified-date: 14/04/2021
+modified-date: 14/07/2021
 ---
 
 <div class="row">
@@ -34,9 +34,9 @@ modified-date: 14/04/2021
 
 - Turf War
 - Ranked Battle
-    - Rainmaker <span class="badge badge-dark">Rank X</span>
-    - Splat Zones <span class="badge badge-dark">Rank X</span>
-    - Tower Control <span class="badge badge-dark">Rank S+4</span>
+    - Rainmaker <span class="badge badge-dark">Rank S+8</span>
+    - Splat Zones <span class="badge badge-dark">Rank S+8</span>
+    - Tower Control <span class="badge badge-dark">Rank S</span>
     - Clam Blitz <span class="badge badge-dark">Rank S</span>
 - League Battle (organizamos matches en equipos en [Mode 7 (#splatoon)][1]{:target="_blank"})
 

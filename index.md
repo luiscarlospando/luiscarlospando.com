@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
-description: Computers, punk rock, vinyl records and video games. Used to be good at Mario Kart. 🏁
+description: Punk dude first and foremost.
 image: /assets/images/logo.png
 ---
 

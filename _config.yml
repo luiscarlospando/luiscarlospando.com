@@ -18,8 +18,7 @@ version: 2.8.8
 author: Luis Carlos Pando
 email: hey@luiscarlospando.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Computers, punk rock, vinyl records and vide ogames.
-  Used to be good at Mario Kart. 🏁
+  Punk dude first and foremost.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://luiscarlospando.com" # the base hostname & protocol for your site, e.g. http://example.com
 domain: luiscarlospando.com

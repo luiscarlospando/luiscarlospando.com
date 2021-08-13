@@ -4,7 +4,7 @@ title: Splatoon 2
 description: Juega Splatoon 2 con la banda de Mode 7.
 image: /assets/images/banner-splatoon2.png
 permalink: /mode-7/splatoon/
-modified-date: 14/07/2021
+modified-date: 13/08/2021
 ---
 
 <div class="row">
@@ -30,19 +30,45 @@ modified-date: 14/07/2021
 
 ## <i class="fas fa-gamepad"></i> Modos de juego
 
-<code>Última actualización: {{ page.modified-date }}</code>
-
 - Turf War
 - Ranked Battle
-    - Rainmaker <span class="badge badge-dark">Rank S+8</span>
-    - Splat Zones <span class="badge badge-dark">Rank S+8</span>
-    - Tower Control <span class="badge badge-dark">Rank S</span>
-    - Clam Blitz <span class="badge badge-dark">Rank S</span>
 - League Battle (organizamos matches en equipos en [Mode 7 (#splatoon)][1]{:target="_blank"})
+
+## <i class="fas fa-chart-area"></i> Mis estadísticas
+
+<code>Última actualización: <span id="last-updated"></span></code>
+
+- Turf War
+    - Batallas totales: <span id="turf-battles"></span>
+    - Porcentaje de ganar: <span id="turf-win_pct"></span>%
+    - Kill ratio: <span id="turf-kill_ratio"></span>
+    - Kills totales: <span id="turf-kill_total"></span>
+    - Promedio de kills: <span id="turf-kill_avg"></span>
+    - Kills por minuto: <span id="turf-kill_per_min"></span>
+    - Muertes totales: <span id="turf-death_total"></span>
+    - Promedio de muertes: <span id="turf-death_avg"></span>
+    - Muertes por minuto: <span id="turf-death_per_min"></span>
+
+- Ranked Battle
+    - Batallas totales: <span id="ranked-battles"></span>
+    - Porcentaje de ganar: <span id="ranked-win_pct"></span>%
+    - Kill ratio: <span id="ranked-kill_ratio"></span>
+    - Kills totales: <span id="ranked-kill_total"></span>
+    - Promedio de kills: <span id="ranked-kill_avg"></span>
+    - Kills por minuto: <span id="ranked-kill_per_min"></span>
+    - Muertes totales: <span id="ranked-death_total"></span>
+    - Promedio de muertes: <span id="ranked-death_avg"></span>
+    - Muertes por minuto: <span id="ranked-death_per_min"></span>
+
+- Rangos actuales
+    - Rainmaker <span class="badge badge-dark">Rank <span id="ranked-rainmaker"></span></span>
+    - Splat Zones <span class="badge badge-dark">Rank <span id="ranked-splat-zones"></span></span>
+    - Tower Control <span class="badge badge-dark">Rank <span id="ranked-tower-control"></span></span>
+    - Clam Blitz <span class="badge badge-dark">Rank <span id="ranked-clam-blitz"></span></span>
 
 ## <i class="fas fa-info-circle"></i> Información
 
-- Te invito a unirte a [Mode 7 (#splatoon)][1]{:target="_blank"} en Discord para recibir updates y notificaciones de todas las personas que jugamos
+- Únete a [Mode 7 (#splatoon)][1]{:target="_blank"} en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Jugamos generalmente por las noches, aproximadamente a las 9:00 pm hora de Chihuahua / 10:00 pm hora de CDMX
 - Llevo un registro de mis batallas y estadísticas personales en [mi perfil de stat.ink][7]{:target="_blank"}
 - Uso la app Nintendo Switch Online ([iOS][2]{:target="itunes_store"} &#124; [Android][3]{:target="_blank"}) para mandar invitaciones a salas de juego

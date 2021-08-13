@@ -12,8 +12,6 @@ modified-date: 20/01/2021
 
 ## <i class="fas fa-gamepad"></i> Modo de Juego
 
-<code>Última actualización: {{ page.modified-date }}</code>
-
 - Mode 7 Battle Arena (preguntar ID vía [#smash-bros en Mode 7][1]{:target="_blank"})
     - Tipo: All Skill Levels
     - Formato: 1v1, no items

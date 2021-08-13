@@ -27,8 +27,6 @@ ID: N4H-6H3-T7G
 
 ## <i class="fas fa-info-circle"></i> Información
 
-<code>Última actualización: {{ page.modified-date }}</code>
-
 - Puedes unite a [Mode 7 (#super-mario-maker)][1]{:target="_blank"} en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Puedes revisar todos mis posts sobre *Super Mario Maker 2* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/super-mario-maker-2/">#Super Mario Maker2</a>
 

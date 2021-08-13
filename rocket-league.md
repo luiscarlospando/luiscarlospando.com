@@ -27,8 +27,6 @@ Liga Mode 7
 
 ## <i class="fas fa-gamepad"></i> Modos de Juego
 
-<code>Última actualización: {{ page.modified-date }}</code>
-
 - Todos los viernes @ 8:00 pm CUU / 9:00 pm CDMX
 - Reglas
     - Soccar

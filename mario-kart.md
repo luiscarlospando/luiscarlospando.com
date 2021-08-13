@@ -27,8 +27,6 @@ modified-date: 8/07/2021
 
 ## <i class="fas fa-gamepad"></i> Modos de Juego
 
-<code>Última actualización: {{ page.modified-date }}</code>
-
 - Todos los jueves @ 9:00 pm CUU / 10:00 pm CDMX
 - Reglas
     - 150cc

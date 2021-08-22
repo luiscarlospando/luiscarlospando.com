@@ -154,10 +154,15 @@
             // Last update
             $('#last-updated').append(data.updated_at.iso8601);
 
+            // Function to truncate percentages
+            function truncate(value) {
+                var result = Math.trunc(value * Math.pow(10, 2)) / Math.pow(10, 2);
+                return result;
+            }
+
             // Turf War
             $('#turf-battles').append(data.nawabari.battles);
-            var turfWinPCT = Math.trunc(data.nawabari.win_pct * Math.pow(10, 2)) / Math.pow(10, 2);
-            $('#turf-win_pct').append(turfWinPCT);
+            $('#turf-win_pct').append(truncate(data.nawabari.win_pct));
             $('#turf-kill_ratio').append(data.nawabari.kill_ratio);
             $('#turf-kill_total').append(data.nawabari.kill_total);
             $('#turf-kill_avg').append(data.nawabari.kill_avg);

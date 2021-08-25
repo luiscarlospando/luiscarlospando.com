@@ -15,7 +15,7 @@ Una de las razones que me motivaron a crear este espacio fue mi interés las com
 
 Como lo mencioné al principio, no es secreto [el gusto que le tengo a los videojuegos][11]{:target="_blank"}. Para rendir tributo y hacer de esto algo más divertido de lo que ya es, armé la comunidad de [Mode 7 🎮 🕹️][7] (feel free to join in) junto con unos amigos. Ahí hablamos de nuestros videojuegos favoritos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][13]. También [tengo un canal en Twitch][3], pero para qué les miento, no lo uso.
 
-Casi siempre me confundo y confundiendo a los demás en [Twitter][8] con sarcasmo y humor de bajísima calidad. Toda la música que escucho la voy documentando en mi perfil de [Last.fm 🎵][10]{:target="_blank"} (sí, hasta mis vinilos, perros 📻).
+Casi siempre me confundo y confundo a los demás en [Twitter][8] con sarcasmo y humor de bajísima calidad. Toda la música que escucho la voy documentando en mi perfil de [Last.fm 🎵][10]{:target="_blank"} (sí, hasta mis vinilos, perros 📻).
 
 Lo más seguro es que ni sepas como llegaste aquí, pero eso no importa, agradecido estoy por tu tiempo y tu estancia.
 

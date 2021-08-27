@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Developer Stuff
+title: Development Stuff
 description: Ponte en contacto conmigo usando cualquiera de los siguientes métodos.
 image: /assets/images/logo.png
 permalink: /developer/

@@ -167,7 +167,7 @@ var Navigation = function (_React$Component) {
                             "a",
                             { href: "/developer/" },
                             React.createElement("i", { "class": "fas fa-code" }),
-                            " Developer Stuff"
+                            " Development Stuff"
                         )
                     ),
                     React.createElement(

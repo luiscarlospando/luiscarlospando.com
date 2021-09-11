@@ -106,6 +106,10 @@ p#category {
 
 .tweet-post {
     font-size: 11pt;
+
+    .card-body {
+        border-radius: .25rem;
+    }
 }
 
 .primary_navigation {

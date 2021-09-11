@@ -227,11 +227,24 @@ footer {
 
     a {
         color: $linkColor !important;
+
+        &:hover,
+        &:focus {
+            color: $hoverColor !important;
+        }
     }
 
-    a:hover,
-    a:focus {
-        color: $hoverColor !important;
+    .btn-primary  {
+        background-color: $btnBgColor;
+        color: $mainColor !important;
+
+        &:hover,
+        &:focus {
+            background-color: $hoverColor;
+            border-color: $hoverColor;
+            border-bottom: 1px solid #8001da !important;
+            color: $mainColor !important;
+        }
     }
 
     .card-header {

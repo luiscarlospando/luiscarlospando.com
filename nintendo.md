@@ -26,7 +26,7 @@ Código del torneo: 0746-6549-8155<br>
 Retas de *Splatoon 2*, días aleatorios por la noche<br>
 [<i class="fab fa-discord"></i> Discord][6]
 <hr>
-*Axiom Verge 2*
+*Axiom Verge 2*<br>
 *Castlevania Advance Collection*
 </div>
 <div class="card-footer text-muted">

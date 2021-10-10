@@ -1,34 +1,61 @@
 ---
 layout: page
 title: Nintendo
-description: Aquí están mis códigos de Nintendo Switch y Discord. También lo que estoy jugando en este momento.
+description: Aquí están mis códigos de Discord y Nintendo Switch. También lo que estoy jugando en este momento.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
 modified-date: 10/10/2021
 ---
 
-Aquí están mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y [<i class="fas fa-link"></i> Discord][2]. También lo que estoy jugando en este momento.
+<div class="text-center">
+Aquí están mis códigos de [<i class="fas fa-link"></i> Discord][1] y [<i class="fas fa-link"></i> Nintendo Switch][2]. 
+
+También lo que estoy jugando en este momento.
+</div>
 
 <div class="row">
-<div class="col-12 col-lg-7 my-auto">
+<div class="col-12 my-auto">
 
-<div class="card text-center">
+<div class="card text-center mb-0">
 <div class="card-header">
 <h5 class="card-title"><i class="fas fa-gamepad"></i> Ahora estoy jugando</h5>
 </div>
-<div class="card-body text-left">
+<div class="card-body">
+<div class="row">
+<div class="col-6 my-auto">
 [*Mario Kart 8 Deluxe*][4]<br>
 Mode 7 Grand Prix todos los jueves @ 9:00 pm<br>
 Código del torneo: 0746-6549-8155<br>
-[<i class="fab fa-discord"></i> Discord][5]
+</div>
+<div class="col-6 my-auto">
+<a class="btn btn-primary btn-lg" href="https://discord.gg/U77J5c6" target="_blank">
+<i class="fab fa-discord"></i> Discord
+</a>
+</div>
+</div>
 <hr>
+<div class="row">
+<div class="col-6 my-auto">
 [*Splatoon 2*][3]<br>
 Retas de *Splatoon 2*, días aleatorios por la noche<br>
-[<i class="fab fa-discord"></i> Discord][6]
+</div>
+<div class="col-6 my-auto">
+<a class="btn btn-primary btn-lg" href="https://discord.gg/NUSDKeJ" target="_blank">
+<i class="fab fa-discord"></i> Discord
+</a>
+</div>
+</div>
 <hr>
+<div class="row">
+<div class="col-6 my-auto">
 *Metroid Dread*<br>
 *Axiom Verge 2*<br>
 *Castlevania Advance Collection*
+</div>
+<div class="col-6 my-auto text-monospace">
+(Offline)
+</div>
+</div>
 </div>
 <div class="card-footer text-muted">
 <code>Última actualización: {{ page.modified-date }}</code>
@@ -36,8 +63,12 @@ Retas de *Splatoon 2*, días aleatorios por la noche<br>
 </div>
 
 </div>
+</div>
 
-<div class="col-12 col-lg-5 my-auto">
+---
+
+<div class="row">
+<div class="col-12 col-lg-6 my-auto">
 
 <div class="card text-center" id="discord-tag">
 <div class="card-header">
@@ -53,7 +84,9 @@ Retas de *Splatoon 2*, días aleatorios por la noche<br>
 </div>
 </div>
 
----
+</div>
+
+<div class="col-12 col-lg-6 my-auto">
 
 <div class="card text-center mb-3" id="nintendo-switch">
 <div class="card-header">
@@ -72,8 +105,8 @@ Retas de *Splatoon 2*, días aleatorios por la noche<br>
 </div>
 </div>
 
-[1]: #nintendo-switch
-[2]: #discord-tag
+[1]: #discord-tag
+[2]: #nintendo-switch
 [3]: /mode-7/splatoon/
 [4]: /mode-7/mario-kart/
 [5]: https://discord.gg/U77J5c6

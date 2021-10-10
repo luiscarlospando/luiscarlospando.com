@@ -1,20 +1,20 @@
 ---
 layout: page
 title: Nintendo
-description: Aquí están mis códigos de Nintendo Switch y Discord. También lo que estoy jugando actualmente.
+description: Aquí están mis códigos de Nintendo Switch y Discord. También lo que estoy jugando en este momento.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
-modified-date: 30/09/2021
+modified-date: 10/10/2021
 ---
 
-Aquí están mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y [<i class="fas fa-link"></i> Discord][2]. También lo que estoy jugando actualmente.
+Aquí están mis códigos de [<i class="fas fa-link"></i> Nintendo Switch][1] y [<i class="fas fa-link"></i> Discord][2]. También lo que estoy jugando en este momento.
 
 <div class="row">
 <div class="col-12 col-lg-7 my-auto">
 
 <div class="card text-center">
 <div class="card-header">
-<h5 class="card-title"><i class="fas fa-gamepad"></i> Actualmente estoy jugando</h5>
+<h5 class="card-title"><i class="fas fa-gamepad"></i> Ahora estoy jugando</h5>
 </div>
 <div class="card-body text-left">
 [*Mario Kart 8 Deluxe*][4]<br>
@@ -26,6 +26,7 @@ Código del torneo: 0746-6549-8155<br>
 Retas de *Splatoon 2*, días aleatorios por la noche<br>
 [<i class="fab fa-discord"></i> Discord][6]
 <hr>
+*Metroid Dread*<br>
 *Axiom Verge 2*<br>
 *Castlevania Advance Collection*
 </div>

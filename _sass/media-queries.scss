@@ -97,8 +97,8 @@
     }
 
     .scrolled-position {
-        -webkit-backdrop-filter: saturate(180%) blur(20px);
-        backdrop-filter: saturate(180%) blur(20px);
+        -webkit-backdrop-filter: saturate(180%) blur(5px);
+        backdrop-filter: saturate(180%) blur(5px);
         background-color: rgba(0,0,0,0.7) !important;
         // border-bottom: 1px solid #000;
     }
@@ -195,8 +195,8 @@
     }
 
     .scrolled-position {
-        -webkit-backdrop-filter: saturate(180%) blur(20px);
-        backdrop-filter: saturate(180%) blur(20px);
+        -webkit-backdrop-filter: saturate(180%) blur(5px);
+        backdrop-filter: saturate(180%) blur(5px);
         background-color: rgba(0,0,0,0.7) !important;
         // border-bottom: 1px solid #000;
     }

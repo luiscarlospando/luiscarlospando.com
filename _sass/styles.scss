@@ -3,10 +3,10 @@
 *:before {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 ::selection {
@@ -22,6 +22,7 @@
 html,
 body {
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -71,7 +72,6 @@ a {
         text-decoration: underline;
         text-decoration-color: $underlineColor;
     }
-
 }
 
 ol,
@@ -435,14 +435,14 @@ a.btn {
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
-.show>.btn-primary.dropdown-toggle {
+.show > .btn-primary.dropdown-toggle {
     color: $mainColor !important;
     background-color: $btnBgHoverColor;
     border-color: $btnBorderHoverColor;
 }
 
 .btn-sm,
-.btn-group-sm>.btn {
+.btn-group-sm > .btn {
     padding: 0.10rem .5rem;
 }
 

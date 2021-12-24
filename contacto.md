@@ -41,7 +41,6 @@ También puedes contactarme a través de [Messenger][2]{:target="_blank"}.
 Si lo prefieres, puedes escribirme por [aquí][9]{:target="_blank"}.
 
 ## <i class="fab fa-spotify"></i> Spotify
-<iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:1269830478&size=detail&theme=dark&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
 Este es [mi perfil en Spotify][5]{:target="_blank"}.
 
 ## <i class="fab fa-lastfm"></i> Last.fm

@@ -4,7 +4,7 @@ title: Nintendo
 description: Aquí están mis códigos de Discord y Nintendo Switch. También lo que estoy jugando en este momento.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
-modified-date: 10/10/2021
+modified-date: 27/12/2021
 ---
 
 <div class="text-center">
@@ -48,9 +48,8 @@ Retas de *Splatoon 2*, días aleatorios por la noche<br>
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
-*Metroid Dread*<br>
-*Axiom Verge 2*<br>
-*Castlevania Advance Collection*
+*Monster Hunter Rise*<br>
+*Hades*<br>
 </div>
 <div class="col-6 my-auto text-monospace">
 (Offline)

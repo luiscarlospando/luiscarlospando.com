@@ -29,6 +29,6 @@ Lo más seguro es que ni sepas como llegaste aquí, pero eso no importa, agradec
 [8]: https://twitter.com/intent/user?screen_name={{ site.twitter_username }}&lang=es
 [9]: mailto:{{ site.email }}
 [10]: https://last.fm/user/{{ site.lastfm_username }}
-[11]: https://backloggery.com/mijo
+[11]: https://www.backloggd.com/u/{{ site.backloggd_username }}
 [12]: /nintendo/
 [13]: /mode-7/mario-kart/

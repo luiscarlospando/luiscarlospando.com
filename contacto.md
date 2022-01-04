@@ -52,6 +52,9 @@ Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquie
 ## <i class="fab fa-twitch"></i> Twitch
 [Tengo un canal en Twitch][8]{:target="_blank"}, muy inactivo por lo pronto, la idea es llenarlo de vida uno de estos días.
 
+## <i class="fas fa-gamepad"></i> Backloggd
+Antes usaba Backloggery para llevar el registro de mi backlog de juegos, ahora uso [Backloggd][11]{:target="_blank"}.
+
 [1]: mailto:{{ site.email }}
 [2]: https://m.me/luiscarlospandodotcom
 [3]: https://instagram.com/{{ site.instagram_username }}
@@ -62,3 +65,4 @@ Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquie
 [8]: https://twitch.tv/{{ site.twitch_username }}
 [9]: https://forms.gle/RAUiuVmfByzAuQuQA
 [10]: https://keybase.io/luiscarlospando
+[11]: https://www.backloggd.com/u/{{ site.backloggd_username }}

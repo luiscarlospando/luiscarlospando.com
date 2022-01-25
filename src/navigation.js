@@ -29,20 +29,19 @@ class Navigation extends React.Component {
                     <li><a href="/developer/"><i class="fas fa-code"></i> Development Stuff</a></li>
                     <li><a href="/apps/"><i class="fas fa-heart"></i> Mis apps favoritas</a></li>
                     <li>
-                        <a href="/mode-7/"><i class="fas fa-gamepad"></i> Mode 7</a>
+                        <a href="/mode-7/"><i class="fab fa-discord"></i> Mode 7</a>
                         <ul>
-                            <li><a href="/mode-7/mario-kart/"><i class="fas fa-gamepad"></i> Mario Kart 8 Deluxe (Mode 7 Grand Prix)</a></li>
-                            <li><a href="/mode-7/rocket-league/"><i class="fas fa-gamepad"></i> Rocket League</a></li>
-                            <li><a href="/mode-7/splatoon/"><i class="fas fa-gamepad"></i> Splatoon 2</a></li>
-                            <li><a href="/mode-7/super-mario-maker/"><i class="fas fa-gamepad"></i> uper Mario Maker 2</a></li>
-                            <li><a href="/mode-7/smash/"><i class="fas fa-gamepad"></i> Super Smash Bros. Ultimate</a></li>
+                        <li>
+                            <a href="https://blog.luiscarlospando.com/hashtag/mode-7-podcast/"><i class="fas fa-microphone-alt"></i> Mode 7 Podcast</a>
+                        </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="https://blog.luiscarlospando.com/hashtag/mode-7-podcast/"><i class="fas fa-microphone-alt"></i> Mode 7 Podcast</a>
-                    </li>
-                    <li>
                         <a href="/nintendo/"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</a>
+                        <ul>
+                            <li><a href="/nintendo/mario-kart/"><i class="ffas fa-gamepad"></i> Mario Kart 8 Deluxe (Mode 7 Grand Prix)</a></li>
+                            <li><a href="/nintendo/splatoon/"><i class="fas fa-gamepad"></i> Splatoon 2</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="/live/"><i class="fas fa-video"></i> Live</a>

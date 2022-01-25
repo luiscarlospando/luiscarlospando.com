@@ -3,8 +3,8 @@ layout: page
 title: Super Mario Maker 2
 description: Te invito a jugar mis niveles y los niveles de la comunidad de Mode 7 en Super Mario Maker 2.
 image: /assets/images/banner-smm2.jpg
-permalink: /mode-7/super-mario-maker/
-modified-date: 20/01/2021
+permalink: /nintendo/super-mario-maker/
+modified-date: 25/02/2022
 ---
 
 <div class="row">

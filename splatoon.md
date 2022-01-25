@@ -3,8 +3,8 @@ layout: page
 title: Splatoon 2
 description: Juega Splatoon 2 con la banda de Mode 7.
 image: /assets/images/banner-splatoon2.png
-permalink: /mode-7/splatoon/
-modified-date: 13/08/2021
+permalink: /nintendo/splatoon/
+modified-date: 25/02/2022
 ---
 
 <div class="row">
@@ -74,12 +74,6 @@ modified-date: 13/08/2021
 - Uso la app Nintendo Switch Online ([iOS][2]{:target="itunes_store"} &#124; [Android][3]{:target="_blank"}) para mandar invitaciones a salas de juego
 - Puedes revisar todos mis posts sobre *Splatoon 2* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/splatoon-2/">#Splatoon2</a>
 
-## <i class="fab fa-twitter"></i> Tweets
-
-Para recibir mis notificaciones sobre *Splatoon 2* puedes [seguirme en Twitter][4].
-
-<a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button text-center" data-show-count="false">Follow @{{ site.twitter_username }}</a>
-
 </div>
 <div class="col-sm-6 order-1 order-sm-2">
 
@@ -91,9 +85,6 @@ Para recibir mis notificaciones sobre *Splatoon 2* puedes [seguirme en Twitter][
 </a>
 </div>
 
-</div>
-</div>
-
 ## <i class="fas fa-microphone"></i> Chat de voz
 
 Para chat de voz utilizamos [Discord][1]{:target="_blank"} usando el [canal de voz *Splatoon* dentro de Mode 7][5]{:target="_blank"}.
@@ -101,6 +92,21 @@ Para chat de voz utilizamos [Discord][1]{:target="_blank"} usando el [canal de v
 ## <i class="fab fa-discord"></i> Discord
 
 Únete a [Mode 7 (#splatoon)][1]{:target="_blank"}. La intención de este Discord es ser útil para armar partidas, cotorrear, conocer gente, jugar en parejas, hablar sobre *Splatoon* y mucho más.
+
+Link a mi perfil de Discord:
+<a href="{{ site.discord_profile }}" class="badge badge-dark" target="_blank">{{ site.discord_tag }}</a>
+
+## <i class="fab fa-twitter"></i> Tweets
+
+Para recibir mis notificaciones sobre *Splatoon 2* puedes [seguirme en Twitter][4].
+
+<a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button text-center" data-show-count="false">Follow @{{ site.twitter_username }}</a>
+
+</div>
+</div>
+
+## <i class="fab fa-youtube"></i> Mis clips de Splatoon 2
+<iframe width="100%" height="480" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL15FCirCIaHr5RAAE2JPCLAzDWs7D-mJG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [1]: https://discord.gg/NUSDKeJ
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw

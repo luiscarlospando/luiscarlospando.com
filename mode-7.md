@@ -72,9 +72,9 @@ Abrir Mode 7 en Discord <i class="fas fa-external-link-alt" data-toggle="tooltip
 </div>
 
 [1]: {{ site.mode7_discord }}
-[2]: /mode-7/splatoon/
-[3]: /mode-7/smash/
-[4]: /mode-7/mario-kart/
+[2]: /nintendo/splatoon/
+[3]: /nintendo/smash/
+[4]: /nintendo/mario-kart/
 [5]: https://blog.luiscarlospando.com/hashtag/mode-7-podcast/
-[6]: /mode-7/rocket-league/
-[7]: /mode-7/super-mario-maker/
+[6]: /nintendo/rocket-league/
+[7]: /nintendo/super-mario-maker/

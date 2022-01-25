@@ -31,4 +31,4 @@ Lo más seguro es que ni sepas como llegaste aquí, pero eso no importa, agradec
 [10]: https://last.fm/user/{{ site.lastfm_username }}
 [11]: https://www.backloggd.com/u/{{ site.backloggd_username }}
 [12]: /nintendo/
-[13]: /mode-7/mario-kart/
+[13]: /nintendo/mario-kart/

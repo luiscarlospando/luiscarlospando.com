@@ -3,8 +3,8 @@ layout: page
 title: Super Smash Bros. Ultimate
 description: Juega Super Smash Bros. Ultimate con nosotros en Mode 7.
 image: /assets/images/flyer-smash.png
-permalink: /mode-7/smash/
-modified-date: 20/01/2021
+permalink: /nintendo/smash/
+modified-date: 25/02/2022
 ---
 
 <div class="row">

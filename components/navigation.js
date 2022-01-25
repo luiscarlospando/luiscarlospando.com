@@ -186,7 +186,7 @@ var Navigation = function (_React$Component) {
                         React.createElement(
                             "a",
                             { href: "/mode-7/" },
-                            React.createElement("i", { "class": "fas fa-gamepad" }),
+                            React.createElement("i", { "class": "fab fa-discord" }),
                             " Mode 7"
                         ),
                         React.createElement(
@@ -197,61 +197,11 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "/mode-7/mario-kart/" },
-                                    React.createElement("i", { "class": "fas fa-gamepad" }),
-                                    " Mario Kart 8 Deluxe (Mode 7 Grand Prix)"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "/mode-7/rocket-league/" },
-                                    React.createElement("i", { "class": "fas fa-gamepad" }),
-                                    " Rocket League"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "/mode-7/splatoon/" },
-                                    React.createElement("i", { "class": "fas fa-gamepad" }),
-                                    " Splatoon 2"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "/mode-7/super-mario-maker/" },
-                                    React.createElement("i", { "class": "fas fa-gamepad" }),
-                                    " Super Mario Maker 2"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "/mode-7/smash/" },
-                                    React.createElement("i", { "class": "fas fa-gamepad" }),
-                                    " Super Smash Bros. Ultimate"
+                                    { href: "https://blog.luiscarlospando.com/hashtag/mode-7-podcast/" },
+                                    React.createElement("i", { "class": "fas fa-microphone-alt" }),
+                                    " Mode 7 Podcast"
                                 )
                             )
-                        )
-                    ),
-                    React.createElement(
-                        "li",
-                        null,
-                        React.createElement(
-                            "a",
-                            { href: "https://blog.luiscarlospando.com/hashtag/mode-7-podcast/" },
-                            React.createElement("i", { "class": "fas fa-microphone-alt" }),
-                            " Mode 7 Podcast"
                         )
                     ),
                     React.createElement(
@@ -262,6 +212,30 @@ var Navigation = function (_React$Component) {
                             { href: "/nintendo/" },
                             React.createElement("i", { "class": "fab fa-nintendo-switch" }),
                             " Nintendo Switch"
+                        ),
+                        React.createElement(
+                            "ul",
+                            null,
+                            React.createElement(
+                                "li",
+                                null,
+                                React.createElement(
+                                    "a",
+                                    { href: "/nintendo/mario-kart/" },
+                                    React.createElement("i", { "class": "fas fa-gamepad" }),
+                                    " Mario Kart 8 Deluxe (Mode 7 Grand Prix)"
+                                )
+                            ),
+                            React.createElement(
+                                "li",
+                                null,
+                                React.createElement(
+                                    "a",
+                                    { href: "/nintendo/splatoon/" },
+                                    React.createElement("i", { "class": "fas fa-gamepad" }),
+                                    " Splatoon 2"
+                                )
+                            )
                         )
                     ),
                     React.createElement(

@@ -3,8 +3,8 @@ layout: page
 title: Liga Mode 7 en Rocket League
 description: Juega Rocket League con nosotros en Mode 7.
 image: /assets/images/mode7-rocket-league.png
-permalink: /mode-7/rocket-league/
-modified-date: 20/01/2021
+permalink: /nintendo/rocket-league/
+modified-date: 25/02/2022
 ---
 
 <div class="row">

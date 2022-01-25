@@ -29,7 +29,7 @@ Cuenta automatizada con posts de mi sitio.
 [Aquí publico fotos][3]{:target="_blank"} de momentos que considero valen la pena ser compartidos.
 
 ## <i class="fab fa-discord"></i> Discord
-Mi Discord tag es <code>{{ site.discord_tag }}</code> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (feel free to join in!).
+Mi Discord tag es <a href="{{ site.discord_profile }}" class="badge badge-dark" target="_blank">{{ site.discord_tag }}</a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (feel free to join in!).
 
 ## <i class="fab fa-keybase"></i> Keybase
 Este es [mi perfil público en Keybase][10]{:target="_blank"}.

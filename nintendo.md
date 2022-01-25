@@ -4,7 +4,7 @@ title: Nintendo
 description: Aquí están mis códigos de Discord y Nintendo Switch. También lo que estoy jugando en este momento.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
-modified-date: 27/12/2021
+modified-date: 25/02/2022
 ---
 
 <div class="text-center">
@@ -106,9 +106,9 @@ Retas de *Splatoon 2*, días aleatorios por la noche<br>
 
 [1]: #discord-tag
 [2]: #nintendo-switch
-[3]: /mode-7/splatoon/
-[4]: /mode-7/mario-kart/
+[3]: /nintendo/splatoon/
+[4]: /nintendo/mario-kart/
 [5]: https://discord.gg/U77J5c6
 [6]: https://discord.gg/NUSDKeJ
-[7]: /mode-7/rocket-league/
+[7]: /nintendo/rocket-league/
 [8]: https://discord.gg/D6mjaEA

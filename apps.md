@@ -4,7 +4,7 @@ title: Mis apps favoritas
 description: Aquí está un listado de apps que uso a diario y que me hacen la vida mejor y a ser más productivo. Comparto esta lista con el fin de que si alguna es de tu interés, la pruebes por ti mismo. ¿Te gustaría compartirme algo tú?
 image: /assets/images/logo.png
 permalink: /apps/
-modified-date: 22/11/2021
+modified-date: 5/02/2022
 ---
 
 <div class="card last-updated mt-3 text-center">

@@ -280,17 +280,13 @@ iframe.instagram-media {
     margin-bottom: 14px !important;
 }
 
-.wp-block-embed {
-    figcaption {
-        color: #fff;
-        margin-top: -0.8em;
-        font-size: 10pt;
-    }
-}
-
+.wp-block-embed,
 .wp-block-image {
     figcaption {
         color: #fff;
+        font-size: 10pt;
+        font-style: italic;
+        line-height: 18px;
     }
 }
 

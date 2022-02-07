@@ -4,7 +4,7 @@ title: Nintendo
 description: Aquí están mis códigos de Discord y Nintendo Switch. También lo que estoy jugando en este momento.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
-modified-date: 25/02/2022
+modified-date: 25/01/2022
 ---
 
 <div class="text-center">

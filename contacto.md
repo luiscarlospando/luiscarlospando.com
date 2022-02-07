@@ -9,7 +9,7 @@ permalink: /contacto/
 <p class="text-center">Gracias por tu interés en ponerte en contacto conmigo. 🥰</p>
 
 ## <i class="fas fa-envelope"></i> Email
-Mi principal medio de contacto es [{{ site.email }}][1].
+Mi correo electrónico es [{{ site.email }}][1].
 
 ## <i class="fab fa-twitter"></i> Twitter
 <div class="twitter-btns">
@@ -34,9 +34,6 @@ Mi Discord tag es <a href="{{ site.discord_profile }}" class="badge badge-dark" 
 ## <i class="fab fa-keybase"></i> Keybase
 Este es [mi perfil público en Keybase][10]{:target="_blank"}.
 
-## <i class="fab fa-facebook-messenger"></i> Messenger
-También puedes contactarme a través de [Messenger][2]{:target="_blank"}.
-
 ## <i class="fab fa-google"></i> Google Forms
 Si lo prefieres, puedes escribirme por [aquí][9]{:target="_blank"}.
 
@@ -56,7 +53,6 @@ Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquie
 Antes usaba Backloggery para llevar el registro de mi backlog de juegos, ahora uso [Backloggd][11]{:target="_blank"}.
 
 [1]: mailto:{{ site.email }}
-[2]: https://m.me/luiscarlospandodotcom
 [3]: https://instagram.com/{{ site.instagram_username }}
 [4]: /mode-7/
 [5]: https://open.spotify.com/user/{{ site.spotify_username }}

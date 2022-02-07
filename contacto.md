@@ -26,7 +26,7 @@ Cuenta personal.
 Cuenta automatizada con posts de mi sitio.
 
 ## <i class="fab fa-instagram"></i> Instagram
-[Aquí publico fotos][3]{:target="_blank"} de momentos que considero valen la pena ser compartidos.
+[Aquí comparto fotos][3]{:target="_blank"} de mis cosas favoritas y de momentos que considero que valen la pena ser compartidos.
 
 ## <i class="fab fa-discord"></i> Discord
 Mi Discord tag es <a href="{{ site.discord_profile }}" class="badge badge-dark" target="_blank">{{ site.discord_tag }}</a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (feel free to join in!).

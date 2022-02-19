@@ -216,7 +216,7 @@
     var btnLuisCarlosPando = document.getElementById("btn-luiscarlospando");
 
     // Display livestream and livestream alert only on Thursday nights
-    if ( dayOfTheWeek == 5 && (time >= 21 && time < 23)) {
+    if ( dayOfTheWeek == 4 && (time >= 21 && time < 23)) {
         m7gpLivestreamAlert.style.display = "block";
         m7gpLivestream.style.display = "block";
         btnM7GP.style.display = "inline-block";

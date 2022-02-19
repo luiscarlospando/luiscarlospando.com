@@ -1,6 +1,6 @@
 /*!
 * LuisCarlosPando.com
-* © 2021 Luis Carlos Pando
+* © 2022 Luis Carlos Pando
 * Made with love in Chihuahua, Mexico.
 */
 
@@ -202,4 +202,31 @@
     $(window).on('load', function () {
         $(".page-numbers").addClass("btn btn-primary");
     });
+
+    // Show/Hide Mode 7 Grand Prix Livestream
+    var DateTime = luxon.DateTime; // Initialization
+    var dt = DateTime.now().setZone("America/Chihuahua");
+    var dayOfTheWeek = dt.weekday;
+    var time = dt.toFormat('HH');
+    var m7gpLivestreamAlert = document.getElementById("m7gp-livestream-alert");
+    var m7gpLivestream = document.getElementById("m7gp-livestream");
+    var btnM7GP = document.getElementById("btn-m7gp");
+    var luisCarlosPandoLivestream = document.getElementById("luiscarlospando-livestream");
+    var luisCarlosPandoChat = document.getElementById("luiscarlospando-chat");
+    var btnLuisCarlosPando = document.getElementById("btn-luiscarlospando");
+
+    // Display livestream and livestream alert only on Thursday nights
+    if ( dayOfTheWeek == 5 && (time >= 21 && time < 23)) {
+        m7gpLivestreamAlert.style.display = "block";
+        m7gpLivestream.style.display = "block";
+        btnM7GP.style.display = "inline-block";
+
+        luisCarlosPandoLivestream.style.display = "none";
+        luisCarlosPandoChat.style.display = "none";
+        btnLuisCarlosPando.style.display = "none";
+    } else {
+        m7gpLivestreamAlert.style.display = "none";
+        m7gpLivestream.style.display = "none";
+        btnM7GP.style.display = "none";
+    }
 })();

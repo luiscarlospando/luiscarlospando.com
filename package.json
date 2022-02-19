@@ -28,6 +28,7 @@
     "clipboard": "^2.0.4",
     "jquery": "^3.4.1",
     "jquery-rss": "^3.3.0",
+    "luxon": "^2.3.0",
     "popper.js": "^1.14.4"
   },
   "devDependencies": {

@@ -35,6 +35,7 @@ Aquí está el [archivo completo][2] de todos mis posts.
 - [Font Awesome][21]{:target="_blank"}, obra bajo una [Licencia MIT][32]{:target="_blank"}
 - [Animate.css][22]{:target="_blank"}, obra bajo una [Licencia MIT][33]{:target="_blank"}
 - [Prism.js][43]{:target="_blank"}, obra bajo una [Licencia MIT][44]{:target="_blank"}
+- [Luxon.js][46]{:target="_blank"}, obra bajo una [Licencia MIT][47]{:target="_blank"}
 - [Google Fonts][23]{:target="_blank"}, todas las fuentes usadas en este sitio son [Open Source][34]{:target="_blank"}
 
 ## Música de fondo gracias a
@@ -89,3 +90,5 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [43]: https://prismjs.com
 [44]: https://github.com/PrismJS/prism/blob/master/LICENSE
 [45]: https://{{ site.domain }}/jekyll-info.html
+[46]: https://github.com/moment/luxon
+[47]: https://github.com/moment/luxon/blob/master/LICENSE.md

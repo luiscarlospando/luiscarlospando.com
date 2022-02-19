@@ -56,21 +56,6 @@ Abrir Mode 7 en Discord <i class="fas fa-external-link-alt" data-toggle="tooltip
 </div>
 </div>
 
-<hr>
-
-<div class="row">
-<div class="col-12">
-## <i class="fab fa-twitch"></i> Twitch
-<div class="embed-responsive embed-responsive-16by9 mb-5" style="margin-bottom: 0;">
-<iframe
-    src="https://player.twitch.tv/?channel=mode7gg&parent=luiscarlospando.com"
-    frameborder="0"
-    scrolling="no"
-    allowfullscreen="true">
-</iframe>
-</div>
-</div>
-
 [1]: {{ site.mode7_discord }}
 [2]: /nintendo/splatoon/
 [3]: /nintendo/smash/

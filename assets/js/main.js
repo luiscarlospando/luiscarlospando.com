@@ -216,17 +216,23 @@
     var btnLuisCarlosPando = document.getElementById("btn-luiscarlospando");
 
     // Display livestream and livestream alert only on Thursday nights
-    if ( dayOfTheWeek == 4 && (time >= 21 && time < 23)) {
-        m7gpLivestreamAlert.style.display = "block";
-        m7gpLivestream.style.display = "block";
-        btnM7GP.style.display = "inline-block";
+    if (dayOfTheWeek == 4 && (time >= 21 && time < 23)) {
+        if (m7gpLivestream && btnM7GP && luisCarlosPandoLivestream && luisCarlosPandoChat && btnLuisCarlosPando) {
+            m7gpLivestream.style.display = "block";
+            btnM7GP.style.display = "inline-block";
 
-        luisCarlosPandoLivestream.style.display = "none";
-        luisCarlosPandoChat.style.display = "none";
-        btnLuisCarlosPando.style.display = "none";
+            luisCarlosPandoLivestream.style.display = "none";
+            luisCarlosPandoChat.style.display = "none";
+            btnLuisCarlosPando.style.display = "none";
+        }
+
+        m7gpLivestreamAlert.style.display = "block";
     } else {
+        if (m7gpLivestream && btnM7GP) {
+            m7gpLivestream.style.display = "none";
+            btnM7GP.style.display = "none";
+        }
+
         m7gpLivestreamAlert.style.display = "none";
-        m7gpLivestream.style.display = "none";
-        btnM7GP.style.display = "none";
     }
 })();

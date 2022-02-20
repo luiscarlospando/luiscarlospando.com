@@ -102,9 +102,11 @@ ul {
     }
 }
 
-hr {
+hr,
+.wp-block-separator {
     // border-top: 1px solid $transparentGray;
     border-top: none;
+    border-bottom: none;
     background: linear-gradient(to right, rgba(39, 60, 90, 0.1) 0, rgba(39, 60, 90, 0.6) 50%, rgba(39, 60, 90, 0.1) 100%);
     margin: 1rem 0;
     width: 100%;

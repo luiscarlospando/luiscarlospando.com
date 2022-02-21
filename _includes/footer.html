@@ -17,10 +17,10 @@
                     </div>
                     <hr>
                     <div class="row">
-                        <div class="col-12 col-lg-5 copyright">
+                        <div class="col-12 col-lg-4 copyright">
                             &copy; {{ 'now' | date: "%Y" }} {{ site.author }}
                         </div>
-                        <div class="col-12 col-lg-7 version text-md-right">
+                        <div class="col-12 col-lg-8 version text-md-right">
                             <ul class="list-inline">
                                 <li class="list-inline-item">
                                     <a href="https://m.do.co/c/03bd95f889e7" target="_blank" class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="Deployed on DigitalOcean">Deployed on <i class="fab fa-digital-ocean"></i> DigitalOcean</a>
@@ -30,6 +30,9 @@
                                 </li>
                                 <li class="list-inline-item">
                                     <a href="/acerca-de" class="badge badge-success" data-toggle="tooltip" data-placement="top" title="{{ site.title }} v{{ site.version }} (All systems operational)">v{{ site.version }}</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://blog.{{ site.domain }}/rss/" class="badge badge-rss" data-toggle="tooltip" data-placement="top" title="RSS"><i class="fas fa-rss"></i></a>
                                 </li>
                                 <li class="list-inline-item twitter-follow-btn">
                                     <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-lang="es">Seguir a @{{ site.twitter_username }}</a>

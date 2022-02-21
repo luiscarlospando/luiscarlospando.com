@@ -81,7 +81,7 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [33]: https://opensource.org/licenses/MIT
 [34]: https://github.com/google/fonts
 [35]: https://www.spotify.com/mx/
-[37]: https://blog.{{ site.domain }}/feed/
+[37]: https://blog.{{ site.domain }}/rss/
 [38]: https://twitter.com/intent/user?screen_name={{ site.twitter_feed }}&lang=es
 [39]: https://reactjs.org/
 [40]: https://babeljs.io/

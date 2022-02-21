@@ -48,7 +48,7 @@ En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7
 Pero obvio a nuestra comunidad le interesan muchos más juegos que estos. Entra a Mode 7 y haz amigos con tus mismos intereses.
 </div>
 <div class="col-md-12 col-lg-6 my-auto">
-<iframe src="https://discordapp.com/widget?id=478777821087662092&theme=dark" width="100%" height="380" allowtransparency="true" frameborder="0"></iframe>
+<iframe src="https://ptb.discord.com/widget?id=478777821087662092&theme=dark" width="100%" height="380" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 <a class="btn btn-primary d-block" href="{{ site.mode7_discord }}" target="_blank">
 Abrir Mode 7 en Discord <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i>

@@ -52,15 +52,10 @@
     <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
 
-    <!-- Popper.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-
-    <!-- Local JavaScript -->
+    <!-- App -->
     {% javascript_asset_tag global %}
     - /assets/js/jquery.min.js
-    - /assets/js/vendor/modernizr-2.6.2.min.js
+    - /assets/js/popper.min.js
     - /assets/js/bootstrap.min.js
     - /assets/js/jquery.mmenu.min.all.js
     - /assets/js/twitter-fetcher.js
@@ -71,7 +66,6 @@
     - /components/lastTweet.js
     - /components/currentlyListening.js
     - /components/backToTop.js
-    - /assets/js/plugins.js
     - /assets/js/luxon.js
     - /assets/js/main.js
     {% endjavascript_asset_tag %}

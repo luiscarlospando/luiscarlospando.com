@@ -1,6 +1,6 @@
 {
   "name": "luiscarlospando.com",
-  "version": "2.7.0",
+  "version": "2.9.4",
   "description": "Web developer 💻, punk rocker 🤘, beer aficionado 🍺 and a Nintendo freak 🕹 since 1990. Probably better than you at Mario Kart 🏁.",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "jquery": "^3.4.1",
     "jquery-rss": "^3.3.0",
     "luxon": "^2.3.0",
-    "popper.js": "^1.14.4"
+    "popper.js": "^1.12.9"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.2",

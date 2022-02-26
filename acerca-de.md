@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acerca de
-description: Esta URL ha sido mi hogar en línea desde 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado 385 entradas en total y es en este lugar donde intento unificar mi presencia en línea.
+description: Esta URL ha sido mi hogar en línea desde 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado (abre este link para ver el número) entradas en total y es en este lugar donde intento unificar mi presencia en línea.
 image: /assets/images/logo.png
 permalink: /acerca-de/
 ---
@@ -12,15 +12,15 @@ Este URL ha sido mi hogar en línea desde octubre de 2014 (ojalá hubiera empeza
 
 Aquí está el [archivo completo][2] de todos mis posts.
 
-## Detalles
+## Colofón
 
-- Desarrollo, y mantengo este sitio con [Visual Studio Code][5]{:target="_blank"} en una Mac 👨‍💻
-- Este sitio es completamente estático y generado con [Jekyll][15]{:target="_blank"} ([<code>site-info</code>][45]), luego hago <code>push</code> de todos mis cambios en un <code>droplet</code> que tengo en [DigitalOcean][10]{:target="_blank"}
-- Mi dominio está registrado con [Cloudflare][11]{:target="_blank"}
-- DNS administrado vía [Cloudflare][11]{:target="_blank"}
-- El logotipo lo hice usando mi [Nintendo Switch][9]{:target="_blank"}
+- Desarrollo y mantengo este sitio con [Visual Studio Code][5]{:target="_blank"} en una Mac 👨‍💻
+- Este sitio es completamente estático y lo genero con [Jekyll][15]{:target="_blank"} ([<code>site-info</code>][45]), luego hago <code>push</code> de todos mis cambios en un <code>droplet</code> que tengo en [DigitalOcean][10]{:target="_blank"}
+- Mi dominio lo tengo registrado con [Cloudflare][11]{:target="_blank"}
+- El DNS es administrado vía [Cloudflare][11]{:target="_blank"} también
+- El logotipo fue hecho con mi [Nintendo Switch][9]{:target="_blank"}
 
-## Tecnologías usadas
+### Tecnologías usadas
 
 - [Git][13]{:target="_blank"}, obra bajo una [Licencia MIT][24]{:target="_blank"}
 - [npm][14]{:target="_blank"}, pueden revisar la licencia aquí: [Licencia][25]{:target="_blank"}
@@ -37,10 +37,6 @@ Aquí está el [archivo completo][2] de todos mis posts.
 - [Prism.js][43]{:target="_blank"}, obra bajo una [Licencia MIT][44]{:target="_blank"}
 - [Luxon.js][46]{:target="_blank"}, obra bajo una [Licencia MIT][47]{:target="_blank"}
 - [Google Fonts][23]{:target="_blank"}, todas las fuentes usadas en este sitio son [Open Source][34]{:target="_blank"}
-
-## Música de fondo gracias a
-
-- [Spotify][35]{:target="_blank"}
 
 ## Suscríbete
 

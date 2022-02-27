@@ -15,7 +15,7 @@ modified-date: 27/02/2022
 
 <p class="text-center">Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.</p>
 
-## Vida personal 👱🏻
+## Vida personal 👦🏻
 
 Sigo viviendo con [Ale][2]{:target="_blank"} en Chihuahua, México, mi ciudad natal. Ya tengo mis dos vacunas Astra Zeneca así como la vacuna de refuerzo (booster). Pero seguimos cuidándonos mucho debido a la [variante ómicron][3]{:target="_blank"}. 💉
 
@@ -67,5 +67,5 @@ No puedo esperar para que salga *Splatoon 3*.
 [6]: https://support.apple.com/en-bw/guide/shortcuts/welcome/ios
 [7]: https://mixen.mx
 [8]: https://podcasts.apple.com/us/podcast/the-first-ever-podcast/id1520216207
-[8]: /nintendo/splatoon-2/
+[8]: /nintendo/splatoon/
 [9]: https://www.backloggd.com/u/mijo

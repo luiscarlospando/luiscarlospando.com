@@ -9,7 +9,7 @@ image: /assets/images/logo.png
 
 <h1 class="text-center">{{ site.title }}</h1>
 
-<span class="first-letter">H</span>ola, soy Luis Carlos Pando (aka "Mijo"), un vato de [Chihuahua, México][1]{:target="_blank"}, que vive con su bella esposa [Alejandra ❤️][4]{:target="_blank"}. Me dedico a [hacer][2] cosas para el Internet y soy bien fan del punk, hardcore y el movimiento straight edge. También me gustan mucho [los videojuegos 🕹️][12].  Algunos me conocen por haber creado [Hitz-Musik.net][5]{:target="_blank"} (RIP 😵) ― una comunidad dedicada a cubrir la música y la escena local de mi querido ranchito, Chihuahua. De eso solo me quedan muy buenos recuerdos.
+<span class="first-letter">H</span>ola, soy Luis Carlos Pando (aka "Mijo"), un vato de [Chihuahua, México][1]{:target="_blank"}, que vive con su bella esposa [Marissa ❤️][4]{:target="_blank"}. Me dedico a [hacer][2] cosas para el Internet y soy bien fan del punk, hardcore y el movimiento straight edge. También me gustan mucho [los videojuegos 🕹️][12].  Algunos me conocen por haber creado [Hitz-Musik.net][5]{:target="_blank"} (RIP 😵) ― una comunidad dedicada a cubrir la música y la escena local de mi querido ranchito, Chihuahua. De eso solo me quedan muy buenos recuerdos.
 
 Una de las razones que me motivaron a crear este espacio fue mi interés las computadoras 👨‍💻 y la web 🌐, ― sentí la necesidad de tener [mi propio lugar en Internet][6], para hablar de lo que yo quisiera, para equivocarme, para aprender. El objetivo de este sitio escribir sobre lo que traiga en la cabeza. Quiero que este lugar sirva como de una especie de bitácora de mi vida y que sea el lugar para dar mi opinión sin miedo. 😉
 

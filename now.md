@@ -17,9 +17,9 @@ modified-date: 27/02/2022
 
 ## Vida personal 👦🏻
 
-Sigo viviendo con [Ale][2]{:target="_blank"} en Chihuahua, México, mi ciudad natal. Ya tengo mis dos vacunas Astra Zeneca así como la vacuna de refuerzo (booster). Pero seguimos cuidándonos mucho debido a la [variante ómicron][3]{:target="_blank"}. 💉
+Sigo viviendo con [Marissa][2]{:target="_blank"} en Chihuahua, México, mi ciudad natal. Ya tengo mis dos vacunas Astra Zeneca así como la vacuna de refuerzo (booster). Pero seguimos cuidándonos mucho debido a la [variante ómicron][3]{:target="_blank"}. 💉
 
-Ale y yo hemos estado pasando todo el tiempo juntos desde que llegó de Suecia. Comenzamos a ir a terapia y nos ha ido de maravilla, todavía seguimos en proceso de sanación, pero siento que estamos experimentado una segunda luna de miel y eso me llena de mucha felicidad y plenitud. Ale continúa estudiando su maestría en la Universidad de Estocolmo y "tristemente" se llegó el momento de que se regrese a Suecia a terminar sus estudios. Su vuelo sale el próximo lunes (para cuando estoy escribiendo esto) y la voy a extrañar muchísimo. ✈️
+Marissa y yo hemos estado pasando todo el tiempo juntos desde que llegó de Suecia. Comenzamos a ir a terapia y nos ha ido de maravilla, todavía seguimos en proceso de sanación, pero siento que estamos experimentado una segunda luna de miel y eso me llena de mucha felicidad y plenitud. Ale continúa estudiando su maestría en la Universidad de Estocolmo y "tristemente" se llegó el momento de que se regrese a Suecia a terminar sus estudios. Su vuelo sale el próximo lunes (para cuando estoy escribiendo esto) y la voy a extrañar muchísimo. ✈️
 
 Todos los días cotorreo con mis amigos en el [server de Mode 7][4], platicamos de los videojuegos que estamos jugando, las series y películas que estamos viendo y todo cargado de buenos chistes y risas. La carga diaria no se hace tan pesada gracias a esta pequeña pero hermosa comunidad. 🥴
 

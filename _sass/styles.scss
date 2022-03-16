@@ -33,7 +33,7 @@ body {
     background-image: linear-gradient(141deg, $bgColor1 0%, $bgColor2 60%, $bgColor1 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    line-height: 180%;
+    line-height: 1.8;
     margin: 0;
 }
 
@@ -396,8 +396,8 @@ footer {
 
 .first-letter {
     float: left;
-    font-size: 80px;
-    line-height: 60px;
+    font-size: 5.8rem;
+    line-height: 4rem;
     padding: 13px 8px 0 0;
 }
 

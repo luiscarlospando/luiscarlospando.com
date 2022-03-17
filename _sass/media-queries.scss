@@ -20,12 +20,20 @@
     .container {
         min-width: 720px !important;
     }
+
+    #category {
+        margin: 1.67em 0 -1.2rem;
+    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
     .container {
         min-width: 960px !important;
+    }
+
+    #category {
+        margin: 1.67em 0 -1.7rem;
     }
 }
 

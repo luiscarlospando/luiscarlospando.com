@@ -295,16 +295,53 @@ footer {
 }
 
 .alert {
-    font-size: 11pt;
+    background-color: $alertBgColor;
+    border-color: $alertBgColor;
+    border-left: 5px solid $alertBorderColor;
+    color: $mainColor;
+    font-size: 0.916rem;
+    margin: 1rem 0;
+    position: relative;
+
+    &::before {
+        background-color: $bgColor1;
+        color: $alertIconColor;
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; 
+        font-size: 1.2rem;
+        line-height: normal;
+        padding: 8px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        -webkit-transform: translate(calc(-50% - 1.5px), -50%);
+        -ms-transform: translate(calc(-50% - 1.5px), -50%);
+        transform: translate(calc(-50% - 1.5px), -50%)
+    }
 }
 
-.alert-danger,
-.alert-info,
-.alert-success,
+.alert-danger {
+    &::before {
+        content: "\f06a";
+    }
+}
+
+.alert-info {
+    &::before {
+        content: "\f05a";
+    }
+}
+
+.alert-success {
+    &::before {
+        content: "\f058";
+    }
+}
+
 .alert-warning {
-    background-color: $alertBgColor;
-    color: $mainColor;
-    border-color: $cardBorderColor;
+    &::before {
+        content: "\f071";
+    }
 }
 
 .alert-link {

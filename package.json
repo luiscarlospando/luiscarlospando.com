@@ -1,7 +1,7 @@
 {
   "name": "luiscarlospando.com",
   "version": "2.9.4",
-  "description": "Web developer 💻, punk rocker 🤘, beer aficionado 🍺 and a Nintendo freak 🕹 since 1990. Probably better than you at Mario Kart 🏁.",
+  "description": "Punk dude first and foremost. Losing followers since 2007.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

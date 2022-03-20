@@ -42,7 +42,7 @@ var Navigation = function (_React$Component) {
                         React.createElement(
                             "a",
                             { href: "https://blog.luiscarlospando.com/" },
-                            React.createElement("i", { "class": "fas fa-quote-left" }),
+                            React.createElement("i", { "class": "fas fa-comment" }),
                             " Blog"
                         ),
                         React.createElement(

@@ -11,7 +11,7 @@ class Navigation extends React.Component {
                 <ul>
                     <li><a href="/"><i class="fas fa-home"></i> Inicio</a></li>
                     <li>
-                        <a href="https://blog.luiscarlospando.com/"><i class="fas fa-quote-left"></i> Blog</a>
+                        <a href="https://blog.luiscarlospando.com/"><i class="fas fa-comment"></i> Blog</a>
                         <ul>
                             <li><a href="https://blog.luiscarlospando.com/personal/"><i class="fas fa-user"></i> Personal</a></li>
                             <li><a href="https://blog.luiscarlospando.com/musica/"><i class="fas fa-music"></i> Música</a></li>

@@ -107,14 +107,7 @@
             progressBar.attr('value', value);
         });
 
-        // Responsive YouTube embeds
-        const youtubePlayer = document.querySelector(".youtube-player");
-        const embedResponsiveWrapper = document.createElement("div");
-
-        embedResponsiveWrapper.classList.add("embed-responsive", "embed-responsive-16by9");
-        youtubePlayer.parentNode.insertBefore(embedResponsiveWrapper, youtubePlayer);
-        embedResponsiveWrapper.appendChild(youtubePlayer);
-
+        
 
         // WP REST API actions
         // Retrieve latest post via API and fetch link

@@ -110,7 +110,7 @@
         // Responsive YouTube embeds
         const youtubePlayer = document.querySelector(".youtube-player");
 
-        if ( youtubePlayer ) {
+        if (youtubePlayer) {
             const embedResponsiveWrapper = document.createElement("div");
             embedResponsiveWrapper.classList.add("embed-responsive", "embed-responsive-16by9");
             youtubePlayer.parentNode.insertBefore(embedResponsiveWrapper, youtubePlayer);

@@ -4,7 +4,7 @@ title: Splatoon 2
 description: Juega Splatoon 2 con la banda de Mode 7.
 image: /assets/images/banner-splatoon2.png
 permalink: /nintendo/splatoon/
-modified-date: 25/02/2022
+modified-date: 23/03/2022
 ---
 
 <div class="row">

@@ -11,7 +11,7 @@ modified-date: 25/02/2022
 <div class="col-12">
 <div class="card text-center">
 <div class="card-header">
-<h5 class="card-title"><i class="fas fa-poll"></i> Mi combate más reciente <small>(vía <a href="https://stat.ink/@mijo/spl2" target="_blank">stat.ink</a>)</small></h5>
+<h5 class="card-title"><i class="fas fa-poll"></i> Mi combate más reciente</h5>
 </div>
 <div class="card-body">
 <h3 class="card-text">
@@ -38,6 +38,12 @@ modified-date: 25/02/2022
 
 <code>Última actualización: <span id="last-updated"></span></code>
 
+- Rangos
+    - Rainmaker: <a href="https://stat.ink/@mijo/spl2/stat/gachi?rule=hoko" class="badge badge-dark">Rank <span id="ranked-rainmaker"></span></a>
+    - Splat Zones: <a href="https://stat.ink/@mijo/spl2/stat/gachi?rule=area" class="badge badge-dark">Rank <span id="ranked-splat-zones"></span></a>
+    - Tower Control: <a href="https://stat.ink/@mijo/spl2/stat/gachi?rule=yagura" class="badge badge-dark">Rank <span id="ranked-tower-control"></span></a>
+    - Clam Blitz: <a href="https://stat.ink/@mijo/spl2/stat/gachi?rule=asari" class="badge badge-dark">Rank <span id="ranked-clam-blitz"></span></a>
+
 - Turf War
     - Batallas totales: <span id="turf-battles"></span>
     - Porcentaje de ganar: <span id="turf-win_pct"></span>%
@@ -59,12 +65,6 @@ modified-date: 25/02/2022
     - Muertes totales: <span id="ranked-death_total"></span>
     - Promedio de muertes: <span id="ranked-death_avg"></span>
     - Muertes por minuto: <span id="ranked-death_per_min"></span>
-
-- Rangos actuales
-    - Rainmaker <span class="badge badge-dark">Rank <span id="ranked-rainmaker"></span></span>
-    - Splat Zones <span class="badge badge-dark">Rank <span id="ranked-splat-zones"></span></span>
-    - Tower Control <span class="badge badge-dark">Rank <span id="ranked-tower-control"></span></span>
-    - Clam Blitz <span class="badge badge-dark">Rank <span id="ranked-clam-blitz"></span></span>
 
 ## <i class="fas fa-info-circle"></i> Información
 

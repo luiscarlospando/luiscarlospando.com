@@ -106,7 +106,9 @@ Para recibir mis notificaciones sobre *Splatoon 2* puedes [seguirme en Twitter][
 </div>
 
 ## <i class="fab fa-youtube"></i> Mis clips de Splatoon 2
+<div class="embed-responsive embed-responsive-16by9">
 <iframe width="100%" height="480" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL15FCirCIaHr5RAAE2JPCLAzDWs7D-mJG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 [1]: https://discord.gg/NUSDKeJ
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw

@@ -37,9 +37,9 @@
         });
 
         // Add Animate.css
-        var header = document.querySelector('header');
-        var siteBody = document.querySelector('.site-body');
-        var footer = document.querySelector('footer');
+        const header = document.querySelector('header');
+        const siteBody = document.querySelector('.site-body');
+        const footer = document.querySelector('footer');
 
         setTimeout(function () {
             header.classList.add('animated', 'fadeInUp');
@@ -55,7 +55,7 @@
         });
 
         $(window).scroll(function () {
-            var scroll = $(window).scrollTop();
+            let scroll = $(window).scrollTop();
             if (scroll >= 1) {
                 $(".nav-container").addClass("scrolled-position");
             } else if (scroll <= 0) {
@@ -64,7 +64,7 @@
         });
 
         // Browser window scroll (in pixels) after which the "back to top" link is shown
-        var offset = 300,
+        const offset = 300,
             // Browser window scroll (in pixels) after which the "back to top" link opacity is reduced
             offset_opacity = 1200,
             // Duration of the top scrolling animation (in ms)
@@ -93,7 +93,7 @@
         $('[data-toggle="tooltip"]').tooltip();
 
         // Progress bar
-        var winHeight = $(window).height(),
+        let winHeight = $(window).height(),
             docHeight = $(document).height(),
             progressBar = $('progress'),
             max, value;
@@ -106,6 +106,15 @@
             value = $(window).scrollTop();
             progressBar.attr('value', value);
         });
+
+        // Responsive YouTube embeds
+        const youtubePlayer = document.querySelector(".youtube-player");
+        const embedResponsiveWrapper = document.createElement("div");
+
+        embedResponsiveWrapper.classList.add("embed-responsive", "embed-responsive-16by9");
+        youtubePlayer.parentNode.insertBefore(embedResponsiveWrapper, youtubePlayer);
+        embedResponsiveWrapper.appendChild(youtubePlayer);
+
 
         // WP REST API actions
         // Retrieve latest post via API and fetch link
@@ -156,7 +165,7 @@
 
             // Function to truncate percentages
             function truncate(value) {
-                var result = Math.trunc(value * Math.pow(10, 2)) / Math.pow(10, 2);
+                let result = Math.trunc(value * Math.pow(10, 2)) / Math.pow(10, 2);
                 return result;
             }
 
@@ -204,16 +213,16 @@
     });
 
     // Show/Hide Mode 7 Grand Prix Livestream
-    var DateTime = luxon.DateTime; // Initialization
-    var dt = DateTime.now().setZone("America/Chihuahua");
-    var dayOfTheWeek = dt.weekday;
-    var time = dt.toFormat('HH');
-    var m7gpLivestreamAlert = document.getElementById("m7gp-livestream-alert");
-    var m7gpLivestream = document.getElementById("m7gp-livestream");
-    var btnM7GP = document.getElementById("btn-m7gp");
-    var luisCarlosPandoLivestream = document.getElementById("luiscarlospando-livestream");
-    var luisCarlosPandoChat = document.getElementById("luiscarlospando-chat");
-    var btnLuisCarlosPando = document.getElementById("btn-luiscarlospando");
+    let DateTime = luxon.DateTime; // Initialization
+    let dt = DateTime.now().setZone("America/Chihuahua");
+    let dayOfTheWeek = dt.weekday;
+    let time = dt.toFormat('HH');
+    const m7gpLivestreamAlert = document.getElementById("m7gp-livestream-alert");
+    const m7gpLivestream = document.getElementById("m7gp-livestream");
+    const btnM7GP = document.getElementById("btn-m7gp");
+    const luisCarlosPandoLivestream = document.getElementById("luiscarlospando-livestream");
+    const luisCarlosPandoChat = document.getElementById("luiscarlospando-chat");
+    const btnLuisCarlosPando = document.getElementById("btn-luiscarlospando");
 
     // Display livestream and livestream alert only on Thursday nights
     if (dayOfTheWeek == 4 && (time >= 21 && time < 23)) {

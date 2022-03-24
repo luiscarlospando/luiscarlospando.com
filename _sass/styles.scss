@@ -430,6 +430,7 @@ footer {
 
 .badge {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
 }
 
 .badge-rss {
@@ -438,7 +439,7 @@ footer {
 
 a.badge,
 a.btn {
-    color: #fff;
+    color: $mainColor;
 }
 
 .stream-status {

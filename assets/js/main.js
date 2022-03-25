@@ -108,13 +108,19 @@
         });
 
         // Responsive YouTube embeds
-        const youtubePlayer = document.querySelector(".youtube-player");
+        const youtubePlayers = document.querySelectorAll(".youtube-player");
 
-        if (youtubePlayer) {
+        if (youtubePlayers) {
             const embedResponsiveWrapper = document.createElement("div");
             embedResponsiveWrapper.classList.add("embed-responsive", "embed-responsive-16by9");
-            youtubePlayer.parentNode.insertBefore(embedResponsiveWrapper, youtubePlayer);
-            embedResponsiveWrapper.appendChild(youtubePlayer);
+
+            for (let i = 0; i < youtubePlayers.length; i++) {
+                const embedResponsiveWrapper = document.createElement("div");
+                embedResponsiveWrapper.classList.add("embed-responsive", "embed-responsive-16by9");
+
+                youtubePlayers[i].parentNode.insertBefore(embedResponsiveWrapper, youtubePlayers[i]);
+                embedResponsiveWrapper.appendChild(youtubePlayers[i]);
+            }
         }
 
         // WP REST API actions

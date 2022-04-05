@@ -348,6 +348,20 @@ footer {
     margin-bottom: 14px;
 }
 
+#btn-skip-nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+
+    &:focus {
+        opacity: 1;
+    }
+}
+
 .burger {
     a {
         display: block;

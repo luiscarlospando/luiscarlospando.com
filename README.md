@@ -1,6 +1,6 @@
 # LuisCarlosPando.com
 
-![LuisCarlosPando.com Logo](https://luiscarlospando.com/assets/images/logo.png)
+![Logo LuisCarlosPando.com](https://luiscarlospando.com/assets/images/logo.png)
 
 Este es el código fuente de [LuisCarlosPando.com][1]. Mi sitio es completamente estático, es generado con [Jekyll][2] y está actualmente lo tengo *deployeado* en [DigitalOcean][3] (no es servido desde GitHub Pages).
 

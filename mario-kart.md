@@ -74,8 +74,8 @@ Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en 
 
 ## <i class="fab fa-twitter"></i> Últimas noticias
 
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-60ffd943-eb58-499d-aee6-8a7ee4a6d314"></div>
+<a class="twitter-timeline" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Mode7gg?ref_src=twsrc%5Etfw">Tweets by Mode7gg</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 [1]: https://discord.gg/U77J5c6
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw

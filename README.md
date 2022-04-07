@@ -6,14 +6,14 @@ Este es el código fuente de [LuisCarlosPando.com][1]. Mi sitio es completamente
 
 ## Instalación
 
-1. Clona el repo (o descárgalo) y entra al directorio
+1. Clonar el repo (o descargar) y entrar al directorio
    
    ```
    git clone https://github.com/luiscarlospando/luiscarlospando.com.git
    cd luiscarlospando.com
    ```
 
-1. Instala las dependencias
+1. Instalar las dependencias
    
    ```
    npm install
@@ -21,13 +21,13 @@ Este es el código fuente de [LuisCarlosPando.com][1]. Mi sitio es completamente
 
 ## Inicialización
 
-1. Inicia el servidor
+1. Iniciar el servidor
    
    ```
    bundle exec jekyll serve
    ```
 
-1. Navega a [http://localhost:4000/][4]
+1. Navegar a [http://localhost:4000/][4]
 
 [1]: https://luiscarlospando.com
 [2]: http://jekyllrb.com/

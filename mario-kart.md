@@ -43,15 +43,6 @@ modified-date: 25/02/2022
 - Puedes unirte a [Mode 7 (#mario-kart)][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Pueden revisar todos mis posts sobre *Mario Kart 8 Deluxe* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/mario-kart/">#Mario Kart 8</a>
 
-</div>
-<div class="col-sm-6 order-1 order-sm-2">
-
-## <i class="fas fa-flag-checkered"></i> Mario Kart 8 @ Mode 7
-
-<div class="text-center mt20">
-[<img class="img-fluid" src="/assets/images/m7gp-moder7-flyer.png" alt="">][1]{:target="_blank"}
-</div>
-
 ## <i class="fas fa-microphone"></i> Chat de voz
 
 Para chat de voz utilizamos [Discord][1]{:target="_blank"} usando el [canal de voz *Mario Kart* dentro de Mode 7][5].
@@ -62,6 +53,15 @@ Para chat de voz utilizamos [Discord][1]{:target="_blank"} usando el [canal de v
 
 Link a mi perfil de Discord:
 <a href="{{ site.discord_profile }}" class="badge badge-dark" target="_blank">{{ site.discord_tag }}</a>
+
+</div>
+<div class="col-sm-6 order-1 order-sm-2">
+
+## <i class="fas fa-flag-checkered"></i> Mario Kart 8 @ Mode 7
+
+<div class="text-center mt20">
+[<img class="img-fluid" src="/assets/images/m7gp-akira-vertical.png" alt="">][1]{:target="_blank"}
+</div>
 
 ## <i class="fab fa-twitter"></i> Twitter
 

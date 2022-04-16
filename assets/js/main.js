@@ -204,6 +204,12 @@
             $('#ranked-tower-control').append(data.gachi.rules.yagura.rank_current);
             $('#ranked-clam-blitz').append(data.gachi.rules.asari.rank_current);
         });
+
+        // Retrieve latest post from tag 'Mode 7 Podcast' via API and fetch link
+        $.get('https://luiscarlospando.instatus.com/summary.json', function (data) {
+            console.log(data);
+
+        });
     });
 
     // Enabling Font Awesome Pseudo Elements

@@ -205,10 +205,9 @@
             $('#ranked-clam-blitz').append(data.gachi.rules.asari.rank_current);
         });
 
-        // Retrieve latest post from tag 'Mode 7 Podcast' via API and fetch link
+        // Retrieve system status via Instatus API
         $.get('https://luiscarlospando.instatus.com/summary.json', function (data) {
-            console.log(data);
-
+            $('#system-status').append(data.page.status);
         });
     });
 

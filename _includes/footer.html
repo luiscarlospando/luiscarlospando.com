@@ -17,10 +17,10 @@
                     </div>
                     <hr>
                     <div class="row">
-                        <div class="col-12 col-lg-4 copyright">
+                        <div class="col-12 col-lg-3 copyright">
                             &copy; {{ 'now' | date: "%Y" }} {{ site.author }}
                         </div>
-                        <div class="col-12 col-lg-8 version text-md-right">
+                        <div class="col-12 col-lg-9 version text-md-right">
                             <ul class="list-inline">
                                 <li class="list-inline-item">
                                     <a href="https://m.do.co/c/03bd95f889e7" target="_blank" class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="Deployed on DigitalOcean">Deployed on <i class="fab fa-digital-ocean"></i> DigitalOcean</a>
@@ -29,7 +29,10 @@
                                     <a href="/privacidad" class="badge badge-dark" data-toggle="tooltip" data-placement="top" title="Privacidad">Privacidad</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://luiscarlospando.instatus.com/" target="_blank" class="badge badge-success" data-toggle="tooltip" data-placement="top" title="{{ site.title }} v{{ site.version }} (All systems operational)">v{{ site.version }}</a>
+                                    <a href="{{ site.url }}/acerca-de" class="badge badge-success" data-toggle="tooltip" data-placement="top" data-html="true" title="{{ site.title }} v{{ site.version }}">v{{ site.version }}</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a id="system-status" href="https://luiscarlospando.instatus.com/" target="_blank" class="badge badge-info" data-toggle="tooltip" data-placement="top" data-html="true" title="Estatus del sistema"></a>
                                 </li>
                                 <li class="list-inline-item">
                                     <a href="https://blog.{{ site.domain }}/rss/" class="badge badge-rss" data-toggle="tooltip" data-placement="top" title="RSS"><i class="fas fa-rss"></i></a>

@@ -207,17 +207,21 @@
 
         // Retrieve system status via Instatus API
         $.get('https://luiscarlospando.instatus.com/summary.json', function (data) {
+            let btnSiteVersion = document.getElementById("site-version");
             let status = data.page.status;
-            const systemStatus = "";
+            let systemStatus = "";
 
             switch(status) {
-                case UP:
+                case "UP":
+                    btnSiteVersion.classList.add("badge-success");
                     systemStatus = "En funcionamiento";
                     break;
-                case HASISSUES:
-                    systemStatus = "Hay problema";
+                case "HASISSUES":
+                    btnSiteVersion.classList.add("badge-danger");
+                    systemStatus = "Hay problemas";
                     break;
-                case UNDERMAINTENANCE:
+                case "UNDERMAINTENANCE":
+                    btnSiteVersion.classList.add("badge-warning");
                     systemStatus = "En mantenimiento";
                     break;
                 default:

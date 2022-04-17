@@ -225,6 +225,7 @@
                     systemStatus = "En mantenimiento";
                     break;
                 default:
+                    btnSiteVersion.classList.add("badge-info");
                     systemStatus = "Sin información"
             }
 

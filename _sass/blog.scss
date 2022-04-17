@@ -74,9 +74,10 @@ h6 {
         color: $mainColor;
         text-decoration-color: $mainColor;
 
-        &:hover {
-            color: $mainColor;
-            text-decoration-color: $mainColor;
+        &:hover,
+        &:focus {
+            color: $mainColor !important;
+            text-decoration-color: $mainColor !important;
         }
     }
 }

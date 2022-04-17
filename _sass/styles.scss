@@ -456,6 +456,12 @@ footer {
 a.badge,
 a.btn {
     color: $mainColor;
+
+    &:hover,
+    &:focus {
+        color: $mainColor !important;
+        text-decoration-color: $mainColor !important;
+    }
 }
 
 .stream-status {

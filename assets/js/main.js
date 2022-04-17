@@ -207,7 +207,24 @@
 
         // Retrieve system status via Instatus API
         $.get('https://luiscarlospando.instatus.com/summary.json', function (data) {
-            $('#system-status').append(data.page.status);
+            let status = data.page.status;
+            const systemStatus = "";
+
+            switch(status) {
+                case UP:
+                    systemStatus = "En funcionamiento";
+                    break;
+                case HASISSUES:
+                    systemStatus = "Hay problema";
+                    break;
+                case UNDERMAINTENANCE:
+                    systemStatus = "En mantenimiento";
+                    break;
+                default:
+                    systemStatus = "Sin información"
+            }
+
+            $('#system-status').append(systemStatus);
         });
     });
 

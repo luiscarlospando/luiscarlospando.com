@@ -41,7 +41,7 @@ modified-date: 25/02/2022
 ## <i class="fas fa-info-circle"></i> Información
 
 - Puedes unirte a [Mode 7 (#mario-kart)][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
-- Pueden revisar todos mis posts sobre *Mario Kart 8 Deluxe* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/mario-kart/">#Mario Kart 8</a>
+- Pueden revisar todos mis posts sobre *Mario Kart 8 Deluxe* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/mario-kart-8/">#Mario Kart 8</a>
 
 ## <i class="fas fa-microphone"></i> Chat de voz
 

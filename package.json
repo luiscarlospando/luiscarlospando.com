@@ -1,6 +1,6 @@
 {
-  "name": "luiscarlospando.com",
-  "version": "2.11.0",
+  "name": "LuisCarlosPando.com",
+  "version": "2.11.1",
   "description": "Punk dude first and foremost. Losing followers since 2007.",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,9 @@
   "keywords": [
     "LuisCarlosPando.com",
     "Luis Carlos Pando",
-    "Web",
-    "Development",
+    "Web dev",
     "Coding",
-    "Technology",
+    "Tech",
     "Music",
     "Video Games"
   ],

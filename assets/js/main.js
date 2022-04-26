@@ -221,19 +221,19 @@
             switch(status) {
                 case "UP":
                     btnSiteVersion.classList.add("badge-success");
-                    systemStatus = "En funcionamiento";
+                    systemStatus = '<i class="fas fa-check-circle"></i> En funcionamiento';
                     break;
                 case "HASISSUES":
                     btnSiteVersion.classList.add("badge-danger");
-                    systemStatus = "Hay problemas";
+                    systemStatus = '<i class="fas fa-exclamation-circle"></i> Hay problemas';
                     break;
                 case "UNDERMAINTENANCE":
                     btnSiteVersion.classList.add("badge-warning");
-                    systemStatus = "En mantenimiento";
+                    systemStatus = '<i class="fas fa-tools"></i> En mantenimiento';
                     break;
                 default:
                     btnSiteVersion.classList.add("badge-info");
-                    systemStatus = "Sin información"
+                    systemStatus = '<i class="fas fa-minus-circle"></i> Sin información';
             }
 
             $('#system-status').append(systemStatus);

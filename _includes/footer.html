@@ -17,25 +17,44 @@
                     </div>
                     <hr>
                     <div class="row">
-                        <div class="col-12 col-lg-3 copyright">
+                        <div class="col-12 col-lg-3 copyright my-auto">
                             &copy; {{ 'now' | date: "%Y" }} {{ site.author }}
                         </div>
-                        <div class="col-12 col-lg-9 version text-md-right">
+                        <div class="col-12 col-lg-9 text-lg-right my-auto">
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <a href="https://m.do.co/c/03bd95f889e7" target="_blank" class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="Deployed on DigitalOcean">Deployed on <i class="fab fa-digital-ocean"></i> DigitalOcean</a>
+                                    <a href="https://m.do.co/c/03bd95f889e7" target="_blank" class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="Deployed on DigitalOcean">
+                                        Deployed on <i class="fab fa-digital-ocean"></i> DigitalOcean
+                                    </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="/privacidad" class="badge badge-dark" data-toggle="tooltip" data-placement="top" title="Privacidad">Privacidad</a>
+                                    <a href="/privacidad" class="badge badge-dark" data-toggle="tooltip" data-placement="top" title="Privacidad">
+                                        Privacidad
+                                    </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://luiscarlospando.instatus.com/" target="_blank" id="site-version" class="badge" data-toggle="tooltip" data-placement="top" data-html="true" title="{{ site.title }} v{{ site.version }}">v{{ site.version }} <span id="system-status"></span></a>
+                                    <a href="https://luiscarlospando.instatus.com/" target="_blank" id="site-version" class="badge" data-toggle="tooltip" data-placement="top" data-html="true" title="Estatus">
+                                        <span id="system-status"></span>
+                                    </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://blog.{{ site.domain }}/rss/" class="badge badge-rss" data-toggle="tooltip" data-placement="top" title="RSS"><i class="fas fa-rss"></i></a>
+                                    <a href="https://blog.{{ site.domain }}/rss/" class="badge badge-rss" data-toggle="tooltip" data-placement="top" title="RSS">
+                                        <i class="fas fa-rss"></i>
+                                    </a>
                                 </li>
                                 <li class="list-inline-item twitter-follow-btn">
-                                    <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-lang="es">Seguir a @{{ site.twitter_username }}</a>
+                                    <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-lang="es">
+                                        Seguir a @{{ site.twitter_username }}
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 version text-lg-right my-auto">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="{{ site.url }}/acerca-de" data-toggle="tooltip" data-placement="top" data-html="true" title="{{ site.title }} v{{ site.version }}">
+                                        <code>v{{ site.version }}</code>
+                                    </a>
                                 </li>
                             </ul>
                         </div>

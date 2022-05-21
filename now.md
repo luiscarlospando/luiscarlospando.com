@@ -4,7 +4,7 @@ title: Now
 description: Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.
 image: /assets/images/logo.png
 permalink: /now/
-modified-date: 27/02/2022
+modified-date: 20/05/2022
 ---
 
 <div class="card last-updated mt-3 text-center">
@@ -17,55 +17,65 @@ modified-date: 27/02/2022
 
 ## Vida personal 👦🏻
 
-Sigo viviendo con [Marissa][2]{:target="_blank"} en Chihuahua, México, mi ciudad natal. Ya tengo mis dos vacunas Astra Zeneca así como la vacuna de refuerzo (booster). Pero seguimos cuidándonos mucho debido a la [variante ómicron][3]{:target="_blank"}. 💉
+Sigo viviendo con [Marissa][2]{:target="_blank"} en Chihuahua, México. La esposa ya está a punto de terminar su maestría en la [Universidad de Estocolmo][3]{:target="_blank"}, ya está dándole los últimos toques a su tesis y pronto va a tener su ponencia. 🎓
 
-Marissa y yo hemos estado pasando todo el tiempo juntos desde que llegó de Suecia. Comenzamos a ir a terapia y nos ha ido de maravilla, todavía seguimos en proceso de sanación, pero siento que estamos experimentado una segunda luna de miel y eso me llena de mucha felicidad y plenitud. Ale continúa estudiando su maestría en la Universidad de Estocolmo y "tristemente" se llegó el momento de que se regrese a Suecia a terminar sus estudios. Su vuelo sale el próximo lunes (para cuando estoy escribiendo esto) y la voy a extrañar muchísimo. ✈️
+Últimamente hemos estado ya pensando mucho en nuestro futuro y en querer tener bebés, tal vez ya se nos llegó el tiempo de dar el siguiente paso. Yo sigo en tratamiento psicológico, tengo que resolver unos business que traigo ahí internos, para andar lo mejor posible si es que queremos lanzarnos a dar el siguiente paso. 👶🏻🍼
 
-Todos los días cotorreo con mis amigos en el [server de Mode 7][4], platicamos de los videojuegos que estamos jugando, las series y películas que estamos viendo y todo cargado de buenos chistes y risas. La carga diaria no se hace tan pesada gracias a esta pequeña pero hermosa comunidad. 🥴
+Por lo pronto, el plan es que Marissa se regrese a Chihuahua en junio, estarnos acá un rato en lo que llega el día de su graduación a fin de este año, irnos a Suecia para su graduación y luego ver qué pasa.
 
-En mis ratos libres, trato de escribir más seguido en [mi blog][5], lo tenía bien abandonadote. Tengo en mente llenarlo más de vida y mantenerlo lo más actualizado posible. También he estado muy metido en domótica y automatización vía [Shortcuts][6]{:target="_blank"} en iOS y macOS. 👨‍💻
+Sigo cotorreando todos los días en el [server de Mode 7][4], de los videojuegos que estamos jugando, las series y películas que estamos viendo y disfrutando del cotorreo locochón que se arma con estos dudes y dudettes. 🥴
+
+Hablando de amigos, hace unos días tuve la oportunidad de salir y cotorrear con mis viejos compas Meza y Zuany, se les extrañaba perros. También conecté con Aaron Herrera que ya se nos casa el chavalo en estos días 🤵‍♂️👰‍♂️, nos invitó a mi y a la esposa a su despedida de soltero en [Don Burro][5], pero pues Marissa anda en Suecia y yo anduve malo de salud como por dos semana (todavía sigo un poco malo 🤒) por lo que, con el dolor de mi corazón tuve que faltar. Igual le deseo a él y a su futura esposa lo mejor de lo mejor, felicidad y bendiciones en abundancia.
+
+Y hablando de más casamientos, mañana es la pedida de mano de Paty (al momento de escribir esto), la prometida de mi primo Omar (aka "Marziito"), ahí andaremos acompañándolo al vato, cómo no.
 
 ### To-dos 📝
 
-- 👩‍👩‍👧 Tengo que estar más en contacto con mi mamá y mis hermanas. Por naturaleza soy muy ermitaño y aislado. Me tengo que aplicar y tratar de pasar más tiempo de calidad con mi familia nuclear.
+- 👩‍👩‍👧 Sigo desconectadón de mi familia nuclear, pero he hecho lo posible por visitar a mi mamá y convivir en presencialment con ella y mis carnalas
 
-- 🚴‍♂️ He estado padeciendo muchos dolores de espalda alta y cuello tenso. Todo por mis niveles actuales de estrés, ahora que ya se está yendo el frío, quisiera empezar a salir más en bici o de perdida a caminar y despejarme más.
+- 🚴‍♂️ He estado saliendo en bici, para ello tuve que desponcharla (es un *pain in the ass* el proceso por el tipo de rin de mi bici, pero se logró), y ya hasta [he estado registrando algunas mis salidas en Strava][6]
 
-- 💦 *Tomar más agua*
+- 💦 *Si he estado haciendo el esfuerzo de tomar más agua (for real)*
 
-- 🍺 Tratar de beber menos alcohol
+- 🍺 Ya llevo medio mes sin una gota de alcohol (y contando)
 
 ## Trabajo 💼
 
-Mi trabajo en [Mixen][7]{:target="_blank"} ha sido puro *development hell*, especialmente en una cuenta en la que estoy involucrado, me está desgastando mucho más de lo que esperaba y siento que necesito un respiro del trabajo. 😵
+Las cosas en el trabajo parecen que van a mejorar, entró sangre nueva y estamos realizando una restructuración de los procesos internos para mejorar tanto entrega de desarrollos como una mejora en hacer que la carga de trabajo no sea tan pesada. Ya veremos qué sucede.
 
 ## Música 🎶
-Esto es algo de lo que ha estado sonando en mis bocinas estos últimos días.
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EIZjttgzA6DwD?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+Esto ha sido lo más relevante musicalmente para mi:
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7tsD5NnZCCk1RxnIIYwY7t?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+---
+
+![Heavy Pendulum by Cave In (2022)](../assets/images/IMG_0732.png){: .img-fluid}
+
+La última rola, *Wavering Angel* es una bestialidad. 🔥
 
 ## Podcasts 🎙
 
-Actualmente mi podcast favorito es:
+Sigo escuchando mi podcast favorito:
 
-- 🤘 [*The First Ever Podcast*][8]{:target="_blank"} de Jeremy Bolm
+- 🤘 [*The First Ever Podcast*][7]{:target="_blank"} de Jeremy Bolm
 
 ## Videojuegos 🎮
-Solamente me la paso jugando [*Splatoon 2*][8], por más que lo intento no puedo dejar de jugarlo y probar otras cosas que tengo en mi [backlog][9]. Hay una razón y es que siento que me he vuelto muy competitivo en el juego, no a nivel pro per-se, pero si arribita del promedio.
+Sigo jugando [*Splatoon 2*][8], ahora con Kty, una amiga chilena que conocí en Discord, ella para que veas si es pro, no que uno ahí dando lástimas 😛, gracias por acoplarme Kty. También agregé *Tetris Effect: Connected* a mi [backlog][9] después de haber terminado su campaña. Juegazo, no tengo manera de expresar lo maravilloso que me pareció. Excelente en todos los aspectos, tanto artísticos, como visuales y mecánicos. Obra maestra para mí.
 
-No puedo esperar para que salga *Splatoon 3*.
+Y pues sigo esperado ansiosamente a que salga *Splatoon 3*.
 
 ---
 
 *Mi página "Now" está inspirada en la de [Derek Sivers][1]{:target="_blank"}*
 
-
 [1]: https://sive.rs/nowff
 [2]: https://www.instagram.com/primitivegirl
-[3]: https://es.wikipedia.org/wiki/Variante_%C3%B3micron_del_SARS-CoV-2
+[3]: https://www.su.se
 [4]: /mode-7/
-[5]: https://blog.luiscarlospando.com
-[6]: https://support.apple.com/en-bw/guide/shortcuts/welcome/ios
+[5]: https://www.instagram.com/foro.donburro
+[6]: https://www.strava.com/athletes/8740264
 [7]: https://mixen.mx
-[8]: https://podcasts.apple.com/us/podcast/the-first-ever-podcast/id1520216207
+[7]: https://podcasts.apple.com/us/podcast/the-first-ever-podcast/id1520216207
 [8]: /nintendo/splatoon/
 [9]: https://www.backloggd.com/u/mijo

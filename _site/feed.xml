@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-20T22:05:56-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LuisCarlosPando.com</title><subtitle>Punk dude first and foremost. Losing followers since 2007.</subtitle><author><name>Luis Carlos Pando</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/01/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-01-02T09:57:23-07:00</published><updated>2018-01-02T09:57:23-07:00</updated><id>http://localhost:4000/jekyll/update/2018/01/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/01/02/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-20T22:42:22-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LuisCarlosPando.com</title><subtitle>Punk dude first and foremost. Losing followers since 2007.</subtitle><author><name>Luis Carlos Pando</name></author><entry><title type="html">Now</title><link href="http://localhost:4000/now/2022/02/27/now.html" rel="alternate" type="text/html" title="Now" /><published>2022-02-27T09:57:23-07:00</published><updated>2022-02-27T09:57:23-07:00</updated><id>http://localhost:4000/now/2022/02/27/now</id><content type="html" xml:base="http://localhost:4000/now/2022/02/27/now.html">&lt;div class=&quot;card last-updated mt-3 text-center&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h4 id=&quot;ltima-actualizacin-27022022&quot;&gt;&lt;code&gt;Última actualización: 27/02/2022&lt;/code&gt;&lt;/h4&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.&lt;/p&gt;
+
+&lt;h2 id=&quot;vida-personal-&quot;&gt;Vida personal 👦🏻&lt;/h2&gt;
+
+&lt;p&gt;Sigo viviendo con &lt;a href=&quot;https://www.instagram.com/primitivegirl&quot; target=&quot;_blank&quot;&gt;Marissa&lt;/a&gt; en Chihuahua, México, mi ciudad natal. Ya tengo mis dos vacunas Astra Zeneca así como la vacuna de refuerzo (booster). Pero seguimos cuidándonos mucho debido a la &lt;a href=&quot;https://es.wikipedia.org/wiki/Variante_%C3%B3micron_del_SARS-CoV-2&quot; target=&quot;_blank&quot;&gt;variante ómicron&lt;/a&gt;. 💉&lt;/p&gt;
+
+&lt;p&gt;Marissa y yo hemos estado pasando todo el tiempo juntos desde que llegó de Suecia. Comenzamos a ir a terapia y nos ha ido de maravilla, todavía seguimos en proceso de sanación, pero siento que estamos experimentado una segunda luna de miel y eso me llena de mucha felicidad y plenitud. Ale continúa estudiando su maestría en la Universidad de Estocolmo y “tristemente” se llegó el momento de que se regrese a Suecia a terminar sus estudios. Su vuelo sale el próximo lunes (para cuando estoy escribiendo esto) y la voy a extrañar muchísimo. ✈️&lt;/p&gt;
+
+&lt;p&gt;Todos los días cotorreo con mis amigos en el &lt;a href=&quot;/mode-7/&quot;&gt;server de Mode 7&lt;/a&gt;, platicamos de los videojuegos que estamos jugando, las series y películas que estamos viendo y todo cargado de buenos chistes y risas. La carga diaria no se hace tan pesada gracias a esta pequeña pero hermosa comunidad. 🥴&lt;/p&gt;
+
+&lt;p&gt;En mis ratos libres, trato de escribir más seguido en &lt;a href=&quot;https://blog.luiscarlospando.com&quot;&gt;mi blog&lt;/a&gt;, lo tenía bien abandonadote. Tengo en mente llenarlo más de vida y mantenerlo lo más actualizado posible. También he estado muy metido en domótica y automatización vía &lt;a href=&quot;https://support.apple.com/en-bw/guide/shortcuts/welcome/ios&quot; target=&quot;_blank&quot;&gt;Shortcuts&lt;/a&gt; en iOS y macOS. 👨‍💻&lt;/p&gt;
+
+&lt;h3 id=&quot;to-dos-&quot;&gt;To-dos 📝&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;👩‍👩‍👧 Tengo que estar más en contacto con mi mamá y mis hermanas. Por naturaleza soy muy ermitaño y aislado. Me tengo que aplicar y tratar de pasar más tiempo de calidad con mi familia nuclear.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;🚴‍♂️ He estado padeciendo muchos dolores de espalda alta y cuello tenso. Todo por mis niveles actuales de estrés, ahora que ya se está yendo el frío, quisiera empezar a salir más en bici o de perdida a caminar y despejarme más.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;💦 &lt;em&gt;Tomar más agua&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;🍺 Tratar de beber menos alcohol&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;trabajo-&quot;&gt;Trabajo 💼&lt;/h2&gt;
+
+&lt;p&gt;Mi trabajo en &lt;a href=&quot;https://mixen.mx&quot; target=&quot;_blank&quot;&gt;Mixen&lt;/a&gt; ha sido puro &lt;em&gt;development hell&lt;/em&gt;, especialmente en una cuenta en la que estoy involucrado, me está desgastando mucho más de lo que esperaba y siento que necesito un respiro del trabajo. 😵&lt;/p&gt;
+
+&lt;h2 id=&quot;música-&quot;&gt;Música 🎶&lt;/h2&gt;
+&lt;p&gt;Esto es algo de lo que ha estado sonando en mis bocinas estos últimos días.&lt;/p&gt;
+&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/37i9dQZF1EIZjttgzA6DwD?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;podcasts-&quot;&gt;Podcasts 🎙&lt;/h2&gt;
+
+&lt;p&gt;Actualmente mi podcast favorito es:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;🤘 &lt;a href=&quot;/nintendo/splatoon/&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;The First Ever Podcast&lt;/em&gt;&lt;/a&gt; de Jeremy Bolm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;videojuegos-&quot;&gt;Videojuegos 🎮&lt;/h2&gt;
+&lt;p&gt;Solamente me la paso jugando &lt;a href=&quot;/nintendo/splatoon/&quot;&gt;&lt;em&gt;Splatoon 2&lt;/em&gt;&lt;/a&gt;, por más que lo intento no puedo dejar de jugarlo y probar otras cosas que tengo en mi &lt;a href=&quot;https://www.backloggd.com/u/mijo&quot;&gt;backlog&lt;/a&gt;. Hay una razón y es que siento que me he vuelto muy competitivo en el juego, no a nivel pro per-se, pero si arribita del promedio.&lt;/p&gt;
+
+&lt;p&gt;No puedo esperar para que salga &lt;em&gt;Splatoon 3&lt;/em&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Mi página “Now” está inspirada en la de &lt;a href=&quot;https://sive.rs/nowff&quot; target=&quot;_blank&quot;&gt;Derek Sivers&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>Luis Carlos Pando</name></author><category term="now" /><summary type="html">Última actualización: 27/02/2022</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/01/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-01-02T09:57:23-07:00</published><updated>2018-01-02T09:57:23-07:00</updated><id>http://localhost:4000/jekyll/update/2018/01/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/01/02/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 

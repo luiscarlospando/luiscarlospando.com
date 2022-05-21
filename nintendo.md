@@ -4,13 +4,11 @@ title: Nintendo
 description: Aquí están mis códigos de Discord y Nintendo Switch. También lo que estoy jugando en este momento.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
-modified-date: 14/03/2022
+modified-date: 20/05/2022
 ---
 
 <div class="text-center">
-Aquí están mis códigos de [<i class="fas fa-link"></i> Discord][1] y [<i class="fas fa-link"></i> Nintendo Switch][2]. 
-
-También lo que estoy jugando en este momento.
+Estos son mis códigos de [<i class="fas fa-link"></i> Discord][1] y [<i class="fas fa-link"></i> Nintendo Switch][2]. 
 </div>
 
 <div class="row">
@@ -24,8 +22,8 @@ También lo que estoy jugando en este momento.
 <div class="row">
 <div class="col-6 my-auto">
 [*Mario Kart 8 Deluxe*][4]<br>
-Mode 7 Grand Prix todos los jueves @ 9:00 pm<br>
-Código del torneo: 0746-6549-8155<br>
+Mode 7 Grand Prix todos los jueves @ 9:00 pm CUU / 10:00 pm CDMX<br>
+<code>Código del torneo: 0746-6549-8155</code><br>
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://discord.gg/U77J5c6" target="_blank">
@@ -37,7 +35,7 @@ Código del torneo: 0746-6549-8155<br>
 <div class="row">
 <div class="col-6 my-auto">
 [*Splatoon 2*][3]<br>
-Retas de *Splatoon 2*, días aleatorios por la noche<br>
+Partidas de *Splatoon 2*, días aleatorios por la noche<br>
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://discord.gg/NUSDKeJ" target="_blank">
@@ -48,6 +46,7 @@ Retas de *Splatoon 2*, días aleatorios por la noche<br>
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
+*Tetris Effect: Connected*<br>
 *Triangle Strategy*
 </div>
 <div class="col-6 my-auto text-monospace">

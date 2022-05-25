@@ -1,10 +1,10 @@
 ---
 layout: apps
 title: Mis apps favoritas
-description: Aquí está un listado de apps que uso a diario y que me hacen la vida mejor y a ser más productivo. Comparto esta lista con el fin de que si alguna es de tu interés, la pruebes por ti mismo. ¿Te gustaría compartirme algo tú?
+description: Aquí está una lista de apps que uso diariamente. Comparto esta lista con el fin de que si alguna es de tu interés, la pruebes por ti mismo. ¿Te gustaría compartirme algo tú?
 image: /assets/images/logo.png
 permalink: /apps/
-modified-date: 1/05/2022
+modified-date: 25/05/2022
 ---
 
 <div class="card last-updated mt-3 text-center">
@@ -13,6 +13,6 @@ modified-date: 1/05/2022
 </div>
 </div>
 
-Aquí está un listado de apps que uso a diario y que me hacen la vida mejor y a ser más productivo. Comparto esta lista con el fin de que si alguna es de tu interés, la pruebes por ti mismo. ¿Te gustaría [compartirme algo tú][1]?
+Aquí está una lista de apps que uso diariamente. Comparto esta lista con el fin de que si alguna es de tu interés, la pruebes por ti mismo. ¿Te gustaría [compartirme algo tú][1]?
 
 [1]: /contacto/

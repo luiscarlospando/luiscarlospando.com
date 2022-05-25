@@ -50,9 +50,9 @@ Esto ha sido lo más relevante musicalmente para mi:
 
 ---
 
-![Heavy Pendulum by Cave In (2022)](../assets/images/IMG_0732.png){: .img-fluid}
+![Heavy Pendulum by Cave In (2022)](../assets/images/cave-in-heavy-pendulum-vinyl.png){: .img-fluid}
 
-La última rola, *Wavering Angel* es una bestialidad. 🔥
+La última rola, *Wavering Angel*, qué bárbaros eh. 🔥
 
 ## Podcasts 🎙
 

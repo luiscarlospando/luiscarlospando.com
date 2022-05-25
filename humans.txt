@@ -10,9 +10,9 @@ Twitter: @mijo
 Location: Chihuahua, Mexico
 
 /* SITE */
-Last update: 2022/01/13
+Last update: 2022/05/25
 Standards: HTML, HTML5, CSS, CSS3, JSON, XML
-Components: Bootstrap 4, Normalize.css, Modernizr, Animate.css, Font Awesome, Google Fonts
+Components: Bootstrap 4, Normalize.css, Modernizr, Animate.css, Font Awesome, Google Fonts, Axios
 Language: Spanish
 Software: Visual Studio Code, Hyper, Pixelmator Pro, Git, npm, SCSS, Jekyll
 Deployed on: DigitalOcean - https://digitalocean.com

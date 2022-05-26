@@ -223,14 +223,14 @@ footer {
     }
 
     .btn-primary  {
-        background-color: $btnBgColor;
+        background-color: $btnCardBgColor;
         color: $mainColor !important;
 
         &:hover,
         &:focus {
-            background-color: #0e141b;
-            border-color: #151f28;
-            border-bottom: 1px solid #151f28 !important;
+            background-color: $btnCardBgHoverColor;
+            border-color: $btnCardBorderHoverColor;
+            border-bottom: 1px solid $btnCardBorderHoverColor !important;
             color: $mainColor !important;
         }
     }

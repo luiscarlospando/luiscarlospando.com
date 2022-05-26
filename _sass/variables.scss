@@ -15,19 +15,24 @@ $underlineColor: hsl(33, 100%, 50%);
 
 $transparentGray: hsla(0, 0%, 100%, 0.169);
 
-$btnBgColor: hsl(0, 0%, 7%);
+$btnBgColor: hsl(210deg, 50%, 9%);
 $btnBorderTextColor: hsl(210deg, 30%, 12%);
-$btnBgHoverColor: hsl(210deg, 30%, 8%);;
+$btnBgHoverColor: hsl(275, 99%, 43%);
 $btnBorderHoverColor: hsl(210deg, 30%, 12%);
 
 $cardHeaderBgColor: hsl(0, 0%, 7%);
-$cardBgColor: hsl(210deg, 30%, 8%);
+$cardBgColor: hsl(210deg, 50%, 9%);
 $cardFooterBgColor: hsl(0, 0%, 7%);
 $cardBorderColor: hsl(210deg, 30%, 12%);
 
+$btnCardBgColor: hsl(0, 0%, 7%);
+$btnCardBorderTextColor: hsl(210deg, 30%, 12%);
+$btnCardBgHoverColor: hsl(275, 99%, 43%);
+$btnCardBorderHoverColor: hsl(210deg, 30%, 12%);
+
 $navMenuBgColor: hsl(0, 0%, 7%);
 
-$alertBgColor: hsl(210deg, 30%, 8%);
+$alertBgColor: hsl(210deg, 50%, 9%);
 $alertBorderColor: hsl(275, 99%, 43%);
 $alertIconColor: hsl(0, 0%, 100%);
 

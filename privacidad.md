@@ -8,7 +8,7 @@ modified-date: 20/02/2022
 ---
 
 <div class="card last-updated mt-3 text-center">
-<div class="card-body">
+<div class="card-body rounded">
 #### <code>Última actualización: {{ page.modified-date }}</code>
 </div>
 </div>

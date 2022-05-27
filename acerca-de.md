@@ -18,8 +18,7 @@ Aquí está el [archivo completo][2] de todos mis posts.
 - Este sitio es completamente estático y lo genero con [Jekyll][15]{:target="_blank"} ([<code>site-info</code>][45]), luego hago <code>push</code> de todos mis cambios en un <code>droplet</code> que tengo en [DigitalOcean][10]{:target="_blank"}
 - Mi dominio lo tengo registrado con [Cloudflare][11]{:target="_blank"}
 - El DNS es administrado vía [Cloudflare][11]{:target="_blank"} también
-- Código fuente disponible en [GitHub][48]{:target="_blank"}
-- El logotipo fue hecho con mi [Nintendo Switch][9]{:target="_blank"}
+- Código fuente disponible en [GitHub][9]{:target="_blank"}
 
 ### Tecnologías usadas
 
@@ -52,7 +51,7 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [3]: /contacto/
 [4]: https://www.apple.com/mac/
 [5]: https://code.visualstudio.com/
-[9]: https://www.nintendo.com/switch/
+[9]: https://github.com/luiscarlospando/luiscarlospando.com
 [10]: https://m.do.co/c/03bd95f889e7
 [11]: https://cloudflare.com/
 [13]: https://github.com/git/git-scm.com/blob/master/README.md#license
@@ -89,4 +88,3 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [45]: https://{{ site.domain }}/jekyll-info.html
 [46]: https://github.com/moment/luxon
 [47]: https://github.com/moment/luxon/blob/master/LICENSE.md
-[48]: https://github.com/luiscarlospando/luiscarlospando.com

@@ -16,7 +16,7 @@ class Navigation extends React.Component {
                             <li><a href="https://blog.luiscarlospando.com/personal/"><i class="fas fa-user"></i> Personal</a></li>
                             <li><a href="https://blog.luiscarlospando.com/musica/"><i class="fas fa-music"></i> Música</a></li>
                             <li><a href="https://blog.luiscarlospando.com/gaming/"><i class="fas fa-gamepad"></i> Gaming</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/tecnologia/"><i class="fas fa-microchip"></i> Tecnología</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/tech/"><i class="fas fa-microchip"></i> Tech</a></li>
                             <li><a href="https://blog.luiscarlospando.com/coding/"><i class="fas fa-code"></i> Coding</a></li>
                             <li><a href="https://blog.luiscarlospando.com/diseno/"><i class="fas fa-paint-brush"></i> Diseño</a></li>
                             <li><a href="https://blog.luiscarlospando.com/todo-lo-demas/"><i class="fas fa-mouse-pointer"></i> Todo lo demás</a></li>

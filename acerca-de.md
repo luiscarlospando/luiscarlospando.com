@@ -40,7 +40,10 @@ Aquí está el [archivo completo][2] de todos mis posts.
 
 ## Suscríbete
 
-Puedes suscribirte a mi blog con este [<i class="fas fa-rss"></i> RSS][37] o si prefieres, en este [<i class="fab fa-twitter"></i> Twitter][38].
+Puedes suscribirte a mi sitio a través de:
+- [<i class="fas fa-newspaper"></i> Newsletter][48]
+- [<i class="fas fa-rss"></i> RSS][37]
+- [<i class="fab fa-twitter"></i> Twitter][38]
 
 ## Errores en el sitio
 
@@ -88,3 +91,4 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [45]: https://{{ site.domain }}/jekyll-info.html
 [46]: https://github.com/moment/luxon
 [47]: https://github.com/moment/luxon/blob/master/LICENSE.md
+[48]: https://www.getrevue.co/profile/{{ site.twitter_username }}

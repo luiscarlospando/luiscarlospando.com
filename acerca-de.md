@@ -41,9 +41,9 @@ Aquí está el [archivo completo][2] de todos mis posts.
 ## Suscríbete
 
 Puedes suscribirte a mi sitio a través de:
-- [<i class="fas fa-newspaper"></i> Newsletter][48]
-- [<i class="fas fa-rss"></i> RSS][37]
-- [<i class="fab fa-twitter"></i> Twitter][38]
+- [<i class="fas fa-newspaper"></i> Newsletter][48]{:target="_blank"}
+- [<i class="fas fa-rss"></i> RSS][37]{:target="_blank"}
+- [<i class="fab fa-twitter"></i> Twitter][38]{:target="_blank"}
 
 ## Errores en el sitio
 

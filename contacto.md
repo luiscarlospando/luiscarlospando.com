@@ -40,8 +40,8 @@ Este es [mi perfil público en Keybase][10]{:target="_blank"}.
 ## <i class="fab fa-google"></i> Google Forms
 Si lo prefieres, puedes escribirme por [aquí][9]{:target="_blank"}.
 
-## <i class="fab fa-spotify"></i> Spotify
-Este es [mi perfil en Spotify][5]{:target="_blank"}.
+## <i class="fab fa-itunes-note"></i> Apple Music
+Este es [mi perfil en Apple Music][5]{:target="_blank"}.
 
 ## <i class="fab fa-lastfm"></i> Last.fm
 Este es [mi perfil en Last.fm][7]{:target="_blank"}.
@@ -59,10 +59,11 @@ Antes usaba Backloggery para llevar el registro de mi backlog de juegos, ahora u
 [2]: https://www.getrevue.co/profile/{{ site.twitter_username }}?via=twitter-profile
 [3]: https://instagram.com/{{ site.instagram_username }}
 [4]: /mode-7/
-[5]: https://open.spotify.com/user/{{ site.spotify_username }}
+[5]: https://music.apple.com/profile/{{ site.apple_music_username }}
 [6]: https://reddit.com/u/{{ site.reddit_username }}
 [7]: https://last.fm/user/{{ site.lastfm_username }}
 [8]: https://twitch.tv/{{ site.twitch_username }}
 [9]: https://forms.gle/RAUiuVmfByzAuQuQA
 [10]: https://keybase.io/luiscarlospando
 [11]: https://www.backloggd.com/u/{{ site.backloggd_username }}
+[12]: https://open.spotify.com/user/{{ site.spotify_username }}

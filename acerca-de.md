@@ -91,4 +91,4 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [45]: https://{{ site.domain }}/jekyll-info.html
 [46]: https://github.com/moment/luxon
 [47]: https://github.com/moment/luxon/blob/master/LICENSE.md
-[48]: https://www.getrevue.co/profile/{{ site.twitter_username }}
+[48]: http://newsletter.{{ site.domain }}

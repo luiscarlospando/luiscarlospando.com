@@ -46,6 +46,7 @@ Partidas de *Splatoon 2*, días aleatorios por la noche<br>
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
+*3D Classics: Kirby's Adventure*<br>
 *Teenage Mutant Ninja Turtles: Shredders Revenge*<br>
 *Triangle Strategy*
 </div>

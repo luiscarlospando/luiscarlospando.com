@@ -8,7 +8,7 @@ modified-date: 16/06/2022
 ---
 
 <div class="text-center">
-Estos son mis códigos de [<i class="fas fa-link"></i> Discord][1] y [<i class="fas fa-link"></i> Nintendo Switch][2]. 
+Estos son mis códigos de [<i class="fas fa-link"></i> Discord][1] y [<i class="fas fa-link"></i> Nintendo Switch][2] y [<i class="fas fa-link"></i> mi perfil en Backloggd][7].
 </div>
 
 <div class="row">
@@ -109,5 +109,5 @@ Partidas de *Splatoon 2*, días aleatorios por la noche<br>
 [4]: /nintendo/mario-kart/
 [5]: https://discord.gg/U77J5c6
 [6]: https://discord.gg/NUSDKeJ
-[7]: /nintendo/rocket-league/
+[7]: https://www.backloggd.com/u/mijo/playing/
 [8]: https://discord.gg/D6mjaEA

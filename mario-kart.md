@@ -11,7 +11,7 @@ modified-date: 25/02/2022
 <div class="col-12">
 <div class="card text-center">
 <div class="card-header">
-<h5 class="card-title"><i class="fas fa-gamepad"></i> Código del torneo</h5>
+<h5 class="card-title"><i class="fa-solid fa-gamepad"></i> Código del torneo</h5>
 </div>
 <div class="card-body">
 <h3 class="card-text">
@@ -25,7 +25,7 @@ modified-date: 25/02/2022
 <div class="row">
 <div class="col-sm-6 order-2 order-sm-1">
 
-## <i class="fas fa-gamepad"></i> Modos de Juego
+## <i class="fa-solid fa-gamepad"></i> Modos de Juego
 
 - Todos los jueves @ 9:00 pm CUU / 10:00 pm CDMX
 - Reglas
@@ -38,16 +38,16 @@ modified-date: 25/02/2022
     - No rotación de lobby
     - Cualquier rating
 
-## <i class="fas fa-info-circle"></i> Información
+## <i class="fa-solid fa-circle-info"></i> Información
 
 - Puedes unirte a [Mode 7 (#mario-kart)][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Pueden revisar todos mis posts sobre *Mario Kart 8 Deluxe* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/mario-kart-8/">#Mario Kart 8</a>
 
-## <i class="fas fa-microphone"></i> Chat de voz
+## <i class="fa-solid fa-microphone"></i> Chat de voz
 
 Para chat de voz utilizamos [Discord][1]{:target="_blank"} usando el [canal de voz *Mario Kart* dentro de Mode 7][5].
 
-## <i class="fab fa-discord"></i> Discord
+## <i class="fa-brands fa-discord"></i> Discord
 
 Únete a [Mode 7 (#mario-kart)][1]{:target="_blank"}. La intención de este Discord es ser útil para armar partidas, armar cotorreo, conocer gente, jugar, hablar sobre *Mario Kart 8 Deluxe* y mucho más.
 
@@ -57,13 +57,13 @@ Link a mi perfil de Discord:
 </div>
 <div class="col-sm-6 order-1 order-sm-2">
 
-## <i class="fas fa-flag-checkered"></i> Mario Kart 8 @ Mode 7
+## <i class="fa-solid fa-flag-checkered"></i> Mario Kart 8 @ Mode 7
 
 <div class="text-center mt20">
 [<img class="img-fluid" src="/assets/images/m7gp-akira-vertical.png" alt="">][1]{:target="_blank"}
 </div>
 
-## <i class="fab fa-twitter"></i> Twitter
+## <i class="fa-brands fa-twitter"></i> Twitter
 
 Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en Twitter][4].
 
@@ -72,7 +72,7 @@ Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en 
 </div>
 </div>
 
-## <i class="fab fa-twitter"></i> Últimas noticias
+## <i class="fa-brands fa-twitter"></i> Últimas noticias
 
 <a class="twitter-timeline" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Mode7gg?ref_src=twsrc%5Etfw">Tweets by Mode7gg</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

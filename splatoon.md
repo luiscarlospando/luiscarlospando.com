@@ -11,7 +11,7 @@ modified-date: 23/03/2022
 <div class="col-12">
 <div class="card text-center">
 <div class="card-header">
-<h5 class="card-title"><i class="fas fa-poll"></i> Mi combate más reciente</h5>
+<h5 class="card-title"><i class="fa-solid fa-poll"></i> Mi combate más reciente</h5>
 </div>
 <div class="card-body">
 <h3 class="card-text">
@@ -28,13 +28,13 @@ modified-date: 23/03/2022
 <div class="row">
 <div class="col-sm-6 order-2 order-sm-1">
 
-## <i class="fas fa-gamepad"></i> Modos de juego
+## <i class="fa-solid fa-gamepad"></i> Modos de juego
 
 - Turf War
 - Ranked Battle
 - League Battle (organizamos matches en equipos en [Mode 7 (#splatoon)][1]{:target="_blank"})
 
-## <i class="fas fa-chart-area"></i> Mis estadísticas
+## <i class="fa-solid fa-chart-column"></i> Mis estadísticas
 
 <code>Última actualización: <span id="last-updated"></span></code>
 
@@ -66,7 +66,7 @@ modified-date: 23/03/2022
     - Promedio de muertes: <span id="ranked-death_avg"></span>
     - Muertes por minuto: <span id="ranked-death_per_min"></span>
 
-## <i class="fas fa-info-circle"></i> Información
+## <i class="fa-solid fa-circle-info"></i> Información
 
 - Únete a [Mode 7 (#splatoon)][1]{:target="_blank"} en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Jugamos generalmente por las noches, aproximadamente a las 9:00 pm hora de Chihuahua / 10:00 pm hora de CDMX
@@ -77,7 +77,7 @@ modified-date: 23/03/2022
 </div>
 <div class="col-sm-6 order-1 order-sm-2">
 
-## <i class="fas fa-paint-roller"></i> Splatoon 2 @ Mode 7
+## <i class="fa-solid fa-paint-roller"></i> Splatoon 2 @ Mode 7
 
 <div class="text-center mt20">
 <a href="https://discord.gg/NUSDKeJ" target="_blank">
@@ -85,18 +85,18 @@ modified-date: 23/03/2022
 </a>
 </div>
 
-## <i class="fas fa-microphone"></i> Chat de voz
+## <i class="fa-solid fa-microphone"></i> Chat de voz
 
 Para chat de voz utilizamos [Discord][1]{:target="_blank"} usando el [canal de voz *Splatoon* dentro de Mode 7][5]{:target="_blank"}.
 
-## <i class="fab fa-discord"></i> Discord
+## <i class="fa-brands fa-discord"></i> Discord
 
 Únete a [Mode 7 (#splatoon)][1]{:target="_blank"}. La intención de este Discord es ser útil para armar partidas, cotorrear, conocer gente, jugar en parejas, hablar sobre *Splatoon* y mucho más.
 
 Link a mi perfil de Discord:
 <a href="{{ site.discord_profile }}" class="badge badge-dark" target="_blank">{{ site.discord_tag }}</a>
 
-## <i class="fab fa-twitter"></i> Tweets
+## <i class="fa-brands fa-twitter"></i> Tweets
 
 Para recibir mis notificaciones sobre *Splatoon 2* puedes [seguirme en Twitter][4].
 
@@ -105,7 +105,7 @@ Para recibir mis notificaciones sobre *Splatoon 2* puedes [seguirme en Twitter][
 </div>
 </div>
 
-## <i class="fab fa-youtube"></i> Mis clips de Splatoon 2
+## <i class="fa-brands fa-youtube"></i> Mis clips de Splatoon 2
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="100%" height="480" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL15FCirCIaHr5RAAE2JPCLAzDWs7D-mJG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

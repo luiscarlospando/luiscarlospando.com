@@ -8,10 +8,10 @@ permalink: /contacto/
 
 <p class="text-center">Gracias por tu interés en ponerte en contacto conmigo. 🥰</p>
 
-## <i class="fas fa-envelope"></i> Email
+## <i class="fa-solid fa-envelope"></i> Email
 Mi correo electrónico es [{{ site.email }}][1].
 
-## <i class="fab fa-twitter"></i> Twitter
+## <i class="fa-brands fa-twitter"></i> Twitter
 <div class="twitter-btns">
 <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-lang="es">Seguir a @{{ site.twitter_username }}</a>
 <a href="https://twitter.com/intent/tweet?screen_name={{ site.twitter_username }}" class="twitter-mention-button" data-lang="es" data-related="{{ site.twitter_username }},{{ site.twitter_feed }}">Tweet to @{{ site.twitter_username }}</a>
@@ -25,34 +25,34 @@ Cuenta personal.
 
 Cuenta automatizada con posts de mi sitio.
 
-## <i class="fab fa-instagram"></i> Instagram
+## <i class="fa-brands fa-instagram"></i> Instagram
 [Aquí comparto fotos][3]{:target="_blank"} de mis cosas favoritas y de momentos que considero que valen la pena ser compartidos.
 
-## <i class="fab fa-discord"></i> Discord
+## <i class="fa-brands fa-discord"></i> Discord
 Mi Discord tag es <a href="{{ site.discord_profile }}" class="badge badge-dark" target="_blank">{{ site.discord_tag }}</a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (feel free to join in!).
 
-## <i class="fas fa-newspaper"></i> Newsletter
+## <i class="fa-solid fa-newspaper"></i> Newsletter
 [Suscríbete a mi newsletter][2]{:target="_blank"} para recibir mis posts en tu correo (y más contenido).
 
-## <i class="fab fa-keybase"></i> Keybase
+## <i class="fa-brands fa-keybase"></i> Keybase
 Este es [mi perfil público en Keybase][10]{:target="_blank"}.
 
-## <i class="fab fa-google"></i> Google Forms
+## <i class="fa-brands fa-google"></i> Google Forms
 Si lo prefieres, puedes escribirme por [aquí][9]{:target="_blank"}.
 
-## <i class="fab fa-itunes-note"></i> Apple Music
+## <i class="fa-brands fa-itunes-note"></i> Apple Music
 Este es [mi perfil en Apple Music][5]{:target="_blank"}.
 
-## <i class="fab fa-lastfm"></i> Last.fm
+## <i class="fa-brands fa-lastfm"></i> Last.fm
 Este es [mi perfil en Last.fm][7]{:target="_blank"}.
 
-## <i class="fab fa-reddit"></i> Reddit
+## <i class="fa-brands fa-reddit"></i> Reddit
 Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquier forma este es [mi perfil en Reddit][6]{:target="_blank"}.
 
-## <i class="fab fa-twitch"></i> Twitch
+## <i class="fa-brands fa-twitch"></i> Twitch
 [Tengo un canal en Twitch][8]{:target="_blank"}, muy inactivo por lo pronto, la idea es llenarlo de vida uno de estos días.
 
-## <i class="fas fa-gamepad"></i> Backloggd
+## <i class="fa-solid fa-gamepad"></i> Backloggd
 Antes usaba Backloggery para llevar el registro de mi backlog de juegos, ahora uso [Backloggd][11]{:target="_blank"}.
 
 [1]: mailto:{{ site.email }}

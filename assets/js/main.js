@@ -161,7 +161,7 @@
                 limit: 1,
                 ssl: true,
                 layoutTemplate: "<div style='display: inline;'>{entries}</div>",
-                entryTemplate: '<a href="{url}" target="_blank">{title} <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i></a>'
+                entryTemplate: '<a href="{url}" target="_blank">{title} <i class="fa-solid fa-arrow-up-right-from-square" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i></a>'
             });
 
             $("#splatlog-timestamp").rss("https://stat.ink/@mijo.2.en-US.rss", {
@@ -221,19 +221,19 @@
             switch(status) {
                 case "UP":
                     btnSiteVersion.classList.add("badge-success");
-                    systemStatus = '<i class="fas fa-check-circle"></i> En funcionamiento';
+                    systemStatus = '<i class="fa-solid fa-circle-check"></i> En funcionamiento';
                     break;
                 case "HASISSUES":
                     btnSiteVersion.classList.add("badge-danger");
-                    systemStatus = '<i class="fas fa-exclamation-circle"></i> Hay problemas';
+                    systemStatus = '<i class="fa-solid fa-circle-exclamation"></i> Hay problemas';
                     break;
                 case "UNDERMAINTENANCE":
                     btnSiteVersion.classList.add("badge-warning");
-                    systemStatus = '<i class="fas fa-tools"></i> En mantenimiento';
+                    systemStatus = '<i class="fa-solid fa-wrench"></i> En mantenimiento';
                     break;
                 default:
                     btnSiteVersion.classList.add("badge-info");
-                    systemStatus = '<i class="fas fa-minus-circle"></i> Sin información';
+                    systemStatus = '<i class="fa-solid fa-circle-minus"></i> Sin información';
             }
 
             $('#system-status').append(systemStatus);

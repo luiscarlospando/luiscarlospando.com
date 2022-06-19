@@ -9,45 +9,45 @@ class Navigation extends React.Component {
         return (
             <nav id="menu">
                 <ul>
-                    <li><a href="/"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="/"><i class="fa-solid fa-house"></i> Inicio</a></li>
                     <li>
-                        <a href="https://blog.luiscarlospando.com/"><i class="fas fa-comment"></i> Blog</a>
+                        <a href="https://blog.luiscarlospando.com/"><i class="fa-solid fa-comment"></i> Blog</a>
                         <ul>
-                            <li><a href="https://blog.luiscarlospando.com/personal/"><i class="fas fa-user"></i> Personal</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/musica/"><i class="fas fa-music"></i> Música</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/gaming/"><i class="fas fa-gamepad"></i> Gaming</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/tech/"><i class="fas fa-microchip"></i> Tech</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/coding/"><i class="fas fa-code"></i> Coding</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/diseno/"><i class="fas fa-paint-brush"></i> Diseño</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/todo-lo-demas/"><i class="fas fa-mouse-pointer"></i> Todo lo demás</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/author/me/"><i class="fas fa-folder-open"></i> Archivos del blog</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/hashtags/"><i class="fas fa-hashtag"></i> Explorar por hashtag</a></li>
-                            <li><a href="https://blog.luiscarlospando.com/rss/"><i class="fas fa-rss-square"></i> RSS</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/personal/"><i class="fa-solid fa-user"></i> Personal</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/musica/"><i class="fa-solid fa-music"></i> Música</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/gaming/"><i class="fa-solid fa-gamepad"></i> Gaming</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/tech/"><i class="fa-solid fa-computer"></i> Tech</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/coding/"><i class="fa-solid fa-code"></i> Coding</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/diseno/"><i class="fa-solid fa-pen-ruler"></i> Diseño</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/todo-lo-demas/"><i class="fa-solid fa-arrow-pointer"></i> Todo lo demás</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/author/me/"><i class="fa-solid fa-folder-open"></i> Archivos del blog</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/hashtags/"><i class="fa-solid fa-hashtag"></i> Explorar por hashtag</a></li>
+                            <li><a href="https://blog.luiscarlospando.com/rss/"><i class="fa-solid fa-square-rss"></i> RSS</a></li>
                         </ul>
                     </li>
-                    <li><a href="/contacto/"><i class="fas fa-envelope"></i> Contacto</a></li>
-                    <li><a href="/developer/"><i class="fas fa-code"></i> Development Stuff</a></li>
-                    <li><a href="/now/"><i class="fas fa-clock"></i> Now</a></li>
-                    <li><a href="/apps/"><i class="fas fa-heart"></i> Mis apps favoritas</a></li>
+                    <li><a href="/contacto/"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
+                    <li><a href="/developer/"><i class="fa-solid fa-code"></i> Development Stuff</a></li>
+                    <li><a href="/now/"><i class="fa-solid fa-clock"></i> Now</a></li>
+                    <li><a href="/apps/"><i class="fa-solid fa-heart"></i> Mis apps favoritas</a></li>
                     <li>
-                        <a href="/mode-7/"><i class="fab fa-discord"></i> Mode 7</a>
+                        <a href="/mode-7/"><i class="fa-brands fa-discord"></i> Mode 7</a>
                         <ul>
                         <li>
-                            <a href="https://blog.luiscarlospando.com/hashtag/mode-7-podcast/"><i class="fas fa-microphone-alt"></i> Mode 7 Podcast</a>
+                            <a href="https://blog.luiscarlospando.com/hashtag/mode-7-podcast/"><i class="fa-solid fa-podcast"></i> Mode 7 Podcast</a>
                         </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="/nintendo/"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</a>
+                        <a href="/nintendo/"><i class="fa-brands fa-nintendo-switch"></i> Nintendo Switch</a>
                         <ul>
-                            <li><a href="/nintendo/mario-kart/"><i class="ffas fa-gamepad"></i> Mario Kart 8 Deluxe (Mode 7 Grand Prix)</a></li>
-                            <li><a href="/nintendo/splatoon/"><i class="fas fa-gamepad"></i> Splatoon 2</a></li>
+                            <li><a href="/nintendo/mario-kart/"><i class="fa-solid fa-gamepad"></i> Mario Kart 8 Deluxe (Mode 7 Grand Prix)</a></li>
+                            <li><a href="/nintendo/splatoon/"><i class="fa-solid fa-gamepad"></i> Splatoon 2</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="/live/"><i class="fas fa-video"></i> Live</a>
+                        <a href="/live/"><i class="fa-solid fa-video"></i> Live</a>
                     </li>
-                    <li><a href="/acerca-de/"><i class="fas fa-info-circle"></i> Acerca de</a></li>
+                    <li><a href="/acerca-de/"><i class="fa-solid fa-circle-info"></i> Acerca de</a></li>
                 </ul>
             </nav>
         );

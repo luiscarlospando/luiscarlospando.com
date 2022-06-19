@@ -8,7 +8,7 @@ modified-date: 16/06/2022
 ---
 
 <div class="text-center">
-Estos son mis códigos de [<i class="fas fa-link"></i> Discord][1] y [<i class="fas fa-link"></i> Nintendo Switch][2] y [<i class="fas fa-link"></i> mi perfil en Backloggd][7].
+Estos son mis códigos de [<i class="fa-solid fa-link"></i> Discord][1] y [<i class="fa-solid fa-link"></i> Nintendo Switch][2] y [<i class="fa-solid fa-link"></i> mi perfil en Backloggd][7].
 </div>
 
 <div class="row">
@@ -16,7 +16,7 @@ Estos son mis códigos de [<i class="fas fa-link"></i> Discord][1] y [<i class="
 
 <div class="card text-center mb-0">
 <div class="card-header">
-<h5 class="card-title"><i class="fas fa-gamepad"></i> Ahora estoy jugando</h5>
+<h5 class="card-title"><i class="fa-solid fa-gamepad"></i> Ahora estoy jugando</h5>
 </div>
 <div class="card-body">
 <div class="row">
@@ -27,7 +27,7 @@ Mode 7 Grand Prix todos los jueves @ 9:00 pm CUU / 10:00 pm CDMX<br>
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://discord.gg/U77J5c6" target="_blank">
-<i class="fab fa-discord"></i> Discord
+<i class="fa-brands fa-discord"></i> Discord
 </a>
 </div>
 </div>
@@ -39,7 +39,7 @@ Partidas de *Splatoon 2*, días aleatorios por la noche<br>
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://discord.gg/NUSDKeJ" target="_blank">
-<i class="fab fa-discord"></i> Discord
+<i class="fa-brands fa-discord"></i> Discord
 </a>
 </div>
 </div>
@@ -70,13 +70,13 @@ Partidas de *Splatoon 2*, días aleatorios por la noche<br>
 
 <div class="card text-center" id="discord-tag">
 <div class="card-header">
-<h5 class="card-title"><i class="fab fa-discord"></i> Discord Tag</h5>
+<h5 class="card-title"><i class="fa-brands fa-discord"></i> Discord Tag</h5>
 </div>
 <div class="card-body">
 <div class="input-group justify-content-center">
 <input type="text" class="form-control" id="discord-tag-value" value="{{ site.discord_tag }}" aria-label="" aria-describedby readonly>
 <div class="input-group-append">
-<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag-value" data-toggle="tooltip" data-placement="top" title="Copiar Discord Tag"><i class="fas fa-clipboard"></i></button>
+<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag-value" data-toggle="tooltip" data-placement="top" title="Copiar Discord Tag"><i class="fa-solid fa-clipboard"></i></button>
 </div>
 </div>
 </div>
@@ -88,13 +88,13 @@ Partidas de *Splatoon 2*, días aleatorios por la noche<br>
 
 <div class="card text-center mb-3" id="nintendo-switch">
 <div class="card-header">
-<h5 class="card-title"><i class="fab fa-nintendo-switch"></i> Nintendo Switch</h5>
+<h5 class="card-title"><i class="fa-solid fa-gamepad"></i> Nintendo Switch</h5>
 </div>
 <div class="card-body">
 <div class="input-group justify-content-center">
 <input type="text" class="form-control" id="nintendo-switch-code" value="SW-3920-3330-9820" aria-label="" aria-describedby readonly>
 <div class="input-group-append">
-<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#nintendo-switch-code" data-toggle="tooltip" data-placement="top" title="Copiar código de Nintendo Switch"><i class="fas fa-clipboard"></i></button>
+<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#nintendo-switch-code" data-toggle="tooltip" data-placement="top" title="Copiar código de Nintendo Switch"><i class="fa-solid fa-clipboard"></i></button>
 </div>
 </div>
 </div>

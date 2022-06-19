@@ -196,7 +196,7 @@ $('#nowPlayingBox').nowplaying({
 							// ----------- THIS MOMENT -----------------
 							$("<div>", {
 								class: 'this-moment',
-								html: '<h4 class="latest-post text-center zero-margin"><i class="fas fa-headphones"></i> En este momento estoy escuchando:</h4>'
+								html: '<h4 class="latest-post text-center zero-margin"><i class="fa-solid fa-headphones"></i> En este momento estoy escuchando:</h4>'
 							}).appendTo(listitem);
 							
 

@@ -5,7 +5,7 @@
 $fa-font-path: "../fonts";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "font-awesome";
+@import "../css/all.css";
 @import "fonts";
 @import "bootstrap";
 @import "variables";

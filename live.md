@@ -40,9 +40,9 @@ permalink: /live/
 <div class="row">
 <div class="col text-center">
 <a id="btn-luiscarlospando" class="btn btn-primary" href="https://www.twitch.tv/{{ site.twitch_username }}" target="_blank">
-Ver directamente en Twitch <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i>
+Ver directamente en Twitch <i class="fa-solid fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i>
 <a id="btn-m7gp" class="btn btn-primary" href="https://www.twitch.tv/mode7gg" target="_blank">
-Ver directamente en Twitch <i class="fas fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i>
+Ver directamente en Twitch <i class="fa-solid fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i>
 </a>
 </div>
 </div>

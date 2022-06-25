@@ -221,7 +221,7 @@ var Navigation = function (_React$Component) {
                             "a",
                             { href: "/nintendo/" },
                             React.createElement("i", { "class": "fa-solid fa-gamepad" }),
-                            " Nintendo Switch"
+                            " Nintendo"
                         ),
                         React.createElement(
                             "ul",

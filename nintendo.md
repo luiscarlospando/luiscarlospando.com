@@ -46,8 +46,18 @@ Partidas de *Splatoon 2*, días aleatorios por la noche<br>
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
-*3D Classics: Kirby's Adventure*<br>
 *Fall Guys: Ultimate Knockout*<br>
+</div>
+<div class="col-6 my-auto">
+<a class="btn btn-primary btn-lg" href="https://discord.gg/N2m8gKw" target="_blank">
+<i class="fa-brands fa-discord"></i> Discord
+</a>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-6 my-auto">
+*3D Classics: Kirby's Adventure*<br>
 *Sonic Origins*<br>
 *Teenage Mutant Ninja Turtles: Shredder's Revenge*<br>
 *Triangle Strategy*

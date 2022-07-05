@@ -35,6 +35,8 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.7.1)
       jekyll (>= 3.8, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jekyll_asset_pipeline (0.6.2)
@@ -76,6 +78,7 @@ DEPENDENCIES
   jekyll (~> 3.5)
   jekyll-feed (~> 0.6)
   jekyll-info
+  jekyll-sitemap
   jekyll_asset_pipeline (~> 0.6.0)
   kramdown-parser-gfm
   minima (~> 2.0)

@@ -13,7 +13,7 @@ image: /assets/images/logo.png
 
 La razón principal que me motivó a crear este sitio, fue mi interés las computadoras 👨‍💻 y la web 🌐, ― sentí la necesidad de tener [mi propio lugar en Internet][6], para hablar de lo que yo quisiera, para equivocarme, para aprender. El objetivo de este sitio escribir sobre lo que traiga en la cabeza. Quiero que este lugar sirva como de una especie de bitácora de mi vida y que sea mi lugar para dar mi opinión sin miedo. 😉
 
-No es secreto [el gusto que le tengo a los videojuegos][11]{:target="_blank"} y para rendir tributo y hacer de esto algo más divertido de lo que ya es, armé la comunidad de [Mode 7 🎮 🕹️][7] (all are welcome 😉) junto a unos amigos. Ahí hablamos de nuestros videojuegos favoritos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][13]. También [tengo un canal en Twitch][3], pero para qué les miento, ni siquiera lo uso.
+No es secreto [el gusto que tengo por los videojuegos][11]{:target="_blank"} y para rendir tributo y hacer de esto algo más divertido de lo que ya es, armé la comunidad de [Mode 7 🎮 🕹️][7] (all are welcome 😉) junto a unos amigos. Ahí hablamos de nuestros videojuegos favoritos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][13]. También [tengo un canal en Twitch][3], pero para qué les miento, ni siquiera lo uso.
 
 Casi siempre me confundo y confundo a los demás en [Twitter][8] con sarcasmo y chistes de baja calidad. Me gusta llevar registro de lo que hago y toda la música que escucho la voy documentando en mi [Last.fm 🎵][10]{:target="_blank"} (sí, hasta mi colección de vinilos 🔈).
 

@@ -58,6 +58,7 @@ asset_pipeline:
   compress: true
 info:
   production: true
+future: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

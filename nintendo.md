@@ -4,7 +4,7 @@ title: Nintendo
 description: Aquí están mis códigos de Discord y Nintendo Switch. También lo que estoy jugando en este momento.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
-modified-date: 25/06/2022
+modified-date: 26/07/2022
 ---
 
 <div class="text-center">
@@ -46,7 +46,7 @@ Partidas de *Splatoon 2*, días aleatorios por la noche<br>
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
-*Fall Guys: Ultimate Knockout*<br>
+*Monster Hunter Rise*<br>
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://discord.gg/N2m8gKw" target="_blank">

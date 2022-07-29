@@ -65,7 +65,7 @@ var Navigation = function (_React$Component) {
                                     "a",
                                     { href: "https://blog.luiscarlospando.com/musica/" },
                                     React.createElement("i", { "class": "fa-solid fa-music" }),
-                                    " M\xfasica"
+                                    " M\xFAsica"
                                 )
                             ),
                             React.createElement(

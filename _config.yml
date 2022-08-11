@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: LuisCarlosPando.com
-url: "https://luiscarlospando.com" # the base hostname & protocol for your site
 version: 2.13.1
 author: Luis Carlos Pando
 email: hey@luiscarlospando.com

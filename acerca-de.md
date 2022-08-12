@@ -15,10 +15,12 @@ Aquí está el [archivo completo][2] de todos mis posts.
 ## Colofón
 
 - Desarrollo y mantengo este sitio con [Visual Studio Code][5]{:target="_blank"} en una Mac 👨‍💻
-- Este sitio es completamente estático y lo genero con [Jekyll][15]{:target="_blank"} ([<code>site-info</code>][45]), luego hago <code>push</code> de todos mis cambios en un <code>droplet</code> que tengo en [DigitalOcean][10]{:target="_blank"}
+- Este sitio es completamente estático y lo genero usando [Jekyll][15]{:target="_blank"} ([<code>site-info</code>][45]), después hago <code>push</code> de todos mis cambios a un <code>repo</code> que tengo en GitHub para luego hacer deploy vía [Vercel][6]{:target="_blank"}
+- Mi blog corre con WordPress y está hospedado en un droplet que tengo en [DigitalOcean][10]{:target="_blank"}
 - Mi dominio lo tengo registrado con [Cloudflare][11]{:target="_blank"}
 - El DNS es administrado vía [Cloudflare][11]{:target="_blank"} también
 - Código fuente disponible en [GitHub][9]{:target="_blank"}
+- Uso [Instatus][7]{:target="_blank"} para monitorear el estatus general de los sistemas
 
 ### Tecnologías usadas
 
@@ -54,6 +56,8 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [3]: /contacto/
 [4]: https://www.apple.com/mac/
 [5]: https://code.visualstudio.com/
+[6]: https://vercel.com/
+[7]: https://instatus.com/
 [9]: https://github.com/luiscarlospando/luiscarlospando.com
 [10]: https://m.do.co/c/03bd95f889e7
 [11]: https://cloudflare.com/

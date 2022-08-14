@@ -15,7 +15,7 @@ La razón principal que me motivó a crear este sitio, fue mi interés las compu
 
 No es secreto [el gusto que tengo por el gaming 🕹️][11]{:target="_blank"}. [Aquí][12] llevo un registro de los videojuegos que tengo. Y para rendir tributo y hacer de esto algo más divertido de lo que ya es, armé la comunidad de [Mode 7 🎮 🕹️][7] (all are welcome 😉) junto a unos amigos. Ahí hablamos de nuestros videojuegos favoritos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][13]. También [tengo un canal en Twitch][3], pero la neta, ni siquiera lo uso.
 
-Casi siempre me confundo y confundo a los demás en [Twitter][8] con sarcasmo y chistes de baja calidad. Me gusta llevar registro de lo que hago y toda [la música que escucho 🎧][14] la voy documentando en mi perfil de [Last.fm 🎵][10]{:target="_blank"} (sí, hasta mi colección de vinilos 🔈).
+Casi siempre me confundo y confundo a los demás en [Twitter][8] con sarcasmo y chistes de baja calidad. Me gusta llevar registro de lo que hago y toda [la música que escucho 🎧][14]{:target="_blank"} la voy documentando en mi perfil de [Last.fm 🎵][10]{:target="_blank"} (sí, hasta mi colección de vinilos 🔈).
 
 Lo más seguro es que ni sepas como llegaste hasta aquí, pero eso no importa en realidad, agradecido estoy por tu visita.
 

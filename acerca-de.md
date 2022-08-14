@@ -15,7 +15,7 @@ Aquí está el [archivo completo][2] de todos mis posts.
 ## Colofón
 
 - Desarrollo y mantengo este sitio con [Visual Studio Code][5]{:target="_blank"} en una Mac 👨‍💻
-- Este sitio es completamente estático y lo genero usando [Jekyll][15]{:target="_blank"} ([<code>site-info</code>][45]), después hago <code>push</code> de todos mis cambios a un <code>repo</code> que tengo en GitHub para luego hacer deploy vía [Vercel][6]{:target="_blank"}
+- Este sitio es completamente estático y lo genero usando [Jekyll][15]{:target="_blank"} ([<code>site-info</code>][45]), después hago <code>push</code> a un <code>repo</code> que tengo en [GitHub][9]{:target="_blank"} para luego hacer deploy en [Vercel][6]{:target="_blank"}
 - Mi blog corre con [WordPress][8]{:target="_blank"} y lo tengo corriendo en un <code>droplet</code> de [DigitalOcean][10]{:target="_blank"}
 - Mi dominio lo tengo registrado con [Cloudflare][11]{:target="_blank"}
 - El DNS es administrado vía [Cloudflare][11]{:target="_blank"} también

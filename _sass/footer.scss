@@ -16,7 +16,10 @@ footer {
             padding: 0;
 
             .nowplaying {
-                border: 1px solid $transparentGray;
+                // background-color: transparent;
+                background-color: $cardBgColor;
+                // border: 1px solid $transparentGray;
+                border: none;
                 border-radius: .25rem;
                 padding: 16px 14px 15px;
                 margin: 0 0 1rem;

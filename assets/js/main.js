@@ -135,7 +135,7 @@
         $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=5', function (data) {
             // console.log(data);
             for (let i = 0; i < data.length; i++) {
-                $('#latest-posts').append('<a href="' + data[i].link + '" data-toggle="tooltip" data-placement="top" title="' + data[i].title.rendered + '">' + data[i].title.rendered + '</a>');
+                $('#latest-posts').append('<li><a href="' + data[i].link + '" data-toggle="tooltip" data-placement="top" title="' + data[i].title.rendered + '">' + data[i].title.rendered + '</a></li>');
             }
         });
 

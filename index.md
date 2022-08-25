@@ -25,7 +25,7 @@ Lo más seguro es que ni sepas como llegaste hasta aquí, pero eso no importa en
 
 <h2>Lo último</h2>
 
-<div id="latest-posts"></div>
+<ul id="latest-posts"></ul>
 
 [1]: http://www.chihuahuatucapital.org/
 [2]: https://github.com/{{ site.github_username }}

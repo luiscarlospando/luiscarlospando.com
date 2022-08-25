@@ -43,15 +43,26 @@
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) { 
     footer {
-    
         #lastfm {
             ul {
                 .nowplaying {
                     position: fixed;
                     right: 20px;
                     bottom: 50px;
+                    width: 200px;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1600px) { 
+    footer {
+        #lastfm {
+            ul {
+                .nowplaying {
                     width: 300px;
-                    z-index: -1;
                 }
             }
         }

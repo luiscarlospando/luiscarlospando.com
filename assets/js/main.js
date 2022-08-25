@@ -131,6 +131,12 @@
         });
 
         // WP REST API actions
+        // Retrieve latest posts via API and fetch link to show in homepage
+        $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=5', function (data) {
+            // console.log(data);
+            $('#latest-posts').append('<a href="' + data[0].link + '" data-toggle="tooltip" data-placement="top" title="' + data[0].title.rendered + '">' + data[0].title.rendered + '</a>');
+        });
+
         // Retrieve latest post via API and fetch link
         $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1', function (data) {
             // console.log(data);

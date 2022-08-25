@@ -48,9 +48,16 @@
                 .nowplaying {
                     position: fixed;
                     right: 20px;
-                    bottom: 50px;
+                    bottom: 4px;
                     width: 200px;
                     z-index: 1;
+                    -webkit-transition: all 0.3s ease 0s;
+                    -o-transition: all 0.3s ease 0s;
+                    transition: all 0.3s ease 0s;
+                }
+
+                .positionate-nowplaying {
+                    bottom: 50px;
                 }
             }
         }
@@ -124,8 +131,9 @@
         top: 0;
         left: 0;
         width: 100%;
-        transition: all 0.3s ease-in-out;
         -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         z-index: 3;
     }
 
@@ -220,8 +228,9 @@
         top: 0;
         left: 0;
         width: 100%;
-        transition: all 0.3s ease-in-out;
         -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         z-index: 3;
     }
 

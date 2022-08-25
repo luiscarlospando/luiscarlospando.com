@@ -45,10 +45,8 @@ a.alert-link {
     color: $linkColor;
     text-decoration: none;
     border-bottom-style: none;
-    -o-transition: all 0.3s ease 0s;
-    -ms-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
 
@@ -345,7 +343,7 @@ footer {
     right: 20px;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    -o-transition: opacity .3s 0s, visibility 0s .3s;
     transition: opacity .3s 0s, visibility 0s .3s;
 
     &:focus {
@@ -402,7 +400,7 @@ footer {
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    -o-transition: opacity .3s 0s, visibility 0s .3s;
     transition: opacity .3s 0s, visibility 0s .3s;
 }
   
@@ -410,7 +408,7 @@ footer {
 .cd-top.cd-fade-out,
 .no-touch .cd-top:hover {
     -webkit-transition: opacity .3s 0s, visibility 0s 0s;
-    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    -o-transition: opacity .3s 0s, visibility 0s 0s;
     transition: opacity .3s 0s, visibility 0s 0s;
 }
   

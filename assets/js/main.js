@@ -63,30 +63,30 @@
             }
         });
 
-        // Browser window scroll (in pixels) after which the "back to top" link is shown
-        const offset = 300,
-            // Browser window scroll (in pixels) after which the "back to top" link opacity is reduced
-            offset_opacity = 1200,
-            // Duration of the top scrolling animation (in ms)
-            scroll_top_duration = 700,
-            // Grab the "back to top" link
-            $back_to_top = $('.cd-top');
+        // Show or hide the "back to top" link and animate the "now playing" notification
+        $(function() {
+            // Object caching
+            const btnBackToTop = $('.cd-top');
 
-        // Hide or show the "back to top" link
-        $(window).scroll(function () {
-            ($(this).scrollTop() > offset) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
-            if ($(this).scrollTop() > offset_opacity) {
-                $back_to_top.addClass('cd-fade-out');
-            }
-        });
+            $(window).scroll(function() {
+                let scroll = $(window).scrollTop();
+        
+                if (scroll >= 300) {
+                    btnBackToTop.addClass("cd-is-visible");
+                    $('.nowplaying').addClass("positionate-nowplaying");
+                } else {
+                    btnBackToTop.removeClass("cd-is-visible");
+                    $('.nowplaying').removeClass("positionate-nowplaying");
+                }
+            });
 
-        // Smooth scroll to top
-        $back_to_top.on('click', function (event) {
-            event.preventDefault();
-            $('body,html').animate({
-                scrollTop: 0,
-            }, scroll_top_duration
-            );
+            // Smooth scroll to top
+            $('.cd-top').on('click', function (event) {
+                event.preventDefault();
+                $('body,html').animate({
+                    scrollTop: 0,
+                }, 700);
+            });
         });
 
         // Tooltips

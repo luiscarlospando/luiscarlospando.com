@@ -89,6 +89,15 @@
             });
         });
 
+        // Read more button
+        $('#collapseIntro').on('shown.bs.collapse', function () {
+            $('#btn-read-more').html('<i class="fa-solid fa-minus"></i> Leer menos');
+        });
+
+        $('#collapseIntro').on('hidden.bs.collapse', function () {
+            $('#btn-read-more.collapsed').html('<i class="fa-solid fa-plus"></i> Leer más');
+        });
+
         // Tooltips
         $('[data-toggle="tooltip"]').tooltip();
 

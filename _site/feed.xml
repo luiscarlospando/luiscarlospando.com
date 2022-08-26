@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-25T18:27:27-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LuisCarlosPando.com</title><subtitle>Punk dude first and foremost. Losing followers since 2007.</subtitle><author><name>Luis Carlos Pando</name></author><entry><title type="html">Now</title><link href="http://localhost:4000/now/2022/05/25/now.html" rel="alternate" type="text/html" title="Now" /><published>2022-05-25T09:00:00-06:00</published><updated>2022-05-25T09:00:00-06:00</updated><id>http://localhost:4000/now/2022/05/25/now</id><content type="html" xml:base="http://localhost:4000/now/2022/05/25/now.html">&lt;div class=&quot;card last-updated mt-3 text-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-26T16:43:48-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LuisCarlosPando.com</title><subtitle>Punk dude first and foremost. Losing followers since 2007.</subtitle><author><name>Luis Carlos Pando</name></author><entry><title type="html">Now</title><link href="http://localhost:4000/now/2022/07/26/now.html" rel="alternate" type="text/html" title="Now" /><published>2022-07-26T09:00:00-06:00</published><updated>2022-07-26T09:00:00-06:00</updated><id>http://localhost:4000/now/2022/07/26/now</id><content type="html" xml:base="http://localhost:4000/now/2022/07/26/now.html">&lt;div class=&quot;card last-updated mt-3 text-center&quot;&gt;
+  &lt;div class=&quot;card-body rounded&quot;&gt;
+    &lt;h4 id=&quot;ltima-actualizacin-26072022&quot;&gt;&lt;code&gt;Última actualización: 26/07/2022&lt;/code&gt;&lt;/h4&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.&lt;/p&gt;
+
+&lt;h2 id=&quot;vida-personal-&quot;&gt;Vida personal 👦🏻&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.instagram.com/primitivegirl&quot; target=&quot;_blank&quot;&gt;Marissa&lt;/a&gt; finalizó sus estudios en la &lt;a href=&quot;https://www.su.se/&quot; target=&quot;_blank&quot;&gt;Universidad de Estocolmo&lt;/a&gt; y por el momento se regresó a Chihuahua conmigo. La esposa terminó satisfactoriamente su maestría con calificaciones perfectas (qué orgullo 🥲) y ya se encuentra en búsqueda de trabajo para poder llevar los planes que tenemos a mediano y largo plazo. 👶🏻🍼&lt;/p&gt;
+
+&lt;h3 id=&quot;to-dos-&quot;&gt;To-dos 📝&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;🚶 Salir a caminar todos los días en la tarde ha sido un propósito que nos pusimos Marissa y yo a partir de que comenzó su dieta. Salir a caminar y a respirar aire fresco es mejor que no hacer nada &lt;em&gt;at all&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;💦 &lt;em&gt;Debo de procurar tomar más agua de la que ya tomo&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;🍺 Rompí mi racha de cero alcohol hace ya algunas semanas. Por lo general me echo unas cheves los fines, pero sigo luchando por bajar mi consumo&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;trabajo-&quot;&gt;Trabajo 💼&lt;/h2&gt;
+&lt;p&gt;Laboralmente hablando, ha sido un perido de transformación dentro de &lt;a href=&quot;https://mixen.mx/&quot; target=&quot;_blank&quot;&gt;mi trabajo&lt;/a&gt;, muchos cambios de personal y de estructura interna. Apenas estamos adaptándonos a los nuevos procesos internos pero todo va marchando bien. Eso sí, bastante carga de trabajo (por eso la falta de actualizaciones de mi parte), que espero pronto se calme para tener una carga de trabajo un poco más llevadera. El estrés del trabajo me afecta mucho en todos los sentidos.&lt;/p&gt;
+
+&lt;p&gt;Y ando queriendo aprender cosas nuevas y reforzar lo que ya sé. Personalmente ando muy entusiasmado con &lt;a href=&quot;https://www.youtube.com/watch?v=gVYrBdh7eG0&quot; target=&quot;_blank&quot;&gt;este curso de React&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Lo bueno es que los amigos saltan para hacer todo más llevadero, el cotorreo diario en el &lt;a href=&quot;/mode-7/&quot; target=&quot;_blank&quot;&gt;Discord de Mode 7&lt;/a&gt; es oro puro, nunca me voy a cansar de recomendar que se animen a unirse al servidor.&lt;/p&gt;
+
+&lt;h2 id=&quot;tech-&quot;&gt;Tech 💻&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://blog.luiscarlospando.com/mac/2022/07/por-fin/&quot;&gt;Ando estrenando un nuevo navegador en mi computadora&lt;/a&gt;, se llama Arc y es de una nueva startup llamada The Browser Company. Como &lt;em&gt;early adopter&lt;/em&gt;, puedo decir es que es el mejor navegador que he usado en mi vida Tardé un poco en acostumbrarme al layout con los tabs del lado izquierdo, pero una vez que le agarras siento que ya no hay vuelta atrás. Aparte también me sirve para trabajar, está basado en Chromium y tiene los mismos &lt;em&gt;developer tools&lt;/em&gt; que tiene Chrome. Solo está disponible de momento para Mac, pero en un futuro estará disponible para más plataformas 🙌&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://discord.com/channels/478777821087662092/478782407072546821/989287766506491955&quot; target=&quot;_blank&quot;&gt;Me compré un Nintendo Switch OLED&lt;/a&gt; 🥰&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;música-&quot;&gt;Música 🎶&lt;/h2&gt;
+&lt;p&gt;Me cambié de Spotify a Apple Music más que nada porque compré un Apple TV 4K y me convenía contratar la suscripción de Apple One la cual incluye Apple Music, aparte de que la calidad de audio es muy superior a la de Spotify aún en su paquete premium y pues ya usando la app en su totalidad, me gusta mucho más el UX y sobre todo el arte animado de algunos álbumes y que una gran parte de la librería cuenta con &lt;em&gt;lyrics&lt;/em&gt;. Eso sí, me dí un tiro para encontrar un buen cliente de Last.fm para Mac, pero acudí a &lt;a href=&quot;https://twitter.com/jason_tate/status/1536859320381411328&quot; target=&quot;_blank&quot;&gt;Jason Tate&lt;/a&gt; de &lt;a href=&quot;https://chorus.fm/&quot; target=&quot;_blank&quot;&gt;Chorus.fm&lt;/a&gt; y me terminó recomendando &lt;a href=&quot;https://www.neptunesmac.app/&quot; target=&quot;_blank&quot;&gt;Neptunes&lt;/a&gt;. Y por cierto, me di un tiro para replicar el &lt;em&gt;rich presence&lt;/em&gt; de Spotify en Discord ahora que estoy usando Apple Music. Pero se logró, gracias a &lt;a href=&quot;https://github.com/NextFire/apple-music-discord-rpc&quot; target=&quot;_blank&quot;&gt;este script&lt;/a&gt; que automatiza todo el proceso.&lt;/p&gt;
+
+&lt;p&gt;Musicalmente me siento algo estancado, escuchando casi, casi &lt;em&gt;non-stop&lt;/em&gt; rolitas que me gusta tocar en la guitarra. Pero pues va, esto es algo de lo que he estado escuchando estos días:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Los Saicos&lt;/li&gt;
+  &lt;li&gt;Generación Suicida&lt;/li&gt;
+  &lt;li&gt;The Black Dahlia Murder&lt;/li&gt;
+  &lt;li&gt;Power Trip&lt;/li&gt;
+  &lt;li&gt;Converge&lt;/li&gt;
+  &lt;li&gt;Cave In&lt;/li&gt;
+  &lt;li&gt;Molotov&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe allow=&quot;autoplay *; encrypted-media *; fullscreen *; clipboard-write&quot; frameborder=&quot;0&quot; height=&quot;450&quot; style=&quot;width:100%;max-width:1140px;overflow:hidden;background:transparent;&quot; sandbox=&quot;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&quot; src=&quot;https://embed.music.apple.com/mx/album/con-la-muerte-a-tu-lado/1590315831?l=en&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;podcasts-&quot;&gt;Podcasts 🎙&lt;/h2&gt;
+
+&lt;p&gt;Le bajé a mi consumo de podcasts, no he escuchado nada últimamente.&lt;/p&gt;
+
+&lt;h2 id=&quot;videojuegos-&quot;&gt;Videojuegos 🎮&lt;/h2&gt;
+&lt;p&gt;Estuve jugando:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Teenage Mutant Ninja Turtles: Shredder’s Revenge&lt;/em&gt;, que por cierto; qué grata sorpresa fue este juego. Por lo pronto ya ordené &lt;a href=&quot;https://limitedrungames.com/products/teenage-mutant-ninja-turtles-shredders-revenge-classic-edition-switch&quot; target=&quot;_blank&quot;&gt;la versión física de Limited Run Games&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Monster Hunter Rise&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Sonic Origins&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Triangle Strategy&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Y por supuesto: &lt;em&gt;Splatoon 2&lt;/em&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=gVYrBdh7eG0&quot; target=&quot;_blank&quot;&gt;esperando ansiosamente a que salga &lt;em&gt;Splatoon 3&lt;/em&gt;&lt;/a&gt; (faltando 44 días para que salga al momento de publicar esto)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Mi página “Now” está inspirada en la de &lt;a href=&quot;https://sive.rs/nowff&quot; target=&quot;_blank&quot;&gt;Derek Sivers&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>Luis Carlos Pando</name></author><category term="now" /><summary type="html">Última actualización: 26/07/2022</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Now</title><link href="http://localhost:4000/now/2022/05/25/now.html" rel="alternate" type="text/html" title="Now" /><published>2022-05-25T09:00:00-06:00</published><updated>2022-05-25T09:00:00-06:00</updated><id>http://localhost:4000/now/2022/05/25/now</id><content type="html" xml:base="http://localhost:4000/now/2022/05/25/now.html">&lt;div class=&quot;card last-updated mt-3 text-center&quot;&gt;
   &lt;div class=&quot;card-body rounded&quot;&gt;
     &lt;h4 id=&quot;ltima-actualizacin-25052022&quot;&gt;&lt;code&gt;Última actualización: 25/05/2022&lt;/code&gt;&lt;/h4&gt;
   &lt;/div&gt;

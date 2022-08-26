@@ -68,4 +68,4 @@ He estado jugando:
 
 ---
 
-*Mi página "Now" está inspirada en la de [Derek Sivers][1]{:target="_blank"}*
+*Mi página "Now" está inspirada en la de [Derek Sivers](https://sive.rs/nowff){:target="_blank"}*

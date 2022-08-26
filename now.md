@@ -69,18 +69,3 @@ He estado jugando:
 ---
 
 *Mi página "Now" está inspirada en la de [Derek Sivers][1]{:target="_blank"}*
-
-[1]: https://sive.rs/nowff
-[2]: https://www.instagram.com/primitivegirl
-[3]: https://www.su.se/
-[4]: /mode-7/
-[5]: https://blog.luiscarlospando.com/mac/2022/07/por-fin/
-[6]: https://discord.com/channels/478777821087662092/478782407072546821/989287766506491955
-[7]: https://mixen.mx/
-[8]: https://twitter.com/jason_tate/status/1536859320381411328
-[9]: https://chorus.fm/
-[10]: https://www.neptunesmac.app/
-[11]: https://github.com/NextFire/apple-music-discord-rpc
-[12]: https://limitedrungames.com/products/teenage-mutant-ninja-turtles-shredders-revenge-classic-edition-switch
-[13]: https://www.youtube.com/watch?v=gVYrBdh7eG0
-[14]: https://twitter.com/joshwcomeau/status/1487847419647832073?lang=en

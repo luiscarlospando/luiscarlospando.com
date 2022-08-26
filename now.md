@@ -4,7 +4,7 @@ title: Now
 description: Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.
 image: /assets/images/logo.png
 permalink: /now/
-modified-date: 26/07/2022
+modified-date: 26/08/2022
 ---
 
 <div class="card last-updated mt-3 text-center">
@@ -17,55 +17,54 @@ modified-date: 26/07/2022
 
 ## Vida personal 👦🏻
 
-[Marissa][2]{:target="_blank"} finalizó sus estudios en la [Universidad de Estocolmo][3]{:target="_blank"} y por el momento se regresó a Chihuahua conmigo. La esposa terminó satisfactoriamente su maestría con calificaciones perfectas (qué orgullo 🥲) y ya se encuentra en búsqueda de trabajo para poder llevar los planes que tenemos a mediano y largo plazo. 👶🏻🍼
+[La esposa](https://www.instagram.com/primitivegirl){:target="_blank"} estuvo en búsqueda de trabajo luego de regresar de Suecia y gracias a Dios ya está trabajando. Y en traducción, algo que ella realmente disfruta 🤗. Seguimos juntos aquí en Chihuahua, con planes de estabilizarnos un poco mejor para dar ya el siguiente paso. 👶🏻🍼
 
 ### To-dos 📝
 
-- 🚶 Salir a caminar todos los días en la tarde ha sido un propósito que nos pusimos Marissa y yo a partir de que comenzó su dieta. Salir a caminar y a respirar aire fresco es mejor que no hacer nada *at all*
+- 🚶 Hemos estado saliendo todos los días a caminar la esposa y yo al parque de por la casa, nos ha servido mucho para dejar de estar sedentarios, respirar aire fresco y mantenernos alegres.
 
 - 💦 *Debo de procurar tomar más agua de la que ya tomo*
 
-- 🍺 Rompí mi racha de cero alcohol hace ya algunas semanas. Por lo general me echo unas cheves los fines, pero sigo luchando por bajar mi consumo
+- 🩺 Traigo pendiente continuar mis sesiones con el psicólogo
 
 ## Trabajo 💼
-Laboralmente hablando, ha sido un perido de transformación dentro de [mi trabajo][7]{:target="_blank"}, muchos cambios de personal y de estructura interna. Apenas estamos adaptándonos a los nuevos procesos internos pero todo va marchando bien. Eso sí, bastante carga de trabajo (por eso la falta de actualizaciones de mi parte), que espero pronto se calme para tener una carga de trabajo un poco más llevadera. El estrés del trabajo me afecta mucho en todos los sentidos.
+[Mi trabajo](https://mixen.mx/){:target="_blank"} ha mejorado bastante respecto a metodologías internas de la empresa se refiere. Se nota un poco más el control con los clientes y aunque los cuellos de botella con la entrega de proyectos siguen existiendo, siento que la crisis ya no es tan fuerte como en meses anteriores.
 
-Y ando queriendo aprender cosas nuevas y reforzar lo que ya sé. Personalmente ando muy entusiasmado con [este curso de React][13]{:target="_blank"}.
-
-Lo bueno es que los amigos saltan para hacer todo más llevadero, el cotorreo diario en el [Discord de Mode 7][4]{:target="_blank"} es oro puro, nunca me voy a cansar de recomendar que se animen a unirse al servidor.
+Aún no he empezado el [curso de React](https://www.youtube.com/watch?v=gVYrBdh7eG0){:target="_blank"} que había mencionado en mi anterior "Now". Sigo pendiente con eso.
 
 ## Tech 💻
-- [Ando estrenando un nuevo navegador en mi computadora][5], se llama Arc y es de una nueva startup llamada The Browser Company. Como *early adopter*, puedo decir es que es el mejor navegador que he usado en mi vida Tardé un poco en acostumbrarme al layout con los tabs del lado izquierdo, pero una vez que le agarras siento que ya no hay vuelta atrás. Aparte también me sirve para trabajar, está basado en Chromium y tiene los mismos *developer tools* que tiene Chrome. Solo está disponible de momento para Mac, pero en un futuro estará disponible para más plataformas 🙌
+- Mude mi sitio a [Vercel](https://vercel.com/){:target="_blank"} 👌, ando haciendo deploy desde [este repo](https://github.com/luiscarlospando/luiscarlospando.com){:target="_blank"} que tengo en GitHub. Así que todo el código fuente de mi sitio es público. Aprovechando, le he hecho algunas mejoras al sitio en general, aprovechando que me he estado ensuciando las manos con código. 👨‍💻
 
-- [Me compré un Nintendo Switch OLED][6]{:target="_blank"} 🥰
+- Estoy muy feliz usando [Arc](https://thebrowser.company/){:target="_blank"} como mi nuevo navegador por defecto. Como todo al principio, batallé un poco en acostumbrarme en tener mis tabs abiertas en un sidebar pero ya siento que no podría regresar al layout tradicional de por ejemplo Chrome o Safari. También el poder tener separadas mis pestañas en un "space" personal y otro para el trabajo me hace de alguna manera más productivo. Quisiera poder escribir más al respecto en mi blog, para contar más a detalle mi experiencia con Arc. 🤌
+
+- Le ando echando ojitos a un [Studio Display](https://www.apple.com/mx/studio-display/){:target="_blank"} 👀, siento sería una compañia ideal para mi computadora y una mejora considerable para mi setup. Ya veremos, ya veremos.
 
 ## Música 🎶
-Me cambié de Spotify a Apple Music más que nada porque compré un Apple TV 4K y me convenía contratar la suscripción de Apple One la cual incluye Apple Music, aparte de que la calidad de audio es muy superior a la de Spotify aún en su paquete premium y pues ya usando la app en su totalidad, me gusta mucho más el UX y sobre todo el arte animado de algunos álbumes y que una gran parte de la librería cuenta con *lyrics*. Eso sí, me dí un tiro para encontrar un buen cliente de Last.fm para Mac, pero acudí a [Jason Tate][8]{:target="_blank"} de [Chorus.fm][9]{:target="_blank"} y me terminó recomendando [Neptunes][10]{:target="_blank"}. Y por cierto, me di un tiro para replicar el *rich presence* de Spotify en Discord ahora que estoy usando Apple Music. Pero se logró, gracias a [este script][11]{:target="_blank"} que automatiza todo el proceso.
+Ya estoy ahora sí ando full mode Apple Music y [este es mi perfil ahí](https://music.apple.com/profile/luiscarlospando){:target="_blank"} (*follow x follow* perros 😎). Esto es algo de lo que he estado escuchando:
 
-Musicalmente me siento algo estancado, escuchando casi, casi *non-stop* rolitas que me gusta tocar en la guitarra. Pero pues va, esto es algo de lo que he estado escuchando estos días:
-
+- Soccer Mommy
+- Tigers Jaw
+- Hatchie
+- Polyphia
+- Phoebe Bridgers
 - Los Saicos
 - Generación Suicida
-- The Black Dahlia Murder
-- Power Trip
-- Converge
-- Cave In
-- Molotov
+- At The Drive-In
 
-<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:1140px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/mx/album/con-la-muerte-a-tu-lado/1590315831?l=en"></iframe>
+<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:1140px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/mx/playlist/soccer-mommy-essentials/pl.bd88e4d03ea54b6187a3350f53ea4881?l=en"></iframe>
+
 
 ## Podcasts 🎙
 
-Le bajé a mi consumo de podcasts, no he escuchado nada últimamente.
+Me suscribí a dos podcasts nuevos:
+
+- [Mac Power Users](https://www.relay.fm/mpu){:target="_blank"}
+- [Connected](https://www.relay.fm/connected){:target="_blank"}
 
 ## Videojuegos 🎮
-Estuve jugando:
+He estado jugando:
 
-- *Teenage Mutant Ninja Turtles: Shredder's Revenge*, que por cierto; qué grata sorpresa fue este juego. Por lo pronto ya ordené [la versión física de Limited Run Games][12]{:target="_blank"}
-- *Monster Hunter Rise*
-- *Sonic Origins*
-- *Triangle Strategy*
-- Y por supuesto: *Splatoon 2*, [esperando ansiosamente a que salga *Splatoon 3*][13]{:target="_blank"} (faltando 44 días para que salga al momento de publicar esto)
+- *Splatoon 2*, y para cuando estoy escribiendo esto, mañana ya estaré jugando el [*Splatoon 3 Splatfest World Premiere*](https://www.nintendo.com/store/products/splatoon-3-splatfest-world-premiere-switch/){:target="_blank"} 😍 y obvio que ya tengo preordenado el juego.
 
 ---
 

@@ -56,7 +56,7 @@ sass:
 asset_pipeline:
   compress: true
 info:
-  production: false
+  production: true
 future: true
 
 # Exclude from processing.

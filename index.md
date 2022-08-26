@@ -21,7 +21,9 @@ Casi siempre me confundo y confundo a los demás en [Twitter][8] con sarcasmo y 
 Lo más seguro es que ni sepas como llegaste hasta aquí, pero eso no importa en realidad, agradecido estoy por tu visita.
 </div>
 
-<button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" href="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro"><i class="fa-solid fa-plus"></i> Leer más</button>
+<button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" href="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">
+    <i class="fa-solid fa-plus"></i> Leer más
+</button>
 
 ---
 

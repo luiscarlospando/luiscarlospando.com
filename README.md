@@ -2,7 +2,7 @@
 
 ![Logo LuisCarlosPando.com](https://luiscarlospando.com/assets/images/avatar.webp)
 
-Este es el código fuente de [LuisCarlosPando.com][1]. Mi sitio es completamente estático, es generado con [Jekyll][2] y hago `push` de mis cambios para hacer deploy en un droplet que tengo en [DigitalOcean][3] (este sitio no es servido desde GitHub Pages por motivos de SEO).
+Este es el código fuente de [LuisCarlosPando.com][1]. Mi sitio es completamente estático, es generado con [Jekyll][2] y hago `push` de mis cambios a este `repo` para hacer deploy en [Vercel][3].
 
 ## Instalación
 
@@ -29,7 +29,7 @@ Este es el código fuente de [LuisCarlosPando.com][1]. Mi sitio es completamente
 
 1. Navegar a [http://localhost:4000/][4]
 
-[1]: https://luiscarlospando.com
+[1]: https://luiscarlospando.com/
 [2]: http://jekyllrb.com/
-[3]: https://m.do.co/c/03bd95f889e7
+[3]: https://vercel.com/
 [4]: http://localhost:4000/

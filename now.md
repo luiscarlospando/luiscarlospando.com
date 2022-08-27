@@ -40,7 +40,7 @@ Aún no he empezado el [curso de React](https://www.youtube.com/watch?v=gVYrBdh7
 - Le ando echando ojitos a un [Studio Display](https://www.apple.com/mx/studio-display/){:target="_blank"} 👀, siento sería una compañia ideal para mi computadora y una mejora considerable para mi setup. Ya veremos, ya veremos.
 
 ## Música 🎶
-Ya estoy ahora sí ando full mode Apple Music y [este es mi perfil ahí](https://music.apple.com/profile/luiscarlospando){:target="_blank"} (*follow x follow* perros 😎). Esto es algo de lo que he estado escuchando:
+Ya ando ahora sí full Apple Music y [este es mi perfil ahí](https://music.apple.com/profile/luiscarlospando){:target="_blank"} (*follow x follow* perros 😎). Esto es algo de lo que he estado escuchando:
 
 - Soccer Mommy
 - Tigers Jaw

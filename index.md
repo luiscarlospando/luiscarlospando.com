@@ -31,7 +31,7 @@ Lo más seguro es que ni sepas como llegaste hasta aquí, pero eso no importa en
 
 <ul id="latest-posts"></ul>
 
-<a class="btn btn-primary" href="https://blog.{{ site.domain }}/">
+<a class="btn btn-primary" href="https://blog.{{ site.domain }}/author/me/">
     <i class="fa-solid fa-comment"></i> Ver todos
 </a>
 

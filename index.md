@@ -27,9 +27,13 @@ Lo más seguro es que ni sepas como llegaste hasta aquí, pero eso no importa en
 
 ---
 
-<h2>Lo último</h2>
+<h2>Últimos posts</h2>
 
 <ul id="latest-posts"></ul>
+
+<a class="btn btn-primary">
+    <i class="fa-solid fa-comment"></i> Ver todos
+</a>
 
 [1]: http://www.chihuahuatucapital.org/
 [2]: https://github.com/{{ site.github_username }}

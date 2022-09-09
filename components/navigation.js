@@ -243,7 +243,7 @@ var Navigation = function (_React$Component) {
                                     "a",
                                     { href: "/nintendo/splatoon/" },
                                     React.createElement("i", { "class": "fa-solid fa-gamepad" }),
-                                    " Splatoon 2"
+                                    " Splatoon 3"
                                 )
                             )
                         )

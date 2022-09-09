@@ -1,12 +1,25 @@
 ---
 layout: page
-title: Splatoon 2
-description: Juega Splatoon 2 con la banda de Mode 7.
+title: Splatoon
+description: Juega Splatoon 3 con la banda de Mode 7.
 image: /assets/images/banner-splatoon2.png
 permalink: /nintendo/splatoon/
-modified-date: 23/03/2022
+modified-date: 9/09/2022
 ---
 
+<div class="text-center">
+Estadísticas de Splatoon 3 próximamente...
+</div>
+
+---
+
+<div class="text-center">
+<button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" href="#collapseSplatoon2" role="button" aria-expanded="false" aria-controls="collapseSplatoon2">
+    <i class="fa-solid fa-gamepad"></i> Abrir mis estadísticas de Splatoon 2
+</button>
+</div>
+
+<div class="collapse" id="collapseSplatoon2">
 <div class="row">
 <div class="col-12">
 <div class="card text-center">
@@ -108,6 +121,7 @@ Para recibir mis notificaciones sobre *Splatoon 2* puedes [seguirme en Twitter][
 ## <i class="fa-brands fa-youtube"></i> Mis clips de Splatoon 2
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="100%" height="480" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL15FCirCIaHr5RAAE2JPCLAzDWs7D-mJG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 </div>
 
 [1]: https://discord.gg/NUSDKeJ

@@ -41,7 +41,7 @@ class Navigation extends React.Component {
                         <a href="/nintendo/"><i class="fa-solid fa-gamepad"></i> Nintendo</a>
                         <ul>
                             <li><a href="/nintendo/mario-kart/"><i class="fa-solid fa-gamepad"></i> Mario Kart 8 Deluxe (Mode 7 Grand Prix)</a></li>
-                            <li><a href="/nintendo/splatoon/"><i class="fa-solid fa-gamepad"></i> Splatoon 2</a></li>
+                            <li><a href="/nintendo/splatoon/"><i class="fa-solid fa-gamepad"></i> Splatoon 3</a></li>
                         </ul>
                     </li>
                     <li>

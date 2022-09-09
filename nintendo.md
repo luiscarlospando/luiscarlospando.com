@@ -4,7 +4,7 @@ title: Nintendo
 description: Aquí están mis códigos de Discord y Nintendo Switch. También lo que estoy jugando en este momento.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
-modified-date: 12/08/2022
+modified-date: 9/09/2022
 ---
 
 <div class="text-center">
@@ -34,8 +34,8 @@ Mode 7 Grand Prix todos los jueves @ 9:00 pm CUU / 10:00 pm CDMX<br>
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
-[*Splatoon 2*][3]<br>
-Partidas de *Splatoon 2*, días aleatorios por la noche<br>
+[*Splatoon 3*][3]<br>
+Partidas de *Splatoon 3*, días aleatorios por la noche<br>
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://discord.gg/NUSDKeJ" target="_blank">
@@ -46,8 +46,7 @@ Partidas de *Splatoon 2*, días aleatorios por la noche<br>
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
-*Sonic Origins*<br>
-*Triangle Strategy*
+*Teenage Mutant Ninja Turtles: The Cowabunga Collection*
 </div>
 <div class="col-6 my-auto text-monospace">
 (Offline)

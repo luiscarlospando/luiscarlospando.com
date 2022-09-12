@@ -23,7 +23,6 @@
     height: auto;
     
     #tweet {
-        // background-color: transparent;
         background-color: $cardBgColor;
         // border: 1px solid $transparentGray;
         border: none;
@@ -32,11 +31,25 @@
         height: auto;
         padding: 14px 0 11px;
         position: relative;
-        overflow: hidden;
+        // overflow: hidden;
 
         p {
             font-size: 11pt;
             margin: 0 1em;
+        }
+        
+        &::before {
+            content: "";
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 15px 15px 15px;
+            border-color: transparent transparent $cardBgColor  transparent;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: -15px;
         }
 
         &::after {

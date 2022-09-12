@@ -24,6 +24,23 @@
     #category {
         margin: 1.67em 0 -1.4rem;
     }
+
+    #last-tweet {
+        width: 100%;
+        height: auto;
+        
+        #tweet {
+            &::before {
+                border-width: 15px 15px 15px 0;
+                border-color: transparent $cardBgColor transparent transparent;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto 0;
+                left: -15px;
+            }
+        }
+    }
 }
 
 // Large devices (desktops, 992px and up)

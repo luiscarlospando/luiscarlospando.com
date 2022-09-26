@@ -31,7 +31,7 @@ modified-date: 11/09/2022
 ## <i class="fa-solid fa-gamepad"></i> Modos de juego
 
 - Turf War
-- Ranked Battle
+- Anarchy Battles
 - League Battle (organizamos matches en equipos en [Mode 7 (#splatoon)][1]{:target="_blank"})
 
 ## <i class="fa-solid fa-chart-column"></i> Mis estadísticas
@@ -55,7 +55,7 @@ modified-date: 11/09/2022
     - Promedio de muertes: <span id="turf-death_avg-3"></span>
     - Muertes por minuto: <span id="turf-death_per_min-3"></span>
 
-- Ranked Battle
+- Anarchy Battles
     - Batallas totales: <span id="ranked-battles-3"></span>
     - Porcentaje de ganar: <span id="ranked-win_pct-3"></span>%
     - Kill ratio: <span id="ranked-kill_ratio-3"></span>
@@ -70,8 +70,7 @@ modified-date: 11/09/2022
 
 - Únete a [Mode 7 (#splatoon)][1]{:target="_blank"} en Discord para recibir updates y notificaciones de todas las personas que jugamos
 - Jugamos generalmente por las noches, aproximadamente a las 9:00 pm hora de Chihuahua / 10:00 pm hora de CDMX
-- Llevo un registro de mis batallas y estadísticas personales en [mi perfil de stat.ink][7]{:target="_blank"}
-- Uso la app Nintendo Switch Online ([iOS][2]{:target="itunes_store"} &#124; [Android][3]{:target="_blank"}) para mandar invitaciones a salas de juego
+- Llevo un registro y estadísticas personales en [mi perfil de stat.ink][7]{:target="_blank"}
 - Puedes revisar todos mis posts sobre *Splatoon 3* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/splatoon-3/">#Splatoon3</a>
 
 </div>

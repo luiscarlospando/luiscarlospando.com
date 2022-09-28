@@ -43,7 +43,7 @@ permalink: /mode-7/
 
 En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7:
 - [*Mario Kart 8 Deluxe*][4]
-- [*Splatoon 2*][2]
+- [*Splatoon 3*][2]
 
 Pero obvio a nuestra comunidad le interesan muchos más juegos que estos. Entra a Mode 7 y haz amigos con tus mismos intereses.
 </div>

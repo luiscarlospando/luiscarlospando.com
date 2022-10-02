@@ -4,7 +4,7 @@ title: Now
 description: Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.
 image: /assets/images/logo.png
 permalink: /now/
-modified-date: 26/08/2022
+modified-date: 1/10/2022
 ---
 
 <div class="card last-updated mt-3 text-center">
@@ -17,54 +17,54 @@ modified-date: 26/08/2022
 
 ## Vida personal 👦🏻
 
-[La esposa](https://www.instagram.com/primitivegirl){:target="_blank"} estuvo en búsqueda de trabajo luego de regresar de Suecia y gracias a Dios ya está trabajando. Y en traducción, algo que ella realmente disfruta 🤗. Seguimos juntos aquí en Chihuahua, con planes de estabilizarnos un poco mejor para dar ya el siguiente paso. 👶🏻🍼
+No mucho que contar realmente. Seguimos [Marissa](https://instragram.com/primitivegirl){:target="_blank"} y yo, todo fine. Preparándonos porque ya casi nos vamos de viaje. ✈️
 
 ### To-dos 📝
 
-- 🚶 Hemos estado saliendo todos los días a caminar la esposa y yo al parque de por la casa, nos ha servido mucho para dejar de estar sedentarios, respirar aire fresco y mantenernos alegres.
+- 🚶 Seguimos saliendo a caminar Marissa y yo todos los días por las tardes.
 
-- 💦 *Debo de procurar tomar más agua de la que ya tomo*
+- 💦 *Debo de procurar tomar más agua de la que ya tomo.*
 
-- 🩺 Traigo pendiente continuar mis sesiones con el psicólogo
+- 🧳 Ya haciendo los preparativos para nuestras vacaciones.
 
 ## Trabajo 💼
-[Mi trabajo](https://mixen.mx/){:target="_blank"} ha mejorado bastante respecto a metodologías internas de la empresa se refiere. Se nota un poco más el control con los clientes y aunque los cuellos de botella con la entrega de proyectos siguen existiendo, siento que la crisis ya no es tan fuerte como en meses anteriores.
 
 Aún no he empezado el [curso de React](https://www.youtube.com/watch?v=gVYrBdh7eG0){:target="_blank"} que había mencionado en mi anterior "Now". Sigo pendiente con eso.
 
 ## Tech 💻
-- Mude mi sitio a [Vercel](https://vercel.com/){:target="_blank"} 👌, ando haciendo deploy desde [este repo](https://github.com/luiscarlospando/luiscarlospando.com){:target="_blank"} que tengo en GitHub. Así que todo el código fuente de mi sitio es público. Aprovechando, le he hecho algunas mejoras al sitio en general, aprovechando que me he estado ensuciando las manos con código. 👨‍💻
+- Actualicé mi teléfono a iOS 16, la verdad es que todo muy bien, en especial soy fan de ahora le puedes asignar un lockscreen/homescreen a cada focus mode. De esa manera tengo diferentes modos en mi teléfono para diferentes situaciones. Y combinado con Apple Shortcuts todo es mágico. 📱
 
-- Estoy muy feliz usando [Arc](https://thebrowser.company/){:target="_blank"} como mi nuevo navegador por defecto. Como todo al principio, batallé un poco en acostumbrarme en tener mis tabs abiertas en un sidebar pero ya siento que no podría regresar al layout tradicional de por ejemplo Chrome o Safari. También el poder tener separadas mis pestañas en un "space" personal y otro para el trabajo me hace de alguna manera más productivo. Quisiera poder escribir más al respecto en mi blog, para contar más a detalle mi experiencia con Arc. 🤌
+- Y ahora a esperar a que salga macOS Ventura para actualizar mi computadora. Ya sale este mes.
 
-- Le ando echando ojitos a un [Studio Display](https://www.apple.com/mx/studio-display/){:target="_blank"} 👀, siento sería una compañia ideal para mi computadora y una mejora considerable para mi setup. Ya veremos, ya veremos.
+- Compré Parcel para rastrear mis compras en línea. Definitivamente la mejor app que he usado para ello. Y luego está para macOS y iOS (y también soporta widgets para el lockscreen). 🤌
 
 ## Música 🎶
-Ya ando ahora sí full Apple Music y [este es mi perfil ahí](https://music.apple.com/profile/luiscarlospando){:target="_blank"} (*follow x follow* perros 😎). Esto es algo de lo que he estado escuchando:
+Sigo usando Apple Music para consumir música en streaming, [este es mi perfil ahí](https://music.apple.com/profile/luiscarlospando){:target="_blank"} por si quieres seguirme. Esto es algo de lo que he estado escuchando últimamente:
 
-- Soccer Mommy
-- Tigers Jaw
-- Hatchie
-- Polyphia
-- Phoebe Bridgers
-- Los Saicos
-- Generación Suicida
-- At The Drive-In
+- Deafheaven
+- Counterparts
+- SeeYouSpaceCowboy
+- Every Time I Die
+- Basement
+- Cave In
+- L.S. Dunes
+- Y un poco de Britney Spears /Taylor Swift/Pop Dosmilero con la esposa 💅
 
-<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:1140px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/mx/playlist/soccer-mommy-essentials/pl.bd88e4d03ea54b6187a3350f53ea4881?l=en"></iframe>
-
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:1140px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/mx/album/the-romance-of-affliction/1585880278?l=en"></iframe>
 
 ## Podcasts 🎙
 
-Me suscribí a dos podcasts nuevos:
-
-- [Mac Power Users](https://www.relay.fm/mpu){:target="_blank"}
-- [Connected](https://www.relay.fm/connected){:target="_blank"}
+No me he suscrito a nada nuevo.
 
 ## Videojuegos 🎮
+
 He estado jugando:
 
-- *Splatoon 2*, y para cuando estoy escribiendo esto, mañana ya estaré jugando el [*Splatoon 3 Splatfest World Premiere*](https://www.nintendo.com/store/products/splatoon-3-splatfest-world-premiere-switch/){:target="_blank"} 😍 y obvio que ya tengo preordenado el juego.
+- *Splatoon 3* sin parar, tanto que se la pasan sacándome la garra en [Mode 7](https://discord.gg/N2m8gKw){:target="_blank"} 🥲. [Pronto estaré actualizando mi sitio](https:/luiscarlospando.com/nintendo/splatoon/) para desplegar mis estadísticas del juego aquí mismo.
+
+Y sobre el juego, me mama. Todo es perfecto y los combates siguen siendo igual de frenéticos. 😎
+
+[¿Jugamos juntos?](https:/luiscarlospando.com/nintendo/), andamos juntándonos a jugar por las noches (como desde el jueves).
 
 ---
 

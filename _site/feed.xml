@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-15T19:59:57-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LuisCarlosPando.com</title><subtitle>Punk dude first and foremost. Losing followers since 2007.</subtitle><author><name>Luis Carlos Pando</name></author><entry><title type="html">Now</title><link href="http://localhost:4000/now/2022/07/26/now.html" rel="alternate" type="text/html" title="Now" /><published>2022-07-26T09:00:00-06:00</published><updated>2022-07-26T09:00:00-06:00</updated><id>http://localhost:4000/now/2022/07/26/now</id><content type="html" xml:base="http://localhost:4000/now/2022/07/26/now.html">&lt;div class=&quot;card last-updated mt-3 text-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-01T19:33:05-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LuisCarlosPando.com</title><subtitle>Punk dude first and foremost. Losing followers since 2007.</subtitle><author><name>Luis Carlos Pando</name></author><entry><title type="html">Now</title><link href="http://localhost:4000/now/2022/08/26/now.html" rel="alternate" type="text/html" title="Now" /><published>2022-08-26T09:00:00-06:00</published><updated>2022-08-26T09:00:00-06:00</updated><id>http://localhost:4000/now/2022/08/26/now</id><content type="html" xml:base="http://localhost:4000/now/2022/08/26/now.html">&lt;div class=&quot;card last-updated mt-3 text-center&quot;&gt;
+  &lt;div class=&quot;card-body rounded&quot;&gt;
+    &lt;h4 id=&quot;ltima-actualizacin-26082022&quot;&gt;&lt;code&gt;Última actualización: 26/08/2022&lt;/code&gt;&lt;/h4&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.&lt;/p&gt;
+
+&lt;h2 id=&quot;vida-personal-&quot;&gt;Vida personal 👦🏻&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.instagram.com/primitivegirl&quot; target=&quot;_blank&quot;&gt;La esposa&lt;/a&gt; estuvo en búsqueda de trabajo luego de regresar de Suecia y gracias a Dios ya está trabajando. Y en traducción, algo que ella realmente disfruta 🤗. Seguimos juntos aquí en Chihuahua, con planes de estabilizarnos un poco mejor para dar ya el siguiente paso. 👶🏻🍼&lt;/p&gt;
+
+&lt;h3 id=&quot;to-dos-&quot;&gt;To-dos 📝&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;🚶 Hemos estado saliendo todos los días a caminar la esposa y yo al parque de por la casa, nos ha servido mucho para dejar de estar sedentarios, respirar aire fresco y mantenernos alegres.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;💦 &lt;em&gt;Debo de procurar tomar más agua de la que ya tomo&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;🩺 Traigo pendiente continuar mis sesiones con el psicólogo&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;trabajo-&quot;&gt;Trabajo 💼&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://mixen.mx/&quot; target=&quot;_blank&quot;&gt;Mi trabajo&lt;/a&gt; ha mejorado bastante respecto a metodologías internas de la empresa se refiere. Se nota un poco más el control con los clientes y aunque los cuellos de botella con la entrega de proyectos siguen existiendo, siento que la crisis ya no es tan fuerte como en meses anteriores.&lt;/p&gt;
+
+&lt;p&gt;Aún no he empezado el &lt;a href=&quot;https://www.youtube.com/watch?v=gVYrBdh7eG0&quot; target=&quot;_blank&quot;&gt;curso de React&lt;/a&gt; que había mencionado en mi anterior “Now”. Sigo pendiente con eso.&lt;/p&gt;
+
+&lt;h2 id=&quot;tech-&quot;&gt;Tech 💻&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mude mi sitio a &lt;a href=&quot;https://vercel.com/&quot; target=&quot;_blank&quot;&gt;Vercel&lt;/a&gt; 👌, ando haciendo deploy desde &lt;a href=&quot;https://github.com/luiscarlospando/luiscarlospando.com&quot; target=&quot;_blank&quot;&gt;este repo&lt;/a&gt; que tengo en GitHub. Así que todo el código fuente de mi sitio es público. Aprovechando, le he hecho algunas mejoras al sitio en general, aprovechando que me he estado ensuciando las manos con código. 👨‍💻&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Estoy muy feliz usando &lt;a href=&quot;https://thebrowser.company/&quot; target=&quot;_blank&quot;&gt;Arc&lt;/a&gt; como mi nuevo navegador por defecto. Como todo al principio, batallé un poco en acostumbrarme en tener mis tabs abiertas en un sidebar pero ya siento que no podría regresar al layout tradicional de por ejemplo Chrome o Safari. También el poder tener separadas mis pestañas en un “space” personal y otro para el trabajo me hace de alguna manera más productivo. Quisiera poder escribir más al respecto en mi blog, para contar más a detalle mi experiencia con Arc. 🤌&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Le ando echando ojitos a un &lt;a href=&quot;https://www.apple.com/mx/studio-display/&quot; target=&quot;_blank&quot;&gt;Studio Display&lt;/a&gt; 👀, siento sería una compañia ideal para mi computadora y una mejora considerable para mi setup. Ya veremos, ya veremos.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;música-&quot;&gt;Música 🎶&lt;/h2&gt;
+&lt;p&gt;Ya ando ahora sí full Apple Music y &lt;a href=&quot;https://music.apple.com/profile/luiscarlospando&quot; target=&quot;_blank&quot;&gt;este es mi perfil ahí&lt;/a&gt; (&lt;em&gt;follow x follow&lt;/em&gt; perros 😎). Esto es algo de lo que he estado escuchando:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Soccer Mommy&lt;/li&gt;
+  &lt;li&gt;Tigers Jaw&lt;/li&gt;
+  &lt;li&gt;Hatchie&lt;/li&gt;
+  &lt;li&gt;Polyphia&lt;/li&gt;
+  &lt;li&gt;Phoebe Bridgers&lt;/li&gt;
+  &lt;li&gt;Los Saicos&lt;/li&gt;
+  &lt;li&gt;Generación Suicida&lt;/li&gt;
+  &lt;li&gt;At The Drive-In&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe allow=&quot;autoplay *; encrypted-media *;&quot; frameborder=&quot;0&quot; height=&quot;450&quot; style=&quot;width:100%;max-width:1140px;overflow:hidden;background:transparent;&quot; sandbox=&quot;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&quot; src=&quot;https://embed.music.apple.com/mx/playlist/soccer-mommy-essentials/pl.bd88e4d03ea54b6187a3350f53ea4881?l=en&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;podcasts-&quot;&gt;Podcasts 🎙&lt;/h2&gt;
+
+&lt;p&gt;Me suscribí a dos podcasts nuevos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.relay.fm/mpu&quot; target=&quot;_blank&quot;&gt;Mac Power Users&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.relay.fm/connected&quot; target=&quot;_blank&quot;&gt;Connected&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;videojuegos-&quot;&gt;Videojuegos 🎮&lt;/h2&gt;
+&lt;p&gt;He estado jugando:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Splatoon 2&lt;/em&gt;, y para cuando estoy escribiendo esto, mañana ya estaré jugando el &lt;a href=&quot;https://www.nintendo.com/store/products/splatoon-3-splatfest-world-premiere-switch/&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Splatoon 3 Splatfest World Premiere&lt;/em&gt;&lt;/a&gt; 😍 y obvio que ya tengo preordenado el juego.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Mi página “Now” está inspirada en la de &lt;a href=&quot;https://sive.rs/nowff&quot; target=&quot;_blank&quot;&gt;Derek Sivers&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>Luis Carlos Pando</name></author><category term="now" /><summary type="html">Última actualización: 26/08/2022</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Now</title><link href="http://localhost:4000/now/2022/07/26/now.html" rel="alternate" type="text/html" title="Now" /><published>2022-07-26T09:00:00-06:00</published><updated>2022-07-26T09:00:00-06:00</updated><id>http://localhost:4000/now/2022/07/26/now</id><content type="html" xml:base="http://localhost:4000/now/2022/07/26/now.html">&lt;div class=&quot;card last-updated mt-3 text-center&quot;&gt;
   &lt;div class=&quot;card-body rounded&quot;&gt;
     &lt;h4 id=&quot;ltima-actualizacin-26072022&quot;&gt;&lt;code&gt;Última actualización: 26/07/2022&lt;/code&gt;&lt;/h4&gt;
   &lt;/div&gt;

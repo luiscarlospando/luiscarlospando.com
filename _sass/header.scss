@@ -24,7 +24,7 @@
     
     #tweet {
         background-color: $cardBgColor;
-        // border: 1px solid $transparentGray;
+        border: 1px solid $componentBorderColor !important;
         border: none;
         border-radius: .25rem;
         width: 100%;
@@ -44,7 +44,7 @@
             height: 0;
             border-style: solid;
             border-width: 0 15px 15px 15px;
-            border-color: transparent transparent $cardBgColor  transparent;
+            border-color: transparent transparent $cardBgColor transparent;
             position: absolute;
             left: 0;
             right: 0;

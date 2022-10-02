@@ -14,10 +14,11 @@ $hoverColor: hsl(275, 99%, 43%);
 $underlineColor: hsl(33, 100%, 50%);
 
 $transparentGray: hsla(0, 0%, 100%, 0.169);
+$componentBorderColor: hsl(210deg, 30%, 12%);
 
-$btnBgColor: hsl(210deg, 50%, 9%);
+$btnBgColor: linear-gradient(180deg, #896EFD 0%, #6B4AFC 100%);
 $btnBorderTextColor: hsl(210deg, 30%, 12%);
-$btnBgHoverColor: hsl(275, 99%, 43%);
+$btnBgHoverColor: linear-gradient(180deg, #6B4AFC 0%, #563BCA 100%);
 $btnBorderHoverColor: hsl(210deg, 30%, 12%);
 
 $cardHeaderBgColor: hsl(0, 0%, 7%);

@@ -45,9 +45,7 @@ a.alert-link {
     color: $linkColor;
     text-decoration: none;
     border-bottom-style: none;
-    -webkit-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
+    @include transition;
 }
 
 a {
@@ -190,7 +188,7 @@ footer {
 .card {
     background-color: $cardBgColor;
     border: none;
-    // border: 1px solid $cardBorderColor;
+    border: 1px solid $cardBorderColor;
 
     h1,
     h2,
@@ -212,21 +210,12 @@ footer {
     }
 
     .btn-primary  {
-        background-color: $btnCardBgColor;
         color: $mainColor !important;
-
-        &:hover,
-        &:focus {
-            background-color: $btnCardBgHoverColor;
-            border-color: $btnCardBorderHoverColor;
-            border-bottom: 1px solid $btnCardBorderHoverColor !important;
-            color: $mainColor !important;
-        }
     }
 
     .card-header {
         background-color: $cardHeaderBgColor;
-        border-bottom: 1px solid $cardBorderColor;
+        border-bottom: none;
     }
 
     .card-body {
@@ -235,7 +224,7 @@ footer {
 
     .card-footer {
         background-color: $cardFooterBgColor;
-        border-top: 1px solid $cardBorderColor;
+        border-top: none;
     }
 
     .input-group {
@@ -457,21 +446,23 @@ a.btn {
 }
 
 .btn-primary {
-    background-color: $btnBgColor;
-    border-color: $btnBorderTextColor;
-    border-bottom: 1px solid $btnBorderTextColor !important;
+    background: $btnBgColor;
+    border: none;
+    border-bottom: none;
     color: $mainColor !important;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    @include transition;
 
     &:active,
     &:hover,
     &:focus {
-        background-color: $btnBgHoverColor;
-        border-color: $btnBorderHoverColor;
-        border-bottom: 1px solid $btnBorderHoverColor !important;
+        background: $btnBgHoverColor;
+        border: none;
         color: $mainColor !important;
     }
 }
 
+/*
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
@@ -479,6 +470,7 @@ a.btn {
     background-color: $btnBgHoverColor;
     border-color: $btnBorderHoverColor;
 }
+*/
 
 .btn-sm,
 .btn-group-sm > .btn {

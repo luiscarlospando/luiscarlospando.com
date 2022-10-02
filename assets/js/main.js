@@ -90,7 +90,7 @@
         });
 
         // Read more button
-        $('#collapseIntro').on('shown.bs.collapse', function () {
+        $('#collapseIntro').on('show.bs.collapse', function () {
             $('#btn-read-more').html('<i class="fa-solid fa-minus"></i> Leer menos');
         });
 

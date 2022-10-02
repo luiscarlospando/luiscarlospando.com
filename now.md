@@ -36,7 +36,7 @@ Aún no he empezado el [curso de React](https://www.youtube.com/watch?v=gVYrBdh7
 
 - Y ahora a esperar a que salga macOS Ventura para actualizar mi computadora. Ya sale este mes.
 
-- Compré Parcel para rastrear mis compras en línea. Definitivamente la mejor app que he usado para ello. Y luego está para macOS y iOS (y también soporta widgets para el lockscreen). 🤌
+- Compré [Parcel](https://parcel.app/){:target="_blank"} para rastrear mis compras en línea. Definitivamente la mejor app que he usado para ello. Y luego está para macOS y iOS (y también soporta widgets para el lockscreen). 🤌
 
 ## Música 🎶
 Sigo usando Apple Music para consumir música en streaming, [este es mi perfil ahí](https://music.apple.com/profile/luiscarlospando){:target="_blank"} por si quieres seguirme. Esto es algo de lo que he estado escuchando últimamente:

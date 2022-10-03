@@ -4,12 +4,12 @@ title: Now
 description: Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.
 image: /assets/images/logo.png
 permalink: /now/
-modified-date: 1/10/2022
+modified-date: 3 de octubre, 2022
 ---
 
 <div class="card last-updated mt-3 text-center">
 <div class="card-body rounded">
-#### <code>Última actualización: {{ page.modified-date }}</code>
+#### <code>Última actualización:</code> [{{ page.modified-date }}](https://github.com/luiscarlospando/luiscarlospando.com/commits/master/now.md) desde Chihuahua, México
 </div>
 </div>
 

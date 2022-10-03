@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Development Stuff
-description: Ponte en contacto conmigo usando cualquiera de los siguientes métodos.
+description: Estos son mis perfiles de desarrollo. 👨‍💻
 image: /assets/images/logo.png
 permalink: /developer/
 ---
 
-<p class="text-center">Estos son mis perfiles de desarrollo. 👨‍💻</p>
+<p class="text-center">{{ page.description }}</p>
 
 ## <i class="fa-brands fa-github"></i> GitHub
 <a class="github-button" href="https://github.com/{{ site.github_username }}" aria-label="Follow @{{ site.github_username }} on GitHub">Follow @{{ site.github_username }}</a>

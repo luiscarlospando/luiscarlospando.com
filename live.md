@@ -1,7 +1,7 @@
 ---
 layout: livestreams
 title: Live
-description: Stream en vivo.
+description: Mis streams en vivo.
 image: /assets/images/live.jpg
 permalink: /live/
 ---

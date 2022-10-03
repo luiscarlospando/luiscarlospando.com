@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Contacto
-description: Ponte en contacto conmigo usando cualquiera de los siguientes métodos.
+description: Gracias por tu interés en ponerte en contacto conmigo. 🥰
 image: /assets/images/logo.png
 permalink: /contacto/
 ---
 
-<p class="text-center">Gracias por tu interés en ponerte en contacto conmigo. 🥰</p>
+<p class="text-center">{{ page.description }}</p>
 
 ## <i class="fa-solid fa-envelope"></i> Email
 Mi correo electrónico es [{{ site.email }}][1].

@@ -13,7 +13,7 @@ modified-date: 3 de octubre, 2022
 </div>
 </div>
 
-<p class="text-center">Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.</p>
+<p class="text-center">{{ page.description }}</p>
 
 ## Vida personal 👦🏻
 

@@ -6,6 +6,8 @@
     width: 96px;
     height: 96px;
     margin: 0 auto;
+    position: relative;
+    z-index: 2;
 
     a {
         width: 100%;
@@ -16,6 +18,37 @@
     span {
         display: none;
     }
+
+    &:hover + #logo-blur,
+    &:focus + #logo-blur {
+        -webkit-filter: blur(20px);
+            filter: blur(20px);
+        -webkit-transform: scale(1) rotate(0deg);
+            -ms-transform: scale(1) rotate(0deg);
+                transform: scale(1) rotate(0deg);
+    }
+}
+
+#logo-blur {
+    background-color: $transparentGray;
+    border-radius: 50%;
+    border: 1px solid $transparentGray;
+    width: 96px;
+    height: 96px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 11px;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    -webkit-transition : -webkit-filter 250ms linear;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+        -webkit-transform: scale(1) rotate(0deg);
+            -ms-transform: scale(1) rotate(0deg);
+                transform: scale(1) rotate(0deg);
 }
 
 #last-tweet {

@@ -536,5 +536,9 @@ progress::-moz-progress-bar {
 }
 
 #profile-picture {
-    text-align: center;
+    width: 100%;
+
+    img {
+        border-radius: 15px;
+    }
 }

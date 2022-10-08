@@ -4,7 +4,7 @@ title: Mis apps favoritas
 description: Aquí está una lista de apps que uso diariamente. Comparto esta lista con el fin de que si alguna es de tu interés, la pruebes por ti mismo. ¿Te gustaría compartirme algo tú?
 image: /assets/images/logo.png
 permalink: /apps/
-modified-date: 28/08/2022
+modified-date: 7/10/2022
 ---
 
 <div class="card last-updated mt-3 text-center">

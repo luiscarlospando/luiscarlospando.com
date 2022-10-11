@@ -185,9 +185,9 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "/apps/" },
-                            React.createElement("i", { "class": "fa-solid fa-heart" }),
-                            " Mis apps favoritas"
+                            { href: "/tools/" },
+                            React.createElement("i", { "class": "fa-solid fa-wrench" }),
+                            " Tools"
                         )
                     ),
                     React.createElement(

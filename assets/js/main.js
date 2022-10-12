@@ -42,7 +42,7 @@
         const footer = document.querySelector('footer');
 
         setTimeout(function () {
-            header.classList.add('animated', 'fadeInUp');
+            header.classList.add('animated', 'fadeInDown');
         }, 800);
         siteBody.classList.add('animated', 'fadeIn');
         footer.classList.add('animated', 'fadeIn');

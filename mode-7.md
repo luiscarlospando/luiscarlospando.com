@@ -51,7 +51,7 @@ Pero obvio a nuestra comunidad le interesan muchos más juegos que estos. Entra 
 <iframe src="https://ptb.discord.com/widget?id=478777821087662092&theme=dark" width="100%" height="380" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 <a class="btn btn-primary d-block" href="{{ site.mode7_discord }}" target="_blank">
-Abrir Mode 7 en Discord <i class="fa-solid fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i>
+<i class="fa-solid fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i> Abrir Mode 7 en Discord
 </a>
 </div>
 </div>

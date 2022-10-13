@@ -151,26 +151,6 @@
         }
     }
 
-    .nav-container {
-        background: transparent;
-        display: block;
-        height: 50px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        -webkit-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        z-index: 3;
-    }
-
-    .scrolled-position {
-        -webkit-backdrop-filter: saturate(180%) blur(5px);
-        backdrop-filter: saturate(180%) blur(5px);
-        background-color: rgba(0,0,0,0.7) !important;
-    }
-
     .desk-button {
         display: none !important;
     }
@@ -246,26 +226,6 @@
             position: relative;
             margin: 10px 20px 6px 10px;
         }
-    }
-
-    .nav-container {
-        background: transparent;
-        display: block;
-        height: 50px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        -webkit-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        z-index: 3;
-    }
-
-    .scrolled-position {
-        -webkit-backdrop-filter: saturate(180%) blur(5px);
-        backdrop-filter: saturate(180%) blur(5px);
-        background-color: rgba(0,0,0,0.7) !important;
     }
 
     .desk-button {

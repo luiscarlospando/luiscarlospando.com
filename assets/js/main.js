@@ -56,7 +56,7 @@
 
         $(window).scroll(function () {
             let scroll = $(window).scrollTop();
-            if (scroll >= 1) {
+            if (scroll >= 20) {
                 $(".nav-container").addClass("scrolled-position");
             } else if (scroll <= 0) {
                 $(".nav-container").removeClass("scrolled-position");

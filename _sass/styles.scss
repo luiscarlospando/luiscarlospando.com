@@ -1,3 +1,5 @@
+@import 'mixins.scss';
+
 *,
 *:after,
 *:before {
@@ -90,7 +92,6 @@ ul {
 
 hr,
 .wp-block-separator {
-    // border-top: 1px solid $transparentGray;
     border-top: none;
     border-bottom: none;
     background: linear-gradient(to right, rgba(39, 60, 90, 0.1) 0, rgba(39, 60, 90, 0.6) 50%, rgba(39, 60, 90, 0.1) 100%);
@@ -321,21 +322,55 @@ footer {
 .nav-container {
     background: transparent;
     display: block;
-    height: 50px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    height: auto;
+    padding: 12px 15px 8px;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     z-index: 3;
+
+    #burger-btn {
+        display: block;
+        width: 40px;
+        height: 36px;
+        margin: 0;
+        z-index: 2;
+
+        span,
+        &::before,
+        &::after {
+            background-color: $secondaryColor;
+            content: "";
+            display: block;
+            margin: 6px 0;
+            position: relative;
+            width: 30px;
+            height: 6px;
+        }
+
+        &::before {
+            margin-top: 0;
+        }
+    }
 }
 
 .scrolled-position {
-    -webkit-backdrop-filter: saturate(50%) blur(3px);
-    backdrop-filter: saturate(50%) blur(3px);
+    @include backdrop-filter(50%, 4px);
     background-color: rgba(13, 14, 51, 0.7) !important;
+    
+    &::after {
+        background: linear-gradient(to right, rgba(39, 60, 90, 0.1) 0, rgba(39, 60, 90, 0.6) 50%, rgba(39, 60, 90, 0.1) 100%);
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: '';
+    }
 }
 
 .embed-responsive {
@@ -356,51 +391,18 @@ footer {
     }
 }
 
-.burger {
-    a {
-        display: block;
-        width: 40px;
-        height: 36px;
-        margin: 20px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 2;
-    }
-
-    #burger-btn {
-        span,
-        &::before,
-        &::after {
-            background-color: $secondaryColor;
-            content: "";
-            display: block;
-            height: 6px;
-            left: 5px;
-            margin: 6px 0;
-            position: relative;
-            width: 30px;
-        }
-
-        &::before {
-            margin-top: 0;
-        }
-    }
-}
-
  .cd-top {
     display: inline-block;
     height: 40px;
     width: 40px;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 12px;
+    right: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    -webkit-backdrop-filter: saturate(180%) blur(5px);
-    backdrop-filter: saturate(180%) blur(5px);
+    @include backdrop-filter(50%, 4px);
     background: rgba(0,0,0,0.7) url('../images/cd-top-arrow.svg') no-repeat center 50% !important;
     visibility: hidden;
     opacity: 0;

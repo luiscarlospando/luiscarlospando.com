@@ -328,29 +328,16 @@ footer {
     width: 100%;
     height: auto;
     padding: 12px 15px 8px;
+    font-size: 2rem;
+    line-height: 0;
     @include transition;
 
     #burger-btn {
-        display: block;
-        width: 40px;
-        height: 36px;
-        margin: 0;
-        z-index: 2;
+        color: $mainColor;
 
-        span,
-        &::before,
-        &::after {
-            background-color: $secondaryColor;
-            content: "";
-            display: block;
-            margin: 6px 0;
-            position: relative;
-            width: 30px;
-            height: 6px;
-        }
-
-        &::before {
-            margin-top: 0;
+        &:hover,
+        &:focus {
+            color: $sixthColor;
         }
     }
 }
@@ -377,8 +364,8 @@ footer {
 
 #btn-skip-nav {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 15px;
+    right: 15px;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
     -o-transition: opacity .3s 0s, visibility 0s .3s;

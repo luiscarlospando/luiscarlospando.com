@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Nintendo
-description: Aquí están mis códigos de Discord y Nintendo Switch. También lo que estoy jugando en este momento.
+description: Aquí están mis códigos de Discord y Nintendo Switch y lo que estoy jugando actualmente.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
-modified-date: 9/09/2022
+modified-date: 13/10/2022
 ---
 
 <div class="text-center">
@@ -44,14 +44,14 @@ Partidas de *Splatoon 3*, días aleatorios por la noche<br>
 </div>
 </div>
 <hr>
-<div class="row">
+<!-- div class="row">
 <div class="col-6 my-auto">
-*Teenage Mutant Ninja Turtles: The Cowabunga Collection*
+**
 </div>
 <div class="col-6 my-auto text-monospace">
 (Offline)
 </div>
-</div>
+</div -->
 </div>
 <div class="card-footer text-muted">
 <code>Última actualización: {{ page.modified-date }}</code>

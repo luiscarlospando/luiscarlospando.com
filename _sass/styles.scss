@@ -331,7 +331,6 @@ footer {
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    z-index: 1;
 
     #burger-btn {
         display: block;
@@ -361,6 +360,7 @@ footer {
 .scrolled-position {
     @include backdrop-filter(50%, 4px);
     background-color: rgba(13, 14, 51, 0.7) !important;
+    z-index: 1;
     
     &::after {
         background: $separatorBgColor;

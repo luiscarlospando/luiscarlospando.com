@@ -43,7 +43,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche<br>
 </a>
 </div>
 </div>
-<hr>
+<!-- hr -->
 <!-- div class="row">
 <div class="col-6 my-auto">
 **

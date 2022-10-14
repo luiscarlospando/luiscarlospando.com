@@ -9,7 +9,8 @@ permalink: /contacto/
 <p class="text-center">{{ page.description }}</p>
 
 ## <i class="fa-solid fa-envelope"></i> Email
-Mi correo electrónico es [{{ site.email }}][1].
+Mi correo electrónico es <code>{{ site.email }}</code>.<br>
+<a href="mailto:{{ site.email }}" class="btn btn-primary btn-sm"><i class="fa-solid fa-pen-to-square"></i> Escribir correo</a>
 
 ## <i class="fa-brands fa-twitter"></i> Twitter
 <div class="twitter-btns">

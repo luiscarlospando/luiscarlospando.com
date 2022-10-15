@@ -325,11 +325,12 @@ footer {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: auto;
     height: auto;
     padding: 12px 15px 8px;
     font-size: 2rem;
     line-height: 0;
+    z-index: 1;
     @include transition;
 
     #burger-btn {
@@ -345,7 +346,8 @@ footer {
 .scrolled-position {
     @include backdrop-filter(50%, 4px);
     background-color: rgba(13, 14, 51, 0.7) !important;
-    z-index: 1;
+    width: 100%;
+    z-index: 2;
     
     &::after {
         background: $separatorBgColor;
@@ -370,6 +372,7 @@ footer {
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
     -o-transition: opacity .3s 0s, visibility 0s .3s;
     transition: opacity .3s 0s, visibility 0s .3s;
+    z-index: 2;
 
     &:focus {
         opacity: 1;

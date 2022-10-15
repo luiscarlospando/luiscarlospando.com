@@ -4,7 +4,7 @@ title: Now
 description: Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.
 image: /assets/images/logo.png
 permalink: /now/
-modified-date: 14 de octubre, 2022
+modified-date: 15 de octubre, 2022
 ---
 
 <div class="card last-updated mt-3 text-center">
@@ -29,7 +29,7 @@ No mucho que contar realmente. Seguimos [Marissa](https://instragram.com/primiti
 
 ## 💼 Trabajo
 
-Aún no he empezado el [curso de React](https://www.youtube.com/watch?v=gVYrBdh7eG0){:target="_blank"} que había mencionado en mi anterior "Now". Sigo pendiente con eso.
+Aún no he empezado el curso de React que había mencionado en mi anterior "Now". Sigo pendiente con eso.
 
 ## 💻 Tech
 - Actualicé mi teléfono a iOS 16, la verdad es que todo muy bien, en especial soy fan de ahora le puedes asignar un lockscreen/homescreen a cada focus mode. De esa manera tengo diferentes modos en mi teléfono para diferentes situaciones. Y combinado con Apple Shortcuts todo es mágico. 📱

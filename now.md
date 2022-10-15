@@ -15,11 +15,11 @@ modified-date: 3 de octubre, 2022
 
 <p class="text-center">{{ page.description }}</p>
 
-## Vida personal 👦🏻
+## 👦🏻 Vida personal
 
 No mucho que contar realmente. Seguimos [Marissa](https://instragram.com/primitivegirl){:target="_blank"} y yo, todo fine. Preparándonos porque ya casi nos vamos de viaje. ✈️
 
-### To-dos 📝
+### 📝 To-dos
 
 - 🚶 Seguimos saliendo a caminar Marissa y yo todos los días por las tardes.
 
@@ -27,18 +27,18 @@ No mucho que contar realmente. Seguimos [Marissa](https://instragram.com/primiti
 
 - 🧳 Ya haciendo los preparativos para nuestras vacaciones.
 
-## Trabajo 💼
+## 💼 Trabajo
 
 Aún no he empezado el [curso de React](https://www.youtube.com/watch?v=gVYrBdh7eG0){:target="_blank"} que había mencionado en mi anterior "Now". Sigo pendiente con eso.
 
-## Tech 💻
+## 💻 Tech
 - Actualicé mi teléfono a iOS 16, la verdad es que todo muy bien, en especial soy fan de ahora le puedes asignar un lockscreen/homescreen a cada focus mode. De esa manera tengo diferentes modos en mi teléfono para diferentes situaciones. Y combinado con Apple Shortcuts todo es mágico. 📱
 
 - Y ahora a esperar a que salga macOS Ventura para actualizar mi computadora. Ya sale este mes.
 
 - Compré [Parcel](https://parcel.app/){:target="_blank"} para rastrear mis compras en línea. Definitivamente la mejor app que he usado para ello. Y luego está para macOS y iOS (y también soporta widgets para el lockscreen). 🤌
 
-## Música 🎶
+## 🎶 Música
 Sigo usando Apple Music para consumir música en streaming, [este es mi perfil ahí](https://music.apple.com/profile/luiscarlospando){:target="_blank"} por si quieres seguirme. Esto es algo de lo que he estado escuchando últimamente:
 
 - Deafheaven
@@ -52,11 +52,11 @@ Sigo usando Apple Music para consumir música en streaming, [este es mi perfil a
 
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:1140px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/mx/album/the-romance-of-affliction/1585880278?l=en"></iframe>
 
-## Podcasts 🎙
+## 🎙 Podcasts
 
 No me he suscrito a nada nuevo.
 
-## Videojuegos 🎮
+## 🎮 Videojuegos
 
 He estado jugando:
 

@@ -106,7 +106,6 @@
 
 /* Mobile */
 @media (max-width: 768px) {
-
     h1 {
         font-size: 30px;
         margin: 0.67em 0 0.27em !important;
@@ -154,7 +153,6 @@
     progress {
         display: none;
     }
-
 }
 
 /* iPhone (landscape) */
@@ -169,12 +167,10 @@
             left: 45.6%;
         }
     }
-
 }
 
 /* iPad (landscape and portrait) */
 @media (min-width: 768px) and (max-width: 991px) {
-
     h1 {
       font-size: 34px;
       margin: 0.67em 0 0.27em !important;
@@ -192,7 +188,6 @@
     h4 {
       font-size: 18px;
     }
-
 }
 
 /* iPad (landscape) */
@@ -211,7 +206,6 @@
 }
 
 @media (max-width: 868px) {
-
     .burger {
         a {
             position: relative;

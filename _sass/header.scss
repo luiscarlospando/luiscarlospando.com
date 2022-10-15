@@ -57,18 +57,18 @@
     
     #tweet {
         background-color: $cardBgColor;
-        border: 1px solid $componentBorderColor !important;
-        border: none;
+        border: 1px solid $componentBorderColor;
         border-radius: .25rem;
         width: 100%;
         height: auto;
-        padding: 14px 0 11px;
+        float: left;
+        padding: 15px 15px 14px;
         position: relative;
-        // overflow: hidden;
 
         p {
             font-size: 11pt;
-            margin: 0 1em;
+            margin: 0;
+            overflow: hidden;
         }
         
         &::before {

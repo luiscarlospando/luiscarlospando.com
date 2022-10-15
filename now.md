@@ -4,7 +4,7 @@ title: Now
 description: Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.
 image: /assets/images/logo.png
 permalink: /now/
-modified-date: 3 de octubre, 2022
+modified-date: 14 de octubre, 2022
 ---
 
 <div class="card last-updated mt-3 text-center">

@@ -5,7 +5,14 @@
 */
 
 (function() {
-    $(document).ready(function () {
+    let ready = (callback) => {
+        if (document.readyState != "loading") callback();
+        else document.addEventListener("DOMContentLoaded", callback);
+    }
+  
+    ready(() => { 
+        /* Do things after DOM has fully loaded */
+        
         // Enable nav menu
         $("#menu").mmenu({
             classes: "mm-slide",
@@ -30,6 +37,7 @@
             }
         });
 
+        // Search input
         $("#menu .mm-search input").keyup(function (e) {
             if (e.keyCode == 13) {
                 window.location.href = 'https://blog.luiscarlospando.com/?s=' + $(this).val();
@@ -54,39 +62,31 @@
             refresh: 30
         });
 
-        $(window).scroll(function () {
-            let scroll = $(window).scrollTop();
-            if (scroll >= 20) {
+        // On scroll events
+        window.onscroll = function() {
+            // Show/hide navbar
+            if (window.scrollY >= 20) {
                 $(".nav-container").addClass("scrolled-position");
-            } else if (scroll <= 0) {
+            } else {
                 $(".nav-container").removeClass("scrolled-position");
             }
-        });
 
-        // Show or hide the "back to top" link and animate the "now playing" notification
-        $(function() {
-            // Object caching
-            const btnBackToTop = $('.cd-top');
+            // Show/hide the "back to top" link and animate the "now playing" notification
+            if (window.scrollY >= 300) {
+                $('.cd-top').addClass("cd-is-visible");
+                $('.nowplaying').addClass("positionate-nowplaying");
+            } else {
+                $('.cd-top').removeClass("cd-is-visible");
+                $('.nowplaying').removeClass("positionate-nowplaying");
+            }
+        };
 
-            $(window).scroll(function() {
-                let scroll = $(window).scrollTop();
-        
-                if (scroll >= 300) {
-                    btnBackToTop.addClass("cd-is-visible");
-                    $('.nowplaying').addClass("positionate-nowplaying");
-                } else {
-                    btnBackToTop.removeClass("cd-is-visible");
-                    $('.nowplaying').removeClass("positionate-nowplaying");
-                }
-            });
-
-            // Smooth scroll to top
-            $('.cd-top').on('click', function (event) {
-                event.preventDefault();
-                $('body,html').animate({
-                    scrollTop: 0,
-                }, 700);
-            });
+        // Smooth scroll to top
+        $('.cd-top').on('click', function (event) {
+            event.preventDefault();
+            $('body,html').animate({
+                scrollTop: 0,
+            }, 700);
         });
 
         // Read more button
@@ -295,51 +295,51 @@
 
             $('#system-status').append(systemStatus);
         });
-    });
 
-    // Enabling Font Awesome Pseudo Elements
-    window.FontAwesomeConfig = {
-        searchPseudoElements: true
-    }
-
-    // Copy to clipboard instantiation
-    new ClipboardJS('.btn');
-
-    // Add button classes to elements in pagination
-    $(window).on('load', function () {
-        $(".page-numbers").addClass("btn btn-primary");
-    });
-
-    // Show/Hide Mode 7 Grand Prix Livestream
-    let DateTime = luxon.DateTime; // Initialization
-    let dt = DateTime.now().setZone("America/Chihuahua");
-    let dayOfTheWeek = dt.weekday;
-    let time = dt.toFormat('HH');
-    const m7gpLivestreamAlert = document.getElementById("m7gp-livestream-alert");
-    const m7gpLivestream = document.getElementById("m7gp-livestream");
-    const btnM7GP = document.getElementById("btn-m7gp");
-    const luisCarlosPandoLivestream = document.getElementById("luiscarlospando-livestream");
-    const luisCarlosPandoChat = document.getElementById("luiscarlospando-chat");
-    const btnLuisCarlosPando = document.getElementById("btn-luiscarlospando");
-
-    // Display livestream and livestream alert only on Thursday nights
-    if (dayOfTheWeek == 4 && (time >= 21 && time < 23)) {
-        if (m7gpLivestream && btnM7GP && luisCarlosPandoLivestream && luisCarlosPandoChat && btnLuisCarlosPando) {
-            m7gpLivestream.style.display = "block";
-            btnM7GP.style.display = "inline-block";
-
-            luisCarlosPandoLivestream.style.display = "none";
-            luisCarlosPandoChat.style.display = "none";
-            btnLuisCarlosPando.style.display = "none";
+        // Enabling Font Awesome Pseudo Elements
+        window.FontAwesomeConfig = {
+            searchPseudoElements: true
         }
 
-        m7gpLivestreamAlert.style.display = "block";
-    } else {
-        if (m7gpLivestream && btnM7GP) {
-            m7gpLivestream.style.display = "none";
-            btnM7GP.style.display = "none";
-        }
+        // Copy to clipboard instantiation
+        new ClipboardJS('.btn');
 
-        m7gpLivestreamAlert.style.display = "none";
-    }
+        // Add button classes to elements in pagination
+        $(window).on('load', function () {
+            $(".page-numbers").addClass("btn btn-primary");
+        });
+
+        // Show/Hide Mode 7 Grand Prix Livestream
+        let DateTime = luxon.DateTime; // Initialization
+        let dt = DateTime.now().setZone("America/Chihuahua");
+        let dayOfTheWeek = dt.weekday;
+        let time = dt.toFormat('HH');
+        const m7gpLivestreamAlert = document.getElementById("m7gp-livestream-alert");
+        const m7gpLivestream = document.getElementById("m7gp-livestream");
+        const btnM7GP = document.getElementById("btn-m7gp");
+        const luisCarlosPandoLivestream = document.getElementById("luiscarlospando-livestream");
+        const luisCarlosPandoChat = document.getElementById("luiscarlospando-chat");
+        const btnLuisCarlosPando = document.getElementById("btn-luiscarlospando");
+
+        // Display livestream and livestream alert only on Thursday nights
+        if (dayOfTheWeek == 4 && (time >= 21 && time < 23)) {
+            if (m7gpLivestream && btnM7GP && luisCarlosPandoLivestream && luisCarlosPandoChat && btnLuisCarlosPando) {
+                m7gpLivestream.style.display = "block";
+                btnM7GP.style.display = "inline-block";
+
+                luisCarlosPandoLivestream.style.display = "none";
+                luisCarlosPandoChat.style.display = "none";
+                btnLuisCarlosPando.style.display = "none";
+            }
+
+            m7gpLivestreamAlert.style.display = "block";
+        } else {
+            if (m7gpLivestream && btnM7GP) {
+                m7gpLivestream.style.display = "none";
+                btnM7GP.style.display = "none";
+            }
+
+            m7gpLivestreamAlert.style.display = "none";
+        }
+    });
 })();

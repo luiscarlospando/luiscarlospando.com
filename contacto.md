@@ -57,7 +57,7 @@ Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquie
 Antes usaba Backloggery para llevar el registro de mi backlog de juegos, ahora uso [Backloggd][11]{:target="_blank"}.
 
 [1]: mailto:{{ site.email }}
-[2]: https://newsletter.{{ site.domain }}
+[2]: http://newsletter.{{ site.domain }}
 [3]: https://instagram.com/{{ site.instagram_username }}
 [4]: /mode-7/
 [5]: https://music.apple.com/profile/{{ site.apple_music_username }}

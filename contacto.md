@@ -33,7 +33,7 @@ Cuenta automatizada con posts de mi sitio.
 Mi Discord tag es <a href="{{ site.discord_profile }}" class="badge badge-dark" target="_blank">{{ site.discord_tag }}</a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (feel free to join in!).
 
 ## <i class="fa-solid fa-newspaper"></i> Newsletter
-[Suscríbete a mi newsletter][2]{:target="_blank"} para recibir mis posts en tu correo (y más contenido).
+[Suscríbete a mi newsletter][2]{:target="_blank"} para recibir mis posts en tu correo.
 
 ## <i class="fa-brands fa-keybase"></i> Keybase
 Este es [mi perfil público en Keybase][10]{:target="_blank"}.
@@ -57,7 +57,7 @@ Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquie
 Antes usaba Backloggery para llevar el registro de mi backlog de juegos, ahora uso [Backloggd][11]{:target="_blank"}.
 
 [1]: mailto:{{ site.email }}
-[2]: https://www.getrevue.co/profile/{{ site.twitter_username }}?via=twitter-profile
+[2]: https://newsletter.{{ site.email }}
 [3]: https://instagram.com/{{ site.instagram_username }}
 [4]: /mode-7/
 [5]: https://music.apple.com/profile/{{ site.apple_music_username }}

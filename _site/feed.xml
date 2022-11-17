@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-04T19:55:51-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LuisCarlosPando.com</title><subtitle>Punk dude first and foremost. Losing followers since 2007.</subtitle><author><name>Luis Carlos Pando</name></author><entry><title type="html">Now</title><link href="http://localhost:4000/now/2022/08/26/now.html" rel="alternate" type="text/html" title="Now" /><published>2022-08-26T09:00:00-06:00</published><updated>2022-08-26T09:00:00-06:00</updated><id>http://localhost:4000/now/2022/08/26/now</id><content type="html" xml:base="http://localhost:4000/now/2022/08/26/now.html">&lt;div class=&quot;card last-updated mt-3 text-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-16T20:17:46-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LuisCarlosPando.com</title><subtitle>Punk dude first and foremost. Losing followers since 2007.</subtitle><author><name>Luis Carlos Pando</name></author><entry><title type="html">Now</title><link href="http://localhost:4000/now/2022/10/15/now.html" rel="alternate" type="text/html" title="Now" /><published>2022-10-15T09:00:00-06:00</published><updated>2022-10-15T09:00:00-06:00</updated><id>http://localhost:4000/now/2022/10/15/now</id><content type="html" xml:base="http://localhost:4000/now/2022/10/15/now.html">&lt;div class=&quot;card last-updated mt-3 text-center&quot;&gt;
+  &lt;div class=&quot;card-body rounded&quot;&gt;
+    &lt;h4 id=&quot;ltima-actualizacin-15102022-desde-chihuahua-mxico&quot;&gt;&lt;code&gt;Última actualización:&lt;/code&gt; &lt;a href=&quot;https://github.com/luiscarlospando/luiscarlospando.com/commits/master/now.md&quot;&gt;15/10/2022&lt;/a&gt; desde Chihuahua, México&lt;/h4&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.&lt;/p&gt;
+
+&lt;h2 id=&quot;-vida-personal&quot;&gt;👦🏻 Vida personal&lt;/h2&gt;
+
+&lt;p&gt;No mucho que contar realmente. Seguimos &lt;a href=&quot;https://instragram.com/primitivegirl&quot; target=&quot;_blank&quot;&gt;Marissa&lt;/a&gt; y yo, todo fine. Preparándonos porque ya casi nos vamos de viaje. ✈️&lt;/p&gt;
+
+&lt;h3 id=&quot;-to-dos&quot;&gt;📝 To-dos&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;🚶 Seguimos saliendo a caminar Marissa y yo todos los días por las tardes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;💦 &lt;em&gt;Debo de procurar tomar más agua de la que ya tomo.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;🧳 Ya haciendo los preparativos para nuestras vacaciones.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;-trabajo&quot;&gt;💼 Trabajo&lt;/h2&gt;
+
+&lt;p&gt;Aún no he empezado el curso de React que había mencionado en mi anterior “Now”. Sigo pendiente con eso.&lt;/p&gt;
+
+&lt;h2 id=&quot;-tech&quot;&gt;💻 Tech&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Actualicé mi teléfono a iOS 16, la verdad es que todo muy bien, en especial soy fan de ahora le puedes asignar un lockscreen/homescreen a cada focus mode. De esa manera tengo diferentes modos en mi teléfono para diferentes situaciones. Y combinado con Apple Shortcuts todo es mágico. 📱&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Y ahora a esperar a que salga macOS Ventura para actualizar mi computadora. Ya sale este mes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Compré &lt;a href=&quot;https://parcel.app/&quot; target=&quot;_blank&quot;&gt;Parcel&lt;/a&gt; para rastrear mis compras en línea. Definitivamente la mejor app que he usado para ello. Y luego está para macOS y iOS (y también soporta widgets para el lockscreen). 🤌&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;-música&quot;&gt;🎶 Música&lt;/h2&gt;
+&lt;p&gt;Sigo usando Apple Music para consumir música en streaming, &lt;a href=&quot;https://music.apple.com/profile/luiscarlospando&quot; target=&quot;_blank&quot;&gt;este es mi perfil ahí&lt;/a&gt; por si quieres seguirme. Esto es algo de lo que he estado escuchando últimamente:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Deafheaven&lt;/li&gt;
+  &lt;li&gt;Counterparts&lt;/li&gt;
+  &lt;li&gt;SeeYouSpaceCowboy&lt;/li&gt;
+  &lt;li&gt;Every Time I Die&lt;/li&gt;
+  &lt;li&gt;Basement&lt;/li&gt;
+  &lt;li&gt;Cave In&lt;/li&gt;
+  &lt;li&gt;L.S. Dunes&lt;/li&gt;
+  &lt;li&gt;Y un poco de Britney Spears /Taylor Swift/Pop Dosmilero con la esposa 💅&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe allow=&quot;autoplay *; encrypted-media *; fullscreen *; clipboard-write&quot; frameborder=&quot;0&quot; height=&quot;450&quot; style=&quot;width:100%;max-width:1140px;overflow:hidden;background:transparent;&quot; sandbox=&quot;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&quot; src=&quot;https://embed.music.apple.com/mx/album/the-romance-of-affliction/1585880278?l=en&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;-podcasts&quot;&gt;🎙 Podcasts&lt;/h2&gt;
+
+&lt;p&gt;No me he suscrito a nada nuevo.&lt;/p&gt;
+
+&lt;h2 id=&quot;-videojuegos&quot;&gt;🎮 Videojuegos&lt;/h2&gt;
+
+&lt;p&gt;He estado jugando:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Splatoon 3&lt;/em&gt; sin parar, tanto que se la pasan sacándome la garra en &lt;a href=&quot;https://discord.gg/N2m8gKw&quot; target=&quot;_blank&quot;&gt;Mode 7&lt;/a&gt; 🥲. &lt;a href=&quot;https:/luiscarlospando.com/nintendo/splatoon/&quot;&gt;Pronto estaré actualizando mi sitio&lt;/a&gt; para desplegar mis estadísticas del juego aquí mismo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Y sobre el juego, me mama. Todo es perfecto y los combates siguen siendo igual de frenéticos. 😎&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https:/luiscarlospando.com/nintendo/&quot;&gt;¿Jugamos juntos?&lt;/a&gt;, andamos juntándonos a jugar por las noches (como desde el jueves).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Mi página “Now” está inspirada en la de &lt;a href=&quot;https://sive.rs/nowff&quot; target=&quot;_blank&quot;&gt;Derek Sivers&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>Luis Carlos Pando</name></author><category term="now" /><summary type="html">Última actualización: 15/10/2022 desde Chihuahua, México</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Now</title><link href="http://localhost:4000/now/2022/08/26/now.html" rel="alternate" type="text/html" title="Now" /><published>2022-08-26T09:00:00-06:00</published><updated>2022-08-26T09:00:00-06:00</updated><id>http://localhost:4000/now/2022/08/26/now</id><content type="html" xml:base="http://localhost:4000/now/2022/08/26/now.html">&lt;div class=&quot;card last-updated mt-3 text-center&quot;&gt;
   &lt;div class=&quot;card-body rounded&quot;&gt;
     &lt;h4 id=&quot;ltima-actualizacin-26082022&quot;&gt;&lt;code&gt;Última actualización: 26/08/2022&lt;/code&gt;&lt;/h4&gt;
   &lt;/div&gt;

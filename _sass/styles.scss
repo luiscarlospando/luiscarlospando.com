@@ -39,24 +39,16 @@ body {
     margin: 0;
 }
 
-a,
-a:link,
-a:visited,
-a:active,
-a.alert-link {
+a {
     color: $linkColor;
     text-decoration: none;
     border-bottom-style: none;
-    @include transition;
-}
-
-a {
+    position: relative;
     outline: 0 !important;
+    @include transition;
 
     &:hover,
-    &:focus,
-    &.alert-link:hover,
-    &.alert-link:focus {
+    &:focus {
         color: $hoverColor;
         text-decoration: underline;
         text-decoration-color: $underlineColor;

@@ -324,6 +324,7 @@ footer {
     font-size: 1rem;
     line-height: 0;
     z-index: 1;
+    text-align: center;
     @include transition;
 
     #burger-btn {
@@ -342,6 +343,7 @@ footer {
     p {
         margin: 0;
         opacity: 0;
+        @include transition;
     }
 }
 

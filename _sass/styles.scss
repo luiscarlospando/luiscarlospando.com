@@ -319,17 +319,19 @@ footer {
     left: 0;
     width: auto;
     height: auto;
-    padding: 12px 15px 8px;
+    padding: 28px 15px;
+    // padding: 12px 15px 8px;
     font-size: 1rem;
     line-height: 0;
     z-index: 1;
-    display: flex;
-    align-items: center;
     @include transition;
 
     #burger-btn {
         color: $mainColor;
         font-size: 2rem;
+        position: absolute;
+        top:12px;
+        left: 15px;
 
         &:hover,
         &:focus {
@@ -337,7 +339,10 @@ footer {
         }
     }
 
-
+    p {
+        margin: 0;
+        opacity: 0;
+    }
 }
 
 .scrolled-position {
@@ -345,6 +350,10 @@ footer {
     background-color: rgba(13, 14, 51, 0.7) !important;
     width: 100%;
     z-index: 2;
+
+    p {
+        opacity: 1;
+    }
     
     &::after {
         background: $separatorBgColor;

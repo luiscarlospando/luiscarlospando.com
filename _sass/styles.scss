@@ -317,7 +317,7 @@ footer {
     position: fixed;
     top: 0;
     left: 0;
-    width: auto;
+    width: 100%;
     height: auto;
     padding: 28px 15px;
     // padding: 12px 15px 8px;
@@ -350,8 +350,6 @@ footer {
 .scrolled-position {
     @include backdrop-filter(50%, 4px);
     background-color: rgba(13, 14, 51, 0.7) !important;
-    width: 100%;
-    z-index: 2;
 
     p {
         opacity: 1;

@@ -26,6 +26,9 @@ Cuenta personal.
 
 Cuenta automatizada con posts de mi sitio.
 
+## <i class="fa-brands fa-mastodon"></i> Mastodon
+Puedes encontrarme en Mastodon <a rel="me" href="https://mastodon.online/@{{ site.mastodon_username }}" target="_blank">aquí</a>.
+
 ## <i class="fa-brands fa-instagram"></i> Instagram
 [Aquí comparto fotos][3]{:target="_blank"} de mis cosas favoritas y de momentos que considero que valen la pena ser compartidos.
 

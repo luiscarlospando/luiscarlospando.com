@@ -49,15 +49,15 @@ footer {
                     padding-left: 20px;
 
                     &::before {
-                        content: '&#34;';
+                        content: '"';
                     }
 
                     &::after {
-                        content: '&#34; ';
+                        content: '" ';
                     }
 
                     &:first-child::after {
-                        content: '&#34; ';
+                        content: '" ';
                     }
                 }
             

@@ -35,8 +35,7 @@ permalink: /mode-7/
 
 <div class="row">
 <div class="col-md-12 col-lg-6 my-auto">
-## <i class="fa-brands fa-discord"></i> Discord
-#### [Mode 7][1]{:target="_blank"}
+## <i class="fa-brands fa-discord"></i> [Mode 7][1]{:target="_blank"}
 *<small>Video games & friends!</small>* 🎮 🕹️
 
 Únete a [Mode 7 en Discord][1]{:target="_blank"} para conversar y jugar junto a la comunidad.

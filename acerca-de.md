@@ -24,21 +24,22 @@ Aquí está el [archivo completo][2] de todos mis posts.
 
 ### Tecnologías usadas
 
-- [Git][13]{:target="_blank"}, obra bajo una [Licencia MIT][24]{:target="_blank"}
-- [npm][14]{:target="_blank"}, pueden revisar la licencia aquí: [Licencia][25]{:target="_blank"}
-- [Jekyll][15]{:target="_blank"}, obra bajo una [Licencia MIT][26]{:target="_blank"}
-- [React][39]{:target="_blank"}, obra bajo una [Licencia MIT][41]{:target="_blank"}
+- [Animate.css][22]{:target="_blank"}, obra bajo una [Licencia MIT][33]{:target="_blank"}
 - [Babel][40]{:target="_blank"}, obra bajo una [Licencia MIT][42]{:target="_blank"}
 - [Bootstrap][16]{:target="_blank"}, obra bajo una [Licencia MIT][27]{:target="_blank"}
-- [Sass][17]{:target="_blank"}, obra bajo una [Licencia MIT][28]{:target="_blank"}
+- [Font Awesome][21]{:target="_blank"}, obra bajo una [Licencia MIT][32]{:target="_blank"}
+- [Git][13]{:target="_blank"}, obra bajo una [Licencia MIT][24]{:target="_blank"}
+- [Google Fonts][23]{:target="_blank"}, todas las fuentes usadas en este sitio son [Open Source][34]{:target="_blank"}
+- [Jekyll][15]{:target="_blank"}, obra bajo una [Licencia MIT][26]{:target="_blank"}
+- [Luxon.js][46]{:target="_blank"}, obra bajo una [Licencia MIT][47]{:target="_blank"}
 - [Modernizr][18]{:target="_blank"}, obra bajo una [Licencia MIT][29]{:target="_blank"}
 - [Normalize.css][19]{:target="_blank"}, obra bajo una [Licencia MIT][30]{:target="_blank"}
-- [Respond.js][20]{:target="_blank"}, obra bajo una [Licencia MIT][31]{:target="_blank"}
-- [Font Awesome][21]{:target="_blank"}, obra bajo una [Licencia MIT][32]{:target="_blank"}
-- [Animate.css][22]{:target="_blank"}, obra bajo una [Licencia MIT][33]{:target="_blank"}
+- [npm][14]{:target="_blank"}, pueden revisar la licencia aquí: [Licencia][25]{:target="_blank"}
 - [Prism.js][43]{:target="_blank"}, obra bajo una [Licencia MIT][44]{:target="_blank"}
-- [Luxon.js][46]{:target="_blank"}, obra bajo una [Licencia MIT][47]{:target="_blank"}
-- [Google Fonts][23]{:target="_blank"}, todas las fuentes usadas en este sitio son [Open Source][34]{:target="_blank"}
+- [React][39]{:target="_blank"}, obra bajo una [Licencia MIT][41]{:target="_blank"}
+- [Respond.js][20]{:target="_blank"}, obra bajo una [Licencia MIT][31]{:target="_blank"}
+- [Sass][17]{:target="_blank"}, obra bajo una [Licencia MIT][28]{:target="_blank"}
+- [Webpack][49]{:target="_blank"}, obra bajo una [Licencia MIT][50]{:target="_blank"}
 
 ## Suscríbete
 
@@ -97,3 +98,5 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [46]: https://github.com/moment/luxon
 [47]: https://github.com/moment/luxon/blob/master/LICENSE.md
 [48]: http://newsletter.{{ site.domain }}
+[49]: https://webpack.js.org/
+[50]: https://github.com/webpack/webpack/blob/main/LICENSE

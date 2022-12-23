@@ -46,12 +46,18 @@
 
         // Add Animate.css
         const header = document.querySelector('header');
+        const m7gpLiveHeader = document.getElementById('m7gp-livestream-alert');
         const siteBody = document.querySelector('.site-body');
         const footer = document.querySelector('footer');
 
-        setTimeout(function () {
+        setTimeout(() => {
             header.classList.add('animated', 'fadeInDown');
         }, 800);
+
+        setTimeout(() => {
+            m7gpLiveHeader.classList.add('animated', 'fadeIn');
+        }, 1800);
+
         siteBody.classList.add('animated', 'fadeIn');
         footer.classList.add('animated', 'fadeIn');
 
@@ -311,7 +317,7 @@
 
         // Show/Hide Mode 7 Grand Prix Livestream
         let DateTime = luxon.DateTime; // Initialization
-        let dt = DateTime.now().setZone("America/Chihuahua");
+        let dt = DateTime.now().setZone("America/Mexico_City");
         let dayOfTheWeek = dt.weekday;
         let time = dt.toFormat('HH');
         const m7gpLivestreamAlert = document.getElementById("m7gp-livestream-alert");

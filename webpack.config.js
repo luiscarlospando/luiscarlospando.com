@@ -9,6 +9,7 @@ module.exports = {
         path: path.resolve(__dirname, 'assets/js')
     },
     mode: 'production',
+    productionSourceMap: false,
     module: {
         rules: [
             {

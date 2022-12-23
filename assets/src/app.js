@@ -4,7 +4,6 @@
 * Made with love in Chihuahua, Mexico.
 */
 
-import 'jquery';
 import 'bootstrap';
 import './jquery.mmenu.min.all';
 import './twitter-fetcher';

@@ -86,12 +86,14 @@
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 
-    <!-- App -->
+    <!-- Plugins -->
     {% javascript_asset_tag global %}
     - /assets/js/clipboard.min.js
     - /assets/js/luxon.js
-    - /assets/js/app.bundle.js
     {% endjavascript_asset_tag %}
+
+    <!-- App Bundle -->
+    <script src="/assets/js/app.bundle.js"></script>
     
     <!-- Twitter -->
     <script async defer src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

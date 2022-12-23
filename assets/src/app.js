@@ -5,7 +5,6 @@
 */
 
 import 'jquery';
-import 'popper.js';
 import 'bootstrap';
 import './jquery.mmenu.min.all';
 import './twitter-fetcher';

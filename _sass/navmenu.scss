@@ -1,0 +1,65 @@
+nav#menu {
+    font-family: 'Raleway', sans-serif;
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style-type: none !important;
+
+        li {
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
+
+.mm-menu {
+    background-color: $navMenuBgColor;
+    color: $mainColor;
+
+    .mm-header,
+    .mm-footer {
+        color: $mainColor;
+    }
+}
+
+// Avoiding mmenu FOUC
+nav#menu:not( .mm-menu ) {
+    display: none;
+ }
+
+.mm-search input[type=text],
+.mm-search input[type=email],
+.mm-search input[type=password] {
+    background-color: $fifthColor;
+	border-radius: .25rem;
+	border: none;
+	box-shadow: none;
+	-webkit-box-sizing: none;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 10px;
+}
+
+.mm-list {
+    font-size: 16px;
+}
+
+.mm-list > li > a:hover,
+.mm-list > li > span:hover,
+.mm-list > li > a:focus,
+.mm-list > li > span:focus {
+    color: $linkColor !important;
+}
+
+.mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults):after {
+    border-bottom-width: 0;
+}
+
+.mm-footer {
+    font-size: 13px;
+}

@@ -1,0 +1,117 @@
+
+        <footer class="container">
+            <div class="row">
+                <div class="col-12 col-md-10 offset-md-1">
+                    <div class="row my-1">
+                        <div class="col-12 text-center">
+                            <div id="currently-listening"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                    {% if page.layout == 'default' %}
+                        <div class="col-12 col-md-6 offset-md-6 d-flex align-items-center justify-content-md-end">
+                            Hola desde Chihuahua, México 👋
+                        </div>
+                    {% else %}
+                        <div class="col-12 col-md-6">
+                            Lo último: <span id="blog"></span>
+                        </div>
+                        <div class="col-12 col-md-6 d-flex align-items-center justify-content-md-end">
+                            Hola desde Chihuahua, México 👋
+                        </div>
+                    {% endif %}
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-lg-3 copyright my-auto">
+                            &copy; {{ 'now' | date: "%Y" }} {{ site.author }}
+                        </div>
+                        <div class="col-12 col-lg-9 text-lg-right my-auto">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="https://vercel.com/" target="_blank" class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="Deployed on Vercel">
+                                        Deployed on
+                                        <svg aria-label="Vercel Logo" fill="#ffffff" viewBox="0 0 75 65" width="14" style="vertical-align: baseline;">
+                                            <path d="M37.59.25l36.95 64H.64l36.95-64z"></path>
+                                        </svg>
+                                        Vercel
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="/privacidad" class="badge badge-dark" data-toggle="tooltip" data-placement="top" title="Privacidad">
+                                        Privacidad
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://luiscarlospando.instatus.com/" target="_blank" id="site-version" class="badge" data-toggle="tooltip" data-placement="top" data-html="true" title="Estatus">
+                                        <span id="system-status"></span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://blog.{{ site.domain }}/rss/" class="badge badge-rss" data-toggle="tooltip" data-placement="top" title="RSS">
+                                        <i class="fa-solid fa-rss"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item twitter-follow-btn">
+                                    <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-lang="es">
+                                        Seguir a @{{ site.twitter_username }}
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 version text-lg-right my-auto">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="https://github.com/luiscarlospando/luiscarlospando.com" data-toggle="tooltip" data-placement="top" data-html="true" title="Ver código fuente" target="_blank">
+                                        <code>Ver código fuente</code>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="{{ site.url }}/acerca-de" data-toggle="tooltip" data-placement="top" data-html="true" title="{{ site.title }} v{{ site.version }}">
+                                        <code>v{{ site.version }}</code>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- /Wrapper for mmenu -->
+
+    <div id="back-to-top"></div>
+    
+    <!-- React -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+    <!-- Plugins -->
+    {% javascript_asset_tag global %}
+    - /assets/js/clipboard.min.js
+    - /assets/js/luxon.js
+    {% endjavascript_asset_tag %}
+
+    <!-- App -->
+    <script src="/assets/js/app.bundle.js"></script>
+    
+    <!-- Twitter -->
+    <script async defer src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <!-- GitHub -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <!-- Instatus -->
+    <script src="https://luiscarlospando.instatus.com/widget/script.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-85G347BEQR"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-85G347BEQR');
+    </script>
+</body>
+</html>

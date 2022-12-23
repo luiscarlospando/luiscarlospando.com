@@ -8,7 +8,7 @@ module.exports = {
         filename: 'app.bundle.js',
         path: path.resolve(__dirname, 'assets/js')
     },
-    devtool: "source-map", // prefered in production
+    devtool: false, // disable source maps
     mode: 'production',
     module: {
         rules: [

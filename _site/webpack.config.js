@@ -8,7 +8,7 @@ module.exports = {
         filename: 'app.bundle.js',
         path: path.resolve(__dirname, 'assets/js')
     },
-    mode: 'development',
+    mode: 'production',
     module: {
         rules: [
             {

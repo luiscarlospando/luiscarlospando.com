@@ -4,7 +4,7 @@ title: Tools
 description: Este es un listado de las herramientas que uso diariamente. Me gusta descubrir y probar nuevas herramientas para mejorar mi manera de trabajar. ¿Tienes alguna sugerencia?
 image: /assets/images/logo.png
 permalink: /tools/
-modified-date: 4/11/2022
+modified-date: 25/12/2022
 ---
 
 <div class="card last-updated mt-3 text-center">

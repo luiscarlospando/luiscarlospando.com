@@ -10,7 +10,22 @@ permalink: /contacto/
 
 ## <i class="fa-solid fa-envelope"></i> Email
 Mi correo electrónico es <code>{{ site.email }}</code>.<br>
-<a href="mailto:{{ site.email }}" class="btn btn-primary btn-sm"><i class="fa-solid fa-pen-to-square"></i> Escribir correo</a>
+<a href="mailto:{{ site.email }}" class="btn btn-primary btn-sm">
+<i class="fa-solid fa-pen-to-square"></i> Escribir correo
+</a>
+
+## <i class="fa-brands fa-mastodon"></i> Mastodon
+<a rel="me" href="https://mastodon.online/@{{ site.mastodon_username }}" class="btn btn-primary btn-sm badge-pill" target="_blank">
+<i class="fa-brands fa-mastodon"></i> Seguir a @{{ site.mastodon_username }}
+</a>
+
+Cuenta personal.
+
+<a rel="me" href="https://hachyderm.io/@{{ site.mastodon_feed }}" class="btn btn-primary btn-sm badge-pill" target="_blank">
+<i class="fa-brands fa-mastodon"></i> Seguir a @{{ site.mastodon_feed }}
+</a>
+
+Cuenta automatizada con posts de mi sitio.
 
 ## <i class="fa-brands fa-twitter"></i> Twitter
 <div class="twitter-btns">
@@ -25,9 +40,6 @@ Cuenta personal.
 </div>
 
 Cuenta automatizada con posts de mi sitio.
-
-## <i class="fa-brands fa-mastodon"></i> Mastodon
-Puedes encontrarme en Mastodon <a rel="me" href="https://mastodon.online/@{{ site.mastodon_username }}" target="_blank">aquí</a>.
 
 ## <i class="fa-brands fa-instagram"></i> Instagram
 [Aquí comparto fotos][3]{:target="_blank"} de mis cosas favoritas y de momentos que considero que valen la pena ser compartidos.

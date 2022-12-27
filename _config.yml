@@ -23,9 +23,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://luiscarlospando.com" # the base hostname & protocol for your site, e.g. http://example.com
 domain: luiscarlospando.com
 blog_url: blog.luiscarlospando.com
+mastodon_username: mijo
+mastodon_feed: luiscarlospando
 twitter_username: mijo
 twitter_feed: luiscarlospando
-mastodon_username: mijo
 instagram_username: luiscarlospando
 github_username: luiscarlospando
 gitlab_username: luiscarlospando

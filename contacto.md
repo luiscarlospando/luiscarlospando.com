@@ -10,18 +10,18 @@ permalink: /contacto/
 
 ## <i class="fa-solid fa-envelope"></i> Email
 Mi correo electrónico es <code>{{ site.email }}</code>.<br>
-<a href="mailto:{{ site.email }}" class="btn btn-primary btn-sm">
+<a href="mailto:{{ site.email }}" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Escribir correo">
 <i class="fa-solid fa-pen-to-square"></i> Escribir correo
 </a>
 
 ## <i class="fa-brands fa-mastodon"></i> Mastodon
-<a rel="me" href="https://mastodon.online/@{{ site.mastodon_username }}" class="btn btn-primary btn-sm badge-pill" target="_blank">
+<a rel="me" href="https://mastodon.online/@{{ site.mastodon_username }}" class="btn btn-primary btn-sm badge-pill" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_username }} en Mastodon" target="_blank">
 <i class="fa-brands fa-mastodon"></i> Seguir a @{{ site.mastodon_username }}
 </a>
 
 Cuenta personal.
 
-<a rel="me" href="https://hachyderm.io/@{{ site.mastodon_feed }}" class="btn btn-primary btn-sm badge-pill" target="_blank">
+<a rel="me" href="https://hachyderm.io/@{{ site.mastodon_feed }}" class="btn btn-primary btn-sm badge-pill" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_feed }} en Mastodon" target="_blank">
 <i class="fa-brands fa-mastodon"></i> Seguir a @{{ site.mastodon_feed }}
 </a>
 
@@ -45,7 +45,7 @@ Cuenta automatizada con posts de mi sitio.
 [Aquí comparto fotos][3]{:target="_blank"} de mis cosas favoritas y de momentos que considero que valen la pena ser compartidos.
 
 ## <i class="fa-brands fa-discord"></i> Discord
-Mi Discord tag es <a href="{{ site.discord_profile }}" class="badge badge-dark" target="_blank">{{ site.discord_tag }}</a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (feel free to join in!).
+Mi Discord tag es <a href="{{ site.discord_profile }}" class="badge badge-primary" target="_blank">{{ site.discord_tag }}</a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (feel free to join in!).
 
 ## <i class="fa-solid fa-newspaper"></i> Newsletter
 [Suscríbete a mi newsletter][2]{:target="_blank"} para recibir mis posts en tu correo.

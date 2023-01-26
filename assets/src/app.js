@@ -6,7 +6,6 @@
 
 import 'bootstrap';
 import './jquery.mmenu.min.all';
-import './mastodon';
 import './lastfm.jquery';
 import './jquery.rss.min';
 import '../components/navigation';

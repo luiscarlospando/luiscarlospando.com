@@ -9,10 +9,6 @@ image: /assets/images/logo.png
 
 <h1 class="text-center">{{ site.title }}</h1>
 
-<figure id="profile-picture">
-<img class="img-fluid" src="assets/images/luis-carlos-profile.webp" alt="Foto de Luis Carlos usando una gorra de Goofy en Disneyland">
-</figure>
-
 <span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando (also known as "Mijo"), un vato originario de [Chihuahua, México][1]{:target="_blank"} que vive con su bella esposa [Marissa ❤️][4]{:target="_blank"} y se dedica a [hacer][2] cosas para el Internet. Musicalmente hablando, mis géneros favoritos son el punk y el hardcore y de ahí, sus respectivos sub-géneros.  Algunas personas me conocen por haber creado y dedicado buena parte de mi vida a [Hitz-Musik.net][5]{:target="_blank"} (RIP 😵) ― una comunidad dedicada a cubrir la música y la escena local de mi querido ranchito, Chihuahua. De eso solo me quedan recuerdos muy chidos.
 
 <div class="collapse" id="collapseIntro">

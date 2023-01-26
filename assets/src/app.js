@@ -6,7 +6,7 @@
 
 import 'bootstrap';
 import './jquery.mmenu.min.all';
-import './twitter-fetcher';
+// import './twitter-fetcher';
 import './lastfm.jquery';
 import './jquery.rss.min';
 import '../components/navigation';

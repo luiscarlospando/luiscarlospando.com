@@ -4,6 +4,7 @@
   "description": "Punk dude first and foremost. Losing followers since 2007.",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

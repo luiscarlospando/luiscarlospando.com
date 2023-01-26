@@ -15,13 +15,13 @@ Mi correo electrónico es <code>{{ site.email }}</code>.<br>
 </a>
 
 ## <i class="fa-brands fa-mastodon"></i> Mastodon
-<a rel="me" href="https://mastodon.online/@{{ site.mastodon_username }}" class="btn btn-primary btn-sm badge-pill" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_username }} en Mastodon" target="_blank">
+<a rel="me" href="https://mastodon.online/@{{ site.mastodon_username }}" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_username }} en Mastodon" target="_blank">
 <i class="fa-brands fa-mastodon"></i> Seguir a @{{ site.mastodon_username }}
 </a>
 
 Cuenta personal.
 
-<a rel="me" href="https://hachyderm.io/@{{ site.mastodon_feed }}" class="btn btn-primary btn-sm badge-pill" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_feed }} en Mastodon" target="_blank">
+<a rel="me" href="https://hachyderm.io/@{{ site.mastodon_feed }}" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_feed }} en Mastodon" target="_blank">
 <i class="fa-brands fa-mastodon"></i> Seguir a @{{ site.mastodon_feed }}
 </a>
 

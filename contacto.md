@@ -27,20 +27,6 @@ Cuenta personal.
 
 Cuenta automatizada con posts de mi sitio.
 
-## <i class="fa-brands fa-twitter"></i> Twitter
-<div class="twitter-btns">
-<a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-lang="es">Seguir a @{{ site.twitter_username }}</a>
-<a href="https://twitter.com/intent/tweet?screen_name={{ site.twitter_username }}" class="twitter-mention-button" data-lang="es" data-related="{{ site.twitter_username }},{{ site.twitter_feed }}">Tweet to @{{ site.twitter_username }}</a>
-</div>
-
-Cuenta personal.
-
-<div class="twitter-btns">
-<a href="https://twitter.com/{{ site.twitter_feed }}" class="twitter-follow-button" data-show-count="false" data-lang="es">Seguir a @{{ site.twitter_feed }}</a>
-</div>
-
-Cuenta automatizada con posts de mi sitio.
-
 ## <i class="fa-brands fa-instagram"></i> Instagram
 [Aquí comparto fotos][3]{:target="_blank"} de mis cosas favoritas y de momentos que considero que valen la pena ser compartidos.
 

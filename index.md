@@ -11,9 +11,9 @@ image: /assets/images/logo.png
 
 <span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando (also known as "Mijo"), un vato originario de [Chihuahua, México][1]{:target="_blank"} que vive con su bella esposa [Marissa ❤️][4]{:target="_blank"} y se dedica a [hacer][2] cosas para el Internet. Musicalmente hablando, mis géneros favoritos son el punk y el hardcore y de ahí, sus respectivos sub-géneros.  Algunas personas me conocen por haber creado y dedicado buena parte de mi vida a [Hitz-Musik.net][5]{:target="_blank"} (RIP 😵) ― una comunidad dedicada a cubrir la música y la escena local de mi querido ranchito, Chihuahua. De eso solo me quedan recuerdos muy chidos.
 
-<div class="collapse" id="collapseIntro">
 La razón principal que me motivó a crear este sitio, fue mi interés las computadoras 👨‍💻 y la web 🌐, ― sentí la necesidad de tener [mi propio lugar en Internet][6], para hablar de lo que yo quisiera, para equivocarme, para aprender. El objetivo de este sitio escribir sobre lo que traiga en la cabeza. Quiero que este lugar sirva como de una especie de bitácora de mi vida y que sea mi lugar para dar mi opinión sin miedo. 😉
 
+<div class="collapse" id="collapseIntro">
 No es secreto [el gusto que tengo por el gaming 🕹️][11]{:target="_blank"}. [Aquí][12] llevo un registro de los videojuegos que tengo. Y para rendir tributo y hacer de esto algo más divertido de lo que ya es, armé la comunidad de [Mode 7 🎮 🕹️][7] (all are welcome 😉) junto a unos amigos. Ahí hablamos de nuestros videojuegos favoritos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][13]. También [tengo un canal en Twitch][3], pero la neta, ni siquiera lo uso.
 
 Ahora me encuentro compartiendo cosas random en [Mastodon][8]{:target="_blank"} <span class="badge badge-success">¡Nuevo!</span>, el sarcasmo y chistes de baja calidad continúan por ahí. Me gusta llevar registro de lo que hago y toda [la música que escucho 🎧][14]{:target="_blank"} la voy registrando en mi perfil de [Last.fm 🎵][10]{:target="_blank"} (sí, hasta mi colección de vinilos 🔈).

@@ -47,7 +47,7 @@ Aquí está el [archivo completo][2] de todos mis posts.
 Puedes suscribirte a mi sitio a través de:
 - [<i class="fas fa-newspaper"></i> Newsletter][48]{:target="_blank"}
 - [<i class="fas fa-rss"></i> RSS][37]{:target="_blank"}
-- [<i class="fab fa-twitter"></i> Twitter][38]{:target="_blank"}
+- [<i class="fa-brands fa-mastodon"></i> Mastodon][38]{:target="_blank"}
 
 ## Errores en el sitio
 
@@ -88,7 +88,7 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [34]: https://github.com/google/fonts
 [35]: https://www.spotify.com/mx/
 [37]: https://blog.{{ site.domain }}/rss/
-[38]: https://twitter.com/intent/user?screen_name={{ site.twitter_feed }}&lang=es
+[38]: https://hachyderm.io/@{{ site.mastodon_feed }}
 [39]: https://reactjs.org/
 [40]: https://babeljs.io/
 [41]: https://github.com/facebook/react/blob/master/LICENSE

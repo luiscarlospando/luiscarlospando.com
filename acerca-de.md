@@ -40,6 +40,7 @@ Aquí está el [archivo completo][2] de todos mis posts.
 - [Respond.js][20]{:target="_blank"}, obra bajo una [Licencia MIT][31]{:target="_blank"}
 - [Sass][17]{:target="_blank"}, obra bajo una [Licencia MIT][28]{:target="_blank"}
 - [Webpack][49]{:target="_blank"}, obra bajo una [Licencia MIT][50]{:target="_blank"}
+- [omg.lol][51]{:target="_blank"}, obra bajo una [Licencia MIT][52]{:target="_blank"}
 
 ## Suscríbete
 
@@ -100,3 +101,5 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [48]: http://newsletter.{{ site.domain }}
 [49]: https://webpack.js.org/
 [50]: https://github.com/webpack/webpack/blob/main/LICENSE
+[51]: https://home.omg.lol/
+[52]: https://github.com/neatnik/omg.lol/blob/main/LICENSE.md

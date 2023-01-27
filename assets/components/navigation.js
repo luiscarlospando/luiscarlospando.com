@@ -31,7 +31,7 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "/" },
+                            { href: "https://luiscarlospando.com/" },
                             React.createElement("i", { "class": "fa-solid fa-house" }),
                             " Inicio"
                         )
@@ -155,7 +155,7 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "/contacto/" },
+                            { href: "https://luiscarlospando.com/contacto/" },
                             React.createElement("i", { "class": "fa-solid fa-envelope" }),
                             " Contacto"
                         )
@@ -165,7 +165,7 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "/developer/" },
+                            { href: "https://luiscarlospando.com/developer/" },
                             React.createElement("i", { "class": "fa-solid fa-code" }),
                             " Development Stuff"
                         )
@@ -175,7 +175,7 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "/now/" },
+                            { href: "https://luiscarlospando.com/now/" },
                             React.createElement("i", { "class": "fa-solid fa-clock" }),
                             " Now"
                         )
@@ -185,7 +185,7 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "/tools/" },
+                            { href: "https://luiscarlospando.com/tools/" },
                             React.createElement("i", { "class": "fa-solid fa-wrench" }),
                             " Tools"
                         )
@@ -195,7 +195,7 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "/mode-7/" },
+                            { href: "https://luiscarlospando.com/mode-7/" },
                             React.createElement("i", { "class": "fa-brands fa-discord" }),
                             " Mode 7"
                         ),
@@ -219,7 +219,7 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "/nintendo/" },
+                            { href: "https://luiscarlospando.com/nintendo/" },
                             React.createElement("i", { "class": "fa-solid fa-gamepad" }),
                             " Nintendo"
                         ),
@@ -231,7 +231,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "/nintendo/mario-kart/" },
+                                    { href: "https://luiscarlospando.com/nintendo/mario-kart/" },
                                     React.createElement("i", { "class": "fa-solid fa-gamepad" }),
                                     " Mario Kart 8 Deluxe (Mode 7 Grand Prix)"
                                 )
@@ -241,7 +241,7 @@ var Navigation = function (_React$Component) {
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "/nintendo/splatoon/" },
+                                    { href: "https://luiscarlospando.com/nintendo/splatoon/" },
                                     React.createElement("i", { "class": "fa-solid fa-gamepad" }),
                                     " Splatoon 3"
                                 )
@@ -253,7 +253,7 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "/live/" },
+                            { href: "https://luiscarlospando.com/live/" },
                             React.createElement("i", { "class": "fa-solid fa-video" }),
                             " Live"
                         )
@@ -263,7 +263,7 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "/acerca-de/" },
+                            { href: "https://luiscarlospando.com/acerca-de/" },
                             React.createElement("i", { "class": "fa-solid fa-circle-info" }),
                             " Acerca de"
                         )

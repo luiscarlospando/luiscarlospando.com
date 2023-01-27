@@ -17,7 +17,7 @@ modified-date: 26 de enero, 2023
 
 ## 👦🏻 Vida personal
 
-Rato sin reportarme aquí, vaya que han pasado cosas. A finales del año pasado [la esposa](https://instragram.com/primitivegirl){:target="_blank"} y yo nos fuimos de viaje a Suecia para su graduación en la Universidad de Estocolmo y aprovechando el viaje nos fuimos a conocer Dinamarca (la capital Copenhague). Todo muy bonito, sin duda unas vacaciones de las que nos quedan muy buenos recuerdos. Tomé muchas fotos, todas las tengo en iCloud. De repente pongo una que otra en [Instagram](https://instragram.com/luiscarlospando){:target="_blank"}. 📷
+Rato sin reportarme aquí, vaya que han pasado cosas. A finales del año pasado [la esposa](https://instragram.com/primitivegirl){:target="_blank"} y yo nos fuimos de viaje a Suecia para su graduación en la Universidad de Estocolmo y aprovechando el viaje nos fuimos a conocer Dinamarca (la capital Copenhague). Todo muy bonito, sin duda unas vacaciones de las que sencillamente nos quedan muy bonitos recuerdos. Tomé muchas fotos, todas las tengo en iCloud. De repente pongo una que otra en [Instagram](https://instagram.com/luiscarlospando){:target="_blank"}. 📷
 
 ### 📝 To-dos
 

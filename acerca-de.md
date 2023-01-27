@@ -8,7 +8,7 @@ permalink: /acerca-de/
 
 <h2 class="subtitulo text-center"><small class="text-muted">{{ site.title }} <code>v{{ site.version }}</code></small></h2>
 
-Este URL ha sido mi hogar en línea desde octubre de 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado **<span id="contador-posts"></span> entradas en total** y es en este lugar donde intento unificar mi presencia en línea. Justo como lo mencioné en la [portada][1], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, ofrecer algunas recomendaciones y dar algunos consejos. 
+Este URL ha sido mi hogar en línea desde octubre de 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado [<span id="contador-posts"></span> entradas en total][53] y es en este lugar donde intento unificar mi presencia en línea. Justo como lo mencioné en la [portada][1], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, ofrecer algunas recomendaciones y dar algunos consejos. 
 
 Aquí está el [archivo completo][2] de todos mis posts.
 
@@ -103,3 +103,4 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [50]: https://github.com/webpack/webpack/blob/main/LICENSE
 [51]: https://home.omg.lol/
 [52]: https://github.com/neatnik/omg.lol/blob/main/LICENSE.md
+[53]: https://blog.{{ site.domain }}

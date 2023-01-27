@@ -4,7 +4,7 @@ title: Now
 description: Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.
 image: /assets/images/logo.png
 permalink: /now/
-modified-date: 16 de noviembre, 2022
+modified-date: 26 de enero, 2023
 ---
 
 <div class="card last-updated mt-3 text-center">
@@ -17,54 +17,53 @@ modified-date: 16 de noviembre, 2022
 
 ## 👦🏻 Vida personal
 
-¿Qué hay? Tenía rato sin poder actualizar esto, pero aquí seguimos. ✌️ [Marissa](https://instragram.com/primitivegirl){:target="_blank"} y yo estamos exactamente a 6 dias de irnos de vacaciones al momento de escribir esto. ✈️ Emocionado por recorrer nuevamente Estocolmo, acompañar a la esposa a la graduación de su maestría y conocer el Gröna Lund y otros lugares a los que tenemos pensado ir. También iremos a Dinamarca, a ver qué tal.
+Rato sin reportarme aquí, vaya que han pasado cosas. A finales del año pasado [la esposa](https://instragram.com/primitivegirl){:target="_blank"} y yo nos fuimos de viaje a Suecia para su graduación en la Universidad de Estocolmo y aprovechando el viaje nos fuimos a conocer Dinamarca (la capital Copenhague). Todo muy bonito, sin duda unas vacaciones de las que nos quedan muy buenos recuerdos. Tomé muchas fotos, todas las tengo en iCloud. De repente pongo una que otra en [Instagram](https://instragram.com/luiscarlospando){:target="_blank"}. 📷
 
 ### 📝 To-dos
 
-- 🚶 Ya se siente más el frío en la ciudad, Marissa y yo gradualmente dejamos de salir a caminar todos los días, jaja, pero si se requiere hacer algo de actividad de todas maneras.
+- 🚶 No hemos salido a caminar/hacer ejercicio en un buen rato, estamos en modo hibernación.
 
-- 🚿🚽 La esposa y yo traemos el propósito de remodelar los baños de la casa, esperamos concretar eso muy pronto.
+- 🚿🚽 La esposa y yo traemos el propósito de remodelar los baños de la casa, esperamos concretarlo ya este año.
 
-- 🧳 Ya todo listo practicamente para nuestras vacaciones y descansar un rato del trabajo.
-
-- ⚽️ Vamos a andar en Europa para cuando se lleve a cabo el mundial, aunque nadie le tenemos fé a la selección que va a ir, pues de igual manera está chido seguir los partidos.
+- ⚛️ Traigo el propósito de aprender bien, bien [React](https://reactjs.org/){:target="_blank"}, con el objetivo de poder conseguir un mejor trabajo. Y para ayudarme con eso compré [The Joy of React](https://www.joyofreact.com/){:target="_blank"}, el que creo yo es el mejor curso de React out there y pues ya le estoy dando en mis ratos libres. Muy chido hasta ahorita.
 
 ## 💼 Trabajo
 
-En el trabajo fuimos víctimas de un hackeo a nuestros servidores, perdimos algunos sitios y ha sido muy estresante tratar de restaurar lo que teníamos y migrar todo a un nuevo hosting. Ahí vamos saliendo de esto poco a poco pero la verdad si ha estado muy pesado encargarnos de esto y de la carga cotidiana de trabajo. Por eso ahora más que nunca ansío las vacaciones.
+He recibido noticias no muy alentadoras en mi actual trabajo (el cual disfruto mucho y no doy por sentado), pero si han pasado algunas situaciones que me tienen algo triste y desanimado. Yo solo sigo dando lo mejor de mi, esperando que la situación mejore. El tiempo a ver qué nos dice.
 
 ## 💻 Tech
-- Mi computadora ha estado comportándose extraño a partir de que actualicé a Ventura, crashes inesperados que antes no sucedían y apps que se cierran de la nada. Hace poquito instalé unos parches recomendados de seguridad y hasta ahora todo bien, pero igual, algo molesto tener que preocuparme por esto.
+- Desinstalé la app [MonitorControl](https://github.com/MonitorControl/MonitorControl){:target="_blank"} de mi Mac ya que desde que compré el Apple Studio Display 🥰 me empezó a dar problemas y sinceramente ya no era necesario tenerla instalada.
 
-- Este mes cumplo años y me autoregalé un Studio Display para la Mac 👀, todavía no me llega (espero llegue mañana o pasado mañana), ni voy a poder estrenarlo bien porque nos vamos de viaje. 😆 Después comparto mis impresiones.
+- Y pues, muy feliz la verdad con mi nuevo monitor, el tamaño es perfecto, la resolución es 5K y los colores se ven súper bien (aunque no tanto como la pantalla XDR de mi Mac), funciona perfectamente con la Mac y el diseño industrial es hermoso. Estoy muy contento.
 
-- [Ando probando un nuevo calendario en mi computadora](https://cron.com/){:target="_blank"} y pues ando encantado.
+- Cada día encuentro nuevas maneras de mejorar mi forma de trabajar con [Raycast](https://www.raycast.com/){:target="_blank"}, siempre me sorprendo y honestamente no hay app en la Mac que se le parezca o simplemente se le acerque.
 
-- [Compré Spring](https://apps.apple.com/us/app/spring-for-twitter/id1508706541){:target="_blank"}, un cliente de Twitter que han recomendado muchos de los gurús que sigo. Muy chido y sobre todo; muy integrado a macOS. Hasta soporte trae para Shortcuts. 🤝
+- Quité Twitter de mis dispositivos, ya no le encuentro honestamente ningún uso y con las nuevas medidas que ha tomado Elon Musk, el hecho de restringir el API y bloquear apps de terceros fue la gota que derramó el vaso para mi. Ahora estoy 100% en [Mastodon](https://mastodon.online/@mijo){:target="_blank"}.
 
 ## 🎶 Música
 Uso Apple Music para escuchar música en streaming, [este es mi perfil ahí](https://music.apple.com/profile/luiscarlospando){:target="_blank"} por si quieres seguirme. Esto es algo de lo que he estado escuchando últimamente:
 
-- L.S. Dunes ([la esposa me regaló el disco de *Past Lives* de cumpleaños 🥰](https://www.instagram.com/p/Ck9wvfFL5-B/?utm_source=ig_web_copy_link){:target="_blank"})
-- Counterparts
-- SeeYouSpaceCowboy
-- Vanna
-- August Burns Red
-- Taylor Swift
-- Y rolitas setenteras del Hot Chocolate, Rod Stewart, Leo Sayer, Earth, Wind and Fire y así... [Recordando a mi jefito](https://twitter.com/mijo/status/1592931103182327808?s=20&t=U0DnUwxex7ynrnXO6jd1sQ){:target="_blank"}
+- ABBA
+- Elliot Smith
+- Soccer Mommy
+- Deseos Primitivos
+- The Smashing Pumpkins
+- Power Trip
+- Y más, mucho más...
 
-Muy destacable el *Midnights* de Taylor Swift, la mera neta:
-<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:1140px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/mx/album/midnights/1649434004?l=en"></iframe>
+Prácticamente empecé el 2023 con *Mellon Collie and the Infinite Sadness*:
+<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:1140px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/mx/album/mellon-collie-and-the-infinite-sadness-deluxe-edition/1455510683?l=en"></iframe>
 
-## 🎙 Podcasts
+## 🎙 Podcasts/YuuTube
 
-No me he suscrito a nada nuevo.
+- [The First Ever Podcast](https://the-first-ever-podcast.libsyn.com/website){:target="_blank"}
+- [Two Minutes To Late Night](https://www.youtube.com/c/TwoMinutesToLateNight){:target="_blank"}
 
 ## 🎮 Videojuegos
 
 He estado jugando:
 
-- *Splatoon 3* sin parar, tanto que se la pasan sacándome la garra en [Mode 7](https://discord.gg/N2m8gKw){:target="_blank"} 🥲. [Sigo pendiente a que saquen la v3 de la API de stat.ink](https:/luiscarlospando.com/nintendo/splatoon/) para poner mis estadísticas del juego aquí en mi sitio.
+- *Splatoon 3* y no más. Atoradísimo tratando de subir a rango S+, el juego me castiga y me dice que no merezco. [Sigo pendiente a que saquen la v3 de la API de stat.ink](https:/luiscarlospando.com/nintendo/splatoon/) para poner mis estadísticas del juego aquí en mi sitio.
 
 [¿Jugamos juntos?](https:/luiscarlospando.com/nintendo/), andamos juntándonos a jugar por las noches (como desde el jueves).
 

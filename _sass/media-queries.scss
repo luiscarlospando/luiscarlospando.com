@@ -36,11 +36,12 @@
         margin: 1.67em 0 -1.4rem;
     }
 
-    #last-toot {
+    #last-toot,
+    #status {
         width: 100%;
         height: auto;
         
-        #toot {
+        #container {
             &::before {
                 border-width: 15px 15px 15px 0;
                 border-color: transparent $cardBgColor transparent transparent;

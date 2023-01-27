@@ -51,11 +51,12 @@
                 transform: scale(1) rotate(0deg);
 }
 
-#last-toot {
+#last-toot,
+#status {
     width: 100%;
     height: auto;
     
-    #toot {
+    #container {
         background-color: $cardBgColor;
         border: 1px solid $componentBorderColor;
         border-radius: .25rem;
@@ -64,6 +65,15 @@
         float: left;
         padding: 15px 15px 14px;
         position: relative;
+
+        .statuslol {
+            display: flex;
+            justify-content: center;
+
+            .statuslol_emoji_container {
+                display: none;
+            }
+        }
 
         p {
             font-size: 11pt;

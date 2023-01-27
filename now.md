@@ -54,7 +54,7 @@ Uso Apple Music para escuchar música en streaming, [este es mi perfil ahí](htt
 Prácticamente empecé el 2023 con *Mellon Collie and the Infinite Sadness*:
 <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:1140px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/mx/album/mellon-collie-and-the-infinite-sadness-deluxe-edition/1455510683?l=en"></iframe>
 
-## 🎙 Podcasts/YuuTube
+## 🎙 Podcasts/YouTube
 
 - [The First Ever Podcast](https://the-first-ever-podcast.libsyn.com/website){:target="_blank"}
 - [Two Minutes To Late Night](https://www.youtube.com/c/TwoMinutesToLateNight){:target="_blank"}

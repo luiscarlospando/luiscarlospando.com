@@ -82,7 +82,8 @@ h6 {
     }
 }
 
-#webmentions {
+#webmentions-likes,
+#webmentions-comments {
     .img-thumbnail {
         max-width: 50px;
         padding: .05rem;

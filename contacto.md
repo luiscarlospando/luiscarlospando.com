@@ -33,14 +33,11 @@ Cuenta automatizada con posts de mi sitio.
 ## <i class="fa-brands fa-discord"></i> Discord
 Mi Discord tag es <a href="{{ site.discord_profile }}" class="badge badge-primary" target="_blank">{{ site.discord_tag }}</a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (feel free to join in!).
 
-## <i class="fa-solid fa-newspaper"></i> Newsletter
-[Suscríbete a mi newsletter][2]{:target="_blank"} para recibir mis posts en tu correo.
+## <i class="fa-solid fa-heart"></i> omg.lol
+Estoy en este divertido espacio llamado [omg.lol][2]{:target="_blank"}.
 
 ## <i class="fa-brands fa-keybase"></i> Keybase
 Este es [mi perfil público en Keybase][10]{:target="_blank"}.
-
-## <i class="fa-brands fa-google"></i> Google Forms
-Si lo prefieres, puedes escribirme por [aquí][9]{:target="_blank"}.
 
 ## <i class="fa-brands fa-itunes-note"></i> Apple Music
 Este es [mi perfil en Apple Music][5]{:target="_blank"}.
@@ -58,7 +55,7 @@ Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquie
 Antes usaba Backloggery para llevar el registro de mi backlog de juegos, ahora uso [Backloggd][11]{:target="_blank"}.
 
 [1]: mailto:{{ site.email }}
-[2]: http://newsletter.{{ site.domain }}
+[2]: https://home.omg.lol/referred-by/mijo
 [3]: https://instagram.com/{{ site.instagram_username }}
 [4]: /mode-7/
 [5]: https://music.apple.com/profile/{{ site.apple_music_username }}

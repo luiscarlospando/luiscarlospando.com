@@ -278,8 +278,8 @@
             $('#ranked-death_per_min-3').append(truncate(data.gachi.death_per_min));
 
             // Current rank
-            $('#ranked-3').append(data.rank_before.name.en_US);
-            console.log(data);
+            $('#ranked-3').append(data[0].rank_before.name.en_US);
+            console.log(data[0]);
         });
 
         // Retrieve system status via Instatus API

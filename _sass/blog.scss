@@ -82,6 +82,13 @@ h6 {
     }
 }
 
+#webmentions {
+    .img-thumbnail {
+        max-width: 50px;
+        padding: .05rem;
+    }
+}
+
 .comments-disclaimer {
     border: 1px solid $transparentGray;
     border-radius: .25rem;

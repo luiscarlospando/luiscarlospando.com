@@ -38,11 +38,7 @@ modified-date: 11/09/2022
 
 <code>Última actualización: <span id="last-updated-3"></span></code>
 
-- Rangos
-    - Rainmaker: <a href="https://stat.ink/@mijo/spl2/stat/gachi?rule=hoko" class="badge badge-dark" target="_blank">Rank <span id="ranked-rainmaker-3"></span></a>
-    - Splat Zones: <a href="https://stat.ink/@mijo/spl2/stat/gachi?rule=area" class="badge badge-dark" target="_blank">Rank <span id="ranked-splat-zones-3"></span></a>
-    - Tower Control: <a href="https://stat.ink/@mijo/spl2/stat/gachi?rule=yagura" class="badge badge-dark" target="_blank">Rank <span id="ranked-tower-control-3"></span></a>
-    - Clam Blitz: <a href="https://stat.ink/@mijo/spl2/stat/gachi?rule=asari" class="badge badge-dark" target="_blank">Rank <span id="ranked-clam-blitz-3"></span></a>
+- Rango: <a href="https://stat.ink/@mijo/spl2/stat/gachi?rule=hoko" class="badge badge-dark" target="_blank">Rank <span id="ranked-3"></span></a>
 
 - Turf War
     - Batallas totales: <span id="turf-battles-3"></span>

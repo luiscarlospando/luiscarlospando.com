@@ -45,7 +45,6 @@ Aquí está el [archivo completo][2] de todos mis posts.
 ## Suscríbete
 
 Puedes suscribirte a mi sitio a través de:
-- [<i class="fas fa-newspaper"></i> Newsletter][48]{:target="_blank"}
 - [<i class="fas fa-rss"></i> RSS][37]{:target="_blank"}
 - [<i class="fa-brands fa-mastodon"></i> Mastodon][38]{:target="_blank"}
 

@@ -9,6 +9,8 @@ import './jquery.mmenu.min.all';
 import './lastfm.jquery';
 import './jquery.rss.min';
 import './prism';
+import './splatoon-2';
+import './splatoon-3';
 import '../components/navigation';
 import '../components/currentlyListening';
 import '../components/backToTop';

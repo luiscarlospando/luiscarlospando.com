@@ -82,18 +82,6 @@ h6 {
     }
 }
 
-#webmentions-likes,
-#webmentions-comments {
-    .img-thumbnail {
-        max-width: 50px;
-        padding: .05rem;
-    }
-}
-
-#webmentions-likes {
-    margin-top: 0;
-}
-
 .comments-disclaimer {
     border: 1px solid $transparentGray;
     border-radius: .25rem;
@@ -105,18 +93,31 @@ h6 {
     float: left;
 }
 
+#webmentions-likes,
+#webmentions-boosts,
+#webmentions-comments {
+    width: 100%;
+    float: left;
+
+    .img-thumbnail {
+        max-width: 50px;
+        padding: .05rem;
+    }
+}
+
+#webmentions-likes,
+#webmentions-boosts {
+    margin-top: 0;
+}
+
 .utterances,
-.tweet-post,
+.share-post,
 .primary_navigation {
     width: 100%;
     float: left;
 }
 
-.utterances {
-    max-width: 100%;
-}
-
-.tweet-post {
+.share-post {
     font-size: 0.916rem;
 
     .card-body {
@@ -142,24 +143,6 @@ p.latest-post {
     text-align: center;
     margin: 20px 0;
 }
-
-// .comments-button-container {
-//     width: 100%;
-//     float: left;
-//     margin: 20px 0 30px;
-//     font-family: 'Poppins', sans-serif;
-
-//     button {
-//         color: #555;
-//         border-color: #adadad;
-
-//         &:hover {
-//             color:#555;
-//             background-color: #e6e6e6;
-//             border-color: #adadad;
-//         }
-//     }
-// }
 
 .footnotes {
     .footnotedivider {

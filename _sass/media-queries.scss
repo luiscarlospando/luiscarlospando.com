@@ -42,8 +42,6 @@
         height: auto;
         
         #container {
-            padding: 15px 15px 14px;
-            
             &::before {
                 border-width: 15px 15px 15px 0;
                 border-color: transparent $cardBgColor transparent transparent;
@@ -61,6 +59,13 @@
 @media (min-width: 992px) {
     .container {
         min-width: 960px !important;
+    }
+
+    #last-toot,
+    #status {
+        #container {
+            padding: 15px 15px 14px;
+        }
     }
 }
 

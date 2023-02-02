@@ -96,12 +96,12 @@
         }
 
         &::after {
-            content: "\f4f6";
+            content: "\f004 vía status.lol";
             color: $transparentGray;
-            font-family: "Font Awesome 5 Brands";
+            font: var(--fa-font-solid);
             position: absolute;
             font-size: 0.8rem;
-            bottom: -1px;
+            bottom: 5px;
             right: 5px;
             font-variant: normal;
             text-rendering: auto;

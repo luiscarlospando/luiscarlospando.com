@@ -27,7 +27,7 @@ modified-date: 25/02/2022
 
 ## <i class="fa-solid fa-gamepad"></i> Modos de Juego
 
-- Todos los jueves @ 9:00 pm CUU / 10:00 pm CDMX
+- Todos los jueves @ 9:00 pm (hora central de México)
 - Reglas
     - 150cc
     - Sin equipos
@@ -63,11 +63,9 @@ Link a mi perfil de Discord:
 [<img class="img-fluid" src="/assets/images/m7gp-2023.png" alt="">][1]{:target="_blank"}
 </div>
 
-## <i class="fa-brands fa-twitter"></i> Twitter
+## <i class="fa-brands fa-mastodon"></i> Mastodon
 
-Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en Twitter][4].
-
-<a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button text-center" data-show-count="false">Follow @{{ site.twitter_username }}</a>
+Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en Mastodon][4].
 
 </div>
 </div>
@@ -80,6 +78,6 @@ Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en 
 [1]: https://discord.gg/U77J5c6
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw
 [3]: https://play.google.com/store/apps/details?id=com.nintendo.znca&gl=us&hl=en
-[4]: https://twitter.com/search?q=%23MK8D%20AND%20%23NintendoSwitch%20from%3A%40{{ site.twitter_username }}
+[4]: https://mastodon.online/@{{ site.mastodon_username }}
 [5]: https://discord.gg/qtT3kPY
 [6]: /mode-7

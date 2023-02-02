@@ -22,7 +22,7 @@ Estos son mis códigos de [<i class="fa-solid fa-link"></i> Discord][1] y [<i cl
 <div class="row">
 <div class="col-6 my-auto">
 [*Mario Kart 8 Deluxe*][4]<br>
-Mode 7 Grand Prix todos los jueves @ 9:00 pm CUU / 10:00 pm CDMX<br>
+Mode 7 Grand Prix todos los jueves @ 9:00 pm (hora central de México)<br>
 <code>Código del torneo: 0746-6549-8155</code><br>
 </div>
 <div class="col-6 my-auto">

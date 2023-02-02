@@ -8,24 +8,6 @@ modified-date: 11/09/2022
 ---
 
 <div class="row">
-<div class="col-12">
-<div class="card text-center">
-<div class="card-header">
-<h5 class="card-title"><i class="fa-solid fa-poll"></i> Mi combate más reciente</h5>
-</div>
-<div class="card-body">
-<h3 class="card-text">
-<span id="splatlog-3"></span>
-</h3>
-</div>
-<div class="card-footer text-muted">
-<span id="last-updated-3"></span>
-</div>
-</div>
-</div>
-</div>
-
-<div class="row">
 <div class="col-sm-6 order-2 order-sm-1">
 
 ## <i class="fa-solid fa-gamepad"></i> Modos que juego

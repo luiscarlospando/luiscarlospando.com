@@ -9,7 +9,7 @@ module.exports = {
         path: path.resolve(__dirname, 'assets/js')
     },
     devtool: "source-map", // preferred in production
-    mode: 'production',
+    mode: 'development',
     module: {
         rules: [
             {

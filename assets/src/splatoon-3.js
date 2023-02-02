@@ -1,6 +1,5 @@
 // Retrieve latest post timestamp from stat.ink via API and fetch link (Splatoon 3)
 $.get('https://stat.ink/@mijo/spl3/index.json', function (data) {
-    console.log(data);
     // Latest match
     $('#splatlog-3').append('<a href="' + data.url + '" target="_blank">' + data.stage.name.en_US + ' ' + data.result + '</a>');
 

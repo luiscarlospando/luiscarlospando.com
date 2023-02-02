@@ -38,39 +38,6 @@ modified-date: 11/09/2022
 
 - Rango: <a href="https://stat.ink/@mijo/spl2/stat/gachi?rule=hoko" class="badge badge-dark" target="_blank">Rank S</a>
 
-- Turf War
-    - Batallas totales: <span id="turf-battles-3"></span>
-    - Porcentaje de ganar: <span id="turf-win_pct-3"></span>%
-    - Kill ratio: <span id="turf-kill_ratio-3"></span>
-    - Kills totales: <span id="turf-kill_total-3"></span>
-    - Promedio de kills: <span id="turf-kill_avg-3"></span>
-    - Kills por minuto: <span id="turf-kill_per_min-3"></span>
-    - Muertes totales: <span id="turf-death_total-3"></span>
-    - Promedio de muertes: <span id="turf-death_avg-3"></span>
-    - Muertes por minuto: <span id="turf-death_per_min-3"></span>
-
-- Anarchy Battles (Open)
-    - Batallas totales: <span id="ranked-battles-3"></span>
-    - Porcentaje de ganar: <span id="ranked-win_pct-3"></span>%
-    - Kill ratio: <span id="ranked-kill_ratio-3"></span>
-    - Kills totales: <span id="ranked-kill_total-3"></span>
-    - Promedio de kills: <span id="ranked-kill_avg-3"></span>
-    - Kills por minuto: <span id="ranked-kill_per_min-3"></span>
-    - Muertes totales: <span id="ranked-death_total-3"></span>
-    - Promedio de muertes: <span id="ranked-death_avg-3"></span>
-    - Muertes por minuto: <span id="ranked-death_per_min-3"></span>
-
-- Anarchy Battles (Series)
-    - Batallas totales: <span id="ranked-battles-3-series"></span>
-    - Porcentaje de ganar: <span id="ranked-win_pct-3-series"></span>%
-    - Kill ratio: <span id="ranked-kill_ratio-3-series"></span>
-    - Kills totales: <span id="ranked-kill_total-3-series"></span>
-    - Promedio de kills: <span id="ranked-kill_avg-3-series"></span>
-    - Kills por minuto: <span id="ranked-kill_per_min-3-series"></span>
-    - Muertes totales: <span id="ranked-death_total-3-series"></span>
-    - Promedio de muertes: <span id="ranked-death_avg-3-series"></span>
-    - Muertes por minuto: <span id="ranked-death_per_min-3-series"></span>
-
 ## <i class="fa-solid fa-circle-info"></i> Información
 
 - Únete a [Mode 7 (#splatoon)][1]{:target="_blank"} en Discord para recibir updates y notificaciones de todas las personas que jugamos

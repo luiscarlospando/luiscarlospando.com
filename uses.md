@@ -1,7 +1,7 @@
 ---
 layout: uses
 title: Uses
-description: Este es una lista de lo que uso diariamente. Me gusta descubrir y probar nuevas apps para mejorar mi productividad. ¿Tienes alguna sugerencia?
+description: Este es una lista de las cosas que uso diariamente. Me gusta descubrir y probar nuevas apps para mejorar mi productividad. ¿Tienes alguna sugerencia?
 image: /assets/images/logo.png
 permalink: /uses/
 modified-date: 6/02/2023
@@ -13,6 +13,6 @@ modified-date: 6/02/2023
 </div>
 </div>
 
-Este es una lista de lo que uso diariamente. Me gusta descubrir y probar nuevas apps para mejorar mi productividad. ¿Tienes alguna [sugerencia][1]?
+Este es una lista de las cosas que uso diariamente. Me gusta descubrir y probar nuevas apps para mejorar mi productividad. ¿Tienes alguna [sugerencia][1]?
 
 [1]: /contacto/

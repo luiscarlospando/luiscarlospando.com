@@ -24,6 +24,10 @@
             margin-bottom: 0;
         }
     }
+
+    .app-icon {
+        max-width: 60%;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -53,6 +57,10 @@
             }
         }
     }
+
+    .app-icon {
+        max-width: 40%;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -66,6 +74,10 @@
         #container {
             padding: 15px 15px 14px;
         }
+    }
+
+    .app-icon {
+        max-width: 50%;
     }
 }
 

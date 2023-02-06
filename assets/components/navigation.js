@@ -185,9 +185,9 @@ var Navigation = function (_React$Component) {
                         null,
                         React.createElement(
                             "a",
-                            { href: "https://luiscarlospando.com/tools/" },
+                            { href: "https://luiscarlospando.com/uses/" },
                             React.createElement("i", { "class": "fa-solid fa-wrench" }),
-                            " Tools"
+                            " Uses"
                         )
                     ),
                     React.createElement(

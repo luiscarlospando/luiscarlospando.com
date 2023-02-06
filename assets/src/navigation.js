@@ -28,7 +28,7 @@ class Navigation extends React.Component {
                     <li><a href="https://luiscarlospando.com/contacto/"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
                     <li><a href="https://luiscarlospando.com/developer/"><i class="fa-solid fa-code"></i> Development Stuff</a></li>
                     <li><a href="https://luiscarlospando.com/now/"><i class="fa-solid fa-clock"></i> Now</a></li>
-                    <li><a href="https://luiscarlospando.com/tools/"><i class="fa-solid fa-wrench"></i> Tools</a></li>
+                    <li><a href="https://luiscarlospando.com/uses/"><i class="fa-solid fa-wrench"></i> Uses</a></li>
                     <li>
                         <a href="https://luiscarlospando.com/mode-7/"><i class="fa-brands fa-discord"></i> Mode 7</a>
                         <ul>

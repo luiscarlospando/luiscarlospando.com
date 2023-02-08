@@ -9,6 +9,7 @@ import './jquery.mmenu.min.all';
 import './lastfm.jquery';
 import './jquery.rss.min';
 import './prism';
+import './shareToMastodon';
 import '../components/navigation';
 import '../components/currentlyListening';
 import '../components/backToTop';

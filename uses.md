@@ -15,4 +15,7 @@ modified-date: 6/02/2023
 
 Este es una lista de las cosas que uso diariamente. Me gusta descubrir y probar nuevas apps para mejorar mi productividad. ¿Tienes alguna [sugerencia][1]?
 
+Pst, pst... [Así mero se ve mi dock ahorita][2]. 😉
+
 [1]: /contacto/
+[2]: https://www.dockhunt.com/users/mijo

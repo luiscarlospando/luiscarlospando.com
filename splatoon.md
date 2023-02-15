@@ -34,7 +34,7 @@ modified-date: 11/09/2022
 
 <div class="text-center mt20">
 <a href="https://discord.gg/NUSDKeJ" target="_blank">
-[<img class="img-fluid" src="/assets/images/splatoon-3-flyer.png" alt="" />][1]{:target="_blank"}
+[<img class="img-fluid" src="/assets/images/splatoon-3-flyer.png" alt="" loading="lazy" />][1]{:target="_blank"}
 </a>
 </div>
 

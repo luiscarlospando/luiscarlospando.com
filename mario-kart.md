@@ -60,7 +60,7 @@ Link a mi perfil de Discord:
 ## <i class="fa-solid fa-flag-checkered"></i> Mario Kart 8 @ Mode 7
 
 <div class="text-center mt20">
-[<img class="img-fluid" src="/assets/images/m7gp-2023.png" alt="">][1]{:target="_blank"}
+[<img class="img-fluid" src="/assets/images/m7gp-2023.png" alt="" loading="lazy" />][1]{:target="_blank"}
 </div>
 
 ## <i class="fa-brands fa-mastodon"></i> Mastodon

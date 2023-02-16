@@ -15,7 +15,7 @@ Mi correo electrónico es <code>{{ site.email }}</code>.<br>
 </a>
 
 ## <i class="fa-brands fa-mastodon"></i> Mastodon
-<a rel="me" href="https://mastodon.online/@{{ site.mastodon_username }}" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_username }} en Mastodon" target="_blank">
+<a rel="me" href="{{ site.mastodon_url }}" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_username }} en Mastodon" target="_blank">
 <i class="fa-brands fa-mastodon"></i> Seguir a @{{ site.mastodon_username }}
 </a>
 

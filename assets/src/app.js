@@ -10,7 +10,7 @@ import './lastfm.jquery';
 import './jquery.rss.min';
 import './prism';
 import './shareToMastodon';
-import '../components/navigation';
-import '../components/currentlyListening';
-import '../components/backToTop';
+import './navigation'; // react component
+import './currentlyListening'; // react component
+import './backToTop'; // react component
 import './general';

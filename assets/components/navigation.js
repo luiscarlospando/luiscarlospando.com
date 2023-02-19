@@ -1,280 +1,220 @@
-'use strict';
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+function NavigationButton({url = 'https://luiscarlospando.com/', icon, text}) {
+    return (
+        <a href={url}>
+            <i class={icon}></i> {text}
+        </a>
+  );
+}
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Navigation = function (_React$Component) {
-    _inherits(Navigation, _React$Component);
-
-    function Navigation(props) {
-        _classCallCheck(this, Navigation);
-
-        return _possibleConstructorReturn(this, (Navigation.__proto__ || Object.getPrototypeOf(Navigation)).call(this, props));
+function Navigation() {
+    const sitePermalinks = {
+        contacto: 'https://luiscarlospando.com/contacto/',
+        development: 'https://luiscarlospando.com/developer/',
+        now: 'https://luiscarlospando.com/now/',
+        uses: 'https://luiscarlospando.com/uses/',
+        mode7: 'https://luiscarlospando.com/mode-7/',
+        nintendo: 'https://luiscarlospando.com/nintendo/',
+        marioKart: 'https://luiscarlospando.com/nintendo/mario-kart/',
+        splatoon: 'https://luiscarlospando.com/nintendo/splatoon/',
+        live: 'https://luiscarlospando.com/live/',
+        acercaDe: 'https://luiscarlospando.com/acerca-de/',
     }
 
-    _createClass(Navigation, [{
-        key: "render",
-        value: function render() {
-            return React.createElement(
-                "nav",
-                { id: "menu" },
-                React.createElement(
-                    "ul",
-                    null,
-                    React.createElement(
-                        "li",
-                        null,
-                        React.createElement(
-                            "a",
-                            { href: "https://luiscarlospando.com/" },
-                            React.createElement("i", { "class": "fa-solid fa-house" }),
-                            " Inicio"
-                        )
-                    ),
-                    React.createElement(
-                        "li",
-                        null,
-                        React.createElement(
-                            "a",
-                            { href: "https://blog.luiscarlospando.com/" },
-                            React.createElement("i", { "class": "fa-solid fa-comment" }),
-                            " Blog"
-                        ),
-                        React.createElement(
-                            "ul",
-                            null,
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "https://blog.luiscarlospando.com/personal/" },
-                                    React.createElement("i", { "class": "fa-solid fa-user" }),
-                                    " Personal"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "https://blog.luiscarlospando.com/musica/" },
-                                    React.createElement("i", { "class": "fa-solid fa-music" }),
-                                    " M\xFAsica"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "https://blog.luiscarlospando.com/gaming/" },
-                                    React.createElement("i", { "class": "fa-solid fa-gamepad" }),
-                                    " Gaming"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "https://blog.luiscarlospando.com/tech/" },
-                                    React.createElement("i", { "class": "fa-solid fa-computer" }),
-                                    " Tech"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "https://blog.luiscarlospando.com/coding/" },
-                                    React.createElement("i", { "class": "fa-solid fa-code" }),
-                                    " Coding"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "https://blog.luiscarlospando.com/diseno/" },
-                                    React.createElement("i", { "class": "fa-solid fa-pen-ruler" }),
-                                    " Dise\xF1o"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "https://blog.luiscarlospando.com/todo-lo-demas/" },
-                                    React.createElement("i", { "class": "fa-solid fa-arrow-pointer" }),
-                                    " Todo lo dem\xE1s"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "https://blog.luiscarlospando.com/author/me/" },
-                                    React.createElement("i", { "class": "fa-solid fa-folder-open" }),
-                                    " Archivos del blog"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "https://blog.luiscarlospando.com/hashtags/" },
-                                    React.createElement("i", { "class": "fa-solid fa-hashtag" }),
-                                    " Explorar por hashtag"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "https://blog.luiscarlospando.com/rss/" },
-                                    React.createElement("i", { "class": "fa-solid fa-square-rss" }),
-                                    " RSS"
-                                )
-                            )
-                        )
-                    ),
-                    React.createElement(
-                        "li",
-                        null,
-                        React.createElement(
-                            "a",
-                            { href: "https://luiscarlospando.com/contacto/" },
-                            React.createElement("i", { "class": "fa-solid fa-envelope" }),
-                            " Contacto"
-                        )
-                    ),
-                    React.createElement(
-                        "li",
-                        null,
-                        React.createElement(
-                            "a",
-                            { href: "https://luiscarlospando.com/developer/" },
-                            React.createElement("i", { "class": "fa-solid fa-code" }),
-                            " Development Stuff"
-                        )
-                    ),
-                    React.createElement(
-                        "li",
-                        null,
-                        React.createElement(
-                            "a",
-                            { href: "https://luiscarlospando.com/now/" },
-                            React.createElement("i", { "class": "fa-solid fa-clock" }),
-                            " Now"
-                        )
-                    ),
-                    React.createElement(
-                        "li",
-                        null,
-                        React.createElement(
-                            "a",
-                            { href: "https://luiscarlospando.com/uses/" },
-                            React.createElement("i", { "class": "fa-solid fa-wrench" }),
-                            " Uses"
-                        )
-                    ),
-                    React.createElement(
-                        "li",
-                        null,
-                        React.createElement(
-                            "a",
-                            { href: "https://luiscarlospando.com/mode-7/" },
-                            React.createElement("i", { "class": "fa-brands fa-discord" }),
-                            " Mode 7"
-                        ),
-                        React.createElement(
-                            "ul",
-                            null,
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "https://blog.luiscarlospando.com/hashtag/mode-7-podcast/" },
-                                    React.createElement("i", { "class": "fa-solid fa-podcast" }),
-                                    " Mode 7 Podcast"
-                                )
-                            )
-                        )
-                    ),
-                    React.createElement(
-                        "li",
-                        null,
-                        React.createElement(
-                            "a",
-                            { href: "https://luiscarlospando.com/nintendo/" },
-                            React.createElement("i", { "class": "fa-solid fa-gamepad" }),
-                            " Nintendo"
-                        ),
-                        React.createElement(
-                            "ul",
-                            null,
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "https://luiscarlospando.com/nintendo/mario-kart/" },
-                                    React.createElement("i", { "class": "fa-solid fa-gamepad" }),
-                                    " Mario Kart 8 Deluxe (Mode 7 Grand Prix)"
-                                )
-                            ),
-                            React.createElement(
-                                "li",
-                                null,
-                                React.createElement(
-                                    "a",
-                                    { href: "https://luiscarlospando.com/nintendo/splatoon/" },
-                                    React.createElement("i", { "class": "fa-solid fa-gamepad" }),
-                                    " Splatoon 3"
-                                )
-                            )
-                        )
-                    ),
-                    React.createElement(
-                        "li",
-                        null,
-                        React.createElement(
-                            "a",
-                            { href: "https://luiscarlospando.com/live/" },
-                            React.createElement("i", { "class": "fa-solid fa-video" }),
-                            " Live"
-                        )
-                    ),
-                    React.createElement(
-                        "li",
-                        null,
-                        React.createElement(
-                            "a",
-                            { href: "https://luiscarlospando.com/acerca-de/" },
-                            React.createElement("i", { "class": "fa-solid fa-circle-info" }),
-                            " Acerca de"
-                        )
-                    )
-                )
-            );
-        }
-    }]);
+    const blogPermalinks = {
+        blog: 'https://blog.luiscarlospando.com/',
+        personal: 'https://blog.luiscarlospando.com/personal/',
+        musica: 'https://blog.luiscarlospando.com/musica/',
+        gaming: 'https://blog.luiscarlospando.com/gaming/',
+        tech: 'https://blog.luiscarlospando.com/tech/',
+        coding: 'https://blog.luiscarlospando.com/coding/',
+        diseno: 'https://blog.luiscarlospando.com/diseno/',
+        todoLoDemas: 'https://blog.luiscarlospando.com/todo-lo-demas/',
+        archivos: 'https://blog.luiscarlospando.com/author/me/',
+        hashtags: 'https://blog.luiscarlospando.com/hashtags',
+        rss: 'https://blog.luiscarlospando.com/rss',
+        mode7Podcast: 'https://blog.luiscarlospando.com/hashtag/mode-7-podcast/',
+    }
 
-    return Navigation;
-}(React.Component);
+    return (
+        <nav id="menu">
+            <ul>
+                <li>
+                    <NavigationButton
+                        icon="fa-solid fa-house"
+                        text="Inicio"
+                    />
+                </li>
+                <li>
+                    <NavigationButton
+                        url={blogPermalinks.blog}
+                        icon="fa-solid fa-comment"
+                        text="Blog"
+                    />
+                    <ul>
+                        <li>
+                            <NavigationButton
+                                url={blogPermalinks.personal}
+                                icon="fa-solid fa-user"
+                                text="Personal"
+                            />
+                        </li>
+                        <li>
+                            <NavigationButton
+                                url={blogPermalinks.musica}
+                                icon="fa-solid fa-music"
+                                text="Música"
+                            />
+                        </li>
+                        <li>
+                            <NavigationButton
+                                url={blogPermalinks.gaming}
+                                icon="fa-solid fa-gamepad"
+                                text="Gaming"
+                            />
+                        </li>
+                        <li>
+                            <NavigationButton
+                                url={blogPermalinks.tech}
+                                icon="fa-solid fa-computer"
+                                text="Tech"
+                            />
+                        </li>
+                        <li>
+                            <NavigationButton
+                                url={blogPermalinks.coding}
+                                icon="fa-solid fa-code"
+                                text="Coding"
+                            />
+                        </li>
+                        <li>
+                            <NavigationButton
+                                url={blogPermalinks.diseno}
+                                icon="fa-solid fa-pen-ruler"
+                                text="Diseño"
+                            />
+                        </li>
+                        <li>
+                            <NavigationButton
+                                url={blogPermalinks.todoLoDemas}
+                                icon="fa-solid fa-arrow-pointer"
+                                text="Todo lo demás"
+                            />
+                        </li>
+                        <li>
+                            <NavigationButton
+                                url={blogPermalinks.archivos}
+                                icon="fa-solid fa-folder-open"
+                                text="Archivos del blog"
+                            />
+                        </li>
+                        <li>
+                            <NavigationButton
+                                url={blogPermalinks.hashtags}
+                                icon="fa-solid fa-hashtag"
+                                text="Explorar por hashtag"
+                            />
+                        </li>
+                        <li>
+                            <NavigationButton
+                                url={blogPermalinks.rss}
+                                icon="fa-solid fa-square-rss"
+                                text="RSS"
+                            />
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <NavigationButton
+                        url={sitePermalinks.contacto}
+                        icon="fa-solid fa-envelope"
+                        text="Contacto"
+                    />
+                </li>
+                <li>
+                    <NavigationButton
+                        url={sitePermalinks.development}
+                        icon="fa-solid fa-code"
+                        text="Development Stuff"
+                    />
+                </li>
+                <li>
+                    <NavigationButton
+                        url={sitePermalinks.now}
+                        icon="fa-solid fa-clock"
+                        text="Now"
+                    />
+                </li>
+                <li>
+                    <NavigationButton
+                        url={sitePermalinks.uses}
+                        icon="fa-solid fa-wrench"
+                        text="Uses"
+                    />
+                </li>
+                <li>
+                    <NavigationButton
+                        url={sitePermalinks.mode7}
+                        icon="fa-brands fa-discord"
+                        text="Mode 7"
+                    />
+                    <ul>
+                        <li>
+                            <NavigationButton
+                                url={blogPermalinks.mode7Podcast}
+                                icon="fa-solid fa-podcast"
+                                text="Mode 7 Podcast"
+                            />
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <NavigationButton
+                        url={sitePermalinks.nintendo}
+                        icon="fa-solid fa-gamepad"
+                        text="Nintendo"
+                    />
+                    <ul>
+                        <li>
+                            <NavigationButton
+                                url={sitePermalinks.marioKart}
+                                icon="fa-solid fa-gamepad"
+                                text="Mario Kart 8 Deluxe (Mode 7 Grand Prix)"
+                            />
+                        </li>
+                        <li>
+                            <NavigationButton
+                                url={sitePermalinks.splatoon}
+                                icon="fa-solid fa-gamepad"
+                                text="Splatoon 3"
+                            />
+                            <a href="https://luiscarlospando.com/nintendo/splatoon/">
+                                <i class="fa-solid fa-gamepad"></i> Splatoon 3
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <NavigationButton
+                        url={sitePermalinks.live}
+                        icon="fa-solid fa-video"
+                        text="Live"
+                    />
+                </li>
+                <li>
+                    <NavigationButton
+                        url={sitePermalinks.acercaDe}
+                        icon="fa-solid fa-circle-info"
+                        text="Acerca de"
+                    />
+                </li>
+            </ul>
+        </nav>
+    );
+}
 
-var navigationDOM = document.querySelector('#navigation');
-ReactDOM.render(React.createElement(Navigation, null), navigationDOM);
+const container = document.querySelector('#navigation');
+const root = createRoot(container);
+root.render(<Navigation />);

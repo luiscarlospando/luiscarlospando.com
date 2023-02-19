@@ -1,16 +1,13 @@
-'use strict';
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 
-class CurrentlyListening extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+function CurrentlyListening(_ref) {
+    var _ref$lastfmId = _ref.lastfmId,
+        lastfmId = _ref$lastfmId === undefined ? 'lastfm' : _ref$lastfmId;
 
-    render() {
-        return (
-            <div id="lastfm"></div>
-        );
-    }
+    return React.createElement('div', { id: lastfmId });
 }
 
-let currentlyListeningDOM = document.querySelector('#currently-listening');
-ReactDOM.render(<CurrentlyListening />, currentlyListeningDOM);
+var container = document.querySelector('#currently-listening');
+var root = createRoot(container);
+root.render(React.createElement(CurrentlyListening, null));

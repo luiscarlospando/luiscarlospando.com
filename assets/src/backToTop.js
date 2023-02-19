@@ -1,16 +1,21 @@
-'use strict';
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 
-class BackToTop extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+function BackToTop(_ref) {
+    var _ref$className = _ref.className,
+        className = _ref$className === undefined ? "cd-top" : _ref$className,
+        _ref$btnText = _ref.btnText,
+        btnText = _ref$btnText === undefined ? 'Top' : _ref$btnText,
+        _ref$href = _ref.href,
+        href = _ref$href === undefined ? '#0' : _ref$href;
 
-    render() {
-        return (
-            <a href="#0" class="cd-top">Top</a>
-        );
-    }
+    return React.createElement(
+        'a',
+        { href: href, className: className },
+        btnText
+    );
 }
 
-let backToTopDOM = document.querySelector('#back-to-top');
-ReactDOM.render(<BackToTop />, backToTopDOM);
+var container = document.querySelector('#back-to-top');
+var root = createRoot(container);
+root.render(React.createElement(BackToTop, null));

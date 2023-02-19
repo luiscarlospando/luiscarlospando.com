@@ -247,13 +247,7 @@ function Navigation() {
                             url: sitePermalinks.splatoon,
                             icon: 'fa-solid fa-gamepad',
                             text: 'Splatoon 3'
-                        }),
-                        React.createElement(
-                            'a',
-                            { href: 'https://luiscarlospando.com/nintendo/splatoon/' },
-                            React.createElement('i', { 'class': 'fa-solid fa-gamepad' }),
-                            ' Splatoon 3'
-                        )
+                        })
                     )
                 )
             ),

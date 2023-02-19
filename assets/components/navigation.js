@@ -190,9 +190,6 @@ function Navigation() {
                                 icon="fa-solid fa-gamepad"
                                 text="Splatoon 3"
                             />
-                            <a href="https://luiscarlospando.com/nintendo/splatoon/">
-                                <i class="fa-solid fa-gamepad"></i> Splatoon 3
-                            </a>
                         </li>
                     </ul>
                 </li>

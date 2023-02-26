@@ -18,7 +18,7 @@ modified-date: 11/09/2022
 
 ## <i class="fa-solid fa-chart-column"></i> Mis stats
 
-- Rango: <a href="https://stat.ink/@mijo/spl2/stat/gachi?rule=hoko" class="badge badge-dark" target="_blank">Rank S+0</a>
+- Rango: <a href="https://stat.ink/@mijo/spl2/stat/gachi?rule=hoko" class="badge badge-dark" target="_blank">Rank S+1</a>
 
 ## <i class="fa-solid fa-circle-info"></i> Información
 

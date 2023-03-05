@@ -109,9 +109,13 @@ blockquote {
     font-family: 'Raleway', sans-serif;
     margin: 30px 40px;
     padding: 10px 20px;
-    font-size: 22px;
+    font-size: 1.375rem !important;
     border-left: 5px solid $sixthColor;
     line-height: 1.4em;
+
+    cite {
+        font-size: 1.1rem !important;
+    }
 }
 
 .h1,

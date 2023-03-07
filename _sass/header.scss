@@ -22,7 +22,7 @@
     &:hover + #logo-blur,
     &:focus + #logo-blur {
         -webkit-filter: blur(20px);
-            filter: blur(20px);
+                filter: blur(20px);
         -webkit-transform: scale(1) rotate(0deg);
             -ms-transform: scale(1) rotate(0deg);
                 transform: scale(1) rotate(0deg);
@@ -46,9 +46,9 @@
     -webkit-transition : -webkit-filter 250ms linear;
     -webkit-filter: blur(0);
             filter: blur(0);
-        -webkit-transform: scale(1) rotate(0deg);
-            -ms-transform: scale(1) rotate(0deg);
-                transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+        -ms-transform: scale(1) rotate(0deg);
+            transform: scale(1) rotate(0deg);
 }
 
 #last-toot,

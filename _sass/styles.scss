@@ -47,8 +47,7 @@ a {
     outline: 0 !important;
     @include transition;
 
-    &:hover,
-    &:focus {
+    &:hover {
         color: $hoverColor;
         text-decoration: underline;
         text-decoration-color: $underlineColor;

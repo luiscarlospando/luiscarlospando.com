@@ -328,8 +328,8 @@ footer {
     top: 0;
     left: 0;
     width: 100%;
-    height: 56px;
-    padding: 0 15px;
+    height: auto;
+    padding: 12px 15px;
     font-size: 1rem;
     line-height: 0;
     z-index: 1;
@@ -338,10 +338,8 @@ footer {
     #burger-btn {
         color: $mainColor;
         font-size: 2rem;
-        position: absolute;
+        position: relative;
         z-index: 2;
-        top: 12px;
-        left: 15px;
 
         &:hover {
             color: $sixthColor;

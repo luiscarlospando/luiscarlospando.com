@@ -46,14 +46,15 @@ Uso Apple Music para escuchar música en streaming, [este es mi perfil ahí](htt
 - Boygenius
 - Y más, mucho más...
 
-Usando Reddit se me desbloqueó un recuerdo, alguien compartió el video de *If Tragedy's Appealing, Then DIsaster's an Addiction* de Moneen. No recordaba lo mucho que me gustaba esta banda. Tenía añales sin escucharlos, de repente desaparecieron de mi radar.
+Usando Reddit se me desbloqueó un recuerdo, alguien compartió el video de *If Tragedy's Appealing, Then Disaster's An Addiction* de Moneen. No recordaba lo mucho que me gustaba esta banda. Tenía añales sin escucharlos, de repente desaparecieron de mi radar.
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:1140px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/mx/album/if-tragedys-appealing-then-disasters-an-addiction/1176757641?i=1176757701&l=en"></iframe>
 
 
 ## 🎙 Podcasts/YouTube
 
-- [The First Ever Podcast](https://the-first-ever-podcast.libsyn.com/website){:target="_blank"}
-- [Two Minutes To Late Night](https://www.youtube.com/c/TwoMinutesToLateNight){:target="_blank"}
+He estado escuchando:
+
+- Nada por el momento.
 
 ## 🎮 Videojuegos
 

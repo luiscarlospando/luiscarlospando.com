@@ -329,18 +329,17 @@ footer {
     left: 0;
     width: 100%;
     height: auto;
-    padding: 28px 15px;
-    // padding: 12px 15px 8px;
+    padding: 015px;
     font-size: 1rem;
     line-height: 0;
     z-index: 1;
-    text-align: center;
     @include transition;
 
     #burger-btn {
         color: $mainColor;
         font-size: 2rem;
         position: absolute;
+        z-index: 2;
         top: 12px;
         left: 15px;
 

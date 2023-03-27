@@ -4,7 +4,7 @@ title: Now
 description: Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.
 image: /assets/images/logo.png
 permalink: /now/
-modified-date: 26 de enero, 2023
+modified-date: 27 de marzo, 2023
 ---
 
 <div class="card last-updated mt-3 text-center">
@@ -17,42 +17,38 @@ modified-date: 26 de enero, 2023
 
 ## 👦🏻 Vida personal
 
-Rato sin reportarme aquí, vaya que han pasado cosas. A finales del año pasado [la esposa](https://instragram.com/primitivegirl){:target="_blank"} y yo nos fuimos de viaje a Suecia para su graduación en la Universidad de Estocolmo y aprovechando el viaje nos fuimos a conocer Dinamarca (la capital Copenhague). Todo muy bonito, sin duda unas vacaciones de las que sencillamente nos quedan muy bonitos recuerdos. Tomé muchas fotos, todas las tengo en iCloud. De repente pongo una que otra en [Instagram](https://instagram.com/luiscarlospando){:target="_blank"}. 📷
+Muchas cosas han pasado este año, no he tenido mucho tiempo de pensar en actualizar mi página Now. La verdad es que ando muy triste y ando pasando por una situación bastante difícil para mi, de la cual no quisiera hablar por aquí. Pero bueno, estoy trabajando en cambiar todo esto, solo espero poder hacerlo, ser constante y seguir luchando. Ahorita lo que necesito es positividad, si llegas a leer esto, puedes [mandarme un mensaje de ánimo](https://luiscarlospando.com/contacto) o algo así, porque realmente lo necesito. 😔
 
 ### 📝 To-dos
 
-- 🚶 No hemos salido a caminar/hacer ejercicio en un buen rato, estamos en modo hibernación.
+- 🙇 Trabajar en mi mismo, aprender a quererme y a aceptarme.
 
-- 🚿🚽 La esposa y yo traemos el propósito de remodelar los baños de la casa, esperamos concretarlo ya este año.
+- 🩺 Continuar yendo a terapia.
 
-- ⚛️ Traigo el propósito de aprender bien, bien [React](https://reactjs.org/){:target="_blank"}, con el objetivo de poder conseguir un mejor trabajo. Y para ayudarme con eso compré [The Joy of React](https://www.joyofreact.com/){:target="_blank"}, el que creo yo es el mejor curso de React out there y pues ya le estoy dando en mis ratos libres. Muy chido hasta ahorita.
+- 📖 Seguir estudiando React.
 
 ## 💼 Trabajo
 
-He recibido noticias no muy alentadoras en mi actual trabajo (el cual disfruto mucho y no doy por sentado), pero si han pasado algunas situaciones que me tienen algo triste y desanimado. Yo solo sigo dando lo mejor de mi, esperando que la situación mejore. El tiempo a ver qué nos dice.
+No hay muchas novedades en mi trabajo, gracias a Dios sigue habiendo y por ello estoy muy, muy agradecido. 🙏
 
 ## 💻 Tech
-- Desinstalé la app [MonitorControl](https://github.com/MonitorControl/MonitorControl){:target="_blank"} de mi Mac ya que desde que compré el Apple Studio Display 🥰 me empezó a dar problemas y sinceramente ya no era necesario tenerla instalada.
 
-- Y pues, muy feliz la verdad con mi nuevo monitor, el tamaño es perfecto, la resolución es 5K y los colores se ven súper bien (aunque no tanto como la pantalla XDR de mi Mac), funciona perfectamente con la Mac y el diseño industrial es hermoso. Estoy muy contento.
-
-- Cada día encuentro nuevas maneras de mejorar mi forma de trabajar con [Raycast](https://www.raycast.com/){:target="_blank"}, siempre me sorprendo y honestamente no hay app en la Mac que se le parezca o simplemente se le acerque.
-
-- Quité Twitter de mis dispositivos, ya no le encuentro honestamente ningún uso y con las nuevas medidas que ha tomado Elon Musk, el hecho de restringir el API y bloquear apps de terceros fue la gota que derramó el vaso para mi. Ahora estoy 100% en [Mastodon](https://mastodon.online/@mijo){:target="_blank"}.
+- Honestamente no tengo mucho tiempo para pensar en tendencias, apps y todo esto. De hecho estoy escribiendo esto desde mi Mac viejita.
 
 ## 🎶 Música
 Uso Apple Music para escuchar música en streaming, [este es mi perfil ahí](https://music.apple.com/profile/luiscarlospando){:target="_blank"} por si quieres seguirme. Esto es algo de lo que he estado escuchando últimamente:
 
-- ABBA
-- Elliot Smith
+- Moneen
 - Soccer Mommy
-- Deseos Primitivos
-- The Smashing Pumpkins
-- Power Trip
+- Hatchie
+- Weyes Blood
+- NOFX
+- Boygenius
 - Y más, mucho más...
 
-Prácticamente empecé el 2023 con *Mellon Collie and the Infinite Sadness*:
-<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:1140px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/mx/album/mellon-collie-and-the-infinite-sadness-deluxe-edition/1455510683?l=en"></iframe>
+Usando Reddit se me desbloqueó un recuerdo, alguien compartió el video de *If Tragedy's Appealing, Then DIsaster's an Addiction* de Moneen. No recordaba lo mucho que me gustaba esta banda. Tenía añales sin escucharlos, de repente desaparecieron de mi radar.
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:1140px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/mx/album/if-tragedys-appealing-then-disasters-an-addiction/1176757641?i=1176757701&l=en"></iframe>
+
 
 ## 🎙 Podcasts/YouTube
 
@@ -63,9 +59,7 @@ Prácticamente empecé el 2023 con *Mellon Collie and the Infinite Sadness*:
 
 He estado jugando:
 
-- *Splatoon 3* y no más. Atoradísimo tratando de subir a rango S+, el juego me castiga y me dice que no merezco. [Sigo pendiente a que saquen la v3 de la API de stat.ink](https:/luiscarlospando.com/nintendo/splatoon/) para poner mis estadísticas del juego aquí en mi sitio.
-
-[¿Jugamos juntos?](https:/luiscarlospando.com/nintendo/), andamos juntándonos a jugar por las noches (como desde el jueves).
+- Nada por el momento.
 
 ---
 

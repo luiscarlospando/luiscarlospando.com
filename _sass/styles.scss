@@ -189,6 +189,11 @@ footer {
     opacity: 0;
 }
 
+header {
+    position: relative;
+    z-index: 2;
+}
+
 .card {
     background-color: $cardBgColor;
     border: none;

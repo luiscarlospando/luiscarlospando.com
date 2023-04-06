@@ -322,11 +322,13 @@ footer {
 }
 
 .nav-container {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 52px;
     padding: 12px 15px;
     font-size: 1rem;
     line-height: 0;
@@ -337,7 +339,8 @@ footer {
     #burger-btn {
         color: $mainColor;
         font-size: 2rem;
-        position: relative;
+        position: absolute;
+        left: 16px;
         z-index: 2;
 
         &:hover {

@@ -333,7 +333,7 @@ footer {
     font-size: 1rem;
     line-height: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     @include transition;
 
     #burger-btn {
@@ -344,7 +344,6 @@ footer {
         height: 32px;
         position: absolute;
         left: 16px;
-        z-index: 2;
 
         &:hover {
             color: $sixthColor;

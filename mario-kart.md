@@ -14,9 +14,7 @@ modified-date: 25/02/2022
 <h5 class="card-title"><i class="fa-solid fa-gamepad"></i> Código del torneo</h5>
 </div>
 <div class="card-body">
-<h3 class="card-text">
-0746-6549-8155
-</h3>
+#### <code>0746-6549-8155</code>
 </div>
 </div>
 </div>

@@ -7,7 +7,7 @@ permalink: /privacidad/
 modified-date: 16/01/2023
 ---
 
-<div class="card last-updated mt-3 text-center">
+<div class="card last-updated my-3 text-center">
 <div class="card-body rounded">
 #### <code>Última actualización: {{ page.modified-date }}</code>
 </div>

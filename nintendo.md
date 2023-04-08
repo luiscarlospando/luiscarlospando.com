@@ -86,7 +86,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche<br>
 
 <div class="col-12 col-lg-6 my-auto">
 
-<div class="card text-center mb-3" id="nintendo-switch">
+<div class="card text-center" id="nintendo-switch">
 <div class="card-header">
 <h5 class="card-title"><i class="fa-solid fa-gamepad"></i> Nintendo Switch</h5>
 </div>

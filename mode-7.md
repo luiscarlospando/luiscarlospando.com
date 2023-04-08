@@ -17,7 +17,7 @@ permalink: /mode-7/
 
 <div class="row">
 <div class="col-12">
-<div class="card text-center">
+<div class="card my-3 text-center">
 <div class="card-header">
 <h5 class="card-title"><i class="fa-solid fa-podcast"></i> Mode 7 Podcast <small>(episodio más reciente)</small></h5>
 </div>

@@ -7,7 +7,7 @@ permalink: /now/
 modified-date: 27 de marzo, 2023
 ---
 
-<div class="card last-updated mt-3 text-center">
+<div class="card last-updated my-3 text-center">
 <div class="card-body rounded">
 #### <code>Última actualización:</code> [{{ page.modified-date }}](https://github.com/luiscarlospando/luiscarlospando.com/commits/master/now.md) desde Chihuahua, México
 </div>

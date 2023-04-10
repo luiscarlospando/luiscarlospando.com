@@ -343,6 +343,7 @@ footer {
         width: 28px;
         height: 32px;
         position: absolute;
+        z-index: 4;
         left: 16px;
 
         &:hover {
@@ -396,7 +397,7 @@ footer {
 }
 
  .cd-top {
-    display: inline-block;
+    display: block;
     height: 40px;
     width: 40px;
     position: fixed;

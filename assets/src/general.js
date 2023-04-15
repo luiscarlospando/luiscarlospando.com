@@ -27,7 +27,7 @@
                 "search": false
             },
             dragOpen: {
-                open: false
+                open: true
             }
         });
 
@@ -37,6 +37,13 @@
                 window.location.href = 'https://blog.luiscarlospando.com/?s=' + $(this).val();
             }
         });
+
+        // Remove the focus on burger button
+        const burgerBtn = document.getElementById("burger-btn");
+
+        burgerBtn.addEventListener("click", () => {
+            burgerBtn.blur(); // Removes the focus
+        })
 
         // Add Animate.css
         const header = document.querySelector('header');

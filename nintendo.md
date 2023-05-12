@@ -46,7 +46,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche<br>
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
-*The Legend of Zelda: Tears of the Kingdom*
+*The Legend of Zelda: Tears of the Kingdom*<br>
 *Metroid Prime Remastered*
 </div>
 <div class="col-6 my-auto text-monospace">

@@ -38,13 +38,6 @@
             }
         });
 
-        // Remove the focus on burger button
-        const btnBurger = document.getElementById("btn-burger");
-
-        btnBurger.addEventListener("click", () => {
-            btnBurger.blur(); // Removes the focus
-        })
-
         // Add Animate.css
         const header = document.querySelector('header');
         const m7gpLiveHeader = document.getElementById('m7gp-livestream-alert');

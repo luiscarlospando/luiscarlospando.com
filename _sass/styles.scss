@@ -389,7 +389,7 @@ footer {
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
     -o-transition: opacity .3s 0s, visibility 0s .3s;
     transition: opacity .3s 0s, visibility 0s .3s;
-    z-index: 2;
+    z-index: 4;
 
     &:focus {
         opacity: 1;

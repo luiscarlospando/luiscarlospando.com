@@ -39,10 +39,10 @@
         });
 
         // Remove the focus on burger button
-        const burgerBtn = document.getElementById("burger-btn");
+        const btnBurger = document.getElementById("btn-burger");
 
-        burgerBtn.addEventListener("click", () => {
-            burgerBtn.blur(); // Removes the focus
+        btnBurger.addEventListener("click", () => {
+            btnBurger.blur(); // Removes the focus
         })
 
         // Add Animate.css

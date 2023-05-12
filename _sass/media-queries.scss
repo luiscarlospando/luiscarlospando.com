@@ -162,6 +162,13 @@
 	    padding: 12px 8px 0 0;
         font-size: 4.8rem;
     }
+    
+    .burger {
+        a {
+            position: relative;
+            margin: 10px 20px 6px 10px;
+        }
+    }
 
     progress {
         display: none;
@@ -200,6 +207,30 @@
 
     h4 {
       font-size: 18px;
+    }
+}
+
+/* iPad (landscape) */
+@media (min-width: 769px) and (max-width: 1090px) {
+
+}
+
+/* iPad (portrait) */
+@media (min-width: 751px) and (max-width: 768px) {
+
+
+}
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media (max-width: 868px) {
+    .burger {
+        a {
+            position: relative;
+            margin: 10px 20px 6px 10px;
+        }
     }
 }
 

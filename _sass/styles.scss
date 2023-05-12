@@ -321,62 +321,6 @@ footer {
     color: $mainColor !important;
 }
 
-.nav-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 52px;
-    padding: 12px 15px;
-    font-size: 1rem;
-    line-height: 0;
-    position: fixed;
-    z-index: 3;
-    @include transition;
-
-    #burger-btn {
-        color: $mainColor;
-        display: block;
-        font-size: 2rem;
-        width: 28px;
-        height: 32px;
-        position: absolute;
-        z-index: 4;
-        left: 16px;
-
-        &:hover {
-            color: $sixthColor;
-        }
-    }
-
-    p {
-        margin: 0;
-        opacity: 0;
-        @include transition;
-    }
-}
-
-.scrolled-position {
-    @include backdrop-filter(50%, 4px);
-    background-color: rgba(13, 14, 51, 0.7) !important;
-
-    p {
-        opacity: 1;
-    }
-    
-    &::after {
-        background: $separatorBgColor;
-        width: 100%;
-        height: 1px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        content: '';
-    }
-}
-
 .embed-responsive {
     margin-bottom: 14px;
 }

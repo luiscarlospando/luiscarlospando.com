@@ -8,7 +8,7 @@
         /* Do things after DOM has fully loaded */
         
         // Enable nav menu
-        $("#menu").mmenu({
+        $('#navigation').mmenu({
             classes: "mm-slide",
             "slidingSubmenus": true,
             "header": {
@@ -32,7 +32,7 @@
         });
 
         // Search input
-        $("#menu .mm-search input").keyup(function (e) {
+        $("#navigation .mm-search input").keyup(function (e) {
             if (e.keyCode == 13) {
                 window.location.href = 'https://blog.luiscarlospando.com/?s=' + $(this).val();
             }
@@ -89,7 +89,7 @@
         };
 
         // Smooth scroll to top
-        $('.cd-top').on('click', function (event) {
+        $('#back-to-top').on('click', function (event) {
             event.preventDefault();
             $('body,html').animate({
                 scrollTop: 0,

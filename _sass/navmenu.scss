@@ -1,4 +1,4 @@
-nav#menu {
+#navigation {
     font-family: 'Raleway', sans-serif;
 
     a {
@@ -27,7 +27,7 @@ nav#menu {
 }
 
 // Avoiding mmenu FOUC
-nav#menu:not( .mm-menu ) {
+#navigation:not( .mm-menu ) {
     display: none;
  }
 

@@ -274,6 +274,8 @@ footer {
     position: relative;
 
     &::before {
+        background-color: $bgColor1;
+        border-radius: 50px;
         color: $alertIconColor;
         font-family: "Font Awesome 5 Free"; 
         font-weight: 900; 

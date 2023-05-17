@@ -160,7 +160,7 @@ function Navigation() {
         <ul>
             {
                 siteButtons.map(((siteButton, i) => {
-                    if(siteButton.subButtons.length === 0) {
+                    if (siteButton.subButtons.length === 0) {
                         return(
                             <li key={i}>
                                 <a href={siteButton.url}>

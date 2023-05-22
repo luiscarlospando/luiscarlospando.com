@@ -33,8 +33,8 @@ modified-date: 11/09/2022
 ## <i class="fa-solid fa-paint-roller"></i> Splatoon 3 @ Mode 7
 
 <div class="text-center mt20">
-<a href="https://discord.gg/NUSDKeJ" target="_blank">
-[<img class="img-fluid" src="/assets/images/splatoon-3-flyer.png" alt="" loading="lazy" />][1]{:target="_blank"}
+<a href="javascript:void(0)" data-toggle="modal" data-target="#modal">
+<img class="img-fluid rounded" src="/assets/images/splatoon-3-flyer.png" alt="" loading="lazy" />
 </a>
 </div>
 
@@ -59,6 +59,16 @@ Para recibir mis notificaciones sobre *Splatoon 3* puedes [seguirme en Mastodon]
 ## <i class="fa-brands fa-youtube"></i> Mis clips de Splatoon 3
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/videoseries?list=PL15FCirCIaHq3KXJcqrFPaTYpzSxDpDVm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-body modal-body-jekyll">
+<img class="img-fluid rounded" src="/assets/images/splatoon-3-flyer.png" alt="" loading="lazy" />
+</div>
+</div>
+</div>
 </div>
 
 [1]: https://discord.gg/NUSDKeJ

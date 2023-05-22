@@ -58,7 +58,9 @@ Link a mi perfil de Discord:
 ## <i class="fa-solid fa-flag-checkered"></i> Mario Kart 8 @ Mode 7
 
 <div class="text-center mt20">
-[<img class="img-fluid" src="/assets/images/m7gp-2023.png" alt="" loading="lazy" />][1]{:target="_blank"}
+<a href="javascript:void(0)" data-toggle="modal" data-target="#modal">
+<img class="img-fluid rounded" src="/assets/images/m7gp-2023.png" alt="" loading="lazy" />
+</a>
 </div>
 
 ## <i class="fa-brands fa-mastodon"></i> Mastodon
@@ -72,6 +74,15 @@ Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en 
 
 <a class="twitter-timeline" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Mode7gg?ref_src=twsrc%5Etfw">Tweets by Mode7gg</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-body modal-body-jekyll">
+<img class="img-fluid rounded" src="/assets/images/m7gp-2023.png" alt="" loading="lazy" />
+</div>
+</div>
+</div>
+</div>
 
 [1]: https://discord.gg/U77J5c6
 [2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw

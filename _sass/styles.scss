@@ -453,3 +453,17 @@ code {
 .subtitulo {
     margin: 0px 0 14px !important;
 }
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-body-jekyll {
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.modal-backdrop {
+    position: relative;
+}

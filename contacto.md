@@ -31,7 +31,7 @@ Cuenta automatizada con posts de mi sitio.
 [Aquí comparto fotos][3]{:target="_blank"} de mis cosas favoritas y de momentos que considero que valen la pena ser compartidos.
 
 ## <i class="fa-brands fa-discord"></i> Discord
-Mi Discord tag es <a href="{{ site.discord_profile }}" class="badge badge-primary" target="_blank">{{ site.discord_tag }}</a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (feel free to join in!).
+Mi Discord tag es <a href="{{ site.discord_profile }}" class="badge badge-dark" target="_blank">{{ site.discord_tag }}</a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (feel free to join in!).
 
 ## <i class="fa-solid fa-heart"></i> omg.lol
 Estoy en este divertido espacio llamado [omg.lol][2]{:target="_blank"}.

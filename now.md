@@ -4,7 +4,7 @@ title: Now
 description: Aquí voy poniendo lo que estoy pensando, sintiendo y lo que estoy haciendo actualmente.
 image: /assets/images/logo.png
 permalink: /now/
-modified-date: 27 de marzo, 2023
+modified-date: 17 de junio, 2023
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -17,11 +17,15 @@ modified-date: 27 de marzo, 2023
 
 ## 👦🏻 Vida personal
 
-Muchas cosas han pasado este año, no he tenido mucho tiempo de pensar en actualizar mi página Now. La verdad es que ando muy triste y ando pasando por una situación bastante difícil para mi, de la cual no quisiera hablar por aquí. Pero bueno, estoy trabajando en cambiar todo esto, solo espero poder hacerlo, ser constante y seguir luchando. Ahorita lo que necesito es positividad, si llegas a leer esto, puedes [mandarme un mensaje de ánimo](https://luiscarlospando.com/contacto) o algo así, porque realmente lo necesito. 😔
+Los días pasan cada vez más rápido mientras más envejeces, justo así siento últimamente mi vida. Han pasado muchas cosas buenas y por ello estoy muy agradecido con Dios. Primero que nada, me sigue permitiendo estar al lado de mi amada esposa, quien [a pesar de todo](https://blog.luiscarlospando.com/personal/2023/06/el-toc-de-germenes-una-parte-desconocida-de-mi-vida/), me sigue amando y apoyando. También me da mucha felicidad que por fin mi esposa tiene trabajo, que aparte está freelanceando y que sigue creando contenidos útiles en [su página secundaria de Instagram](https://www.instagram.com/marissatraductora/). Me siento súper orgulloso.
+
+También se casó mi carnal Marzo (aka "Ocho", "Cube", "Kiub", "Kiubeta") y pues me llena de felicidad verlo tan feliz. Le deseo todo lo mejor a él y a su esposa. 🫶
 
 ### 📝 To-dos
 
-- 🙇 Trabajar en mi mismo, aprender a quererme y a aceptarme.
+- 🪴 Seguir regando mi matrimonio y seguir amando a mi esposa.
+
+- 💼 Seguir en búsqueda de un nuevo trabajo.
 
 - 🩺 Continuar yendo a terapia.
 
@@ -29,38 +33,44 @@ Muchas cosas han pasado este año, no he tenido mucho tiempo de pensar en actual
 
 ## 💼 Trabajo
 
-No hay muchas novedades en mi trabajo, gracias a Dios sigue habiendo y por ello estoy muy, muy agradecido. 🙏
+Las cosas en mi trabajo actual están algo inestables, la verdad desconozco la razón real, pero para mi son señales de que tengo que darle vuelta a la hoja.
 
 ## 💻 Tech
 
-- Honestamente no tengo mucho tiempo para pensar en tendencias, apps y todo esto. De hecho estoy escribiendo esto desde mi Mac viejita.
+- Sigo aprendiendo y haciendo cosas que me gustan, hace poco desarrollé mi primer proyecto real con React, aprendí mucho y me gustó bastante el proceso.
+
+- Sigo perfeccionando mis Shortcuts actuales y se me siguen ocurriendo nuevas ideas para automatizar mi casa/trabajo/vida.
+
+- Quiero un Apple Vision Pro. 🫢
 
 ## 🎶 Música
 Uso Apple Music para escuchar música en streaming, [este es mi perfil ahí](https://music.apple.com/profile/luiscarlospando){:target="_blank"} por si quieres seguirme. Esto es algo de lo que he estado escuchando últimamente:
 
-- Moneen
-- Soccer Mommy
-- Hatchie
-- Weyes Blood
-- NOFX
-- Boygenius
-- Y más, mucho más...
+- Queens of the Stone Age
+- As Cities Burn
+- Emery
+- mewithoutYou
+- Russian Circles
+- AFI
+- The Hives
 
-Usando Reddit se me desbloqueó un recuerdo, alguien compartió el video de *If Tragedy's Appealing, Then Disaster's An Addiction* de Moneen. No recordaba lo mucho que me gustaba esta banda. Tenía añales sin escucharlos, de repente desaparecieron de mi radar.
-<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:1140px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/mx/album/if-tragedys-appealing-then-disasters-an-addiction/1176757641?i=1176757701&l=en"></iframe>
+Y ví la serie de *Love & Death* en HBO Max, el OST es una joya y armé este playlist con la música usada en el show:
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:1140px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/mx/playlist/hbo-max-series-love-death-soundtrack/pl.u-2aWaTVKWzdD?l=en"></iframe>
 
 
 ## 🎙 Podcasts/YouTube
 
 He estado escuchando:
 
-- Nada por el momento.
+- [*The First Ever Podcast*][7]{:target="_blank"} de Jeremy Bolm
 
 ## 🎮 Videojuegos
 
 He estado jugando:
 
-- Nada por el momento.
+- *The Legend of Zelda: Tears of the Kingdom*
+- *Splatoon 3*
+- *Mario Kart 8 Deluxe*
 
 ---
 

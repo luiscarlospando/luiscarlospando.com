@@ -9,16 +9,18 @@ image: /assets/images/logo.png
 
 <h1 class="text-center">{{ site.title }}</h1>
 
-<span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando (also known as "Mijo"), un vato originario de [Chihuahua, México][1]{:target="_blank"} que vive con su bella esposa [Marissa ❤️][4]{:target="_blank"} y se dedica a [hacer][2] cosas para el Internet. Musicalmente hablando, lo que más me gusta es el hardcore y el punk y de ahí, sus respectivos sub-géneros.  Algunas personas me conocen por haber creado y dedicado buena parte de mi vida a [Hitz-Musik.net][5]{:target="_blank"} (RIP 😵) ― una comunidad dedicada a cubrir la música y la escena local de mi querido ranchito, Chihuahua. De eso solo me quedan recuerdos muy chidos.
+<span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando (aka <code>Mijo</code>), un dude que vive con su bella esposa [Marissa ❤️][1]{:target="_blank"} en [Chihuahua, México][2]{:target="_blank"} y que se dedica a [hacer cosas para el Internet][3]. Me encanta la música, pero tiendo a clavarme más en el hardcore y el punk. Algunos tal vez me ubiquen por haber creado [Hitz-Musik.net][4]{:target="_blank"} (RIP 🪦) junto a unos buenos amigos. "El Hitz" era una comunidad dedicada a cubrir la música alternativa y la escena local de Chihuahua. De eso solo me quedan recuerdos muy chidos.
 
-La razón principal que me motivó a crear este sitio, fue mi interés las computadoras 👨‍💻 y la web 🌐, ― sentí la necesidad de tener [mi propio lugar en Internet][6], para hablar de lo que yo quisiera, para equivocarme, para aprender. El objetivo de este sitio escribir sobre lo que traiga en la cabeza. Quiero que este lugar sirva como de una especie de bitácora de mi vida y que sea mi lugar para dar mi opinión sin miedo. 😉
+La principal razón por la que hice este sitio, fue por interés por las computadoras 👨‍💻 y la web 🌐, ― sentí la necesidad de tener [mi propio espacio en Internet][5], para hablar de lo que yo quisiera, para equivocarme, para experimentar y para aprender. Básicamente se trata de escribir sobre lo que traiga en la cabeza. Quiero que este lugar sirva como de una especie de bitácora de mi vida y que sea mi lugar para dar mi opinión sin miedo. 😌
 
 <div class="collapse" id="collapseIntro">
-No es secreto [el gusto que tengo por el gaming 🕹️][11]{:target="_blank"}. [Aquí][12] llevo un registro de los videojuegos que tengo. Y para rendir tributo y hacer de esto algo más divertido de lo que ya es, armé la comunidad de [Mode 7 🎮 🕹️][7] (all are welcome 😉) junto a unos amigos. Ahí hablamos de nuestros videojuegos favoritos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][13]. También [tengo un canal en Twitch][3], pero la neta, ni siquiera lo uso.
+No es ningún secreto el amor que le tengo a Nintendo 🕹️. [Aquí][6] llevo un registro de los videojuegos que tengo. Y para rendir tributo y hacer de esto algo más divertido de lo que ya es, armé la comunidad de [Mode 7 🎮 🕹️][7] (<em>all are welcome</em> 😉) en Discord junto a unos amigos. Ahí hablamos de nuestros videojuegos favoritos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][8]. Todos los jueves en la noche [transmitimos el torneo][9]. 
 
-Ahora me encuentro compartiendo cosas random en [Mastodon][8]{:target="_blank"} <span class="badge badge-success">¡Nuevo!</span>, el sarcasmo y chistes de baja calidad continúan por ahí. Me gusta llevar registro de lo que hago y toda [la música que escucho 🎧][14]{:target="_blank"} la voy registrando en mi perfil de [Last.fm 🎵][10]{:target="_blank"} (sí, hasta mi colección de vinilos 🔈).
+Ahora me encuentro compartiendo cosas random en [Mastodon][10]{:target="_blank"} y en [omg.lol][11] <span class="badge badge-success">¡Nuevo!</span>, el sarcasmo y los chistes de baja calidad que acostumbro, continúan por ahí.
 
-Lo más seguro es que ni sepas como llegaste hasta aquí, pero eso no importa en realidad, agradecido estoy por tu visita.
+Me gusta registrar toda [la música que escucho 🎧][12]{:target="_blank"} en mi perfil de [Last.fm 🎵][13]{:target="_blank"} (<em>been doin' it since '05 baby!</em>).
+
+Y pues bueno, lo más seguro es que ni sepas como llegaste hasta aquí, pero eso no importa en realidad, agradecido ya estoy por tu visita.
 </div>
 
 <button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" href="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">
@@ -35,17 +37,16 @@ Lo más seguro es que ni sepas como llegaste hasta aquí, pero eso no importa en
     <i class="fa-solid fa-comment"></i> Ver todos
 </a>
 
-[1]: http://www.chihuahuatucapital.org/
-[2]: https://github.com/{{ site.github_username }}
-[3]: /live/
-[4]: https://www.instagram.com/primitivegirl
-[5]: http://hitz-musik.net
-[6]: https://blog.{{ site.domain }}/
+[1]: https://www.instagram.com/primitivegirl
+[2]: http://www.chihuahuatucapital.org/
+[3]: https://github.com/{{ site.github_username }}
+[4]: http://hitz-musik.net
+[5]: https://blog.{{ site.domain }}/
+[6]: https://www.backloggd.com/u/{{ site.backloggd_username }}
 [7]: /mode-7/
-[8]: https://mastodon.online/@{{ site.mastodon_username }}
-[9]: mailto:{{ site.email }}
-[10]: https://last.fm/user/{{ site.lastfm_username }}
-[11]: https://www.backloggd.com/u/{{ site.backloggd_username }}
-[12]: /nintendo/
-[13]: /nintendo/mario-kart/
-[14]: https://music.apple.com/profile/{{ site.apple_music_username }}
+[8]: /nintendo/mario-kart/
+[9]: /live/
+[10]: https://social.lol/@{{ site.mastodon_username }}
+[11]: https://home.omg.lol/referred-by/{{ site.omglol_username }}
+[12]: https://music.apple.com/profile/{{ site.apple_music_username }}
+[13]: https://last.fm/user/{{ site.lastfm_username }}

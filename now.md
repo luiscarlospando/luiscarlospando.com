@@ -53,7 +53,7 @@ Y ví la serie de *Love & Death* en HBO Max, el OST es una joya y armé este pla
 
 ## 🎮 Videojuegos
 - [*The Legend of Zelda: Tears of the Kingdom*](https://www.instagram.com/p/CsPuS1qL2_nSFPR6Uvysj_kUZrZMM7__xnwe7Y0/){:target="_blank"} (Joyotaaa, neta 🤯)
-- *Splatoon 3* ([¿Jugamos juntos?](https:/luiscarlospando.com/nintendo/splatoon/), andamos juntándonos a jugar por las noches, como desde el jueves)
+- *Splatoon 3* ([¿Jugamos juntos?](/nintendo/splatoon/), andamos juntándonos a jugar por las noches, como desde el jueves)
 - *Mario Kart 8 Deluxe*
 
 ---

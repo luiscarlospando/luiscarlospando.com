@@ -28,41 +28,38 @@ Cuenta personal.
 Cuenta automatizada con posts de mi sitio.
 
 ## <i class="fa-brands fa-instagram"></i> Instagram
-[Aquí comparto fotos][3]{:target="_blank"} de mis cosas favoritas y de momentos que considero que valen la pena ser compartidos.
+[Aquí comparto fotos][1]{:target="_blank"} de mis cosas favoritas y de momentos que considero que valen la pena ser compartidos.
 
 ## <i class="fa-brands fa-discord"></i> Discord
-Mi Discord tag es <a href="{{ site.discord_profile }}" class="badge badge-dark" target="_blank">{{ site.discord_tag }}</a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (feel free to join in!).
+Mi username en Discord es <a href="{{ site.discord_profile }}" target="_blank"><code>{{ site.discord_tag }}</code></a> y tengo un server con unos amigos, se llama [Mode 7][2] y es para puros jugones (*feel free to join in!*).
 
 ## <i class="fa-solid fa-heart"></i> omg.lol
-Estoy en este divertido espacio llamado [omg.lol][2]{:target="_blank"}.
+Ahorita ando en este divertido espacio llamado [omg.lol][3]{:target="_blank"}.
 
 ## <i class="fa-brands fa-keybase"></i> Keybase
-Este es [mi perfil público en Keybase][10]{:target="_blank"}.
+Este es [mi perfil público en Keybase][4]{:target="_blank"}.
 
 ## <i class="fa-brands fa-itunes-note"></i> Apple Music
 Este es [mi perfil en Apple Music][5]{:target="_blank"}.
 
 ## <i class="fa-brands fa-lastfm"></i> Last.fm
-Este es [mi perfil en Last.fm][7]{:target="_blank"}.
+Este es [mi perfil en Last.fm][6]{:target="_blank"}.
 
 ## <i class="fa-brands fa-reddit"></i> Reddit
-Soy más de leer y mantenerme informado por ahí que publicar cosas, de cualquier forma este es [mi perfil en Reddit][6]{:target="_blank"}.
+Este es [mi perfil en Reddit][7]{:target="_blank"}.
 
 ## <i class="fa-brands fa-twitch"></i> Twitch
 [Tengo un canal en Twitch][8]{:target="_blank"}, muy inactivo por lo pronto, la idea es llenarlo de vida uno de estos días.
 
 ## <i class="fa-solid fa-gamepad"></i> Backloggd
-Antes usaba Backloggery para llevar el registro de mi backlog de juegos, ahora uso [Backloggd][11]{:target="_blank"}.
+Antes usaba Backloggery para llevar el registro de mi backlog de juegos, ahora uso [Backloggd][9]{:target="_blank"}.
 
-[1]: mailto:{{ site.email }}
-[2]: https://home.omg.lol/referred-by/{{ site.omglol_username }}
-[3]: https://instagram.com/{{ site.instagram_username }}
-[4]: /mode-7/
+[1]: https://instagram.com/{{ site.instagram_username }}
+[2]: /mode-7/
+[3]: https://home.omg.lol/referred-by/{{ site.omglol_username }}
+[4]: https://keybase.io/luiscarlospando
 [5]: https://music.apple.com/profile/{{ site.apple_music_username }}
-[6]: https://reddit.com/u/{{ site.reddit_username }}
-[7]: https://last.fm/user/{{ site.lastfm_username }}
+[6]: https://last.fm/user/{{ site.lastfm_username }}
+[7]: https://reddit.com/u/{{ site.reddit_username }}
 [8]: https://twitch.tv/{{ site.twitch_username }}
-[9]: https://forms.gle/RAUiuVmfByzAuQuQA
-[10]: https://keybase.io/luiscarlospando
-[11]: https://www.backloggd.com/u/{{ site.backloggd_username }}
-[12]: https://open.spotify.com/user/{{ site.spotify_username }}
+[9]: https://www.backloggd.com/u/{{ site.backloggd_username }}

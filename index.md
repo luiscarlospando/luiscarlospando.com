@@ -9,18 +9,18 @@ image: /assets/images/logo.png
 
 <h1 class="text-center">{{ site.title }}</h1>
 
-<span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando (aka <code>Mijo</code>), un dude que vive con su bella esposa [Marissa ❤️][1]{:target="_blank"} en [Chihuahua, México][2]{:target="_blank"} y que se dedica a [hacer cosas para el Internet][3]. Me encanta la música, pero tiendo a clavarme más en el hardcore y el punk. Algunos tal vez me ubiquen por haber creado [Hitz-Musik.net][4]{:target="_blank"} (RIP 🪦) junto a unos buenos amigos. "El Hitz" era una comunidad dedicada a cubrir la música alternativa y la escena local de Chihuahua. De eso solo me quedan recuerdos muy chidos.
+<span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando (aka <code>Mijo</code>), un dude que vive con su bella esposa [Marissa ❤️][1]{:target="_blank"} en [Chihuahua, México][2]{:target="_blank"} y que se dedica a [hacer cosas para el Internet][3]. Amo la música, pero tiendo a clavarme más en el hardcore y el punk. Algunos tal vez me ubiquen por haber creado [Hitz-Musik.net][4]{:target="_blank"} (RIP 🪦) junto a unos buenos amigos. "El Hitz" era una comunidad dedicada a cubrir la música alternativa y la escena local de Chihuahua. De eso solo me quedan recuerdos muy chidos.
 
-La principal razón por la que hice este sitio, fue por interés por las computadoras 👨‍💻 y la web 🌐, ― sentí la necesidad de tener [mi propio espacio en Internet][5], para hablar de lo que yo quisiera, para equivocarme, para experimentar y para aprender. Básicamente se trata de escribir sobre lo que traiga en la cabeza. Quiero que este lugar sirva como de una especie de bitácora de mi vida y que sea mi lugar para dar mi opinión sin miedo. 😌
+La razón por la que hice este sitio, fue mi interés por las computadoras 👨‍💻 y la web 🌐, ― sentí la necesidad de tener [mi propio espacio en Internet][5], para hablar de lo que yo quisiera, para equivocarme, para experimentar y para aprender. Básicamente se trata de escribir sobre lo que traiga en la cabeza. Quiero que este lugar sirva como de una especie de bitácora de mi vida y que sea mi lugar para dar mi opinión sin miedo. 😌
 
 <div class="collapse" id="collapseIntro">
-No es ningún secreto el amor que le tengo a Nintendo 🕹️. [Aquí][6] llevo un registro de los videojuegos que tengo. Y para rendir tributo y hacer de esto algo más divertido de lo que ya es, armé la comunidad de [Mode 7 🎮 🕹️][7] (<em>all are welcome</em> 😉) en Discord junto a unos amigos. Ahí hablamos de nuestros videojuegos favoritos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][8]. Todos los jueves en la noche [transmitimos el torneo][9]. 
+No es ningún secreto el amor que le tengo a Nintendo 🕹️, [aquí][6] llevo un registro de los videojuegos que tengo en mi colección. Para rendir tributo y para hacer de los videojuegos que me gustan todavía más divertidos, armé la comunidad de [Mode 7 🎮 🕹️][7] (<em>all are welcome</em> 😉) en Discord junto a unos amigos. Ahí hablamos de nuestros videojuegos favoritos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][8]. Todos los jueves en la noche [transmitimos el torneo][9]. 
 
 Ahora me encuentro compartiendo cosas random en [Mastodon][10]{:target="_blank"} y en [omg.lol][11] <span class="badge badge-success">¡Nuevo!</span>, el sarcasmo y los chistes de baja calidad que acostumbro, continúan por ahí.
 
 Me gusta registrar toda [la música que escucho 🎧][12]{:target="_blank"} en mi perfil de [Last.fm 🎵][13]{:target="_blank"} (<em>been doin' it since '05 baby!</em>).
 
-Y pues bueno, lo más seguro es que ni sepas como llegaste hasta aquí, pero eso no importa en realidad, agradecido ya estoy por tu visita.
+Y pues bueno, lo más seguro es que ni sepas como llegaste hasta aquí, pero eso no importa en realidad, agradecido ya estoy por tu visita. ✨
 </div>
 
 <button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" href="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">

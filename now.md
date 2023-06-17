@@ -52,7 +52,7 @@ Y ví la serie de *Love & Death* en HBO Max, el OST es una joya y armé este pla
 - [*The First Ever Podcast*](https://podcasts.apple.com/us/podcast/the-first-ever-podcast/id1520216207){:target="_blank"} con Jeremy Bolm
 
 ## 🎮 Videojuegos
-- [*The Legend of Zelda: Tears of the Kingdom*](https://www.instagram.com/p/CsPuS1qL2_nSFPR6Uvysj_kUZrZMM7__xnwe7Y0/){:target="_blank"} (Joyotaaa, neta 🤯)
+- [*The Legend of Zelda: Tears of the Kingdom*](https://www.instagram.com/p/CsPuS1qL2_nSFPR6Uvysj_kUZrZMM7__xnwe7Y0/){:target="_blank"} (Joyooota, neta 🤯)
 - *Splatoon 3* ([¿Jugamos juntos?](/nintendo/splatoon/), andamos juntándonos a jugar por las noches, como desde el jueves)
 - *Mario Kart 8 Deluxe*
 

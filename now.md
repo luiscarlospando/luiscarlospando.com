@@ -25,6 +25,7 @@ También se casó mi carnal Marzo (aka "Ocho", "Cube", "Kiub", "Kiubeta") y pues
 - 💼 Seguir en búsqueda de un nuevo trabajo
 - 🩺 Continuar yendo a terapia
 - 📖 Seguir estudiando React
+- 🌺 Este mes me hago mi primer tatuaje
 
 ## 💼 Trabajo
 Las cosas en mi trabajo actual están algo inestables, la verdad desconozco la razón real, pero para mi son señales de que tengo que darle vuelta a la página.

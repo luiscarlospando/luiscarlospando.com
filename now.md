@@ -15,6 +15,8 @@ modified-date: 17 de junio, 2023
 
 <p class="text-center">{{ page.description }}</p>
 
+<div id="now-content"></div>
+
 ## 👦🏻 Vida personal
 Los días pasan cada vez más rápido mientras más envejeces, justo así siento últimamente mi vida. Han pasado muchas cosas buenas y por ello estoy muy agradecido con Dios. Primero que nada, me sigue permitiendo estar al lado de mi amada esposa, quien [a pesar de todo](https://blog.luiscarlospando.com/personal/2023/06/el-toc-de-germenes-una-parte-desconocida-de-mi-vida/), me sigue amando y apoyando. También me da mucha felicidad que por fin mi esposa tiene trabajo, que aparte está freelanceando y que sigue creando contenidos útiles en [su página secundaria de Instagram](https://www.instagram.com/marissatraductora/){:target="_blank"}. Me siento súper orgulloso.
 
@@ -59,4 +61,4 @@ Y ví la serie de *Love & Death* en HBO Max, el OST es una joya y armé este pla
 
 ---
 
-*Mi página "Now" está inspirada en la de [Derek Sivers](https://sive.rs/nowff){:target="_blank"}*
+*Esta es una [página /now](https://nownownow.com/about){:target="_blank"} y si tienes tu propio sitio, [deberías crear una](https://nownownow.com/about){:target="_blank"}, también.*

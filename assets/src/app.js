@@ -13,4 +13,5 @@ import './navigation'; // react component
 import './currentlyListening'; // react component
 import './backToTop'; // react component
 import './jquery.mmenu.min.all';
-import './general';
+import './now';
+import './main';

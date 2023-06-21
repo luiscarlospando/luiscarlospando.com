@@ -47,5 +47,5 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [12]: https://instatus.com/
 [13]: https://home.omg.lol/referred-by/mijo
 [14]: https://blog.{{ site.domain }}/rss/
-[15]: https://hachyderm.io/@{{ mastodon_feed }}
+[15]: https://hachyderm.io/@{{ site.mastodon_feed }}
 [16]: /contacto

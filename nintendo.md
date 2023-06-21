@@ -65,7 +65,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche<br>
 
 ---
 
-<div class="row">
+<div class="row mb-3">
 <div class="col-12 col-lg-6 my-auto">
 
 <div class="card text-center" id="discord-tag">

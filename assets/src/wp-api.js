@@ -29,11 +29,10 @@ $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1&tags=778'
 
 // Retrieve latest post timestamp from tag 'Mode 7 Podcast' via API and fetch link
 $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1&tags=778', function (data) {
-    // console.log(data);
+    // console.log(lastUpdatedRelative);
     const lastUpdatedIso = data[0].date;
     let lastUpdatedRelative = dayjs().to(lastUpdatedIso);
     $('#mode-7-podcast-latest-episode-timestamp').append('<a href="' + data[0].link + '"><code>Última actualización: ' + lastUpdatedRelative + '</code></a>');
-    console.log(lastUpdatedRelative);
 });
 
 // Append total post count to element #contador-posts in "Acerca de" page

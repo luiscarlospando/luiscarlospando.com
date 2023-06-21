@@ -4,11 +4,11 @@ title: Nintendo
 description: Aquí están mis códigos de Discord y Nintendo Switch y lo que estoy jugando actualmente.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
-modified-date: 12/05/2023
+modified-date: 21/06/2023
 ---
 
 <div class="text-center">
-Estos son mis códigos de [<i class="fa-solid fa-link"></i> Discord][1] y [<i class="fa-solid fa-link"></i> Nintendo Switch][2] y [<i class="fa-solid fa-link"></i> mi perfil en Backloggd][7].
+Estos son mis códigos de [<i class="fa-solid fa-link"></i> Discord][1] y [<i class="fa-solid fa-link"></i> Nintendo Switch][2] y [<i class="fa-solid fa-link"></i> mi perfil en Backloggd][3].
 </div>
 
 <div class="row">
@@ -34,7 +34,7 @@ Mode 7 Grand Prix todos los jueves @ 9:00 pm (hora central de México)<br>
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
-[*Splatoon 3*][3]<br>
+[*Splatoon 3*][5]<br>
 Partidas de *Splatoon 3*, días aleatorios por la noche<br>
 </div>
 <div class="col-6 my-auto">
@@ -70,17 +70,20 @@ Partidas de *Splatoon 3*, días aleatorios por la noche<br>
 
 <div class="card text-center" id="discord-tag">
 <div class="card-header">
-<h5 class="card-title"><i class="fa-brands fa-discord"></i> Discord Tag</h5>
+<h5 class="card-title"><i class="fa-brands fa-discord"></i> Discord</h5>
 </div>
 <div class="card-body">
 <div class="input-group justify-content-center">
-<input type="text" class="form-control" id="discord-tag-value" value="{{ site.discord_tag }}" data-toggle="tooltip" data-placement="top" data-trigger="focus" title="Discord Tag copiado" aria-label="" aria-describedby readonly>
+<input type="text" class="form-control" id="discord-tag-value" value="{{ site.discord_tag }}" data-toggle="tooltip" data-placement="top" data-trigger="focus" title="Username de Discord copiado" aria-label="" aria-describedby readonly>
 <div class="input-group-append">
 <button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag-value" data-toggle="tooltip" data-placement="top" title="Copiar">
 <i class="fa-solid fa-copy"></i>
 </button>
 </div>
 </div>
+<a class="btn btn-primary btn-sm mt-4" href="https://discordapp.com/users/86571896581132288/" target="_blank">
+<i class="fa-solid fa-user-plus"></i> Agrégame como amigo
+</a>
 </div>
 </div>
 
@@ -101,6 +104,9 @@ Partidas de *Splatoon 3*, días aleatorios por la noche<br>
 </button>
 </div>
 </div>
+<a class="btn btn-primary btn-sm mt-4" href="https://lounge.nintendo.com/friendcode/3920-3330-9820/DLkJcWQ1L6" target="_blank">
+<i class="fa-solid fa-user-plus"></i> Agrégame como amigo
+</a>
 </div>
 </div>
 
@@ -109,9 +115,6 @@ Partidas de *Splatoon 3*, días aleatorios por la noche<br>
 
 [1]: #discord-tag
 [2]: #nintendo-switch
-[3]: /nintendo/splatoon/
+[3]: https://www.backloggd.com/u/mijo/playing/
 [4]: /nintendo/mario-kart/
-[5]: https://discord.gg/U77J5c6
-[6]: https://discord.gg/NUSDKeJ
-[7]: https://www.backloggd.com/u/mijo/playing/
-[8]: https://discord.gg/D6mjaEA
+[5]: /nintendo/splatoon/

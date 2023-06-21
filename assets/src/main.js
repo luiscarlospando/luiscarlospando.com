@@ -146,40 +146,6 @@
             img.setAttribute("loading", "lazy");
         });
 
-        // WP REST API actions
-        // Retrieve latest posts via API and fetch link to show in homepage
-        $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=5', function (data) {
-            // console.log(data);
-            for (let i = 0; i < data.length; i++) {
-                $('#latest-posts').append('<li><a href="' + data[i].link + '" data-toggle="tooltip" data-placement="top" title="' + data[i].title.rendered + '">' + data[i].title.rendered + '</a></li>');
-            }
-        });
-
-        // Retrieve latest post via API and fetch link
-        $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1', function (data) {
-            // console.log(data);
-            $('#blog').append('<a href="' + data[0].link + '" data-toggle="tooltip" data-placement="top" title="' + data[0].title.rendered + '">' + data[0].title.rendered + '</a>');
-        });
-
-        // Retrieve latest post from tag 'Mode 7 Podcast' via API and fetch link
-        $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1&tags=778', function (data) {
-            // console.log(data);
-            $('#mode-7-podcast-latest-episode').append('<a href="' + data[0].link + '" data-toggle="tooltip" data-placement="top" title="' + data[0].title.rendered + '">' + data[0].title.rendered + '</a>');
-        });
-
-        // Retrieve latest post timestamp from tag 'Mode 7 Podcast' via API and fetch link
-        $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1&tags=778', function (data) {
-            // console.log(data);
-            $('#mode-7-podcast-latest-episode-timestamp').append('<a href="' + data[0].link + '"><code>Última actualización: ' + data[0].date + '</code></a>');
-            console.log(data[0].date);
-        });
-
-        // Append total post count to element #contador-posts in "Acerca de" page
-        $.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts', function (data, status, request) {
-            postCount = request.getResponseHeader('x-wp-total');
-            $('#contador-posts').append(postCount);
-        });
-
         // Retrieve system status via Instatus API
         $.get('https://luiscarlospando.instatus.com/summary.json', function (data) {
             let btnSiteVersion = document.getElementById("site-version");

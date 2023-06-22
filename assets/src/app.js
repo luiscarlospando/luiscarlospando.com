@@ -13,6 +13,7 @@ import './navigation'; // react component
 import './currentlyListening'; // react component
 import './backToTop'; // react component
 import './jquery.mmenu.min.all';
+import './lastUpdatedAt';
 import './wp-api';
 import './now';
 import './main';

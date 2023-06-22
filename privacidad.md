@@ -4,7 +4,7 @@ title: Política de Privacidad
 description: Me interesa tu privacidad y tu seguridad. Aquí describo lo que se recolecta en mi sitio web.
 image: /assets/images/logo.png
 permalink: /privacidad/
-last-modified-at: 16/01/2023
+last-modified-at: <span id="last-updated-at">2023-01-16 08:00:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">

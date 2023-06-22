@@ -4,7 +4,6 @@ title: Mode 7 Grand Prix
 description: Bienvenidos al torneo de Mario Kart 8 Deluxe 🏁 más frenético y alocado de todo Internet, donde los jugones más hábiles demuestran quien es quien.
 image: /assets/images/banner-mode7grandprix.png
 permalink: /nintendo/mario-kart/
-modified-date: 25/02/2022
 ---
 
 <div class="row">

@@ -4,12 +4,12 @@ title: Now
 description: Esta es mi página `/now` y aquí voy poniendo en lo que ando actualmente.
 image: /assets/images/logo.png
 permalink: /now/
-modified-date: <span id="now-updated"></span>
+last-modified-at: <span id="now-updated"></span>
 ---
 
 <div class="card last-updated my-3 text-center">
 <div class="card-body rounded">
-#### <code>Última actualización:</code> [{{ page.modified-date }}](https://mijo.omg.lol/now) desde Chihuahua, México
+#### <code>Última actualización:</code> [{{ page.last-modified-at }}](https://mijo.omg.lol/now) desde Chihuahua, México
 </div>
 </div>
 

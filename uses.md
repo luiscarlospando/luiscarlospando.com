@@ -4,12 +4,12 @@ title: Uses
 description: Este es una lista de las cosas que uso diariamente. Me gusta descubrir y probar nuevas apps para mejorar mi productividad. ¿Tienes alguna sugerencia?
 image: /assets/images/logo.png
 permalink: /uses/
-modified-date: 14/06/2023
+last-modified-at: 14/06/2023
 ---
 
 <div class="card last-updated my-3 text-center">
 <div class="card-body rounded">
-#### <code>Última actualización:</code> {{ page.modified-date }}
+#### <code>Última actualización:</code> {{ page.last-modified-at }}
 </div>
 </div>
 

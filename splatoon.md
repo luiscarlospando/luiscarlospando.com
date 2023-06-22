@@ -4,7 +4,6 @@ title: Splatoon
 description: Juega Splatoon 3 con la banda de Mode 7.
 image: /assets/images/splatoon-3-flyer.png
 permalink: /nintendo/splatoon/
-modified-date: 11/09/2022
 ---
 
 <div class="row">

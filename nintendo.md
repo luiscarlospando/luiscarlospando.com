@@ -4,7 +4,7 @@ title: Nintendo
 description: Aquí están mis códigos de Discord y Nintendo Switch y lo que estoy jugando actualmente.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
-modified-date: 21/06/2023
+last-modified-at: 21/06/2023
 ---
 
 <div class="text-center">
@@ -56,7 +56,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche<br>
 </div>
 </div>
 <div class="card-footer text-muted">
-<code>Última actualización: {{ page.modified-date }}</code>
+<code>Última actualización: {{ page.last-modified-at }}</code>
 </div>
 </div>
 

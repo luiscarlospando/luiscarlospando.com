@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Nintendo
-description: Aquí están mis códigos de Discord y Nintendo Switch y lo que estoy jugando actualmente.
+description: Estos son mis datos de Discord, Nintendo Switch y mi perfill en Backloggd.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
 last-modified-at: <span id="last-updated-at">2023-06-21 18:00:00</span>
 ---
 
 <div class="text-center">
-Estos son mis códigos de [<i class="fa-solid fa-link"></i> Discord][1] y [<i class="fa-solid fa-link"></i> Nintendo Switch][2] y [<i class="fa-solid fa-link"></i> mi perfil en Backloggd][3].
+Estos son mis datos de [<i class="fa-solid fa-link"></i> Discord][1], [<i class="fa-solid fa-link"></i> Nintendo Switch][2] y [<i class="fa-solid fa-link"></i> mi perfil en Backloggd][3].
 </div>
 
 <div class="row">

@@ -34,7 +34,7 @@ Cuenta automatizada con posts de mi sitio.
 Mi username en Discord es <a href="{{ site.discord_profile }}" target="_blank"><code>{{ site.discord_tag }}</code></a> y tengo un server con unos amigos, se llama [Mode 7][2] y es para puros jugones (*feel free to join in!*).
 
 ## <i class="fa-solid fa-heart"></i> omg.lol
-Ahorita ando en este divertido espacio llamado [omg.lol][3]{:target="_blank"}.
+Yo creo que [omg.lol][3]{:target="_blank"} es ahorita mi lugar favorito en Internet.
 
 ## <i class="fa-brands fa-keybase"></i> Keybase
 Este es [mi perfil público en Keybase][4]{:target="_blank"}.

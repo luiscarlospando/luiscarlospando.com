@@ -49,7 +49,7 @@ Este es [mi perfil en Last.fm][6]{:target="_blank"}.
 Este es [mi perfil en Reddit][7]{:target="_blank"}.
 
 ## <i class="fa-brands fa-twitch"></i> Twitch
-[Tengo un canal en Twitch][8]{:target="_blank"}, muy inactivo por lo pronto, la idea es llenarlo de vida uno de estos días.
+[Tengo un canal en Twitch][8]{:target="_blank"}, que honestamente nunca he usado pero lo tengo por si algún día me da por transmitir.
 
 ## <i class="fa-solid fa-gamepad"></i> Backloggd
 Antes usaba Backloggery para llevar el registro de mi backlog de juegos, ahora uso [Backloggd][9]{:target="_blank"}.

@@ -86,4 +86,16 @@ footer {
             font-size: 100%;
         }
     }
+
+    .fa-stack.small {
+        font-size: 0.55rem;
+    
+        i {
+            vertical-align: middle;
+        }
+
+        .fa-check {
+            color: $bgColor1;
+        }
+    }
 }

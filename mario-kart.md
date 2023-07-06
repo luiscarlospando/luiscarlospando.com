@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mode 7 Grand Prix
-description: Bienvenidos al torneo de Mario Kart 8 Deluxe 🏁 más frenético y alocado de todo Internet, donde los jugones más hábiles demuestran quien es quien.
+description: El Mode 7 Grand Prix 🏁 es el torneo de Mario Kart 8 Deluxe más frenético y alocado de todo Internet y el lugar donde nació "el boiler", "la mediocre", "el azulejo" y el "siento que arranco la carretera”.
 image: /assets/images/banner-mode7grandprix.png
 permalink: /nintendo/mario-kart/
 ---
@@ -20,41 +20,34 @@ permalink: /nintendo/mario-kart/
 </div>
 
 <div class="row">
-<div class="col-sm-6 order-2 order-sm-1">
-
-## <i class="fa-solid fa-gamepad"></i> Modos de Juego
-
-- Todos los jueves @ 9:00 pm (hora central de México)
-- Reglas
-    - 150cc
-    - Sin equipos
-    - Items normales
-    - COM difícil
-    - Sin Smart Steering
-    - 16 carreras
-    - No rotación de lobby
-    - Cualquier rating
+<div class="col-sm-6">
 
 ## <i class="fa-solid fa-circle-info"></i> Información
 
-- Puedes unirte a [Mode 7 (#mario-kart)][1] en Discord para recibir updates y notificaciones de todas las personas que jugamos
-- Pueden revisar todos mis posts sobre *Mario Kart 8 Deluxe* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/mario-kart-8/">#Mario Kart 8</a>
-
-## <i class="fa-solid fa-microphone"></i> Chat de voz
-
-Para chat de voz utilizamos [Discord][1]{:target="_blank"} usando el [canal de voz *Mario Kart* dentro de Mode 7][5].
+- Cada jueves a las 9:00 pm (hora central de México)
+- Reglas
+    - 150cc
+    - No equipos
+    - Ítems normales
+    - COM difícil
+    - Sin *smart steering*
+    - 16 carreras en total
+    - Sin rotación de lobby
+    - Sin distinción de rangos
+- Las reglas pueden cambiar dependiendo de si es una fecha especial o algo así. Todo eso lo damos a conocer en el [Discord de Mode 7][1].
 
 ## <i class="fa-brands fa-discord"></i> Discord
 
-Únete a [Mode 7 (#mario-kart)][1]{:target="_blank"}. La intención de este Discord es ser útil para armar partidas, armar cotorreo, conocer gente, jugar, hablar sobre *Mario Kart 8 Deluxe* y mucho más.
-
-Link a mi perfil de Discord:
+- Puedes unirte al canal [`# 🏁│mario-kart`][1]{:target="_blank"} en el Discord de Mode 7 para recibir updates y notificaciones de todas las personas que jugamos
+- Chat de voz por el canal [`🏁|Mario Kart`][2]{:target="_blank"} dentro de Mode 7.
+- La intención del Discord de Mode 7 es ser útil para armar partidas, armar cotorreo, conocer gente, jugar, hablar sobre *Mario Kart 8 Deluxe* y mucho más.
+- Link a mi perfil de Discord:
 <a href="{{ site.discord_profile }}" class="badge badge-dark" target="_blank">{{ site.discord_tag }}</a>
 
 </div>
-<div class="col-sm-6 order-1 order-sm-2">
+<div class="col-sm-6">
 
-## <i class="fa-solid fa-flag-checkered"></i> Mario Kart 8 @ Mode 7
+## <i class="fa-solid fa-flag-checkered"></i> Flyer
 
 <div class="text-center mt20">
 <a href="javascript:void(0)" data-toggle="modal" data-target="#modal">
@@ -62,9 +55,16 @@ Link a mi perfil de Discord:
 </a>
 </div>
 
+## <i class="fa-brands fa-twitch"></i> Stream en vivo
+- Transmitimos los torneos en vivo cada jueves por la noche y [puedes ver el stream en aquí][3].
+
+## <i class="fa-solid fa-square-rss"></i> Posts sobre *Mario Kart 8*
+
+- Puedes revisar todos mis posts sobre *Mario Kart 8* en este hashtag: <a class="badge badge-primary" href="https://blog.{{ site.domain }}/hashtag/mario-kart-8/">#Mario Kart 8</a>
+
 ## <i class="fa-brands fa-mastodon"></i> Mastodon
 
-Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en Mastodon][4].
+- Para recibir más notificaciones o estar al pendiente de actualizaciones, puedes [seguirme en Mastodon][4]{:target="_blank"}.
 
 </div>
 </div>
@@ -84,8 +84,6 @@ Para recibir mis notificaciones sobre *Mario Kart 8 Deluxe* puedes [seguirme en 
 </div>
 
 [1]: https://discord.gg/U77J5c6
-[2]: https://itunes.apple.com/us/app/id1234806557?mt=12&uo=4&at=10l4Fw
-[3]: https://play.google.com/store/apps/details?id=com.nintendo.znca&gl=us&hl=en
-[4]: https://mastodon.online/@{{ site.mastodon_username }}
-[5]: https://discord.gg/qtT3kPY
-[6]: /mode-7
+[2]: https://discord.gg/qtT3kPY
+[3]: /live/
+[4]: https://social.lol/@{{ site.mastodon_username }}

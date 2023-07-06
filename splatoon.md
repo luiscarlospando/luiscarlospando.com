@@ -54,7 +54,7 @@ permalink: /nintendo/splatoon/
 </div>
 </div>
 
-## <i class="fa-brands fa-youtube"></i> Mis clips de Splatoon 3
+## <i class="fa-brands fa-youtube"></i> Mis clips de *Splatoon 3*
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/videoseries?list=PL15FCirCIaHq3KXJcqrFPaTYpzSxDpDVm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

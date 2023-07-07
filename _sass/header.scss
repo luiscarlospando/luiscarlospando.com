@@ -61,7 +61,7 @@
     background: url('../images/avatar.webp') no-repeat center;
     background-size: cover;
     border-radius: 50%;
-    border: 1px solid $transparentGray;
+    // border: 1px solid $transparentGray;
     width: 96px;
     height: 96px;
     margin: 0 auto;
@@ -82,16 +82,16 @@
     &:focus + #logo-blur {
         -webkit-filter: blur(20px);
                 filter: blur(20px);
-        -webkit-transform: scale(1) rotate(0deg);
-            -ms-transform: scale(1) rotate(0deg);
-                transform: scale(1) rotate(0deg);
+        -webkit-transform: scale(1.2) rotate(0deg);
+            -ms-transform: scale(1.2) rotate(0deg);
+                transform: scale(1.2) rotate(0deg);
     }
 }
 
 #logo-blur {
     background-color: $transparentGray;
     border-radius: 50%;
-    border: 1px solid $transparentGray;
+    // border: 1px solid $transparentGray;
     width: 96px;
     height: 96px;
     margin: 0 auto;
@@ -102,7 +102,8 @@
     bottom: 0;
     margin: auto;
     z-index: 1;
-    -webkit-transition : -webkit-filter 250ms linear;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
     -webkit-filter: blur(0);
             filter: blur(0);
     -webkit-transform: scale(1) rotate(0deg);

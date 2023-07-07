@@ -15,5 +15,5 @@ import './backToTop'; // react component
 import './jquery.mmenu.min.all';
 import './lastUpdatedAt';
 import './wp-api';
-// import './now';
+import './now';
 import './main';

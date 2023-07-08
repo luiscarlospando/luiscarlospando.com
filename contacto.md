@@ -30,6 +30,9 @@ Cuenta automatizada con posts de mi sitio.
 ## <i class="fa-brands fa-instagram"></i> Instagram
 [Aquí comparto fotos][1]{:target="_blank"} de mis cosas favoritas y de momentos que considero que valen la pena ser compartidos.
 
+## <img class="logo-threads" src="/assets/images/ico-threads.webp" alt="Logo de Threads"> Threads
+Este es [mi perfil en Threads][10]{:target="_blank"}.
+
 ## <i class="fa-brands fa-discord"></i> Discord
 Mi username en Discord es <a href="{{ site.discord_profile }}" target="_blank"><code>{{ site.discord_tag }}</code></a> y tengo un server con unos amigos, se llama [Mode 7][2] y es para puros jugones (*feel free to join in!*).
 
@@ -63,3 +66,4 @@ En [Backloggd][9]{:target="_blank"} llevo el control de los videojuegos que teng
 [7]: https://reddit.com/u/{{ site.reddit_username }}
 [8]: https://twitch.tv/{{ site.twitch_username }}
 [9]: https://www.backloggd.com/u/{{ site.backloggd_username }}
+[10]: https://threads.net/@{{ site.threads_username }}

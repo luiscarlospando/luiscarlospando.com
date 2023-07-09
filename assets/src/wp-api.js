@@ -21,7 +21,8 @@ function displayLatestPosts() {
       .then(data => {
         // Retrieve last 5 posts, fetch links and display them on the homepage
         for (let i = 0; i < data.length; i++) {
-            document.getElementById("latest-posts").append('<li><a href="' + data[i].link + '" data-toggle="tooltip" data-placement="top" title="' + data[i].title.rendered + '">' + data[i].title.rendered + '</a></li>');
+            const listElement = '<li><a href="' + data[i].link + '" data-toggle="tooltip" data-placement="top" title="' + data[i].title.rendered + '">' + data[i].title.rendered + '</a></li>';
+            document.getElementById("latest-posts").innerHTML = listElement;
         }
 
         // Retrieve newest post, fetch link and display it on the footer

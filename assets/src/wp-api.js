@@ -10,6 +10,7 @@ dayjs.extend(relativeTime);
 // API URLs
 const latestPosts = "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=5";
 const mode7LatestPost = "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1&tags=778";
+const blogPosts = "https://blog.luiscarlospando.com/wp-json/wp/v2/posts";
 
 // Using Promise syntax
 function displayLatestPosts() {
@@ -62,12 +63,24 @@ function displayMode7LatestPost() {
       .catch(error => console.error(error));
 }
 
+function displayTotalBlogPosts() {
+    fetch(blogPosts, {
+        method: "GET",
+        headers: {"Content-type": "application/json;charset=UTF-8"}})
+      .then(response => response.json())
+      .then(request => {
+        // Retrieve total blog posts count and display it
+        const postCount = request.getResponseHeader('x-wp-total');
+        if (document.getElementById("contador-posts") !== null) {
+            document.getElementById("contador-posts").innerHTML += postCount;
+        } else {
+            console.log("#contador-posts no existe en el DOM");
+        }
+      })
+      .catch(error => console.error(error));
+}
+
 // Function calls
 displayLatestPosts();
 displayMode7LatestPost();
-
-// Append total post count to element #contador-posts in "Acerca de" page
-$.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts', function (data, status, request) {
-    postCount = request.getResponseHeader('x-wp-total');
-    $('#contador-posts').append(postCount);
-});
+displayTotalBlogPosts

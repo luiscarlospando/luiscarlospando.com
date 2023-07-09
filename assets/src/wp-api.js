@@ -19,13 +19,19 @@ function displayLatestPosts() {
       .then(response => response.json())
       .then(data => {
         // Retrieve last 5 posts, fetch links and display them on the homepage
-        for (let i = 0; i < data.length; i++) {
-            document.getElementById("latest-posts").innerHTML += `<li><a href="${data[i].link}" data-toggle="tooltip" data-placement="top" title="${data[i].title.rendered}">${data[i].title.rendered}</a></li>`;
+        if (document.getElementById("latest-posts") !== null) {
+            for (let i = 0; i < data.length; i++) {
+                document.getElementById("latest-posts").innerHTML += `<li><a href="${data[i].link}" data-toggle="tooltip" data-placement="top" title="${data[i].title.rendered}">${data[i].title.rendered}</a></li>`;
+            }
+        } else {
+            console.log("#latest-posts no existe en el DOM");
         }
 
         // Retrieve newest post, fetch link and display it on the footer
-        for (let i = 0; i < 0; i++) {
-            document.getElementById("blog").innerHTML += `<li><a href="${data[i].link}" data-toggle="tooltip" data-placement="top" title="${data[i].title.rendered}">${data[i].title.rendered}</a></li>`;
+        if (document.getElementById("blog") !== null) {
+            document.getElementById("blog").innerHTML += `<a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a>`;
+        } else {
+            console.log("#blog no existe en el DOM");
         }
       })
       .catch(error => console.error(error));
@@ -38,15 +44,19 @@ function displayMode7LatestPost() {
       .then(response => response.json())
       .then(data => {
         // Retrieve latest post from tag 'Mode 7 Podcast' via API and fetch link
-        for (let i = 0; i < 0; i++) {
-            document.getElementById("mode-7-podcast-latest-episode").innerHTML += `<a href="${data[i].link}" data-toggle="tooltip" data-placement="top" title="${data[i].title.rendered}">${data[i].title.rendered}</a>`;
+        if (document.getElementById("mode-7-podcast-latest-episode") !== null) {
+            document.getElementById("mode-7-podcast-latest-episode").innerHTML += `<a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a>`;
+        } else {
+            console.log("#mode-7-podcast-latest-episode no existe en el DOM");
         }
 
         // Retrieve latest post timestamp from tag 'Mode 7 Podcast' via API and fetch link
         const lastUpdatedIso = data[0].date;
         let lastUpdatedRelative = dayjs().to(lastUpdatedIso);
-        for (let i = 0; i < 0; i++) {
-            document.getElementById("mode-7-podcast-latest-episode-timestamp").innerHTML += `<a href="${data[i].link}"><code>Última actualización: ${lastUpdatedRelative}</code></a>`;
+        if (document.getElementById("mode-7-podcast-latest-episode-timestamp") !== null) {
+            document.getElementById("mode-7-podcast-latest-episode-timestamp").innerHTML += `<a href="${data[0].link}"><code>Última actualización: ${lastUpdatedRelative}</code></a>`;
+        } else {
+            console.log("#mode-7-podcast-latest-episode-timestamp no existe en el DOM");
         }
       })
       .catch(error => console.error(error));

@@ -83,4 +83,4 @@ function displayTotalBlogPosts() {
 // Function calls
 displayLatestPosts();
 displayMode7LatestPost();
-displayTotalBlogPosts
+displayTotalBlogPosts();

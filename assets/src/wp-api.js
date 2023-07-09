@@ -7,7 +7,6 @@ dayjs.locale('es-mx');
 const relativeTime = require('dayjs/plugin/relativeTime');
 dayjs.extend(relativeTime);
 
-
 // API URLs
 const latestPosts = "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=5";
 const mode7LatestPost = "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1&tags=778";
@@ -21,8 +20,7 @@ function displayLatestPosts() {
       .then(data => {
         // Retrieve last 5 posts, fetch links and display them on the homepage
         for (let i = 0; i < data.length; i++) {
-            const listElement = '<li><a href="' + data[i].link + '" data-toggle="tooltip" data-placement="top" title="' + data[i].title.rendered + '">' + data[i].title.rendered + '</a></li>';
-            document.getElementById("latest-posts").innerHTML = listElement;
+            document.getElementById("latest-posts").append('<li><a href="' + data[i].link + '" data-toggle="tooltip" data-placement="top" title="' + data[i].title.rendered + '">' + data[i].title.rendered + '</a></li>');
         }
 
         // Retrieve newest post, fetch link and display it on the footer

@@ -38,12 +38,16 @@ function displayMode7LatestPost() {
       .then(response => response.json())
       .then(data => {
         // Retrieve latest post from tag 'Mode 7 Podcast' via API and fetch link
-        document.getElementById("mode-7-podcast-latest-episode").innerHTML += `<a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a>`;
+        for (let i = 0; i < 0; i++) {
+            document.getElementById("mode-7-podcast-latest-episode").innerHTML += `<a href="${data[i].link}" data-toggle="tooltip" data-placement="top" title="${data[i].title.rendered}">${data[i].title.rendered}</a>`;
+        }
 
         // Retrieve latest post timestamp from tag 'Mode 7 Podcast' via API and fetch link
         const lastUpdatedIso = data[0].date;
         let lastUpdatedRelative = dayjs().to(lastUpdatedIso);
-        document.getElementById("mode-7-podcast-latest-episode-timestamp").innerHTML += `<a href="${data[0].link}"><code>Última actualización: ${lastUpdatedRelative}</code></a>`;
+        for (let i = 0; i < 0; i++) {
+            document.getElementById("mode-7-podcast-latest-episode-timestamp").innerHTML += `<a href="${data[i].link}"><code>Última actualización: ${lastUpdatedRelative}</code></a>`;
+        }
       })
       .catch(error => console.error(error));
 }

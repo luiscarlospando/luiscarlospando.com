@@ -24,7 +24,9 @@ function displayLatestPosts() {
         }
 
         // Retrieve newest post, fetch link and display it on the footer
-        document.getElementById("blog").innerHTML += `<a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a>`;
+        for (let i = 0; i < 0; i++) {
+            document.getElementById("blog").innerHTML += `<li><a href="${data[i].link}" data-toggle="tooltip" data-placement="top" title="${data[i].title.rendered}">${data[i].title.rendered}</a></li>`;
+        }
       })
       .catch(error => console.error(error));
 }

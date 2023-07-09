@@ -24,8 +24,7 @@ function displayLatestPosts() {
         }
 
         // Retrieve newest post, fetch link and display it on the footer
-        console.log(data[0].link);
-        document.getElementById("blog").innerHTML += `<li><a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a></li>`;
+        document.getElementById("blog").innerHTML += `<a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a>`;
       })
       .catch(error => console.error(error));
 }
@@ -37,12 +36,12 @@ function displayMode7LatestPost() {
       .then(response => response.json())
       .then(data => {
         // Retrieve latest post from tag 'Mode 7 Podcast' via API and fetch link
-        document.getElementById("mode-7-podcast-latest-episode").append('<a href="' + data[0].link + '" data-toggle="tooltip" data-placement="top" title="' + data[0].title.rendered + '">' + data[0].title.rendered + '</a>');
+        document.getElementById("mode-7-podcast-latest-episode").innerHTML += `<a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a>`;
 
         // Retrieve latest post timestamp from tag 'Mode 7 Podcast' via API and fetch link
         const lastUpdatedIso = data[0].date;
         let lastUpdatedRelative = dayjs().to(lastUpdatedIso);
-        document.getElementById("mode-7-podcast-latest-episode-timestamp").append('<a href="' + data[0].link + '"><code>Última actualización: ' + lastUpdatedRelative + '</code></a>');
+        document.getElementById("mode-7-podcast-latest-episode-timestamp").innerHTML += `<a href="${data[0].link}"><code>Última actualización: ${lastUpdatedRelative}</code></a>`;
       })
       .catch(error => console.error(error));
 }

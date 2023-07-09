@@ -20,11 +20,11 @@ function displayLatestPosts() {
       .then(data => {
         // Retrieve last 5 posts, fetch links and display them on the homepage
         for (let i = 0; i < data.length; i++) {
-            document.getElementById("latest-posts").append('<li><a href="' + data[i].link + '" data-toggle="tooltip" data-placement="top" title="' + data[i].title.rendered + '">' + data[i].title.rendered + '</a></li>');
+            document.getElementById("latest-posts").innerHTML += `<li><a href="${data[i].link}" data-toggle="tooltip" data-placement="top" title="${data[i].title.rendered}">${data[i].title.rendered}</a></li>`;
         }
 
         // Retrieve newest post, fetch link and display it on the footer
-        document.getElementById("blog").append('<a href="' + data[0].link + '" data-toggle="tooltip" data-placement="top" title="' + data[0].title.rendered + '">' + data[0].title.rendered + '</a>');
+        document.getElementById("blog").innerHTML += `<li><a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a></li>`;
       })
       .catch(error => console.error(error));
 }

@@ -10,7 +10,6 @@ dayjs.extend(relativeTime);
 // API URLs
 const latestPosts = "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=5";
 const mode7LatestPost = "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1&tags=778";
-const blogPosts = "https://blog.luiscarlospando.com/wp-json/wp/v2/posts";
 
 // Using Promise syntax
 function displayLatestPosts() {
@@ -64,17 +63,25 @@ function displayMode7LatestPost() {
 }
 
 function displayTotalBlogPosts() {
-    fetch(blogPosts, {
+    fetch(mode7LatestPost, {
         method: "GET",
         headers: {"Content-type": "application/json;charset=UTF-8"}})
       .then(response => response.json())
-      .then(request => {
-        // Retrieve total blog posts count and display it
-        const postCount = request.getResponseHeader('x-wp-total');
-        if (document.getElementById("contador-posts") !== null) {
-            document.getElementById("contador-posts").innerHTML += postCount;
+      .then(data => {
+        // Retrieve latest post from tag 'Mode 7 Podcast' via API and fetch link
+        if (document.getElementById("mode-7-podcast-latest-episode") !== null) {
+            document.getElementById("mode-7-podcast-latest-episode").innerHTML += `<a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a>`;
         } else {
-            console.log("#contador-posts no existe en el DOM");
+            console.log("#mode-7-podcast-latest-episode no existe en el DOM");
+        }
+
+        // Retrieve latest post timestamp from tag 'Mode 7 Podcast' via API and fetch link
+        const lastUpdatedIso = data[0].date;
+        let lastUpdatedRelative = dayjs().to(lastUpdatedIso);
+        if (document.getElementById("mode-7-podcast-latest-episode-timestamp") !== null) {
+            document.getElementById("mode-7-podcast-latest-episode-timestamp").innerHTML += `<a href="${data[0].link}"><code>Última actualización: ${lastUpdatedRelative}</code></a>`;
+        } else {
+            console.log("#mode-7-podcast-latest-episode-timestamp no existe en el DOM");
         }
       })
       .catch(error => console.error(error));
@@ -83,4 +90,9 @@ function displayTotalBlogPosts() {
 // Function calls
 displayLatestPosts();
 displayMode7LatestPost();
-displayTotalBlogPosts();
+
+// Append total post count to element #contador-posts in "Acerca de" page
+$.get('https://blog.luiscarlospando.com/wp-json/wp/v2/posts', function (data, status, request) {
+    postCount = request.getResponseHeader('x-wp-total');
+    $('#contador-posts').append(postCount);
+});

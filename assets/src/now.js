@@ -26,8 +26,17 @@ function getNowContent() {
         let lastUpdated = dayjs.unix(nowUpdated);
         let relativeTimeContent = dayjs().to(lastUpdated);
 
-        document.getElementById("now-updated").innerHTML = relativeTimeContent;
-        document.getElementById("now-content").innerHTML = converter.makeHtml(nowContent);
+        if (document.getElementById("now-updated") !== null) { 
+          document.getElementById("now-updated").innerHTML = relativeTimeContent;
+        } else {
+          console.log("#now-updated no existe en el DOM");
+        }
+
+        if (document.getElementById("now-content") !== null) { 
+          document.getElementById("now-content").innerHTML = converter.makeHtml(nowContent);
+        } else {
+          console.log("#now-contentno existe en el DOM");
+        }
       })
       .catch(error => console.error(error));
 }

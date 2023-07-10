@@ -35,7 +35,7 @@ function getNowContent() {
         if (document.getElementById("now-content") !== null) { 
           document.getElementById("now-content").innerHTML = converter.makeHtml(nowContent);
         } else {
-          console.log("#now-contentno existe en el DOM");
+          console.log("#now-content no existe en el DOM");
         }
       })
       .catch(error => console.error(error));

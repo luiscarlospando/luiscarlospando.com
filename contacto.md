@@ -14,6 +14,9 @@ Mi correo electrónico es <code>{{ site.email }}</code>.<br>
 <i class="fa-solid fa-pen-to-square"></i> Escribir correo
 </a>
 
+## <i class="fa-solid fa-key"></i> Llave PGP pública
+Esta es [mi llave PGP pública][11] por si quieres contactarme encriptadamente.
+
 ## <i class="fa-brands fa-mastodon"></i> Mastodon
 <a rel="me" href="{{ site.mastodon_url }}" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_username }} en Mastodon" target="_blank">
 <i class="fa-brands fa-mastodon"></i> Seguir a @{{ site.mastodon_username }}
@@ -67,3 +70,4 @@ En [Backloggd][9]{:target="_blank"} llevo el control de los videojuegos que teng
 [8]: https://twitch.tv/{{ site.twitch_username }}
 [9]: https://www.backloggd.com/u/{{ site.backloggd_username }}
 [10]: https://threads.net/@{{ site.threads_username }}
+[11]: /keys/

@@ -55,7 +55,7 @@ Este es [mi perfil en Last.fm][6]{:target="_blank"}.
 Este es [mi perfil en Reddit][7]{:target="_blank"}.
 
 ## <i class="fa-brands fa-twitch"></i> Twitch
-<img alt="Twitch Status" src="https://img.shields.io/twitch/status/itsmemijo?logo=twitch&logoColor=white">
+<img class="d-block mb-2" alt="Twitch Status" src="https://img.shields.io/twitch/status/itsmemijo?logo=twitch&logoColor=white">
 [Tengo un canal en Twitch][8]{:target="_blank"}, que honestamente nunca he usado pero lo tengo por si algún día me da por transmitir.
 
 ## <i class="fa-solid fa-gamepad"></i> Backloggd

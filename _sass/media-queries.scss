@@ -112,6 +112,7 @@
     }
 }
 
+// Super XX-Large devices (larger desktops, 1600px and up)
 @media (min-width: 1600px) { 
     footer {
         #lastfm {
@@ -124,7 +125,7 @@
     }
 }
 
-/* Mobile */
+// Mobile
 @media (max-width: 768px) {
     h1 {
         font-size: 30px;
@@ -169,13 +170,9 @@
             margin: 10px 20px 6px 10px;
         }
     }
-
-    progress {
-        display: none;
-    }
 }
 
-/* iPhone (landscape) */
+// iPhone (landscape)
 @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
@@ -189,7 +186,7 @@
     }
 }
 
-/* iPad (landscape and portrait) */
+// iPad (landscape and portrait)
 @media (min-width: 768px) and (max-width: 991px) {
     h1 {
       font-size: 34px;
@@ -210,12 +207,12 @@
     }
 }
 
-/* iPad (landscape) */
+// iPad (landscape)
 @media (min-width: 769px) and (max-width: 1090px) {
 
 }
 
-/* iPad (portrait) */
+// iPad (portrait)
 @media (min-width: 751px) and (max-width: 768px) {
 
 

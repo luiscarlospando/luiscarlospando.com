@@ -109,18 +109,14 @@
         $('[data-toggle="tooltip"]').tooltip();
 
         // Progress bar
-        let winHeight = $(window).height(),
-            docHeight = $(document).height(),
-            progressBar = $('progress'),
-            max, value;
+        $(window).scroll(function () {
+            let s = $(window).scrollTop(),
+                d = $(document).height(),
+                c = $(window).height();
+                scrollPercent = (s / (d-c)) * 100;
+            let position = scrollPercent;
 
-        // Set the max scrollable area
-        max = docHeight - winHeight;
-        progressBar.attr('max', max);
-
-        $(document).on('scroll', function () {
-            value = $(window).scrollTop();
-            progressBar.attr('value', value);
+            $("#progress-bar").attr('value', position);
         });
 
         // Responsive YouTube embeds

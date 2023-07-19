@@ -68,7 +68,7 @@ En [Backloggd][9]{:target="_blank"} llevo el control de los videojuegos que teng
 [5]: https://music.apple.com/profile/{{ site.apple_music_username }}
 [6]: https://last.fm/user/{{ site.lastfm_username }}
 [7]: https://reddit.com/u/{{ site.reddit_username }}
-[8]: https://twitch.tv/{{ site.twitch_username }}
+[8]: /live/
 [9]: https://www.backloggd.com/u/{{ site.backloggd_username }}
 [10]: https://threads.net/@{{ site.threads_username }}
 [11]: /keys/

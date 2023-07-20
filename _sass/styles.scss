@@ -477,12 +477,11 @@ code {
 }
 
 .app-icon {
+    @include transition;
+    
     &:hover,
     &:focus {
-        background: $btnBgHoverColor;
-        border: none;
-        color: $mainColor !important;
-        text-shadow: rgba(0, 0, 0, 56%) 0px 3px 12px;
-        box-shadow: rgba(80, 63, 205, 50%) 0px 1px 40px;
+        -webkit-transform: scale(1.03) translate3d(0,0,0);
+            transform: scale(1.03) translate3d(0,0,0)
     }
 }

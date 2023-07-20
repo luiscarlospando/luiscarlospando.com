@@ -475,3 +475,14 @@ code {
 .omg-lol-now-page-element {
     display: none;
 }
+
+.app-icon {
+    &:hover,
+    &:focus {
+        background: $btnBgHoverColor;
+        border: none;
+        color: $mainColor !important;
+        text-shadow: rgba(0, 0, 0, 56%) 0px 3px 12px;
+        box-shadow: rgba(80, 63, 205, 50%) 0px 1px 40px;
+    }
+}

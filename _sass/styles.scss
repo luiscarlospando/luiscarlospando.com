@@ -478,10 +478,10 @@ code {
 
 .app-icon {
     @include transition;
-    
+
     &:hover,
     &:focus {
-        -webkit-transform: scale(1.03) translate3d(0,0,0);
-            transform: scale(1.03) translate3d(0,0,0)
+        -webkit-transform: scale(1.11) translate3d(0,0,0);
+            transform: scale(1.11) translate3d(0,0,0)
     }
 }

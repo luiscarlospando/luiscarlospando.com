@@ -22,13 +22,16 @@ function displayLatestStatus() {
             const lastUpdated = data.response.statuses[0].created;
             let lastUpdatedRelative = dayjs().to(lastUpdated);
 
+            console.log(lastUpdated);
+
             document.getElementById("status").innerHTML += `
                 <a href="${data.response.statuses[0].external_url}" data-toggle="tooltip" data-placement="right" title="Actualizado hace ${lastUpdatedRelative}" target="_blank">
                     <div id="container">
                         <p>${data.response.statuses[0].content}</p>
                     </div>
                     ${data[0].title.rendered}
-                </a>`;
+                </a>
+            `;
         } else {
             console.log("#status no existe en el DOM");
         }

@@ -23,16 +23,16 @@ function displayLatestStatus() {
         let lastUpdatedRelative = dayjs().to(lastUpdatedIso);
         if (document.getElementById("status") !== null) {
             document.getElementById("status").innerHTML += `
-                <a href="https://mijo.status.lol/" target="_blank">
-                    <div id="container" class="text-center">
+                <div id="container" class="text-center">
+                    <a class="d-inline-block" href="https://mijo.status.lol/" target="_blank">
                         <p>
                             ${data.response.statuses[0].emoji} ${data.response.statuses[0].content}
                         </p>
-                    </div>
-                </a>
-                <small>
-                    <em>(${lastUpdatedRelative})</em>
-                </small>
+                    </a>
+                    <small>
+                        <em>(${lastUpdatedRelative})</em>
+                    </small>
+                </div>
             `;
         } else {
             console.log("#status no existe en el DOM");

@@ -22,8 +22,8 @@ function displayLatestStatus() {
         let lastUpdatedRelative = dayjs().to(lastUpdatedIso);
         if (document.getElementById("status") !== null) {
             document.getElementById("status").innerHTML += `
-                <a href="${data.response.statuses[0].external_url}" data-toggle="tooltip" data-placement="right" title="Actualizado ${lastUpdatedRelative}" target="_blank">
-                    <div id="container text-center">
+                <a href="${data.response.statuses[0].external_url}" data-toggle="tooltip" data-placement="right" title="" data-original-title="Actualizado ${lastUpdatedRelative}" target="_blank">
+                    <div id="container" class="text-center">
                         <p>${data.response.statuses[0].emoji} ${data.response.statuses[0].content}</p>
                     </div>
                 </a>

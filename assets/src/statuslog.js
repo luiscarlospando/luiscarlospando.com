@@ -29,7 +29,6 @@ function displayLatestStatus() {
                     <div id="container">
                         <p>${data.response.statuses[0].content}</p>
                     </div>
-                    ${data[0].title.rendered}
                 </a>
             `;
         } else {

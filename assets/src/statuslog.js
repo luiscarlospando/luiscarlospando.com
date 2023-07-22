@@ -12,7 +12,7 @@ const latestStatus = "https://api.omg.lol/address/mijo/statuses/";
 
 // Using Promise syntax
 function displayLatestStatus() {
-    fetch(latestPosts, {
+    fetch(latestStatus, {
         method: "GET",
         headers: {"Content-type": "application/json;charset=UTF-8"}})
       .then(response => response.json())
@@ -35,3 +35,6 @@ function displayLatestStatus() {
       })
       .catch(error => console.error(error));
 }
+
+// Function calls
+displayLatestStatus();

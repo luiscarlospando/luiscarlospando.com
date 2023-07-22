@@ -172,6 +172,12 @@
 
 #m7gp-livestream-alert {
     opacity: 0;
+
+    #live-icon {
+        color: $linkColor;
+        font-size: 1rem;
+        vertical-align: middle;
+    }
 }
 
 progress {
@@ -216,12 +222,6 @@ progress::-moz-progress-bar {
 #m7gp-livestream,
 #btn-m7gp {
     display: none;
-}
-
-#live-icon {
-    color: $linkColor;
-    font-size: 1rem;
-    vertical-align: middle;
 }
 
 #profile-picture {

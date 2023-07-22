@@ -18,13 +18,18 @@ function displayLatestStatus() {
       .then(response => response.json())
       .then(data => {
         // Retrieve lastest status, fetch links and display it on the header
-        const lastUpdatedIso = data.response.statuses[0].created;
-        let lastUpdatedRelative = dayjs().to(lastUpdatedIso);
+        const lastUpdatedUnix = data.response.statuses[0].created;
+        let lastUpdatedRelative = dayjs().unix(lastUpdatedUnix);
         if (document.getElementById("status") !== null) {
             document.getElementById("status").innerHTML += `
-                <a href="https://mijo.status.lol/" data-toggle="tooltip" data-placement="right" title="Actualizado ${lastUpdatedRelative}" data-original-title="Actualizado ${lastUpdatedRelative}" target="_blank">
+                <a href="https://mijo.status.lol/" target="_blank">
                     <div id="container" class="text-center">
-                        <p>${data.response.statuses[0].emoji} ${data.response.statuses[0].content}</p>
+                        <p>
+                            ${data.response.statuses[0].emoji} ${data.response.statuses[0].content}
+                            <small>
+                                <em>${lastUpdatedRelative}</em>
+                            </small>
+                        </p>
                     </div>
                 </a>
             `;

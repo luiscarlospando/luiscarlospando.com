@@ -27,13 +27,12 @@ function displayLatestStatus() {
                     <div id="container" class="text-center">
                         <p>
                             ${data.response.statuses[0].emoji} ${data.response.statuses[0].content}
-                            <br>
-                            <small>
-                                <em>(${lastUpdatedRelative})</em>
-                            </small>
                         </p>
                     </div>
                 </a>
+                <small>
+                    <em>(${lastUpdatedRelative})</em>
+                </small>
             `;
         } else {
             console.log("#status no existe en el DOM");

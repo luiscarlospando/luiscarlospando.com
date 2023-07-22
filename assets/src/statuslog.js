@@ -24,7 +24,7 @@ function displayLatestStatus() {
         if (document.getElementById("status") !== null) {
             document.getElementById("status").innerHTML += `
                 <div id="container" class="text-center">
-                    <a class="d-inline-block" href="https://mijo.status.lol/" target="_blank">
+                    <a href="https://mijo.status.lol/" target="_blank">
                         <p>
                             ${data.response.statuses[0].emoji} ${data.response.statuses[0].content}
                         </p>

@@ -187,9 +187,11 @@
         let dt = DateTime.now().setZone("America/Mexico_City");
         let dayOfTheWeek = dt.weekday;
         let time = dt.toFormat('HH');
+
         const m7gpLivestreamAlert = document.getElementById("m7gp-livestream-alert");
         const m7gpLivestream = document.getElementById("m7gp-livestream");
         const btnM7GP = document.getElementById("btn-m7gp");
+
         const luisCarlosPandoLivestream = document.getElementById("luiscarlospando-livestream");
         const luisCarlosPandoChat = document.getElementById("luiscarlospando-chat");
         const btnLuisCarlosPando = document.getElementById("btn-luiscarlospando");

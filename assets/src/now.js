@@ -41,5 +41,5 @@ function getNowContent() {
       .catch(error => console.error(error));
 }
 
-// Function call
+// Function calls
 getNowContent();

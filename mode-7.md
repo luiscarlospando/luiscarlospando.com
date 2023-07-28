@@ -8,7 +8,9 @@ permalink: /mode-7/
 
 <div class="row">
 <div class="col-12 col-sm-4 col-md-3 col-lg-2 text-center">
-[<img class="rounded img-fluid" src="/assets/images/mode-7-logo.jpg" alt="" />][1]{:target="_blank"}
+<a href="javascript:void(0)" data-toggle="modal" data-target="#modal">
+<img class="rounded img-fluid" src="/assets/images/mode-7-logo.jpg" alt="" />
+</a>
 </div>
 <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-auto">
 [Mode 7][1]{:target="_blank"} (`Mode7gg` para los compas) es un proyecto que tenemos unos amigos y yo para compartir el amor que sentimos por los videojuegos. Mode 7 es un lugar en Discord y un [podcast][5] para hablar de videojuegos y por supuesto, jugarlos.
@@ -52,6 +54,16 @@ Pero obvio a nuestra comunidad le interesan muchos más juegos que estos. Entra 
 <a class="btn btn-primary d-block" href="{{ site.mode7_discord }}" target="_blank">
 <i class="fa-solid fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i> Abrir Mode 7 en Discord
 </a>
+</div>
+</div>
+
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-body modal-body-jekyll">
+<img class="img-fluid rounded" src="/assets/images/mode-7-logo.jpg" alt="" loading="lazy" />
+</div>
+</div>
 </div>
 </div>
 

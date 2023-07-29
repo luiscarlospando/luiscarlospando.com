@@ -8,7 +8,7 @@ const relativeTime = require('dayjs/plugin/relativeTime');
 dayjs.extend(relativeTime);
 
 // API URL (customized to get top 10 artists of the past month, 📃 docs: https://www.last.fm/api/show/user.getTopArtists)
-const lastfm_api = "http://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=luiscarlospando&api_key=28dd68a56fe0bebb7db5a287d6fdb4bc&format=json&period=1month&limit=10";
+const lastfm_api = "https://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=luiscarlospando&api_key=28dd68a56fe0bebb7db5a287d6fdb4bc&format=json&period=1month&limit=10";
 
 // Using Promise syntax
 function displayLastFmTopArtists() {

@@ -9,7 +9,7 @@ image: /assets/images/logo.png
 
 <h1 class="text-center">{{ site.title }}</h1>
 
-<span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando (aka <code>Mijo</code>), un dude que vive con su bella esposa [Marissa ❤️][1]{:target="_blank"} en [Chihuahua, México][2]{:target="_blank"} y que se dedica a [hacer cosas para el Internet][3]. Amo la música, pero tiendo a clavarme más en el hardcore y el punk. Algunos tal vez me ubiquen por haber creado [Hitz-Musik.net][4]{:target="_blank"} (RIP 🪦) junto a unos buenos amigos. "El Hitz" era una comunidad dedicada a cubrir la música alternativa y la escena local de Chihuahua. De eso solo me quedan recuerdos muy chidos.
+<span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando (aka <code>Mijo</code>), un vato que vive en [Chihuahua, México][1]{:target="_blank"} con su bella esposa [Marissa ❤️][2]{:target="_blank"}. Me dedico [hacer cosas para el Internet][3], amo la música y me inclino más por géneros alternativos y ya si te quieres clavar mucho, lo que más me gusta es el hardcore y el punk. Algunos tal vez me ubiquen por haber creado [Hitz-Musik.net][4]{:target="_blank"} (RIP 🪦) junto a unos buenos amigos. "El Hitz" era una comunidad dedicada a cubrir la música alternativa y la escena local de Chihuahua. De eso solo me quedan recuerdos muy chidos.
 
 La razón por la que hice este sitio, fue mi interés por las computadoras 👨‍💻 y la web 🌐, ― sentí la necesidad de tener [mi propio espacio en Internet][5], para hablar de lo que yo quisiera, para equivocarme, para experimentar y para aprender. Básicamente se trata de escribir sobre lo que traiga en la cabeza. Quiero que este lugar sirva como de una especie de bitácora de mi vida y que sea mi lugar para dar mi opinión sin miedo. 😌
 
@@ -37,8 +37,8 @@ Y pues bueno, lo más seguro es que ni sepas como llegaste hasta aquí, pero eso
     <i class="fa-solid fa-comment"></i> Ver todos
 </a>
 
-[1]: https://www.instagram.com/primitivegirl
-[2]: http://www.chihuahuatucapital.org/
+[1]: https://es.wikipedia.org/wiki/Chihuahua_(Chihuahua)
+[2]: https://www.instagram.com/primitivegirl
 [3]: https://github.com/{{ site.github_username }}
 [4]: http://hitz-musik.net
 [5]: https://blog.{{ site.domain }}/

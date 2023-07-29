@@ -64,7 +64,7 @@
 
         // Enable Last.fm last played song
         $('#lastfm').lastplayed({
-            apikey: '0665c6724df040e8c33e44b1eb1ba888',
+            apikey: '28dd68a56fe0bebb7db5a287d6fdb4bc',
             username: 'luiscarlospando',
             refresh: 30
         });

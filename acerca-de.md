@@ -45,7 +45,7 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [10]: https://wordpress.org/
 [11]: https://m.do.co/c/03bd95f889e7
 [12]: https://cloudflare.com/
-[13]: https://instatus.com/
+[13]: https://luiscarlospando.instatus.com/
 [14]: https://home.omg.lol/referred-by/mijo
 [15]: https://blog.{{ site.domain }}/rss/
 [16]: https://hachyderm.io/@{{ site.mastodon_feed }}

@@ -23,4 +23,4 @@ last-modified-at: <span id="now-updated"></span>
 
 <div id="now-content"></div>
 
-<div id="lastfm-top-artists"></div>
+<ul id="lastfm-top-artists"></ul>

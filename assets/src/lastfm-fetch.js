@@ -1,4 +1,4 @@
-// Retrieve /now page via omg.lol
+// Top 10 artists from Last.fmin the past month
 
 // Require dayjs from 'dayjs'
 const locale_es_mx = require('dayjs/locale/es-mx');

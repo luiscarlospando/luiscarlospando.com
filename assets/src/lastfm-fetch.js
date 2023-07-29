@@ -17,7 +17,7 @@ function displayLastFmTopArtists() {
       headers: {"Content-type": "application/json;charset=UTF-8"}})
     .then(response => response.json())
     .then(data => {
-      // Retrieve last 10 posts (specified on API URL), fetch links and display them on the homepage
+      // Retrieve last 10 posts (specified on API URL), fetch links and display them on the /now page
       let ready = (callback) => {
         if (document.readyState != "loading") callback();
         else document.addEventListener("DOMContentLoaded", callback);

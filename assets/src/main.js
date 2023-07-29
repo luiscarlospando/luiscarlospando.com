@@ -62,7 +62,7 @@
         siteBody.classList.add('animated', 'fadeIn');
         footer.classList.add('animated', 'fadeIn');
 
-        // Enable Last.fm last played song
+        // Enable Last.fm currently played song
         $('#lastfm').lastplayed({
             apikey: '28dd68a56fe0bebb7db5a287d6fdb4bc',
             username: 'luiscarlospando',

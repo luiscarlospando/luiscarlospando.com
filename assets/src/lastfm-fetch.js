@@ -20,7 +20,7 @@ function displayLastFmTopArtists() {
       // Retrieve last 10 posts (specified on API URL), fetch links and display them on the homepage
       console.log(data);
       if (document.getElementById("lastfm-top-artists") !== null) {
-          for (let i = 0; i < data.length; i++) {
+          for (let i = 0; i < data.topartists.artist.length; i++) {
               document.getElementById("lastfm-top-artists").innerHTML += `<li><a href="${data.topartists.artist[i].url}" target="_blank">${data.topartists.artist[i].name}</a></li>`;
           }
       } else {

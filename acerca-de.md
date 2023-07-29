@@ -31,7 +31,7 @@ Si gustas, te puedes suscribir a mi sitio a través de:
 
 ## Errores en el sitio
 
-Los estándares web son importantes e intento que mi sitio se adhiera a ellos. Si algo se ve extraño o incorrecto, por favor [házmelo saber][17].
+Los estándares web son importantes e intento que mi sitio se adhiera a ellos. Si algo se ve raro o incorrecto, [por favor házmelo saber][17].
 
 [1]: https://blog.{{ site.domain }}
 [2]: /

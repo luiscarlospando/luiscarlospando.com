@@ -18,7 +18,7 @@ Aquí está el [archivo completo][3] de todos mis posts.
 - Este sitio es completamente estático y lo genero usando [Jekyll][6]{:target="_blank"} ([<code>site-info</code>][7]), luego hago <code>push</code> a un <code>repo</code> que tengo en [GitHub][8]{:target="_blank"} y después se hace <code>deploy</code> en [Vercel][9]{:target="_blank"}
 - Mi blog corre con [WordPress][10]{:target="_blank"} y lo tengo corriendo en un <code>droplet</code> de [DigitalOcean][11]{:target="_blank"}
 - Mi dominio lo tengo registrado con [Cloudflare][12]{:target="_blank"}
-- El DNS es administrado vía [Cloudflare][12]{:target="_blank"} también
+- El DNS es administrado desde [Cloudflare][12]{:target="_blank"} también
 - Código fuente disponible en [GitHub][8]{:target="_blank"}
 - Uso [Instatus][13]{:target="_blank"} para monitorear el estatus general de los sistemas
 - Uso [omg.lol][14]{:target="_blank"} para Mastodon y otras cosas chidas

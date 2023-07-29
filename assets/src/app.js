@@ -16,5 +16,6 @@ import './jquery.mmenu.min.all';
 import './statuslog';
 import './lastUpdatedAt';
 import './wp-api';
+import './lastfm-fetch';
 import './now';
 import './main';

@@ -20,18 +20,20 @@ function displayLatestPosts() {
       .then(data => {
         // Retrieve last 5 posts, fetch links and display them on the homepage
         if (document.getElementById("latest-posts") !== null) {
+            console.log("✅ #latest-posts si existe en el DOM");
             for (let i = 0; i < data.length; i++) {
                 document.getElementById("latest-posts").innerHTML += `<li><a href="${data[i].link}" data-toggle="tooltip" data-placement="top" title="${data[i].title.rendered}">${data[i].title.rendered}</a></li>`;
             }
         } else {
-            console.log("#latest-posts no existe en el DOM");
+            console.log("❌ #latest-posts no existe en el DOM");
         }
 
         // Retrieve newest post, fetch link and display it on the footer
         if (document.getElementById("blog") !== null) {
+            console.log("✅ #blog si existe en el DOM");
             document.getElementById("blog").innerHTML += `<a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a>`;
         } else {
-            console.log("#blog no existe en el DOM");
+            console.log("❌ #blog no existe en el DOM");
         }
       })
       .catch(error => console.error(error));
@@ -45,18 +47,20 @@ function displayMode7LatestPost() {
       .then(data => {
         // Retrieve latest post from tag 'Mode 7 Podcast' via API and fetch link
         if (document.getElementById("mode-7-podcast-latest-episode") !== null) {
+            console.log("✅ #mode-7-podcast-latest-episode si existe en el DOM");
             document.getElementById("mode-7-podcast-latest-episode").innerHTML += `<a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a>`;
         } else {
-            console.log("#mode-7-podcast-latest-episode no existe en el DOM");
+            console.log("❌ #mode-7-podcast-latest-episode no existe en el DOM");
         }
 
         // Retrieve latest post timestamp from tag 'Mode 7 Podcast' via API and fetch link
         const lastUpdatedIso = data[0].date;
         let lastUpdatedRelative = dayjs().to(lastUpdatedIso);
         if (document.getElementById("mode-7-podcast-latest-episode-timestamp") !== null) {
+            console.log("✅ #mode-7-podcast-latest-episode-timestamp si existe en el DOM");
             document.getElementById("mode-7-podcast-latest-episode-timestamp").innerHTML += `<a href="${data[0].link}"><code>Última actualización: ${lastUpdatedRelative}</code></a>`;
         } else {
-            console.log("#mode-7-podcast-latest-episode-timestamp no existe en el DOM");
+            console.log("❌ #mode-7-podcast-latest-episode-timestamp no existe en el DOM");
         }
       })
       .catch(error => console.error(error));
@@ -70,18 +74,20 @@ function displayTotalBlogPosts() {
       .then(data => {
         // Retrieve latest post from tag 'Mode 7 Podcast' via API and fetch link
         if (document.getElementById("mode-7-podcast-latest-episode") !== null) {
+            console.log("✅ #mode-7-podcast-latest-episode si existe en el DOM");
             document.getElementById("mode-7-podcast-latest-episode").innerHTML += `<a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a>`;
         } else {
-            console.log("#mode-7-podcast-latest-episode no existe en el DOM");
+            console.log("❌ #mode-7-podcast-latest-episode no existe en el DOM");
         }
 
         // Retrieve latest post timestamp from tag 'Mode 7 Podcast' via API and fetch link
         const lastUpdatedIso = data[0].date;
         let lastUpdatedRelative = dayjs().to(lastUpdatedIso);
         if (document.getElementById("mode-7-podcast-latest-episode-timestamp") !== null) {
+            console.log("✅ #mode-7-podcast-latest-episode-timestamp si existe en el DOM");
             document.getElementById("mode-7-podcast-latest-episode-timestamp").innerHTML += `<a href="${data[0].link}"><code>Última actualización: ${lastUpdatedRelative}</code></a>`;
         } else {
-            console.log("#mode-7-podcast-latest-episode-timestamp no existe en el DOM");
+            console.log("❌ #mode-7-podcast-latest-episode-timestamp no existe en el DOM");
         }
       })
       .catch(error => console.error(error));

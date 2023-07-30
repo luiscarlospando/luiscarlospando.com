@@ -22,6 +22,7 @@ function displayLatestStatus() {
         let lastUpdatedIso = dayjs.unix(lastUpdatedUnix);
         let lastUpdatedRelative = dayjs().to(lastUpdatedIso);
         if (document.getElementById("status") !== null) {
+            console.log("✅ #status si existe en el DOM");
             document.getElementById("status").innerHTML += `
                 <div id="container" class="text-center">
                     <a href="https://mijo.status.lol/" target="_blank">
@@ -35,7 +36,7 @@ function displayLatestStatus() {
                 </div>
             `;
         } else {
-            console.log("#status no existe en el DOM");
+            console.log("❌ #status no existe en el DOM");
         }
       })
       .catch(error => console.error(error));

@@ -27,15 +27,17 @@ function getNowContent() {
         let relativeTimeContent = dayjs().to(lastUpdated);
 
         if (document.getElementById("now-updated") !== null) { 
+          console.log("✅ #now-updated si existe en el DOM");
           document.getElementById("now-updated").innerHTML = relativeTimeContent;
         } else {
-          console.log("#now-updated no existe en el DOM");
+          console.log("❌ #now-updated no existe en el DOM");
         }
 
         if (document.getElementById("now-content") !== null) { 
+          console.log("✅ #now-content si existe en el DOM");
           document.getElementById("now-content").innerHTML = converter.makeHtml(nowContent);
         } else {
-          console.log("#now-content no existe en el DOM");
+          console.log("❌ #now-content no existe en el DOM");
         }
       })
       .catch(error => console.error(error));

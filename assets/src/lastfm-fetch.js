@@ -26,11 +26,12 @@ function displayLastFmTopArtists() {
       ready(() => { 
         /* Do things after DOM has fully loaded */
         if (document.getElementById("lastfm-top-artists") !== null) {
+          console.log("✅ #lastfm-top-artists si existe en el DOM");
           for (let i = 0; i < data.topartists.artist.length; i++) {
               document.getElementById("lastfm-top-artists").innerHTML += `<li><a href="${data.topartists.artist[i].url}" target="_blank">${data.topartists.artist[i].name}</a></li>`;
           }
         } else {
-            console.log("#lastfm-top-artists no existe en el DOM");
+            console.log("❌ #lastfm-top-artists no existe en el DOM");
         }
       });
     })

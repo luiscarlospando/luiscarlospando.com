@@ -4,7 +4,7 @@ title: Política de Privacidad
 description: Me interesa tu privacidad y tu seguridad. Aquí describo lo que se recolecta en mi sitio web.
 image: /assets/images/logo.png
 permalink: /privacidad/
-last-modified-at: <span id="last-updated-at">2023-01-16 08:00:00</span>
+last-modified-at: <span id="last-updated-at">2023-07-30 1:53:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -25,7 +25,7 @@ Esos sitios pueden recopilar datos sobre ti, utilizar cookies, incrustar un segu
 ### Analíticas
 Para efectos de generación y análisis de estadísiticas de la audiencia que visita mi sitio, utilizo [Cabin][1]{:target="_blank"}. Usar Cabin me permitió dejar de usar Google Analytics y dejar atrás todo lo que Google rastrea. Ahora con Cabin es imposible identificar a un usuario en función de su ubicación, navegador, sistema operativo, lenguaje, etc. Tampoco se venden ni transfieren datos a ningún tercero.
 
-### Links afiliados de Amazon
-Algunas ocasiones utilizo links afiliados de Amazon o de cualquier otro proveedor. Cualquier compra hecha desde los links que comparto hacia algún producto en Amazon harán que reciba una pequeña comisión por la venta realizada.
+### Links referidos
+Los links referidos usados en mi sitio son una manera fácil de apoyarnos mútuamente. Cada servicio que recomiendo en mi sitio es porque lo estoy usando activamente y lo recomiendo de todo corazón.
 
 [1]: https://withcabin.com/

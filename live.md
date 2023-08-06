@@ -20,7 +20,7 @@ permalink: /live/
 <div id="luiscarlospando-livestream" class="col-12 col-md-8">
 <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 0;">
 <iframe
-    src="https://player.twitch.tv/?channel=itsmemijo&parent=luiscarlospando.com"
+    src="https://player.twitch.tv/?channel={{ site.twitch_username }}&parent=luiscarlospando.com"
     frameborder="0"
     scrolling="no"
     allowfullscreen="true">
@@ -30,8 +30,8 @@ permalink: /live/
 <div id="luiscarlospando-chat" class="col-12 col-md-4">
 <iframe frameborder="0"
     scrolling="no"
-    id="itsmemijo"
-    src="https://www.twitch.tv/embed/itsmemijo/chat?darkpopout&parent=luiscarlospando.com"
+    id="{{ site.twitch_username }}"
+    src="https://www.twitch.tv/embed/{{ site.twitch_username }}/chat?darkpopout&parent=luiscarlospando.com"
     height="100%"
     width="100%">
 </iframe>

@@ -4,7 +4,7 @@
   "description": "Punk dude first and foremost. Losing followers since 2007.",
   "main": "index.js",
   "scripts": {
-    "babel": "babel --watch assets/components --out-dir assets/src --presets react-app/prod",
+    "babel": "babel --watch assets/src --out-dir assets/components --presets react-app/prod",
     "regenerate": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -8,9 +8,9 @@ import 'bootstrap';
 import './lastfm.jquery';
 import './jquery.rss.min';
 import './prism';
-import './navigation'; // react component
-import './currentlyListening'; // react component
-import './backToTop'; // react component
+import '../components/navigation'; // react component
+import '../components/currentlyListening'; // react component
+import '../components/backToTop'; // react component
 import './jquery.mmenu.min.all';
 import './statuslog';
 import './lastUpdatedAt';

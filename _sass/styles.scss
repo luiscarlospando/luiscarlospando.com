@@ -435,16 +435,6 @@ a.btn {
     }
 }
 
-/*
-.btn-primary:not(:disabled):not(.disabled):active,
-.btn-primary:not(:disabled):not(.disabled).active,
-.show > .btn-primary.dropdown-toggle {
-    color: $mainColor !important;
-    background-color: $btnBgHoverColor;
-    border-color: $btnBorderHoverColor;
-}
-*/
-
 .btn-sm,
 .btn-group-sm > .btn {
     padding: 0.10rem .5rem;

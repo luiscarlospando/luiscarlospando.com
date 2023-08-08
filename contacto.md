@@ -33,7 +33,7 @@ Cuenta automatizada con posts de mi sitio.
 ## <i class="fa-brands fa-instagram"></i> Instagram
 [Aquí comparto fotos][1]{:target="_blank"} de mis cosas favoritas y de momentos que considero que valen la pena ser compartidos.
 
-## <img class="logo-threads" src="/assets/images/ico-threads.webp" alt="Logo de Threads"> Threads
+## <i class="fa-brands fa-threads"></i> Threads
 Este es [mi perfil en Threads][10]{:target="_blank"}.
 
 ## <i class="fa-brands fa-discord"></i> Discord

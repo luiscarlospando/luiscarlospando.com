@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: LuisCarlosPando.com
-version: 2.23.0
+version: 2.23.1
 author: Luis Carlos Pando
 email: hey@luiscarlospando.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -27,8 +27,8 @@ mastodon_url: https://social.lol/@mijo
 mastodon_username: mijo
 mastodon_feed: luiscarlospando
 omglol_username: mijo
-twitter_username: mijo
-twitter_feed: luiscarlospando
+x_username: mijo
+x_feed: luiscarlospando
 instagram_username: luiscarlospando
 threads_username: luiscarlospando
 github_username: luiscarlospando

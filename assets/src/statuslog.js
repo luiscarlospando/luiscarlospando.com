@@ -31,7 +31,7 @@ function displayLatestStatus() {
                         </p>
                     </a>
                     <small>
-                        <em>(${lastUpdatedRelative})</em>
+                        <em><i class="fa-solid fa-clock"></i> ${lastUpdatedRelative}</em>
                     </small>
                 </div>
             `;

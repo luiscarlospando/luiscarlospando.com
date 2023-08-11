@@ -30,7 +30,7 @@ function displayLatestStatus() {
                             ${data.response.statuses[0].emoji} ${data.response.statuses[0].content}
                         </p>
                     </a>
-                    <small>
+                    <small class="text-muted">
                         <em><i class="fa-solid fa-clock"></i> ${lastUpdatedRelative}</em>
                     </small>
                 </div>

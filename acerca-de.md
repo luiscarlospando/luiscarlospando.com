@@ -6,7 +6,7 @@ image: /assets/images/logo.png
 permalink: /acerca-de/
 ---
 
-<h2 class="subtitulo text-center"><small class="text-muted">{{ site.title }} <code>v{{ site.version }}</code></small></h2>
+<h2 class="subtitulo text-center"><small>{{ site.title }} <code>v{{ site.version }}</code></small></h2>
 
 Este URL ha sido mi hogar en línea desde octubre de 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado [<span id="contador-posts"></span> entradas en total][1] y es en este lugar donde intento unificar mi presencia en línea. Justo como lo mencioné en la [portada][2], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo valen la pena, opinar y dar recomendaciones. 
 

@@ -50,7 +50,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche<br>
 
 ---
 
-*Metroid Prime Remastered*<
+*Metroid Prime Remastered*
 
 ---
 

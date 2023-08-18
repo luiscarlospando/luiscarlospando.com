@@ -4,7 +4,7 @@ title: Nintendo
 description: Estos son mis datos de Discord, Nintendo Switch y mi perfill en Backloggd.
 image: /assets/images/ns-logo.jpg
 permalink: /nintendo/
-last-modified-at: <span id="last-updated-at">2023-06-21 18:00:00</span>
+last-modified-at: <span id="last-updated-at">2023-08-18 13:22:00</span>
 ---
 
 <div class="text-center">
@@ -48,7 +48,9 @@ Partidas de *Splatoon 3*, días aleatorios por la noche<br>
 <div class="col-6 my-auto">
 *The Legend of Zelda: Tears of the Kingdom*<br>
 <hr>
-*Metroid Prime Remastered*
+*Metroid Prime Remastered*<br>
+---
+*Red Dead Redemption*
 </div>
 <div class="col-6 my-auto text-monospace">
 (Offline)

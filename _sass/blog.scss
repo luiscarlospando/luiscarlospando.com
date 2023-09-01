@@ -20,7 +20,8 @@ h6 {
 #category {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
-    margin: 1.67em 0 -0.9rem;
+    // margin: 1.67em 0 -0.9rem;
+    margin-bottom: 0;
     text-transform: uppercase;
     position: relative;
 
@@ -36,6 +37,10 @@ h6 {
             text-decoration-color: $mainColor;
         }
     }
+}
+
+#title {
+    margin: 0 !important
 }
 
 .post-details {

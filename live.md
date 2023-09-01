@@ -41,7 +41,7 @@ permalink: /live/
 <div class="col text-center">
 <a id="btn-luiscarlospando" class="btn btn-primary" href="https://www.twitch.tv/{{ site.twitch_username }}" target="_blank">
 <i class="fa-solid fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i> Ver directamente en Twitch
-<a id="btn-m7gp" class="btn btn-primary" href="https://www.twitch.tv/mode7gg" target="_blank">
+<a id="btn-m7gp" class="btn btn-primary" href="https://www.twitch.tv/mexicanskynet" target="_blank">
 <i class="fa-solid fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i> Ver directamente en Twitch
 </a>
 </div>

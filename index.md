@@ -44,7 +44,7 @@ Y pues bueno, lo más seguro es que ni sepas como llegaste hasta aquí, pero eso
 [5]: https://blog.{{ site.domain }}/
 [6]: https://www.backloggd.com/u/{{ site.backloggd_username }}
 [7]: /mode-7/
-[8]: /nintendo/mario-kart/
+[8]: /games/mario-kart/
 [9]: /live/
 [10]: https://social.lol/@{{ site.mastodon_username }}
 [11]: https://home.omg.lol/referred-by/{{ site.omglol_username }}

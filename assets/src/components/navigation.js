@@ -122,19 +122,19 @@ function Navigation() {
         },
         {
             id: '8',
-            url: 'https://luiscarlospando.com/nintendo/',
+            url: 'https://luiscarlospando.com/games/',
             icon: 'fa-solid fa-gamepad',
-            text: 'Nintendo',
+            text: 'Games',
             subButtons: [
                 {
                     id: '1',
-                    url: 'https://luiscarlospando.com/nintendo/mario-kart/',
+                    url: 'https://luiscarlospando.com/games/mario-kart/',
                     icon: 'fa-solid fa-gamepad',
                     text: 'Mario Kart 8 Deluxe (Mode 7 Grand Prix)'
                 },
                 {
                     id: '2',
-                    url: 'https://luiscarlospando.com/nintendo/splatoon/',
+                    url: 'https://luiscarlospando.com/games/splatoon/',
                     icon: 'fa-solid fa-gamepad',
                     text: 'Splatoon 3'
                 }

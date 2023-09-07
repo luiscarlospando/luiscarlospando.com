@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Nintendo
-description: Estos son mis datos de Discord, Nintendo Switch y mi perfill en Backloggd.
+title: Games
+description: Esto es lo que estoy jugando actualmente y mis perfiles de Discord, Nintendo Switch y Backloggd.
 image: /assets/images/ns-logo.jpg
-permalink: /nintendo/
+permalink: /games/
 last-modified-at: <span id="last-updated-at">2023-08-18 13:22:00</span>
 ---
 
 <div class="text-center">
-Estos son mis datos de [<i class="fa-solid fa-link"></i> Discord][1], [<i class="fa-solid fa-link"></i> Nintendo Switch][2] y [<i class="fa-solid fa-link"></i> mi perfil en Backloggd][3].
+Esto es lo que estoy jugando actualmente y mis perfiles de [<i class="fa-solid fa-link"></i> Discord][1], [<i class="fa-solid fa-link"></i> Nintendo Switch][2] y [<i class="fa-solid fa-link"></i> Backloggd][3].
 </div>
 
 <div class="row">
@@ -35,7 +35,7 @@ Mode 7 Grand Prix todos los jueves @ 9:00 pm (hora central de México)<br>
 <div class="row">
 <div class="col-6 my-auto">
 [*Splatoon 3*][5]<br>
-Partidas de *Splatoon 3*, días aleatorios por la noche<br>
+Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de las 9:00 pm, hora central de México)<br>
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://discord.gg/NUSDKeJ" target="_blank">
@@ -122,5 +122,5 @@ Partidas de *Splatoon 3*, días aleatorios por la noche<br>
 [1]: #discord-tag
 [2]: #nintendo-switch
 [3]: https://www.backloggd.com/u/mijo/playing/
-[4]: /nintendo/mario-kart/
-[5]: /nintendo/splatoon/
+[4]: /games/mario-kart/
+[5]: /games/splatoon/

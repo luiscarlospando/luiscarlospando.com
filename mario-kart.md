@@ -3,7 +3,7 @@ layout: page
 title: Mode 7 Grand Prix
 description: El Mode 7 Grand Prix 🏁 es el torneo de Mario Kart 8 Deluxe más frenético y alocado de todo Internet y el lugar donde nació "el boiler", "la mediocre", "el azulejo" y el "siento que arranco la carretera”.
 image: /assets/images/banner-mode7grandprix.png
-permalink: /nintendo/mario-kart/
+permalink: /games/mario-kart/
 ---
 
 <div class="row">

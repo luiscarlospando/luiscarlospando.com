@@ -1,11 +1,11 @@
 {
   "name": "luiscarlospando.com",
-  "version": "2.18.0",
+  "version": "2.24.1",
   "description": "Punk dude first and foremost. Losing followers since 2007.",
   "main": "index.js",
   "scripts": {
-    "babel": "babel --watch assets/src --out-dir assets/components --presets react-app/prod",
-    "regenerate": "webpack",
+    "dev": "webpack serve",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,11 +23,11 @@
   },
   "homepage": "https://luiscarlospando.com",
   "devDependencies": {
-    "@babel/cli": "^7.17.10",
-    "@babel/core": "^7.17.10",
-    "@babel/preset-env": "^7.17.10",
-    "@babel/preset-react": "^7.18.6",
-    "babel-loader": "^8.2.5",
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.15",
+    "@babel/preset-env": "^7.22.15",
+    "@babel/preset-react": "^7.22.15",
+    "babel-loader": "^8.3.0",
     "babel-preset-react-app": "^3.1.2",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",

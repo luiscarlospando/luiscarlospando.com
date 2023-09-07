@@ -22,7 +22,7 @@ permalink: /games/splatoon/
 
 ## <i class="fa-solid fa-chart-column"></i> Mis stats
 
-- Rango: <a href="https://stat.ink/@mijo/spl2/stat/gachi?rule=hoko" class="badge badge-dark" target="_blank">Rank S+1</a>
+- Rango: <a href="https://stat.ink/@mijo/spl3" class="badge badge-dark" target="_blank">Rank S</a>
 
 ## <i class="fa-brands fa-discord"></i> Discord
 

@@ -50,10 +50,12 @@ h6 {
     margin: 0.6rem 0;
 }
 
+/*
 .contenido {
     width: 100%;
     float: left;
 }
+*/
 
 .hashtag-list {
     width: 100%;
@@ -166,15 +168,8 @@ p.latest-post {
     }
 }
 
-.twitter-tweet {
-    margin: 10px auto 14px !important;
-}
-
-.aligncenter,
-div.aligncenter {
+.aligncenter {
     margin: 0 auto;
-    justify-content: center;
-    align-items: center;
 }
 
 .alignleft {
@@ -193,6 +188,7 @@ img.alignright {
     margin-left: 30px;
 }
 
+/*
 .wp-caption.alignleft {
     margin: 0 20px 0 0 !important;
 }
@@ -204,6 +200,7 @@ img.alignright {
 .wp-caption.aligncenter {
     margin: 12px auto 0 !important;
 }
+*/
 
 .wp-caption {
     background: transparent !important;
@@ -224,18 +221,14 @@ img.alignright {
 
     .wp-caption-text {
         color: $mainColor !important;
-        font-size: 10pt !important;
+        font-size: 0.8331rem !important;
         font-style: italic;
-        line-height: 18px !important;
-        margin: 0;
-        position: relative;
-        top: -10px;
     }
 }
 
 .gallery-caption {
     color: #999 !important;
-    font-size: 10pt !important;
+    font-size: 0.8331rem !important;
     font-style: italic;
     line-height: 17px !important;
     margin: 0 0 0px !important;
@@ -280,9 +273,8 @@ iframe.instagram-media {
 .wp-block-image {
     figcaption {
         color: #fff;
-        font-size: 10pt;
+        font-size: 0.8331rem;
         font-style: italic;
-        line-height: 18px;
         text-align: center;
     }
 }

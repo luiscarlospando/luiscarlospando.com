@@ -10,7 +10,7 @@ permalink: /contacto/
 
 ## <i class="fa-solid fa-envelope"></i> Email
 Mi correo electrónico es <code>{{ site.email }}</code>.<br>
-<a href="mailto:{{ site.email }}" class="btn btn-primary btn-sm d-inline-block" data-toggle="tooltip" data-placement="top" title="Escribir correo">
+<a href="mailto:{{ site.email }}" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Escribir correo">
 <i class="fa-solid fa-pen-to-square"></i> Escribir correo
 </a>
 
@@ -18,14 +18,16 @@ Mi correo electrónico es <code>{{ site.email }}</code>.<br>
 Esta es [mi llave PGP pública][1] por si quieres contactarme encriptadamente.
 
 ## <i class="fa-brands fa-mastodon"></i> Mastodon
-<a rel="me" href="{{ site.mastodon_url }}" class="btn btn-primary btn-sm d-inline-block" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_username }} en Mastodon" target="_blank">
+<a rel="me" href="{{ site.mastodon_url }}" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_username }} en Mastodon" target="_blank">
 <i class="fa-brands fa-mastodon"></i> Seguir a @{{ site.mastodon_username }}
 </a>
+<br>
 Cuenta personal.
 
-<a rel="me" href="https://hachyderm.io/@{{ site.mastodon_feed }}" class="btn btn-primary btn-sm d-inline-block" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_feed }} en Mastodon" target="_blank">
+<a rel="me" href="https://hachyderm.io/@{{ site.mastodon_feed }}" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_feed }} en Mastodon" target="_blank">
 <i class="fa-brands fa-mastodon"></i> Seguir a @{{ site.mastodon_feed }}
 </a>
+<br>
 Cuenta automatizada con posts de mi sitio.
 
 ## <i class="fa-brands fa-instagram"></i> Instagram

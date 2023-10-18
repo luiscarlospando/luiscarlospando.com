@@ -193,6 +193,29 @@ footer {
     opacity: 0;
 }
 
+.btn-primary {
+    background: $btnBgColor;
+    border: none;
+    border-bottom: none;
+    box-shadow: inset 0 0 0 1px #343434;
+    color: $mainColor !important;
+    @include transition;
+
+    &:hover,
+    &:focus {
+        background: $btnBgHoverColor;
+        border: none;
+        color: $mainColor !important;
+        text-shadow: rgba(0, 0, 0, 56%) 0px 3px 12px;
+        box-shadow: rgba(80, 63, 205, 50%) 0px 1px 40px;
+    }
+}
+
+.btn-sm,
+.btn-group-sm > .btn {
+    padding: 0.10rem .5rem;
+}
+
 .card {
     background-color: $cardBgColor;
     border: none;
@@ -418,28 +441,6 @@ a.btn {
 
 .stream-status {
     animation-duration: 5s;
-}
-
-.btn-primary {
-    background: $btnBgColor;
-    border: none;
-    border-bottom: none;
-    color: $mainColor !important;
-    @include transition;
-
-    &:hover,
-    &:focus {
-        background: $btnBgHoverColor;
-        border: none;
-        color: $mainColor !important;
-        text-shadow: rgba(0, 0, 0, 56%) 0px 3px 12px;
-        box-shadow: rgba(80, 63, 205, 50%) 0px 1px 40px;
-    }
-}
-
-.btn-sm,
-.btn-group-sm > .btn {
-    padding: 0.10rem .5rem;
 }
 
 code {

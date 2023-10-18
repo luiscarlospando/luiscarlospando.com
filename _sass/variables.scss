@@ -16,9 +16,9 @@ $underlineColor: hsl(33, 100%, 50%);
 $transparentGray: hsla(0, 0%, 100%, 0.169);
 $componentBorderColor: hsl(210deg, 30%, 12%);
 
-$btnBgColor: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+$btnBgColor: hsla(0,0%,100%,.1);
 $btnBorderTextColor: hsl(210deg, 30%, 12%);
-$btnBgHoverColor: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+$btnBgHoverColor: hsla(0,0%,100%,.1);
 $btnBorderHoverColor: hsl(210deg, 30%, 12%);
 
 $cardHeaderBgColor: hsl(0, 0%, 7%);

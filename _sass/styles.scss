@@ -193,6 +193,7 @@ footer {
     opacity: 0;
 }
 
+
 .btn-primary {
     background: $btnBgColor;
     border: none;
@@ -209,6 +210,16 @@ footer {
         text-shadow: rgba(0, 0, 0, 56%) 0px 3px 12px;
         box-shadow: rgba(80, 63, 205, 50%) 0px 1px 40px;
     }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    background: $btnBgHoverColor;
+    border: none;
+    color: $mainColor !important;
+    text-shadow: rgba(0, 0, 0, 56%) 0px 3px 12px;
+    box-shadow: rgba(80, 63, 205, 50%) 0px 1px 40px;
 }
 
 .btn-sm,

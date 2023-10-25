@@ -4,7 +4,7 @@ title: Games
 description: Esto es lo que estoy jugando actualmente y mis perfiles de Discord, Nintendo Switch y Backloggd.
 image: /assets/images/ns-logo.jpg
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2023-10-18 13:04:00</span>
+last-modified-at: <span id="last-updated-at">2023-10-24 22:36:00</span>
 ---
 
 <div class="text-center">
@@ -47,6 +47,8 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 <div class="row">
 <div class="col-6 my-auto">
 *The Legend of Zelda: Tears of the Kingdom*
+--
+*Super Mario Bros. Wonder*
 </div>
 <div class="col-6 my-auto text-monospace">
 (Offline)

@@ -11,7 +11,7 @@ import './jquery.rss.min';
 import './prism';
 import './jquery.mmenu.min.all';
 import './statuslog';
-import './lastUpdatedAt';
+import './last-updated-at';
 import './wp-api';
 import './lastfm-fetch';
 import './now';

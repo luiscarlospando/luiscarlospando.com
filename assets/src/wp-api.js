@@ -58,7 +58,7 @@ function displayMode7LatestPost() {
         let lastUpdatedRelative = dayjs().to(lastUpdatedIso);
         if (document.getElementById("mode-7-podcast-latest-episode-timestamp") !== null) {
             console.log("✅ #mode-7-podcast-latest-episode-timestamp si existe en el DOM");
-            document.getElementById("mode-7-podcast-latest-episode-timestamp").innerHTML += `<a href="${data[0].link}"><code>Última actualización: ${lastUpdatedRelative}</code></a>`;
+            document.getElementById("mode-7-podcast-latest-episode-timestamp").innerHTML += `<code>Última actualización:</code> ${lastUpdatedRelative}`;
         } else {
             console.log("❌ #mode-7-podcast-latest-episode-timestamp no existe en el DOM");
         }
@@ -85,7 +85,7 @@ function displayTotalBlogPosts() {
         let lastUpdatedRelative = dayjs().to(lastUpdatedIso);
         if (document.getElementById("mode-7-podcast-latest-episode-timestamp") !== null) {
             console.log("✅ #mode-7-podcast-latest-episode-timestamp si existe en el DOM");
-            document.getElementById("mode-7-podcast-latest-episode-timestamp").innerHTML += `<a href="${data[0].link}"><code>Última actualización: ${lastUpdatedRelative}</code></a>`;
+            document.getElementById("mode-7-podcast-latest-episode-timestamp").innerHTML += `<code>Última actualización:</code> ${lastUpdatedRelative}`;
         } else {
             console.log("❌ #mode-7-podcast-latest-episode-timestamp no existe en el DOM");
         }

@@ -53,7 +53,9 @@ En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7
 </h3>
 </div>
 <div class="card-footer text-muted">
+<h6>
 <span id="mode-7-podcast-latest-episode-timestamp"></span>
+</h6>
 </div>
 </div>
 </div>

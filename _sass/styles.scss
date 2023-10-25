@@ -239,7 +239,7 @@ footer {
     h5,
     h6,
     p {
-        margin: 0 !important;
+        margin: 0;
     }
 
     a {
@@ -286,14 +286,35 @@ footer {
 
         .btn-outline-secondary {
             color: $mainColor;
-            border-color: transparent;
+            border: 1px solid rgba(255,255,255,0.169);
         }
 
         .btn-outline-secondary:hover,
         .btn-outline-secondary:focus {
             color: $linkColor;
-            border-color: transparent;
             background-color: transparent;
+        }
+
+        #discord-tag-value,
+        #nintendo-switch-code {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .input-group-append {
+            .btn-outline-secondary {
+                color: $mainColor;
+                border: 1px solid rgba(255,255,255,0.169);
+                border-left: none;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+    
+            .btn-outline-secondary:hover,
+            .btn-outline-secondary:focus {
+                color: $linkColor;
+                background-color: transparent;
+            }
         }
     }
 }

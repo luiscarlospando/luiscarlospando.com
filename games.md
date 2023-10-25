@@ -47,7 +47,9 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 <div class="row">
 <div class="col-6 my-auto">
 *The Legend of Zelda: Tears of the Kingdom*
+
 --
+
 *Super Mario Bros. Wonder*
 </div>
 <div class="col-6 my-auto text-monospace">

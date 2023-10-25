@@ -43,14 +43,12 @@ En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7
 <div class="col-12">
 <div class="card my-3 text-center">
 <div class="card-header">
-<h5 class="card-title">
+<h4 class="card-title">
 <i class="fa-solid fa-podcast"></i> Mode 7 Podcast <small>(episodio más reciente)</small>
-</h5>
+</h4>
 </div>
 <div class="card-body">
-<h3 class="card-text">
 <span id="mode-7-podcast-latest-episode"></span>
-</h3>
 </div>
 <div class="card-footer text-muted">
 <h6>

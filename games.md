@@ -16,7 +16,9 @@ Esto es lo que estoy jugando actualmente y mis perfiles de [<i class="fa-solid f
 
 <div class="card text-center mb-0">
 <div class="card-header">
-<h5 class="card-title"><i class="fa-solid fa-gamepad"></i> Ahora estoy jugando</h5>
+<h4 class="card-title">
+<i class="fa-solid fa-gamepad"></i> Ahora estoy jugando
+</h4>
 </div>
 <div class="card-body">
 <div class="row">
@@ -74,7 +76,9 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 
 <div class="card text-center" id="discord-tag">
 <div class="card-header">
-<h5 class="card-title"><i class="fa-brands fa-discord"></i> Discord</h5>
+<h4 class="card-title">
+<i class="fa-brands fa-discord"></i> Discord
+</h4>
 </div>
 <div class="card-body">
 <div class="input-group justify-content-center">
@@ -97,7 +101,9 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 
 <div class="card text-center" id="nintendo-switch">
 <div class="card-header">
-<h5 class="card-title"><i class="fa-solid fa-gamepad"></i> Nintendo Switch</h5>
+<h4 class="card-title">
+<i class="fa-solid fa-gamepad"></i> Nintendo Switch
+</h4>
 </div>
 <div class="card-body">
 <div class="input-group justify-content-center">

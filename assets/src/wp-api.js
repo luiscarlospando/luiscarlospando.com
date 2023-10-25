@@ -48,7 +48,7 @@ function displayMode7LatestPost() {
         // Retrieve latest post from tag 'Mode 7 Podcast' via API and fetch link
         if (document.getElementById("mode-7-podcast-latest-episode") !== null) {
             console.log("✅ #mode-7-podcast-latest-episode si existe en el DOM");
-            document.getElementById("mode-7-podcast-latest-episode").innerHTML += `<a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a>`;
+            document.getElementById("mode-7-podcast-latest-episode").innerHTML += `<a class="btn btn-primary" href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}"><i class="fa-solid fa-play"></i> ${data[0].title.rendered}</a>`;
         } else {
             console.log("❌ #mode-7-podcast-latest-episode no existe en el DOM");
         }
@@ -75,7 +75,7 @@ function displayTotalBlogPosts() {
         // Retrieve latest post from tag 'Mode 7 Podcast' via API and fetch link
         if (document.getElementById("mode-7-podcast-latest-episode") !== null) {
             console.log("✅ #mode-7-podcast-latest-episode si existe en el DOM");
-            document.getElementById("mode-7-podcast-latest-episode").innerHTML += `<a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a>`;
+            document.getElementById("mode-7-podcast-latest-episode").innerHTML += `<a class="btn btn-primary" href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}"><i class="fa-solid fa-play"></i> ${data[0].title.rendered}</a>`;
         } else {
             console.log("❌ #mode-7-podcast-latest-episode no existe en el DOM");
         }

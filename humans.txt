@@ -10,10 +10,10 @@ Mastodon: https://social.lol/@mijo
 Location: Chihuahua, Mexico
 
 /* SITE */
-Last update: 2023/08/8
-Standards: HTML, HTML5, CSS, CSS3, JSON, XML
-Components: Bootstrap, React, Animate.css, Font Awesome, Google Fonts, Axios
+Last update: 2023/10/30
+Standards: HTML, HTML5, CSS, CSS3, JSON, XML, RSS
+Components: React, Bootstrap, Animate.css, Font Awesome, Google Fonts, Axios
 Language: Spanish
-Software: Visual Studio Code, Warp, Pixelmator Pro, Git, npm, SCSS, Jekyll
+Software: Visual Studio Code, Warp, Pixelmator Pro, Git, GitHub, npm, SCSS, Jekyll
 Deployed on: Vercel - https://vercel.com/
 Hardware: MacBook Pro (Late 2013)

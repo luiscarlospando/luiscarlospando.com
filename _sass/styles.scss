@@ -457,6 +457,38 @@ footer {
     font-size: 100%;
 }
 
+.badge-primary {
+    background-color: $primary;
+}
+
+.badge-secondary {
+    background-color: $secondary;
+}
+
+.badge-success {
+    background-color: $success;
+}
+
+.badge-danger {
+    background-color: $danger;
+}
+
+.badge-warning {
+    background-color: $warning;
+}
+
+.badge-info {
+    background-color: $info;
+}
+
+.badge-light {
+    background-color: $light;
+}
+
+.badge-dark {
+    background-color: $dark;
+}
+
 .badge-rss {
     background-color: $tertiaryColor;
 }

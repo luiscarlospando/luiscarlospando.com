@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Games
-description: Esto es lo que estoy jugando actualmente y mis perfiles de Discord, Nintendo Switch y Backloggd.
+description: Esto es lo que estoy jugando actualmente y estos son mis perfiles de Discord, Nintendo Switch y Backloggd.
 image: /assets/images/logo-games.png
 permalink: /games/
 last-modified-at: <span id="last-updated-at">2023-10-24 22:36:00</span>
 ---
 
 <div class="text-center">
-Esto es lo que estoy jugando actualmente y mis perfiles de [<i class="fa-solid fa-link"></i> Discord][1], [<i class="fa-solid fa-link"></i> Nintendo Switch][2] y [<i class="fa-solid fa-link"></i> Backloggd][3].
+Esto es lo que estoy jugando actualmente y estos son mis perfiles de [<i class="fa-solid fa-link"></i> Discord][1], [<i class="fa-solid fa-link"></i> Nintendo Switch][2] y [<i class="fa-solid fa-link"></i> Backloggd][3].
 </div>
 
 <div class="row">

@@ -516,6 +516,11 @@ code {
     margin: 0px 0 14px !important;
 }
 
+.modal {
+    background-color: rgba(13, 14, 51, 0.7);
+    @include backdrop-filter(50%, 4px);
+}
+
 .modal-body {
     padding: 0;
 }

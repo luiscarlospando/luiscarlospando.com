@@ -14,39 +14,40 @@ Aquí está el [archivo completo][3] de todos mis posts.
 
 ## Colofón
 
-- Todo el desarrollo se hace localmente usando [Visual Studio Code][4]{:target="_blank"} en una [Mac][5]{:target="_blank"} 👨‍💻
-- Este sitio es completamente estático y lo genero usando [Jekyll][6]{:target="_blank"} ([<code>site-info</code>][7]), luego hago <code>push</code> a un <code>repo</code> que tengo en [GitHub][8]{:target="_blank"} para luego hacer <code>deploy</code> en [Vercel][9]{:target="_blank"}
-- Mi blog es publicado con [WordPress][10]{:target="_blank"} y lo tengo en un <code>droplet</code> de [DigitalOcean][11]{:target="_blank"}
-- Mi dominio lo tengo registrado con [Cloudflare][12]{:target="_blank"}
-- El DNS es administrado desde [Cloudflare][12]{:target="_blank"} también
-- Código fuente disponible en [GitHub][8]{:target="_blank"}
-- Uso [Instatus][13]{:target="_blank"} para monitorear el estatus general de los sistemas
-- Uso [omg.lol][14]{:target="_blank"} para Mastodon y otras cosas súper chidas (estoy enamorado de este servicio 😍)
+- 📝 Editor de código: [Visual Studio Code][4]{:target="_blank"}
+- 💻 Generador del sitio: [Jekyll][5]{:target="_blank"} desplegado en [Vercel][6]{:target="_blank"} ([<code>site-info</code>][7])
+- 🛠️ Código fuente: [GitHub][8]{:target="_blank"}
+- ✍️ Blog: Corre con [WordPress][9]{:target="_blank"} desplegado en [DigitalOcean][10]{:target="_blank"}
+- 🏠 Dominio: [Cloudflare][11]{:target="_blank"}
+- 🛜 DNS: [Cloudflare][11]{:target="_blank"} también
+- ✅ Monitoreo del sistema: [Instatus][12]{:target="_blank"}
+- 📊 Analíticas: [Tinylytics][13]{:target="_blank"}
+- 😉 Miscelaneo: [omg.lol][14]{:target="_blank"} para Mastodon y otras cosas súper chidas (estoy enamorado de este servicio 😍)
 
 ## Suscríbete
 
 Te puedes suscribir a mi sitio a través de:
-- [<i class="fas fa-rss"></i> RSS][15]{:target="_blank"}
-- [<i class="fa-brands fa-mastodon"></i> Mastodon][16]{:target="_blank"}
+- [<i class="fas fa-rss"></i> RSS][16]{:target="_blank"}
+- [<i class="fa-brands fa-mastodon"></i> Mastodon][17]{:target="_blank"}
 
 ## Errores en el sitio
 
-Los estándares web son importantes e intento que mi sitio se adhiera a ellos. Si algo se ve o funciona incorrectamente, [házmelo saber][17] por favor.
+Los estándares web son importantes e intento que mi sitio se adhiera a ellos. Si algo se ve o funciona incorrectamente, [házmelo saber][18] por favor.
 
 [1]: https://blog.{{ site.domain }}
 [2]: /
 [3]: https://blog.{{ site.domain }}/author/me/
 [4]: https://code.visualstudio.com/
-[5]: https://www.apple.com/mac/
-[6]: https://jekyllrb.com/
+[5]: https://jekyllrb.com/
+[6]: https://vercel.com/
 [7]: https://{{ site.domain }}/jekyll-info.html
 [8]: https://github.com/luiscarlospando/luiscarlospando.com
-[9]: https://vercel.com/
-[10]: https://wordpress.org/
-[11]: https://m.do.co/c/03bd95f889e7
-[12]: https://cloudflare.com/
-[13]: https://luiscarlospando.instatus.com/
+[9]: https://wordpress.org/
+[10]: https://m.do.co/c/03bd95f889e7
+[11]: https://cloudflare.com/
+[12]: https://luiscarlospando.instatus.com/
+[13]: https://tinylytics.app/
 [14]: https://home.omg.lol/referred-by/mijo
-[15]: https://blog.{{ site.domain }}/rss/
-[16]: https://hachyderm.io/@{{ site.mastodon_feed }}
-[17]: /contacto/
+[16]: https://blog.{{ site.domain }}/rss/
+[17]: https://hachyderm.io/@{{ site.mastodon_feed }}
+[18]: /contacto/

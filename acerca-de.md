@@ -22,7 +22,7 @@ Aquí está el [archivo completo][3] de todos mis posts.
 - 🛜 DNS: [Cloudflare][11]{:target="_blank"} también
 - ✅ Monitoreo del sistema: [Instatus][12]{:target="_blank"}
 - 📊 Analíticas: [Tinylytics][13]{:target="_blank"}
-- 😉 Miscelaneo: [omg.lol][14]{:target="_blank"} para Mastodon y otras cosas súper chidas (estoy enamorado de este servicio 😍)
+- 😉 Miscelaneo: [omg.lol][14]{:target="_blank"} para Mastodon y otras cosas bien chidas (estoy enamorado de este servicio 😍)
 
 ## Suscríbete
 

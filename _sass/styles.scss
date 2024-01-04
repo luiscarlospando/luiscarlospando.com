@@ -101,11 +101,15 @@ video {
 }
 
 figure {
-    // margin: 1.2rem 0;
+    margin: 0 0 1rem;
 
     img {
         border-radius: .25rem !important;
     }
+}
+
+figure.aligncenter {
+    margin-bottom: 1rem;
 }
 
 blockquote {

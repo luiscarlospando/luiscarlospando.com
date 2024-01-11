@@ -20,8 +20,7 @@ h6 {
 .categories {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
-    // margin: 1.67em 0 -0.9rem;
-    margin: 1.6637610896077rem 0 0;
+    margin: 1.6637610896077rem 0 0.55rem;
     text-transform: uppercase;
     position: relative;
 
@@ -49,13 +48,6 @@ h6 {
     position: relative;
     margin: 0.6rem 0;
 }
-
-/*
-.contenido {
-    width: 100%;
-    float: left;
-}
-*/
 
 .hashtag-list {
     width: 100%;
@@ -187,20 +179,6 @@ img.alignleft {
 img.alignright {
     margin-left: 30px;
 }
-
-/*
-.wp-caption.alignleft {
-    margin: 0 20px 0 0 !important;
-}
-
-.wp-caption.alignright {
-    margin: 0 0 0 20px !important;
-}
-
-.wp-caption.aligncenter {
-    margin: 12px auto 0 !important;
-}
-*/
 
 .wp-caption {
     background: transparent !important;

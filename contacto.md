@@ -40,37 +40,38 @@ Este es [mi perfil en Threads][3]{:target="_blank"}.
 Mi username en Discord es <a href="{{ site.discord_profile }}" target="_blank"><code>{{ site.discord_tag }}</code></a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (*feel free to join in!*).
 
 ## <i class="fa-solid fa-heart"></i> omg.lol
-Yo creo que [omg.lol][5]{:target="_blank"} es ahorita mi lugar favorito en Internet.
+Creo que [omg.lol][5]{:target="_blank"} es mi lugar favorito en Internet ([crea una cuenta](6){:target="_blank"}).
 
 ## <i class="fa-brands fa-itunes-note"></i> Apple Music
-Este es [mi perfil en Apple Music][6]{:target="_blank"}.
+Este es [mi perfil en Apple Music][7]{:target="_blank"}.
 
 ## <i class="fa-brands fa-lastfm"></i> Last.fm
-Este es [mi perfil en Last.fm][7]{:target="_blank"}.
+Este es [mi perfil en Last.fm][8]{:target="_blank"}.
 
 ## <i class="fa-brands fa-reddit"></i> Reddit
-Este es [mi perfil en Reddit][8]{:target="_blank"}.
+Este es [mi perfil en Reddit][9]{:target="_blank"}.
 
 ## <i class="fa-brands fa-twitch"></i> Twitch
  <a href="https://www.twitch.tv/{{ site.twitch_username }}" target="_blank">
 <img class="d-block mb-2" alt="Twitch Status" src="https://img.shields.io/twitch/status/{{ site.twitch_username }}?logo=twitch&logoColor=white&color=6441a5">
 </a>
-[Tengo un canal en Twitch][9]{:target="_blank"}, que honestamente nunca he usado pero lo tengo por si algún día me da por transmitir.
+[Tengo un canal en Twitch][10]{:target="_blank"}, que honestamente nunca he usado pero lo tengo por si algún día me da por transmitir.
 
 ## <i class="fa-solid fa-gamepad"></i> Backloggd
-En [Backloggd][10]{:target="_blank"} llevo el control de los videojuegos que tengo.
+En [Backloggd][11]{:target="_blank"} llevo el control de los videojuegos que tengo.
 
 ## <i class="fa-brands fa-keybase"></i> Keybase
-Este es [mi perfil público en Keybase][11]{:target="_blank"}.
+Este es [mi perfil público en Keybase][12]{:target="_blank"}.
 
 [1]: /keys/
 [2]: https://instagram.com/{{ site.instagram_username }}
 [3]: https://threads.net/@{{ site.threads_username }}
 [4]: /mode-7/
-[5]: https://home.omg.lol/referred-by/{{ site.omglol_username }}
-[6]: https://music.apple.com/profile/{{ site.apple_music_username }}
-[7]: https://last.fm/user/{{ site.lastfm_username }}
-[8]: https://reddit.com/u/{{ site.reddit_username }}
-[9]: /live/
-[10]: https://www.backloggd.com/u/{{ site.backloggd_username }}
-[11]: https://keybase.io/luiscarlospando
+[5]: https://omg.lol/{{ site.omglol_username }}
+[6]: https://home.omg.lol/referred-by/{{ site.omglol_username }}
+[7]: https://music.apple.com/profile/{{ site.apple_music_username }}
+[8]: https://last.fm/user/{{ site.lastfm_username }}
+[9]: https://reddit.com/u/{{ site.reddit_username }}
+[10]: /live/
+[11]: https://www.backloggd.com/u/{{ site.backloggd_username }}
+[12]: https://keybase.io/{{ site.keybase_username }}

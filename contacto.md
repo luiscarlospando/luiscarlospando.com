@@ -40,7 +40,7 @@ Este es [mi perfil en Threads][3]{:target="_blank"}.
 Mi username en Discord es <a href="{{ site.discord_profile }}" target="_blank"><code>{{ site.discord_tag }}</code></a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (*feel free to join in!*).
 
 ## <i class="fa-solid fa-heart"></i> omg.lol
-Creo que [omg.lol][5]{:target="_blank"} es mi lugar favorito en Internet ([crea una cuenta](6){:target="_blank"}).
+Creo que [omg.lol][5]{:target="_blank"} es mi lugar favorito en Internet ([crea una cuenta][6]{:target="_blank"}).
 
 ## <i class="fa-brands fa-itunes-note"></i> Apple Music
 Este es [mi perfil en Apple Music][7]{:target="_blank"}.

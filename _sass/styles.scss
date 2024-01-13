@@ -382,71 +382,8 @@ footer {
     color: $linkColor !important;
 }
 
-/*
-.text-muted {
-    color: $mainColor !important;
-}
-*/
-
 .embed-responsive {
     margin-bottom: 14px;
-}
-
-#btn-skip-nav {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    opacity: 0;
-    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-    -o-transition: opacity .3s 0s, visibility 0s .3s;
-    transition: opacity .3s 0s, visibility 0s .3s;
-    z-index: 4;
-
-    &:focus {
-        opacity: 1;
-    }
-}
-
- .cd-top {
-    background-color: $cardBgColor;
-    border: 1px solid $cardBorderColor;
-    border-radius: .25rem;
-    color: $light;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    height: 40px;
-    width: 40px;
-    bottom: 12px;
-    right: 15px;
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-    -o-transition: opacity .3s 0s, visibility 0s .3s;
-    transition: opacity .3s 0s, visibility 0s .3s;
-
-    &:hover,
-    &:focus {
-        text-decoration: none;
-    }
-}
-  
-.cd-top.cd-is-visible,
-.cd-top.cd-fade-out,
-.no-touch .cd-top:hover {
-    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
-    -o-transition: opacity .3s 0s, visibility 0s 0s;
-    transition: opacity .3s 0s, visibility 0s 0s;
-}
-  
-.cd-top.cd-is-visible {
-    visibility: visible;
-    opacity: 1;
-}
-  
-.cd-top.cd-fade-out {
-    opacity: .5;
 }
 
 .first-letter {

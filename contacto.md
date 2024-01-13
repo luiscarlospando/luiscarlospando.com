@@ -52,9 +52,7 @@ Este es [mi perfil en Last.fm][8]{:target="_blank"}.
 Este es [mi perfil en Reddit][9]{:target="_blank"}.
 
 ## <i class="fa-brands fa-twitch"></i> Twitch
- <a href="https://www.twitch.tv/{{ site.twitch_username }}" target="_blank">
-<img class="d-block mb-2" alt="Twitch Status" src="https://img.shields.io/twitch/status/{{ site.twitch_username }}?logo=twitch&logoColor=white&color=6441a5">
-</a>
+![Twitch Status](https://img.shields.io/twitch/status/mijodido?style=flat&link=https%3A%2F%2Fluiscarlospando.com%2Flive)
 [Tengo un canal en Twitch][10]{:target="_blank"}, que honestamente nunca he usado pero lo tengo por si algún día me da por transmitir.
 
 ## <i class="fa-solid fa-gamepad"></i> Backloggd

@@ -411,6 +411,7 @@ footer {
     background-color: $cardBgColor;
     border: 1px solid $cardBorderColor;
     border-radius: .25rem;
+    color: $light;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -424,6 +425,11 @@ footer {
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
     -o-transition: opacity .3s 0s, visibility 0s .3s;
     transition: opacity .3s 0s, visibility 0s .3s;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
 }
   
 .cd-top.cd-is-visible,

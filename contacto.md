@@ -53,6 +53,7 @@ Este es [mi perfil en Reddit][9]{:target="_blank"}.
 
 ## <i class="fa-brands fa-twitch"></i> Twitch
 ![Twitch Status](https://img.shields.io/twitch/status/mijodido?style=flat&link=https%3A%2F%2Fluiscarlospando.com%2Flive)
+
 [Tengo un canal en Twitch][10]{:target="_blank"}, que honestamente nunca he usado pero lo tengo por si algún día me da por transmitir.
 
 ## <i class="fa-solid fa-gamepad"></i> Backloggd

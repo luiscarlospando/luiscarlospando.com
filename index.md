@@ -9,7 +9,7 @@ image: /assets/images/logo.png
 
 <h1 class="text-center">{{ site.title }}</h1>
 
-<span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando (aka `Mijo`), un vato que vive en [Chihuahua, México][1]{:target="_blank"} con su bella esposa [Marissa ❤️][2]{:target="_blank"}. Me dedico [hacer cosas para el Internet][3], amo la música alternativa, en especial el hardcore y el punk. Algunos tal vez me ubiquen por haber creado [Hitz-Musik.net][4]{:target="_blank"} (RIP 🪦) junto a unos buenos amigos. "El Hitz" era una comunidad dedicada a cubrir la música alternativa y la escena local de Chihuahua. De eso solo me quedan recuerdos muy chidos.
+<span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando (aka `Mijo`), un vato que vive en [Chihuahua, México][1]{:target="_blank"} con su bella esposa [Marissa ❤️][2]{:target="_blank"}. Me dedico a [hacer cosas para el Internet][3], amo la música alternativa, en especial el hardcore y el punk. Algunos tal vez me ubiquen por haber creado [Hitz-Musik.net][4]{:target="_blank"} (RIP 🪦) junto a unos buenos amigos. "El Hitz" era una comunidad dedicada a cubrir la música alternativa y la escena local de Chihuahua. De eso solo me quedan recuerdos muy chidos.
 
 La razón que tuve para crear este sitio fue mi interés por las computadoras 👨‍💻 y el Internet 🌐, ― sentí la necesidad de tener [mi propio espacio en la web][5], para hablar de lo que yo quisiera, para equivocarme, para experimentar y para aprender. Básicamente se trata de escribir sobre lo que traiga en la cabeza, de probar cosas nuevas, de codear y de pasarla chido. También quiero que este lugar sirva como de una especie de bitácora de mi vida, que sea mi lugar para dar mi opinión sin miedo. 😌
 

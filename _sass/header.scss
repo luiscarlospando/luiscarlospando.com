@@ -23,15 +23,15 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 0;
+    height: 52px;
     font-size: 1rem;
-    line-height: 0;
+    opacity: 0;
+    // line-height: 0;
     position: fixed;
     @include transition;
 
     p {
         margin: 0;
-        opacity: 0;
         @include transition;
     }
 }
@@ -40,11 +40,8 @@
     background-color: rgba(13, 14, 51, 0.7) !important;
     @include backdrop-filter(50%, 4px);
     height: 52px;
+    opacity: 1;
     z-index: 3;
-
-    p {
-        opacity: 1;
-    }
     
     &::after {
         background: $separatorBgColor;

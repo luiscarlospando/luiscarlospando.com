@@ -39,7 +39,6 @@
 .scrolled-position {
     background-color: rgba(13, 14, 51, 0.7) !important;
     @include backdrop-filter(50%, 4px);
-    height: 52px;
     z-index: 3;
     @include transition-bar(ease, 0.2s);
 

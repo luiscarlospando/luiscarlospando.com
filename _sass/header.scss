@@ -28,7 +28,7 @@
     opacity: 0;
     // line-height: 0;
     position: fixed;
-    @include transition;
+    @include transition-bar(ease, 0.2s);
 
     p {
         margin: 0;
@@ -42,7 +42,7 @@
     height: 52px;
     opacity: 1;
     z-index: 3;
-    @include transition;
+    @include transition-bar(ease, 0.2s);
     
     &::after {
         background: $separatorBgColor;

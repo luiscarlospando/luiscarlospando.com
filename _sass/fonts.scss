@@ -4,7 +4,7 @@
         url('../fonts/LibreBaskerville-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
-    font-display: swap;
+    font-display: block;
 }
 
 @font-face {
@@ -13,7 +13,7 @@
         url('../fonts/LibreBaskerville-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 
 @font-face {
@@ -22,7 +22,7 @@
         url('../fonts/LibreBaskerville-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 
 @font-face {
@@ -31,7 +31,7 @@
         url('../fonts/Raleway-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 
 @font-face {
@@ -40,7 +40,7 @@
         url('../fonts/Poppins-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 
 @font-face {
@@ -49,5 +49,5 @@
         url('../fonts/SourceSans3-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }

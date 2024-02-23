@@ -76,7 +76,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jekyll (~> 3.9.4)
+  jekyll (~> 3.9.5)
   jekyll-feed (~> 0.6)
   jekyll-info
   jekyll-sitemap

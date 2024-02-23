@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-ruby "~> 3.2.0"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -9,7 +8,7 @@ ruby "~> 3.2.0"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.9.4"
+gem "jekyll", "~> 3.9.5"
 gem "webrick", "~> 1.7"
 gem "kramdown-parser-gfm"
 gem 'jekyll-sitemap'

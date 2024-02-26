@@ -15,7 +15,7 @@ import './last-updated-at';
 import './wp-api';
 import './lastfm-fetch';
 import './now';
-import './twitch-live';
+// import './twitch-live';
 import './m7gp-live';
 import './scripts';
 

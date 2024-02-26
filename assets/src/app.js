@@ -17,7 +17,7 @@ import './lastfm-fetch';
 import './now';
 import './twitch-live';
 import './m7gp-live';
-import './main';
+import './scripts';
 
 /* React components */
 import './components/navigation';

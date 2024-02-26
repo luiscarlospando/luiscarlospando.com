@@ -47,7 +47,7 @@
 
         // Add Animate.css
         const header = document.querySelector('header');
-        const twitchLiveHeader = document.getElementById('m7gp-livestream-alert');
+        const twitchLiveHeader = document.getElementById('twitch-livestream-alert');
         const m7gpLiveHeader = document.getElementById('m7gp-livestream-alert');
         const siteBody = document.querySelector('.site-body');
         const footer = document.querySelector('footer');

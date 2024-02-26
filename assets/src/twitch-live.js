@@ -7,7 +7,7 @@ function checkLiveStatus() {
     fetch(`https://api.twitch.tv/helix/streams?user_login=${channelName}`, {
         headers: {
             'Client-ID': clientId,
-            'Authorization': 'Bearer 8x34ov2y69ujj14674u9t28v65eilk' // Replace with your Twitch Access Token
+            'Authorization': 'Bearer mr3ywja1jxv06wlcwf9advjtbs890g' // Replace with your Twitch Access Token
         }
     })
     .then(response => response.json())
@@ -28,9 +28,3 @@ document.addEventListener("DOMContentLoaded", function() {
     // Call the function every 1 minute (or adjust the interval as needed)
     setInterval(checkLiveStatus, 60000); // 60000 milliseconds = 1 minute
 });
-
-// Call the function initially
-checkLiveStatus();
-
-// Call the function every 1 minute (or adjust the interval as needed)
-setInterval(checkLiveStatus, 60000); // 60000 milliseconds = 1 minute

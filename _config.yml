@@ -1,0 +1,80 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: LuisCarlosPando.com
+version: 2.28.0
+author: Luis Carlos Pando
+email: hey@luiscarlospando.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Punk dude first and foremost. Losing followers since 2007.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://luiscarlospando.com" # the base hostname & protocol for your site, e.g. http://example.com
+domain: luiscarlospando.com
+blog_url: blog.luiscarlospando.com
+mastodon_url: https://social.lol/@mijo
+mastodon_username: mijo
+mastodon_feed: luiscarlospando
+omglol_username: mijo
+x_username: mijo
+x_feed: luiscarlospando
+instagram_username: luiscarlospando
+threads_username: luiscarlospando
+github_username: luiscarlospando
+gitlab_username: luiscarlospando
+codepen_username: luiscarlospando
+apple_music_username: luiscarlospando
+spotify_username: 1269830478?si=TZzw_OTYRbWpUuk9SMW2Ow
+lastfm_username: luiscarlospando
+devto_username: luiscarlospando
+reddit_username: luiscarlospando
+twitch_username: mijodido
+discord_tag: mijodido
+discord_profile: https://discordapp.com/users/86571896581132288/
+backloggd_username: mijo
+keybase_username: luiscarlospando
+mode7_discord: https://discord.gg/N2m8gKw
+nintendo_switch_code: SW-3920-3330-9820
+timezone: America/Chihuahua
+
+# Build settings
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+# theme: minima
+plugins:
+- jekyll-info
+- jekyll-sitemap
+#  - jekyll-feed
+sass:
+  sass_dir: _sass
+  style: compressed
+asset_pipeline:
+  compress: true
+info:
+  production: true
+future: true
+include: [".well-known"]
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

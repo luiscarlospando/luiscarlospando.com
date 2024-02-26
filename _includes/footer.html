@@ -1,0 +1,119 @@
+
+        <footer class="container">
+            <div class="row">
+                <div class="col-12 col-md-10 offset-md-1">
+                    <div class="row my-1">
+                        <div class="col-12 text-center">
+                            <div id="currently-listening"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                    {% if page.layout == 'default' %}
+                        <div class="col-12 col-md-6 offset-md-6 d-flex align-items-center justify-content-md-end">
+                            Hola desde Chihuahua, México 👋
+                        </div>
+                    {% else %}
+                        <div class="col-12 col-md-6">
+                            Lo último: <span id="blog"></span>
+                        </div>
+                        <div class="col-12 col-md-6 d-flex align-items-center justify-content-md-end">
+                            Hola desde Chihuahua, México 👋
+                        </div>
+                    {% endif %}
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-lg-3 copyright my-auto">
+                            &copy; {{ 'now' | date: "%Y" }} {{ site.author }}
+                        </div>
+                        <div class="col-12 col-lg-9 text-lg-right my-auto">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="https://vercel.com/" target="_blank" class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="Deployed on Vercel">
+                                        Deployed on
+                                        <svg aria-label="Vercel Logo" fill="#ffffff" viewBox="0 0 75 65" width="14" style="vertical-align: baseline;">
+                                            <path d="M37.59.25l36.95 64H.64l36.95-64z"></path>
+                                        </svg>
+                                        Vercel
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="/privacidad" class="badge badge-dark" data-toggle="tooltip" data-placement="top" title="Privacidad">
+                                        Privacidad
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://luiscarlospando.instatus.com/" target="_blank" id="site-version" class="badge" data-toggle="tooltip" data-placement="top" data-html="true" title="Estatus">
+                                        <span id="system-status"></span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://blog.{{ site.domain }}/rss/" class="badge badge-rss" data-toggle="tooltip" data-placement="top" title="RSS">
+                                        <i class="fa-solid fa-rss"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a rel="me" href="{{ site.mastodon_url }}" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_username }} en Mastodon" target="_blank">
+                                        <i class="fa-brands fa-mastodon"></i> Seguir a @{{ site.mastodon_username }}
+                                    </a>
+                                </li>
+                                <!-- li class="list-inline-item twitter-follow-btn">
+                                    <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-lang="es">
+                                        Seguir a @{{ site.twitter_username }}
+                                    </a>
+                                </li -->
+                            </ul>
+                        </div>
+                        <div class="col-12 version text-lg-right my-auto">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="https://proven.lol/a5fae9" data-toggle="tooltip" data-placement="top" title="Verificado" target="_blank">
+                                        <span class="fa-stack small">
+                                            <i class="fa-solid fa-check fa-stack-1x fa-inverse" style="--fa-stack-z-index: 2;"></i>
+                                            <i class="fa-solid fa-certificate fa-stack-2x" style="--fa-stack-z-index: 1;"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://github.com/luiscarlospando/luiscarlospando.com" data-toggle="tooltip" data-placement="top" data-html="true" title="Ver código fuente" target="_blank">
+                                        <code>Ver código fuente</code>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="{{ site.url }}/acerca-de" data-toggle="tooltip" data-placement="top" data-html="true" title="{{ site.title }} v{{ site.version }}">
+                                        <code>v{{ site.version }}</code>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- /Wrapper for mmenu -->
+
+    <div id="back-to-top"></div>
+    
+     <!-- jQuery -->
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Plugins -->
+    {% javascript_asset_tag global %}
+    - /assets/js/clipboard.min.js
+    - /assets/js/luxon.js
+    {% endjavascript_asset_tag %}
+
+    <!-- App -->
+    <script src="/assets/js/app.bundle.js"></script>
+
+    <!-- GitHub -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <!-- Instatus -->
+    <script src="https://luiscarlospando.instatus.com/widget/script.js"></script>
+
+    <!-- Analytics -->
+    <script src="https://tinylytics.app/embed/r9xjks1Y65hJnkRx9b8S.js" defer></script>
+</body>
+</html>

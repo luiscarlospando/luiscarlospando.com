@@ -1,0 +1,235 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .container {
+        min-width: 540px !important;
+    }
+
+    .mm-page {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #profile-picture {
+        width: 300px;
+        display: inline;
+        float: left;
+        margin-right: 30px;
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    .app-icon {
+        max-width: 60%;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .container {
+        min-width: 720px !important;
+    }
+
+    #last-toot,
+    #status {
+        width: 100%;
+        height: auto;
+        
+        #container {
+            &::before {
+                border-width: 15px 15px 15px 0;
+                border-color: transparent $cardBgColor transparent transparent;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto 0;
+                left: -15px;
+            }
+        }
+    }
+
+    .app-icon {
+        max-width: 40%;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .container {
+        min-width: 960px !important;
+    }
+
+    #last-toot,
+    #status {
+        #container {
+            padding: 15px 15px 14px;
+        }
+    }
+
+    .app-icon {
+        max-width: 50%;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .container {
+        min-width: 1140px !important;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+    footer {
+        #lastfm {
+            ul {
+                .nowplaying {
+                    position: fixed;
+                    right: 15px;
+                    bottom: 0;
+                    width: 200px;
+                    z-index: 1;
+                    -webkit-transition: all 0.3s ease 0s;
+                    -o-transition: all 0.3s ease 0s;
+                    transition: all 0.3s ease 0s;
+                }
+
+                .positionate-nowplaying {
+                    bottom: 50px;
+                }
+            }
+        }
+    }
+}
+
+// Super XX-Large devices (larger desktops, 1600px and up)
+@media (min-width: 1600px) { 
+    footer {
+        #lastfm {
+            ul {
+                .nowplaying {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+// Mobile
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.875rem;
+        margin: 0.67em 0 0.27em !important;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin: 0.83em 0 0.43em !important;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    h4 {
+        font-size: 1.125rem;
+    }
+
+    p,
+    .pagination,
+    #lastfm {
+		font-size: 0.918rem;
+	}
+
+    blockquote {
+	    margin: 1em 0;
+	}
+
+    #horizon {
+        margin: 3% 0;
+    }
+
+    .first-letter {
+	    padding: 12px 8px 0 0;
+        font-size: 4.8rem;
+    }
+    
+    .burger {
+        a {
+            position: relative;
+            margin: 10px 20px 6px 10px;
+        }
+    }
+}
+
+// iPhone (landscape)
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+  	.tri-right.btm-left {
+        &::after {
+            left: 45.6%;
+        }
+    }
+}
+
+// iPad (landscape and portrait)
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+      font-size: 2.125rem;
+      margin: 0.67em 0 0.27em !important;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      margin: 0.83em 0 0.43em !important;
+    }
+
+    h3 {
+      font-size: 1.375rem;
+    }
+
+    h4 {
+      font-size: 1.125rem;
+    }
+}
+
+// iPad (landscape)
+@media (min-width: 769px) and (max-width: 1090px) {
+
+}
+
+// iPad (portrait)
+@media (min-width: 751px) and (max-width: 768px) {
+
+
+}
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media (max-width: 868px) {
+    .burger {
+        a {
+            position: relative;
+            margin: 10px 20px 6px 10px;
+        }
+    }
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}

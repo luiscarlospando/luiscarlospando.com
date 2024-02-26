@@ -1,0 +1,16 @@
+@mixin transition {
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+@mixin transition-bar($property, $time) {
+    -webkit-transition: $property $time;
+         -o-transition: $property $time;
+            transition: $property $time;
+}
+
+@mixin backdrop-filter($saturation, $blur) {
+    -webkit-backdrop-filter: saturate($saturation) blur($blur);
+    backdrop-filter: saturate($saturation) blur($blur);
+}

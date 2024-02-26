@@ -1,0 +1,495 @@
+@import 'mixins.scss';
+
+*,
+*:after,
+*:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+::selection {
+    background: $transparentGray;
+    color: $fourthColor;
+}
+
+::-moz-selection {
+    background: $transparentGray;
+    color: $fourthColor;
+}
+
+html,
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    color: $mainColor;
+    background-color: $bgColor1;
+    background-image: linear-gradient(168deg, $bgColor1 0%, $bgColor2 60%, $bgColor1 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    line-height: 1.8;
+    margin: 0;
+}
+
+a {
+    color: $linkColor;
+    text-decoration: none;
+    border-bottom-style: none;
+    position: relative;
+    outline: 0 !important;
+    @include transition;
+
+    &:hover {
+        color: $hoverColor;
+        text-decoration: underline;
+        text-decoration-color: $underlineColor;
+    }
+}
+
+ol,
+ul {
+    margin-bottom: 16px !important;
+}
+
+ol {
+    font-size: 12pt;
+    line-height: 180%;
+    padding: 0 2.5em;
+}
+
+ul {
+    margin-top: 16px;
+    list-style-type: disc;
+
+    li {
+        p {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: circle;
+	        margin-top: 0;
+        }
+    }
+}
+
+hr,
+.wp-block-separator {
+    border-top: none;
+    border-bottom: none;
+    background: $separatorBgColor;
+    margin: 1.4rem 0;
+    width: 100%;
+    height: 1px;
+}
+
+audio {
+    width: 100%;
+    margin: 12px 0 0 0;
+}
+
+video {
+    width: 100%;
+}
+
+figure {
+    margin: 0 0 1rem;
+
+    img {
+        border-radius: .25rem !important;
+    }
+}
+
+figure.aligncenter {
+    margin-bottom: 1rem;
+}
+
+blockquote {
+    border-left: 5px solid $sixthColor;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.375rem;
+    font-style: italic;
+    line-height: 1.4em;
+    margin: 30px 40px;
+    padding: 10px 20px;
+
+    p {
+        font-size: 1.375rem !important;
+    }
+
+    cite {
+        font-size: 1.1rem;
+    }
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    line-height: $headings-lh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    color: $mainColor;
+
+    a {
+        color: $mainColor;
+    }
+}
+
+h1,
+h2,
+h3 {
+    letter-spacing: 0px;
+}
+
+h4,
+h5,
+h6,
+blockquote {
+    letter-spacing: 0px;
+}
+
+h1 {
+    font-size: 2.625rem;
+    margin: 0.67em 0 0.17em !important;
+}
+  
+h2 {
+    font-size: 2.25rem;
+    margin: 0.67em 0 0.13em !important;
+}
+  
+h3 {
+    font-size: 1.875rem;
+}
+  
+h4 {
+    font-size: 1.5rem;
+}
+  
+h5 {
+    font-size: 1.25rem;
+}
+  
+h6 {
+    font-size: 1.125rem;
+}
+
+header,
+.site-body,
+footer {
+    opacity: 0;
+}
+
+
+.btn-primary {
+    background: $btnBgColor;
+    border: none;
+    border-bottom: none;
+    box-shadow: inset 0 0 0 1px #343434;
+    color: $mainColor !important;
+    @include transition;
+
+    &:hover,
+    &:focus {
+        background: $btnBgHoverColor;
+        border: none;
+        color: $mainColor !important;
+        text-shadow: rgba(0, 0, 0, 56%) 0px 3px 12px;
+        box-shadow: rgba(80, 63, 205, 50%) 0px 1px 40px;
+    }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    background: $btnBgHoverColor;
+    border: none;
+    color: $mainColor !important;
+    text-shadow: rgba(0, 0, 0, 56%) 0px 3px 12px;
+    box-shadow: rgba(80, 63, 205, 50%) 0px 1px 40px;
+}
+
+.btn-sm,
+.btn-group-sm > .btn {
+    padding: 0.10rem .5rem;
+}
+
+.card {
+    background-color: $cardBgColor;
+    border: 1px solid $cardBorderColor;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin: 0;
+    }
+
+    a {
+        color: $linkColor !important;
+
+        &:hover,
+        &:focus {
+            color: $hoverColor !important;
+        }
+    }
+
+    .btn-primary  {
+        color: $mainColor !important;
+    }
+
+    .card-header {
+        background-color: $cardHeaderBgColor;
+        border-bottom: none;
+    }
+
+    .card-body {
+        background-color: $cardBgColor;
+    }
+
+    .card-footer {
+        background-color: $cardFooterBgColor;
+        border-top: none;
+    }
+
+    .input-group {
+        width: 100%;
+
+        p {
+            width: 68%;
+        }
+
+        .form-control {
+            font-family: "Liberation Mono", "Courier New", monospace;
+            font-size: 1.5rem;
+            background-color: transparent;
+            border: 1px solid $fifthColor;
+            color: $mainColor;
+        }
+
+        .btn-outline-secondary {
+            color: $mainColor;
+            border: 1px solid rgba(255,255,255,0.169);
+        }
+
+        .btn-outline-secondary:hover,
+        .btn-outline-secondary:focus {
+            color: $linkColor;
+            background-color: transparent;
+        }
+
+        #discord-tag-value,
+        #nintendo-switch-code {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .input-group-append {
+            .btn-outline-secondary {
+                color: $mainColor;
+                border: 1px solid rgba(255,255,255,0.169);
+                border-left: none;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+    
+            .btn-outline-secondary:hover,
+            .btn-outline-secondary:focus {
+                color: $linkColor;
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+.last-updated {
+    background-color: $cardFooterBgColor;
+}
+
+.alert {
+    background-color: $alertBgColor;
+    border-color: $alertBorderColor;
+    border-left: 5px solid $alertBorderLeftColor;
+    color: $mainColor;
+    font-size: 0.916rem;
+    margin: 1rem 0;
+    position: relative;
+
+    &::before {
+        background-color: $bgColor1;
+        border-radius: 50px;
+        color: $alertIconColor;
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; 
+        font-size: 1.2rem;
+        line-height: normal;
+        padding: 8px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        -webkit-transform: translate(calc(-50% - 1.5px), -50%);
+        -ms-transform: translate(calc(-50% - 1.5px), -50%);
+        transform: translate(calc(-50% - 1.5px), -50%)
+    }
+}
+
+.alert-danger {
+    &::before {
+        content: "\f06a";
+    }
+}
+
+.alert-info {
+    &::before {
+        content: "\f05a";
+    }
+}
+
+.alert-success {
+    &::before {
+        content: "\f058";
+    }
+}
+
+.alert-warning {
+    &::before {
+        content: "\f071";
+    }
+}
+
+.alert-link {
+    color: $linkColor !important;
+}
+
+.embed-responsive {
+    margin-bottom: 14px;
+}
+
+.first-letter {
+    float: left;
+    font-size: 5.4rem;
+    line-height: 4rem;
+    padding: 13px 8px 0 0;
+}
+
+.btn {
+    font-family: 'Raleway', sans-serif;
+}
+
+.badge {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+}
+
+.badge-primary {
+    background-color: $primary;
+}
+
+.badge-secondary {
+    background-color: $secondary;
+}
+
+.badge-success {
+    background-color: $success;
+}
+
+.badge-danger {
+    background-color: $danger;
+}
+
+.badge-warning {
+    background-color: $warning;
+}
+
+.badge-info {
+    background-color: $info;
+}
+
+.badge-light {
+    background-color: $light;
+}
+
+.badge-dark {
+    background-color: $dark;
+}
+
+.badge-rss {
+    background-color: $tertiaryColor;
+}
+
+a.badge,
+a.btn {
+    color: $mainColor;
+
+    &:hover,
+    &:focus {
+        color: $mainColor !important;
+        text-decoration-color: $mainColor !important;
+    }
+}
+
+.stream-status {
+    animation-duration: 5s;
+}
+
+code {
+    background-color: #000;
+}
+
+.subtitulo {
+    margin: 0px 0 14px !important;
+}
+
+.modal {
+    background-color: rgba(13, 14, 51, 0.7);
+    @include backdrop-filter(50%, 4px);
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-body-jekyll {
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.modal-backdrop {
+    position: relative;
+}
+
+.omg-lol-now-page-element {
+    display: none;
+}
+
+.app-icon {
+    @include transition;
+
+    &:hover,
+    &:focus {
+        -webkit-transform: scale(1.11) translate3d(0,0,0);
+            transform: scale(1.11) translate3d(0,0,0)
+    }
+}

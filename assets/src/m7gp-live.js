@@ -1,3 +1,5 @@
+import './luxon';
+
 // Show/Hide Mode 7 Grand Prix Livestream
 let DateTime = luxon.DateTime; // Initialization
 let dt = DateTime.now().setZone("America/Mexico_City");

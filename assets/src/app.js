@@ -10,7 +10,6 @@ import './lastfm.jquery';
 import './jquery.rss.min';
 import './prism';
 import './jquery.mmenu.min.all';
-import './luxon';
 import './statuslog';
 import './last-updated-at';
 import './wp-api';

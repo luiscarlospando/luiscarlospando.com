@@ -99,13 +99,23 @@
         });
 
         // Read more button
-        $('#collapseIntro').on('show.bs.collapse', function () {
-            $('#btn-read-more').html('<i class="fa-solid fa-minus"></i> Leer menos');
-        });
+        // Function to handle the collapse event when the element is shown
+        function handleShowCollapse() {
+            document.getElementById('btn-read-more').innerHTML = '<i class="fa-solid fa-minus"></i> Leer menos';
+        }
 
-        $('#collapseIntro').on('hidden.bs.collapse', function () {
-            $('#btn-read-more.collapsed').html('<i class="fa-solid fa-plus"></i> Leer más');
-        });
+        // Function to handle the collapse event when the element is hidden
+        function handleHiddenCollapse() {
+            if (document.getElementById('btn-read-more').classList.contains('collapsed')) {
+                document.getElementById('btn-read-more').innerHTML = '<i class="fa-solid fa-plus"></i> Leer más';
+            }
+        }
+
+        // Attaching event listener for show.bs.collapse event
+        document.getElementById('collapseIntro').addEventListener('show.bs.collapse', handleShowCollapse);
+
+        // Attaching event listener for hidden.bs.collapse event
+        document.getElementById('collapseIntro').addEventListener('hidden.bs.collapse', handleHiddenCollapse);
 
         // Tooltips
         $('[data-toggle="tooltip"]').tooltip();

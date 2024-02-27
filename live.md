@@ -16,6 +16,8 @@ permalink: /live/
 <iframe
   id="chat_embed"
   src="https://www.twitch.tv/embed/{{ site.twitch_username }}/chat?darkpopout&parent=luiscarlospando.com"
+  height="100%"
+  width="100%"
   frameborder="0"
   scrolling="no"
   allowfullscreen="true"

@@ -15,7 +15,7 @@ permalink: /live/
 <div id="luiscarlospando-chat" class="col-12 col-md-4">
 <iframe
   id="chat_embed"
-  src="https://www.twitch.tv/embed/{{ site.twitch_username }}/chat?parent=luiscarlospando.com"
+  src="https://www.twitch.tv/embed/{{ site.twitch_username }}/chat?darkpopout&parent=luiscarlospando.com"
   height="100%"
   width="100%"
 >

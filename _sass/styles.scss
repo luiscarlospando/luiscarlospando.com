@@ -441,6 +441,7 @@ footer {
 a.badge,
 a.btn {
     color: $mainColor;
+    @include transition;
 
     &:hover,
     &:focus {

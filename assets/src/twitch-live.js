@@ -1,7 +1,7 @@
 // Function to fetch live status from Twitch API
 function checkLiveStatus() {
     const clientId = 'vfumpr4f4psz8fm5k2bs0zupvrtgge'; // Replace with your Twitch Client ID
-    const channelName = 'mijodido'; // Replace with your Twitch Channel Name
+    const channelName = 'mijostreams'; // Replace with your Twitch Channel Name
     const twitchLivestreamAlert = document.getElementById("twitch-livestream-alert");
 
     fetch(`https://api.twitch.tv/helix/streams?user_login=${channelName}`, {

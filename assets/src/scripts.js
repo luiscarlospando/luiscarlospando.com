@@ -47,7 +47,7 @@
 
         // Add Animate.css
         const header = document.querySelector('header');
-        const twitchLiveHeader = document.getElementById('twitch-livestream-alert');
+        const mijoStreamsLiveHeader = document.getElementById('mijostreams-livestream-alert');
         const m7gpLiveHeader = document.getElementById('m7gp-livestream-alert');
         const siteBody = document.querySelector('.site-body');
         const footer = document.querySelector('footer');
@@ -57,7 +57,7 @@
         }, 800);
 
         setTimeout(() => {
-            twitchLiveHeader.classList.add('animated', 'fadeIn');
+            mijoStreamsLiveHeader.classList.add('animated', 'fadeIn');
             m7gpLiveHeader.classList.add('animated', 'fadeIn');
         }, 1800);
 

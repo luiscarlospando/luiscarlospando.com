@@ -171,8 +171,10 @@
     }
 }
 
-#twitch-livestream-alert,
-#m7gp-livestream-alert {
+#mijostreams-livestream-alert,
+#m7gp-livestream-alert,
+#btn-m7gp {
+    display: none;
     opacity: 0;
 
     #live-icon {
@@ -234,12 +236,6 @@ progress::-moz-progress-bar {
     &:focus {
         opacity: 1;
     }
-}
-
-#twitch-livestream-alert,
-#m7gp-livestream,
-#btn-m7gp {
-    display: none;
 }
 
 #profile-picture {

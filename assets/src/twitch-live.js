@@ -2,7 +2,7 @@
 function checkLiveStatus() {
     const clientId = 'vfumpr4f4psz8fm5k2bs0zupvrtgge'; // Replace with your Twitch Client ID
     const channelName = 'mijostreams'; // Replace with your Twitch Channel Name
-    const twitchLivestreamAlert = document.getElementById("twitch-livestream-alert");
+    const mijoStreamsLivestreamAlert = document.getElementById("mijostreams-livestream-alert");
 
     fetch(`https://api.twitch.tv/helix/streams?user_login=${channelName}`, {
         headers: {
@@ -13,9 +13,9 @@ function checkLiveStatus() {
     .then(response => response.json())
     .then(data => {
         if (data.data.length > 0) {
-            twitchLivestreamAlert.style.display = "block";
+            mijoStreamsLivestreamAlert.style.display = "block";
         } else {
-            twitchLivestreamAlert.style.display = "none";
+            mijoStreamsLivestreamAlert.style.display = "none";
         }
     })
     .catch(error => console.error('Error fetching live status:', error));

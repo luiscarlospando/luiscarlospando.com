@@ -172,9 +172,8 @@
 }
 
 #mijostreams-livestream-alert,
-#m7gp-livestream-alert,
-#btn-m7gp {
-    display: none;
+#m7gp-livestream-alert {
+    opacity: 0;
 
     #live-icon {
         color: $linkColor;
@@ -235,6 +234,12 @@ progress::-moz-progress-bar {
     &:focus {
         opacity: 1;
     }
+}
+
+#mijostreams-livestream-alert,
+#m7gp-livestream,
+#btn-m7gp {
+    display: none;
 }
 
 #profile-picture {

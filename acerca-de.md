@@ -15,9 +15,9 @@ Aquí está el [archivo completo][3] de todos mis posts.
 ## Colofón
 
 - 👨‍💻 Editor de código: [Visual Studio Code][4]{:target="_blank"}
-- 🤖 Generador del sitio: [Jekyll][5]{:target="_blank"} desplegado en [Vercel][6]{:target="_blank"} ([<code>site-info</code>][7])
+- 🤖 Generador del sitio: [Jekyll][5]{:target="_blank"}, desplegado en [Vercel][6]{:target="_blank"} ([<code>site-info</code>][7])
 - 🛠️ Código fuente: [GitHub][8]{:target="_blank"}
-- ✍️ Blog: Corre con [WordPress][9]{:target="_blank"} desplegado en [DigitalOcean][10]{:target="_blank"}
+- ✍️ Blog: [WordPress][9]{:target="_blank"}, desplegado en [DigitalOcean][10]{:target="_blank"}
 - 🏠 Dominio: [Cloudflare][11]{:target="_blank"}
 - 🛜 DNS: [Cloudflare][11]{:target="_blank"} también
 - ✅ Monitoreo del sistema: [Instatus][12]{:target="_blank"}

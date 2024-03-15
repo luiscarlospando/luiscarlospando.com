@@ -19,6 +19,7 @@ if (dayOfTheWeek == 4 && (time >= 21 && time < 23)) {
         m7gpLivestream.style.display = "block";
         btnM7GP.style.display = "inline-block";
 
+        mijosStreamsLivestreamAlert.style = "none";
         mijoStreamsLivestream.style.display = "none";
         mijoStreamsChat.style.display = "none";
         btnMijoStreams.style.display = "none";

@@ -54,11 +54,6 @@ permalink: /games/splatoon/
 </div>
 </div>
 
-## <i class="fa-brands fa-youtube"></i> Mis clips de *Splatoon 3*
-<div class="embed-responsive embed-responsive-16by9">
-<iframe width="100%" height="480" src="https://www.youtube.com/embed/videoseries?list=PL15FCirCIaHq3KXJcqrFPaTYpzSxDpDVm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
 <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 <div class="modal-content">

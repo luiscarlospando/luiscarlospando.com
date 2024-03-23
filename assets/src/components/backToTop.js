@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 
 function BackToTop({
-        className = "cd-top",
+        className = "btn-primary cd-top",
         title = 'Volver arriba',
         href = '#0',
         dataToggle = 'tooltip',

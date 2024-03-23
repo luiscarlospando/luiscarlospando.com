@@ -18,7 +18,7 @@
             },
             "footer": {
                 "add": true,
-                "title": "Hi, how are you? 🖖"
+                "title": "Random fact about me: I looove Geography 🌎"
             },
             "searchfield": {
                 "placeholder": "Buscar",

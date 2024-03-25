@@ -55,7 +55,7 @@ Este es [mi perfil en Reddit][9]{:target="_blank"}.
 ![Twitch Status](https://img.shields.io/twitch/status/{{ site.twitch_username }}?style=flat&logo=twitch&logoColor=%23A172F7&link=https%3A%2F%2Fluiscarlospando.com%2Flive)
 
 
-[Tengo un canal en Twitch][10]{:target="_blank"}, que honestamente nunca he usado pero lo tengo por si algún día me da por transmitir.
+[Tengo un canal en Twitch][10]{:target="_blank"}, que ya estoy usando, al fin. 🎉
 
 ## <i class="fa-solid fa-gamepad"></i> Backloggd
 En [Backloggd][11]{:target="_blank"} llevo el control de los videojuegos que tengo.

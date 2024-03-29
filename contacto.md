@@ -14,6 +14,11 @@ Mi correo es: <code>{{ site.email }}</code><br>
 <i class="fa-solid fa-pen-to-square"></i> Escribir correo
 </a>
 
+## <i class="fa-solid fa-comment"></i> Llave pública de verificación en Apple Messages
+```
+APKTIDqddeGKq1HgGGc9_rnoTBa9Pl5qoeZSlNhMBw1bky9JPefQ
+```
+
 ## <i class="fa-solid fa-key"></i> Llave PGP pública
 Esta es [mi llave PGP pública][1] por si quieres contactarme encriptadamente.
 

@@ -1,7 +1,7 @@
 ---
 layout: livestreams
 title: Live
-description: Aquí se pueden ver mis livestreams.
+description: Aquí transmito en vivo todos mis streams de Twitch.
 image: /assets/images/live.jpg
 permalink: /live/
 ---
@@ -32,12 +32,13 @@ permalink: /live/
 </div>
 <div class="row">
 <div class="col text-center">
-<a id="btn-mijostreams" class="btn btn-primary" href="https://www.twitch.tv/{{ site.twitch_username }}" target="_blank">
+<a id="btn-mijostreams" class="btn btn-primary" href="https://mijo.url.lol/twitch" target="_blank">
 <i class="fa-solid fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i> Ver directamente en Twitch
-<a id="btn-m7gp" class="btn btn-primary" href="https://www.twitch.tv/{{ site.twitch_username }}" target="_blank">
+<a id="btn-m7gp" class="btn btn-primary" href="https://mijo.url.lol/twitch" target="_blank">
 <i class="fa-solid fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i> Ver directamente en Twitch
 </a>
 </div>
 </div>
 
 [1]: https://www.twitch.tv/{{ site.twitch_username }}
+[2]: https://mijo.url.lol/twitch

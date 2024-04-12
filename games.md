@@ -73,7 +73,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 <div class="card text-center" id="discord-tag">
 <div class="card-header">
 <h4 class="card-title">
-<i class="fa-brands fa-discord"></i> Discord
+<i class="fa-brands fa-discord"></i> Discord ![](https://dcbadge.vercel.app/api/shield/86571896581132288)
 </h4>
 </div>
 <div class="card-body">

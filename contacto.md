@@ -41,14 +41,10 @@ Cuenta automatizada con posts de mi sitio.
 ## <i class="fa-brands fa-threads"></i> Threads
 Este es [mi perfil en Threads][3]{:target="_blank"}.
 
-## <i class="fa-brands fa-discord"></i> Discord
-![](https://dcbadge.vercel.app/api/shield/86571896581132288&?style=flat)
-
+## <i class="fa-brands fa-discord"></i> Discord ![](https://dcbadge.vercel.app/api/shield/86571896581132288&?style=flat)
 Mi username en Discord es <a href="{{ site.discord_profile }}" target="_blank"><code>{{ site.discord_tag }}</code></a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (*feel free to join in!*).
 
-## <i class="fa-solid fa-heart"></i> omg.lol
-[![omg.lol](https://omg.8bitsqu.id/?user=mijo)](5)
-
+## <i class="fa-solid fa-heart"></i> omg.lol [![omg.lol](https://omg.8bitsqu.id/?user=mijo)][5]
 [omg.lol][5]{:target="_blank"} es mi lugar favorito en Internet, es un conjunto de microservicios y hasta te dan tu propia cuenta de Mastodon ([crea una cuenta][6]{:target="_blank"}).
 
 ## <i class="fa-brands fa-itunes-note"></i> Apple Music
@@ -60,9 +56,7 @@ Este es [mi perfil en Last.fm][8]{:target="_blank"}.
 ## <i class="fa-brands fa-reddit"></i> Reddit
 Este es [mi perfil en Reddit][9]{:target="_blank"}.
 
-## <i class="fa-brands fa-twitch"></i> Twitch
-![Twitch Status](https://img.shields.io/twitch/status/{{ site.twitch_username }}?style=flat&logo=twitch&logoColor=%23A172F7&link=https%3A%2F%2Fluiscarlospando.com%2Flive)
-
+## <i class="fa-brands fa-twitch"></i> Twitch ![Twitch Status](https://img.shields.io/twitch/status/{{ site.twitch_username }}?style=flat&logo=twitch&logoColor=%23A172F7&link=https%3A%2F%2Fluiscarlospando.com%2Flive)
 [Tengo un canal en Twitch][10]{:target="_blank"}, que ya estoy usando, al fin. 🎉
 
 ## <i class="fa-solid fa-gamepad"></i> Backloggd

@@ -47,7 +47,9 @@ Este es [mi perfil en Threads][3]{:target="_blank"}.
 Mi username en Discord es <a href="{{ site.discord_profile }}" target="_blank"><code>{{ site.discord_tag }}</code></a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (*feel free to join in!*).
 
 ## <i class="fa-solid fa-heart"></i> omg.lol
-Creo que [omg.lol][5]{:target="_blank"} es mi lugar favorito en Internet ([crea una cuenta][6]{:target="_blank"}).
+[![omg.lol](https://omg.8bitsqu.id/?user=mijo)](5)
+
+[omg.lol][5]{:target="_blank"} es mi lugar favorito en Internet, es un conjunto de microservicios y hasta te dan tu propia cuenta de Mastodon ([crea una cuenta][6]{:target="_blank"}).
 
 ## <i class="fa-brands fa-itunes-note"></i> Apple Music
 Este es [mi perfil en Apple Music][7]{:target="_blank"}.
@@ -60,7 +62,6 @@ Este es [mi perfil en Reddit][9]{:target="_blank"}.
 
 ## <i class="fa-brands fa-twitch"></i> Twitch
 ![Twitch Status](https://img.shields.io/twitch/status/{{ site.twitch_username }}?style=flat&logo=twitch&logoColor=%23A172F7&link=https%3A%2F%2Fluiscarlospando.com%2Flive)
-
 
 [Tengo un canal en Twitch][10]{:target="_blank"}, que ya estoy usando, al fin. 🎉
 

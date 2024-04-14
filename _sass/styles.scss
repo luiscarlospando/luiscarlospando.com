@@ -208,6 +208,8 @@ footer {
     border: none;
     border-bottom: none;
     box-shadow: inset 0 0 0 1px #343434;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
     color: $mainColor !important;
     @include transition;
 

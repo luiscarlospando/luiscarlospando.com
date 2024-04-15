@@ -124,6 +124,13 @@
 
 // Super XX-Large devices (larger desktops, 1600px and up)
 @media (min-width: 1600px) { 
+    header {
+        #mijostreams-livestream-alert,
+        #m7gp-livestream-alert {
+            width: 300px;
+        }
+    }
+
     footer {
         #lastfm {
             ul {

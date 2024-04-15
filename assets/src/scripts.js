@@ -53,9 +53,13 @@
             if (window.scrollY >= 300) {
                 $('.cd-top').addClass("cd-is-visible");
                 $('.nowplaying').addClass("positionate-nowplaying");
+                $('#mijostreams-livestream-alert').addClass("positionate-live-alert");
+                $('#m7gp-livestream-alert').addClass("positionate-live-alert");
             } else {
                 $('.cd-top').removeClass("cd-is-visible");
                 $('.nowplaying').removeClass("positionate-nowplaying");
+                $('#mijostreams-livestream-alert').removeClass("positionate-live-alert");
+                $('#m7gp-livestream-alert').removeClass("positionate-live-alert");
             }
         };
 

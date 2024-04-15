@@ -86,7 +86,7 @@
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
-    header {
+    #live {
         #mijostreams-livestream-alert,
         #m7gp-livestream-alert {
             position: fixed;
@@ -94,7 +94,9 @@
             top: 0;
             width: 200px;
             z-index: 1;
-
+            -webkit-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
         }
     }
 

@@ -23,5 +23,6 @@ import './scripts';
 
 /* React components */
 import './components/navigation';
+import './components/liveAlert';
 import './components/currentlyListening';
 import './components/backToTop';

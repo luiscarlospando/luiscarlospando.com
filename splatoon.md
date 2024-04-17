@@ -39,7 +39,7 @@ permalink: /games/splatoon/
 
 <div class="text-center mt20">
 <a href="javascript:void(0)" data-toggle="modal" data-target="#modal">
-<img class="img-fluid rounded" src="/assets/images/splatoon-3-flyer.png" alt="" loading="lazy" />
+<img class="img-fluid rounded" src="/assets/images/splatoon-flyer-2024-animated.gif" alt="" loading="lazy" />
 </a>
 </div>
 
@@ -58,7 +58,7 @@ permalink: /games/splatoon/
 <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 <div class="modal-content">
 <div class="modal-body modal-body-jekyll">
-<img class="img-fluid rounded" src="/assets/images/splatoon-3-flyer.png" alt="" loading="lazy" />
+<img class="img-fluid rounded" src="/assets/images/splatoon-flyer-2024-animated.gif" alt="" loading="lazy" />
 </div>
 </div>
 </div>

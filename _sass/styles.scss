@@ -295,14 +295,6 @@ footer {
             width: 68%;
         }
 
-        .form-control {
-            font-family: "Liberation Mono", "Courier New", monospace;
-            font-size: 1.5rem;
-            background-color: transparent;
-            border: 1px solid $fifthColor;
-            color: $mainColor;
-        }
-
         .btn-outline-secondary {
             color: $mainColor;
             border: 1px solid rgba(255,255,255,0.169);
@@ -335,6 +327,15 @@ footer {
                 background-color: transparent;
             }
         }
+    }
+
+    .form-control {
+        font-family: "Liberation Mono", "Courier New", monospace;
+        font-size: 1.5rem;
+        background-color: transparent;
+        border: 1px solid $fifthColor;
+        border-radius: .375rem;
+        color: $mainColor;
     }
 }
 

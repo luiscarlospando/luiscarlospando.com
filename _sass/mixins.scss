@@ -11,6 +11,6 @@
 }
 
 @mixin backdrop-filter($saturation, $blur) {
-    -webkit-backdrop-filter: saturate($saturation) blur($blur);
-    backdrop-filter: saturate($saturation) blur($blur);
+    -webkit-backdrop-filter: saturate($saturation) blur($blur) !important;
+    backdrop-filter: saturate($saturation) blur($blur) !important;
 }

@@ -104,7 +104,7 @@ figure {
     margin: 0 0 1rem;
 
     img {
-        border-radius: .25rem !important;
+        border-radius: .375rem !important;
     }
 }
 
@@ -131,7 +131,7 @@ blockquote {
 }
 
 pre {
-    border-radius: .25rem;
+    border-radius: .375rem;
 }
 
 .h1,
@@ -404,6 +404,7 @@ footer {
 }
 
 .badge {
+    border-radius: .375rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 100%;
 }

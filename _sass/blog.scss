@@ -74,7 +74,7 @@ h6 {
 
 .comments-disclaimer {
     border: 1px solid $transparentGray;
-    border-radius: .25rem;
+    border-radius: .375rem;
     padding: 16px 14px 15px;
     margin: 0;
     position: relative;
@@ -124,7 +124,7 @@ h6 {
     font-size: 0.916rem;
 
     .card-body {
-        border-radius: .25rem;
+        border-radius: .375rem;
     }
 }
 
@@ -235,7 +235,7 @@ iframe.instagram-media {
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    border-radius: .25rem;
+    border-radius: .375rem;
 
     &::before {
         content: '#';

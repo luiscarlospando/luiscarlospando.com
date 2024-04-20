@@ -249,6 +249,7 @@ footer {
 .card {
     background-color: $cardBgColor;
     border: 1px solid $cardBorderColor;
+    border-radius: .375rem;
 
     h1,
     h2,

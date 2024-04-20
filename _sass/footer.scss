@@ -101,7 +101,8 @@ footer {
 }
 
 .cd-top {
-    background-color: $componentBgColor;
+    background-color: rgba(13, 14, 51, 0.7) !important;
+    @include backdrop-filter(50%, 4px);
     border: 1px solid $componentBorderColor;
     border-radius: .25rem;
     color: $light;

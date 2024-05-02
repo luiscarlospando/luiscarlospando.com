@@ -306,10 +306,10 @@ footer {
             background-color: transparent;
         }
 
-        #discord-tag-value,
-        #nintendo-switch-code {
+        .clipboard-field {
             border-top-right-radius: 0;
             border-bottom-right-radius: 0;
+            text-align: center;
         }
 
         .input-group-append {
@@ -331,7 +331,7 @@ footer {
 
     .form-control {
         font-family: "Liberation Mono", "Courier New", monospace;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         background-color: transparent;
         border: 1px solid $fifthColor;
         border-radius: .375rem;

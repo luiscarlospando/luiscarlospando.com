@@ -14,7 +14,7 @@ permalink: /games/mario-kart/
 </div>
 <div class="card-body">
 <div class="input-group justify-content-center">
-<input type="text" class="form-control" id="m7gp-code" value="{{ site.m7gp_code }}" data-toggle="tooltip" data-placement="top" data-trigger="focus" title="Código copiado" aria-label="" aria-describedby readonly>
+<input type="text" class="form-control clipboard-field" id="m7gp-code" value="{{ site.m7gp_code }}" data-toggle="tooltip" data-placement="top" data-trigger="focus" title="Código copiado" aria-label="" aria-describedby readonly>
 <div class="input-group-append">
 <button class="btn btn-outline-secondary" type="button" data-clipboard-target="#m7gp-code" data-toggle="tooltip" data-placement="top" title="Copiar">
 <i class="fa-solid fa-copy"></i>

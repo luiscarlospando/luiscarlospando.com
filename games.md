@@ -78,7 +78,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 </div>
 <div class="card-body">
 <div class="input-group justify-content-center">
-<input type="text" class="form-control" id="discord-tag-value" value="{{ site.discord_tag }}" data-toggle="tooltip" data-placement="top" data-trigger="focus" title="Username de Discord copiado" aria-label="" aria-describedby readonly>
+<input type="text" class="form-control clipboard-field" id="discord-tag-value" value="{{ site.discord_tag }}" data-toggle="tooltip" data-placement="top" data-trigger="focus" title="Username de Discord copiado" aria-label="" aria-describedby readonly>
 <div class="input-group-append">
 <button class="btn btn-outline-secondary" type="button" data-clipboard-target="#discord-tag-value" data-toggle="tooltip" data-placement="top" title="Copiar">
 <i class="fa-solid fa-copy"></i>
@@ -103,7 +103,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 </div>
 <div class="card-body">
 <div class="input-group justify-content-center">
-<input type="text" class="form-control" id="nintendo-switch-code" value="{{ site.nintendo_switch_code }}" data-toggle="tooltip" data-placement="top" data-trigger="focus" title="Código copiado" aria-label="" aria-describedby readonly>
+<input type="text" class="form-control clipboard-field" id="nintendo-switch-code" value="{{ site.nintendo_switch_code }}" data-toggle="tooltip" data-placement="top" data-trigger="focus" title="Código copiado" aria-label="" aria-describedby readonly>
 <div class="input-group-append">
 <button class="btn btn-outline-secondary" type="button" data-clipboard-target="#nintendo-switch-code" data-toggle="tooltip" data-placement="top" title="Copiar">
 <i class="fa-solid fa-copy"></i>

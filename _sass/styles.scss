@@ -330,12 +330,12 @@ footer {
     }
 
     .form-control {
-        font-family: "Liberation Mono", "Courier New", monospace;
+        font-family: "SFMono-Regular", Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
         font-size: 1.4rem;
         background-color: transparent;
         border: 1px solid $fifthColor;
         border-radius: .375rem;
-        color: $mainColor;
+        color: $sixthColor;
     }
 }
 

@@ -13,7 +13,14 @@ permalink: /games/mario-kart/
 <h5 class="card-title"><i class="fa-solid fa-gamepad"></i> Código del torneo</h5>
 </div>
 <div class="card-body">
-#### <code>0746-6549-8155</code>
+<div class="input-group justify-content-center">
+<input type="text" class="form-control" id="m7gp-code" value="{{ site.m7gp_code }}" data-toggle="tooltip" data-placement="top" data-trigger="focus" title="Código copiado" aria-label="" aria-describedby readonly>
+<div class="input-group-append">
+<button class="btn btn-outline-secondary" type="button" data-clipboard-target="#m7gp-code" data-toggle="tooltip" data-placement="top" title="Copiar">
+<i class="fa-solid fa-copy"></i>
+</button>
+</div>
+</div>
 </div>
 </div>
 </div>

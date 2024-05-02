@@ -4,7 +4,7 @@ title: Games
 description: Esto es lo que estoy jugando actualmente y estos son mis perfiles de Discord, Nintendo Switch y Backloggd.
 image: /assets/images/logo-games.png
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2024-01-01 20:01:00</span>
+last-modified-at: <span id="last-updated-at">2024-05-02 12:22:00</span>
 ---
 
 <div class="text-center">
@@ -25,7 +25,7 @@ Esto es lo que estoy jugando actualmente y estos son mis perfiles de [<i class="
 <div class="col-6 my-auto">
 [*Mario Kart 8 Deluxe*][4]<br>
 Mode 7 Grand Prix todos los jueves @ 9:00 pm (hora central de México)<br>
-<code>Código del torneo: 0746-6549-8155</code><br>
+Código del torneo: <code>{{ site.m7gp_code }}</code><br>
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://discord.gg/U77J5c6" target="_blank">
@@ -48,7 +48,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
-*Super Mario RPG*
+*Ristar*
 </div>
 <div class="col-6 my-auto text-monospace">
 (Offline)

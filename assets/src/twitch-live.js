@@ -12,7 +12,8 @@ function checkLiveStatus() {
     })
     .then(response => response.json())
     .then(data => {
-        if (data.data.length > 0) {
+        console.log(data); // Log the response to see what data is returned
+        if (data.data && data.data.length > 0) {
             mijoStreamsLivestreamAlert.style.display = "block";
         } else {
             mijoStreamsLivestreamAlert.style.display = "none";

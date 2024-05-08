@@ -7,7 +7,7 @@ function checkLiveStatus() {
     fetch(`https://api.twitch.tv/helix/streams?user_login=${channelName}`, {
         headers: {
             'Client-ID': clientId,
-            'Authorization': 'Bearer mr3ywja1jxv06wlcwf9advjtbs890g' // Replace with your Twitch Access Token
+            'Authorization': 'Bearer 1v0jiigx88h5vtkywxhk8gtqyo5srb' // Replace with your Twitch Access Token
         }
     })
     .then(response => response.json())

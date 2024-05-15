@@ -1,4 +1,4 @@
-@import 'mixins.scss';
+@import "mixins.scss";
 
 #btn-burger {
     color: $mainColor;
@@ -46,7 +46,7 @@
         opacity: 1;
         @include transition;
     }
-    
+
     &::after {
         background: $separatorBgColor;
         width: 100%;
@@ -54,12 +54,12 @@
         position: absolute;
         bottom: 0;
         left: 0;
-        content: '';
+        content: "";
     }
 }
 
 #logo {
-    background: url('../images/avatar.gif') no-repeat center;
+    background: url("../images/avatar.gif") no-repeat center;
     background-size: cover;
     border: 1px solid $componentBorderColor;
     border-radius: 50%;
@@ -82,10 +82,10 @@
     &:hover + #logo-blur,
     &:focus + #logo-blur {
         -webkit-filter: blur(20px);
-                filter: blur(20px);
+        filter: blur(20px);
         -webkit-transform: scale(1.2) rotate(0deg);
-            -ms-transform: scale(1.2) rotate(0deg);
-                transform: scale(1.2) rotate(0deg);
+        -ms-transform: scale(1.2) rotate(0deg);
+        transform: scale(1.2) rotate(0deg);
     }
 }
 
@@ -103,24 +103,24 @@
     bottom: 0;
     margin: auto;
     z-index: 1;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     -webkit-filter: blur(0);
-            filter: blur(0);
+    filter: blur(0);
     -webkit-transform: scale(1) rotate(0deg);
-        -ms-transform: scale(1) rotate(0deg);
-            transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
 }
 
 #last-toot,
 #status {
     width: 100%;
     height: auto;
-    
+
     #container {
         background-color: $cardBgColor;
         border: 1px solid $componentBorderColor;
-        border-radius: .375rem;
+        border-radius: 0.375rem;
         width: 100%;
         height: auto;
         float: left;
@@ -141,14 +141,15 @@
             margin: 0;
             overflow: hidden;
         }
-        
+
         &::before {
             content: "";
             width: 0;
             height: 0;
             border-style: solid;
-            border-width: 0 15px 15px 15px;
+            border-width: 0 15px 16px 15px; // Adjust the bottom border width to include the border
             border-color: transparent transparent $cardBgColor transparent;
+            border-bottom-color: $componentBorderColor; // Set the color for the border-bottom
             position: absolute;
             left: 0;
             right: 0;
@@ -166,7 +167,7 @@
             right: 5px;
             font-variant: normal;
             text-rendering: auto;
-            -webkit-font-smoothing: antialiased; 
+            -webkit-font-smoothing: antialiased;
         }
     }
 }
@@ -228,9 +229,15 @@ progress::-moz-progress-bar {
     top: 15px;
     right: 15px;
     opacity: 0;
-    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-    -o-transition: opacity .3s 0s, visibility 0s .3s;
-    transition: opacity .3s 0s, visibility 0s .3s;
+    -webkit-transition:
+        opacity 0.3s 0s,
+        visibility 0s 0.3s;
+    -o-transition:
+        opacity 0.3s 0s,
+        visibility 0s 0.3s;
+    transition:
+        opacity 0.3s 0s,
+        visibility 0s 0.3s;
     z-index: 4;
 
     &:focus {

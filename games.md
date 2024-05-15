@@ -48,8 +48,9 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
-- *Ristar*
-- *Endless Ocean Luminous*
+*Ristar*
+<hr>
+*Endless Ocean Luminous*
 </div>
 <div class="col-6 my-auto text-monospace">
 (Offline)

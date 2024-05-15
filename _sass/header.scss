@@ -148,7 +148,8 @@
             height: 0;
             border-style: solid;
             border-width: 0 15px 15px 15px;
-            border-color: transparent transparent $cardBgColor transparent;
+            border-color: transparent transparent $componentBorderColor
+                transparent;
             position: absolute;
             left: 0;
             right: 0;

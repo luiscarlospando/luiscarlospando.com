@@ -40,12 +40,12 @@
     #status {
         width: 100%;
         height: auto;
-        
+
         #container {
             &::before {
                 border-width: 15px 15px 15px 0;
-                border-color: transparent $cardBgColor transparent transparent;
-                position: absolute;
+                border-color: transparent $componentBorderColor transparent
+                    transparent;
                 top: 0;
                 bottom: 0;
                 margin: auto 0;
@@ -127,7 +127,7 @@
 }
 
 // Super XX-Large devices (larger desktops, 1600px and up)
-@media (min-width: 1600px) { 
+@media (min-width: 1600px) {
     header {
         #mijostreams-livestream-alert,
         #m7gp-livestream-alert {
@@ -169,22 +169,22 @@
     p,
     .pagination,
     #lastfm {
-		font-size: 0.918rem;
-	}
+        font-size: 0.918rem;
+    }
 
     blockquote {
-	    margin: 1em 0;
-	}
+        margin: 1em 0;
+    }
 
     #horizon {
         margin: 3% 0;
     }
 
     .first-letter {
-	    padding: 12px 8px 0 0;
+        padding: 12px 8px 0 0;
         font-size: 4.8rem;
     }
-    
+
     .burger {
         a {
             position: relative;
@@ -194,13 +194,8 @@
 }
 
 // iPhone (landscape)
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-  	.tri-right.btm-left {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .tri-right.btm-left {
         &::after {
             left: 45.6%;
         }
@@ -210,33 +205,30 @@
 // iPad (landscape and portrait)
 @media (min-width: 768px) and (max-width: 991px) {
     h1 {
-      font-size: 2.125rem;
-      margin: 0.67em 0 0.27em !important;
+        font-size: 2.125rem;
+        margin: 0.67em 0 0.27em !important;
     }
 
     h2 {
-      font-size: 1.75rem;
-      margin: 0.83em 0 0.43em !important;
+        font-size: 1.75rem;
+        margin: 0.83em 0 0.43em !important;
     }
 
     h3 {
-      font-size: 1.375rem;
+        font-size: 1.375rem;
     }
 
     h4 {
-      font-size: 1.125rem;
+        font-size: 1.125rem;
     }
 }
 
 // iPad (landscape)
 @media (min-width: 769px) and (max-width: 1090px) {
-
 }
 
 // iPad (portrait)
 @media (min-width: 751px) and (max-width: 768px) {
-
-
 }
 
 @media only screen and (min-width: 35em) {
@@ -253,8 +245,8 @@
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+    (-o-min-device-pixel-ratio: 5/4),
+    (-webkit-min-device-pixel-ratio: 1.25),
+    (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }

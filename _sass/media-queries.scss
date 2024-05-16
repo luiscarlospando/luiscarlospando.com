@@ -54,9 +54,10 @@
 
         &::before {
             border-width: 16px 16px 16px 0;
-            left: 0;
-            right: 0;
-            top: -15px;
+            top: 0;
+            bottom: 0;
+            margin: auto 0;
+            left: -15px;
         }
     }
 

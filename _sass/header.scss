@@ -116,6 +116,7 @@
 #status {
     width: 100%;
     height: auto;
+    position: relative;
 
     #container {
         background-color: $cardBgColor;
@@ -148,8 +149,7 @@
             height: 0;
             border-style: solid;
             border-width: 0 15px 15px 15px;
-            border-color: transparent transparent $componentBorderColor
-                transparent;
+            border-color: transparent transparent $cardBgColor transparent;
             position: absolute;
             left: 0;
             right: 0;
@@ -169,6 +169,21 @@
             text-rendering: auto;
             -webkit-font-smoothing: antialiased;
         }
+    }
+
+    &::before {
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 16px 16px 16px;
+        border-color: transparent transparent $componentBorderColor transparent;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: -15px;
+        z-index: -1;
     }
 }
 

@@ -44,13 +44,19 @@
         #container {
             &::before {
                 border-width: 15px 15px 15px 0;
-                border-color: transparent $componentBorderColor transparent
-                    transparent;
+                border-color: transparent $cardBgColor transparent transparent;
                 top: 0;
                 bottom: 0;
                 margin: auto 0;
                 left: -15px;
             }
+        }
+
+        &::before {
+            border-width: 16px 16px 16px 0;
+            left: 0;
+            right: 0;
+            top: -15px;
         }
     }
 

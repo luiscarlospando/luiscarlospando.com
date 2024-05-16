@@ -54,6 +54,8 @@
 
         &::before {
             border-width: 16px 16px 16px 0;
+            border-color: transparent $componentBorderColor transparent
+                transparent;
             top: 0;
             bottom: 0;
             margin: auto 0;

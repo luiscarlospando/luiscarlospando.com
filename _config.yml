@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: LuisCarlosPando.com
-version: 2.30.0
+version: 2.31.0
 author: Luis Carlos Pando
 email: hey@luiscarlospando.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -55,8 +55,8 @@ kramdown:
   parse_block_html: true
 # theme: minima
 plugins:
-- jekyll-info
-- jekyll-sitemap
+  - jekyll-info
+  - jekyll-sitemap
 #  - jekyll-feed
 sass:
   sass_dir: _sass
@@ -67,7 +67,6 @@ info:
   production: true
 future: true
 include: [".well-known"]
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

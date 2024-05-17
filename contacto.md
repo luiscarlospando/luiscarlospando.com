@@ -49,7 +49,7 @@ Este es [mi perfil en Threads][3]{:target="\_blank"}.
 
 ## <i class="fa-brands fa-discord"></i> Discord
 
-![](https://dcbadge.limes.pink/api/shield/86571896581132288)
+![](https://dcbadge.limes.pink/api/shield/86571896581132288?style=flat)
 
 Mi username en Discord es <a href="{{ site.discord_profile }}" target="_blank"><code>{{ site.discord_tag }}</code></a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (_feel free to join in!_).
 

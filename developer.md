@@ -30,6 +30,9 @@ Me puedes encontrar en Dev.to [aquí][5]{:target="_blank"}.
 ## <i class="fa-brands fa-codepen"></i> CodePen
 Mi perfil en CodePen es [este][6]{:target="_blank"}.
 
+## <i class="fa-solid fa-beer-mug-empty"></i> Brewfile
+Aquí comparto lo que tengo en [mi Brewfile][7]{:target="_blank"}.
+
 
 [1]: https://github.com/{{ site.github_username }}
 [2]: https://github.com/{{ site.github_username }}/ama
@@ -37,3 +40,4 @@ Mi perfil en CodePen es [este][6]{:target="_blank"}.
 [4]: https://gitlab.com/{{ site.gitlab_username }}
 [5]: https://dev.to/{{ site.devto_username }}
 [6]: https://codepen.io/{{ site.codepen_username }}
+[7]: https://www.brewfiles.com/brew/y1Wke6AZtbX4pQP0szWh

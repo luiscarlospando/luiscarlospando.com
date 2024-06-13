@@ -118,6 +118,14 @@
     height: auto;
     position: relative;
 
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
     #container {
         background-color: $cardBgColor;
         border: 1px solid $componentBorderColor;

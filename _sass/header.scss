@@ -120,6 +120,7 @@
 
     a {
         text-decoration: none;
+        @include transition;
 
         &:hover {
             text-decoration: underline;

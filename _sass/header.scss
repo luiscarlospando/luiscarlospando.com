@@ -119,11 +119,13 @@
     position: relative;
 
     a {
-        text-decoration: none;
-        @include transition;
+        text-decoration: underline;
+        text-decoration-color: $underlineColor;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 2px;
 
         &:hover {
-            text-decoration: underline;
+            text-decoration-color: $underlineHoverColor;
         }
     }
 

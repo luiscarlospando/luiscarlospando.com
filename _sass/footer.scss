@@ -10,6 +10,19 @@ footer {
         }
     }
 
+    #blog {
+        a {
+            text-decoration: underline;
+            text-decoration-color: $underlineColor;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 2px;
+
+            &:hover {
+                text-decoration-color: $underlineHoverColor;
+            }
+        }
+    }
+
     #lastfm {
         width: 100%;
         float: left;
@@ -78,11 +91,6 @@ footer {
                 display: none;
             }
         }
-    }
-
-    .twitter-follow-btn {
-        position: relative;
-        top: 5px;
     }
 
     .version {

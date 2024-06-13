@@ -1,6 +1,13 @@
-
 footer {
     font-size: 0.917rem;
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 
     #lastfm {
         width: 100%;
@@ -9,7 +16,7 @@ footer {
         p {
             margin: 0;
         }
-    
+
         ul {
             list-style-type: none;
             margin: 0 !important;
@@ -19,7 +26,7 @@ footer {
                 background-color: $cardBgColor;
                 border: 1px solid $componentBorderColor !important;
                 border: none;
-                border-radius: .375rem;
+                border-radius: 0.375rem;
                 padding: 16px 14px 15px;
                 margin: 0 0 1rem;
                 position: relative;
@@ -42,9 +49,9 @@ footer {
                 div {
                     display: inline;
                 }
-            
+
                 .track {
-                    background: url('../images/icon_eq.gif') no-repeat;
+                    background: url("../images/icon_eq.gif") no-repeat;
                     background-position: 0 3px;
                     padding-left: 20px;
 
@@ -60,7 +67,7 @@ footer {
                         content: '" ';
                     }
                 }
-            
+
                 .album {
                     font-style: italic;
                 }
@@ -89,7 +96,7 @@ footer {
 
     .fa-stack.small {
         font-size: 0.55rem;
-    
+
         i {
             vertical-align: middle;
         }
@@ -104,7 +111,7 @@ footer {
     background-color: rgba(13, 14, 51, 0.7) !important;
     @include backdrop-filter(50%, 4px);
     border: 1px solid $componentBorderColor;
-    border-radius: .375rem;
+    border-radius: 0.375rem;
     color: $light;
     display: flex;
     justify-content: center;
@@ -116,29 +123,41 @@ footer {
     right: 15px;
     visibility: hidden;
     opacity: 0;
-    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-         -o-transition: opacity .3s 0s, visibility 0s .3s;
-            transition: opacity .3s 0s, visibility 0s .3s;
+    -webkit-transition:
+        opacity 0.3s 0s,
+        visibility 0s 0.3s;
+    -o-transition:
+        opacity 0.3s 0s,
+        visibility 0s 0.3s;
+    transition:
+        opacity 0.3s 0s,
+        visibility 0s 0.3s;
 
     &:hover,
     &:focus {
         text-decoration: none;
     }
 }
-  
+
 .cd-top.cd-is-visible,
 .cd-top.cd-fade-out,
 .no-touch .cd-top:hover {
-    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
-         -o-transition: opacity .3s 0s, visibility 0s 0s;
-            transition: opacity .3s 0s, visibility 0s 0s;
+    -webkit-transition:
+        opacity 0.3s 0s,
+        visibility 0s 0s;
+    -o-transition:
+        opacity 0.3s 0s,
+        visibility 0s 0s;
+    transition:
+        opacity 0.3s 0s,
+        visibility 0s 0s;
 }
-  
+
 .cd-top.cd-is-visible {
     visibility: visible;
     opacity: 1;
 }
-  
+
 .cd-top.cd-fade-out {
-    opacity: .5;
+    opacity: 0.5;
 }

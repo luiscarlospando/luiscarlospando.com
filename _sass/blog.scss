@@ -14,11 +14,17 @@ h5,
 h6 {
     a {
         color: $secondaryColor !important;
+        text-decoration: none;
+        text-underline-offset: 4px;
+
+        &:hover {
+            text-underline-offset: 4px;
+        }
     }
 }
 
 .categories {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     letter-spacing: 1px;
     margin: 1.6637610896077rem 0 0.55rem;
     text-transform: uppercase;
@@ -39,7 +45,7 @@ h6 {
 }
 
 .title {
-    margin: 0 !important
+    margin: 0 !important;
 }
 
 .post-details {
@@ -55,7 +61,7 @@ h6 {
     margin: 0 0 1rem;
 
     .badge {
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: "Source Sans Pro", sans-serif;
         font-size: 0.833rem;
         padding: 0.3rem;
     }
@@ -74,7 +80,7 @@ h6 {
 
 .comments-disclaimer {
     border: 1px solid $transparentGray;
-    border-radius: .375rem;
+    border-radius: 0.375rem;
     padding: 16px 14px 15px;
     margin: 0;
     position: relative;
@@ -124,7 +130,7 @@ h6 {
     font-size: 0.916rem;
 
     .card-body {
-        border-radius: .375rem;
+        border-radius: 0.375rem;
     }
 }
 
@@ -134,8 +140,8 @@ h6 {
     }
 }
 
-.follow p, 
-.primary_navigation p, 
+.follow p,
+.primary_navigation p,
 p.latest-post {
     font-size: 0.918rem;
 }
@@ -224,21 +230,21 @@ iframe.instagram-media {
 }
 
 .tag-cloud-link {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #fff !important;
     background-color: #007bff;
     display: inline-block;
-    padding: .25em .4em;
+    padding: 0.25em 0.4em;
     font-size: 75%;
     font-weight: 700;
     line-height: 1;
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    border-radius: .375rem;
+    border-radius: 0.375rem;
 
     &::before {
-        content: '#';
+        content: "#";
     }
 }
 
@@ -256,12 +262,12 @@ iframe.instagram-media {
     }
 }
 
-.wp-block-embed.wp-embed-aspect-1-1 .wp-block-embed__wrapper:before, 
-.wp-block-embed.wp-embed-aspect-1-2 .wp-block-embed__wrapper:before, 
-.wp-block-embed.wp-embed-aspect-4-3 .wp-block-embed__wrapper:before, 
-.wp-block-embed.wp-embed-aspect-9-16 .wp-block-embed__wrapper:before, 
-.wp-block-embed.wp-embed-aspect-16-9 .wp-block-embed__wrapper:before, 
-.wp-block-embed.wp-embed-aspect-18-9 .wp-block-embed__wrapper:before, 
+.wp-block-embed.wp-embed-aspect-1-1 .wp-block-embed__wrapper:before,
+.wp-block-embed.wp-embed-aspect-1-2 .wp-block-embed__wrapper:before,
+.wp-block-embed.wp-embed-aspect-4-3 .wp-block-embed__wrapper:before,
+.wp-block-embed.wp-embed-aspect-9-16 .wp-block-embed__wrapper:before,
+.wp-block-embed.wp-embed-aspect-16-9 .wp-block-embed__wrapper:before,
+.wp-block-embed.wp-embed-aspect-18-9 .wp-block-embed__wrapper:before,
 .wp-block-embed.wp-embed-aspect-21-9 .wp-block-embed__wrapper:before {
     padding-top: 0;
 }

@@ -96,7 +96,7 @@ h6 {
     float: left;
 
     .user-thumbnail {
-        border: 1px solid $componentBorderColor;
+        border: 2px solid $componentBorderColor;
         margin-right: 5px;
         max-width: 50px;
         padding: 0;
@@ -105,7 +105,7 @@ h6 {
 
         &:hover,
         &:focus {
-            border: 1px solid $underlineHoverColor;
+            border: 2px solid $underlineHoverColor;
         }
     }
 

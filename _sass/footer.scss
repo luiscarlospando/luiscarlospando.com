@@ -1,15 +1,6 @@
 footer {
     font-size: 0.917rem;
 
-    a {
-        text-decoration: none;
-        @include transition;
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-
     #blog {
         a {
             text-decoration: underline;

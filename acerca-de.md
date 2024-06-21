@@ -8,21 +8,22 @@ permalink: /acerca-de/
 
 <h2 class="subtitulo text-center"><small>{{ site.title }} <code>v{{ site.version }}</code></small></h2>
 
-Este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado [<span id="contador-posts"></span> entradas en total][1]. Me encanta el hecho de tener un lugar en la web al que pueda llamar *mío* 😌. Y así como lo menciono en la [portada][2], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo valen la pena, opinar y dar recomendaciones. 
+Este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado [<span id="contador-posts"></span> entradas en total][1]. Me encanta el hecho de tener un lugar en la web al que pueda llamar *mío* 😌. Y así como lo menciono en la [portada][2], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo valen la pena, opinar y dar recomendaciones.
 
 Aquí está el [archivo completo][3] de todos mis posts.
 
 ## Colofón
 
 - 👨‍💻 Editor de código: [Visual Studio Code][4]{:target="_blank"}
-- 🤖 Generador del sitio: [Jekyll][5]{:target="_blank"}, desplegado en [Vercel][6]{:target="_blank"} ([<code>site-info</code>][7])
+- 🤖 Generador del sitio: [Jekyll][5]{:target="_blank"}, implementado en [Vercel][6]{:target="_blank"} ([<code>site-info</code>][7])
 - 🛠️ Código fuente: [GitHub][8]{:target="_blank"}
 - ✍️ Blog: [WordPress][9]{:target="_blank"}, desplegado en [DigitalOcean][10]{:target="_blank"}
 - 🏠 Dominio: [Cloudflare][11]{:target="_blank"}
 - 🛜 DNS: [Cloudflare][11]{:target="_blank"} también
 - ✅ Monitoreo del sistema: [Instatus][12]{:target="_blank"}
-- 📊 Analíticas: [Tinylytics][13]{:target="_blank"}
-- 😉 Misceláneo: [omg.lol][14]{:target="_blank"} para Mastodon y otras cosas bien chidas (estoy enamorado de este servicio 😍)
+- 🆎 Fonts: [Bunny.net][13]{:target="_blank"}
+- 📊 Analytics: [Tinylytics][14]{:target="_blank"}
+- 😉 Misceláneo: [omg.lol][15]{:target="_blank"} para Mastodon y otras cosas bien chidas (estoy enamorado de este servicio 😍)
 
 ## Suscríbete
 
@@ -46,8 +47,9 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [10]: https://m.do.co/c/03bd95f889e7
 [11]: https://cloudflare.com/
 [12]: https://luiscarlospando.instatus.com/
-[13]: https://tinylytics.app/
-[14]: https://home.omg.lol/referred-by/mijo
+[13]: https://fonts.bunny.net/
+[14]: https://tinylytics.app/
+[15]: https://home.omg.lol/referred-by/mijo
 [16]: https://blog.{{ site.domain }}/rss/
 [17]: https://hachyderm.io/@{{ site.mastodon_feed }}
 [18]: /contacto/

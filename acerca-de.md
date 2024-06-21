@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Acerca de
-description: Este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado (abre este link para ver el número) entradas en total. Me encanta el hecho de tener un lugar en la web al que pueda llamar mío 😌.
+description: Este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado (abre este link para ver el número) entradas en total. Me encanta el hecho de tener un lugar en la web que se pueda considerar *completamente mío* 😌, nada de depender de servicios de terceros como Google, Meta, X, etc. Y así como lo menciono en la portada, este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, recomendar y escribir de lo que se me ocurra.
 image: /assets/images/logo.png
 permalink: /acerca-de/
 ---
 
 <h2 class="subtitulo text-center"><small>{{ site.title }} <code>v{{ site.version }}</code></small></h2>
 
-Este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado [<span id="contador-posts"></span> entradas en total][1]. Me encanta el hecho de tener un lugar en la web al que pueda llamar *mío* 😌. Y así como lo menciono en la [portada][2], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo valen la pena, opinar y dar recomendaciones.
+Este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado [<span id="contador-posts"></span> entradas en total][1]. Me encanta el hecho de tener un lugar en la web que se pueda considerar *completamente mío* 😌, nada de depender de servicios de terceros como Google, Meta, X, etc. Y así como lo menciono en la [portada][2], este es un lugar para escribir de lo que traiga en la cabeza, compartir cosas que creo valen la pena, opinar y escribir de lo que se me ocurra.
 
 Aquí está el [archivo completo][3] de todos mis posts.
 

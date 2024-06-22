@@ -277,6 +277,11 @@ iframe.instagram-media {
     overflow: hidden;
 }
 
+// Estilo para quitar el margen inferior que agrega el plugin Arve a los videos y que tenga efecto el border radius que se especificó arriba
+.arve {
+    margin-bottom: 0 !important;
+}
+
 .badge-podcast {
     max-height: 28px;
 }

@@ -14,7 +14,7 @@ image: /assets/images/logo.png
 La razón que tuve para crear este sitio fue mi interés por las computadoras 👨‍💻 y el Internet 🌐, ― sentí la necesidad de tener [mi propio espacio en la web][5], para hablar de lo que yo quisiera, para equivocarme, para experimentar y para aprender. Básicamente se trata de escribir sobre lo que traiga en la cabeza, de probar cosas nuevas, codear y pasarla chido. También quiero que este lugar sirva como de una especie de bitácora de mi vida, que sea mi lugar para dar mi opinión sin miedo. 😌
 
 <div class="collapse" id="collapseIntro">
-No es ningún secreto el amor que le tengo a Nintendo 🕹️, [aquí][6] llevo un registro de los videojuegos que tengo en mi colección. Para rendir tributo y para hacer de los videojuegos que me gustan todavía más divertidos, armé la comunidad de [Mode 7 🎮 🕹️][7] (✨ *All are welcome!* ✨) en Discord junto a unos amigos. Ahí hablamos de nuestros videojuegos favoritos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][8]. Todos los jueves en la noche [transmitimos el torneo][9]. 
+No es ningún secreto el amor que le tengo a Nintendo 🕹️, [aquí][6] llevo un registro de los videojuegos que tengo en mi colección. Para rendir tributo y para hacer de los videojuegos que me gustan todavía más divertidos, armé la comunidad de [Mode 7 🎮 🕹️][7] (✨ *All are welcome!* ✨) en Discord junto a unos amigos. Ahí hablamos de nuestros videojuegos favoritos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][8]. Todos los jueves en la noche [transmitimos el torneo][9].
 
 Ahora me encuentro compartiendo cosas random en [Mastodon][10]{:target="_blank"} y en [omg.lol][11], el sarcasmo y los chistes de baja calidad que acostumbro, continúan por ahí.
 
@@ -41,7 +41,7 @@ Y pues bueno, lo más seguro es que ni sepas como llegaste hasta aquí, pero eso
 [2]: https://www.instagram.com/primitivegirl
 [3]: https://github.com/{{ site.github_username }}
 [4]: http://hitz-musik.net
-[5]: https://blog.{{ site.domain }}/
+[5]: /acerca-de/
 [6]: https://www.backloggd.com/u/{{ site.backloggd_username }}
 [7]: /mode-7/
 [8]: /games/mario-kart/

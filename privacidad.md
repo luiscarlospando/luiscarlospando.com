@@ -4,7 +4,7 @@ title: Política de Privacidad
 description: Me interesa tu privacidad y tu seguridad. Aquí describo lo que se recolecta en mi sitio web.
 image: /assets/images/logo.png
 permalink: /privacidad/
-last-modified-at: <span id="last-updated-at">2024-01-01 18:41:00</span>
+last-modified-at: <span id="last-updated-at">2024-06-23 15:06:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -22,7 +22,7 @@ Algunas de las cosas que publico en mi sitio (por ejemplo, videos, media players
 
 Esos sitios pueden recopilar datos sobre ti, utilizar cookies, incrustar un seguimiento adicional de terceros, y supervisar tu interacción con ese contenido incrustado, incluido el seguimiento de su interacción con el contenido incrustado si tienes una cuenta y estás conectado a esa web.
 
-### Analíticas
+### Analytics
 Para revisar el tráfico que recibo en mi sitio utilizo [Tinylytics][1]{:target="_blank"}. Tinylytics respeta tu privacidad. Ninguna cookie es almacenada en tu dispositivo y es un servicio que cumple con el [RGPD][2]{:target="_blank"}.
 
 ### Links referidos

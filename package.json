@@ -1,7 +1,10 @@
+---
+layout: null
+---
 {
-  "name": "luiscarlospando.com",
-  "version": "2.28.0",
-  "description": "Punk dude first and foremost. Losing followers since 2007.",
+  "name": "{{ site.title }}",
+  "version": "{{ site.version }}",
+  "description": "{{ site.description }}",
   "main": "index.js",
   "scripts": {
     "start": "bundle exec jekyll serve",
@@ -22,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/luiscarlospando/luiscarlospando.com/issues"
   },
-  "homepage": "https://luiscarlospando.com",
+  "homepage": "{{ site.url }}",
   "devDependencies": {
     "@babel/cli": "^7.22.15",
     "@babel/core": "^7.22.15",

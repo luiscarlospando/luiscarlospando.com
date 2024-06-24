@@ -3,6 +3,7 @@ layout: null
 ---
 {
   "site_title": "{{ site.title }}",
+  "site_description": "{{ site.description }}",
   "site_url": "{{ site.url }}",
   "site_version": "{{ site.version }}",
   "author": "{{ site.author }}",

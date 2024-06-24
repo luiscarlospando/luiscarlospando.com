@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
       document.createTreeWalker(document, NodeFilter.SHOW_COMMENT),
     );
     comments.forEach((comment) => {
-      if (comment.nodeValue.includes("Site version: vPLACEHOLDER")) {
-        comment.nodeValue = `Site version: v${version}`;
+      if (comment.nodeValue.includes("vPLACEHOLDER")) {
+        comment.nodeValue = `v${version}`;
       }
     });
   }

@@ -3,14 +3,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Function to update the HTML comment
   function updateComment(version) {
-    const comments = Array.from(
-      document.createTreeWalker(document, NodeFilter.SHOW_COMMENT),
+    const comments = document.createTreeWalker(
+      document,
+      NodeFilter.SHOW_COMMENT,
     );
-    comments.forEach((comment) => {
-      if (comment.nodeValue.includes("vPLACEHOLDER")) {
-        comment.nodeValue = `v${version}`;
+    let found = false;
+    while (comments.nextNode()) {
+      const commentNode = comments.currentNode;
+      if (commentNode.nodeValue.includes("vPLACEHOLDER")) {
+        commentNode.nodeValue = commentNode.nodeValue.replace(
+          "vPLACEHOLDER",
+          `v${version}`,
+        );
+        found = true;
+        break;
       }
-    });
+    }
+    return found;
   }
 
   // Only proceed if the btn-version-blog element is found
@@ -35,22 +44,10 @@ document.addEventListener("DOMContentLoaded", function () {
         codeTag.innerHTML = `v${data.site_version}`;
 
         // Check for the presence of the PLACEHOLDER and update the HTML comment
-        const placeholderPresent = document.createTreeWalker(
-          document,
-          NodeFilter.SHOW_COMMENT,
-        );
-        let found = false;
-        while (placeholderPresent.nextNode()) {
-          if (
-            placeholderPresent.currentNode.nodeValue.includes("vPLACEHOLDER")
-          ) {
-            found = true;
-            break;
-          }
-        }
-
-        if (found) {
-          updateComment(data.site_version);
+        if (updateComment(data.site_version)) {
+          console.log("Comment updated successfully.");
+        } else {
+          console.log("Placeholder comment not found.");
         }
       })
       .catch((error) => {

@@ -1,10 +1,7 @@
----
-layout: null
----
 {
-  "name": "{{ site.title }}",
-  "version": "{{ site.version }}",
-  "description": "{{ site.description }}",
+  "name": "luiscarlospando.com",
+  "version": "2.34.0",
+  "description": "Punk dude first and foremost. Losing followers since 2007.",
   "main": "index.js",
   "scripts": {
     "start": "bundle exec jekyll serve",
@@ -16,16 +13,13 @@ layout: null
     "type": "git",
     "url": "git+https://github.com/luiscarlospando/luiscarlospando.com"
   },
-  "keywords": [
-    "LuisCarlosPando.com",
-    "Luis Carlos Pando"
-  ],
+  "keywords": ["LuisCarlosPando.com", "Luis Carlos Pando"],
   "author": "Luis Carlos Pando <hey@luiscarlospando.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/luiscarlospando/luiscarlospando.com/issues"
   },
-  "homepage": "{{ site.url }}",
+  "homepage": "https://luiscarlospando.com",
   "devDependencies": {
     "@babel/cli": "^7.22.15",
     "@babel/core": "^7.22.15",

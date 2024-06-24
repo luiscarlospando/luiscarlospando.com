@@ -1,0 +1,13 @@
+---
+layout: null
+---
+{
+  "site_title": "{{ site.title }}",
+  "site_url": "{{ site.url }}",
+  "site_version": "{{ site.version }}",
+  "author": "{{ site.author }}",
+  "email": "{{ site.email }}",
+  "mastodon_url": "{{ site.mastodon_url }}",
+  "mastodon_username": "{{ site.mastodon_username }}",
+  "mastodon_feed": "{{ site.mastodon_feed }}"
+}

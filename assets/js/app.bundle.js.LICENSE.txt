@@ -5,10 +5,10 @@
   */
 
 /*!
-* LuisCarlosPando.com
-* © 2024 Luis Carlos Pando (https://luiscarlospando.com)
-* Made with love in Chihuahua, Mexico.
-*/
+ * LuisCarlosPando.com
+ * © 2024 Luis Carlos Pando (https://luiscarlospando.com)
+ * Made with love in Chihuahua, Mexico.
+ */
 
 /*! showdown v 2.1.0 - 21-04-2022 */
 

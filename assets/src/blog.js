@@ -13,7 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
         btnVersionBlog.title = `${data.site_title} v${data.site_version}`;
 
         // Update data-original-title attribute with site_title
-        btnVersionBlog.setAttribute("data-original-title", data.site_title);
+        btnVersionBlog.setAttribute(
+          "data-original-title",
+          `${data.site_title} v${data.site_version}`,
+        );
 
         // Update innerHTML of the <code> tag
         const codeTag = btnVersionBlog.querySelector("code");

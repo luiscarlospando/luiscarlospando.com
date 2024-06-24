@@ -2,3 +2,12 @@
     Header set Access-Control-Allow-Origin "*"
 </IfModule>
 ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /
+
+    # block “AI” bots
+    RewriteCond %{HTTP_USER_AGENT} ({{ site.data.bots | sort_natural | join: "|" }}) [NC]
+    RewriteRule ^ – [F]
+</IfModule>

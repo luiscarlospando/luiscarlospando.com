@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((response) => response.json())
       .then((data) => {
         // Update href attribute with site_url
-        btnVersionBlog.href = data.site_url;
+        btnVersionBlog.href = `${data.site_url}/acerca-de/`;
 
         // Update title attribute with site_title and site_version
         btnVersionBlog.title = `${data.site_title} v${data.site_version}`;

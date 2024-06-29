@@ -46,7 +46,7 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [9]: https://wordpress.org/
 [10]: https://m.do.co/c/03bd95f889e7
 [11]: https://cloudflare.com/
-[12]: https://luiscarlospando.instatus.com/
+[12]: https://instatus.com?via=luis-carlos-pando
 [13]: https://fonts.bunny.net/
 [14]: https://tinylytics.app/
 [15]: https://home.omg.lol/referred-by/mijo

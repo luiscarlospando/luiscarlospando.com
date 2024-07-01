@@ -1,14 +1,16 @@
 ---
 layout: page
 title: Acerca de
-description: Este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado (abre este link para ver el número) entradas en total. Me encanta el hecho de tener un lugar en la web que se pueda considerar *completamente mío* 😌, nada de depender de servicios de terceros como Google, Meta, X, etc. Y así como lo menciono en la página principal, este es un lugar para poner lo que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, recomendar y escribir de todo lo que se me ocurra.
+description: Si estás aquí quiere decir que probablemente te interese saber más de mi. Pues bien, este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado (abre este link para ver el número) entradas en total. Me encanta el hecho saber que tengo un lugar en la web que se pueda considerar completamente mío 😌 y no tengo que depender de servicios de terceros como Google, Meta, X... Y justo como lo menciono en la página principal, este es un lugar para poner las cosas que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, experimentar, construir y equivocarme.
 image: /assets/images/logo.png
 permalink: /acerca-de/
 ---
 
 <h2 class="subtitulo text-center"><small>{{ site.title }} <code>v{{ site.version }}</code></small></h2>
 
-Este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado [<span id="contador-posts"></span> entradas en total][1]. Me encanta el hecho de tener un lugar en la web que se pueda considerar *completamente mío* 😌, nada de depender de servicios de terceros como Google, Meta, X, etc. Y así como lo menciono en la [página principal][2], este es un lugar para poner lo que traiga en la cabeza, compartir cosas que creo valen la pena, opinar y escribir de todo lo que se me ocurra.
+Si estás aquí quiere decir que probablemente te interese saber más de mi. Pues bien, este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado [<span id="contador-posts"></span> entradas en total][1]. Me encanta el hecho saber que tengo un lugar en la web que se pueda considerar *completamente mío* 😌 y no tengo que depender de servicios de terceros como Google, Meta, X...
+
+Y justo como lo menciono en la [página principal][2], este es un lugar para poner las cosas que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, experimentar, construir y equivocarme.
 
 Aquí está el [archivo completo][3] de todos mis posts.
 

@@ -1,6 +1,6 @@
 This site is developed and maintained by Luis Carlos Pando.
-All of this is dedicated to my wonderful wife and family.
-Made with love in Chihuahua, Mexico.
+All of this is dedicated to my wonderful wife and family and friends.
+Made with love in the sunny city of Chihuahua, Mexico.
 
 /* AUTHOR */
 Luis Carlos Pando
@@ -10,10 +10,11 @@ Mastodon: https://social.lol/@mijo
 Location: Chihuahua, Mexico
 
 /* SITE */
-Last update: 2023/10/30
-Standards: HTML, HTML5, CSS, CSS3, JSON, XML, RSS
+Last update: July 1st, 2024
+Standards: HTML, CSS, JavaScript, JSON, Markdown, XML, RSS
 Components: React, Bootstrap, Animate.css, Font Awesome, Google Fonts, Axios
 Language: Spanish
-Software: Visual Studio Code, Warp, Pixelmator Pro, Git, GitHub, npm, SCSS, Jekyll
-Deployed on: Vercel - https://vercel.com/
+Software: Zed, Warp, Pixelmator Pro, Git, GitHub, npm, SCSS, Jekyll, WordPress
+Main site deployed on: Vercel - https://vercel.com/
+Blog deployed on: DigitalOcean - https://digitalocean.com/
 Hardware: MacBook Pro (Late 2013)

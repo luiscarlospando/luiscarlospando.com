@@ -39,10 +39,10 @@ Este cotorreo de agendar llamada conmigo la neta no creo usarlo nunca, pero no h
 
 <ul class="list-inline">
 <li class="list-inline-item">
-<a href="https://cal.com/luiscarlospando/15min" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Agendar llamada de 15 min" target="_blank">
+<a href="https://cal.com/luiscarlospando/15min" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Agendar llamada de 15 min" target="_blank"><i class="fa-solid fa-calendar-days"></i> Agendar llamada de 15 min</a>
 </li>
 <li class="list-inline-item">
-<a href="https://cal.com/luiscarlospando/30min" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Agendar llamada de 30 min" target="_blank">
+<a href="https://cal.com/luiscarlospando/30min" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Agendar llamada de 30 min" target="_blank"><i class="fa-solid fa-calendar-days"></i> Agendar llamada de 30 min</a>
 </li>
 </ul>
 

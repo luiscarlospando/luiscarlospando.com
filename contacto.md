@@ -33,11 +33,18 @@ Esta es [mi llave PGP pública][1] por si quieres contactarme encriptadamente.
 <br>
 Cuenta personal.
 
-<a rel="me" href="https://hachyderm.io/@{{ site.mastodon_feed }}" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_feed }} en Mastodon" target="_blank">
-<i class="fa-brands fa-mastodon"></i> Seguir a @{{ site.mastodon_feed }}
+## <i class="fa-solid fa-calendar-days"></i> Agenda una llamada una llamada conmigo
+
+Este cotorreo de agendar llamada conmigo la neta no creo usarlo nunca, pero no hace daño tampoco agregar la opción, así que:
+
+<a href="https://cal.com/luiscarlospando/15min" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Agendar llamada de 15 min" target="_blank">
+<i class="fa-solid fa-calendar-days"></i> Agendar llamada de 15 min
 </a>
 <br>
-Cuenta automatizada con posts de mi sitio.
+<a href="https://cal.com/luiscarlospando/30min" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Agendar llamada de 30 min" target="_blank">
+<i class="fa-solid fa-calendar-days"></i> Agendar llamada de 30 min
+</a>
+<br>
 
 ## <i class="fa-brands fa-instagram"></i> Instagram
 

@@ -1,4 +1,4 @@
-@import "mixins.scss";
+@import 'mixins.scss';
 
 #btn-burger {
     color: $mainColor;
@@ -54,12 +54,12 @@
         position: absolute;
         bottom: 0;
         left: 0;
-        content: "";
+        content: '';
     }
 }
 
 #logo {
-    background: url("../images/avatar.gif") no-repeat center;
+    background: url('../images/avatar.gif') no-repeat center;
     background-size: cover;
     border: 1px solid $componentBorderColor;
     border-radius: 50%;
@@ -79,13 +79,20 @@
         display: none;
     }
 
+    &:hover,
+    &:focus {
+        -webkit-transform: scale(1.2) rotate(0deg);
+        -ms-transform: scale(1.2) rotate(0deg);
+        transform: scale(1.2) rotate(0deg);
+    }
+
     &:hover + #logo-blur,
     &:focus + #logo-blur {
         -webkit-filter: blur(20px);
         filter: blur(20px);
-        -webkit-transform: scale(1.2) rotate(0deg);
-        -ms-transform: scale(1.2) rotate(0deg);
-        transform: scale(1.2) rotate(0deg);
+        -webkit-transform: scale(1.4) rotate(0deg);
+        -ms-transform: scale(1.4) rotate(0deg);
+        transform: scale(1.4) rotate(0deg);
     }
 }
 
@@ -155,7 +162,7 @@
         }
 
         &::before {
-            content: "";
+            content: '';
             width: 0;
             height: 0;
             border-style: solid;
@@ -169,7 +176,7 @@
         }
 
         &::after {
-            content: "\f004  Statuslog";
+            content: '\f004  Statuslog';
             color: $transparentGray;
             font: var(--fa-font-solid);
             position: absolute;
@@ -183,7 +190,7 @@
     }
 
     &::before {
-        content: "";
+        content: '';
         width: 0;
         height: 0;
         border-style: solid;

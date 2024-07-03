@@ -83,18 +83,18 @@
 
     &:hover,
     &:focus {
-        -webkit-transform: scale(1.2) rotate(0deg);
-        -ms-transform: scale(1.2) rotate(0deg);
-        transform: scale(1.2) rotate(0deg);
+        -webkit-transform: scale(1.1) rotate(0deg);
+        -ms-transform: scale(1.1) rotate(0deg);
+        transform: scale(1.1) rotate(0deg);
     }
 
     &:hover + #logo-blur,
     &:focus + #logo-blur {
         -webkit-filter: blur(20px);
         filter: blur(20px);
-        -webkit-transform: scale(1.4) rotate(0deg);
-        -ms-transform: scale(1.4) rotate(0deg);
-        transform: scale(1.4) rotate(0deg);
+        -webkit-transform: scale(1.2) rotate(0deg);
+        -ms-transform: scale(1.2) rotate(0deg);
+        transform: scale(1.2) rotate(0deg);
     }
 }
 

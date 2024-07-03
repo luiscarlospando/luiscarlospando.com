@@ -72,10 +72,6 @@
         <meta name="robots" content="index, follow" />
         <meta name="author" content="{{ site.author }}" />
         <meta
-            name="fediverse:creator"
-            content="@{{ site.mastodon_username }}@{{ site.mastodon_instance }}"
-        />
-        <meta
             name="copyright"
             content="© {{ 'now' | date: '%Y' }} {{ site.author }}"
         />
@@ -129,7 +125,7 @@
             rel="alternate"
             type="application/rss+xml"
             title="LuisCarlosPando.com"
-            href="https://blog.{{ site.domain }}/rss/"
+            href="https://blog.luiscarlospando.com/rss/"
         />
         <link rel="author" href="/humans.txt" />
         <link
@@ -160,18 +156,18 @@
             rel="me"
             href="https://mastodon.online/@{{ site.mastodon_username }}"
         />
-        <link rel="me" href="https://hachyderm.io/@{{ site.mastodon_feed }}" />
-        <link rel="me" href="https://github.com/{{ site.github_username }}" />
+        <link rel="me" href="https://hachyderm.io/@luiscarlospando" />
+        <link rel="me" href="https://github.com/luiscarlospando" />
         <link rel="me" href="https://proven.lol/a5fae9" />
 
         <!-- Webmentions -->
         <link
             rel="webmention"
-            href="https://webmention.io/{{ site.domain }}/webmention"
+            href="https://webmention.io/luiscarlospando.com/webmention"
         />
         <link
             rel="pingback"
-            href="https://webmention.io/{{ site.domain }}/xmlrpc"
+            href="https://webmention.io/luiscarlospando.com/xmlrpc"
         />
 
         {% css_asset_tag global %} - /assets/css/jquery.mmenu.all.css -
@@ -213,8 +209,8 @@
                                         href="/"
                                         data-toggle="tooltip"
                                         data-placement="right"
-                                        title="Sígueme en Mastodon: {{ site.mastodon_url }}"
-                                        data-original-title="Sígueme en Mastodon: {{ site.mastodon_url }}"
+                                        title="Sígueme en Mastodon: https://social.lol/@{{ site.mastodon_username }}"
+                                        data-original-title="Sígueme en Mastodon: https://social.lol/@{{ site.mastodon_username }}"
                                     >
                                         <span>Logo</span>
                                     </a>

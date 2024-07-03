@@ -11,13 +11,13 @@ permalink: /developer/
 ## <i class="fa-brands fa-github"></i> GitHub
 <a class="github-button" href="https://github.com/{{ site.github_username }}" aria-label="Follow @{{ site.github_username }} on GitHub">Follow @{{ site.github_username }}</a>
 
-Parte de mi trabajo se puede encontrar [aquí][1]{:target="_blank"}.
+Parte de mi jale se puede encontrar [aquí][1]{:target="_blank"}.
 
 ## <i class="fa-solid fa-code-branch"></i> Ask me anything (AMA) @ GitHub
 [Tengo un repo en GitHub][2] donde me puedes preguntar cualquier cosa, solo es cuestión de [abrir][3]{:target="_blank"} un nuevo `issue`.
 
 ## <i class="fa-brands fa-gitlab"></i> GitLab
-También parte de mi trabajo se puede encontrar [aquí][4]{:target="_blank"}.
+Otra parte de mi jale también se puede encontrar [aquí][4]{:target="_blank"}.
 
 ## <i class="fa-brands fa-stack-overflow"></i> Stack Overflow
 <a href="https://stackoverflow.com/users/2197860/luis-carlos-pando" target="_blank">

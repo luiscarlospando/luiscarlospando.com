@@ -40,4 +40,4 @@ Aquí comparto lo que tengo en [mi Brewfile][7]{:target="_blank"}.
 [4]: https://gitlab.com/{{ site.gitlab_username }}
 [5]: https://dev.to/{{ site.devto_username }}
 [6]: https://codepen.io/{{ site.codepen_username }}
-[7]: https://www.brewfiles.com/brew/y1Wke6AZtbX4pQP0szWh
+[7]: https://www.brewfiles.com/brew/r9SnmnQnfinX3cvQkxO6

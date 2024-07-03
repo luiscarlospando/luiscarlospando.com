@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: LuisCarlosPando.com
-version: 2.35.0
+version: 2.35.1
 author: Luis Carlos Pando
 email: hey@luiscarlospando.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Punk dude first and foremost. Losing followers since 2007.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://luiscarlospando.com" # the base hostname & protocol for your site, e.g. http://example.com
+    Punk dude first and foremost. Losing followers since 2007.
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://luiscarlospando.com' # the base hostname & protocol for your site, e.g. http://example.com
 domain: luiscarlospando.com
 blog_url: blog.luiscarlospando.com
 mastodon_url: https://social.lol/@mijo
@@ -53,21 +53,21 @@ timezone: America/Chihuahua
 # Build settings
 markdown: kramdown
 kramdown:
-  parse_block_html: true
+    parse_block_html: true
 # theme: minima
 plugins:
-  - jekyll-info
-  - jekyll-sitemap
+    - jekyll-info
+    - jekyll-sitemap
 #  - jekyll-feed
 sass:
-  sass_dir: _sass
-  style: compressed
+    sass_dir: _sass
+    style: compressed
 asset_pipeline:
-  compress: true
+    compress: true
 info:
-  production: true
+    production: true
 future: true
-include: [".well-known"]
+include: ['.well-known']
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

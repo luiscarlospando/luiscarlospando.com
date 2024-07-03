@@ -68,6 +68,8 @@
     margin: 0 auto;
     position: relative;
     z-index: 2;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 
     a {
         width: 100%;

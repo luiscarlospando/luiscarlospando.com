@@ -14,6 +14,8 @@ Y justo como lo menciono en la [página principal][2], este es un lugar para pon
 
 Aquí está el [archivo completo][3] de todos mis posts.
 
+*Disclaimer: Los links de DigitalOcean, Instatus y omg.lol son links referidos.*
+
 ## Colofón
 
 - 👨‍💻 Editor de código: [Zed][4]{:target="_blank"}

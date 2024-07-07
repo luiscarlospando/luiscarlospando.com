@@ -501,6 +501,10 @@ code {
     @include backdrop-filter(50%, 4px);
 }
 
+.modal-content {
+    background-color: transparent;
+}
+
 .modal-body {
     padding: 0;
 }

@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: LuisCarlosPando.com
-version: 2.35.1
+version: 2.36.0
 author: Luis Carlos Pando
 email: hey@luiscarlospando.com
 description: >- # this means to ignore newlines until "baseurl:"
     Punk dude first and foremost. Losing followers since 2007.
-baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://luiscarlospando.com' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://luiscarlospando.com" # the base hostname & protocol for your site, e.g. http://example.com
 domain: luiscarlospando.com
 blog_url: blog.luiscarlospando.com
 mastodon_url: https://social.lol/@mijo
@@ -67,7 +67,7 @@ asset_pipeline:
 info:
     production: true
 future: true
-include: ['.well-known']
+include: [".well-known"]
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

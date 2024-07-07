@@ -54,16 +54,6 @@ permalink: /games/splatoon/
 </div>
 </div>
 
-<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-<div class="modal-content">
-<div class="modal-body modal-body-jekyll">
-<img class="img-fluid rounded" src="/assets/images/splatoon-flyer-2024-animated.gif" alt="" loading="lazy" />
-</div>
-</div>
-</div>
-</div>
-
 [1]: https://discord.gg/NUSDKeJ
 [2]: https://discord.gg/bMPKcCj
 [3]: https://stat.ink/@mijo/spl3

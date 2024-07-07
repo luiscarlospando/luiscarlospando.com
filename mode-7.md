@@ -59,16 +59,6 @@ En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7
 </div>
 </div>
 
-<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-<div class="modal-content">
-<div class="modal-body modal-body-jekyll">
-<img class="img-fluid rounded" src="/assets/images/mode-7-logo.jpg" alt="" loading="lazy" />
-</div>
-</div>
-</div>
-</div>
-
 [1]: {{ site.mode7_discord }}
 [2]: https://blog.{{ site.domain }}/hashtag/mode-7-podcast/
 [3]: /games/mario-kart/

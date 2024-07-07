@@ -19,6 +19,7 @@ import "./twitch-live";
 import "./m7gp-live";
 import "./mmenu";
 import "./instatus";
+import "./modals";
 import "./blog";
 import "./scripts";
 

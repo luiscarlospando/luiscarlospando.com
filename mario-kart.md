@@ -76,16 +76,6 @@ permalink: /games/mario-kart/
 </div>
 </div>
 
-<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-<div class="modal-content">
-<div class="modal-body modal-body-jekyll">
-<img class="img-fluid rounded" src="/assets/images/m7gp-2023.png" alt="" loading="lazy" />
-</div>
-</div>
-</div>
-</div>
-
 [1]: https://discord.gg/U77J5c6
 [2]: https://discord.gg/qtT3kPY
 [3]: /live/

@@ -1,30 +1,32 @@
 // Function to fetch live status from Twitch API
 function checkLiveStatus() {
-    const clientId = 'vfumpr4f4psz8fm5k2bs0zupvrtgge'; // Replace with your Twitch Client ID
-    const channelName = 'mijostreams'; // Replace with your Twitch Channel Name
-    const mijoStreamsLivestreamAlert = document.getElementById("mijostreams-livestream-alert");
-    const accessToken = '3t49fdukdqu59h1xw8bwb2hj7anch0'; // Replace with your valid Twitch Access Token
+    const clientId = "vfumpr4f4psz8fm5k2bs0zupvrtgge"; // Replace with your Twitch Client ID
+    const channelName = "mijostreams"; // Replace with your Twitch Channel Name
+    const mijoStreamsLivestreamAlert = document.getElementById(
+        "mijostreams-livestream-alert"
+    );
+    const accessToken = "7p5yealc6ogusylxx77ft8jkjpjlek"; // Replace with your valid Twitch Access Token
 
     fetch(`https://api.twitch.tv/helix/streams?user_login=${channelName}`, {
         headers: {
-            'Client-ID': clientId,
-            'Authorization': `Bearer ${accessToken}` // Use the new valid token
-        }
+            "Client-ID": clientId,
+            Authorization: `Bearer ${accessToken}`, // Use the new valid token
+        },
     })
-    .then(response => response.json())
-    .then(data => {
-        console.log(data); // Log the response to see what data is returned
-        if (data.data && data.data.length > 0) {
-            mijoStreamsLivestreamAlert.style.display = "block";
-        } else {
-            mijoStreamsLivestreamAlert.style.display = "none";
-        }
-    })
-    .catch(error => console.error('Error fetching live status:', error));
+        .then((response) => response.json())
+        .then((data) => {
+            console.log(data); // Log the response to see what data is returned
+            if (data.data && data.data.length > 0) {
+                mijoStreamsLivestreamAlert.style.display = "block";
+            } else {
+                mijoStreamsLivestreamAlert.style.display = "none";
+            }
+        })
+        .catch((error) => console.error("Error fetching live status:", error));
 }
 
 // Call the function after document is fully loaded
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     checkLiveStatus();
 
     // Call the function every 1 minute (or adjust the interval as needed)

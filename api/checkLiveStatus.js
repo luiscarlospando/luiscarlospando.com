@@ -1,34 +1,47 @@
 import fetch from "node-fetch";
 
 async function getAccessToken(clientId, clientSecret) {
-    const response = await fetch("https://id.twitch.tv/oauth2/token", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/x-www-form-urlencoded",
-        },
-        body: new URLSearchParams({
-            client_id: clientId,
-            client_secret: clientSecret,
-            grant_type: "client_credentials",
-        }),
-    });
+    console.log("Getting access token...");
 
-    if (!response.ok) {
-        const errorText = await response.text();
-        console.error(
-            `Failed to get access token: ${response.status} ${errorText}`
-        );
-        throw new Error(
-            `Failed to get access token: ${response.status} ${errorText}`
-        );
+    try {
+        const response = await fetch("https://id.twitch.tv/oauth2/token", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: new URLSearchParams({
+                client_id: clientId,
+                client_secret: clientSecret,
+                grant_type: "client_credentials",
+            }),
+        });
+
+        if (!response.ok) {
+            const errorText = await response.text();
+            console.error(
+                `Failed to get access token: ${response.status} ${errorText}`
+            );
+            throw new Error(
+                `Failed to get access token: ${response.status} ${errorText}`
+            );
+        }
+
+        const data = await response.json();
+        console.log("Access token obtained:", data.access_token);
+        return data.access_token;
+    } catch (error) {
+        console.error("Error in getAccessToken:", error);
+        throw error;
     }
-
-    const data = await response.json();
-    console.log("Access token obtained:", data.access_token);
-    return data.access_token;
 }
 
 export default async function handler(req, res) {
+    console.log("Handler function invoked");
+
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
     const clientId = process.env.TWITCH_CLIENT_ID;
     const clientSecret = process.env.TWITCH_CLIENT_SECRET;
     const channelName = "mijostreams"; // Replace with your Twitch Channel Name

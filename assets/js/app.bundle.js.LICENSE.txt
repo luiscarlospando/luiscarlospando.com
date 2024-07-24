@@ -10,6 +10,8 @@
  * Made with love in Chihuahua, Mexico.
  */
 
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
 /*! showdown v 2.1.0 - 21-04-2022 */
 
 /**

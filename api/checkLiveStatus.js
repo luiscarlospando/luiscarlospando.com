@@ -1,4 +1,3 @@
-// api/checkLiveStatus.js
 import fetch from "node-fetch";
 
 async function getAccessToken(clientId, clientSecret) {
@@ -16,12 +15,16 @@ async function getAccessToken(clientId, clientSecret) {
 
     if (!response.ok) {
         const errorText = await response.text();
+        console.error(
+            `Failed to get access token: ${response.status} ${errorText}`
+        );
         throw new Error(
             `Failed to get access token: ${response.status} ${errorText}`
         );
     }
 
     const data = await response.json();
+    console.log("Access token obtained:", data.access_token);
     return data.access_token;
 }
 
@@ -40,8 +43,10 @@ export default async function handler(req, res) {
     }
 
     try {
+        console.log("Attempting to get access token...");
         const accessToken = await getAccessToken(clientId, clientSecret);
 
+        console.log("Attempting to fetch live status from Twitch...");
         const response = await fetch(
             `https://api.twitch.tv/helix/streams?user_login=${channelName}`,
             {
@@ -68,6 +73,7 @@ export default async function handler(req, res) {
         }
 
         const data = await response.json();
+        console.log("Data fetched successfully from Twitch:", data);
         return res.status(200).json(data);
     } catch (error) {
         console.error("Error fetching live status:", error);

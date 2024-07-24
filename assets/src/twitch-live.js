@@ -1,22 +1,11 @@
-// Function to fetch live status from Twitch API
+// Function to fetch live status from your serverless function
 async function checkLiveStatus() {
-    const clientId = "vfumpr4f4psz8fm5k2bs0zupvrtgge"; // Replace with your Twitch Client ID
-    const channelName = "mijostreams"; // Replace with your Twitch Channel Name
     const mijoStreamsLivestreamAlert = document.getElementById(
         "mijostreams-livestream-alert"
     );
-    const accessToken = "2f397elmxeip9cll2tsjxf934s8sk6"; // Replace with your valid Twitch Access Token
 
     try {
-        const response = await fetch(
-            `https://api.twitch.tv/helix/streams?user_login=${channelName}`,
-            {
-                headers: {
-                    "Client-ID": clientId,
-                    Authorization: `Bearer ${accessToken}`, // Use the new valid token
-                },
-            }
-        );
+        const response = await fetch("/api/checkLiveStatus");
 
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -32,11 +21,10 @@ async function checkLiveStatus() {
         }
     } catch (error) {
         console.error("Error fetching live status:", error);
-        // Optionally, handle token refresh here if needed
     }
 }
 
-// Call the function after document is fully loaded
+// Call the function after the document is fully loaded
 document.addEventListener("DOMContentLoaded", function () {
     checkLiveStatus();
 

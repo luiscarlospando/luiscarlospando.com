@@ -1,7 +1,6 @@
-import fetch from "node-fetch";
-
 async function getAccessToken(clientId, clientSecret) {
     console.log("Getting access token...");
+    const fetch = (await import("node-fetch")).default;
 
     try {
         const response = await fetch("https://id.twitch.tv/oauth2/token", {
@@ -60,6 +59,7 @@ export default async function handler(req, res) {
         const accessToken = await getAccessToken(clientId, clientSecret);
 
         console.log("Attempting to fetch live status from Twitch...");
+        const fetch = (await import("node-fetch")).default;
         const response = await fetch(
             `https://api.twitch.tv/helix/streams?user_login=${channelName}`,
             {

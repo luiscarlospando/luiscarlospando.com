@@ -5,7 +5,7 @@ function checkLiveStatus() {
     const mijoStreamsLivestreamAlert = document.getElementById(
         "mijostreams-livestream-alert"
     );
-    const accessToken = "sr8bfkoal96herovmjdn4bj5dlgzjz"; // Replace with your valid Twitch Access Token
+    const accessToken = "od9eow4cuq2tuq03hmap3liyqqtwb9"; // Replace with your valid Twitch Access Token
 
     fetch(`https://api.twitch.tv/helix/streams?user_login=${channelName}`, {
         headers: {

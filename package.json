@@ -13,7 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/luiscarlospando/luiscarlospando.com"
   },
-  "keywords": ["LuisCarlosPando.com", "Luis Carlos Pando"],
+  "keywords": [
+    "LuisCarlosPando.com",
+    "Luis Carlos Pando"
+  ],
   "author": "Luis Carlos Pando <hey@luiscarlospando.com>",
   "license": "ISC",
   "bugs": {
@@ -40,6 +43,7 @@
     "jquery": "^3.4.1",
     "jquery-rss": "^3.3.0",
     "luxon": "^2.3.0",
+    "node-fetch": "^3.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "showdown": "^2.1.0"

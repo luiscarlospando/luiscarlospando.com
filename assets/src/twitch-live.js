@@ -1,11 +1,11 @@
 // Function to fetch live status from Twitch API
 function checkLiveStatus() {
-    const clientId = "sr8bfkoal96herovmjdn4bj5dlgzjz"; // Replace with your Twitch Client ID
+    const clientId = "vfumpr4f4psz8fm5k2bs0zupvrtgge"; // Replace with your Twitch Client ID
     const channelName = "mijostreams"; // Replace with your Twitch Channel Name
     const mijoStreamsLivestreamAlert = document.getElementById(
         "mijostreams-livestream-alert"
     );
-    const accessToken = "7p5yealc6ogusylxx77ft8jkjpjlek"; // Replace with your valid Twitch Access Token
+    const accessToken = "sr8bfkoal96herovmjdn4bj5dlgzjz"; // Replace with your valid Twitch Access Token
 
     fetch(`https://api.twitch.tv/helix/streams?user_login=${channelName}`, {
         headers: {

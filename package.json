@@ -7,7 +7,9 @@
         "start": "bundle exec jekyll serve",
         "dev": "webpack serve",
         "build": "webpack --watch",
-        "update-lm": "node node-scripts/updateLastModified.js",
+        "update-games": "node node-scripts/updateLastModifiedGames.js",
+        "update-uses": "node node-scripts/updateLastModifiedUses.js",
+        "update-privacy": "node node-scripts/updateLastModifiedPrivacy.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {

@@ -48,7 +48,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
-*Mike Tyson’s Punch-Out!!*
+*The Legend of Zelda: Echoes of Wisdom*
 </div>
 <div class="col-6 my-auto text-monospace">
 (Offline)

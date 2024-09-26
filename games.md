@@ -4,7 +4,7 @@ title: Games
 description: Esto es lo que estoy jugando actualmente y estos son mis perfiles de Discord, Nintendo Switch y Backloggd.
 image: /assets/images/logo-games.png
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2024-08-04 22:18:00</span>
+last-modified-at: <span id="last-updated-at">2024-09-26 16:30:15</span>
 ---
 
 <div class="text-center">

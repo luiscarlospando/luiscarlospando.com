@@ -7,7 +7,7 @@ description: Punk dude first and foremost. Losing followers since 2007.
 image: /assets/images/logo.png
 ---
 
-<h1 class="text-center">{{ site.title }}</h1>
+<h1 class="animate-gradient text-center">{{ site.title }}</h1>
 
 <span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando (aka `Mijo`), un vato que vive en [Chihuahua, México][1]{:target="_blank"} con su bella esposa [Marissa ❤️][2]{:target="_blank"}. Me dedico a [hacer cosas para el Internet][3], amo la música alternativa, en especial el hardcore y el punk. Algunos tal vez me ubiquen por haber creado [Hitz-Musik.net][4]{:target="_blank"} (RIP 🪦) junto a unos buenos amigos. "El Hitz" era una comunidad dedicada a cubrir la música alternativa y la escena local de Chihuahua. De eso solo me quedan recuerdos muy chidos.
 

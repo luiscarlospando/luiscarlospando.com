@@ -539,3 +539,22 @@ code {
 .mm-page {
     padding: 30px 0;
 }
+
+.animate-gradient {
+    background-size: 300%;
+    animation: animatedgradient 6s ease infinite alternate;
+}
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    to {
+        background-position: 0% 50%;
+    }
+}

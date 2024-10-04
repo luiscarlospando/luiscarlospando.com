@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Mode 7
+title: Discord (Mode 7)
 description: Videojuegos clásicos y modernos. Aquí solo hablamos de los juegos que más nos gustan. 🎮 🕹️
 image: /assets/images/mode-7.png
-permalink: /mode-7/
+permalink: /discord/
 ---
 
 <div class="row">

@@ -7,7 +7,7 @@ permalink: /discord/
 ---
 
 <div class="row">
-<div class="col-12 col-sm-4 col-md-3 col-lg-2 text-center">
+<div class="col-12 col-sm-4 col-md-3 col-lg-2 my-auto text-center">
 <a href="javascript:void(0)" data-toggle="modal" data-target="#modal">
 <img class="rounded img-fluid" src="/assets/images/mode-7-logo.jpg" alt="" />
 </a>

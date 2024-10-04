@@ -13,15 +13,15 @@ permalink: /discord/
 </a>
 </div>
 <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-auto">
+## <i class="fa-brands fa-discord"></i> Mode 7
+*<small>Video games & friends!</small>* 🎮 🕹️
 [Mode 7][1]{:target="_blank"} (`Mode7gg` para los compas) es una comunidad que armamos unos amigos y yo para compartir el amor que sentimos por el gaming. Mode 7 es básicamente un servidor en Discord y un [podcast][2] para hablar de nuestros juegos favoritos y por supuesto, jugarlos.
 </div>
 </div>
 
 <div class="row">
 <div class="col-md-12 col-lg-6 my-auto">
-[![Discord Presence](https://lanyard-profile-readme.vercel.app/api/94490510688792576?theme=light&bg=809ecf&animated=false&hideDiscrim=true&borderRadius=30px&idleMessage=Probably%20doing%20something%20else...)](https://discord.com/users/94490510688792576)
-## <i class="fa-brands fa-discord"></i> Mode 7
-*<small>Video games & friends!</small>* 🎮 🕹️
+[![Discord Presence](https://lanyard-profile-readme.vercel.app/api/86571896581132288?theme=dark&bg=0b1722&animated=true&hideDiscrim=true&borderRadius=6px&idleMessage=Probablemente%20haciendo%20algo%20en%20la%20compu...)](https://discord.com/users/86571896581132288)
 
 Entra y únete al servidor de [Mode 7 en Discord][1]{:target="_blank"} para conversar y jugar junto a nuestra comunidad.
 

@@ -1,4 +1,4 @@
-@import 'mixins.scss';
+@import "mixins.scss";
 
 #btn-burger {
     color: $mainColor;
@@ -7,7 +7,8 @@
     width: 28px;
     height: 32px;
     position: fixed;
-    z-index: 4;
+    z-index: 1072;
+    // z-index: 4;
     top: 0;
     left: 16px;
 
@@ -40,7 +41,8 @@
     background-color: rgba(13, 14, 51, 0.7) !important;
     @include backdrop-filter(50%, 4px);
     @include transition-bar(ease, 0.2s);
-    z-index: 3;
+    z-index: 1071;
+    // z-index: 3;
 
     p {
         opacity: 1;
@@ -54,12 +56,12 @@
         position: absolute;
         bottom: 0;
         left: 0;
-        content: '';
+        content: "";
     }
 }
 
 #logo {
-    background: url('../images/avatar.gif') no-repeat center;
+    background: url("../images/avatar.gif") no-repeat center;
     background-size: cover;
     border: 1px solid $componentBorderColor;
     border-radius: 50%;
@@ -164,7 +166,7 @@
         }
 
         &::before {
-            content: '';
+            content: "";
             width: 0;
             height: 0;
             border-style: solid;
@@ -178,7 +180,7 @@
         }
 
         &::after {
-            content: '\f004  Statuslog';
+            content: "\f004  Statuslog";
             color: $transparentGray;
             font: var(--fa-font-solid);
             position: absolute;
@@ -192,7 +194,7 @@
     }
 
     &::before {
-        content: '';
+        content: "";
         width: 0;
         height: 0;
         border-style: solid;
@@ -244,7 +246,8 @@ progress {
     /* Progress bar value for IE10+ */
     color: $linkColor;
 
-    z-index: 4;
+    z-index: 1072;
+    // z-index: 4;
 }
 
 progress::-webkit-progress-bar {

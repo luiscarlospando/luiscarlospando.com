@@ -20,7 +20,7 @@ permalink: /discord/
 
 <div class="row">
 <div class="col-md-12 col-lg-6 my-auto">
-[![Discord Presence](https://lanyard-profile-readme.vercel.app/api/86571896581132288?theme=dark&bg=0b1722&animated=true&showDisplayName=true&hideDiscrim=true&borderRadius=6px&hideSpotify=true&idleMessage=Probablemente%20haciendo%20algo%20en%20la%20compu...)](https://discord.com/users/86571896581132288)
+[![Discord Presence](https://lanyard-profile-readme.vercel.app/api/86571896581132288?theme=dark&bg=0b1722&animated=true&showDisplayName=true&hideDiscrim=true&borderRadius=6px&hideSpotify=true&idleMessage=Currently%20I'm%20not%20doing%20la%20anything!)](https://discord.com/users/86571896581132288)
 
 Entra y únete al servidor de [Mode 7 en Discord][1]{:target="_blank"} para conversar y jugar junto a nuestra comunidad.
 

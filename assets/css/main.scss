@@ -1,6 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 // Variables to modify font folders
 $fa-font-path: "../fonts";
 
@@ -12,7 +13,6 @@ $fa-font-path: "../fonts";
 @import "navmenu";
 @import "header";
 @import "footer";
-@import "contacto";
 @import "styles";
 @import "blog";
 @import "media-queries";

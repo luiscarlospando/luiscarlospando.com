@@ -96,8 +96,7 @@
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
     #live {
-        #mijostreams-livestream-alert,
-        #m7gp-livestream-alert {
+        #heymijotv-live-alert {
             position: fixed;
             right: 15px;
             top: 0;
@@ -138,8 +137,7 @@
 // Super XX-Large devices (larger desktops, 1600px and up)
 @media (min-width: 1600px) {
     header {
-        #mijostreams-livestream-alert,
-        #m7gp-livestream-alert {
+        #heymijotv-live-alert {
             width: 300px;
         }
     }

@@ -1,8 +1,6 @@
 // Function to fetch live status from your serverless function
 async function checkLiveStatus() {
-    const mijoStreamsLivestreamAlert = document.getElementById(
-        "mijostreams-livestream-alert"
-    );
+    const heymijotvLiveAlert = document.getElementById("heymijotv-live-alert");
 
     try {
         const response = await fetch("/api/checkLiveStatus");
@@ -15,9 +13,9 @@ async function checkLiveStatus() {
         console.log(data); // Log the response to see what data is returned
 
         if (data.data && data.data.length > 0) {
-            mijoStreamsLivestreamAlert.style.display = "block";
+            heymijotvLiveAlert.style.display = "block";
         } else {
-            mijoStreamsLivestreamAlert.style.display = "none";
+            heymijotvLiveAlert.style.display = "none";
         }
     } catch (error) {
         console.error("Error fetching live status:", error);

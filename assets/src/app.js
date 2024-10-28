@@ -16,7 +16,6 @@ import "./wp-api";
 import "./lastfm-fetch";
 import "./now";
 import "./twitch-live";
-import "./m7gp-live";
 import "./mmenu";
 import "./instatus";
 import "./modals";

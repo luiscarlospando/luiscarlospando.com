@@ -43,15 +43,13 @@ export default async function handler(req, res) {
 
     const clientId = process.env.TWITCH_CLIENT_ID;
     const clientSecret = process.env.TWITCH_CLIENT_SECRET;
-    const channelName = "mijostreams"; // Replace with your Twitch Channel Name
+    const channelName = "heymijotv"; // Replace with your Twitch Channel Name
 
     if (!clientId || !clientSecret) {
         console.error("Missing clientId or clientSecret");
-        return res
-            .status(500)
-            .json({
-                error: "Server misconfiguration: Missing clientId or clientSecret",
-            });
+        return res.status(500).json({
+            error: "Server misconfiguration: Missing clientId or clientSecret",
+        });
     }
 
     try {
@@ -77,12 +75,10 @@ export default async function handler(req, res) {
                 response.status,
                 errorText
             );
-            return res
-                .status(response.status)
-                .json({
-                    error: "Failed to fetch data from Twitch",
-                    details: errorText,
-                });
+            return res.status(response.status).json({
+                error: "Failed to fetch data from Twitch",
+                details: errorText,
+            });
         }
 
         const data = await response.json();

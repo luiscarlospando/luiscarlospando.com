@@ -3,7 +3,9 @@ async function checkLiveStatus() {
     const heymijotvLiveAlert = document.getElementById("heymijotv-live-alert");
 
     try {
-        const response = await fetch("/api/checkLiveStatus");
+        const response = await fetch(
+            "https://luiscarlospando.com/api/checkLiveStatus"
+        );
 
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);

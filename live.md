@@ -25,16 +25,10 @@ permalink: /live/
 </iframe>
 </div>
 </div>
-<div id="m7gp-livestream" class="col-12">
-<div class="embed-responsive embed-responsive-16by9 mb-0">
-<iframe src="https://player.twitch.tv/?channel={{ site.twitch_username }}&parent=luiscarlospando.com" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
-</div>
-</div>
+
 <div class="row">
 <div class="col text-center">
-<a id="btn-mijostreams" class="btn btn-primary" href="https://mijo.url.lol/twitch" target="_blank">
-<i class="fa-solid fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i> Ver directamente en Twitch
-<a id="btn-m7gp" class="btn btn-primary" href="https://mijo.url.lol/twitch" target="_blank">
+<a id="btn-heymijotv" class="btn btn-primary" href="https://mijo.url.lol/twitch" target="_blank">
 <i class="fa-solid fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i> Ver directamente en Twitch
 </a>
 </div>

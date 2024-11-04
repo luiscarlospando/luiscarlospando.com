@@ -49,7 +49,6 @@ $alertBorderLeftColor: hsl(275, 99%, 43%);
 $alertIconColor: hsl(0, 0%, 100%);
 
 $headings-lh: 1.5;
-
 $separatorBgColor: linear-gradient(
     to right,
     rgba(39, 60, 90, 0.1) 0,
@@ -58,3 +57,5 @@ $separatorBgColor: linear-gradient(
 );
 
 $transparentGray: hsla(0, 0%, 100%, 0.169);
+
+$borderRadius: 0.675rem;

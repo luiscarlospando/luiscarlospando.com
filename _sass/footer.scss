@@ -31,7 +31,7 @@ footer {
                 background-color: $cardBgColor;
                 border: 1px solid $componentBorderColor !important;
                 border: none;
-                border-radius: 0.375rem;
+                border-radius: $borderRadius;
                 padding: 16px 14px 15px;
                 margin: 0 0 1rem;
                 position: relative;
@@ -117,7 +117,7 @@ footer {
     background-color: rgba(13, 14, 51, 0.7) !important;
     @include backdrop-filter(50%, 4px);
     border: 1px solid $componentBorderColor;
-    border-radius: 0.375rem;
+    border-radius: $borderRadius;
     color: $light;
     display: flex;
     justify-content: center;

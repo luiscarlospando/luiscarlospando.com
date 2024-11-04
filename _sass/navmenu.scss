@@ -1,5 +1,5 @@
 #navigation {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 
     a {
         text-decoration: none;
@@ -27,22 +27,22 @@
 }
 
 // Avoiding mmenu FOUC
-#navigation:not( .mm-menu ) {
+#navigation:not(.mm-menu) {
     display: none;
- }
+}
 
-.mm-search input[type=text],
-.mm-search input[type=email],
-.mm-search input[type=password] {
+.mm-search input[type="text"],
+.mm-search input[type="email"],
+.mm-search input[type="password"] {
     background-color: $fifthColor;
-	border-radius: .375rem;
-	border: none;
-	box-shadow: none;
-	-webkit-box-sizing: none;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	width: 100%;
-	padding: 0 10px;
+    border-radius: $borderRadius;
+    border: none;
+    box-shadow: none;
+    -webkit-box-sizing: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 10px;
 }
 
 .mm-list {
@@ -56,7 +56,10 @@
     color: $linkColor !important;
 }
 
-.mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults):after {
+.mm-list
+    > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(
+        .mm-noresults
+    ):after {
     border-bottom-width: 0;
 }
 

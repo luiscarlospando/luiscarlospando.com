@@ -84,6 +84,19 @@
     .app-icon {
         max-width: 50%;
     }
+
+    // Twitch
+    #stream_embed {
+        border-radius: $borderRadius;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    #chat_embed {
+        border-radius: $borderRadius;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)

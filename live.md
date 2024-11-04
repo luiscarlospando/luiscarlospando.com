@@ -7,12 +7,12 @@ permalink: /live/
 ---
 
 <div class="row no-gutters mb-4">
-<div id="mijostreams-livestream" class="col-12 col-md-8">
+<div id="mijostreams-livestream" class="col-12 col-lg-8">
 <div class="embed-responsive embed-responsive-16by9 mb-0">
-<iframe src="https://player.twitch.tv/?channel={{ site.twitch_username }}&parent={{ site.domain }}" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+<iframe id="stream_embed" src="https://player.twitch.tv/?channel={{ site.twitch_username }}&parent={{ site.domain }}" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
 </div>
 </div>
-<div id="mijostreams-chat" class="col-12 col-md-4">
+<div id="mijostreams-chat" class="col-12 col-lg-4">
 <iframe
   id="chat_embed"
   src="https://www.twitch.tv/embed/{{ site.twitch_username }}/chat?darkpopout&parent={{ site.domain }}"

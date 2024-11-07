@@ -10,7 +10,7 @@ permalink: /games/mario-kart/
 <div class="col-12">
 <div class="alert alert-info alert-dismissible" role="alert">
 <p><strong>7/11/2024 - 🎉 ¡Anuncio Oficial del Sorteo <em>Mode 7 Grand Prix</em>! 🎉</strong></p>
-<p>A partir de Noviembre se estarán regalando imanes de Mode 7. <a href="https://blog.luiscarlospando.com/gaming/2024/11/anuncio-oficial-del-sorteo-mode-7-grand-prix/">Aquí más información</a>.</p>
+<p>A partir de Noviembre se estarán regalando imanes de Mode 7, <a href="https://blog.luiscarlospando.com/gaming/2024/11/anuncio-oficial-del-sorteo-mode-7-grand-prix/">aquí más información</a>.</p>
 </div>
 <hr>
 <div class="card my-3 text-center">

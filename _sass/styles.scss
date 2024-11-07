@@ -504,7 +504,7 @@ code {
 
 .modal {
     background-color: rgba(13, 14, 51, 0.7);
-    @include backdrop-filter(50%, 4px);
+    @include backdrop-filter(50%, 6px);
 }
 
 .modal-content {

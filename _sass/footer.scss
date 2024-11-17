@@ -122,7 +122,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: fixed !important;
     height: 40px;
     width: 40px;
     bottom: 12px;

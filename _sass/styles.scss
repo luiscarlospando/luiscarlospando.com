@@ -268,7 +268,7 @@ footer {
 
 .btn-primary {
     background: $btnBgColor;
-    border: $componentBorderColor;
+    border: 1px solid $componentBorderColor;
     position: relative;
     z-index: 2;
     @include transition;
@@ -289,7 +289,7 @@ footer {
     &:focus {
         background: $btnBgHoverColor;
         text-shadow: rgba(0, 0, 0, 0.56) 0px 3px 12px;
-        transform: scale(1);
+        transform: scale(1.02);
 
         &::after {
             filter: blur(20px);

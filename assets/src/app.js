@@ -20,7 +20,9 @@ import "./mmenu";
 import "./instatus";
 import "./modals";
 import "./blog";
-import "./scripts";
+import "./scroll-events";
+import "./back-to-top";
+import "./varios";
 
 /* React components */
 import "./components/navigation";

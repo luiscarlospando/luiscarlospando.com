@@ -40,45 +40,6 @@
             refresh: 30,
         });
 
-        // On scroll events
-        window.onscroll = function () {
-            // Show/hide navbar
-            if (window.scrollY >= 20) {
-                $(".nav-container").addClass("scrolled-position");
-            } else {
-                $(".nav-container").removeClass("scrolled-position");
-            }
-
-            // Show/hide the "back to top" link and animate the "now playing" notification
-            if (window.scrollY >= 300) {
-                $(".cd-top").addClass("cd-is-visible");
-                $(".nowplaying").addClass("positionate-nowplaying");
-            } else {
-                $(".cd-top").removeClass("cd-is-visible");
-                $(".nowplaying").removeClass("positionate-nowplaying");
-            }
-
-            // Show/hide the "live alerts"
-            if (window.scrollY >= 1) {
-                $("#heymijotv-live-alert").addClass("positionate-live-alert");
-            } else {
-                $("#heymijotv-live-alert").removeClass(
-                    "positionate-live-alert"
-                );
-            }
-        };
-
-        // Smooth scroll to top
-        $("#back-to-top").on("click", function (event) {
-            event.preventDefault();
-            $("body,html").animate(
-                {
-                    scrollTop: 0,
-                },
-                700
-            );
-        });
-
         // Read more button
         $("#collapseIntro").on("show.bs.collapse", function () {
             $("#btn-read-more").html(

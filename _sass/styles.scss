@@ -293,7 +293,7 @@ footer {
         transform: scale(1.02);
 
         &::after {
-            background-color: $btnBgHoverColor;
+            background-color: $transparentGray;
             filter: blur(20px);
             transform: scale(1);
         }

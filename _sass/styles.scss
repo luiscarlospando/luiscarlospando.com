@@ -269,7 +269,6 @@ footer {
 .btn-primary {
     background: $btnBgColor;
     border: none;
-    backdrop-filter: blur(5px);
     position: relative;
     z-index: 2;
     @include transition;
@@ -290,11 +289,11 @@ footer {
     &:focus {
         background: $btnBgHoverColor;
         text-shadow: rgba(0, 0, 0, 0.56) 0px 3px 12px;
-        transform: scale(1.1);
+        transform: scale(1.05);
 
         &::after {
             filter: blur(20px);
-            transform: scale(1.2);
+            transform: scale(1.05);
         }
     }
 

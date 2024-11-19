@@ -325,6 +325,7 @@ footer {
     background-color: $cardBgColor;
     border: 1px solid $cardBorderColor;
     border-radius: $borderRadius;
+    overflow: hidden;
 
     h1,
     h2,

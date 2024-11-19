@@ -39,7 +39,7 @@ Código del torneo: <code>{{ site.m7gp_code }}</code><br>
 [*Splatoon 3*][5]<br>
 Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de las 9:00 pm, hora central de México)<br>
 </div>
-<div class="col-6 mb-4 my-lg-auto">
+<div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://discord.gg/NUSDKeJ" target="_blank">
 <i class="fa-brands fa-discord"></i> Discord
 </a>
@@ -47,7 +47,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 </div>
 <hr>
 <div class="row">
-<div class="col-6 mb-4 my-lg-auto">
+<div class="col-6 my-auto">
 *Dragon Quest III HD-2D Remake*
 </div>
 <div class="col-6 my-auto text-monospace">
@@ -70,7 +70,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 <div class="row mb-3">
 <div class="col-12 col-lg-6 my-auto">
 
-<div class="card text-center" id="discord-tag">
+<div class="card mb-4 my-lg-auto text-center" id="discord-tag">
 <div class="card-header">
 <h4 class="card-title">
 <i class="fa-brands fa-discord"></i> Discord ![](https://dcbadge.vercel.app/api/shield/86571896581132288&?style=flat)
@@ -95,7 +95,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 
 <div class="col-12 col-lg-6 my-auto">
 
-<div class="card text-center" id="nintendo-switch">
+<div class="card mb-4 my-lg-auto text-center" id="nintendo-switch">
 <div class="card-header">
 <h4 class="card-title">
 <i class="fa-solid fa-gamepad"></i> Nintendo Switch

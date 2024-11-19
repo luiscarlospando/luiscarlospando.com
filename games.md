@@ -39,7 +39,7 @@ Código del torneo: <code>{{ site.m7gp_code }}</code><br>
 [*Splatoon 3*][5]<br>
 Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de las 9:00 pm, hora central de México)<br>
 </div>
-<div class="col-6 my-auto">
+<div class="col-6 mb-4 my-lg-auto">
 <a class="btn btn-primary btn-lg" href="https://discord.gg/NUSDKeJ" target="_blank">
 <i class="fa-brands fa-discord"></i> Discord
 </a>
@@ -47,7 +47,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 </div>
 <hr>
 <div class="row">
-<div class="col-6 my-auto">
+<div class="col-6 mb-4 my-lg-auto">
 *Dragon Quest III HD-2D Remake*
 </div>
 <div class="col-6 my-auto text-monospace">

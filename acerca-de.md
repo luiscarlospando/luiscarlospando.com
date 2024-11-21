@@ -1,18 +1,18 @@
 ---
 layout: page
 title: Acerca de
-description: Si estás aquí quiere decir que probablemente te interese saber más de mi. Pues bien, este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado (abre este link para ver el número) entradas en total. Me enorgullece apoyar la web independiente y tener mi propio espacio digital que es *completamente mío* 😌. Me siento incómodo dependiendo de grandes corporaciones como Google, Meta o X, cuyo futuro es incierto y sobre las cuales no tenemos ningún control real... Y justo como lo menciono en la página principal, este es un lugar para poner las cosas que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, experimentar, construir y equivocarme.
+description: Si llegaste aquí probablemente te interese saber más sobre mi. Va, este URL ha sido mi hogar en línea desde Octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado ya (abre este link para ver el número) entradas en total. Me enorgullece apoyar la web independiente y tener un espacio en línea que se pueda considerar *completamente mío*, aquí yo tengo el control de todo 😌. Me molesta e incomoda depender de grandes corporaciones como Google, Meta o X, cuyo futuro es incierto y sobre las cuales no tenemos ningún control real... Y como lo menciono en la página principal, este es un lugar para poner las cosas que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, experimentar, construir y equivocarme.
 image: /assets/images/logo.png
 permalink: /acerca-de/
 ---
 
 <h2 class="subtitulo text-center"><small>{{ site.title }} <code>v{{ site.version }}</code></small></h2>
 
-Si estás aquí quiere decir que probablemente te interese saber más de mi. Pues bien, este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado [<span id="contador-posts"></span> entradas en total][1].
+Si llegaste aquí probablemente te interese saber más sobre mi. Va, este URL ha sido mi hogar en línea desde Octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado ya [<span id="contador-posts"></span> entradas en total][1].
 
-Me enorgullece apoyar la web independiente y tener mi propio espacio digital que es *completamente mío* 😌. Me siento incómodo dependiendo de grandes corporaciones como Google, Meta o X, cuyo futuro es incierto y sobre las cuales no tenemos ningún control real...
+Me enorgullece apoyar la web independiente y tener un espacio en línea que se pueda considerar *completamente mío*, aquí yo tengo el control de todo 😌. Me molesta e incomoda depender de grandes corporaciones como Google, Meta o X, cuyo futuro es incierto y sobre las cuales no tenemos ningún control real...
 
-Y justo como lo menciono en la [página principal][2], este es un lugar para poner las cosas que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, experimentar, construir y equivocarme.
+Y como lo menciono en la [página principal][2], este es un lugar para poner las cosas que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, experimentar, construir y equivocarme.
 
 Aquí está el [archivo completo][3] de todos mis posts.
 
@@ -33,13 +33,13 @@ Aquí está el [archivo completo][3] de todos mis posts.
 
 ## Suscríbete
 
-Te puedes suscribir a mi sitio a través de:
+Te puedes suscribir a mi sitio por:
 - [<i class="fas fa-rss"></i> RSS][16]{:target="_blank"}
 - [<i class="fa-brands fa-mastodon"></i> Mastodon][17]{:target="_blank"}
 
 ## Errores en el sitio
 
-Los estándares web son importantes e intento que mi sitio se adhiera a ellos. Si algo se ve o funciona incorrectamente, [házmelo saber][18] por favor.
+Los estándares web son importantes e intento que mi sitio se adhiera a ellos. Si algo se ve mal o funciona incorrectamente, [házmelo saber][18] por favor.
 
 [1]: https://blog.{{ site.domain }}
 [2]: /

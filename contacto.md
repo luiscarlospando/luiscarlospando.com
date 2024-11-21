@@ -39,7 +39,7 @@ Este cotorreo de agendar llamada conmigo la neta no creo usarlo nunca, pero no h
 
 <ul class="list-inline">
 <li class="list-inline-item">
-<a href="https://calendar.amie.so/s/luis-carlos-pando" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Agendar llamada de 30 min" target="_blank"><i class="fa-solid fa-video"></i> Agendar llamada de 30 min</a>
+<a href="https://cal.com/luiscarlospando/30min" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Agendar llamada de 30 min" target="_blank"><i class="fa-solid fa-video"></i> Agendar llamada de 30 min</a>
 </li>
 </ul>
 

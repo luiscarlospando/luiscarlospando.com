@@ -8,7 +8,9 @@ permalink: /acerca-de/
 
 <h2 class="subtitulo text-center"><small>{{ site.title }} <code>v{{ site.version }}</code></small></h2>
 
-Si estás aquí quiere decir que probablemente te interese saber más de mi. Pues bien, este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado [<span id="contador-posts"></span> entradas en total][1]. Me enorgullece apoyar la web independiente y tener mi propio espacio digital que es *completamente mío* 😌. Me siento incómodo dependiendo de grandes corporaciones como Google, Meta o X, cuyo futuro es incierto y sobre las cuales no tenemos ningún control real...
+Si estás aquí quiere decir que probablemente te interese saber más de mi. Pues bien, este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado [<span id="contador-posts"></span> entradas en total][1].
+
+Me enorgullece apoyar la web independiente y tener mi propio espacio digital que es *completamente mío* 😌. Me siento incómodo dependiendo de grandes corporaciones como Google, Meta o X, cuyo futuro es incierto y sobre las cuales no tenemos ningún control real...
 
 Y justo como lo menciono en la [página principal][2], este es un lugar para poner las cosas que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, experimentar, construir y equivocarme.
 

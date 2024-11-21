@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acerca de
-description: Si estás aquí quiere decir que probablemente te interese saber más de mi. Pues bien, este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado (abre este link para ver el número) entradas en total. Me encanta el hecho saber que tengo un lugar en la web que se pueda considerar completamente mío 😌 y no tengo que depender de servicios de terceros como Google, Meta, X... Y justo como lo menciono en la página principal, este es un lugar para poner las cosas que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, experimentar, construir y equivocarme.
+description: Si estás aquí quiere decir que probablemente te interese saber más de mi. Pues bien, este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado (abre este link para ver el número) entradas en total. Me enorgullece apoyar la web independiente y tener mi propio espacio digital que es *completamente mío* 😌. Me siento incómodo dependiendo de grandes corporaciones como Google, Meta o X, cuyo futuro es incierto y sobre las cuales no tenemos ningún control real... Y justo como lo menciono en la página principal, este es un lugar para poner las cosas que traiga en la cabeza, compartir cosas que creo valen la pena, opinar, experimentar, construir y equivocarme.
 image: /assets/images/logo.png
 permalink: /acerca-de/
 ---

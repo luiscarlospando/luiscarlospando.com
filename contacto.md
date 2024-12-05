@@ -33,6 +33,14 @@ Esta es [mi llave PGP pública][1] por si quieres contactarme encriptadamente.
 <br>
 Cuenta personal.
 
+## <i class="fa-brands fa-bluesky"></i> Bluesky
+
+<a rel="me" href="{{ site.bluesky_url }}" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.bluesky_username }} en Bluesky" target="_blank">
+<i class="fa-brands fa-bluesky"></i> Seguir a @{{ site.bluesky_username }}
+</a>
+<br>
+Cuenta personal.
+
 ## <i class="fa-solid fa-calendar-days"></i> Agenda una llamada conmigo
 
 Este cotorreo de agendar llamada conmigo la neta no creo usarlo nunca, pero no hace daño tampoco tener la opción, así que:
@@ -96,3 +104,4 @@ Este es [mi perfil público en Keybase][12]{:target="\_blank"}.
 [10]: /live/
 [11]: https://www.backloggd.com/u/{{ site.backloggd_username }}
 [12]: https://keybase.io/{{ site.keybase_username }}
+[13]: https://bsky.app/profile/{{ site.bluesky_username }}

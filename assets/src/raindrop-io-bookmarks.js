@@ -72,7 +72,7 @@ function renderBookmarks(bookmarks) {
                 <li>
                     <a href="${bookmark.link}" target="_blank" rel="noopener noreferrer">
                         ${bookmark.title}
-                    </a> <a class="link-date badge badge-dark" href="${bookmark.link}" target="_blank" rel="noopener noreferrer">${bookmarkDate}</a>
+                    </a> - <a class="link-date badge badge-dark" href="${bookmark.link}" target="_blank" rel="noopener noreferrer">${bookmarkDate}</a>
                 </li>`;
         })
         .join("");

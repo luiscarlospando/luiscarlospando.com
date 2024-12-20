@@ -37,6 +37,8 @@ Y bueno, de seguro ni sabes como llegaste aquí, pero eso no importa en realidad
     <i class="fa-solid fa-comment"></i> Ver todos
 </a>
 
+---
+
 <h2>Links</h2>
 
 <ul id="bookmarks"></ul>

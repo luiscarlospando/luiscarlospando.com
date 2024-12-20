@@ -28,7 +28,7 @@ function displayLatestPosts() {
                     const postDate = dayjs(data[i].date).format("D MMM, YYYY");
 
                     document.getElementById("latest-posts").innerHTML +=
-                        `<li><a href="${data[i].link}" title="${data[i].title.rendered}">${data[i].title.rendered}</a> <a class="post-date badge badge-dark" href="${data[i].link}">${postDate}</a></li>`;
+                        `<li><a class="post-date badge badge-dark" href="${data[i].link}">${postDate}</a> - <a href="${data[i].link}" title="${data[i].title.rendered}">${data[i].title.rendered}</a></li>`;
                 }
             } else {
                 console.log("❌ #latest-posts no existe en el DOM");

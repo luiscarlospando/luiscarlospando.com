@@ -1,10 +1,25 @@
-// Configuración
+// Configuration
 const RSS_URL = "https://bg.raindrop.io/rss/public/50598757";
 const CORS_PROXY = "https://api.allorigins.win/raw?url=";
 const MAX_POSTS = 5;
 
-// Función principal para obtener y mostrar bookmarks
+// Check if #bookmarks exists in the DOM
+function checkBookmarksElement() {
+    const bookmarksElement = document.getElementById("bookmarks");
+    if (bookmarksElement) {
+        console.log("✅ #bookmarks si existe en el DOM");
+        return true;
+    } else {
+        console.log("❌ #bookmarks no existe en el DOM");
+        return false;
+    }
+}
+
+// Main function for fetching and displaying bookmarks
 async function displayBookmarks() {
+    // Check if element exists before proceding
+    if (!checkBookmarksElement()) return;
+
     try {
         const bookmarks = await fetchRSSFeed();
         const recentBookmarks = parseBookmarks(bookmarks).slice(0, MAX_POSTS);
@@ -14,17 +29,17 @@ async function displayBookmarks() {
     }
 }
 
-// Obtener el feed RSS
+// Get the RSS
 async function fetchRSSFeed() {
     const response = await fetch(CORS_PROXY + encodeURIComponent(RSS_URL));
     if (!response.ok) {
-        throw new Error("No se pudo obtener el feed RSS.");
+        throw new Error("No se pudo obtener el feed RSS");
     }
     const data = await response.text();
     return data;
 }
 
-// Parsear el XML a objetos JavaScript
+// Parsing the XML to JavaScript objects
 function parseBookmarks(xml) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(xml, "text/xml");
@@ -38,9 +53,10 @@ function parseBookmarks(xml) {
     }));
 }
 
-// Renderizar los bookmarks en el DOM
+// Render bookmarks in the DOM
 function renderBookmarks(bookmarks) {
     const bookmarksList = document.getElementById("bookmarks");
+    if (!bookmarksList) return; // Verificación adicional de seguridad
 
     const bookmarksHTML = bookmarks
         .map(
@@ -58,7 +74,7 @@ function renderBookmarks(bookmarks) {
     bookmarksList.innerHTML = bookmarksHTML;
 }
 
-// Formatear la fecha
+// Format date
 function formatDate(date) {
     return new Intl.DateTimeFormat("es", {
         year: "numeric",
@@ -67,10 +83,12 @@ function formatDate(date) {
     }).format(date);
 }
 
-// Manejar errores
+// Error handling
 function handleError(error) {
     console.error("Error:", error);
     const bookmarksList = document.getElementById("bookmarks");
+    if (!bookmarksList) return; // Verificación adicional de seguridad
+
     bookmarksList.innerHTML = `
     <li class="error">
       Lo siento, no se pudieron cargar los bookmarks.
@@ -79,5 +97,5 @@ function handleError(error) {
   `;
 }
 
-// Iniciar la aplicación
+// Initialize main function
 document.addEventListener("DOMContentLoaded", displayBookmarks);

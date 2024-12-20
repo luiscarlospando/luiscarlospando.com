@@ -48,53 +48,39 @@ function parseBookmarks(xml) {
     return Array.from(items).map((item) => ({
         title: item.querySelector("title")?.textContent || "",
         link: item.querySelector("link")?.textContent || "",
-        date: new Date(item.querySelector("pubDate")?.textContent || ""),
-        description: item.querySelector("description")?.textContent || "",
     }));
 }
 
 // Render bookmarks in the DOM
 function renderBookmarks(bookmarks) {
     const bookmarksList = document.getElementById("bookmarks");
-    if (!bookmarksList) return; // Verificación adicional de seguridad
+    if (!bookmarksList) return;
 
     const bookmarksHTML = bookmarks
         .map(
             (bookmark) => `
-    <li class="bookmark">
+    <li>
       <a href="${bookmark.link}" target="_blank" rel="noopener noreferrer">
         ${bookmark.title}
       </a>
-      <span class="date">${formatDate(bookmark.date)}</span>
-    </li>
-  `
+    </li>`
         )
         .join("");
 
     bookmarksList.innerHTML = bookmarksHTML;
 }
 
-// Format date
-function formatDate(date) {
-    return new Intl.DateTimeFormat("es", {
-        year: "numeric",
-        month: "short",
-        day: "numeric",
-    }).format(date);
-}
-
 // Error handling
 function handleError(error) {
     console.error("Error:", error);
     const bookmarksList = document.getElementById("bookmarks");
-    if (!bookmarksList) return; // Verificación adicional de seguridad
+    if (!bookmarksList) return;
 
     bookmarksList.innerHTML = `
-    <li class="error">
+    <li>
       Lo siento, no se pudieron cargar los bookmarks.
       Por favor, intenta más tarde.
-    </li>
-  `;
+    </li>`;
 }
 
 // Initialize main function

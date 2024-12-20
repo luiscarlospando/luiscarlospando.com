@@ -10,4 +10,3 @@ node_modules/
 .DS_Store
 .zed
 node-scripts
-assets/js/app.bundle.js

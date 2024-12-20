@@ -1,5 +1,4 @@
 // WP REST API
-
 // Require dayjs from 'dayjs'
 const locale_es_mx = require("dayjs/locale/es-mx");
 const dayjs = require("dayjs");
@@ -25,8 +24,11 @@ function displayLatestPosts() {
             if (document.getElementById("latest-posts") !== null) {
                 console.log("✅ #latest-posts si existe en el DOM");
                 for (let i = 0; i < data.length; i++) {
+                    // Format date using dayjs
+                    const postDate = dayjs(data[i].date).format("D MMM, YYYY");
+
                     document.getElementById("latest-posts").innerHTML +=
-                        `<li><a href="${data[i].link}" data-toggle="tooltip" data-placement="top" title="${data[i].title.rendered}">${data[i].title.rendered}</a></li>`;
+                        `<li><a href="${data[i].link}" title="${data[i].title.rendered}">${data[i].title.rendered}</a> <a class="post-date badge badge-dark" href="${data[i].link}">${postDate}</a></li>`;
                 }
             } else {
                 console.log("❌ #latest-posts no existe en el DOM");
@@ -36,7 +38,7 @@ function displayLatestPosts() {
             if (document.getElementById("blog") !== null) {
                 console.log("✅ #blog si existe en el DOM");
                 document.getElementById("blog").innerHTML +=
-                    `<a href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}">${data[0].title.rendered}</a>`;
+                    `<a href="${data[0].link}" title="${data[0].title.rendered}">${data[0].title.rendered}</a>`;
             } else {
                 console.log("❌ #blog no existe en el DOM");
             }
@@ -62,7 +64,7 @@ function displayMode7LatestPost() {
                 document.getElementById(
                     "mode-7-podcast-latest-episode"
                 ).innerHTML +=
-                    `<a class="btn btn-primary" href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}"><i class="fa-solid fa-play"></i> ${data[0].title.rendered}</a>`;
+                    `<a class="btn btn-primary" href="${data[0].link}" title="${data[0].title.rendered}"><i class="fa-solid fa-play"></i> ${data[0].title.rendered}</a>`;
             } else {
                 console.log(
                     "❌ #mode-7-podcast-latest-episode no existe en el DOM"
@@ -111,7 +113,7 @@ function displayTotalBlogPosts() {
                 document.getElementById(
                     "mode-7-podcast-latest-episode"
                 ).innerHTML +=
-                    `<a class="btn btn-primary" href="${data[0].link}" data-toggle="tooltip" data-placement="top" title="${data[0].title.rendered}"><i class="fa-solid fa-play"></i> ${data[0].title.rendered}</a>`;
+                    `<a class="btn btn-primary" href="${data[0].link}" title="${data[0].title.rendered}"><i class="fa-solid fa-play"></i> ${data[0].title.rendered}</a>`;
             } else {
                 console.log(
                     "❌ #mode-7-podcast-latest-episode no existe en el DOM"

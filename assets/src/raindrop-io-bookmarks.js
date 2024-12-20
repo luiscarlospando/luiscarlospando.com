@@ -1,3 +1,10 @@
+// Require dayjs from 'dayjs'
+const locale_es_mx = require("dayjs/locale/es-mx");
+const dayjs = require("dayjs");
+dayjs.locale("es-mx");
+const relativeTime = require("dayjs/plugin/relativeTime");
+dayjs.extend(relativeTime);
+
 // Configuration
 const RSS_URL = "https://bg.raindrop.io/rss/public/50598757";
 const CORS_PROXY = "https://api.allorigins.win/raw?url=";
@@ -57,14 +64,17 @@ function renderBookmarks(bookmarks) {
     if (!bookmarksList) return;
 
     const bookmarksHTML = bookmarks
-        .map(
-            (bookmark) => `
-    <li>
-      <a href="${bookmark.link}" target="_blank" rel="noopener noreferrer">
-        ${bookmark.title}
-      </a>
-    </li>`
-        )
+        .map((bookmark) => {
+            // Format date using dayjs
+            const bookmarkDate = dayjs(bookmark.date).format("D MMM, YYYY");
+
+            return `
+                <li>
+                    <a href="${bookmark.link}" target="_blank" rel="noopener noreferrer">
+                        ${bookmark.title}
+                    </a> <a class="link-date badge badge-dark" href="${bookmark.link}" target="_blank" rel="noopener noreferrer">${bookmarkDate}</a>
+                </li>`;
+        })
         .join("");
 
     bookmarksList.innerHTML = bookmarksHTML;

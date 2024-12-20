@@ -37,6 +37,10 @@ Y bueno, de seguro ni sabes como llegaste aquí, pero eso no importa en realidad
     <i class="fa-solid fa-comment"></i> Ver todos
 </a>
 
+<h2>Links</h2>
+
+<ul id="bookmarks"></ul>
+
 [1]: https://es.wikipedia.org/wiki/Chihuahua_(Chihuahua)
 [2]: https://www.instagram.com/primitivegirl
 [3]: https://github.com/{{ site.github_username }}

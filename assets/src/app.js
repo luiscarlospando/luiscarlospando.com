@@ -13,6 +13,7 @@ import "./jquery.mmenu.min.all";
 import "./statuslog";
 import "./last-updated-at";
 import "./wp-api";
+import "./raindrop-io-bookmarks";
 import "./lastfm-fetch";
 import "./now";
 import "./twitch-live";

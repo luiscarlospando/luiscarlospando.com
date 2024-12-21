@@ -96,7 +96,7 @@ function renderBookmarks(items) {
         .map(
             (item) => `
     <li>
-      <a class="post-date badge badge-dark" href="${item.link}">
+      <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener noreferrer">
         ${formatDate(item.date)}
       </a>
       <a href="${item.link}" target="_blank" rel="noopener noreferrer">
@@ -122,7 +122,7 @@ function renderPaginatedLinks() {
         .map(
             (item) => `
     <li>
-      <a class="post-date badge badge-dark" href="${item.link}">
+      <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener noreferrer">
         ${formatDate(item.date)}
       </a>
       <a href="${item.link}" target="_blank" rel="noopener noreferrer">

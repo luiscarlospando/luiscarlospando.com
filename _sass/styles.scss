@@ -312,6 +312,12 @@ footer {
     }
 }
 
+.btn-primary.disabled,
+.btn-primary:disabled {
+    background: $btnBgColor;
+    border: 1px solid $componentBorderColor;
+}
+
 .btn-sm,
 .btn-group-sm > .btn {
     padding: 0.1rem 0.5rem;

@@ -137,16 +137,17 @@ function setupPagination() {
 
     // Add pagination info and controls
     paginationContainer.innerHTML = `
+        <hr>
         <div class="pagination-info" style="margin-bottom: 1rem;">
             Página ${currentPage} de ${totalPages}
             (${allItems.length} links en total)
         </div>
         <div class="pagination-controls" style="display: flex; justify-content: center; gap: 0.5rem;">
             <button id="prevPage" class="btn btn-primary" ${currentPage === 1 ? "disabled" : ""}>
-                Anterior
+                « Anterior
             </button>
             <button id="nextPage" class="btn btn-primary" ${currentPage === totalPages ? "disabled" : ""}>
-                Siguiente
+                Siguiente »
             </button>
         </div>
     `;

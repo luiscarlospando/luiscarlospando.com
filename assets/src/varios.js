@@ -41,16 +41,20 @@
         });
 
         // Read more button
-        $("#collapseIntro").on("show.bs.collapse", function () {
-            $("#btn-read-more").html(
-                '<i class="fa-solid fa-minus"></i> Leer menos'
-            );
+        const collapseIntro = document.getElementById("collapseIntro");
+        const btnReadMore = document.querySelector("#btn-read-more");
+
+        // Using Intersection Observer API to detect when the element is expanded
+        collapseIntro.addEventListener("show.bs.collapse", () => {
+            btnReadMore.innerHTML =
+                '<i class="fa-solid fa-minus"></i> Leer menos';
         });
 
-        $("#collapseIntro").on("hidden.bs.collapse", function () {
-            $("#btn-read-more.collapsed").html(
-                '<i class="fa-solid fa-plus"></i> Leer más'
-            );
+        collapseIntro.addEventListener("hidden.bs.collapse", () => {
+            if (btnReadMore.classList.contains("collapsed")) {
+                btnReadMore.innerHTML =
+                    '<i class="fa-solid fa-plus"></i> Leer más';
+            }
         });
 
         // Tooltips
@@ -108,8 +112,11 @@
         new ClipboardJS(".btn");
 
         // Add button classes to elements in pagination
-        $(window).on("load", function () {
-            $(".page-numbers").addClass("btn btn-primary");
+        document.addEventListener("DOMContentLoaded", () => {
+            const pageNumbers = document.querySelectorAll(".page-numbers");
+            pageNumbers.forEach((element) => {
+                element.classList.add("btn", "btn-primary");
+            });
         });
     });
 })();

@@ -9,28 +9,52 @@ dayjs.extend(relativeTime);
 const RSS_URL = "https://bg.raindrop.io/rss/public/50598757";
 const CORS_PROXY = "https://api.allorigins.win/raw?url=";
 const MAX_POSTS = 5;
+const ITEMS_PER_PAGE = 10;
 
-// Check if #bookmarks exists in the DOM
-function checkBookmarksElement() {
+let currentPage = 1;
+let allItems = [];
+
+// Check if elements exist in the DOM
+function checkElements() {
     const bookmarksElement = document.getElementById("bookmarks");
+    const linksElement = document.getElementById("links");
+
     if (bookmarksElement) {
         console.log("✅ #bookmarks si existe en el DOM");
-        return true;
     } else {
         console.log("❌ #bookmarks no existe en el DOM");
-        return false;
     }
+
+    if (linksElement) {
+        console.log("✅ #links si existe en el DOM");
+    } else {
+        console.log("❌ #links no existe en el DOM");
+    }
+
+    return {
+        hasBookmarks: !!bookmarksElement,
+        hasLinks: !!linksElement,
+    };
 }
 
-// Main function for fetching and displaying bookmarks
-async function displayBookmarks() {
-    // Check if element exists before proceding
-    if (!checkBookmarksElement()) return;
+// Main function for fetching and displaying content
+async function displayContent() {
+    const { hasBookmarks, hasLinks } = checkElements();
+
+    if (!hasBookmarks && !hasLinks) return;
 
     try {
-        const bookmarks = await fetchRSSFeed();
-        const recentBookmarks = parseBookmarks(bookmarks).slice(0, MAX_POSTS);
-        renderBookmarks(recentBookmarks);
+        const data = await fetchRSSFeed();
+        allItems = parseItems(data);
+
+        if (hasBookmarks) {
+            renderBookmarks(allItems.slice(0, MAX_POSTS));
+        }
+
+        if (hasLinks) {
+            renderPaginatedLinks();
+            setupPagination();
+        }
     } catch (error) {
         handleError(error);
     }
@@ -47,7 +71,7 @@ async function fetchRSSFeed() {
 }
 
 // Parsing the XML to JavaScript objects
-function parseBookmarks(xml) {
+function parseItems(xml) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(xml, "text/xml");
     const items = doc.querySelectorAll("item");
@@ -58,40 +82,115 @@ function parseBookmarks(xml) {
     }));
 }
 
-// Render bookmarks in the DOM
-function renderBookmarks(bookmarks) {
+// Render recent bookmarks in the DOM
+function renderBookmarks(items) {
     const bookmarksList = document.getElementById("bookmarks");
     if (!bookmarksList) return;
 
-    const bookmarksHTML = bookmarks
-        .map((bookmark) => {
-            // Format date using dayjs
-            const bookmarkDate = dayjs(bookmark.date).format("D MMM, YYYY");
-
-            return `
-                <li>
-                    <a class="link-date badge badge-dark" href="${bookmark.link}" target="_blank" rel="noopener noreferrer">${bookmarkDate}</a> <a href="${bookmark.link}" target="_blank" rel="noopener noreferrer">
-                        ${bookmark.title}
-                    </a>
-                </li>`;
-        })
+    const bookmarksHTML = items
+        .map(
+            (item) => `
+    <li>
+      <a href="${item.link}" target="_blank" rel="noopener noreferrer">
+        ${item.title}
+      </a>
+    </li>`
+        )
         .join("");
 
     bookmarksList.innerHTML = bookmarksHTML;
 }
 
+// Render paginated links
+function renderPaginatedLinks() {
+    const linksList = document.getElementById("links");
+    if (!linksList) return;
+
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    const endIndex = startIndex + ITEMS_PER_PAGE;
+    const paginatedItems = allItems.slice(startIndex, endIndex);
+
+    const linksHTML = paginatedItems
+        .map(
+            (item) => `
+    <li>
+      <a href="${item.link}" target="_blank" rel="noopener noreferrer">
+        ${item.title}
+      </a>
+    </li>`
+        )
+        .join("");
+
+    linksList.innerHTML = linksHTML;
+}
+
+// Setup pagination controls
+function setupPagination() {
+    const totalPages = Math.ceil(allItems.length / ITEMS_PER_PAGE);
+    const linksList = document.getElementById("links");
+    if (!linksList) return;
+
+    // Create pagination container
+    const paginationContainer = document.createElement("div");
+    paginationContainer.className = "pagination";
+    paginationContainer.style.textAlign = "center";
+
+    // Add pagination info and controls
+    paginationContainer.innerHTML = `
+        <div class="pagination-info" style="margin-bottom: 1rem;">
+            Página ${currentPage} de ${totalPages}
+            (${allItems.length} links en total)
+        </div>
+        <div class="pagination-controls" style="display: flex; justify-content: center; gap: 0.5rem;">
+            <button id="prevPage" class="btn btn-primary" ${currentPage === 1 ? "disabled" : ""}>
+                Anterior
+            </button>
+            <button id="nextPage" class="btn btn-primary" ${currentPage === totalPages ? "disabled" : ""}>
+                Siguiente
+            </button>
+        </div>
+    `;
+
+    // Insert pagination after the links list
+    linksList.parentNode.insertBefore(
+        paginationContainer,
+        linksList.nextSibling
+    );
+
+    // Add event listeners
+    document.getElementById("prevPage")?.addEventListener("click", () => {
+        if (currentPage > 1) {
+            currentPage--;
+            renderPaginatedLinks();
+            setupPagination();
+        }
+    });
+
+    document.getElementById("nextPage")?.addEventListener("click", () => {
+        if (currentPage < totalPages) {
+            currentPage++;
+            renderPaginatedLinks();
+            setupPagination();
+        }
+    });
+}
+
 // Error handling
 function handleError(error) {
     console.error("Error:", error);
-    const bookmarksList = document.getElementById("bookmarks");
-    if (!bookmarksList) return;
+    const elements = ["bookmarks", "links"];
 
-    bookmarksList.innerHTML = `
-    <li>
-      Lo siento, no se pudieron cargar los bookmarks.
-      Por favor, intenta más tarde.
-    </li>`;
+    elements.forEach((id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.innerHTML = `
+            <li>
+              Lo siento, no se pudieron cargar los links.
+              Por favor, intenta más tarde.
+            </li>`;
+        }
+    });
 }
 
 // Initialize main function
-document.addEventListener("DOMContentLoaded", displayBookmarks);
+document.addEventListener("DOMContentLoaded", displayContent);

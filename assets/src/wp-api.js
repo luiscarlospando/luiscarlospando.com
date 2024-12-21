@@ -149,11 +149,16 @@ displayLatestPosts();
 displayMode7LatestPost();
 
 // Append total post count to element #contador-posts in "Acerca de" page
-fetch("https://blog.luiscarlospando.com/wp-json/wp/v2/posts")
-    .then((response) => {
-        const postCount = response.headers.get("x-wp-total");
-        document.getElementById("contador-posts").textContent += postCount;
-    })
-    .catch((error) => {
-        console.error("Error:", error);
-    });
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("https://blog.luiscarlospando.com/wp-json/wp/v2/posts")
+        .then((response) => {
+            const postCount = response.headers.get("x-wp-total");
+            const contadorElement = document.getElementById("contador-posts");
+            if (contadorElement) {
+                contadorElement.textContent += postCount;
+            }
+        })
+        .catch((error) => {
+            console.error("Error:", error);
+        });
+});

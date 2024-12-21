@@ -8,4 +8,4 @@ permalink: /links/
 
 <p class="text-center">{{ page.description }}</p>
 
-<div id="links"></div>
+<ul id="links"></ul>

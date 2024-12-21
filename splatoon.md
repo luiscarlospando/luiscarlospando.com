@@ -43,7 +43,7 @@ permalink: /games/splatoon/
 </a>
 </div>
 
-## <i class="fa-solid fa-square-rss"></i> Posts sobre *Splatoon*
+## <i class="fa-solid fa-hashtag"></i> Posts sobre *Splatoon*
 
 - Puedes revisar todos mis posts sobre *Splatoon* en este hashtag: <a class="badge badge-dark" href="https://blog.{{ site.domain }}/hashtag/splatoon/">#Splatoon</a>
 

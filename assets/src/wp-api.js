@@ -156,6 +156,9 @@ document.addEventListener("DOMContentLoaded", function () {
             const contadorElement = document.getElementById("contador-posts");
             if (contadorElement) {
                 contadorElement.textContent += postCount;
+                console.log("✅ #contador-posts si existe en el DOM");
+            } else {
+                console.log("❌ #contador-posts no existe en el DOM");
             }
         })
         .catch((error) => {

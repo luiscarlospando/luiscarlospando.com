@@ -43,6 +43,10 @@ Y bueno, de seguro ni sabes como llegaste aquí, pero eso no importa en realidad
 
 <ul id="bookmarks"></ul>
 
+<a class="btn btn-primary" href="https://{{ site.domain }}/links">
+    <i class="fa-solid fa-link"></i> Ver todos
+</a>
+
 [1]: https://es.wikipedia.org/wiki/Chihuahua_(Chihuahua)
 [2]: https://www.instagram.com/primitivegirl
 [3]: https://github.com/{{ site.github_username }}

@@ -82,6 +82,11 @@ function parseItems(xml) {
     }));
 }
 
+// Format date using dayjs
+function formatDate(date) {
+    return dayjs(date).format("DD MMM, YYYY").toLowerCase();
+}
+
 // Render recent bookmarks in the DOM
 function renderBookmarks(items) {
     const bookmarksList = document.getElementById("bookmarks");
@@ -91,6 +96,9 @@ function renderBookmarks(items) {
         .map(
             (item) => `
     <li>
+      <a class="post-date badge badge-dark" href="${item.link}">
+        ${formatDate(item.date)}
+      </a>
       <a href="${item.link}" target="_blank" rel="noopener noreferrer">
         ${item.title}
       </a>
@@ -114,6 +122,9 @@ function renderPaginatedLinks() {
         .map(
             (item) => `
     <li>
+      <a class="post-date badge badge-dark" href="${item.link}">
+        ${formatDate(item.date)}
+      </a>
       <a href="${item.link}" target="_blank" rel="noopener noreferrer">
         ${item.title}
       </a>

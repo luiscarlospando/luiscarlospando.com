@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Acerca de
-description: Si llegaste aquí quiere decir que tienes curiosidad de saber más sobre mi, va. Este URL ha sido mi hogar en línea desde Octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado ya (abre este link para ver el número) entradas en total. Me llena de orgullo apoyar el Internet independiente y de tener un espacio en línea que se pueda considerar *completamente mío*. Aquí yo tengo el control de todo (y soy dueño de mi propio sitio). No me gusta y me incomoda depender de grandes corporaciones como Google, Meta o X para tener una presencia en línea. Todo sabemos que el futuro de todas las plataformas es incierto y no tenemos control real ni somos dueños de nuestras cuentas. Y bueno, justo como menciono en la página principal, mi sitio es un lugar para expresarme libremente, compartir cosas que creo valen la pena, opinar, experimentar, codear y pasármela chido.
+description: Si llegaste aquí quiere decir que tienes curiosidad de saber más sobre mi, va. Este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado ya (abre este link para ver el número) entradas en total. Me llena de orgullo apoyar el Internet independiente y de tener un espacio en línea que se pueda considerar *completamente mío*. Aquí yo tengo el control de todo (y soy dueño de mi propio sitio). No me gusta y me incomoda depender de grandes corporaciones como Google, Meta o X para tener una presencia en línea. Todo sabemos que el futuro de todas las plataformas es incierto y no tenemos control real ni somos dueños de nuestras cuentas. Y bueno, justo como menciono en la página principal, mi sitio es un lugar para expresarme libremente, compartir cosas que creo valen la pena, opinar, experimentar, codear y pasármela chido.
 permalink: /acerca-de/
 ---
 
 <h2 class="subtitulo text-center"><small>{{ site.title }} <code>v{{ site.version }}</code></small></h2>
 
-Si llegaste aquí quiere decir que tienes curiosidad de saber más sobre mi, va. Este URL ha sido mi hogar en línea desde Octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado ya [<span id="contador-posts"></span> entradas en total][1].
+Si llegaste aquí quiere decir que tienes curiosidad de saber más sobre mi, va. Este URL ha sido mi hogar en línea desde octubre del 2014 (ojalá hubiera empezado antes 🤦‍♂️). Desde entonces he publicado ya [<span id="contador-posts"></span> entradas en total][1].
 
 Me llena de orgullo apoyar el Internet independiente y de tener un espacio en línea que se pueda considerar *completamente mío*. Aquí yo tengo el control de todo (y soy dueño de mi propio sitio). No me gusta y me incomoda depender de grandes corporaciones como Google, Meta o X para tener una presencia en línea. Todo sabemos que el futuro de todas las plataformas es incierto y no tenemos control real ni somos dueños de nuestras cuentas.
 

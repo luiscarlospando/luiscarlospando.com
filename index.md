@@ -43,7 +43,7 @@ Y bueno, de seguro ni sabes como llegaste aquí, pero eso no importa en realidad
 
 <ul id="bookmarks"></ul>
 
-<a class="btn btn-primary" href="https://{{ site.domain }}/links">
+<a class="btn btn-primary" href="https://{{ site.domain }}/links/">
     <i class="fa-solid fa-link"></i> Ver todos
 </a>
 

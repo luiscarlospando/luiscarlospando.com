@@ -127,6 +127,7 @@ function renderBookmarks(items) {
       <a href="${item.link}" target="_blank" rel="noopener noreferrer">
         ${item.title}
       </a>
+      <i class="fa-solid fa-arrow-up-right-from-square"></i>
     </li>`
         )
         .join("");
@@ -153,6 +154,7 @@ function renderPaginatedLinks() {
       <a href="${item.link}" target="_blank" rel="noopener noreferrer">
         ${item.title}
       </a>
+      <i class="fa-solid fa-arrow-up-right-from-square"></i>
     </li>`
         )
         .join("");

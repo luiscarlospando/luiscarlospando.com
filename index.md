@@ -16,11 +16,11 @@ Mi razón para hacer este sitio es mi amor por las computadoras 👨‍💻 y el
 <div class="collapse" id="collapseIntro">
 No es secreto el amor que le tengo a Nintendo en especial 🕹️, [aquí][6] llevo un registro de los videojuegos que tengo en mi colección. Para rendir tributo y hacer de los videojuegos que me gustan todavía más interesantes, armé la comunidad de [Mode 7 🎮 🕹️][7] (✨ *All are welcome!* ✨) en Discord junto a unos amigos. Ahí hablamos de nuestros juegos favoritos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][8]. Todos los jueves en la noche [transmitimos el torneo][9].
 
-Ahora me encuentro compartiendo cosas random en [Mastodon][10]{:target="_blank"} y en [omg.lol][11], el sarcasmo y chistes de baja calidad, continúan por ahí.
+Ahorita ando compartiendo cosas random en <a href="https://social.lol/@{{ site.mastodon_username }}" rel="me" target="_blank">Mastodon</a> y en <a href="https://home.omg.lol/referred-by/{{ site.omglol_username }}" rel="me" target="_blank">omg.lol</a>, el sarcasmo y chistes de baja calidad, continúan por ahí.
 
-También llevo un registro de toda [la música que escucho 🎧][12]{:target="_blank"} en mi perfil de [Last.fm 🎵][13]{:target="_blank"} (*been doin' it since '05 baby!*).
+También llevo un registro de toda <a href="https://music.apple.com/profile/{{ site.apple_music_username }}" rel="me" target="_blank">la música que escucho 🎧</a> en mi perfil de <a href="https://last.fm/user/{{ site.lastfm_username }}" rel="me" target="_blank">Last.fm 🎵</a> (*been doin' it since '05 baby!*).
 
-Y bueno, de seguro ni sabes como llegaste aquí, pero eso no importa en realidad, agradecido ya estoy por tu visita. ✨
+Ok, de seguro ni supiste como llegaste aquí, pero eso no importa, agradecido estoy de que pases por aquí. ✨
 </div>
 
 <button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" href="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">

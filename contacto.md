@@ -53,43 +53,43 @@ Este cotorreo de agendar llamada conmigo la neta no creo usarlo nunca, pero no h
 
 ## <i class="fa-brands fa-instagram"></i> Instagram
 
-[Aquí comparto fotos][2]{:target="\_blank"} de mis cosas favoritas y de momentos que considero que valen la pena ser compartidos.
+[Aquí comparto fotos][2]{:rel="me" target="_blank"} de mis cosas favoritas y de momentos que considero que valen la pena ser compartidos.
 
 ## <i class="fa-brands fa-threads"></i> Threads
 
-Este es [mi perfil en Threads][3]{:target="\_blank"}.
+Este es [mi perfil en Threads][3]{:rel="me" target="_blank"}.
 
 ## <i class="fa-brands fa-discord"></i> Discord ![](https://dcbadge.limes.pink/api/shield/86571896581132288?style=flat&theme=discord-inverted)
 
-Mi username en Discord es <a href="{{ site.discord_profile }}" target="_blank"><code>{{ site.discord_tag }}</code></a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (_feel free to join in!_).
+Mi username en Discord es <a href="{{ site.discord_profile }}" rel="me" target="_blank"><code>{{ site.discord_tag }}</code></a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (_feel free to join in!_).
 
-## <i class="fa-solid fa-heart"></i> omg.lol [![omg.lol](https://omg.8bitsqu.id/?user=mijo)][5]
+## <i class="fa-solid fa-heart"></i> omg.lol [![omg.lol](https://omg.8bitsqu.id/?user=mijo)][5]{:rel="me" target="_blank"}
 
-[omg.lol][5]{:target="\_blank"} es mi lugar favorito en Internet, es un conjunto de microservicios y hasta te dan tu propia cuenta de Mastodon ([crea una cuenta][6]{:target="\_blank"}).
+[omg.lol][5]{:rel="me" target="_blank"} es mi lugar favorito en Internet, es un conjunto de microservicios y hasta te dan tu propia cuenta de Mastodon ([crea una cuenta][6]{:target="_blank"}).
 
 ## <i class="fa-brands fa-itunes-note"></i> Apple Music
 
-Este es [mi perfil en Apple Music][7]{:target="\_blank"}.
+Este es [mi perfil en Apple Music][7]{:rel="me" target="_blank"}.
 
 ## <i class="fa-brands fa-lastfm"></i> Last.fm
 
-Este es [mi perfil en Last.fm][8]{:target="\_blank"}.
+Este es [mi perfil en Last.fm][8]{:rel="me" target="_blank"}.
 
 ## <i class="fa-brands fa-reddit"></i> Reddit
 
-Este es [mi perfil en Reddit][9]{:target="\_blank"}.
+Este es [mi perfil en Reddit][9]{:rel="me" target="_blank"}.
 
 ## <i class="fa-brands fa-twitch"></i> Twitch ![Twitch Status](https://img.shields.io/twitch/status/{{ site.twitch_username }}?style=flat&logo=twitch&logoColor=%23A172F7&link=https%3A%2F%2Fluiscarlospando.com%2Flive)
 
-[Tengo un canal en Twitch][10]{:target="\_blank"}, que ya estoy usando, al fin. 🎉
+[Tengo un canal en Twitch][10]{:rel="me" target="_blank"}, que ya estoy usando, al fin. 🎉
 
 ## <i class="fa-solid fa-gamepad"></i> Backloggd
 
-En [Backloggd][11]{:target="\_blank"} llevo el control de los videojuegos que tengo.
+En [Backloggd][11]{:rel="me" target="_blank"} llevo el control de los videojuegos que tengo.
 
 ## <i class="fa-brands fa-keybase"></i> Keybase
 
-Este es [mi perfil público en Keybase][12]{:target="\_blank"}.
+Este es [mi perfil público en Keybase][12]{:rel="me" target="_blank"}.
 
 [1]: /keys/
 

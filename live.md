@@ -28,7 +28,7 @@ permalink: /live/
 
 <div class="row">
 <div class="col text-center">
-<a id="btn-heymijotv" class="btn btn-primary" href="{{ site.twitch_purl }}" target="_blank">
+<a id="btn-heymijotv" class="btn btn-primary" href="{{ site.twitch_purl }}" rel="me" target="_blank">
 <i class="fa-solid fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i> Ver directamente en Twitch
 </a>
 </div>

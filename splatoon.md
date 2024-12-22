@@ -12,7 +12,7 @@ permalink: /games/splatoon/
 ## <i class="fa-solid fa-circle-info"></i> Información
 
 - Juego generalmente por las noches entre semana, aproximadamente a las 9:00 pm (hora central de México)
-- Llevo un registro y estadísticas personales en [mi perfil de stat.ink][3]{:target="_blank"}
+- Llevo un registro y estadísticas personales en [mi perfil de stat.ink][3]{:rel="me" target="_blank"}
 
 ## <i class="fa-solid fa-gamepad"></i> Modos que juego
 
@@ -22,7 +22,7 @@ permalink: /games/splatoon/
 
 ## <i class="fa-solid fa-chart-column"></i> Mis stats
 
-- Rango: <a href="https://stat.ink/@mijo/spl3" class="badge badge-dark" target="_blank">Rank S</a>
+- Rango: <a href="https://stat.ink/@mijo/spl3" class="badge badge-dark" rel="me" target="_blank">Rank S</a>
 
 ## <i class="fa-brands fa-discord"></i> Discord
 
@@ -30,7 +30,7 @@ permalink: /games/splatoon/
 - Chat de voz por el canal [`🦑|Splatoon`][2]{:target="_blank"} dentro de Mode 7.
 - La intención del Discord de Mode 7 es ser útil para armar partidas, armar cotorreo, conocer gente, jugar, hablar sobre *Splatoon* y mucho más.
 - Link a mi perfil de Discord:
-<a href="{{ site.discord_profile }}" target="_blank"><code>{{ site.discord_tag }}</code></a>
+<a href="{{ site.discord_profile }}" rel="me" target="_blank"><code>{{ site.discord_tag }}</code></a>
 
 </div>
 <div class="col-sm-6">
@@ -49,7 +49,7 @@ permalink: /games/splatoon/
 
 ## <i class="fa-brands fa-mastodon"></i> Mastodon
 
-- Para recibir más notificaciones o estar al pendiente de actualizaciones, puedes [seguirme en Mastodon][4]{:target="_blank"}.
+- Para recibir más notificaciones o estar al pendiente de actualizaciones, puedes [seguirme en Mastodon][4]{:rel="me" target="_blank"}.
 
 </div>
 </div>

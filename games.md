@@ -8,7 +8,7 @@ last-modified-at: <span id="last-updated-at">2024-11-17 14:24:48</span>
 ---
 
 <div class="text-center">
-Esto es lo que estoy jugando actualmente y estos son mis perfiles de [<i class="fa-solid fa-link"></i> Discord][1], [<i class="fa-solid fa-link"></i> Nintendo Switch][2] y [<i class="fa-solid fa-link"></i> Backloggd][3].
+Esto es lo que estoy jugando actualmente y estos son mis perfiles de [<i class="fa-solid fa-link"></i> Discord][1], [<i class="fa-solid fa-link"></i> Nintendo Switch][2] y [<i class="fa-solid fa-link"></i> Backloggd][3]{:rel="me" target="_blank"}.
 </div>
 
 <div class="row">
@@ -85,7 +85,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 </button>
 </div>
 </div>
-<a class="btn btn-primary btn-sm mt-4" href="https://discordapp.com/users/86571896581132288/" target="_blank">
+<a class="btn btn-primary btn-sm mt-4" href="https://discordapp.com/users/86571896581132288/" rel="me" target="_blank">
 <i class="fa-solid fa-user-plus"></i> Agrégame como amigo
 </a>
 </div>
@@ -110,7 +110,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 </button>
 </div>
 </div>
-<a class="btn btn-primary btn-sm mt-4" href="https://lounge.nintendo.com/friendcode/3920-3330-9820/DLkJcWQ1L6" target="_blank">
+<a class="btn btn-primary btn-sm mt-4" href="https://lounge.nintendo.com/friendcode/3920-3330-9820/DLkJcWQ1L6" rel="me" target="_blank">
 <i class="fa-solid fa-user-plus"></i> Agrégame como amigo
 </a>
 </div>

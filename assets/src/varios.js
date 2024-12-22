@@ -118,5 +118,25 @@
                 element.classList.add("btn", "btn-primary");
             });
         });
+
+        // Add Font Awesome external links icon to external links
+        document.addEventListener("DOMContentLoaded", function () {
+            // This code:
+            // 1. Links containing target="_blank"
+            // 2. It doesn't select links inside the header and footer
+            // 3. It doesn't select links containing the class .btn
+            const links = document.querySelectorAll(
+                'a[target="_blank"]:not(.btn):not(header a):not(footer a)'
+            );
+
+            links.forEach((link) => {
+                // Creating the icon
+                const icon = document.createElement("i");
+                icon.className = "fa-solid fa-arrow-up-right-from-square";
+
+                // Adding the icon after the text of the link
+                link.appendChild(icon);
+            });
+        });
     });
 })();

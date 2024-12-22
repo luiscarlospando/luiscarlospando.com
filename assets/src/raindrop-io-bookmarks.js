@@ -72,19 +72,44 @@ async function fetchRSSFeed() {
 
 // Parsing the XML to JavaScript objects
 function parseItems(xml) {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(xml, "text/xml");
-    const items = doc.querySelectorAll("item");
+    try {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(xml, "text/xml");
 
-    return Array.from(items).map((item) => ({
-        title: item.querySelector("title")?.textContent || "",
-        link: item.querySelector("link")?.textContent || "",
-    }));
+        // Check for parsing errors
+        const parseError = doc.querySelector("parsererror");
+        if (parseError) {
+            throw new Error("XML parsing failed");
+        }
+
+        const items = doc.querySelectorAll("item");
+        return Array.from(items).map((item) => {
+            const pubDate = item.querySelector("pubDate")?.textContent;
+            return {
+                title: item.querySelector("title")?.textContent || "",
+                link: item.querySelector("link")?.textContent || "",
+                date: pubDate || "",
+            };
+        });
+    } catch (error) {
+        console.error("Error parsing RSS feed:", error);
+        return [];
+    }
 }
 
 // Format date using dayjs
-function formatDate(date) {
-    return dayjs(date).format("DD MMM, YYYY").toLowerCase();
+function formatDate(dateString) {
+    try {
+        const date = dayjs(dateString);
+        if (!date.isValid()) {
+            console.warn(`Invalid date string: ${dateString}`);
+            return "Fecha desconocida";
+        }
+        return date.format("DD MMM, YYYY").toLowerCase();
+    } catch (error) {
+        console.error(`Error formatting date: ${dateString}`, error);
+        return "Fecha desconocida";
+    }
 }
 
 // Render recent bookmarks in the DOM

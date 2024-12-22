@@ -132,13 +132,21 @@
             :not(.mastodon a)
         `);
 
-        links.forEach((link) => {
-            // Creating the icon
+        links.forEach((link, index) => {
+            console.log(`Link ${index}:`, {
+                href: link.href,
+                target: link.target,
+                hasBtn: link.classList.contains("btn"),
+                hasMastodon: link.classList.contains("mastodon"),
+                inHeader: link.closest("header"),
+                inFooter: link.closest("footer"),
+            });
+
             const icon = document.createElement("i");
             icon.className = "fa-solid fa-arrow-up-right-from-square";
-
-            // Adding the icon after the text of the link
             link.appendChild(icon);
+
+            console.log(`Ícono añadido al link ${index}`);
         });
     });
 })();

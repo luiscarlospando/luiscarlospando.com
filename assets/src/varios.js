@@ -125,28 +125,31 @@
         // 2. It doesn't select links inside the header and footer
         // 3. It doesn't select links containing the class .btn
         // 4. It doesn't select links inside elements with class .mastodon
-        const links = document.querySelectorAll(`
-            a[target="_blank"]:not(.btn)
-            :not(header a)
-            :not(footer a)
-            :not(.mastodon a)
-        `);
+        const links = document.querySelectorAll('a[target="_blank"]');
 
         links.forEach((link, index) => {
-            console.log(`Link ${index}:`, {
-                href: link.href,
-                target: link.target,
-                hasBtn: link.classList.contains("btn"),
-                hasMastodon: link.classList.contains("mastodon"),
-                inHeader: link.closest("header"),
-                inFooter: link.closest("footer"),
-            });
+            // Verify that the link is NOT in any of the exclusion conditions
+            if (
+                !link.closest("header") &&
+                !link.closest("footer") &&
+                !link.classList.contains("btn") &&
+                !link.closest(".mastodon")
+            ) {
+                console.log(`Link ${index}:`, {
+                    href: link.href,
+                    target: link.target,
+                    hasBtn: link.classList.contains("btn"),
+                    inHeader: link.closest("header"),
+                    inFooter: link.closest("footer"),
+                    inMastodon: link.closest(".mastodon"),
+                });
 
-            const icon = document.createElement("i");
-            icon.className = "fa-solid fa-arrow-up-right-from-square";
-            link.appendChild(icon);
+                const icon = document.createElement("i");
+                icon.className = "fa-solid fa-arrow-up-right-from-square";
+                link.appendChild(icon);
 
-            console.log(`Ícono añadido al link ${index}`);
+                console.log(`Ícono añadido al link ${index}`);
+            }
         });
     });
 })();

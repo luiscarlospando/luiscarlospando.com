@@ -33,8 +33,8 @@ Aquí está el [archivo completo][3] de todos mis posts.
 ## Suscríbete
 
 Te puedes suscribir a mi sitio por:
-- [<i class="fas fa-rss"></i> RSS][16]{:target="_blank"}
-- [<i class="fa-brands fa-mastodon"></i> Mastodon][17]{:target="_blank"}
+- [<i class="fas fa-rss"></i> RSS][16]
+- [<i class="fa-brands fa-mastodon"></i> Mastodon][17]{:rel="me" target="_blank"}
 
 ## Errores en el sitio
 

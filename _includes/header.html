@@ -120,7 +120,7 @@
         <img class="u-logo" src="./assets/images/avatar.webp" alt="{{ site.author }}'s logo">
         <a class="p-name" href="{{ site.url }}" rel="author">{{ site.author }}</a>
         <span class="p-note">{{ page.description }}</span>
-        <a rel="me" class="u-url u-uid" href="{{ site.url }}">Permalink</a>
+        <a rel="me" class="u-url u-uid" href="{% if page.url == '/' %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">Permalink</a>
     </span>
     
     <progress id="progress-bar" value="0" max="100"></progress>

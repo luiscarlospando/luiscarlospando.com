@@ -45,14 +45,14 @@
         const btnReadMore = document.querySelector("#btn-read-more");
 
         if (collapseIntro && btnReadMore) {
-            collapseIntro.addEventListener("shown.bs.collapse", () => {
-                btnReadMore.innerHTML =
-                    '<i class="fa-solid fa-minus"></i> Leer menos';
-            });
-
-            collapseIntro.addEventListener("hidden.bs.collapse", () => {
-                btnReadMore.innerHTML =
-                    '<i class="fa-solid fa-plus"></i> Leer más';
+            btnReadMore.addEventListener("click", () => {
+                if (btnReadMore.getAttribute("aria-expanded") === "true") {
+                    btnReadMore.innerHTML =
+                        '<i class="fa-solid fa-minus"></i> Leer menos';
+                } else {
+                    btnReadMore.innerHTML =
+                        '<i class="fa-solid fa-plus"></i> Leer más';
+                }
             });
         }
 

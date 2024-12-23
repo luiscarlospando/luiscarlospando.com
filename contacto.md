@@ -79,7 +79,7 @@ Este es [mi perfil en Last.fm][8]{:rel="me" target="_blank"}.
 
 Este es [mi perfil en Reddit][9]{:rel="me" target="_blank"}.
 
-## <i class="fa-brands fa-twitch"></i> Twitch ![Twitch Status](https://img.shields.io/twitch/status/{{ site.twitch_username }}?style=flat&logo=twitch&logoColor=%23A172F7&link=https%3A%2F%2Fluiscarlospando.com%2Flive)
+## <i class="fa-brands fa-twitch"></i> Twitch [![Twitch Status](https://img.shields.io/twitch/status/{{ site.twitch_username }}?style=flat&logo=twitch&logoColor=%23A172F7&link=https%3A%2F%2Fluiscarlospando.com%2Flive)][10]{:rel="me" target="_blank"}
 
 [Tengo un canal en Twitch][10], que ya estoy usando, al fin. 🎉
 

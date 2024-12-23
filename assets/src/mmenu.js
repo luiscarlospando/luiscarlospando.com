@@ -32,7 +32,7 @@
             "La primera vez que fui a Las Vegas fue el año que cumplía 21 años pero no entré a ningún casino por ser todavía menor de edad",
             "Me gusta sacar canciones en la guitarra de oído 👂🎸",
             "No sabía que me gustaba tanto el cine hasta que conocí a mi esposa 🎬",
-            "No me metí a nadar a el mar sino hasta los 38 años",
+            "No me metí a nadar a el mar sino hasta los 38 años 🌊",
             "Mi comida favorita son los tacos 🌮",
             "Si hay un juego que pueda presumir que soy bueno jugando, es en Splatoon 🐙",
             "Para mi no existe videojuego más perfecto que The Legend of Zelda: A Link to the Past 🧚",

@@ -59,7 +59,7 @@ Este cotorreo de agendar llamada conmigo la neta no creo usarlo nunca, pero no h
 
 Este es [mi perfil en Threads][3]{:rel="me" target="_blank"}.
 
-## <i class="fa-brands fa-discord"></i> Discord ![](https://dcbadge.limes.pink/api/shield/86571896581132288?style=flat&theme=discord-inverted)
+## <i class="fa-brands fa-discord"></i> Discord [![](https://dcbadge.limes.pink/api/shield/86571896581132288?style=flat&theme=discord-inverted)][14]{:rel="me" target="_blank"}
 
 Mi username en Discord es <a href="{{ site.discord_profile }}" rel="me" target="_blank"><code>{{ site.discord_tag }}</code></a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (_feel free to join in!_).
 
@@ -92,7 +92,6 @@ En [Backloggd][11]{:rel="me" target="_blank"} llevo el control de los videojuego
 Este es [mi perfil público en Keybase][12]{:rel="me" target="_blank"}.
 
 [1]: /keys/
-
 [2]: https://instagram.com/{{ site.instagram_username }}
 [3]: https://threads.net/@{{ site.threads_username }}
 [4]: /mode-7/
@@ -105,3 +104,4 @@ Este es [mi perfil público en Keybase][12]{:rel="me" target="_blank"}.
 [11]: https://www.backloggd.com/u/{{ site.backloggd_username }}
 [12]: https://keybase.io/{{ site.keybase_username }}
 [13]: https://bsky.app/profile/{{ site.bluesky_username }}
+[14]: {{ site.discord_profile }}

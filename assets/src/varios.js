@@ -44,18 +44,15 @@
         const collapseIntro = document.getElementById("collapseIntro");
         const btnReadMore = document.querySelector("#btn-read-more");
 
-        // Using Intersection Observer API to detect when the element is expanded
         if (collapseIntro && btnReadMore) {
-            collapseIntro.addEventListener("show.bs.collapse", () => {
+            collapseIntro.addEventListener("shown.bs.collapse", () => {
                 btnReadMore.innerHTML =
                     '<i class="fa-solid fa-minus"></i> Leer menos';
             });
 
             collapseIntro.addEventListener("hidden.bs.collapse", () => {
-                if (btnReadMore.classList.contains("collapsed")) {
-                    btnReadMore.innerHTML =
-                        '<i class="fa-solid fa-plus"></i> Leer más';
-                }
+                btnReadMore.innerHTML =
+                    '<i class="fa-solid fa-plus"></i> Leer más';
             });
         }
 

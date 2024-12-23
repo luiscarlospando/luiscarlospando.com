@@ -53,7 +53,7 @@ Ok, de seguro ni supiste como llegaste aquí, pero eso no importa, agradecido es
 [4]: http://hitz-musik.net
 [5]: /acerca-de/
 [6]: https://www.backloggd.com/u/{{ site.backloggd_username }}
-[7]: /mode-7/
+[7]: /discord/
 [8]: /games/mario-kart/
 [9]: /live/
 [10]: https://social.lol/@{{ site.mastodon_username }}

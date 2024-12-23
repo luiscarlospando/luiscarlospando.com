@@ -48,10 +48,10 @@
             btnReadMore.addEventListener("click", () => {
                 if (btnReadMore.getAttribute("aria-expanded") === "true") {
                     btnReadMore.innerHTML =
-                        '<i class="fa-solid fa-minus"></i> Leer menos';
+                        '<i class="fa-solid fa-plus"></i> Leer más';
                 } else {
                     btnReadMore.innerHTML =
-                        '<i class="fa-solid fa-plus"></i> Leer más';
+                        '<i class="fa-solid fa-minus"></i> Leer menos';
                 }
             });
         }

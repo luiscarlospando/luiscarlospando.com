@@ -49,7 +49,7 @@
             "Admito que me gusta Taylor Swift 🎤",
             "No me gusta tomarme ni que me tomen fotos 📸",
             "Contrario a la creencia popular: soy muy introvertido 😩",
-            "Puedo vivir comiendo Chips fuego 🍟",
+            "Podría vivir comiendo Chips fuego por siempre 🍟",
             "Me gusta mucho Space Ghost: Coast to Coast y el Adult Swim de los '90s '2000s",
             "Extraño los días de MySpace 🧑‍💻",
             "Extraño los días de Limewire 🎧",
@@ -66,6 +66,12 @@
             "Tengo una bici que me gusta mucho pero no uso como quisiera 🚲",
             "Tengo tres tatuajes ✌️",
             "La mera neta si me gusta la weed, pa' qué me hago tonto 🚬",
+            "Tengo un Color TV-Game de Nintendo 🕹️",
+            "Soy emo y siempre seré emo 👨‍🎤",
+            "Me considero audiófilo 🙂‍↕️🎧",
+            "Extraño los días de la NBA de los '90s 🏀",
+            "Me enamoré a primera vista de mi esposa ❤️",
+            "La comida mexicana no tiene comparación 🇲🇽",
         ];
 
         // Function to get a random text from the randomFacts array

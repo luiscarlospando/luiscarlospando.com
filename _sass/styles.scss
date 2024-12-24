@@ -619,6 +619,11 @@ code {
     border-top-right-radius: 0;
 }
 
+// Avoid click propagation when clicking exactly on a Font Awesome .fa-solid icon
+.fa-solid {
+    pointer-events: none;
+}
+
 // Font Awesome external links icon
 .fa-arrow-up-right-from-square,
 .fa-external-link {

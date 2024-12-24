@@ -46,9 +46,15 @@
 
         if (collapseIntro && btnReadMore) {
             btnReadMore.addEventListener("click", (e) => {
-                // Make sure the click is handled correctly even if the click is made on a Font Awesome icon
-                const isExpanded = collapseIntro.classList.contains("show");
+                // If a click is made on the Font Awesome icon
+                if (e.target.tagName.toLowerCase() === "i") {
+                    // Emulate the click on the button
+                    e.preventDefault();
+                    btnReadMore.click();
+                }
 
+                // Update the button content
+                const isExpanded = collapseIntro.classList.contains("show");
                 btnReadMore.innerHTML = isExpanded
                     ? '<i class="fa-solid fa-plus"></i> Leer más'
                     : '<i class="fa-solid fa-minus"></i> Leer menos';

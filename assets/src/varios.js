@@ -45,19 +45,24 @@
         const btnReadMore = document.querySelector("#btn-read-more");
 
         if (collapseIntro && btnReadMore) {
-            btnReadMore.addEventListener("click", (e) => {
-                // If a click is made on the Font Awesome icon
-                if (e.target.tagName.toLowerCase() === "i") {
-                    // Emulate the click on the button
-                    e.preventDefault();
-                    btnReadMore.click();
+            // Handle the change of the state of the collapse event
+            $(collapseIntro).on(
+                "show.bs.collapse hide.bs.collapse",
+                function (e) {
+                    const isExpanding = e.type === "show";
+                    btnReadMore.innerHTML = isExpanding
+                        ? '<i class="fa-solid fa-minus"></i> Leer menos'
+                        : '<i class="fa-solid fa-plus"></i> Leer más';
                 }
+            );
 
-                // Update the button content
-                const isExpanded = collapseIntro.classList.contains("show");
-                btnReadMore.innerHTML = isExpanded
-                    ? '<i class="fa-solid fa-plus"></i> Leer más'
-                    : '<i class="fa-solid fa-minus"></i> Leer menos';
+            // Handle the click on the Font Awesome icon
+            btnReadMore.addEventListener("click", (e) => {
+                if (e.target.tagName.toLowerCase() === "i") {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    $(collapseIntro).collapse("toggle");
+                }
             });
         }
 

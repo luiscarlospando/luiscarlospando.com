@@ -23,7 +23,7 @@ También llevo un registro de toda [la música que escucho 🎧][12]{:rel="me" t
 Ok, de seguro ni supiste como llegaste aquí, pero eso no importa, agradecido estoy de que pases por aquí. ✨
 </div>
 
-<button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" href="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">
+<button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">
     <i class="fa-solid fa-plus"></i> Leer más
 </button>
 

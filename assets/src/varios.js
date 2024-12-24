@@ -46,18 +46,12 @@
 
         if (collapseIntro && btnReadMore) {
             btnReadMore.addEventListener("click", (e) => {
-                // Making sure the event is handled from the button (not the Font Awesome icon)
-                if (e.target !== btnReadMore) {
-                    e.currentTarget.click();
-                }
+                // Make sure the click is handled correctly even if the click is made on a Font Awesome icon
+                const isExpanded = collapseIntro.classList.contains("show");
 
-                if (btnReadMore.getAttribute("aria-expanded") === "true") {
-                    btnReadMore.innerHTML =
-                        '<i class="fa-solid fa-plus"></i> Leer más';
-                } else {
-                    btnReadMore.innerHTML =
-                        '<i class="fa-solid fa-minus"></i> Leer menos';
-                }
+                btnReadMore.innerHTML = isExpanded
+                    ? '<i class="fa-solid fa-plus"></i> Leer más'
+                    : '<i class="fa-solid fa-minus"></i> Leer menos';
             });
         }
 

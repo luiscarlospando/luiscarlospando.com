@@ -45,7 +45,12 @@
         const btnReadMore = document.querySelector("#btn-read-more");
 
         if (collapseIntro && btnReadMore) {
-            btnReadMore.addEventListener("click", () => {
+            btnReadMore.addEventListener("click", (e) => {
+                // Making sure the event is handled from the button (not the Font Awesome icon)
+                if (e.target !== btnReadMore) {
+                    e.currentTarget.click();
+                }
+
                 if (btnReadMore.getAttribute("aria-expanded") === "true") {
                     btnReadMore.innerHTML =
                         '<i class="fa-solid fa-plus"></i> Leer más';

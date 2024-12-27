@@ -168,6 +168,12 @@ function setupPagination() {
     const linksList = document.getElementById("links");
     if (!linksList) return;
 
+    // Remove existing pagination if it exists
+    const existingPagination = document.querySelector(".pagination");
+    if (existingPagination) {
+        existingPagination.remove();
+    }
+
     // Create pagination container
     const paginationContainer = document.createElement("div");
     paginationContainer.className = "pagination";
@@ -201,7 +207,7 @@ function setupPagination() {
         if (currentPage > 1) {
             currentPage--;
             renderPaginatedLinks();
-            setupPagination();
+            setupPagination(); // This is fine now because we remove the old pagination first
         }
     });
 
@@ -209,7 +215,7 @@ function setupPagination() {
         if (currentPage < totalPages) {
             currentPage++;
             renderPaginatedLinks();
-            setupPagination();
+            setupPagination(); // This is fine now because we remove the old pagination first
         }
     });
 }

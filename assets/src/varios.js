@@ -132,7 +132,7 @@
         // 2. It doesn't select links inside the header and footer
         // 3. It doesn't select links with the class of .btn
         // 4. It doesn't select links inside elements with the class of .mastodon
-        // 5. It doesn't select links inside elements with the class of .app-icon
+        // 5. It doesn't select links with the class of .btn-app-icon
         const links = document.querySelectorAll('a[target="_blank"]');
 
         links.forEach((link, index) => {

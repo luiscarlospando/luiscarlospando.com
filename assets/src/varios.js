@@ -132,7 +132,7 @@
         // 2. It doesn't select links inside the header and footer
         // 3. It doesn't select links with the class of .btn
         // 4. It doesn't select links inside elements with the class of .mastodon
-        // 5. It doesn't select links inside elements with the class of .uses
+        // 5. It doesn't select links inside elements with the class of .app-icon
         const links = document.querySelectorAll('a[target="_blank"]');
 
         links.forEach((link, index) => {
@@ -142,7 +142,7 @@
                 !link.closest("footer") &&
                 !link.classList.contains("btn") &&
                 !link.closest(".mastodon") &&
-                !link.closest(".uses")
+                !link.closest(".app-icon")
             ) {
                 console.log(`Link ${index}:`, {
                     href: link.href,
@@ -151,7 +151,7 @@
                     inHeader: link.closest("header"),
                     inFooter: link.closest("footer"),
                     inMastodon: link.closest(".mastodon"),
-                    inUses: link.closest(".uses"),
+                    inUses: link.closest(".app-icon"),
                 });
 
                 const icon = document.createElement("i");

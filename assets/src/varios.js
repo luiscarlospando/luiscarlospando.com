@@ -142,7 +142,7 @@
                 !link.closest("footer") &&
                 !link.classList.contains("btn") &&
                 !link.closest(".mastodon") &&
-                !link.closest(".app-icon")
+                !link.classList.contains(".app-icon")
             ) {
                 console.log(`Link ${index}:`, {
                     href: link.href,
@@ -151,7 +151,7 @@
                     inHeader: link.closest("header"),
                     inFooter: link.closest("footer"),
                     inMastodon: link.closest(".mastodon"),
-                    inUses: link.closest(".app-icon"),
+                    hasAppIcon: link.classList.contains(".app-icon"),
                 });
 
                 const icon = document.createElement("i");

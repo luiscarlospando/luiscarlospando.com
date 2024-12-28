@@ -142,7 +142,7 @@
                 !link.closest("footer") &&
                 !link.classList.contains("btn") &&
                 !link.closest(".mastodon") &&
-                !link.classList.contains(".btn-app-icon")
+                !link.classList.contains("btn-app-icon")
             ) {
                 console.log(`Link ${index}:`, {
                     href: link.href,

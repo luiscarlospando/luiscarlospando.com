@@ -119,8 +119,8 @@
 </head>
 <body>
     <span class="p-author h-card d-none">
-        <img class="u-photo" src="./assets/images/avatar.webp" alt="{{ site.author }}'s avatar">
-        <img class="u-logo" src="./assets/images/avatar.webp" alt="{{ site.author }}'s logo">
+        <img class="u-photo" src="{{ site.url }}/assets/images/avatar.webp" alt="{{ site.author }}'s avatar">
+        <img class="u-logo" src="{{ site.url }}/assets/images/avatar.webp" alt="{{ site.author }}'s logo">
         <a class="p-name" href="{{ site.url }}" rel="author">{{ site.author }}</a>
         <span class="p-note">{{ page.description }}</span>
         <a rel="me" class="u-url u-uid" href="{% if page.url == '/' %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">Permalink</a>

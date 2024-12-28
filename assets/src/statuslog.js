@@ -9,8 +9,8 @@ dayjs.extend(relativeTime);
 
 // Constants
 const API_URL = "https://api.omg.lol/address/mijo/statuses/";
-const CACHE_DURATION = 180000; // 3 minutes in milliseconds
-const UPDATE_INTERVAL = 180000; // 3 minutes in milliseconds
+const CACHE_DURATION = 30000; // 30 segundos para pruebas
+const UPDATE_INTERVAL = 30000; // 30 segundos para pruebas
 
 // Caching data
 const statusCache = {

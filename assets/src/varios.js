@@ -75,15 +75,31 @@ import { initStatusManager } from "./statuslog.js";
         $('[data-toggle="tooltip"]').tooltip();
 
         // Progress bar
-        $(window).scroll(function () {
-            let s = $(window).scrollTop(),
-                d = $(document).height(),
-                c = $(window).height();
-            scrollPercent = (s / (d - c)) * 100;
-            let position = scrollPercent;
+        function updateProgressBar() {
+            const progressBar = document.getElementById("progress-bar");
+            if (!progressBar) return;
 
-            $("#progress-bar").attr("value", position);
-        });
+            window.addEventListener(
+                "scroll",
+                () => {
+                    // Total page height minus total window height
+                    const totalHeight =
+                        document.documentElement.scrollHeight -
+                        window.innerHeight;
+                    // Current scroll position
+                    const scrollPosition = window.scrollY;
+                    // Percentage calculation
+                    const scrollPercent = (scrollPosition / totalHeight) * 100;
+
+                    // Updates the progress bar value
+                    progressBar.value = scrollPercent;
+                },
+                { passive: true }
+            ); // Passive: true improves scroll performance
+        }
+
+        // Run progress bar function
+        updateProgressBar();
 
         // Responsive YouTube embeds
         const youtubePlayers = document.querySelectorAll(".youtube-player");

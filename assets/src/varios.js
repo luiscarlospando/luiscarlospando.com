@@ -151,7 +151,7 @@
                     inHeader: link.closest("header"),
                     inFooter: link.closest("footer"),
                     inMastodon: link.closest(".mastodon"),
-                    hasBtnAppIcon: link.classList.contains(".btn-app-icon"),
+                    hasBtnAppIcon: link.classList.contains("btn-app-icon"),
                 });
 
                 const icon = document.createElement("i");

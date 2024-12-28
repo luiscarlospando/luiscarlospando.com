@@ -1,3 +1,5 @@
+import { initStatusManager } from "./statuslog.js";
+
 (function () {
     let ready = (callback) => {
         if (document.readyState != "loading") callback();
@@ -6,6 +8,9 @@
 
     ready(() => {
         /* Do things after DOM has fully loaded */
+
+        // Run Statuslog main function
+        initStatusManager();
 
         // Remove the focus on burger button
         const btnBurger = document.getElementById("btn-burger");

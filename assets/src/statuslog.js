@@ -64,14 +64,14 @@ function renderStatus(data) {
 // Main function to show the latest status
 async function displayLatestStatus() {
     try {
-        // Verificar cache
+        // Verify cache
         const now = Date.now();
         if (statusCache.data && now - statusCache.timestamp < CACHE_DURATION) {
             renderStatus(statusCache.data);
             return;
         }
 
-        // Hacer fetch de nuevos datos
+        // Fetch new data
         const response = await fetchWithRetry(API_URL, {
             method: "GET",
             headers: { "Content-type": "application/json;charset=UTF-8" },
@@ -80,7 +80,7 @@ async function displayLatestStatus() {
 
         const data = await response.json();
 
-        // Actualizar cache
+        // Update cache
         statusCache.data = data;
         statusCache.timestamp = now;
 

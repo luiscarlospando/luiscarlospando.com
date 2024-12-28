@@ -1,7 +1,7 @@
 ---
 layout: uses
 title: Uses
-description: Este es una lista de las cosas que uso diariamente. Me gusta descubrir y probar nuevas apps para mejorar mi productividad. ¿Tienes alguna sugerencia?
+description: Este es el stack de apps que uso en mi día a día, me gusta mucho descubrir y probar apps interesantes, así que si tienes sugerencias, por favor adelante.
 image: /assets/images/logo.png
 permalink: /uses/
 last-modified-at: <span id="last-updated-at">2024-12-27 22:28:50</span>
@@ -13,7 +13,7 @@ last-modified-at: <span id="last-updated-at">2024-12-27 22:28:50</span>
 </div>
 </div>
 
-Este es una lista de las cosas que uso diariamente. Me gusta descubrir y probar nuevas apps para mejorar mi productividad. ¿Tienes alguna [sugerencia][1]? Pst, pst, [así mero se ve mi dock ahorita][2]. 😉
+Este es el stack de apps que uso en mi día a día, me gusta mucho descubrir y probar apps interesantes, así que si tienes sugerencias, [por favor adelante][1]. Por cierto, [así mero se ve mi dock ahorita][2]. 😉
 
 [1]: /contacto/
 [2]: https://www.dockhunt.com/users/mijo

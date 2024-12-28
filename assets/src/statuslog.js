@@ -9,8 +9,8 @@ dayjs.extend(relativeTime);
 
 // Constants
 const API_URL = "https://api.omg.lol/address/mijo/statuses/";
-const CACHE_DURATION = 300000; // 5 minutes in milliseconds
-const UPDATE_INTERVAL = 300000; // 5 minutes in milliseconds
+const CACHE_DURATION = 180000; // 3 minutes in milliseconds
+const UPDATE_INTERVAL = 180000; // 3 minutes in milliseconds
 
 // Caching data
 const statusCache = {
@@ -62,37 +62,62 @@ function renderStatus(data) {
 }
 
 // Main function to show the latest status
-async function displayLatestStatus() {
+async function displayLatestStatus(forceUpdate = false) {
     try {
-        // Verify cache
         const now = Date.now();
-        if (statusCache.data && now - statusCache.timestamp < CACHE_DURATION) {
+
+        // Only use cache if it's valid and it's not forced
+        if (
+            !forceUpdate &&
+            statusCache.data &&
+            now - statusCache.timestamp < CACHE_DURATION
+        ) {
             renderStatus(statusCache.data);
             return;
         }
 
-        // Fetch new data
+        // Show loading indicator
+        const statusElement = document.getElementById("status");
+        if (statusElement) {
+            statusElement.classList.add("updating"); // Add updating styles
+        }
+
         const response = await fetchWithRetry(API_URL, {
             method: "GET",
             headers: { "Content-type": "application/json;charset=UTF-8" },
-            cache: "force-cache",
+            cache: forceUpdate ? "no-cache" : "force-cache", // Don't use cache if the update is forced
         });
 
         const data = await response.json();
 
-        // Update cache
         statusCache.data = data;
         statusCache.timestamp = now;
 
         renderStatus(data);
+
+        // Remove loading indicator
+        if (statusElement) {
+            statusElement.classList.remove("updating");
+        }
     } catch (error) {
         console.error("Error al cargar el estado:", error);
-        document.getElementById("status").innerHTML = `
-            <div id="container" class="text-center">
-                <p>Error al cargar el estado. Intentando de nuevo...</p>
-            </div>
-        `;
+        const statusElement = document.getElementById("status");
+        if (statusElement) {
+            statusElement.innerHTML = `
+                <div id="container" class="text-center">
+                    <p>Error al cargar el estado. Intentando de nuevo...</p>
+                    <button class="btn btn-primary" onclick="window.forceStatusUpdate()">
+                        <i class="fa-solid fa-rotate-right"></i> Reintentar
+                    </button>
+                </div>
+            `;
+        }
     }
+}
+
+// Function to remove the update
+function forceStatusUpdate() {
+    return displayLatestStatus(true);
 }
 
 // Configure observer for lazy loading
@@ -114,7 +139,6 @@ function setupIntersectionObserver() {
 
 // Initialization function
 function initStatusManager() {
-    // Show initial loading status
     const statusElement = document.getElementById("status");
     if (statusElement) {
         statusElement.innerHTML = `
@@ -124,12 +148,28 @@ function initStatusManager() {
         `;
     }
 
-    // Configure the observer
+    // Exposes forced update function globally
+    window.forceStatusUpdate = forceStatusUpdate;
+
     setupIntersectionObserver();
 
-    // Configure periodic updates
-    setInterval(displayLatestStatus, UPDATE_INTERVAL);
+    // First load
+    displayLatestStatus();
+
+    // Periodic updates
+    setInterval(() => displayLatestStatus(), UPDATE_INTERVAL);
+
+    // Variable to store the interval
+    let updateInterval;
+
+    // Clean the previous interval if it exists
+    if (updateInterval) {
+        clearInterval(updateInterval);
+    }
+
+    // Set new interval
+    updateInterval = setInterval(() => displayLatestStatus(), UPDATE_INTERVAL);
 }
 
 // Export required functions
-export { initStatusManager, displayLatestStatus };
+module.exports = { initStatusManager, displayLatestStatus, forceStatusUpdate };

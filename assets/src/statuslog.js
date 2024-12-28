@@ -66,16 +66,24 @@ async function displayLatestStatus(forceUpdate = false) {
     try {
         const now = Date.now();
 
+        // Añadir más logs para debugging
+        console.log("Timestamp actual:", now);
+        console.log("Último timestamp:", statusCache.timestamp);
+        console.log("Diferencia:", now - statusCache.timestamp);
+        console.log("¿Forzar actualización?:", forceUpdate);
+        console.log("¿Hay datos en caché?:", !!statusCache.data);
+
+        // Comentar temporalmente la verificación del caché
         // Only use cache if it's valid and it's not forced
-        if (
+        /*if (
             !forceUpdate &&
             statusCache.data &&
             now - statusCache.timestamp < CACHE_DURATION
         ) {
-            console.log("📦 Usando datos en caché");
+            console.log('📦 Usando datos en caché');
             renderStatus(statusCache.data);
             return;
-        }
+        }*/
 
         console.log("🔄 Haciendo nueva petición a la API");
 
@@ -88,7 +96,8 @@ async function displayLatestStatus(forceUpdate = false) {
         const response = await fetchWithRetry(API_URL, {
             method: "GET",
             headers: { "Content-type": "application/json;charset=UTF-8" },
-            cache: forceUpdate ? "no-cache" : "force-cache", // Don't use cache if the update is forced
+            // cache: forceUpdate ? "no-cache" : "force-cache", // Don't use cache if the update is forced
+            cache: "no-store", // Forzar que no use caché del navegador
         });
 
         const data = await response.json();
@@ -142,6 +151,8 @@ function setupIntersectionObserver() {
 
 // Initialization function
 function initStatusManager() {
+    console.log("🚀 Iniciando StatusManager");
+
     const statusElement = document.getElementById("status");
     if (statusElement) {
         statusElement.innerHTML = `
@@ -161,9 +172,15 @@ function initStatusManager() {
 
     // Periodic updates (only one setInterval)
     const updateInterval = setInterval(() => {
-        console.log("🔄 Actualizando estado automáticamente..."); // For debugging
-        displayLatestStatus();
+        console.log(
+            "⏰ Ejecutando actualización programada:",
+            new Date().toLocaleTimeString()
+        );
+        displayLatestStatus(true); // Forzar actualización
     }, UPDATE_INTERVAL);
+
+    // Verificar que el intervalo se creó
+    console.log("✅ Intervalo configurado");
 }
 
 // Export required functions

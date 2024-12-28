@@ -72,9 +72,12 @@ async function displayLatestStatus(forceUpdate = false) {
             statusCache.data &&
             now - statusCache.timestamp < CACHE_DURATION
         ) {
+            console.log("📦 Usando datos en caché");
             renderStatus(statusCache.data);
             return;
         }
+
+        console.log("🔄 Haciendo nueva petición a la API");
 
         // Show loading indicator
         const statusElement = document.getElementById("status");
@@ -156,19 +159,11 @@ function initStatusManager() {
     // First load
     displayLatestStatus();
 
-    // Periodic updates
-    setInterval(() => displayLatestStatus(), UPDATE_INTERVAL);
-
-    // Variable to store the interval
-    let updateInterval;
-
-    // Clean the previous interval if it exists
-    if (updateInterval) {
-        clearInterval(updateInterval);
-    }
-
-    // Set new interval
-    updateInterval = setInterval(() => displayLatestStatus(), UPDATE_INTERVAL);
+    // Periodic updates (only one setInterval)
+    const updateInterval = setInterval(() => {
+        console.log("🔄 Actualizando estado automáticamente..."); // For debugging
+        displayLatestStatus();
+    }, UPDATE_INTERVAL);
 }
 
 // Export required functions

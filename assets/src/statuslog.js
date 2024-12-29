@@ -85,7 +85,7 @@ async function displayLatestStatus(forceUpdate = false) {
         }
 
         console.log(
-            "🔄 Haciendo nueva petición a la API:",
+            "🔄 Haciendo nueva petición a la API de omg.lol:",
             new Date().toLocaleTimeString()
         );
 

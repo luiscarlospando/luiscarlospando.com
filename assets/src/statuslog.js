@@ -9,8 +9,8 @@ dayjs.extend(relativeTime);
 
 // Constants
 const API_URL = "https://api.omg.lol/address/mijo/statuses/";
-const CACHE_DURATION = 30000; // 30 segundos para pruebas
-const UPDATE_INTERVAL = 30000; // 30 segundos para pruebas
+const CACHE_DURATION = 180000; // 3 minnutes
+const UPDATE_INTERVAL = 180000; // 3 minnutes
 
 // Caching data
 const statusCache = {
@@ -66,26 +66,28 @@ async function displayLatestStatus(forceUpdate = false) {
     try {
         const now = Date.now();
 
-        // Añadir más logs para debugging
+        // Add logs for debugging
         console.log("Timestamp actual:", now);
         console.log("Último timestamp:", statusCache.timestamp);
         console.log("Diferencia:", now - statusCache.timestamp);
         console.log("¿Forzar actualización?:", forceUpdate);
         console.log("¿Hay datos en caché?:", !!statusCache.data);
 
-        // Comentar temporalmente la verificación del caché
         // Only use cache if it's valid and it's not forced
-        /*if (
+        if (
             !forceUpdate &&
             statusCache.data &&
             now - statusCache.timestamp < CACHE_DURATION
         ) {
-            console.log('📦 Usando datos en caché');
+            console.log("📦 Usando datos en caché");
             renderStatus(statusCache.data);
             return;
-        }*/
+        }
 
-        console.log("🔄 Haciendo nueva petición a la API");
+        console.log(
+            "🔄 Haciendo nueva petición a la API:",
+            new Date().toLocaleTimeString()
+        );
 
         // Show loading indicator
         const statusElement = document.getElementById("status");
@@ -96,8 +98,7 @@ async function displayLatestStatus(forceUpdate = false) {
         const response = await fetchWithRetry(API_URL, {
             method: "GET",
             headers: { "Content-type": "application/json;charset=UTF-8" },
-            // cache: forceUpdate ? "no-cache" : "force-cache", // Don't use cache if the update is forced
-            cache: "no-store", // Forzar que no use caché del navegador
+            cache: forceUpdate ? "no-store" : "default", // Allow cache only when it's not forced
         });
 
         const data = await response.json();
@@ -112,7 +113,7 @@ async function displayLatestStatus(forceUpdate = false) {
             statusElement.classList.remove("updating");
         }
     } catch (error) {
-        console.error("Error al cargar el estado:", error);
+        console.error("Error al actualizar el estado:", error);
         const statusElement = document.getElementById("status");
         if (statusElement) {
             statusElement.innerHTML = `
@@ -170,16 +171,16 @@ function initStatusManager() {
     // First load
     displayLatestStatus();
 
-    // Periodic updates (only one setInterval)
+    // Periodic updates
     const updateInterval = setInterval(() => {
         console.log(
-            "⏰ Ejecutando actualización programada:",
+            "⏰ Actualización programada:",
             new Date().toLocaleTimeString()
         );
-        displayLatestStatus(true); // Forzar actualización
+        displayLatestStatus(true);
     }, UPDATE_INTERVAL);
 
-    // Verificar que el intervalo se creó
+    // Verify that the interval was created
     console.log("✅ Intervalo configurado");
 }
 

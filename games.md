@@ -49,9 +49,9 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 <div class="row">
 <div class="col-6 my-auto">
 <ul class="list-unstyled">
-<li>*Dragon Quest III HD-2D Remake*</li>
-<li>*Grand Theft Auto: Vice City - The Definitive Edition*</li>
-<li>*Grand Theft Auto: San Andreas - The Definitive Edition*</li>
+<li><em>Dragon Quest III HD-2D Remake</em></li>
+<li><em>Grand Theft Auto: Vice City - The Definitive Edition</em></li>
+<li><em>Grand Theft Auto: San Andreas - The Definitive Edition</em></li>
 </ul>
 </div>
 <div class="col-6 my-auto text-monospace">

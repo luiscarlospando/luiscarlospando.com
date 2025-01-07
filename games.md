@@ -4,7 +4,7 @@ title: Games
 description: Esto es lo que estoy jugando actualmente y estos son mis perfiles de Discord, Nintendo Switch y Backloggd.
 image: /assets/images/logo-games.png
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2025-01-07 16:17:21</span>
+last-modified-at: <span id="last-updated-at">2025-01-07 16:21:32</span>
 ---
 
 <div class="text-center">
@@ -48,9 +48,11 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
-*Dragon Quest III HD-2D Remake*
-*Grand Theft Auto: Vice City*
-*Grand Theft Auto: San Andreas*
+<ul class="list-unstyled">
+<li>*Dragon Quest III HD-2D Remake*</li>
+<li>*Grand Theft Auto: Vice City - The Definitive Edition*</li>
+<li>*Grand Theft Auto: San Andreas - The Definitive Edition*</li>
+</ul>
 </div>
 <div class="col-6 my-auto text-monospace">
 (Offline)

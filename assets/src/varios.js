@@ -157,13 +157,17 @@ import { initStatusManager } from "./statuslog.js";
         const links = document.querySelectorAll('a[target="_blank"]');
 
         links.forEach((link, index) => {
+            // Add check for img tag inside the link
+            const hasImage = link.querySelector("img");
+
             // Verify that the link is NOT in any of the exclusion conditions
             if (
                 !link.closest("header") &&
                 !link.closest("footer") &&
                 !link.classList.contains("btn") &&
                 !link.closest(".mastodon") &&
-                !link.classList.contains("btn-app-icon")
+                !link.classList.contains("btn-app-icon") &&
+                !hasImage
             ) {
                 console.log(`Link ${index}:`, {
                     href: link.href,
@@ -173,6 +177,7 @@ import { initStatusManager } from "./statuslog.js";
                     inFooter: link.closest("footer"),
                     inMastodon: link.closest(".mastodon"),
                     hasBtnAppIcon: link.classList.contains("btn-app-icon"),
+                    hasImage: hasImage,
                 });
 
                 const icon = document.createElement("i");

@@ -27,7 +27,7 @@ async function displayLatestPosts() {
             const postsHTML = data
                 .map((post) => {
                     const postDate = dayjs(post.date).format("D MMM, YYYY");
-                    return `<li><a class="post-date badge badge-dark" href="${post.link}">${postDate}</a> <a href="${post.link}" title="${post.title.rendered}">${post.title.rendered}</a></li>`;
+                    return `<li><a class="post-date badge badge-dark" href="${post.link}">${postDate}</a> <a href="${post.link}" title="${post.title.rendered}" target="_self">${post.title.rendered}</a></li>`;
                 })
                 .join("");
 
@@ -65,7 +65,7 @@ async function displayMode7LatestPost() {
             console.log(
                 "✅ #mode-7-podcast-latest-episode si existe en el DOM"
             );
-            latestEpisodeEl.innerHTML = `<a class="btn btn-primary" href="${data[0].link}" title="${data[0].title.rendered}"><i class="fa-solid fa-play"></i> ${data[0].title.rendered}</a>`;
+            latestEpisodeEl.innerHTML = `<a class="btn btn-primary" href="${data[0].link}" title="${data[0].title.rendered}" target="_self"><i class="fa-solid fa-play"></i> ${data[0].title.rendered}</a>`;
         } else {
             console.log(
                 "❌ #mode-7-podcast-latest-episode no existe en el DOM"

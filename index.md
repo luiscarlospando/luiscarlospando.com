@@ -33,7 +33,7 @@ Ok, de seguro ni supiste como llegaste aquí, pero eso no importa, agradecido es
 
 <ul id="latest-posts"></ul>
 
-<a class="btn btn-primary" href="https://blog.{{ site.domain }}/">
+<a class="btn btn-primary" href="https://blog.{{ site.domain }}/" target="_self">
     <i class="fa-solid fa-list-ul"></i> Ver todos
 </a>
 

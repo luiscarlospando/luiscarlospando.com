@@ -29,22 +29,22 @@ Ok, de seguro ni supiste como llegaste aquí, pero eso no importa, agradecido es
 
 ---
 
-<h2>Blog</h2>
+<h2><i class="fa-solid fa-rss"></i> Blog</h2>
 
 <ul id="latest-posts"></ul>
 
 <a class="btn btn-primary" href="https://blog.{{ site.domain }}/">
-    <i class="fa-solid fa-comment"></i> Ver todos
+    <i class="fa-solid fa-list-ul"></i> Ver todos
 </a>
 
 ---
 
-<h2>Links</h2>
+<h2><i class="fa-solid fa-link"></i> Links</h2>
 
 <ul id="bookmarks"></ul>
 
 <a class="btn btn-primary" href="https://{{ site.domain }}/links/">
-    <i class="fa-solid fa-link"></i> Ver todos
+    <i class="fa-solid fa-list-ul"></i> Ver todos
 </a>
 
 [1]: https://es.wikipedia.org/wiki/Chihuahua_(Chihuahua)

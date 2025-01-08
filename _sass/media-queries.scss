@@ -76,8 +76,7 @@
         padding: 12px 15px;
     }
 
-    .w-md-50,
-    .w-lg-50 {
+    .w-md-50 {
         width: 50%;
     }
 }
@@ -110,6 +109,10 @@
         border-radius: $borderRadius;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
+    }
+
+    .w-lg-50 {
+        width: 50%;
     }
 }
 

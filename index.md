@@ -29,7 +29,7 @@ Ok, de seguro ni supiste como llegaste aquí, pero eso no importa, agradecido es
 
 ---
 
-<h2>Últimos posts</h2>
+<h2>Blog</h2>
 
 <ul id="latest-posts"></ul>
 

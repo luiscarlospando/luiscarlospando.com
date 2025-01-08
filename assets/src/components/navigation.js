@@ -17,61 +17,61 @@ function Navigation() {
             text: "Blog",
             subButtons: [
                 {
-                    id: "1",
+                    id: "2-1",
                     url: "https://blog.luiscarlospando.com/personal/",
                     icon: "fa-solid fa-user",
                     text: "Personal",
                 },
                 {
-                    id: "2",
+                    id: "2-2",
                     url: "https://blog.luiscarlospando.com/musica/",
                     icon: "fa-solid fa-music",
                     text: "Música",
                 },
                 {
-                    id: "3",
+                    id: "2-3",
                     url: "https://blog.luiscarlospando.com/gaming/",
                     icon: "fa-solid fa-gamepad",
                     text: "Gaming",
                 },
                 {
-                    id: "4",
+                    id: "2-4",
                     url: "https://blog.luiscarlospando.com/tech/",
                     icon: "fa-solid fa-computer",
                     text: "Tech",
                 },
                 {
-                    id: "5",
+                    id: "2-5",
                     url: "https://blog.luiscarlospando.com/coding/",
                     icon: "fa-solid fa-code",
                     text: "Coding",
                 },
                 {
-                    id: "6",
+                    id: "2-6",
                     url: "https://blog.luiscarlospando.com/diseno/",
                     icon: "fa-solid fa-pen-ruler",
                     text: "Diseño",
                 },
                 {
-                    id: "7",
+                    id: "2-7",
                     url: "https://blog.luiscarlospando.com/todo-lo-demas/",
                     icon: "fa-solid fa-arrow-pointer",
                     text: "Todo lo demás",
                 },
                 {
-                    id: "8",
+                    id: "2-8",
                     url: "https://blog.luiscarlospando.com/author/me/",
                     icon: "fa-solid fa-folder-open",
                     text: "Archivos del blog",
                 },
                 {
-                    id: "9",
+                    id: "2-9",
                     url: "https://blog.luiscarlospando.com/hashtags/",
                     icon: "fa-solid fa-hashtag",
                     text: "Explorar por hashtag",
                 },
                 {
-                    id: "10",
+                    id: "2-10",
                     url: "https://blog.luiscarlospando.com/rss/",
                     icon: "fa-solid fa-square-rss",
                     text: "RSS",
@@ -88,7 +88,7 @@ function Navigation() {
         {
             id: "4",
             url: "https://luiscarlospando.com/contacto/",
-            icon: "fa-solid fa-envelope",
+            icon: "fa-solid fa-address-card",
             text: "Contacto",
             subButtons: [],
         },
@@ -120,7 +120,7 @@ function Navigation() {
             text: "Discord (Mode 7)",
             subButtons: [
                 {
-                    id: "1",
+                    id: "8-1",
                     url: "https://blog.luiscarlospando.com/hashtag/mode-7-podcast/",
                     icon: "fa-solid fa-podcast",
                     text: "Mode 7 Podcast",
@@ -134,13 +134,13 @@ function Navigation() {
             text: "Games",
             subButtons: [
                 {
-                    id: "1",
+                    id: "9-1",
                     url: "https://luiscarlospando.com/games/mario-kart/",
                     icon: "fa-solid fa-gamepad",
                     text: "Mario Kart 8 Deluxe (Mode 7 Grand Prix)",
                 },
                 {
-                    id: "2",
+                    id: "9-2",
                     url: "https://luiscarlospando.com/games/splatoon/",
                     icon: "fa-solid fa-gamepad",
                     text: "Splatoon 3",

@@ -4,7 +4,7 @@ title: Uses
 description: Este es el stack de apps que uso en mi día a día, me gusta mucho descubrir y probar apps interesantes, así que si tienes sugerencias, por favor adelante.
 image: /assets/images/logo.png
 permalink: /uses/
-last-modified-at: <span id="last-updated-at">2024-12-27 22:28:50</span>
+last-modified-at: <span id="last-updated-at">2025-01-11 13:51:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">

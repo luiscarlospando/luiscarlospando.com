@@ -7,7 +7,7 @@ dayjs.extend(relativeTime);
 
 // Configuration
 const RSS_URL = "https://bg.raindrop.io/rss/public/50598757";
-const CORS_PROXY = "https://corsproxy.io/?";
+const CORS_PROXY = "https://api.codetabs.com/v1/proxy?quest=";
 const MAX_POSTS = 5;
 const ITEMS_PER_PAGE = 10;
 

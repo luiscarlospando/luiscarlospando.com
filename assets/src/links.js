@@ -90,9 +90,20 @@ async function displayContent() {
 async function fetchRSSFeed() {
   try {
     console.log("🔄 Attempting to fetch RSS feed...");
-    console.log("📡 Full URL:", CORS_PROXY + encodeURIComponent(RSS_URL));
 
-    const response = await fetch(CORS_PROXY + encodeURIComponent(RSS_URL));
+    const response = await fetch(
+      "https://api.allorigins.win/get?url=" + encodeURIComponent(RSS_URL),
+      {
+        method: "GET",
+        mode: "cors",
+        headers: {
+          Accept: "*/*",
+          "Content-Type": "application/json",
+        },
+        cache: "no-cache",
+      },
+    );
+
     console.log("📡 Response status:", response.status);
 
     if (!response.ok) {
@@ -100,17 +111,9 @@ async function fetchRSSFeed() {
     }
 
     const jsonResponse = await response.json();
-    console.log("✅ RSS feed fetched successfully");
-
-    // With allorigins 'get' endpoint, the actual content is in the 'contents' property
     return jsonResponse.contents;
   } catch (error) {
     console.error("❌ Error fetching RSS feed:", error);
-    console.error("❌ Full error details:", {
-      message: error.message,
-      stack: error.stack,
-      url: CORS_PROXY + encodeURIComponent(RSS_URL),
-    });
     throw error;
   }
 }

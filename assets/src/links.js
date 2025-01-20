@@ -39,12 +39,15 @@ function checkElements() {
 
 // Function to set a loading state
 function setLoadingState(isLoading) {
+  console.log("🔄 setLoadingState called with isLoading:", isLoading);
   const elements = ["bookmarks", "links"];
 
   elements.forEach((id) => {
     const element = document.getElementById(id);
+    console.log(`🔍 Looking for #${id} element:`, !!element);
     if (element) {
       if (isLoading) {
+        console.log(`📝 Setting loading state HTML for #${id}`);
         element.innerHTML = `
           <li class="loading-state">
               <i class="fas fa-spinner fa-spin"></i> Cargando los links...
@@ -60,10 +63,13 @@ async function displayContent() {
 
   if (!hasBookmarks && !hasLinks) return;
 
+  console.log("⭐ displayContent started");
+
   // Show loading state
   setLoadingState(true);
 
   try {
+    console.log("Fetching links...");
     const data = await fetchRSSFeed();
     allItems = parseItems(data);
 

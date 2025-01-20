@@ -7,6 +7,7 @@ dayjs.extend(relativeTime);
 
 // Configuration
 const RSS_URL = "https://bg.raindrop.io/rss/public/50598757";
+const API_URL = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(RSS_URL)}`;
 const CORS_PROXY = "https://api.allorigins.win/get?url=";
 const MAX_POSTS = 5;
 const ITEMS_PER_PAGE = 10;
@@ -91,27 +92,18 @@ async function fetchRSSFeed() {
   try {
     console.log("🔄 Attempting to fetch RSS feed...");
 
-    const response = await fetch(
-      "https://api.allorigins.win/get?url=" + encodeURIComponent(RSS_URL),
-      {
-        method: "GET",
-        mode: "cors",
-        headers: {
-          Accept: "*/*",
-          "Content-Type": "application/json",
-        },
-        cache: "no-cache",
-      },
-    );
-
+    const response = await fetch(API_URL);
     console.log("📡 Response status:", response.status);
 
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
 
-    const jsonResponse = await response.json();
-    return jsonResponse.contents;
+    const data = await response.json();
+    console.log("✅ RSS feed fetched successfully");
+
+    // You might need to adjust the parsing function to handle the new format
+    return data.items ? data : data.feed;
   } catch (error) {
     console.error("❌ Error fetching RSS feed:", error);
     throw error;

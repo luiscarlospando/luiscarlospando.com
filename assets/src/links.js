@@ -94,7 +94,7 @@ async function displayContent() {
 async function fetchRSSFeed() {
   try {
     console.log("🔄 Attempting to fetch RSS feed...");
-    console.log("📡 Requesting URL:", API_URL);
+    console.log("📡 Full request URL:", API_URL);
 
     const response = await fetch(API_URL, {
       method: "GET",
@@ -104,16 +104,25 @@ async function fetchRSSFeed() {
     });
 
     console.log("📡 Response status:", response.status);
+    console.log("📡 Response headers:", [...response.headers.entries()]);
 
     if (!response.ok) {
+      const errorText = await response.text();
+      console.error("📡 Error response body:", errorText);
       throw new Error(`HTTP error! status: ${response.status}`);
     }
 
     const data = await response.text();
-    console.log("✅ RSS feed fetched successfully");
+    console.log("✅ RSS feed length:", data.length);
+    console.log("✅ RSS feed first 100 characters:", data.substring(0, 100));
     return data;
   } catch (error) {
     console.error("❌ Error fetching RSS feed:", error);
+    console.error("❌ Error details:", {
+      message: error.message,
+      stack: error.stack,
+      url: API_URL,
+    });
     throw error;
   }
 }

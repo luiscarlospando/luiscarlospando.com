@@ -8,7 +8,6 @@ dayjs.extend(relativeTime);
 // Configuration
 const RSS_URL = "https://bg.raindrop.io/rss/public/50598757";
 const API_URL = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(RSS_URL)}`;
-const CORS_PROXY = "https://api.allorigins.win/get?url=";
 const MAX_POSTS = 5;
 const ITEMS_PER_PAGE = 10;
 
@@ -91,7 +90,6 @@ async function displayContent() {
 async function fetchRSSFeed() {
   try {
     console.log("🔄 Attempting to fetch RSS feed...");
-
     const response = await fetch(API_URL);
     console.log("📡 Response status:", response.status);
 
@@ -100,37 +98,27 @@ async function fetchRSSFeed() {
     }
 
     const data = await response.json();
-    console.log("✅ RSS feed fetched successfully");
-
-    // You might need to adjust the parsing function to handle the new format
-    return data.items ? data : data.feed;
+    console.log("✅ RSS feed fetched successfully", data);
+    return data;
   } catch (error) {
     console.error("❌ Error fetching RSS feed:", error);
     throw error;
   }
 }
 
-// Parsing the XML to JavaScript objects
-function parseItems(xml) {
+// Parsing the items to JSON format
+function parseItems(data) {
   try {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(xml, "text/xml");
-
-    // Check for parsing errors
-    const parseError = doc.querySelector("parsererror");
-    if (parseError) {
-      throw new Error("XML parsing failed");
+    if (!data.items || !Array.isArray(data.items)) {
+      console.error("Invalid data format:", data);
+      return [];
     }
 
-    const items = doc.querySelectorAll("item");
-    return Array.from(items).map((item) => {
-      const pubDate = item.querySelector("pubDate")?.textContent;
-      return {
-        title: item.querySelector("title")?.textContent || "",
-        link: item.querySelector("link")?.textContent || "",
-        date: pubDate || "",
-      };
-    });
+    return data.items.map((item) => ({
+      title: item.title || "",
+      link: item.link || "",
+      date: item.pubDate || "",
+    }));
   } catch (error) {
     console.error("Error parsing RSS feed:", error);
     return [];

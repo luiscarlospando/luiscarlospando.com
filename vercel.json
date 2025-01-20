@@ -15,12 +15,5 @@
         }
       ]
     }
-  ],
-  "build": {
-    "env": {
-      "JEKYLL_ENV": "production"
-    }
-  },
-  "buildCommand": "npm install && npm run build && jekyll build",
-  "outputDirectory": "_site"
+  ]
 }

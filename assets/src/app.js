@@ -4,7 +4,10 @@
  * Made with love in Chihuahua, Mexico.
  */
 
-/* App dependencies */
+// Vercel Speed Insights
+import { injectSpeedInsights } from "@vercel/speed-insights";
+
+// App dependencies
 import "bootstrap";
 import "./lastfm.jquery";
 import "./jquery.rss.min";
@@ -25,7 +28,10 @@ import "./scroll-events";
 import "./back-to-top";
 import "./varios";
 
-/* React components */
+// React components
 import "./components/navigation";
 import "./components/currentlyListening";
 import "./components/backToTop";
+
+// Run Vercel Speed Insights
+injectSpeedInsights();

@@ -6,9 +6,7 @@ const relativeTime = require("dayjs/plugin/relativeTime");
 dayjs.extend(relativeTime);
 
 // Configuration
-const RSS_URL = "https://bg.raindrop.io/rss/public/50598757";
-const CORS_PROXY = "https://api.allorigins.win/raw?url=";
-const API_URL = CORS_PROXY + encodeURIComponent(RSS_URL);
+const BOOKMARKS_API = "/api/getBookmarkedLinks";
 const MAX_POSTS = 5;
 const ITEMS_PER_PAGE = 10;
 
@@ -93,18 +91,12 @@ async function displayContent() {
 // Get the RSS
 async function fetchRSSFeed() {
   try {
-    console.log("🔄 Attempting to fetch RSS feed...");
-    console.log("📡 Full request URL:", API_URL);
+    console.log(
+      "🔄 Attempting to fetch bookmarked links from serverless function...",
+    );
 
-    const response = await fetch(API_URL, {
-      method: "GET",
-      headers: {
-        Accept: "application/rss+xml, application/xml, text/xml, */*",
-      },
-    });
-
+    const response = await fetch(BOOKMARKS_API);
     console.log("📡 Response status:", response.status);
-    console.log("📡 Response headers:", [...response.headers.entries()]);
 
     if (!response.ok) {
       const errorText = await response.text();
@@ -113,15 +105,14 @@ async function fetchRSSFeed() {
     }
 
     const data = await response.text();
-    console.log("✅ RSS feed length:", data.length);
-    console.log("✅ RSS feed first 100 characters:", data.substring(0, 100));
+    console.log("✅ Bookmarked links length:", data.length);
+    console.log("✅ First 100 characters:", data.substring(0, 100));
     return data;
   } catch (error) {
-    console.error("❌ Error fetching RSS feed:", error);
+    console.error("❌ Error fetching bookmarked links:", error);
     console.error("❌ Error details:", {
       message: error.message,
       stack: error.stack,
-      url: API_URL,
     });
     throw error;
   }

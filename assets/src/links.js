@@ -7,9 +7,13 @@ dayjs.extend(relativeTime);
 
 // Configuration
 const RSS_URL = "https://bg.raindrop.io/rss/public/50598757";
-const API_URL = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(RSS_URL)}`;
+const CORS_PROXY = "https://api.codetabs.com/v1/proxy?quest=";
+const API_URL = CORS_PROXY + RSS_URL;
 const MAX_POSTS = 5;
 const ITEMS_PER_PAGE = 10;
+
+// You'll need to replace this with your actual cors.sh API key
+const CORS_API_KEY = "your-cors-api-key";
 
 let currentPage = 1;
 let allItems = [];
@@ -90,15 +94,23 @@ async function displayContent() {
 async function fetchRSSFeed() {
   try {
     console.log("🔄 Attempting to fetch RSS feed...");
-    const response = await fetch(API_URL);
+    console.log("📡 Requesting URL:", API_URL);
+
+    const response = await fetch(API_URL, {
+      method: "GET",
+      headers: {
+        Accept: "application/rss+xml, application/xml, text/xml, */*",
+      },
+    });
+
     console.log("📡 Response status:", response.status);
 
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
 
-    const data = await response.json();
-    console.log("✅ RSS feed fetched successfully", data);
+    const data = await response.text();
+    console.log("✅ RSS feed fetched successfully");
     return data;
   } catch (error) {
     console.error("❌ Error fetching RSS feed:", error);
@@ -106,19 +118,30 @@ async function fetchRSSFeed() {
   }
 }
 
-// Parsing the items to JSON format
-function parseItems(data) {
+// Parsing the XML to JavaScript objects
+function parseItems(xml) {
   try {
-    if (!data.items || !Array.isArray(data.items)) {
-      console.error("Invalid data format:", data);
-      return [];
+    console.log("🔄 Parsing RSS feed...");
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(xml, "text/xml");
+
+    // Check for parsing errors
+    const parseError = doc.querySelector("parsererror");
+    if (parseError) {
+      throw new Error("XML parsing failed");
     }
 
-    return data.items.map((item) => ({
-      title: item.title || "",
-      link: item.link || "",
-      date: item.pubDate || "",
+    const items = doc.querySelectorAll("item");
+    console.log(`📊 Total items found in XML: ${items.length}`);
+
+    const parsedItems = Array.from(items).map((item) => ({
+      title: item.querySelector("title")?.textContent || "",
+      link: item.querySelector("link")?.textContent || "",
+      date: item.querySelector("pubDate")?.textContent || "",
     }));
+
+    console.log(`📊 Successfully parsed ${parsedItems.length} items`);
+    return parsedItems;
   } catch (error) {
     console.error("Error parsing RSS feed:", error);
     return [];
@@ -145,6 +168,8 @@ function renderBookmarks(items) {
   const bookmarksList = document.getElementById("bookmarks");
   if (!bookmarksList) return;
 
+  console.log(`📊 Rendering ${items.length} bookmarks`);
+
   const bookmarksHTML = items
     .map(
       (item) => `
@@ -168,9 +193,14 @@ function renderPaginatedLinks() {
   const linksList = document.getElementById("links");
   if (!linksList) return;
 
+  console.log(`📊 Total items for pagination: ${allItems.length}`);
+
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const endIndex = startIndex + ITEMS_PER_PAGE;
+  console.log(`📊 Displaying items from index ${startIndex} to ${endIndex}`);
+
   const paginatedItems = allItems.slice(startIndex, endIndex);
+  console.log(`📊 Items in current page: ${paginatedItems.length}`);
 
   const linksHTML = paginatedItems
     .map(
@@ -195,6 +225,8 @@ function setupPagination() {
   const totalPages = Math.ceil(allItems.length / ITEMS_PER_PAGE);
   const linksList = document.getElementById("links");
   if (!linksList) return;
+
+  console.log(`📊 Setting up pagination: ${totalPages} total pages`);
 
   // Remove existing pagination if it exists
   const existingPagination = document.querySelector(".pagination");
@@ -232,7 +264,7 @@ function setupPagination() {
     if (currentPage > 1) {
       currentPage--;
       renderPaginatedLinks();
-      setupPagination(); // This is fine now because we remove the old pagination first
+      setupPagination();
     }
   });
 
@@ -240,7 +272,7 @@ function setupPagination() {
     if (currentPage < totalPages) {
       currentPage++;
       renderPaginatedLinks();
-      setupPagination(); // This is fine now because we remove the old pagination first
+      setupPagination();
     }
   });
 }

@@ -7,7 +7,7 @@ dayjs.extend(relativeTime);
 
 // Configuration
 const RSS_URL = "https://bg.raindrop.io/rss/public/50598757";
-const CORS_PROXY = "https://api.codetabs.com/v1/proxy?quest=";
+const CORS_PROXY = "https://api.allorigins.win/get?url=";
 const MAX_POSTS = 5;
 const ITEMS_PER_PAGE = 10;
 
@@ -88,12 +88,31 @@ async function displayContent() {
 
 // Get the RSS
 async function fetchRSSFeed() {
-  const response = await fetch(CORS_PROXY + encodeURIComponent(RSS_URL));
-  if (!response.ok) {
-    throw new Error("No se pudo obtener el feed RSS");
+  try {
+    console.log("🔄 Attempting to fetch RSS feed...");
+    console.log("📡 Full URL:", CORS_PROXY + encodeURIComponent(RSS_URL));
+
+    const response = await fetch(CORS_PROXY + encodeURIComponent(RSS_URL));
+    console.log("📡 Response status:", response.status);
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const jsonResponse = await response.json();
+    console.log("✅ RSS feed fetched successfully");
+
+    // With allorigins 'get' endpoint, the actual content is in the 'contents' property
+    return jsonResponse.contents;
+  } catch (error) {
+    console.error("❌ Error fetching RSS feed:", error);
+    console.error("❌ Full error details:", {
+      message: error.message,
+      stack: error.stack,
+      url: CORS_PROXY + encodeURIComponent(RSS_URL),
+    });
+    throw error;
   }
-  const data = await response.text();
-  return data;
 }
 
 // Parsing the XML to JavaScript objects

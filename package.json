@@ -8,9 +8,9 @@
     "dev": "webpack serve",
     "watch": "webpack --watch",
     "build": "webpack --mode production",
-    "update-games": "node node-scripts/updateLastModifiedGames.js",
-    "update-uses": "node node-scripts/updateLastModifiedUses.js",
-    "update-privacy": "node node-scripts/updateLastModifiedPrivacy.js",
+    "update-g": "node node-scripts/updateLastModifiedGames.js",
+    "update-u": "node node-scripts/updateLastModifiedUses.js",
+    "update-p": "node node-scripts/updateLastModifiedPrivacy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

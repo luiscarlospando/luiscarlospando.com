@@ -27,7 +27,7 @@ Aquí está el [archivo completo][3] de todos mis posts.
 - 🌐 DNS: [Cloudflare][11]{:target="_blank"} también
 - ✅ Monitoreo del sistema: [Instatus][12]{:target="_blank"}
 - 🆎 Fonts: [Bunny.net][13]{:target="_blank"}
-- 🖼️ Íconos: [FontAwesome][19]{:target="_blank"}
+- 🖼️ Íconos: [Font Awesome][19]{:target="_blank"}
 - 📊 Analytics: [Tinylytics][14]{:target="_blank"}
 - 😉 Misceláneo: [omg.lol][15]{:target="_blank"} para Mastodon y otras cosas muy chidas
 

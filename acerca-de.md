@@ -24,7 +24,7 @@ Aquí está el [archivo completo][3] de todos mis posts.
 - 🛠️ Código fuente: [GitHub][8]{:target="_blank"}
 - ✍️ Blog: [WordPress][9]{:target="_blank"}, implementado en [DigitalOcean][10]{:target="_blank"}
 - 🏠 Dominio: [Cloudflare][11]{:target="_blank"}
-- 🛜 DNS: [Cloudflare][11]{:target="_blank"} también
+- 🌐 DNS: [Cloudflare][11]{:target="_blank"} también
 - ✅ Monitoreo del sistema: [Instatus][12]{:target="_blank"}
 - 🆎 Fonts: [Bunny.net][13]{:target="_blank"}
 - 🖼️ Íconos: [FontAwesome][19]{:target="_blank"}

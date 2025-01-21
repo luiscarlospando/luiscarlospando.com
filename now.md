@@ -5,11 +5,12 @@ description: Esta es mi página `/now` y aquí voy poniendo en lo que ando actua
 image: /assets/images/logo.png
 permalink: /now/
 last-modified-at: <span id="now-updated"></span>
+current-location: Ciudad de México
 ---
 
 <div class="card last-updated my-3 text-center">
 <div class="card-body rounded">
-#### <code>Última actualización:</code> [{{ page.last-modified-at }}](https://mijo.omg.lol/now) desde Chihuahua, México
+#### <code>Última actualización:</code> [{{ page.last-modified-at }}](https://mijo.omg.lol/now) desde {{ page.current-location }}
 </div>
 </div>
 

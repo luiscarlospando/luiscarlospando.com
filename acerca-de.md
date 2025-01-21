@@ -27,8 +27,9 @@ Aquí está el [archivo completo][3] de todos mis posts.
 - 🛜 DNS: [Cloudflare][11]{:target="_blank"} también
 - ✅ Monitoreo del sistema: [Instatus][12]{:target="_blank"}
 - 🆎 Fonts: [Bunny.net][13]{:target="_blank"}
+- 🖼️ Íconos: [FontAwesome][19]{:target="_blank"}
 - 📊 Analytics: [Tinylytics][14]{:target="_blank"}
-- 😉 Misceláneo: [omg.lol][15]{:target="_blank"} para Mastodon y otras cosas bien chidas (estoy enamorado de este servicio 😍)
+- 😉 Misceláneo: [omg.lol][15]{:target="_blank"} para Mastodon y otras cosas muy chidas
 
 ## Suscríbete
 
@@ -58,3 +59,4 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [16]: https://blog.{{ site.domain }}/rss/
 [17]: https://hachyderm.io/@{{ site.mastodon_feed }}
 [18]: /contacto/
+[19]: https://fontawesome.com/

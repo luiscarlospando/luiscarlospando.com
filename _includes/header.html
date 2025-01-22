@@ -80,13 +80,6 @@
     <meta property="og:description" content="{{ page.description }}" />
     <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
 
-    <!-- X -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="{% if page.url == '/' %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}" />
-    <meta property="twitter:title" content="{% if page.url == '/' %}{% else %}{{ page.title }} - {% endif %}{{ site.title }}" />
-    <meta property="twitter:description" content="{{ page.description }}" />
-    <meta property="twitter:image" content="{{ site.url }}{{ page.image }}" />
-
     <!-- Meta Tags Generated with https://metatags.io -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="https://blog.{{ site.domain }}/rss/" />
     <link rel="author" href="/humans.txt" />

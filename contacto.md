@@ -69,7 +69,7 @@ Mi username en Discord es <a href="{{ site.discord_profile }}" rel="me" target="
 
 ## <i class="fa-brands fa-signal-messenger"></i> Signal
 
-Me puedes contactar de forma segura por [Signal][16]{:rel="me" target="_blank"}, mi username es <code>luiscarlospando.85</code>.
+Me puedes contactar de forma segura por [Signal][16]{:rel="me" target="_blank"}, mi username es <code>{{ site.signal_username }}</code>.
 
 ## <i class="fa-brands fa-itunes-note"></i> Apple Music
 

@@ -53,7 +53,7 @@ Este cotorreo de agendar llamada conmigo la neta no creo usarlo nunca, pero no h
 
 ## <i class="fa-brands fa-instagram"></i> Instagram
 
-[Aquí comparto fotos][2]{:rel="me" target="_blank"} de mis cosas favoritas y de momentos que considero que valen la pena ser compartidos.
+[Aquí comparto fotos][2]{:rel="me" target="_blank"} de mis cosas favoritas y de momentos que considero valen la pena ser compartidos.
 
 ## <i class="fa-brands fa-threads"></i> Threads
 
@@ -66,6 +66,10 @@ Mi username en Discord es <a href="{{ site.discord_profile }}" rel="me" target="
 ## <i class="fa-solid fa-heart"></i> omg.lol [![omg.lol](https://omg.8bitsqu.id/?user=mijo)][5]{:rel="me" target="_blank"}
 
 [omg.lol][5]{:rel="me" target="_blank"} es mi lugar favorito en Internet, es un conjunto de microservicios y hasta te dan tu propia cuenta de Mastodon ([crea una cuenta][6]{:target="_blank"}).
+
+## <i class="fa-brands fa-signal-messenger"></i> Signal
+
+Me puedes contactar de forma segura por [Signal][16]{:rel="me" target="_blank"}, mi username es <code>luiscarlospando.85</code>.
 
 ## <i class="fa-brands fa-itunes-note"></i> Apple Music
 
@@ -106,3 +110,4 @@ Este es [mi perfil público en Keybase][12]{:rel="me" target="_blank"}.
 [13]: https://bsky.app/profile/{{ site.bluesky_username }}
 [14]: {{ site.discord_profile }}
 [15]: {{ site.twitch_purl }}
+[16]: https://signal.me/#eu/yXhJR9hhF1ntcOAnw5Cl6kLpsoxcYzyzFAtH-m4sLL1nZ8Ta_fBK_5lIcmQzHKyo

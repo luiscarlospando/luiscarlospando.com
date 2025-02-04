@@ -69,7 +69,7 @@ Mi username en Discord es <a href="{{ site.discord_profile }}" rel="me" target="
 
 ## <i class="fa-brands fa-signal-messenger"></i> Signal
 
-Me puedes contactar de forma segura por [Signal][16]{:rel="me" target="_blank"}, mi username es <code>{{ site.signal_username }}</code>.
+Me puedes contactar de forma segura por [Signal][12]{:rel="me" target="_blank"}, mi username es <code>{{ site.signal_username }}</code>.
 
 ## <i class="fa-brands fa-itunes-note"></i> Apple Music
 
@@ -91,10 +91,6 @@ Este es [mi perfil en Reddit][9]{:rel="me" target="_blank"}.
 
 En [Backloggd][11]{:rel="me" target="_blank"} llevo el control de los videojuegos que tengo.
 
-## <i class="fa-brands fa-keybase"></i> Keybase
-
-Este es [mi perfil público en Keybase][12]{:rel="me" target="_blank"}.
-
 [1]: /keys/
 [2]: https://instagram.com/{{ site.instagram_username }}
 [3]: https://threads.net/@{{ site.threads_username }}
@@ -106,8 +102,7 @@ Este es [mi perfil público en Keybase][12]{:rel="me" target="_blank"}.
 [9]: https://reddit.com/u/{{ site.reddit_username }}
 [10]: /live/
 [11]: https://www.backloggd.com/u/{{ site.backloggd_username }}
-[12]: https://keybase.io/{{ site.keybase_username }}
+[12]: https://signal.me/#eu/yXhJR9hhF1ntcOAnw5Cl6kLpsoxcYzyzFAtH-m4sLL1nZ8Ta_fBK_5lIcmQzHKyo
 [13]: https://bsky.app/profile/{{ site.bluesky_username }}
 [14]: {{ site.discord_profile }}
 [15]: {{ site.twitch_purl }}
-[16]: https://signal.me/#eu/yXhJR9hhF1ntcOAnw5Cl6kLpsoxcYzyzFAtH-m4sLL1nZ8Ta_fBK_5lIcmQzHKyo

@@ -635,8 +635,9 @@ code {
 }
 
 // omg.lol icon
-#icon-omglol {
+#omglol-icon {
     display: inline-block;
     fill: $mainColor;
+    vertical-align: text-bottom;
     width: 1.5rem;
 }

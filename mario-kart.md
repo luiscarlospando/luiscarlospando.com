@@ -9,8 +9,8 @@ permalink: /games/mario-kart/
 <div class="row">
 <div class="col-12">
 <div class="alert alert-info alert-dismissible" role="alert">
-<p><strong>7/11/2024 - 🎉 ¡Anuncio Oficial del Sorteo <em>Mode 7 Grand Prix</em>! 🎉</strong></p>
-<p>A partir de Noviembre se estarán regalando imanes de Mode 7, <a href="https://blog.luiscarlospando.com/gaming/2024/11/anuncio-oficial-del-sorteo-mode-7-grand-prix/">aquí más información</a>.</p>
+<p><strong>13/02/2025 - Sorteo del <em>Mode 7 Grand Prix</em> se encuentra en pausa</strong></p>
+<p>En noviembre del año pasado comencé, <a href="https://blog.luiscarlospando.com/gaming/2024/11/anuncio-oficial-del-sorteo-mode-7-grand-prix/">este sorteo</a> parte del *Mode 7 Grand Prix* en el cual estoy regalando imanes de Mode 7 (Saucer, te lo sigo debiendo) que por asuntos personales tuve que poner en pausa ya que no puedo hacer los envíos en este momento. Espero pronto renaudar este cotorreo, una disculpa.</p>
 </div>
 <hr>
 <div class="card my-3 text-center">

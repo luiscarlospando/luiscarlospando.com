@@ -44,15 +44,30 @@ import { initStatusManager } from "./statuslog.js";
 
         // Add scroll event listener to window
         window.addEventListener("scroll", function () {
-            // Check if page is scrolled more than 100px
+            // Check if page is scrolled more than 300px
             if (window.scrollY > 300) {
-                // Add the visible class
+                // Add the visible class to back to top button
                 backToTopButton.classList.add("cd-is-visible");
-                nowPlaying.classList.add("nowplaying-scrolled");
+
+                // Only add nowplaying-scrolled class if screen width is 1400px or larger
+                if (window.innerWidth >= 1400) {
+                    nowPlaying.classList.add("nowplaying-scrolled");
+                }
             } else {
-                // Remove the visible class
+                // Remove the visible class from back to top button
                 backToTopButton.classList.remove("cd-is-visible");
                 nowPlaying.classList.remove("nowplaying-scrolled");
+            }
+        });
+
+        // Also check on window resize
+        window.addEventListener("resize", function () {
+            if (window.scrollY > 300) {
+                if (window.innerWidth >= 1400) {
+                    nowPlaying.classList.add("nowplaying-scrolled");
+                } else {
+                    nowPlaying.classList.remove("nowplaying-scrolled");
+                }
             }
         });
 

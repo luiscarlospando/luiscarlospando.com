@@ -23,7 +23,7 @@ APKTIDqddeGKq1HgGGc9_rnoTBa9Pl5qoeZSlNhMBw1bky9JPefQ
 
 ## <i class="fa-solid fa-key"></i> Llave PGP pública
 
-Esta es [mi llave PGP pública][1] por si quieres contactarme encriptadamente.
+Esta es [mi llave PGP pública][1] para quien quiera mandarme un mensaje con encriptación.
 
 ## <i class="fa-brands fa-mastodon"></i> Mastodon
 

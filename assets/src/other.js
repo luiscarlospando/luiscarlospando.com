@@ -40,35 +40,47 @@ import { initStatusManager } from "./statuslog.js";
 
         // Back to top button
         const backToTopButton = document.querySelector(".cd-top");
-        const nowPlaying = document.querySelector(".nowplaying");
 
-        // Add scroll event listener to window
-        window.addEventListener("scroll", function () {
-            // Check if page is scrolled more than 300px
-            if (window.scrollY > 300) {
-                // Add the visible class to back to top button
-                backToTopButton.classList.add("cd-is-visible");
+        // Function to initialize scroll handling once .nowplaying exists
+        function initScrollHandling(nowPlaying) {
+            window.addEventListener("scroll", function () {
+                if (window.scrollY > 300) {
+                    backToTopButton.classList.add("cd-is-visible");
 
-                // Only add nowplaying-scrolled class if screen width is 1400px or larger
-                if (window.innerWidth >= 1400) {
-                    nowPlaying.classList.add("nowplaying-scrolled");
+                    if (window.innerWidth >= 1400) {
+                        nowPlaying.classList.add("nowplaying-scrolled");
+                    }
+                } else {
+                    backToTopButton.classList.remove("cd-is-visible");
+                    nowPlaying.classList.remove("nowplaying-scrolled");
                 }
-            } else {
-                // Remove the visible class from back to top button
-                backToTopButton.classList.remove("cd-is-visible");
-                nowPlaying.classList.remove("nowplaying-scrolled");
+            });
+
+            // Check window resizing
+            window.addEventListener("resize", function () {
+                if (window.scrollY > 300) {
+                    if (window.innerWidth >= 1400) {
+                        nowPlaying.classList.add("nowplaying-scrolled");
+                    } else {
+                        nowPlaying.classList.remove("nowplaying-scrolled");
+                    }
+                }
+            });
+        }
+
+        // Watch for .nowplaying to be added to the DOM
+        const observer = new MutationObserver((mutations) => {
+            const nowPlaying = document.querySelector(".nowplaying");
+            if (nowPlaying) {
+                initScrollHandling(nowPlaying);
+                observer.disconnect(); // Stop observing once we find the element
             }
         });
 
-        // Also check on window resize
-        window.addEventListener("resize", function () {
-            if (window.scrollY > 300) {
-                if (window.innerWidth >= 1400) {
-                    nowPlaying.classList.add("nowplaying-scrolled");
-                } else {
-                    nowPlaying.classList.remove("nowplaying-scrolled");
-                }
-            }
+        // Start observing
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true,
         });
 
         // Enable Last.fm now playing song

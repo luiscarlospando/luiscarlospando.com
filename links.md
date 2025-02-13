@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-description: Estos son algunos links que he encontrado navegando y que me han parecido interesantes. Todos los agrego manualmente, nada automatizado.
+description: Aquí pongo links a cosas que me gustaron y me parecen interesantes. Les advierto que un 95% del tiempo será contenido en inglés, ¿me perdonan?
 image: /assets/images/logo.png
 permalink: /links/
 ---

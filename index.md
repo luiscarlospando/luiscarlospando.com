@@ -39,7 +39,7 @@ Ok, de seguro ni supiste como llegaste aquí, pero eso no importa, agradecido es
 
 ---
 
-<h2><i class="fa-solid fa-link"></i> Links</h2>
+<h2><i class="fa-solid fa-link"></i> Links <small class="text-body-secondary">(La verdad es que la mayoría de los links que pongo aquí están en inglés, así que una disculpa de antemano)</small></h2>
 
 <ul id="bookmarks"></ul>
 

@@ -45,14 +45,14 @@ import { initStatusManager } from "./statuslog.js";
         // Add scroll event listener to window
         window.addEventListener("scroll", function () {
             // Check if page is scrolled more than 100px
-            if (window.scrollY > 100) {
+            if (window.scrollY > 300) {
                 // Add the visible class
                 backToTopButton.classList.add("cd-is-visible");
-                backToTopButton.classList.add("nowplaying-scrolled");
+                nowPlaying.classList.add("nowplaying-scrolled");
             } else {
                 // Remove the visible class
                 backToTopButton.classList.remove("cd-is-visible");
-                backToTopButton.classList.remove("nowplaying-scrolled");
+                nowPlaying.classList.remove("nowplaying-scrolled");
             }
         });
 

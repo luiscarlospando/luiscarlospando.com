@@ -26,7 +26,7 @@ import "./modals";
 import "./blog";
 import "./scroll-events";
 import "./back-to-top";
-import "./varios";
+import "./other";
 
 // React components
 import "./components/navigation";

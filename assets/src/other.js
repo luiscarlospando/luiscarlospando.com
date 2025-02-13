@@ -38,6 +38,24 @@ import { initStatusManager } from "./statuslog.js";
         siteBody.classList.add("animated", "fadeIn");
         footer.classList.add("animated", "fadeIn");
 
+        // Back to top button
+        const backToTopButton = document.querySelector(".cd-top");
+        const nowPlaying = document.querySelector(".nowplaying");
+
+        // Add scroll event listener to window
+        window.addEventListener("scroll", function () {
+            // Check if page is scrolled more than 100px
+            if (window.scrollY > 100) {
+                // Add the visible class
+                backToTopButton.classList.add("cd-is-visible");
+                backToTopButton.classList.add("nowplaying-scrolled");
+            } else {
+                // Remove the visible class
+                backToTopButton.classList.remove("cd-is-visible");
+                backToTopButton.classList.remove("nowplaying-scrolled");
+            }
+        });
+
         // Enable Last.fm now playing song
         $("#lastfm").lastplayed({
             apikey: "28dd68a56fe0bebb7db5a287d6fdb4bc",

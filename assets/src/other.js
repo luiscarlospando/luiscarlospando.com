@@ -85,7 +85,6 @@ import { initStatusManager } from "./statuslog.js";
 
         // Enable Last.fm now playing song
         $("#lastfm").lastplayed({
-            apikey: "28dd68a56fe0bebb7db5a287d6fdb4bc",
             username: "luiscarlospando",
             refresh: 30,
         });

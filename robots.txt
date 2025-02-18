@@ -3,7 +3,8 @@ layout: null
 sitemap: false
 ---
 User-agent: *
-Sitemap: {{ "sitemap.xml" | absolute_url }}
+Allow: /
+Sitemap: https://luiscarlospando.com/sitemap.xml
 
 # Dark Visitors Robots.txt
 

@@ -29,7 +29,16 @@ Ok, de seguro ni supiste como llegaste aquí, pero eso no importa, agradecido es
 
 ---
 
-<h2><i class="fa-solid fa-rss"></i> Blog</h2>
+<ul class="list-inline">
+    <li class="list-inline-item">
+        <h2><i class="fa-solid fa-rss"></i> Blog</h2>
+    </li>
+    <li class="list-inline-item">
+        <a href="https://blog.luiscarlospando.com/rss/" class="btn btn-primary btn-sm">
+            <i class="fa-solid fa-square-rss"></i> Suscribirse
+        </a>
+    </li>
+</ul>
 
 <ul id="latest-posts"></ul>
 
@@ -39,7 +48,16 @@ Ok, de seguro ni supiste como llegaste aquí, pero eso no importa, agradecido es
 
 ---
 
-<h2><i class="fa-solid fa-link"></i> Links <small>(La mayoría de los links que pongo aquí son en inglés)</small></h2>
+<ul class="list-inline">
+    <li class="list-inline-item">
+        <h2><i class="fa-solid fa-link"></i> Links <small>(La mayoría de los links que pongo aquí son en inglés)</small></h2>
+    </li>
+    <li class="list-inline-item">
+        <a href="https://bg.raindrop.io/rss/public/50598757" class="btn btn-primary btn-sm">
+            <i class="fa-solid fa-square-rss"></i> Suscribirse
+        </a>
+    </li>
+</ul>
 
 <ul id="bookmarks"></ul>
 

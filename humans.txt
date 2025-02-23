@@ -1,20 +1,27 @@
 This site is developed and maintained by Luis Carlos Pando.
-All of this is dedicated to my wonderful wife and family and friends.
-Made with love in the sunny city of Chihuahua, Mexico.
+All of this is dedicated mainly to my wonderful wife, family and friends.
+Made with love from sunny Chihuahua, Mexico.
 
 /* AUTHOR */
 Luis Carlos Pando
-Developer/Designer
+Developer/Designer/Blogger
 Email: hey@luiscarlospando.com
 Mastodon: https://social.lol/@mijo
-Location: Chihuahua, Mexico
+Bluesky: https://bsky.app/profile/luiscarlospando.com
+GitHub: https://github.com/luiscarlospando
+Location: Chihuahua, Mexico (GMT-6)
 
 /* SITE */
-Last update: July 1st, 2024
-Standards: HTML, CSS, JavaScript, JSON, Markdown, XML, RSS
-Components: React, Bootstrap, Animate.css, Font Awesome, Google Fonts, Axios
+Last update: 02-22-2025
+Standards: HTML, CSS, JSON, Markdown, XML, RSS
+Components/libraries: React, Bootstrap, Animate.css, Font Awesome, Bunny Fonts, Axios
 Language: Spanish
-Software: Zed, Warp, Pixelmator Pro, Git, GitHub, npm, SCSS, Jekyll, WordPress
-Main site deployed on: Vercel - https://vercel.com/
-Blog deployed on: DigitalOcean - https://digitalocean.com/
-Hardware: MacBook Pro (Late 2013)
+Software: Zed, Ghostty, Pixelmator Pro, Git, GitHub, npm, SCSS, Jekyll, WordPress
+Main site deployment: Vercel - https://vercel.com/
+Blog deployment: DigitalOcean - https://digitalocean.com/
+
+/* TECHNOLOGY COLOPHON */
+DNS: Cloudflare
+SSL: Cloudflare
+Analytics: Tinylytics
+CDN: Cloudflare

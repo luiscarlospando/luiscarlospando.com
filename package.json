@@ -1,7 +1,7 @@
 {
     "name": "luiscarlospando.com",
     "version": "2.41.0",
-    "description": "Punk dude first and foremost. Losing followers since 2007.",
+    "description": "Punk dude coding his way through chaos. Nintendo enthusiast, DIY advocate. Still losing followers since 2007.",
     "main": "index.js",
     "scripts": {
         "start": "bundle exec jekyll serve",

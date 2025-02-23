@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
-description: Punk dude first and foremost. Losing followers since 2007.
+description: Punk dude coding his way through chaos. Nintendo enthusiast, DIY advocate. Still losing followers since 2007.
 image: /assets/images/logo.png
 ---
 

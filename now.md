@@ -5,7 +5,7 @@ description: Esta es mi página `/now` y aquí voy poniendo en lo que ando actua
 image: /assets/images/logo.png
 permalink: /now/
 last-modified-at: <span id="now-updated"></span>
-current-location: Ciudad de México, México
+current-location: Chihuahua, México
 ---
 
 <div class="card last-updated my-3 text-center">

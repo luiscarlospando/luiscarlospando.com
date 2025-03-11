@@ -8,16 +8,20 @@ permalink: /developer/
 
 <p class="text-center">{{ page.description }}</p>
 
+## <i class="fa-solid fa-key"></i> Llave PGP pública
+
+Esta es [mi llave PGP pública][1] por si necesitas contactarme con encriptación.
+
 ## <i class="fa-brands fa-github"></i> GitHub
 <a rel="me" class="github-button" href="https://github.com/{{ site.github_username }}" aria-label="Follow @{{ site.github_username }} on GitHub">Follow @{{ site.github_username }}</a>
 
-Parte de mi jale se puede encontrar [aquí][1]{:rel="me" target="_blank"}.
+Parte de mi jale se puede encontrar [aquí][2]{:rel="me" target="_blank"}.
 
 ## <i class="fa-solid fa-code-branch"></i> Ask me anything (AMA) @ GitHub
-[Tengo un repo en GitHub][2] donde me puedes preguntar cualquier cosa, solo es cuestión de [abrir][3]{:target="_blank"} un nuevo `issue`.
+[Tengo un repo en GitHub][3] donde me puedes preguntar cualquier cosa, solo es cuestión de [abrir][4]{:target="_blank"} un nuevo `issue`.
 
 ## <i class="fa-brands fa-gitlab"></i> GitLab
-Otra parte de mi jale también se puede encontrar [aquí][4]{:rel="me" target="_blank"}.
+Otra parte de mi jale también se puede encontrar [aquí][5]{:rel="me" target="_blank"}.
 
 ## <i class="fa-brands fa-stack-overflow"></i> Stack Overflow
 <a rel="me" href="https://stackoverflow.com/users/2197860/luis-carlos-pando" target="_blank">
@@ -25,19 +29,20 @@ Otra parte de mi jale también se puede encontrar [aquí][4]{:rel="me" target="_
 </a>
 
 ## <i class="fa-brands fa-dev"></i> Dev.to
-Me puedes encontrar en Dev.to [aquí][5]{:rel="me" target="_blank"}.
+Me puedes encontrar en Dev.to [aquí][6]{:rel="me" target="_blank"}.
 
 ## <i class="fa-brands fa-codepen"></i> CodePen
-Mi perfil en CodePen es [este][6]{:rel="me" target="_blank"}.
+Mi perfil en CodePen es [este][7]{:rel="me" target="_blank"}.
 
 ## <i class="fa-solid fa-beer-mug-empty"></i> Brewfile
-Aquí comparto lo que tengo en [mi Brewfile][7]{:rel="me" target="_blank"}.
+Aquí comparto lo que tengo en [mi Brewfile][8]{:rel="me" target="_blank"}.
 
 
-[1]: https://github.com/{{ site.github_username }}
-[2]: https://github.com/{{ site.github_username }}/ama
-[3]: https://github.com/{{ site.github_username }}/ama/issues/new
-[4]: https://gitlab.com/{{ site.gitlab_username }}
-[5]: https://dev.to/{{ site.devto_username }}
-[6]: https://codepen.io/{{ site.codepen_username }}
-[7]: https://www.brewfiles.com/brew/r9SnmnQnfinX3cvQkxO6
+[1]: /keys/
+[2]: https://github.com/{{ site.github_username }}
+[3]: https://github.com/{{ site.github_username }}/ama
+[4]: https://github.com/{{ site.github_username }}/ama/issues/new
+[5]: https://gitlab.com/{{ site.gitlab_username }}
+[6]: https://dev.to/{{ site.devto_username }}
+[7]: https://codepen.io/{{ site.codepen_username }}
+[8]: https://www.brewfiles.com/brew/r9SnmnQnfinX3cvQkxO6

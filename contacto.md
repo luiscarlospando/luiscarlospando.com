@@ -23,7 +23,7 @@ APKTIDqddeGKq1HgGGc9_rnoTBa9Pl5qoeZSlNhMBw1bky9JPefQ
 
 ## <i class="fa-brands fa-signal-messenger"></i> Signal
 
-También me puedes contactar de forma segura por [Signal][1]{:rel="me" target="_blank"}, mi username es <code>[{{ site.signal_username }}][1]{:rel="me" target="_blank"}</code>.
+También me puedes contactar de forma segura por [Signal][1]{:rel="me" target="_blank"}, mi username es <a href="https://signal.me/#eu/yXhJR9hhF1ntcOAnw5Cl6kLpsoxcYzyzFAtH-m4sLL1nZ8Ta_fBK_5lIcmQzHKyo" rel="me" target="_blank"><code>{{ site.signal_username }}</code></a>.
 
 ## <i class="fa-brands fa-mastodon"></i> Mastodon
 

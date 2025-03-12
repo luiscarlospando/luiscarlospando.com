@@ -73,16 +73,19 @@ async function translatePage(targetLang) {
         if (textsToTranslate.length === 0) continue;
 
         try {
-            const response = await fetch("/api/translate", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify({
-                    texts: textsToTranslate,
-                    targetLang: targetLang.substring(0, 2).toUpperCase(),
-                }),
-            });
+            const response = await fetch(
+                "https://luiscarlospando.com/api/translate",
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        texts: textsToTranslate,
+                        targetLang: targetLang.substring(0, 2).toUpperCase(),
+                    }),
+                }
+            );
 
             if (response.status === 456) {
                 console.error("DeepL translation quota exceeded");

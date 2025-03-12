@@ -30,6 +30,7 @@ Aquí está el [archivo completo][3] de todos mis posts.
 - 🖼️ Íconos: [Font Awesome][19]{:target="_blank"}
 - 📊 Analytics: [Tinylytics][14]{:target="_blank"}
 - 😉 Misceláneo: [omg.lol][15]{:target="_blank"} para Mastodon y otras cosas muy chidas
+- 💬 Traducción del sitio en tiempo real: [DeepL][20]{:target="_blank"}
 
 ## Suscríbete
 
@@ -60,3 +61,4 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [17]: https://hachyderm.io/@{{ site.mastodon_feed }}
 [18]: /contacto/
 [19]: https://fontawesome.com/
+[20]: https://www.deepl.com/en/translator

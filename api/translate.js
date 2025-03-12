@@ -1,24 +1,31 @@
 export default async function handler(req, res) {
-    if (req.method !== "POST") {
-        return res.status(405).json({ error: "Method not allowed" });
-    }
-
-    // Allow requests from your main domain and subdomain
+    // Define allowed origins
     const allowedOrigins = [
         "https://luiscarlospando.com",
         "https://blog.luiscarlospando.com",
     ];
     const origin = req.headers.origin;
+
+    // Check if the origin is in our allowed list
     if (allowedOrigins.includes(origin)) {
         res.setHeader("Access-Control-Allow-Origin", origin);
+        res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+        res.setHeader(
+            "Access-Control-Allow-Headers",
+            "Content-Type, Authorization"
+        );
+        res.setHeader("Access-Control-Allow-Credentials", "true");
     }
 
-    res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
-    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
-    res.setHeader("Access-Control-Allow-Credentials", "true");
-
+    // Handle preflight request (OPTIONS)
     if (req.method === "OPTIONS") {
-        return res.status(200).end();
+        res.status(200).end();
+        return;
+    }
+
+    // Handle actual request
+    if (req.method !== "POST") {
+        return res.status(405).json({ error: "Method not allowed" });
     }
 
     const apiKey = process.env.DEEPL_API_KEY;

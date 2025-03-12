@@ -1,8 +1,36 @@
 // Detect user language
 const userLang = navigator.language || navigator.userLanguage;
 
+// Check for personal preference in localStorage
+let personalLanguagePreference = localStorage.getItem(
+    "personalLanguagePreference"
+);
+
+// Check for secret URL parameter
+const urlParams = new URLSearchParams(window.location.search);
+const secretToken = urlParams.get("lang_token");
+
+// Language secret token
+const SECRET_TOKEN = "lcp-es";
+
+// If the secret token is present and correct, set the preference
+if (secretToken === SECRET_TOKEN) {
+    localStorage.setItem("personalLanguagePreference", "es");
+    // Remove the parameter from URL
+    window.history.replaceState({}, document.title, window.location.pathname);
+} else if (secretToken === "clear") {
+    localStorage.removeItem("personalLanguagePreference");
+    window.history.replaceState({}, document.title, window.location.pathname);
+}
+
 // Function to translate page content
 async function translatePage(targetLang) {
+    // Skip translation if personal preference is set to Spanish
+    if (personalLanguagePreference === "es") {
+        console.log("Personal preference set to Spanish, skipping translation");
+        return;
+    }
+
     // Check if we've already exceeded the quota
     if (localStorage.getItem("translationQuotaExceeded") === "true") {
         console.log(
@@ -85,7 +113,10 @@ async function translatePage(targetLang) {
 // Initialize translation when page loads
 document.addEventListener("DOMContentLoaded", () => {
     // Check if current language is different from the site's default language (Spanish)
-    if (userLang.substring(0, 2) !== "es") {
+    if (
+        userLang.substring(0, 2) !== "es" &&
+        personalLanguagePreference !== "es"
+    ) {
         translatePage(userLang);
     }
 });

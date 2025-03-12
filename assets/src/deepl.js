@@ -83,7 +83,19 @@ async function translatePage(targetLang) {
         if (
             !["SCRIPT", "STYLE", "NOSCRIPT"].includes(node.parentNode.tagName)
         ) {
-            textNodes.push(node);
+            // Add spaces around text nodes that are next to tags
+            const needsLeadingSpace =
+                node.previousSibling &&
+                node.previousSibling.nodeType === Node.ELEMENT_NODE;
+            const needsTrailingSpace =
+                node.nextSibling &&
+                node.nextSibling.nodeType === Node.ELEMENT_NODE;
+
+            textNodes.push({
+                node: node,
+                needsLeadingSpace: needsLeadingSpace,
+                needsTrailingSpace: needsTrailingSpace,
+            });
         }
     }
 
@@ -92,7 +104,12 @@ async function translatePage(targetLang) {
     for (let i = 0; i < textNodes.length; i += batchSize) {
         const batch = textNodes.slice(i, i + batchSize);
         const textsToTranslate = batch
-            .map((node) => node.nodeValue.trim())
+            .map((item) => {
+                let text = item.node.nodeValue.trim();
+                if (item.needsLeadingSpace) text = " " + text;
+                if (item.needsTrailingSpace) text = text + " ";
+                return text;
+            })
             .filter((text) => text.length > 0);
 
         if (textsToTranslate.length === 0) continue;
@@ -126,10 +143,24 @@ async function translatePage(targetLang) {
             const data = await response.json();
             if (data.translations) {
                 let translationIndex = 0;
-                batch.forEach((node) => {
-                    if (node.nodeValue.trim().length > 0) {
-                        node.nodeValue =
+                batch.forEach((item) => {
+                    if (item.node.nodeValue.trim().length > 0) {
+                        let translatedText =
                             data.translations[translationIndex++].text;
+                        // Preserve original spacing
+                        if (
+                            item.needsLeadingSpace &&
+                            !translatedText.startsWith(" ")
+                        ) {
+                            translatedText = " " + translatedText;
+                        }
+                        if (
+                            item.needsTrailingSpace &&
+                            !translatedText.endsWith(" ")
+                        ) {
+                            translatedText = translatedText + " ";
+                        }
+                        item.node.nodeValue = translatedText;
                     }
                 });
             }

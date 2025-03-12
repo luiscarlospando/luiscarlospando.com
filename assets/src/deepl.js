@@ -1,10 +1,35 @@
 // Detect user language
 const userLang = navigator.language || navigator.userLanguage;
 
-// Check for personal preference in localStorage
-let personalLanguagePreference = localStorage.getItem(
-    "personalLanguagePreference"
-);
+// Function to set cookie that works across subdomains
+function setCookie(name, value, days) {
+    const domain = ".luiscarlospando.com";
+    const expires = new Date();
+    expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
+    document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;domain=${domain}`;
+}
+
+// Function to get cookie
+function getCookie(name) {
+    const nameEQ = name + "=";
+    const ca = document.cookie.split(";");
+    for (let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) === " ") c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) === 0)
+            return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+}
+
+// Function to delete cookie
+function deleteCookie(name) {
+    const domain = ".luiscarlospando.com";
+    document.cookie = `${name}=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/;domain=${domain}`;
+}
+
+// Check for personal preference in cookies
+let personalLanguagePreference = getCookie("personalLanguagePreference");
 
 // Check for secret URL parameter
 const urlParams = new URLSearchParams(window.location.search);
@@ -15,11 +40,11 @@ const SECRET_TOKEN = "lcp-es";
 
 // If the secret token is present and correct, set the preference
 if (secretToken === SECRET_TOKEN) {
-    localStorage.setItem("personalLanguagePreference", "es");
+    setCookie("personalLanguagePreference", "es", 365); // Cookie lasts 1 year
     // Remove the parameter from URL
     window.history.replaceState({}, document.title, window.location.pathname);
 } else if (secretToken === "clear") {
-    localStorage.removeItem("personalLanguagePreference");
+    deleteCookie("personalLanguagePreference");
     window.history.replaceState({}, document.title, window.location.pathname);
 }
 
@@ -32,7 +57,7 @@ async function translatePage(targetLang) {
     }
 
     // Check if we've already exceeded the quota
-    if (localStorage.getItem("translationQuotaExceeded") === "true") {
+    if (getCookie("translationQuotaExceeded") === "true") {
         console.log(
             "Translation quota exceeded previously, skipping translation"
         );
@@ -80,6 +105,7 @@ async function translatePage(targetLang) {
                     headers: {
                         "Content-Type": "application/json",
                     },
+                    credentials: "include",
                     body: JSON.stringify({
                         texts: textsToTranslate,
                         targetLang: targetLang.substring(0, 2).toUpperCase(),
@@ -89,7 +115,7 @@ async function translatePage(targetLang) {
 
             if (response.status === 456) {
                 console.error("DeepL translation quota exceeded");
-                localStorage.setItem("translationQuotaExceeded", "true");
+                setCookie("translationQuotaExceeded", "true", 1); // Quota cookie lasts 1 day
                 return;
             }
 
@@ -125,9 +151,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Reset quota exceeded flag after a day (optional)
-const lastReset = localStorage.getItem("quotaResetDate");
+const lastReset = getCookie("quotaResetDate");
 const today = new Date().toDateString();
 if (lastReset !== today) {
-    localStorage.removeItem("translationQuotaExceeded");
-    localStorage.setItem("quotaResetDate", today);
+    deleteCookie("translationQuotaExceeded");
+    setCookie("quotaResetDate", today, 1);
 }

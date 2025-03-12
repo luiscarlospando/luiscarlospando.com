@@ -1,9 +1,17 @@
 export default async function handler(req, res) {
+    if (req.method !== "POST") {
+        return res.status(405).json({ error: "Method not allowed" });
+    }
+
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
-    const apiKey = process.env.DEEPL_API_KEY;
+    if (req.method === "OPTIONS") {
+        return res.status(200).end();
+    }
+
+    const apiKey = process.env.DEEPL_API_KEY; // Make sure this includes the ':fx' suffix in Vercel
 
     if (!apiKey) {
         console.error("Missing DeepL API key");
@@ -14,35 +22,37 @@ export default async function handler(req, res) {
 
     try {
         const { texts, targetLang } = req.body;
+
+        if (!texts || !targetLang) {
+            return res.status(400).json({
+                error: "Missing required parameters",
+            });
+        }
+
         const fetch = (await import("node-fetch")).default;
 
-        const response = await fetch("https://api.deepl.com/v2/translate", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/x-www-form-urlencoded",
-            },
-            body: new URLSearchParams({
-                auth_key: apiKey,
-                text: texts,
-                source_lang: "ES",
-                target_lang: targetLang,
-            }),
-        });
+        const response = await fetch(
+            "https://api-free.deepl.com/v2/translate",
+            {
+                // Updated API endpoint
+                method: "POST",
+                headers: {
+                    Authorization: `DeepL-Auth-Key ${apiKey}`,
+                    "Content-Type": "application/json", // Changed to JSON
+                },
+                body: JSON.stringify({
+                    text: texts,
+                    target_lang: targetLang,
+                    source_lang: "ES",
+                }),
+            }
+        );
+
+        console.log("DeepL response status:", response.status);
 
         if (!response.ok) {
-            if (response.status === 456) {
-                console.error("DeepL translation quota exceeded");
-                return res.status(456).json({
-                    error: "Translation quota exceeded",
-                });
-            }
-
             const errorText = await response.text();
-            console.error(
-                "Failed to fetch translations from DeepL",
-                response.status,
-                errorText
-            );
+            console.error("DeepL API Error:", response.status, errorText);
             return res.status(response.status).json({
                 error: "Failed to fetch translations from DeepL",
                 details: errorText,
@@ -50,7 +60,6 @@ export default async function handler(req, res) {
         }
 
         const data = await response.json();
-        console.log("Translations fetched successfully from DeepL");
         return res.status(200).json(data);
     } catch (error) {
         console.error("Error fetching translations:", error);

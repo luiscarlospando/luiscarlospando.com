@@ -26,6 +26,7 @@ import "./modals";
 import "./blog";
 import "./scroll-events";
 import "./back-to-top";
+import "./deepl";
 import "./other";
 
 // React components

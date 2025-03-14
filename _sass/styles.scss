@@ -620,6 +620,17 @@ code {
     top: -1px;
 }
 
+#latest-posts,
+#bookmarks,
+#links {
+    li {
+        a {
+            display: inline-block;
+            float: left;
+        }
+    }
+}
+
 // Twitch
 #stream_embed {
     border-bottom-left-radius: 0;

@@ -59,7 +59,7 @@ Mi username en Discord es <a href="{{ site.discord_profile }}" rel="me" target="
 🤫 También [comparto fotos aquí][7]{:rel="me" target="_blank"} de vez en cuando.
 
 ## <i class="fa-solid fa-arrow-right-from-bracket"></i> PURLs
-Cuando necesito generar links rápidamente utilizo omg.lol, aquí comparto [los links que he generado][8]{:rel="me" target="_blank"}.
+Cuando necesito generar links rápidamente, utilizo [omg.lol][6]{:target="_blank"}, aquí comparto [los links que he generado][8]{:rel="me" target="_blank"}.
 
 ## <i class="fa-solid fa-clipboard"></i> Pastebin
 [Aquí tengo algunos Pastebins][9]{:rel="me" target="_blank"} que de repente voy creando.

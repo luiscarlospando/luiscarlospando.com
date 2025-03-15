@@ -17,7 +17,7 @@ current-location: Chihuahua, México
 <p class="text-center">{{ page.description }}</p>
 
 <p class="text-center">
-<a class="btn btn-primary btn-sm" href="https://mijo.omg.lol/now">
+<a class="btn btn-primary btn-sm" href="https://now.{{ site.domain }}/">
 <i class="fa-solid fa-heart"></i> Reflejo en omg.lol
 </a>
 </p>

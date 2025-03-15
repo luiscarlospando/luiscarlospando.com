@@ -61,23 +61,20 @@ Mi username en Discord es <a href="{{ site.discord_profile }}" rel="me" target="
 ## <i class="fa-solid fa-arrow-right-from-bracket"></i> PURLs
 Cuando necesito generar links rápidamente, utilizo [omg.lol][6]{:target="_blank"}, aquí comparto [los links que he generado][8]{:rel="me" target="_blank"}.
 
-## <i class="fa-solid fa-clipboard"></i> Pastebin
-[Aquí tengo algunos Pastebins][9]{:rel="me" target="_blank"} que de repente voy creando.
-
 ## <i class="fa-brands fa-itunes-note"></i> Apple Music
-Este es [mi perfil en Apple Music][10]{:rel="me" target="_blank"}.
+Este es [mi perfil en Apple Music][9]{:rel="me" target="_blank"}.
 
 ## <i class="fa-brands fa-lastfm"></i> Last.fm
-Este es [mi perfil en Last.fm][11]{:rel="me" target="_blank"}.
+Este es [mi perfil en Last.fm][10]{:rel="me" target="_blank"}.
 
 ## <i class="fa-brands fa-reddit"></i> Reddit
-Este es [mi perfil en Reddit][12]{:rel="me" target="_blank"}.
+Este es [mi perfil en Reddit][11]{:rel="me" target="_blank"}.
 
-## <i class="fa-brands fa-twitch"></i> Twitch [![Twitch Status](https://img.shields.io/twitch/status/{{ site.twitch_username }}?style=flat&logo=twitch&logoColor=%23A172F7&link=https%3A%2F%2Fluiscarlospando.com%2Flive)][13]{:rel="me" target="_blank"}
-[Tengo un canal en Twitch][14], que ya estoy usando, al fin. 🎉
+## <i class="fa-brands fa-twitch"></i> Twitch [![Twitch Status](https://img.shields.io/twitch/status/{{ site.twitch_username }}?style=flat&logo=twitch&logoColor=%23A172F7&link=https%3A%2F%2Fluiscarlospando.com%2Flive)][12]{:rel="me" target="_blank"}
+[Tengo un canal en Twitch][13], que ya estoy usando, al fin. 🎉
 
 ## <i class="fa-solid fa-gamepad"></i> Backloggd
-En [Backloggd][15]{:rel="me" target="_blank"} llevo el control de los videojuegos que tengo.
+En [Backloggd][14]{:rel="me" target="_blank"} llevo el control de los videojuegos que tengo.
 
 [1]: https://signal.me/#eu/yXhJR9hhF1ntcOAnw5Cl6kLpsoxcYzyzFAtH-m4sLL1nZ8Ta_fBK_5lIcmQzHKyo
 [2]: https://instagram.com/{{ site.instagram_username }}
@@ -87,10 +84,9 @@ En [Backloggd][15]{:rel="me" target="_blank"} llevo el control de los videojuego
 [6]: https://home.omg.lol/referred-by/{{ site.omglol_username }}
 [7]: https://pics.{{ site.domain }}/
 [8]: https://purls.{{ site.domain }}/
-[9]: https://pastebin.{{ site.domain }}/
-[10]: https://music.apple.com/profile/{{ site.apple_music_username }}
-[11]: https://last.fm/user/{{ site.lastfm_username }}
-[12]: https://reddit.com/u/{{ site.reddit_username }}
-[13]: {{ site.twitch_purl }}
-[14]: /live/
-[15]: https://www.backloggd.com/u/{{ site.backloggd_username }}
+[9]: https://music.apple.com/profile/{{ site.apple_music_username }}
+[10]: https://last.fm/user/{{ site.lastfm_username }}
+[11]: https://reddit.com/u/{{ site.reddit_username }}
+[12]: {{ site.twitch_purl }}
+[13]: /live/
+[14]: https://www.backloggd.com/u/{{ site.backloggd_username }}

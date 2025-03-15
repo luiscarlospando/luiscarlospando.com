@@ -23,19 +23,22 @@ Parte de mi jale se puede encontrar [aquí][2]{:rel="me" target="_blank"}.
 ## <i class="fa-brands fa-gitlab"></i> GitLab
 Otra parte de mi jale también se puede encontrar [aquí][5]{:rel="me" target="_blank"}.
 
+## <i class="fa-solid fa-clipboard"></i> Pastebin
+[Aquí tengo algunos Pastes][6]{:rel="me" target="_blank"} que de repente voy creando.
+
 ## <i class="fa-brands fa-stack-overflow"></i> Stack Overflow
 <a rel="me" href="https://stackoverflow.com/users/2197860/luis-carlos-pando" target="_blank">
     <img src="https://stackoverflow.com/users/flair/2197860.png?theme=dark" width="208" height="58" alt="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Luis Carlos Pando at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 </a>
 
 ## <i class="fa-brands fa-dev"></i> Dev.to
-Me puedes encontrar en Dev.to [aquí][6]{:rel="me" target="_blank"}.
+Me puedes encontrar en Dev.to [aquí][7]{:rel="me" target="_blank"}.
 
 ## <i class="fa-brands fa-codepen"></i> CodePen
-Mi perfil en CodePen es [este][7]{:rel="me" target="_blank"}.
+Mi perfil en CodePen es [este][8]{:rel="me" target="_blank"}.
 
 ## <i class="fa-solid fa-beer-mug-empty"></i> Brewfile
-Aquí comparto lo que tengo en [mi Brewfile][8]{:rel="me" target="_blank"}.
+Aquí comparto lo que tengo en [mi Brewfile][9]{:rel="me" target="_blank"}.
 
 
 [1]: /keys/
@@ -43,6 +46,7 @@ Aquí comparto lo que tengo en [mi Brewfile][8]{:rel="me" target="_blank"}.
 [3]: https://github.com/{{ site.github_username }}/ama
 [4]: https://github.com/{{ site.github_username }}/ama/issues/new
 [5]: https://gitlab.com/{{ site.gitlab_username }}
-[6]: https://dev.to/{{ site.devto_username }}
-[7]: https://codepen.io/{{ site.codepen_username }}
-[8]: https://www.brewfiles.com/brew/r9SnmnQnfinX3cvQkxO6
+[6]: https://pastebin.{{ site.domain }}/
+[7]: https://dev.to/{{ site.devto_username }}
+[8]: https://codepen.io/{{ site.codepen_username }}
+[9]: https://www.brewfiles.com/brew/r9SnmnQnfinX3cvQkxO6

@@ -8,7 +8,7 @@ permalink: /keys/
 
 <p class="text-center">{{ page.description }}</p>
 
-## Llave PGP pública
+## Llave PGP pública personal
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

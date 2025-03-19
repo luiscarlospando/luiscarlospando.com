@@ -10,7 +10,7 @@ permalink: /developer/
 
 ## <i class="fa-solid fa-key"></i> Llave PGP pública
 
-Esta es [mi llave PGP pública][1] por si necesitas contactarme con encriptación.
+Esta es [mi llave PGP pública][1] por si necesitan contactarme de forma segura.
 
 ## <i class="fa-brands fa-github"></i> GitHub
 <a rel="me" class="github-button" href="https://github.com/{{ site.github_username }}" aria-label="Follow @{{ site.github_username }} on GitHub">Follow @{{ site.github_username }}</a>

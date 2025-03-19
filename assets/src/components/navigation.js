@@ -117,7 +117,7 @@ function Navigation() {
             id: "8",
             url: "https://luiscarlospando.com/keys/",
             icon: "fa-solid fa-key",
-            text: "Uses",
+            text: "Llaves públicas",
             subButtons: [],
         },
         {

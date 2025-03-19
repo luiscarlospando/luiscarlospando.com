@@ -14,8 +14,8 @@ Mi correo es: <code>{{ site.email }}</code><br>
 <i class="fa-solid fa-pen-to-square"></i> Escribir correo
 </a>
 
-## <i class="fa-solid fa-comment"></i> iMessage
-Si tienes mi número personal puedes contactarme por iMessage _preferentemente_. Puedes usar el código de abajo para [verificarme](https://support.apple.com/es-mx/118246){:target="_blank"}.
+## <i class="fa-brands fa-apple"></i> iMessage (Código de verificación)
+Si tienes mi número personal puedes contactarme por iMessage _preferentemente_. Puedes usar este código de abajo para [verificarme](https://support.apple.com/es-mx/118246){:target="_blank"}.
 
 ```
 APKTIDqddeGKq1HgGGc9_rnoTBa9Pl5qoeZSlNhMBw1bky9JPefQ

@@ -8,7 +8,7 @@ permalink: /keys/
 
 <p class="text-center">{{ page.description }}</p>
 
-## Llave PGP pública personal
+## Llave PGP pública
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -32,4 +32,10 @@ xAIbDAAKCRAQ3hVOR3TSRfiZAQCknJfle/1PVAvKfusu+2LFehoyB9JhrSlbUgi8
 GGdKBwD+J/l3r/CK5g0ebqZnYNcywrZj5L9q9ikvqaD+yjQ1Qws=
 =skrW
 -----END PGP PUBLIC KEY BLOCK-----
+```
+
+## Llave SSH pública
+
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCs4f4KQsDXj1lm24EXH41MtjewMX33LLZvSv6yKxFvESAiTEJQkDsJ8w/qV1c/GPDVSATn0MImm6wnfsiLUq737W9b+cINA5Pfv1GfEHdiNrSTpB9SgbGD9BoSGAS8fF+8Ro6buvH4aAicK4x0ZtybtIslbjLtazBB9FOArHIZsmQ0Zqt02iOzMvr0p7qOQFIN6gJej+2ELk4GNdghi2yI/J7F+3KcA5tD2tsMivRQ8bRlkKBChyX3luM2XEQdEzfmIOVFgKnzwsbjnFXChMIc5WsyZq+KKtLt0sqMNgfnzSXSWu4DrajKzKf5g02b6U+v2t/Cypg5UY24LFS5fyJI0BmkzQL93GSmgvtEloekcPRm9N23I/erRpkRP2tNwxZtwpO5+nbOk1J0e+gPCdnUvAZAU+v0LiGIpmeUNMYX9kxHqZzqD6Ap6IzR7aNLNZiKHQbeT1UFUB1WgtbnaxqTuGpyEfrj0X2mw0ynppd3IuVjLkpSFx1miICHt1MfvAs=
 ```

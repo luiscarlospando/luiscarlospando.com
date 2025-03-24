@@ -31,7 +31,7 @@ Ok, de seguro ni supiste como llegaste aquí, pero eso no importa, agradecido es
 
 <ul class="list-inline">
     <li class="list-inline-item">
-        <h2><i class="fa-solid fa-rss"></i> Blog</h2>
+        <h2><i class="fa-solid fa-file-pen"></i> Blog</h2>
     </li>
     <li class="list-inline-item">
         <a href="https://blog.luiscarlospando.com/rss/" class="btn btn-primary btn-sm" style="vertical-align: super;">

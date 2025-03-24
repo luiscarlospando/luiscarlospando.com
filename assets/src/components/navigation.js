@@ -13,7 +13,7 @@ function Navigation() {
         {
             id: "2",
             url: "https://blog.luiscarlospando.com/",
-            icon: "fa-solid fa-rss",
+            icon: "fa-solid fa-file-pen",
             text: "Blog",
             subButtons: [
                 {

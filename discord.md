@@ -29,7 +29,7 @@ En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7
 - [*Splatoon 3*][4]
 </div>
 <div class="col-md-12 col-lg-6 my-auto">
-<iframe src="https://ptb.discord.com/widget?id=478777821087662092&theme=dark" width="100%" height="380" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<iframe src="https://discord.com/widget?id=478777821087662092&theme=dark" width="100%" height="380" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 <a class="btn btn-primary d-block" href="{{ site.mode7_discord }}" target="_blank">
 <i class="fa-solid fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir Mode 7 en Discord"></i> Abrir Mode 7 en Discord

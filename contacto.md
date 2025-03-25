@@ -59,6 +59,8 @@ Mi username en Discord es <a href="{{ site.discord_profile }}" rel="me" target="
  - ### <i class="fa-solid fa-camera"></i> Pics
 🤫 También [comparto fotos aquí][7]{:rel="me" target="_blank"} de vez en cuando.
 
+---
+
  - ### <i class="fa-solid fa-terminal"></i> Finger me
 ```bash
 $ finger {{ site.omglol_username }}@omg.lol

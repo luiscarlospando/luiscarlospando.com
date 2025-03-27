@@ -48,13 +48,7 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
-<em>Dragon Quest III HD-2D Remake</em>
-<hr>
-<em>Grand Theft Auto: Vice City - The Definitive Edition</em>
-<hr>
-<em>Grand Theft Auto: San Andreas - The Definitive Edition</em>
-<hr>
-<em>Tetris Forever</em>
+<em>Mario's Picross (Game Boy)</em>
 </div>
 <div class="col-6 my-auto text-monospace">
 (Offline)

@@ -34,13 +34,14 @@ Aquí está el [archivo completo][3] de todos mis posts.
 
 ## Suscríbete
 
-Te puedes suscribir a mi sitio por:
-- [<i class="fas fa-rss"></i> RSS][16]
+Suscríbete a mi sitio por:
+- [<i class="fas fa-rss"></i> RSS (Blog)][16]
+- [<i class="fas fa-rss"></i> RSS (Links)][21]
 - [<i class="fa-brands fa-mastodon"></i> Mastodon][17]{:rel="me" target="_blank"}
 
 ## Errores en el sitio
 
-Los estándares web son importantes e intento que mi sitio se adhiera a ellos. Si algo se ve mal o funciona incorrectamente, [házmelo saber][18] por favor.
+Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][18] por favor.
 
 [1]: https://blog.{{ site.domain }}
 [2]: /
@@ -62,3 +63,4 @@ Los estándares web son importantes e intento que mi sitio se adhiera a ellos. S
 [18]: /contacto/
 [19]: https://fontawesome.com/
 [20]: https://www.deepl.com/en/translator
+[21]: https://bg.raindrop.io/rss/public/50598757

@@ -119,6 +119,15 @@ h6 {
     margin-top: 0;
 }
 
+#webmentions-likes:empty,
+#webmentions-likes-subtitle:empty,
+#webmentions-boosts:empty,
+#webmentions-boosts-subtitle:empty {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
 .utterances,
 .share-post,
 .primary_navigation {

@@ -41,7 +41,7 @@ Suscríbete a mi sitio por:
 
 ## Errores en el sitio
 
-Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][18] por favor.
+Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][18].
 
 [1]: https://blog.{{ site.domain }}
 [2]: /

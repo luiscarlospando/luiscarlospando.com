@@ -566,6 +566,16 @@ a.btn {
     }
 }
 
+a.bmac {
+    color: $dark !important;
+
+    &:hover,
+    &:focus {
+        color: $dark !important;
+        text-decoration-color: $dark !important;
+    }
+}
+
 .stream-status {
     animation-duration: 5s;
 }

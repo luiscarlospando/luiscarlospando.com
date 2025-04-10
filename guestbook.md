@@ -8,3 +8,12 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 ---
 
 <p class="text-center">{{ page.description }}</p>
+
+<div style="position: relative; width: 100%; padding-top: 75%; height: 0; overflow: hidden;">
+    <iframe
+        src="https://luiscarlospando.atabook.org/"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+    loading="lazy"
+    allowfullscreen>
+    </iframe>
+</div>

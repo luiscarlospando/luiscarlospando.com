@@ -231,5 +231,44 @@ import { initStatusManager } from "./statuslog.js";
                 console.log(`Ícono añadido al link ${index}`);
             }
         });
+
+        // /ˈmiːhoʊ/ pronunciation audio
+        const audio = document.getElementById("pronunciation");
+
+        function playAudio(event) {
+            if (event) {
+                event.preventDefault();
+            }
+
+            if (!audio) {
+                console.error("Archivo de audio no encontrado.");
+                return;
+            }
+
+            // Restart audio if already playing
+            audio.currentTime = 0;
+
+            audio
+                .play()
+                .then(() => {
+                    // Optional: visual feedback
+                    console.log("El audio se reprodujo correctamente.");
+                })
+                .catch((error) => {
+                    console.error("Error reproduciendo audio:", error);
+                    // Friendlier error handling
+                    alert(
+                        "Lo siento, hubo un problema al reproducir el audio."
+                    );
+                });
+        }
+
+        // Add event listener to link
+        const pronunciationLink = document.querySelector(
+            "[data-pronunciation]"
+        );
+        if (pronunciationLink) {
+            pronunciationLink.addEventListener("click", playAudio);
+        }
     });
 })();

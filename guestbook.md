@@ -6,3 +6,5 @@ image: /assets/images/logo.png
 permalink: /guestbook/
 last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 ---
+
+<p class="text-center">{{ page.description }}</p>

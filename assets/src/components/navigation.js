@@ -115,13 +115,20 @@ function Navigation() {
         },
         {
             id: "8",
+            url: "https://luiscarlospando.com/guestbook/",
+            icon: "fa-solid fa-hand-peace",
+            text: "Guestbook",
+            subButtons: [],
+        },
+        {
+            id: "9",
             url: "https://luiscarlospando.com/keys/",
             icon: "fa-solid fa-key",
             text: "Llaves públicas",
             subButtons: [],
         },
         {
-            id: "9",
+            id: "10",
             url: "https://luiscarlospando.com/discord/",
             icon: "fa-brands fa-discord",
             text: "Discord (Mode 7)",
@@ -135,19 +142,19 @@ function Navigation() {
             ],
         },
         {
-            id: "10",
+            id: "11",
             url: "https://luiscarlospando.com/games/",
             icon: "fa-solid fa-gamepad",
             text: "Games",
             subButtons: [
                 {
-                    id: "10-1",
+                    id: "11-1",
                     url: "https://luiscarlospando.com/games/mario-kart/",
                     icon: "fa-solid fa-gamepad",
                     text: "Mario Kart 8 Deluxe (Mode 7 Grand Prix)",
                 },
                 {
-                    id: "10-2",
+                    id: "11-2",
                     url: "https://luiscarlospando.com/games/splatoon/",
                     icon: "fa-solid fa-gamepad",
                     text: "Splatoon 3",
@@ -155,14 +162,14 @@ function Navigation() {
             ],
         },
         {
-            id: "11",
+            id: "12",
             url: "https://luiscarlospando.com/live/",
             icon: "fa-solid fa-video",
             text: "Live",
             subButtons: [],
         },
         {
-            id: "12",
+            id: "13",
             url: "https://luiscarlospando.com/acerca-de/",
             icon: "fa-solid fa-circle-info",
             text: "Acerca de",

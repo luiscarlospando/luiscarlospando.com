@@ -116,7 +116,18 @@ import { initStatusManager } from "./statuslog.js";
         }
 
         // Tooltips
-        $('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="tooltip"]').tooltip({
+            title: function () {
+                // Check if this is the greeting tooltip
+                if (this.id === "greetingTooltip") {
+                    return getGreeting();
+                }
+                // For other tooltips, use their default title
+                return (
+                    $(this).attr("title") || $(this).attr("data-original-title")
+                );
+            },
+        });
 
         // Progress bar
         function updateProgressBar() {
@@ -285,9 +296,5 @@ import { initStatusManager } from "./statuslog.js";
                 return "¡Buenas noches! 🌙";
             }
         }
-
-        $("#greetingTooltip").tooltip({
-            title: getGreeting,
-        });
     });
 })();

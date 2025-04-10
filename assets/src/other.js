@@ -287,13 +287,13 @@ import { initStatusManager } from "./statuslog.js";
             const hour = new Date().getHours();
 
             if (hour >= 5 && hour < 12) {
-                return "¡Buenos días! ☀️";
+                return "☀️ ¡Buenos días!";
             } else if (hour >= 12 && hour < 17) {
-                return "¡Buenas tardes! 🌤️";
+                return "🌤️ ¡Buenas tardes!";
             } else if (hour >= 17 && hour < 21) {
-                return "¡Buenas tardes! 🌅";
+                return "🌅 ¡Buenas tardes!";
             } else {
-                return "¡Buenas noches! 🌙";
+                return "🌙 ¡Buenas noches!";
             }
         }
     });

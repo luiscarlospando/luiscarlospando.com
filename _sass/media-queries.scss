@@ -130,6 +130,12 @@
     .container {
         min-width: 1140px !important;
     }
+
+    footer {
+        .list-inline-item:not(:last-child) {
+            margin-right: 0;
+        }
+    }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)

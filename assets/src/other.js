@@ -100,7 +100,7 @@ import { initStatusManager } from "./statuslog.js";
                 function (e) {
                     const isExpanding = e.type === "show";
                     btnReadMore.innerHTML = isExpanding
-                        ? '<i class="fa-solid fa-caret-down"></i> Leer menos'
+                        ? '<i class="fa-solid fa-caret-up"></i> Leer menos'
                         : '<i class="fa-solid fa-caret-right"></i> Leer más';
                 }
             );

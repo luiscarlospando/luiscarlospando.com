@@ -17,9 +17,8 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 
 <div class="collapse" id="collapseCodeOfConduct">
 <ul>
-<li>🚫 No discurso de odio</li>
-<li>🚫 Nada de acoso</li>
-<li>🚫 No de spam</li>
+<li>🚫 No odio/hate</li>
+<li>🚫 No spam</li>
 <li>🚫 Nada de publicidad</li>
 <li>🔒 No compartas información privada</li>
 <li>🤝 Sé respetuoso conmigo y con los demás en los comentarios</li>

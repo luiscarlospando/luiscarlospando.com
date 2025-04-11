@@ -11,7 +11,7 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 
 <div class="text-center">
 <button id="btn-code-of-conduct" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseCodeOfConduct" role="button" aria-expanded="false" aria-controls="collapseCodeOfConduct">
-    <i class="fa-solid fa-plus"></i> Código de conducta
+    <i class="fa-solid fa-caret-right"></i> Código de conducta
 </button>
 </div>
 

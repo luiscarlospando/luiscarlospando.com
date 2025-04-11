@@ -24,7 +24,7 @@ Ok, de seguro ni supiste como llegaste aquí, pero eso no importa, agradecido es
 </div>
 
 <button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">
-    <i class="fa-solid fa-plus"></i> Leer más
+    <i class="fa-solid fa-caret-right"></i> Leer más
 </button>
 
 ---

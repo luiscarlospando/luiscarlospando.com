@@ -115,6 +115,34 @@ import { initStatusManager } from "./statuslog.js";
             });
         }
 
+        // Guestbook Code of Conduct button
+        const collapseCodeOfConduct = document.getElementById(
+            "collapseCodeOfConduct"
+        );
+        const btnCodeOfConduct = document.querySelector("#btn-code-of-conduct");
+
+        if (collapseCodeOfConduct && btnCodeOfConduct) {
+            // Handle the change of the state of the collapse event
+            $(collapseCodeOfConduct).on(
+                "show.bs.collapse hide.bs.collapse",
+                function (e) {
+                    const isExpanding = e.type === "show";
+                    btnReadMore.innerHTML = isExpanding
+                        ? '<i class="fa-solid fa-minus"></i> Ver código de conducta'
+                        : '<i class="fa-solid fa-plus"></i> Cerrar código de conducta';
+                }
+            );
+
+            // Handle the click on the Font Awesome icon
+            btnCodeOfConduct.addEventListener("click", (e) => {
+                if (e.target.tagName.toLowerCase() === "i") {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    $(collapseCodeOfConduct).collapse("toggle");
+                }
+            });
+        }
+
         // Tooltips
         $('[data-toggle="tooltip"]').tooltip({
             title: function () {

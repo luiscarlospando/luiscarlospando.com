@@ -9,19 +9,21 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 
 <p class="text-center">{{ page.description }}</p>
 
-<button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">
+<div class="text-center">
+<button id="btn-code-of-conduct" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseCodeOfConduct" role="button" aria-expanded="false" aria-controls="collapseCodeOfConduct">
     <i class="fa-solid fa-plus"></i> Código de conducta
 </button>
+</div>
 
-<div class="collapse" id="collapseIntro">
+<div class="collapse" id="collapseCodeOfConduct">
 <ul>
-<li>🚫 <strong>Nada de discursos de odio.</strong></li>
-<li>🚫 <strong>Nada de acoso.</strong></li>
-<li>🚫 <strong>Nada de troleo.</strong></li>
-<li>🚫 <strong>Nada de spam.</strong></li>
-<li>🚫 <strong>Nada de publicidad.</strong></li>
-<li>🔒 <strong>No compartas información privada, especialmente si eres menor de edad.</strong></li>
-<li>🤝 <strong>Sé respetuoso conmigo y con los demás en los comentarios.</strong></li>
+<li>🚫 Prohibidos el discurso de odio.</li>
+<li>🚫 Nada de acoso.</li>
+<li>🚫 Nada de troleo.</li>
+<li>🚫 Nada de spam.</li>
+<li>🚫 Nada de publicidad.</li>
+<li>🔒 No compartas información privada, especialmente si eres menor de edad.</li>
+<li>🤝 Sé respetuoso conmigo y con los demás en los comentarios.</li>
 </ul>
 </div>
 

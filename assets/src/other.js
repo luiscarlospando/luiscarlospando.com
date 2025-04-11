@@ -128,8 +128,8 @@ import { initStatusManager } from "./statuslog.js";
                 function (e) {
                     const isExpanding = e.type === "show";
                     btnCodeOfConduct.innerHTML = isExpanding
-                        ? '<i class="fa-solid fa-caret-down"></i> Ver código de conducta'
-                        : '<i class="fa-solid fa-caret-right"></i> Cerrar código de conducta';
+                        ? '<i class="fa-solid fa-caret-down"></i> Cerrar código de conducta'
+                        : '<i class="fa-solid fa-caret-right"></i> Ver código de conducta';
                 }
             );
 

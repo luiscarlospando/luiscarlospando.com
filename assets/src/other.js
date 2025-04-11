@@ -100,8 +100,8 @@ import { initStatusManager } from "./statuslog.js";
                 function (e) {
                     const isExpanding = e.type === "show";
                     btnReadMore.innerHTML = isExpanding
-                        ? '<i class="fa-solid fa-minus"></i> Leer menos'
-                        : '<i class="fa-solid fa-plus"></i> Leer más';
+                        ? '<i class="fa-solid fa-caret-down"></i> Leer menos'
+                        : '<i class="fa-solid fa-caret-right"></i> Leer más';
                 }
             );
 
@@ -127,9 +127,9 @@ import { initStatusManager } from "./statuslog.js";
                 "show.bs.collapse hide.bs.collapse",
                 function (e) {
                     const isExpanding = e.type === "show";
-                    btnReadMore.innerHTML = isExpanding
-                        ? '<i class="fa-solid fa-minus"></i> Ver código de conducta'
-                        : '<i class="fa-solid fa-plus"></i> Cerrar código de conducta';
+                    btnCodeOfConduct.innerHTML = isExpanding
+                        ? '<i class="fa-solid fa-caret-down"></i> Ver código de conducta'
+                        : '<i class="fa-solid fa-caret-right"></i> Cerrar código de conducta';
                 }
             );
 

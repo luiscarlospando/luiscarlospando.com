@@ -47,8 +47,8 @@ Este cotorreo de agendar llamada conmigo francamente no creo usarlo nunca, pero 
 </li>
 </ul>
 
-## <i class="fa-brands fa-instagram"></i> Instagram
-[Aquí comparto fotos][2]{:rel="me" target="_blank"} de mis cosas favoritas y de momentos que considero valen la pena ser compartidos.
+## <i class="fa-brands fa-instagram"></i> <s>Instagram</s>
+<s>[Aquí comparto fotos][2]{:rel="me" target="_blank"} de mis cosas favoritas y de momentos que considero valen la pena ser compartidos.</s>
 
 ## <i class="fa-brands fa-discord"></i> Discord [![](https://dcbadge.limes.pink/api/shield/86571896581132288?style=flat&theme=discord-inverted)][3]{:rel="me" target="_blank"}
 Mi username en Discord es <a href="{{ site.discord_profile }}" rel="me" target="_blank"><code>{{ site.discord_tag }}</code></a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (_feel free to join in!_).

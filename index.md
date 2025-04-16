@@ -9,9 +9,9 @@ image: /assets/images/logo.png
 
 <h1 class="text-center">{{ site.title }}</h1>
 
-<span class="first-letter">H</span>ola 👋, me llamo Luis Carlos Pando, aka `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊), un vato que vive en [Chihuahua, México][1]{:target="_blank"} con su bella esposa [Marissa ❤️][2]{:target="_blank"}. Me dedico a [hacer cosas para el Internet][3]{:rel="me" target="_blank"}, me gusta la música alternativa, especialmente el hardcore/punk y sub-géneros. Algunos tal vez me ubiquen por haber creado [Hitz-Musik.net][4]{:target="_blank"} (RIP 🪦) junto a unos buenos amigos. "El Hitz" era una comunidad dedicada a cubrir la música alternativa, la escena local de Chihuahua y armar toquines. De eso solo me quedan recuerdos muy chidos.
+<span class="first-letter">H</span>ola 👋, me llamo Luis Carlos Pando, aka `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊). Soy un vato de [Chihuahua, México][1]{:target="_blank"} que vive con su bella esposa [Marissa ❤️][2]{:target="_blank"}. Me dedico a [hacer cosas para el Internet][3]{:rel="me" target="_blank"}, amo la música, especialmente el punk y el hardcore. Algunos tal vez me ubiquen por haber creado [Hitz-Musik.net][4]{:target="_blank"} (RIP 🪦) junto a unos buenos compas. "El Hitz" era una comunidad dedicada a cubrir la música y la escena local de Chihuahua. También estaba chido el cotorreo de armar toquines. De eso solo me quedan recuerdos muy chidos.
 
-Mi razón para hacer este sitio es mi amor por las computadoras 👨‍💻 y el Internet 🌐. Sentí la necesidad de tener [mi propio espacio en la web][5], para hablar de lo que yo quisiera, equivocarme, experimentar y aprender. Básicamente esto se trata de escribir sobre lo que traigo en la mente, probar cosas nuevas, codear y pasarla chido. También busco que este lugar sirva como de una especie de bitácora de mi vida. 😌
+La razón para crear este sitio es mi amor por las computadoras 👨‍💻 y el Internet 🌐. Sentí la necesidad de tener [mi propio espacio en la web][5], para hablar de lo que yo quisiera, equivocarme, experimentar y aprender. Básicamente esto se trata de escribir sobre lo que traigo en la mente, probar cosas nuevas, codear y pasarla chido. También busco que este lugar sirva como de una especie de bitácora de mi vida. 😌
 
 <div class="collapse" id="collapseIntro">
 No es secreto el amor que le tengo a Nintendo en especial 🕹️, [aquí][6] llevo un registro de los videojuegos que tengo en mi colección. Para rendir tributo y hacer de los videojuegos que me gustan todavía más interesantes, armé la comunidad de [Mode 7 🎮 🕹️][7] (✨ *All are welcome!* ✨) en Discord junto a unos amigos. Ahí hablamos de nuestros juegos favoritos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][8]. Todos los jueves en la noche [transmitimos el torneo][9].
@@ -21,6 +21,8 @@ Ahorita ando compartiendo cosas random en [Mastodon][10]{:rel="me" target="_blan
 También llevo un registro de toda [la música que escucho 🎧][12]{:rel="me" target="_blank"} en mi perfil de [Last.fm 🎵][13]{:rel="me" target="_blank"} (*been doin' it since '05 baby!*).
 
 Ok, de seguro ni supiste como llegaste aquí, pero eso no importa, agradecido estoy de que pases por aquí. ✨
+
+BTW, si te animas, puedes pasar a [firmar mi guestbook][14].
 </div>
 
 <button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">
@@ -78,3 +80,4 @@ Ok, de seguro ni supiste como llegaste aquí, pero eso no importa, agradecido es
 [11]: https://home.omg.lol/referred-by/{{ site.omglol_username }}
 [12]: https://music.apple.com/profile/{{ site.apple_music_username }}
 [13]: https://last.fm/user/{{ site.lastfm_username }}
+[14]: /guestbook/

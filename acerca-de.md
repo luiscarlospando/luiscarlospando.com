@@ -17,7 +17,7 @@ Y como menciono en la [página principal][1], este sitio es un lugar para expres
 
 *¡Gracias por visitar mi sitio!* ✨
 
-Aquí está el [archivo completo][3] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][2].)
+Aquí está el [archivo completo][2] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][3].)
 
 *Disclaimer: Los links de DigitalOcean, Instatus y omg.lol son links de referido.*
 
@@ -48,8 +48,8 @@ Suscríbete a mi sitio por:
 Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][18].
 
 [1]: /
-[2]: https://blog.{{ site.domain }}
-[3]: https://blog.{{ site.domain }}/author/me/
+[2]: https://blog.{{ site.domain }}/author/me/
+[3]: https://blog.{{ site.domain }}
 [4]: https://zed.dev/
 [5]: https://jekyllrb.com/
 [6]: https://vercel.com/

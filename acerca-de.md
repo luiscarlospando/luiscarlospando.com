@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acerca de
-description: Este URL ha sido mi hogar en línea desde octubre del 2014, aunque mi presencia en línea se remonta como desde el 2001-2002 en diferentes lugares/perfiles/urls. Entonces por eso mejor decidí crear este sitio, para unificar mi presencia en línea, tener un hub central donde pueda escribir y enlazar todos mis demás perfiles y proyectos.
+description: Este URL ha sido mi hogar en línea desde octubre del 2014, aunque mi presencia en línea se remonta como desde el 2001-2002 en diferentes lugares/perfiles/urls. Entonces por eso mejor decidí crear este sitio para tener un hub central en donde pueda escribir y enlazar todos mis demás perfiles y proyectos.
 permalink: /acerca-de/
 ---
 

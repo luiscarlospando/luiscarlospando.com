@@ -20,9 +20,9 @@ Ahorita ando compartiendo cosas random en [Mastodon][10]{:rel="me" target="_blan
 
 También llevo un registro de toda [la música que escucho 🎧][12]{:rel="me" target="_blank"} en mi perfil de [Last.fm 🎵][13]{:rel="me" target="_blank"} (*been doin' it since '05 baby!*).
 
-Ok, de seguro ni supiste como llegaste aquí, pero eso no importa, agradecido estoy de que pases por aquí. ✨
+De seguro ni supiste como llegaste aquí, pero no importa, te agradezco por darte una vuelta por aquí. ✨
 
-BTW, si te animas, puedes pasar a [firmar mi guestbook][14].
+BTW, si te animas, puedes pasar a [firmar mi guestbook][14]. ✌️
 </div>
 
 <button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">

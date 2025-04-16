@@ -15,7 +15,7 @@ Todo mundo sabe que el futuro esas plataformas es incierto y que no tenemos cont
 
 Y como menciono en la [página principal][1], este sitio es un lugar para expresarme libremente, compartir cosas que creo valen la pena, opinar, experimentar, codear y pasarla chido.
 
-Aquí está el [archivo completo][2] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][3].)
+Aquí está el [archivo completo][2] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][3]).
 
 *¡Gracias por visitar mi sitio!* ✨
 

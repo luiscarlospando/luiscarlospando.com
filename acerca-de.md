@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acerca de
-description: Este URL ha sido mi hogar en línea desde octubre del 2014, aunque mi presencia en línea se remonta como desde el 2001-2002 en diferentes lugares/perfiles/urls. Entonces por eso mejor decidí crear este sitio para tener un hub central en donde pueda escribir y enlazar todos mis demás perfiles y proyectos.
+description: Este URL ha sido mi hogar en línea desde octubre del 2014 📅, aunque mi presencia en línea se remonta como desde el 2001-2002 en diferentes lugares/perfiles/urls. Por eso mejor decidí crear este sitio, para tener un hub central en donde pueda escribir y enlazar todos mis demás perfiles y proyectos.
 permalink: /acerca-de/
 ---
 
@@ -9,15 +9,17 @@ permalink: /acerca-de/
 
 {{ page.description }}
 
-Me enorgullece la idea de que con este sitio formo parte del Internet independiente y descentralizado. Este es un lugar que puedo considerar *completamente mío*. Aquí yo tengo el control de todo, del *look & feel*, del contenido, de los *features* y así. No estoy a expensas de ninguna empresa como Meta, Google, X o TikTok.
+Me enorgullece la idea de que con este sitio formo parte del Internet independiente y descentralizado ✌️. Este es un lugar que puedo considerar *completamente mío*. Aquí yo tengo el control de todo, del *look & feel*, del contenido, de los *features* y así. No estoy a expensas de ninguna empresa como Meta, Google, X o TikTok.
 
 Todo mundo sabe que el futuro esas plataformas es incierto y que no tenemos control real, ni somos dueños de nuestras cuentas/contenido.
 
 Y como menciono en la [página principal][1], este sitio es un lugar para expresarme libremente, compartir cosas que creo valen la pena, opinar, experimentar, codear y pasarla chido.
 
+Aquí está el [archivo completo][2] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][3].)
+
 *¡Gracias por visitar mi sitio!* ✨
 
-Aquí está el [archivo completo][2] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][3].)
+---
 
 *Disclaimer: Los links de DigitalOcean, Instatus y omg.lol son links de referido.*
 

@@ -23,6 +23,9 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <div class="card-body">
 <div class="row">
 <div class="col-6 my-auto">
+<a href="/games/mario-kart/">
+<img class="img-fluid rounded" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213p.jpg" alt="Mario Kart 8 Deluxe" width="100">
+</a>
 [*Mario Kart 8 Deluxe*][4]<br>
 Mode 7 Grand Prix todos los jueves @ 9:00 pm (hora central de México)<br>
 Código del torneo: <code>{{ site.m7gp_code }}</code><br>

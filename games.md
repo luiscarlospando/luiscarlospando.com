@@ -30,7 +30,9 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 </a>
 </li>
 <li>
-[*Mario Kart 8 Deluxe*][4]
+<a href="/games/mario-kart/">
+<em>Mario Kart 8 Deluxe</em>
+</a>
 </li>
 <li>
 Mode 7 Grand Prix todos los jueves @ 9:00 pm (hora central de México)
@@ -56,7 +58,9 @@ Código del torneo: <code>{{ site.m7gp_code }}</code>
 </a>
 </li>
 <li>
-[*Splatoon 3*][5]
+<a href="/games/splatoon/">
+<em>Splatoon 3</em>
+</a>
 </li>
 <li>
 Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de las 9:00 pm, hora central de México)
@@ -72,7 +76,14 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
-<em>Mario's Picross (Game Boy)</em>
+<ul class="list-unstyled">
+<li>
+<img class="img-fluid rounded" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" alt="Mario's Picross" width="100">
+</li>
+<li>
+<em>Mario's Picross</em>
+</li>
+</ul>
 </div>
 <div class="col-6 my-auto text-monospace">
 (Offline)

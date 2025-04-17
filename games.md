@@ -4,7 +4,7 @@ title: Games
 description: Esto es lo que ando jugando actualmente y mis perfiles de Discord, Nintendo Switch y Backloggd.
 image: /assets/images/logo-games.png
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2025-03-26 20:52:31</span>
+last-modified-at: <span id="last-updated-at">2025-04-17 14:51:48</span>
 ---
 
 <div class="text-center">
@@ -24,7 +24,7 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <div class="row">
 <div class="col-6 my-auto">
 <ul class="list-unstyled">
-<li>
+<li class="mb-3">
 <a href="/games/mario-kart/">
 <img class="img-fluid rounded" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213p.jpg" alt="Mario Kart 8 Deluxe" width="100">
 </a>
@@ -52,7 +52,7 @@ Código del torneo: <code>{{ site.m7gp_code }}</code>
 <div class="row">
 <div class="col-6 my-auto">
 <ul class="list-unstyled">
-<li>
+<li class="mb-3">
 <a href="/games/splatoon/">
 <img class="img-fluid rounded" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" alt="Splatoon 3" width="100">
 </a>
@@ -77,8 +77,8 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 <div class="row">
 <div class="col-6 my-auto">
 <ul class="list-unstyled">
-<li>
-<img class="img-fluid rounded" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" alt="Mario's Picross (Game Boy)" width="100">
+<li class="mb-3">
+<img class="img-fluid rounded" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2tau.jpg" alt="Mario's Picross (Game Boy)" width="100">
 </li>
 <li>
 <em>Mario's Picross (Game Boy)</em>

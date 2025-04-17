@@ -23,12 +23,22 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <div class="card-body">
 <div class="row">
 <div class="col-6 my-auto">
+<ul class="list-unstyled">
+<li>
 <a href="/games/mario-kart/">
 <img class="img-fluid rounded" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213p.jpg" alt="Mario Kart 8 Deluxe" width="100">
 </a>
-[*Mario Kart 8 Deluxe*][4]<br>
-Mode 7 Grand Prix todos los jueves @ 9:00 pm (hora central de México)<br>
-Código del torneo: <code>{{ site.m7gp_code }}</code><br>
+</li>
+<li>
+[*Mario Kart 8 Deluxe*][4]
+</li>
+<li>
+Mode 7 Grand Prix todos los jueves @ 9:00 pm (hora central de México)
+</li>
+<li>
+Código del torneo: <code>{{ site.m7gp_code }}</code>
+</li>
+</ul>
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://discord.gg/U77J5c6" target="_blank">
@@ -39,8 +49,19 @@ Código del torneo: <code>{{ site.m7gp_code }}</code><br>
 <hr>
 <div class="row">
 <div class="col-6 my-auto">
-[*Splatoon 3*][5]<br>
-Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de las 9:00 pm, hora central de México)<br>
+<ul class="list-unstyled">
+<li>
+<a href="/games/splatoon/">
+<img class="img-fluid rounded" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" alt="Splatoon 3" width="100">
+</a>
+</li>
+<li>
+[*Splatoon 3*][5]
+</li>
+<li>
+Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de las 9:00 pm, hora central de México)
+</li>
+</ul>
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://discord.gg/NUSDKeJ" target="_blank">

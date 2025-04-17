@@ -306,3 +306,12 @@ iframe.instagram-media {
 .w-lg-50 {
     width: 100%;
 }
+
+.thumb-foto {
+    @include transition;
+
+    &:hover,
+    &:focus {
+        transform: scale(1.1);
+    }
+}

@@ -103,6 +103,7 @@ function Navigation() {
             url: "https://blog.luiscarlospando.com/fotos/",
             icon: "fa-solid fa-images",
             text: "Fotos",
+            subButtons: [],
         },
         {
             id: "6",
@@ -196,7 +197,7 @@ function Navigation() {
                     return (
                         <li key={i}>
                             <a href={siteButton.url}>
-                                <i class={siteButton.icon}></i>{" "}
+                                <i className={siteButton.icon}></i>{" "}
                                 {siteButton.text}
                             </a>
                         </li>
@@ -205,14 +206,14 @@ function Navigation() {
                     return (
                         <li key={i}>
                             <a href={siteButton.url}>
-                                <i class={siteButton.icon}></i>{" "}
+                                <i className={siteButton.icon}></i>{" "}
                                 {siteButton.text}
                             </a>
                             <ul>
                                 {siteButton.subButtons.map((subButton, i) => (
                                     <li key={i}>
                                         <a href={subButton.url}>
-                                            <i class={subButton.icon}></i>{" "}
+                                            <i className={subButton.icon}></i>{" "}
                                             {subButton.text}
                                         </a>
                                     </li>

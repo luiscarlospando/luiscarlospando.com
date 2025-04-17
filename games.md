@@ -78,10 +78,10 @@ Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de l
 <div class="col-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<img class="img-fluid rounded" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" alt="Mario's Picross" width="100">
+<img class="img-fluid rounded" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" alt="Mario's Picross (Game Boy)" width="100">
 </li>
 <li>
-<em>Mario's Picross</em>
+<em>Mario's Picross (Game Boy)</em>
 </li>
 </ul>
 </div>

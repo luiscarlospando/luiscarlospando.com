@@ -63,7 +63,7 @@ Código del torneo: <code>{{ site.m7gp_code }}</code>
 </a>
 </li>
 <li>
-Partidas de *Splatoon 3*, días aleatorios por la noche (generalmente a eso de las 9:00 pm, hora central de México)
+Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a eso de las 9:00 pm, hora central de México)
 </li>
 </ul>
 </div>

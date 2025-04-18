@@ -177,7 +177,7 @@ function Navigation() {
         },
         {
             id: "14",
-            url: "https://blog.luiscarlospando.com/rss/",
+            url: "https://luiscarlospando.com/rss/",
             icon: "fa-solid fa-square-rss",
             text: "RSS",
             subButtons: [

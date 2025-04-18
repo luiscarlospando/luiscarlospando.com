@@ -37,7 +37,7 @@ BTW, si te animas, puedes pasar a [firmar mi guestbook][16]. ✌️ <span class=
     </li>
     <li class="list-inline-item">
         <a href="https://blog.luiscarlospando.com/rss/" class="btn btn-primary btn-sm" style="vertical-align: super;">
-            <i class="fa-solid fa-square-rss"></i> Suscribirse
+            <i class="fa-solid fa-rss"></i> Suscribirse
         </a>
     </li>
 </ul>
@@ -56,7 +56,7 @@ BTW, si te animas, puedes pasar a [firmar mi guestbook][16]. ✌️ <span class=
     </li>
     <li class="list-inline-item">
         <a href="https://bg.raindrop.io/rss/public/50598757" class="btn btn-primary btn-sm" style="vertical-align: super;">
-            <i class="fa-solid fa-square-rss"></i> Suscribirse
+            <i class="fa-solid fa-rss"></i> Suscribirse
         </a>
     </li>
 </ul>

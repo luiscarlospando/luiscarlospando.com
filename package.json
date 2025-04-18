@@ -11,6 +11,7 @@
         "update-g": "node node-scripts/updateLastModifiedGames.js",
         "update-u": "node node-scripts/updateLastModifiedUses.js",
         "update-p": "node node-scripts/updateLastModifiedPrivacy.js",
+        "update-r": "node node-scripts/updateRSSFeeds.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {

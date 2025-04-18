@@ -36,7 +36,7 @@ function Navigation() {
                 },
                 {
                     id: "2-4",
-                    url: "https://blog.luiscarlospando.com/fotos/",
+                    url: "https://blog.luiscarlospando.com/photos/",
                     icon: "fa-solid fa-images",
                     text: "Fotos",
                 },
@@ -100,7 +100,7 @@ function Navigation() {
         },
         {
             id: "5",
-            url: "https://luiscarlospando.com/fotos/",
+            url: "https://luiscarlospando.com/photos/",
             icon: "fa-solid fa-images",
             text: "Fotos",
             subButtons: [],

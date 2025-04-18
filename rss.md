@@ -4,7 +4,7 @@ title: RSS
 description: Puedes suscribirte a estos feeds RSS para recibir actualiaciones de mi contenido.
 image: /assets/images/logo.png
 permalink: /rss/
-last-modified-at: <span id="last-updated-at">2025-04-18 14:00:57</span>
+last-modified-at: <span id="last-updated-at">2025-04-18 14:18:07</span>
 ---
 
 <div class="text-center">

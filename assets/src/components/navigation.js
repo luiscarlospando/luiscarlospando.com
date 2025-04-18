@@ -76,12 +76,6 @@ function Navigation() {
                     icon: "fa-solid fa-hashtag",
                     text: "Explorar por hashtag",
                 },
-                {
-                    id: "2-11",
-                    url: "https://blog.luiscarlospando.com/rss/",
-                    icon: "fa-solid fa-square-rss",
-                    text: "RSS",
-                },
             ],
         },
         {
@@ -183,6 +177,32 @@ function Navigation() {
         },
         {
             id: "14",
+            url: "https://blog.luiscarlospando.com/rss/",
+            icon: "fa-solid fa-square-rss",
+            text: "RSS",
+            subButtons: [
+                {
+                    id: "14-1",
+                    url: "https://blog.luiscarlospando.com/rss/",
+                    icon: "fa-solid fa-square-rss",
+                    text: "Blog",
+                },
+                {
+                    id: "14-2",
+                    url: "https://blog.luiscarlospando.com/photos/rss",
+                    icon: "fa-solid fa-square-rss",
+                    text: "Fotos",
+                },
+                {
+                    id: "14-3",
+                    url: "https://bg.raindrop.io/rss/public/50598757",
+                    icon: "fa-solid fa-square-rss",
+                    text: "Links",
+                },
+            ],
+        },
+        {
+            id: "15",
             url: "https://luiscarlospando.com/acerca-de/",
             icon: "fa-solid fa-circle-info",
             text: "Acerca de",

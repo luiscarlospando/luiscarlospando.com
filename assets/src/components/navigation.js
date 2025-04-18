@@ -100,7 +100,7 @@ function Navigation() {
         },
         {
             id: "5",
-            url: "https://blog.luiscarlospando.com/fotos/",
+            url: "https://luiscarlospando.com/fotos/",
             icon: "fa-solid fa-images",
             text: "Fotos",
             subButtons: [],

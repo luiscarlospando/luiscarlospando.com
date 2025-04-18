@@ -36,7 +36,7 @@ Este es el feed principal de mi blog personal.
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/rss/">
-<i class="fa-solid fa-square-rss"></i> Suscribirse
+<i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
 </div>
@@ -56,7 +56,7 @@ Este es el feed donde comparto mis fotos.
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/photos/rss">
-<i class="fa-solid fa-square-rss"></i> Suscribirse
+<i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
 </div>
@@ -76,7 +76,7 @@ Aquí comparto mis links favoritos.
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://bg.raindrop.io/rss/public/50598757">
-<i class="fa-solid fa-square-rss"></i> Suscribirse
+<i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
 </div>

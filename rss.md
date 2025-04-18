@@ -4,7 +4,7 @@ title: RSS
 description: Puedes suscribirte a estos feeds RSS para recibir actualiaciones de mi contenido.
 image: /assets/images/logo.png
 permalink: /rss/
-last-modified-at: <span id="last-updated-at">2025-04-18 14:18:07</span>
+last-modified-at: <span id="last-updated-at">2025-04-18 14:19:25</span>
 ---
 
 <div class="text-center">
@@ -26,7 +26,7 @@ last-modified-at: <span id="last-updated-at">2025-04-18 14:18:07</span>
 <ul class="list-unstyled">
 <li>
 <a href="https://blog.luiscarlospando.com/rss/">
-Feed principal del blog
+    ✍️ Blog
 </a>
 </li>
 <li>
@@ -46,7 +46,7 @@ Este es el feed principal de mi blog personal.
 <ul class="list-unstyled">
 <li>
 <a href="https://blog.luiscarlospando.com/photos/rss">
-Feed de la sección de fotos
+    📸 Fotos
 </a>
 </li>
 <li>
@@ -66,7 +66,7 @@ Este es el feed donde comparto mis fotos.
 <ul class="list-unstyled">
 <li>
 <a href="https://bg.raindrop.io/rss/public/50598757">
-Feed de mis links favoritos
+    🔗 Links
 </a>
 </li>
 <li>

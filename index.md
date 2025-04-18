@@ -72,7 +72,7 @@ BTW, si te animas, puedes pasar a [firmar mi guestbook][16]. ✌️ <span class=
 [3]: https://github.com/{{ site.github_username }}
 [4]: http://hitz-musik.net
 [5]: /acerca-de/
-[6]: /fotos/
+[6]: /photos/
 [7]: https://www.backloggd.com/u/{{ site.backloggd_username }}
 [8]: /discord/
 [9]: /games/mario-kart/

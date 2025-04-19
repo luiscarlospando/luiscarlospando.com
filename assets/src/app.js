@@ -25,6 +25,7 @@ import "./instatus";
 import "./modals";
 import "./blog";
 import "./scroll-events";
+import "./masonry";
 import "./back-to-top";
 import "./deepl";
 import "./other";

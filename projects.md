@@ -36,7 +36,7 @@ Tema personalizado para Warp terminal que emula el aspecto de una antigua pantal
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://github.com/luiscarlospando/pastel-crt-theme" target="_blank">
-<i class="fa-brands fa-github"></i> Repo
+<i class="fa-brands fa-github"></i> Repositorio
 </a>
 </div>
 </div>
@@ -56,7 +56,7 @@ Este es el shader que uso en la terminal Ghostty. Añade aberración cromática,
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://github.com/luiscarlospando/crt-shader-with-chromatic-aberration-glow-scanlines-dot-matrix" target="_blank">
-<i class="fa-brands fa-github"></i> Repo
+<i class="fa-brands fa-github"></i> Repositorio
 </a>
 </div>
 </div>
@@ -76,7 +76,7 @@ Una extensión de Raycast que te permite controlar Discord sin cambiar de ventan
 </div>
 <div class="col-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://github.com/luiscarlospando/raycast-discord-extension" target="_blank">
-<i class="fa-brands fa-github"></i> Repo
+<i class="fa-brands fa-github"></i> Repositorio
 </a>
 </div>
 </div>

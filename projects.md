@@ -4,7 +4,7 @@ title: Proyectos
 description: Algunas cosas que he hecho para mi mismo y que pueden ser de utilidad para alguien más.
 image: /assets/images/logo.png
 permalink: /projects/
-last-modified-at: <span id="last-updated-at">2025-04-18 14:19:25</span>
+last-modified-at: <span id="last-updated-at">2025-05-03 00:03:55</span>
 ---
 
 <div class="text-center">

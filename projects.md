@@ -22,7 +22,7 @@ last-modified-at: <span id="last-updated-at">2025-05-03 00:03:55</span>
 </div>
 <div class="card-body">
 <div class="row">
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
 <a href="https://github.com/luiscarlospando/pastel-crt-theme" target="_blank">
@@ -34,7 +34,7 @@ Tema personalizado para Warp terminal que emula el aspecto de una antigua pantal
 </li>
 </ul>
 </div>
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://github.com/luiscarlospando/pastel-crt-theme" target="_blank">
 <i class="fa-brands fa-github"></i> Repositorio
 </a>
@@ -42,7 +42,7 @@ Tema personalizado para Warp terminal que emula el aspecto de una antigua pantal
 </div>
 <hr>
 <div class="row">
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
 <a href="https://github.com/luiscarlospando/crt-shader-with-chromatic-aberration-glow-scanlines-dot-matrix" target="_blank">
@@ -54,7 +54,7 @@ Este es el shader que uso en la terminal Ghostty. Añade aberración cromática,
 </li>
 </ul>
 </div>
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://github.com/luiscarlospando/crt-shader-with-chromatic-aberration-glow-scanlines-dot-matrix" target="_blank">
 <i class="fa-brands fa-github"></i> Repositorio
 </a>
@@ -62,7 +62,7 @@ Este es el shader que uso en la terminal Ghostty. Añade aberración cromática,
 </div>
 <hr>
 <div class="row">
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
 <a href="https://github.com/luiscarlospando/raycast-discord-extension" target="_blank">
@@ -74,7 +74,7 @@ Una extensión de Raycast que te permite controlar Discord sin cambiar de ventan
 </li>
 </ul>
 </div>
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://github.com/luiscarlospando/raycast-discord-extension" target="_blank">
 <i class="fa-brands fa-github"></i> Repositorio
 </a>

@@ -22,7 +22,7 @@ last-modified-at: <span id="last-updated-at">2025-04-18 14:19:25</span>
 </div>
 <div class="card-body">
 <div class="row">
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
 <a href="https://blog.luiscarlospando.com/rss/">
@@ -34,7 +34,7 @@ Este es el feed principal de mi blog personal.
 </li>
 </ul>
 </div>
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/rss/">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
@@ -42,7 +42,7 @@ Este es el feed principal de mi blog personal.
 </div>
 <hr>
 <div class="row">
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
 <a href="https://blog.luiscarlospando.com/photos/rss">
@@ -54,7 +54,7 @@ Este es el feed donde comparto mis fotos.
 </li>
 </ul>
 </div>
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/photos/rss">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
@@ -62,7 +62,7 @@ Este es el feed donde comparto mis fotos.
 </div>
 <hr>
 <div class="row">
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
 <a href="https://bg.raindrop.io/rss/public/50598757">
@@ -74,7 +74,7 @@ Aquí comparto mis links favoritos.
 </li>
 </ul>
 </div>
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://bg.raindrop.io/rss/public/50598757">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>

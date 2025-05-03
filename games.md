@@ -22,7 +22,7 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 </div>
 <div class="card-body">
 <div class="row">
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li class="mb-3">
 <a href="/games/mario-kart/">
@@ -42,7 +42,7 @@ Código del torneo: <code>{{ site.m7gp_code }}</code>
 </li>
 </ul>
 </div>
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://discord.gg/U77J5c6" target="_blank">
 <i class="fa-brands fa-discord"></i> Discord
 </a>
@@ -50,7 +50,7 @@ Código del torneo: <code>{{ site.m7gp_code }}</code>
 </div>
 <hr>
 <div class="row">
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li class="mb-3">
 <a href="/games/splatoon/">
@@ -67,7 +67,7 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 </li>
 </ul>
 </div>
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <a class="btn btn-primary btn-lg" href="https://discord.gg/NUSDKeJ" target="_blank">
 <i class="fa-brands fa-discord"></i> Discord
 </a>
@@ -75,7 +75,7 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 </div>
 <hr>
 <div class="row">
-<div class="col-6 my-auto">
+<div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li class="mb-3">
 <img class="img-fluid rounded" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2tau.jpg" alt="Mario's Picross (Game Boy)" width="100">
@@ -85,7 +85,7 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 </li>
 </ul>
 </div>
-<div class="col-6 my-auto text-monospace">
+<div class="col-md-6 my-auto text-monospace">
 (Offline)
 </div>
 </div>

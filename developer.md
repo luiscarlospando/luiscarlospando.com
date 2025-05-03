@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Development Stuff
-description: Estos son mis perfiles de desarrollo. 👨‍💻
+description: Estos son mis perfiles de developer. 👨‍💻
 image: /assets/images/logo.png
 permalink: /developer/
 ---

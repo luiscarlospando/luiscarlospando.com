@@ -104,7 +104,15 @@ function Navigation() {
             url: "https://luiscarlospando.com/developer/",
             icon: "fa-solid fa-code",
             text: "Development Stuff",
-            subButtons: [],
+            subButtons: [
+                {
+                    id: "6-1",
+                    url: "https://luiscarlospando.com/keys/",
+                    icon: "fa-solid fa-key",
+                    text: "Llaves públicas",
+                    subButtons: [],
+                },
+            ],
         },
         {
             id: "7",
@@ -122,16 +130,16 @@ function Navigation() {
         },
         {
             id: "9",
-            url: "https://luiscarlospando.com/guestbook/",
-            icon: "fa-solid fa-hand-peace",
-            text: "Guestbook",
+            url: "https://luiscarlospando.com/projects/",
+            icon: "fa-solid fa-box",
+            text: "Proyectos",
             subButtons: [],
         },
         {
             id: "10",
-            url: "https://luiscarlospando.com/keys/",
-            icon: "fa-solid fa-key",
-            text: "Llaves públicas",
+            url: "https://luiscarlospando.com/guestbook/",
+            icon: "fa-solid fa-hand-peace",
+            text: "Guestbook",
             subButtons: [],
         },
         {
@@ -141,7 +149,7 @@ function Navigation() {
             text: "Discord (Mode 7)",
             subButtons: [
                 {
-                    id: "9-1",
+                    id: "11-1",
                     url: "https://blog.luiscarlospando.com/hashtag/mode-7-podcast/",
                     icon: "fa-solid fa-podcast",
                     text: "Mode 7 Podcast",
@@ -155,13 +163,13 @@ function Navigation() {
             text: "Games",
             subButtons: [
                 {
-                    id: "11-1",
+                    id: "12-1",
                     url: "https://luiscarlospando.com/games/mario-kart/",
                     icon: "fa-solid fa-gamepad",
                     text: "Mario Kart 8 Deluxe (Mode 7 Grand Prix)",
                 },
                 {
-                    id: "11-2",
+                    id: "12-2",
                     url: "https://luiscarlospando.com/games/splatoon/",
                     icon: "fa-solid fa-gamepad",
                     text: "Splatoon 3",

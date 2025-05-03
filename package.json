@@ -12,6 +12,7 @@
         "update-u": "node node-scripts/updateLastModifiedUses.js",
         "update-p": "node node-scripts/updateLastModifiedPrivacy.js",
         "update-r": "node node-scripts/updateRSSFeeds.js",
+        "update-b": "node node-scripts/updateProjects.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {

@@ -24,7 +24,7 @@ Parte de mi jale se puede encontrar [aquí][2]{:rel="me" target="_blank"}.
 Otra parte de mi jale también se puede encontrar [aquí][5]{:rel="me" target="_blank"}.
 
 ## <i class="fa-solid fa-clipboard"></i> Pastebin
-[Aquí tengo algunos Pastes][6]{:rel="me" target="_blank"} que de repente voy creando.
+Aquí tengo [algunos Pastebins][6]{:rel="me" target="_blank"}.
 
 ## <i class="fa-brands fa-stack-overflow"></i> Stack Overflow
 <a rel="me" href="https://stackoverflow.com/users/2197860/luis-carlos-pando" target="_blank">

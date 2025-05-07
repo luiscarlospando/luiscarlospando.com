@@ -21,6 +21,9 @@ Si tienes mi número personal puedes contactarme por iMessage _preferentemente_.
 APKTIDqddeGKq1HgGGc9_rnoTBa9Pl5qoeZSlNhMBw1bky9JPefQ
 ```
 
+## <i class="fa-solid fa-file-signature"></i> Guestbook
+Una manera rápida y sencilla de mandarme algo (anónimamente o no) es [ir a mi guestbook][15] y dejarme un mensaje por ahí.
+
 ## <i class="fa-brands fa-signal-messenger"></i> Signal
 También me puedes contactar de forma segura por [Signal][1]{:rel="me" target="_blank"}, mi username es <a href="https://signal.me/#eu/yXhJR9hhF1ntcOAnw5Cl6kLpsoxcYzyzFAtH-m4sLL1nZ8Ta_fBK_5lIcmQzHKyo" rel="me" target="_blank"><code>{{ site.signal_username }}</code></a>.
 
@@ -98,3 +101,4 @@ En [Backloggd][14]{:rel="me" target="_blank"} llevo el control de los videojuego
 [12]: {{ site.twitch_purl }}
 [13]: /live/
 [14]: https://www.backloggd.com/u/{{ site.backloggd_username }}
+[15]: /guestbook/

@@ -138,7 +138,7 @@ function Navigation() {
         {
             id: "10",
             url: "https://luiscarlospando.com/guestbook/",
-            icon: "fa-solid fa-hand-peace",
+            icon: "fa-solid fa-file-signature",
             text: "Guestbook",
             subButtons: [],
         },

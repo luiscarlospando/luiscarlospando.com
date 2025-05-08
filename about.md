@@ -11,7 +11,7 @@ permalink: /acerca-de/
 
 Me enorgullece el hecho de formar parte del Internet independiente y descentralizado. ✌️ Este es un lugar que puedo considerar *completamente mío*. Aquí yo tengo el control de todo, del *look & feel*, del contenido, de los *features* y así. No estoy a expensas de ninguna empresa como Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok.
 
-Todo mundo sabe que el futuro esas plataformas es incierto (y ya ha pasado varias veces que desaparecen o cambian de dueño/directores y valen sh!t). Hay que ser conscientes de que no tenemos control real, ni somos propietarios de nuestras cuentas y/o contenido.
+Todo mundo sabe que el futuro de esas plataformas es incierto (y ya ha pasado varias veces que desaparecen o cambian de dueño/directores y valen sh!t). Hay que ser conscientes de que no tenemos control real, ni somos propietarios de nuestras cuentas y/o contenido.
 
 Y bueno, ya hablando de cosas más felices: este sitio es un lugar para expresarme libremente, compartir cosas que creo valen la pena, opinar, experimentar, codear y pasarla chido.
 

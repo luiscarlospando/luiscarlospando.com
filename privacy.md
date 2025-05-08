@@ -28,10 +28,10 @@ Esos sitios pueden recopilar datos sobre ti, utilizar cookies, incrustar un segu
 ### Analytics
 Para conocer y analizar el tráfico que recibo en mi sitio, uso [Tinylytics][1]{:target="_blank"}. Tinylytics respeta tu privacidad. Ninguna cookie es almacenada en tu dispositivo y es un servicio que cumple con el [RGPD][2]{:target="_blank"}.
 
-### Links referidos
-Los links referidos usados en mi sitio son una manera fácil de apoyarnos mútuamente. Cada servicio que recomiendo en mi sitio es porque lo estoy usando activamente y lo recomiendo genuinamente.
+### Links de referidos
+Los links de referidos usados en mi sitio son una manera fácil de apoyarnos mútuamente. Cada servicio que recomiendo en mi sitio es porque lo estoy usando activamente y lo recomiendo genuinamente.
 
-Aparte de que siempre procuraré indicar cuando algún link o botón de mi sitio sea un link referido.
+Aparte de que siempre procuraré indicar cuando algún link o botón de mi sitio sea un link de referido.
 
 [1]: https://tinylytics.app/
 [2]: https://es.wikipedia.org/wiki/Reglamento_General_de_Protecci%C3%B3n_de_Datos

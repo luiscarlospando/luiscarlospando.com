@@ -21,7 +21,7 @@ Aquí está el [archivo completo][2] de todos mis posts (desde que armé este si
 
 ---
 
-*Disclaimer: Los links de DigitalOcean, Instatus y omg.lol son links de referido.*
+*Disclaimer: Los links de DigitalOcean, Instatus y omg.lol son links de referidos.*
 
 ## Colofón
 

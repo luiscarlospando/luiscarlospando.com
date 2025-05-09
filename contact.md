@@ -15,7 +15,7 @@ Mi correo es: <code>{{ site.email }}</code><br>
 </a>
 
 ## <i class="fa-brands fa-apple"></i> iMessage (Código de verificación)
-Si tienes mi número personal puedes contactarme por iMessage _preferentemente_. Puedes usar este código de abajo para [verificarme](https://support.apple.com/es-mx/118246){:target="_blank"}.
+Si tienes mi número personal me puedes contactar _de preferencia_ por iMessage y opcionalmente puedes usar este código de abajo para [verificarme](https://support.apple.com/es-mx/118246){:target="_blank"}.
 
 ```
 APKTIDqddeGKq1HgGGc9_rnoTBa9Pl5qoeZSlNhMBw1bky9JPefQ
@@ -25,7 +25,7 @@ APKTIDqddeGKq1HgGGc9_rnoTBa9Pl5qoeZSlNhMBw1bky9JPefQ
 Una manera rápida y sencilla de mandarme algo (anónimamente o no) es [ir a mi guestbook][15] y dejarme un mensaje por ahí.
 
 ## <i class="fa-brands fa-signal-messenger"></i> Signal
-También me puedes contactar de forma segura por [Signal][1]{:rel="me" target="_blank"}, mi username es <a href="https://signal.me/#eu/yXhJR9hhF1ntcOAnw5Cl6kLpsoxcYzyzFAtH-m4sLL1nZ8Ta_fBK_5lIcmQzHKyo" rel="me" target="_blank"><code>{{ site.signal_username }}</code></a>.
+También me puedes contactar de manera segura por [Signal][1]{:rel="me" target="_blank"}, mi username es <a href="https://signal.me/#eu/yXhJR9hhF1ntcOAnw5Cl6kLpsoxcYzyzFAtH-m4sLL1nZ8Ta_fBK_5lIcmQzHKyo" rel="me" target="_blank"><code>{{ site.signal_username }}</code></a>.
 
 ## <i class="fa-brands fa-mastodon"></i> Mastodon
 <a rel="me" href="{{ site.mastodon_url }}" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Seguir a @{{ site.mastodon_username }} en Mastodon" target="_blank">

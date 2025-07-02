@@ -52,7 +52,7 @@ BTW, si te animas, puedes pasar a [firmar mi guestbook][16]. ✌️ <span class=
 
 <ul class="list-inline">
     <li class="list-inline-item">
-        <h2><i class="fa-solid fa-link"></i> Links <i class="ico-links-info fa-solid fa-circle-info"  data-toggle="tooltip" data-placement="top" data-html="true" title="Esta es una lista de enlaces que me he encontrado navegando por Internet. Cuando algo me gusta o se me hace interesante lo agrego a esta lista para compartir con ustedes. Casi todo lo que leo está en inglés."></i></h2>
+        <h2><i class="fa-solid fa-link"></i> Links <i class="ico-links-info fa-solid fa-circle-info"  data-toggle="tooltip" data-placement="top" data-html="true" title="Esta es una lista de cosas que he encontrado navegando por Internet. Cuando algo me gusta o me parece interesante lo agrego a esta lista. La mayoría de los links son en inglés."></i></h2>
     </li>
     <li class="list-inline-item">
         <a href="https://bg.raindrop.io/rss/public/50598757" class="btn btn-primary btn-sm" style="vertical-align: super;">

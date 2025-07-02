@@ -42,7 +42,7 @@ Cuenta personal.
 Cuenta personal.
 
 ## <i class="fa-solid fa-calendar-days"></i> Agenda una llamada conmigo
-Este cotorreo de agendar llamada conmigo francamente no creo usarlo nunca, pero no hace daño tampoco tener la opción, así que:
+Este cotorreo de agendar llamada conmigo francamente no creo usarlo nunca, pero tampoco hace daño tener la opción, así que:
 
 <ul class="list-inline">
 <li class="list-inline-item">

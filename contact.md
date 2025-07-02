@@ -90,7 +90,7 @@ En [Backloggd][14]{:rel="me" target="_blank"} llevo el control de los videojuego
 [1]: https://signal.me/#eu/yXhJR9hhF1ntcOAnw5Cl6kLpsoxcYzyzFAtH-m4sLL1nZ8Ta_fBK_5lIcmQzHKyo
 [2]: https://instagram.com/{{ site.instagram_username }}
 [3]: {{ site.discord_profile }}
-[4]: /mode-7/
+[4]: /discord/
 [5]: https://{{ site.omglol_username }}.{{ site.domain }}/
 [6]: https://home.omg.lol/referred-by/{{ site.omglol_username }}
 [7]: https://pics.{{ site.domain }}/

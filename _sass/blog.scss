@@ -148,15 +148,19 @@ h6 {
     }
 }
 
-.follow p,
-.primary_navigation p,
+.follow,
+.primary_navigation {
+    p {
+        font-size: 0.918rem;
+    }
+}
+
 p.latest-post {
     font-size: 0.918rem;
 }
 
 .pagination {
     display: block !important;
-    font-size: 16rem;
     text-align: center;
     margin: 20px 0;
 }

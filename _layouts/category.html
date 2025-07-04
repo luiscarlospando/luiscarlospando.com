@@ -4,6 +4,9 @@
     <div class="row">
         <div class="col-12 col-md-10 offset-md-1">
             <h1 class="text-center">{{ page.title }}</h1>
+            {% if page.description %}
+            <p class="text-center">{{ page.description }}</p>
+            {% endif %}
             <ul>
                 {% for post in site.categories[page.category] %}
                 <li>

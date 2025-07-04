@@ -5,5 +5,3 @@ description: "La sección de mi sitio (y de muchos otros sitios de otras persona
 category: now
 permalink: /category/now/
 ---
-
-<p class="text-center">{{ page.description }}</p>

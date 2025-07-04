@@ -1,7 +1,7 @@
 ---
 layout: category
 title: "Now"
-description: "La sección de mi sitio (y de muchos otros sitios de otras personas) es una forma de compartir información actualizada sobre lo que estoy haciendo y viviendo en ese momento."
+description: "La sección /now de mi sitio es una forma de compartir información actualizada sobre lo que estoy haciendo y viviendo en este momento."
 category: now
 permalink: /category/now/
 ---

@@ -47,7 +47,7 @@ Suscríbete a mi sitio por:
 
 ## Errores en el sitio
 
-Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][18].
+Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][18] o [abre un issue en GitHub][23].
 
 [1]: /
 [2]: https://blog.{{ site.domain }}/author/me/
@@ -70,3 +70,4 @@ Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. 
 [19]: https://fontawesome.com/
 [20]: https://www.deepl.com/en/translator
 [21]: https://bg.raindrop.io/rss/public/50598757
+[23]: https://github.com/luiscarlospando/luiscarlospando.com/issues/new

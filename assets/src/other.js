@@ -305,7 +305,7 @@ import { initStatusManager } from "./statuslog.js";
       const greetings = {
         morning: [
           "☕ Buenos días, hora de prender la compu y ver qué se rompe hoy.",
-          "🌞 Échale ganas… o mínimo échale café.",
+          "🌞 Échale ganas... o mínimo échale café.",
           "📣 Nuevo día, mismo caos. A darle pues.",
         ],
         afternoon: [

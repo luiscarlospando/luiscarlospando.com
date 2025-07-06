@@ -304,26 +304,38 @@ import { initStatusManager } from "./statuslog.js";
 
       const greetings = {
         morning: [
-          "☀️ ¡Buenos días! Que el café cumpla su función.",
-          "🌞 Nuevo día, nuevas chances de que algo salga chido.",
-          "☕ A darle, que la cama no se tiende sola.",
+          "☕ Buenos días, hora de prender la compu y ver qué se rompe hoy.",
+          "🌞 Échale ganas… o mínimo échale café.",
+          "📣 Nuevo día, mismo caos. A darle pues.",
         ],
         afternoon: [
-          "🌤️ ¿Cómo va eso? Ya se siente la bajadita.",
-          "😎 Buenas tardes, que no se apague el ritmo.",
-          "🍽️ Hora de botanear algo rico y seguirle sin miedo.",
+          "🍽️ Ya se vale botanear algo, no todo es trabajo.",
+          "😎 A esta hora ya todo es inercia, tú déjate llevar.",
+          "🖥️ Que no decaiga ese playlist, ¡ánimo!",
         ],
         evening: [
-          "🌅 Ya casi, no aflojes que la meta se asoma.",
-          "🔥 Lo que quede del día, que se aproveche.",
-          "🍵 Un break no cae mal, pero que no se alargue.",
+          "🌅 Ya vamos por el último jalón, ya casi se arma el descanso.",
+          "🍵 Pídete algo de cenar, te lo ganaste… probablemente.",
+          "🎧 Si no has puesto buenas rolas, ¿qué andas haciendo?",
         ],
         night: [
-          "🌙 Hora de desconectar, ya estuvo por hoy.",
-          "🛌 Que el descanso sea leve y reparador.",
-          "✨ Buenas noches, sin desvelarse de oquis.",
+          "🌙 Apaga esa compu. Mañana le seguimos.",
+          "🛌 Ya vámonos a dormir...",
+          "✨ Buenas noches, my friend.",
         ],
       };
+
+      // Easter eggs
+      const easterEggs = [
+        "🎮 ¿Ya jugaste algo hoy o todo mal?",
+        "💾 Recuerda guardar, no seas confiad@.",
+        "🛑 Si estás viendo esto, ya duraste mucho aquí.",
+      ];
+
+      // Probability of appearing of 3%
+      if (Math.random() < 0.03) {
+        return easterEggs[Math.floor(Math.random() * easterEggs.length)];
+      }
 
       if (hour >= 5 && hour < 12) {
         return greetings.morning[

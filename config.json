@@ -1,3 +1,6 @@
+---
+layout: null
+---
 {
   "site_title": "{{ site.title }}",
   "site_description": "{{ site.description }}",

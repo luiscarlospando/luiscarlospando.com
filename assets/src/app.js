@@ -28,6 +28,7 @@ import "./scroll-events";
 import "./masonry";
 import "./back-to-top";
 import "./deepl";
+import "./lastfm-last-played";
 import "./other";
 
 // React components

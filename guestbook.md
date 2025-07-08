@@ -39,7 +39,7 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 <textarea class="form-control" placeholder="Mensaje" id="text" name="text" style="width: 100%; box-sizing: border-box; resize: vertical;" required></textarea>
 </div>
 <br/>
-<input class="btn btn-primary btn-lg" type="submit" value="Submit">
+<input class="btn btn-primary btn-lg" type="submit" value="Publicar mensaje">
 <div id="guestbooks___error-message"></div>
 </form>
 </div>

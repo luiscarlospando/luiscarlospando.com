@@ -273,6 +273,10 @@ td:first-child {
     border: 1px solid $fifthColor;
     border-radius: $borderRadius;
     color: $sixthColor;
+
+    &:focus {
+        background-color: transparent;
+    }
 }
 
 header,

@@ -29,7 +29,7 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 <div id="guestbooks___guestbook-form-container">
 <form id="guestbooks___guestbook-form" action="https://guestbooks.meadow.cafe/guestbook/754/submit" method="post">
 <div class="guestbooks___input-container">
-<input class="form-control" placeholder="Nombre" type="text" id="name" name="name" required>
+<input class="form-control" placeholder="Nombre/Nickname" type="text" id="name" name="name" required>
 </div>
 <div class="guestbooks___input-container">
 <input class="form-control" placeholder="Sitio/Perfil personal (opcional)" type="url" id="website" name="website">

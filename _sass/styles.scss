@@ -259,6 +259,22 @@ td:first-child {
     color: $tableFirstChildColor;
 }
 
+.form-control {
+    font-family:
+        "SFMono-Regular",
+        Menlo,
+        Monaco,
+        Consolas,
+        Liberation Mono,
+        Courier New,
+        monospace;
+    font-size: 1.4rem;
+    background-color: transparent;
+    border: 1px solid $fifthColor;
+    border-radius: $borderRadius;
+    color: $sixthColor;
+}
+
 header,
 .site-body,
 footer {

@@ -44,7 +44,7 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 </form>
 </div>
 <div id="guestbooks___guestbook-made-with" style="text-align: right;">
-<small>Hecho con amor con <a target="_blank" href="https://guestbooks.meadow.cafe">Guestbooks</a></small>
+<small>Hecho usando <a target="_blank" href="https://guestbooks.meadow.cafe">Guestbooks</a></small>
 </div>
 <hr style="margin: 1em 0;"/>
 <h3 id="guestbooks___guestbook-messages-header">Mensajes</h3>

@@ -19,7 +19,7 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 <ul>
 <li>🚫 No odio/hate</li>
 <li>🚫 No spam</li>
-<li>🚫 Nada de publicidad</li>
+<li>🚫 No publicidad</li>
 <li>🔒 No compartas información privada</li>
 <li>🤝 Sé respetuoso conmigo y con los demás en los comentarios</li>
 </ul>

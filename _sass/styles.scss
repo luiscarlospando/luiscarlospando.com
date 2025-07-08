@@ -656,3 +656,31 @@ code {
     vertical-align: text-bottom;
     width: 1.8rem;
 }
+
+// Last played from Last.fm
+#last-played {
+    li {
+        background-color: $cardBgColor;
+        border: 1px solid $componentBorderColor !important;
+        border: none;
+        border-radius: $borderRadius;
+        padding: 16px 14px 15px;
+        margin: 0;
+        position: relative;
+        width: 100%;
+        float: left;
+
+        &::after {
+            content: "\f202";
+            color: $transparentGray;
+            font-family: "Font Awesome 5 Brands";
+            position: absolute;
+            font-size: 1rem;
+            bottom: -5px;
+            right: 5px;
+            font-variant: normal;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+        }
+    }
+}

@@ -67,6 +67,12 @@ BTW, si te animas, puedes pasar a [firmar mi guestbook][16]. ✌️ <span class=
     <i class="fa-solid fa-list-ul"></i> Ver todos
 </a>
 
+<ul id="last-played" class="list-unstyled mb-0">
+    <li>
+        Última reproducción: <span id="last-played"></span>
+    </li>
+</ul>
+
 [1]: https://es.wikipedia.org/wiki/Chihuahua_(Chihuahua)
 [2]: https://www.instagram.com/primitivegirl
 [3]: https://github.com/{{ site.github_username }}

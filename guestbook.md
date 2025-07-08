@@ -29,18 +29,17 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 <div id="guestbooks___guestbook-form-container">
 <form id="guestbooks___guestbook-form" action="https://guestbooks.meadow.cafe/guestbook/754/submit" method="post">
 <div class="guestbooks___input-container">
-<input placeholder="Name" type="text" id="name" name="name" required>
+<input class="form-control" placeholder="Nombre" type="text" id="name" name="name" required>
 </div>
 <div class="guestbooks___input-container">
-<input placeholder="Website (optional)" type="url" id="website" name="website">
+<input class="form-control" placeholder="Sitio/Perfil personal (opcional)" type="url" id="website" name="website">
 </div>
 <div id="guestbooks___challenge-answer-container"></div>
-<br/>
 <div class="guestbooks___input-container">
-<textarea placeholder="Message (plain text only)..." id="text" name="text" style="width: 100%; box-sizing: border-box; resize: vertical;" required></textarea>
+<textarea class="form-control" placeholder="Mensaje" id="text" name="text" style="width: 100%; box-sizing: border-box; resize: vertical;" required></textarea>
 </div>
 <br/>
-<input type="submit" value="Submit">
+<input class="btn btn-primary btn-lg" type="submit" value="Submit">
 <div id="guestbooks___error-message"></div>
 </form>
 </div>

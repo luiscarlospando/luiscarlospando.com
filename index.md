@@ -37,8 +37,6 @@ BTW, si te animas, puedes pasar a [firmar mi guestbook][16]. ✌️ <span class=
     </li>
 </ul>
 
----
-
 <ul class="list-inline">
     <li class="list-inline-item">
         <h2><i class="fa-solid fa-file-pen"></i> Blog</h2>

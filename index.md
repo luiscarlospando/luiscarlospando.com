@@ -33,7 +33,7 @@ BTW, si te animas, puedes pasar a [firmar mi guestbook][16]. ✌️ <span class=
 
 <ul id="last-played" class="list-unstyled mb-0">
     <li>
-        Última reproducción: <span id="last-played-song"></span>
+        <i class="fa-solid fa-music"></i> Última reproducción: <span id="last-played-song"></span>
     </li>
 </ul>
 

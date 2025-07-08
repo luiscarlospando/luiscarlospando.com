@@ -31,6 +31,14 @@ BTW, si te animas, puedes pasar a [firmar mi guestbook][16]. ✌️ <span class=
 
 ---
 
+<ul id="last-played" class="list-unstyled mb-0">
+    <li>
+        Última reproducción: <span id="last-played"></span>
+    </li>
+</ul>
+
+---
+
 <ul class="list-inline">
     <li class="list-inline-item">
         <h2><i class="fa-solid fa-file-pen"></i> Blog</h2>
@@ -66,12 +74,6 @@ BTW, si te animas, puedes pasar a [firmar mi guestbook][16]. ✌️ <span class=
 <a class="btn btn-primary" href="https://{{ site.domain }}/links/">
     <i class="fa-solid fa-list-ul"></i> Ver todos
 </a>
-
-<ul id="last-played" class="list-unstyled mb-0">
-    <li>
-        Última reproducción: <span id="last-played"></span>
-    </li>
-</ul>
 
 [1]: https://es.wikipedia.org/wiki/Chihuahua_(Chihuahua)
 [2]: https://www.instagram.com/primitivegirl

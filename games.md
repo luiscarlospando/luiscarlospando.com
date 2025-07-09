@@ -145,9 +145,18 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 </button>
 </div>
 </div>
-<a class="btn btn-primary btn-sm mt-4" href="https://lounge.nintendo.com/friendcode/3920-3330-9820/DLkJcWQ1L6" rel="me" target="_blank">
+<ul class="list-inline mt-4">
+<li class="list-inline-item">
+<a class="btn btn-primary btn-sm" href="https://lounge.nintendo.com/friendcode/3920-3330-9820/DLkJcWQ1L6" rel="me" target="_blank">
 <i class="fa-solid fa-user-plus"></i> Agrégame como amigo
 </a>
+</li>
+<li class="list-inline-item">
+<a class="btn btn-primary btn-sm" href="javascript:void(0)" data-toggle="modal" data-target="#modal" data-img-src="assets/images/nintendo-switch-qr-code.jpg">
+<i class="fa-solid fa-qrcode"></i> Escanear código QR
+</a>
+</li>
+</ul>
 </div>
 </div>
 

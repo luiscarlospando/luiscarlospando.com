@@ -37,7 +37,7 @@ permalink: /games/splatoon/
 
 ## <i class="fa-solid fa-paint-roller"></i> Flyer
 
-<div class="text-center mt20">
+<div class="text-center">
 <a href="javascript:void(0)" data-toggle="modal" data-target="#modal">
 <img class="img-fluid rounded" src="/assets/images/splatoon-flyer-2024-animated.gif" alt="" loading="lazy" />
 </a>

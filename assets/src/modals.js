@@ -1,19 +1,26 @@
 // Modals
 document.addEventListener("DOMContentLoaded", function () {
-    // Select all the modal trigger buttons
-    const modalTriggers = document.querySelectorAll('[data-toggle="modal"]');
+  const modalTriggers = document.querySelectorAll('[data-toggle="modal"]');
 
-    // Add click event listener to each trigger button
-    modalTriggers.forEach((trigger) => {
-        trigger.addEventListener("click", function () {
-            // Get the img element inside the clicked button
-            const imgSrc = this.querySelector("img").getAttribute("src");
+  modalTriggers.forEach((trigger) => {
+    trigger.addEventListener("click", function () {
+      // Try to get the img element inside the clicked trigger
+      const imgElement = this.querySelector("img");
+      let imgSrc = "";
 
-            // Get the modal image element
-            const modalImg = document.querySelector("#modal .modal-body img");
+      if (imgElement) {
+        // If there's an img inside, use its src
+        imgSrc = imgElement.getAttribute("src");
+      } else if (this.hasAttribute("data-img-src")) {
+        // Else if there's a data-img-src attribute, use it
+        imgSrc = this.getAttribute("data-img-src");
+      }
 
-            // Update the src attribute of the modal image
-            modalImg.setAttribute("src", imgSrc);
-        });
+      // If we got an imgSrc value, update the modal image
+      if (imgSrc) {
+        const modalImg = document.querySelector("#modal .modal-body img");
+        modalImg.setAttribute("src", imgSrc);
+      }
     });
+  });
 });

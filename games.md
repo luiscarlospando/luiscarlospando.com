@@ -152,7 +152,7 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 </a>
 </li>
 <li class="list-inline-item">
-<a class="btn btn-primary btn-sm" href="javascript:void(0)" data-toggle="modal" data-target="#modal" data-img-src="assets/images/nintendo-switch-qr-code.jpg">
+<a class="btn btn-primary btn-sm" href="javascript:void(0)" data-toggle="modal" data-target="#modal" data-img-src="./assets/images/nintendo-switch-qr-code.jpg">
 <i class="fa-solid fa-qrcode"></i> Escanear código QR
 </a>
 </li>

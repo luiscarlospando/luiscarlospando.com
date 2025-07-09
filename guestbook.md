@@ -25,6 +25,7 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 </ul>
 </div>
 
+<div class="card">
 <script async src="https://guestbooks.meadow.cafe/resources/js/embed_script/754/script.js"></script>
 <div id="guestbooks___guestbook-form-container">
 <form id="guestbooks___guestbook-form" action="https://guestbooks.meadow.cafe/guestbook/754/submit" method="post">
@@ -49,3 +50,4 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 <hr style="margin: 1em 0;"/>
 <h3 id="guestbooks___guestbook-messages-header">Mensajes</h3>
 <div id="guestbooks___guestbook-messages-container"></div>
+</div>

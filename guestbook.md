@@ -27,7 +27,8 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 
 <script async src="https://guestbooks.meadow.cafe/resources/js/embed_script/754/script.js"></script>
 <div id="guestbooks___guestbook-form-container">
-<div class="card">
+<div class="card mb-3">
+<div class="card-body">
 <form id="guestbooks___guestbook-form" action="https://guestbooks.meadow.cafe/guestbook/754/submit" method="post">
 <div class="guestbooks___input-container">
 <input class="form-control mb-3" placeholder="Nombre/Nickname" type="text" id="name" name="name" required>
@@ -42,6 +43,7 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 <input class="btn btn-primary btn-lg" type="submit" value="Publicar mensaje">
 <div id="guestbooks___error-message"></div>
 </form>
+</div>
 </div>
 </div>
 <div id="guestbooks___guestbook-made-with" style="text-align: right;">

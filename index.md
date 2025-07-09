@@ -22,7 +22,7 @@ También llevo un registro de toda [la música que escucho 🎧][14]{:rel="me" t
 
 De seguro ni supiste como llegaste aquí, pero no importa, te agradezco por darte una vuelta por aquí. ✨
 
-BTW, si te animas, puedes pasar a [firmar mi guestbook][16]. ✌️ <span class="badge badge-success">¡Nuevo!</span>
+BTW, si te animas, puedes pasar a [firmar mi guestbook][16]. ✌️
 </div>
 
 <button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">
@@ -33,7 +33,7 @@ BTW, si te animas, puedes pasar a [firmar mi guestbook][16]. ✌️ <span class=
 
 <ul id="last-played" class="list-unstyled mb-0">
     <li>
-        <i class="fa-solid fa-music"></i> Última reproducción: <span id="last-played-song"></span>
+        <span class="badge badge-success">¡Nuevo!</span> <i class="fa-solid fa-music"></i> Última reproducción: <span id="last-played-song"></span>
     </li>
 </ul>
 

@@ -147,8 +147,29 @@ pre {
     border-radius: $borderRadius;
 }
 
-.modal-dialog {
-    max-width: 1140px;
+.modal {
+    background-color: rgba(13, 14, 51, 0.3);
+    @include backdrop-filter(50%, 6px);
+
+    .modal-dialog {
+        .modal-content {
+            background-color: transparent;
+
+            .modal-body {
+                padding: 0;
+            }
+
+            .modal-body-jekyll {
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .modal-backdrop {
+            position: relative;
+        }
+    }
 }
 
 .h1,
@@ -604,29 +625,6 @@ code {
 
 .subtitulo {
     margin: 0px 0 14px !important;
-}
-
-.modal {
-    background-color: rgba(13, 14, 51, 0.3);
-    @include backdrop-filter(50%, 6px);
-}
-
-.modal-content {
-    background-color: transparent;
-}
-
-.modal-body {
-    padding: 0;
-}
-
-.modal-body-jekyll {
-    p {
-        margin-bottom: 0;
-    }
-}
-
-.modal-backdrop {
-    position: relative;
 }
 
 .omg-lol-now-page-element {

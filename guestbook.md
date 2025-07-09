@@ -25,24 +25,24 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 </ul>
 </div>
 
-<div class="card">
 <script async src="https://guestbooks.meadow.cafe/resources/js/embed_script/754/script.js"></script>
 <div id="guestbooks___guestbook-form-container">
+<div class="card">
 <form id="guestbooks___guestbook-form" action="https://guestbooks.meadow.cafe/guestbook/754/submit" method="post">
 <div class="guestbooks___input-container">
-<input class="form-control" placeholder="Nombre/Nickname" type="text" id="name" name="name" required>
+<input class="form-control mb-3" placeholder="Nombre/Nickname" type="text" id="name" name="name" required>
 </div>
 <div class="guestbooks___input-container">
-<input class="form-control" placeholder="Sitio/Perfil personal (opcional)" type="url" id="website" name="website">
+<input class="form-control mb-3" placeholder="Sitio/Perfil personal (opcional)" type="url" id="website" name="website">
 </div>
 <div id="guestbooks___challenge-answer-container"></div>
 <div class="guestbooks___input-container">
-<textarea class="form-control" placeholder="Mensaje" id="text" name="text" style="width: 100%; box-sizing: border-box; resize: vertical;" required></textarea>
+<textarea class="form-control mb-3" placeholder="Mensaje" id="text" name="text" style="width: 100%; box-sizing: border-box; resize: vertical;" required></textarea>
 </div>
-<br/>
 <input class="btn btn-primary btn-lg" type="submit" value="Publicar mensaje">
 <div id="guestbooks___error-message"></div>
 </form>
+</div>
 </div>
 <div id="guestbooks___guestbook-made-with" style="text-align: right;">
 <small>Hecho usando <a target="_blank" href="https://guestbooks.meadow.cafe">Guestbooks</a></small>
@@ -50,4 +50,3 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 <hr style="margin: 1em 0;"/>
 <h3 id="guestbooks___guestbook-messages-header">Mensajes</h3>
 <div id="guestbooks___guestbook-messages-container"></div>
-</div>

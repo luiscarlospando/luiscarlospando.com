@@ -27,7 +27,7 @@ last-modified-at: <span id="last-updated-at">2025-02-22 23:01:12</span>
 
 <script async src="https://guestbooks.meadow.cafe/resources/js/embed_script/754/script.js"></script>
 <div id="guestbooks___guestbook-form-container">
-<div class="card mb-4">
+<div class="card mb-3">
 <div class="card-body">
 <form id="guestbooks___guestbook-form" action="https://guestbooks.meadow.cafe/guestbook/754/submit" method="post">
 <div class="guestbooks___input-container">

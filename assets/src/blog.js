@@ -1,3 +1,4 @@
+// Current version fetcher and updater
 document.addEventListener("DOMContentLoaded", function () {
   const btnVersionBlog = document.getElementById("btn-version-blog");
 

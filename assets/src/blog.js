@@ -27,17 +27,14 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("https://luiscarlospando.com/config.json")
       .then((response) => response.json())
       .then((data) => {
-        // Update href attribute with site_url
-        btnVersionBlog.href = `${data.site_url}/acerca-de/`;
+        // Update href attribute with GitHub repo URL
+        btnVersionBlog.href = `https://github.com/luiscarlospando/luiscarlospando.com`;
 
         // Update title attribute with site_title and site_version
-        btnVersionBlog.title = `${data.site_title} v${data.site_version}`;
+        btnVersionBlog.title = `Ver código fuente`;
 
         // Update data-original-title attribute with site_title
-        btnVersionBlog.setAttribute(
-          "data-original-title",
-          `${data.site_title} v${data.site_version}`,
-        );
+        btnVersionBlog.setAttribute("data-original-title", `Ver código fuente`);
 
         // Update innerHTML of the <code> tag
         const codeTag = btnVersionBlog.querySelector("code");

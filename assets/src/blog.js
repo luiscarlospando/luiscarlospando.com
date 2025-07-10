@@ -30,10 +30,10 @@ document.addEventListener("DOMContentLoaded", function () {
         // Update href attribute with GitHub repo URL
         btnVersionBlog.href = `https://github.com/luiscarlospando/luiscarlospando.com`;
 
-        // Update title attribute with site_title and site_version
-        btnVersionBlog.title = `Ver código fuente`;
+        // Update title attribute with "Ver código fuente"
+        // btnVersionBlog.title = `Ver código fuente`;
 
-        // Update data-original-title attribute with site_title
+        // Update data-original-title attribute with "Ver código fuente"
         btnVersionBlog.setAttribute("data-original-title", `Ver código fuente`);
 
         // Update innerHTML of the <code> tag

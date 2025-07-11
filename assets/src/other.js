@@ -304,18 +304,18 @@ import { initStatusManager } from "./statuslog.js";
 
       const greetings = {
         morning: [
-          "☕ Buenos días, hora de prender la compu y ver qué se rompe hoy.",
-          "🌞 Échale ganas... o mínimo échale café.",
+          "☕ Buenos días, hora de prender la compu y ver qué se arma hoy.",
+          "🌞 Échale ganas... o sino échale café.",
           "📣 Nuevo día, mismo caos. A darle pues.",
         ],
         afternoon: [
           "🍽️ Ya se vale botanear algo, no todo es trabajo.",
-          "😎 A esta hora ya todo es inercia, tú déjate llevar.",
-          "🖥️ Que no decaiga ese playlist, ¡ánimo!",
+          "😎 A esta hora ya nomás déjate llevar con el vuelito.",
+          "🖥️ ¡Que no decaiga ese playlist!",
         ],
         evening: [
-          "🌅 Ya vamos por el último jalón, ya casi se arma el descanso.",
-          "🍵 Pídete algo de cenar, te lo ganaste… probablemente.",
+          "🌅 Ya es el último jalón, ya casi la libramos.",
+          "🍵 Pídete algo de cenar, te lo ganaste.",
           "🎧 Si no has puesto buenas rolas, ¿qué andas haciendo?",
         ],
         night: [

@@ -2,14 +2,13 @@ import Masonry from "masonry-layout";
 import imagesLoaded from "imagesloaded";
 
 document.addEventListener("DOMContentLoaded", function () {
-    var grid = document.querySelector(".masonry-grid");
-    var msnry;
-
+  document.querySelectorAll(".masonry-grid").forEach(function (grid) {
     imagesLoaded(grid, function () {
-        msnry = new Masonry(grid, {
-            itemSelector: ".grid-item",
-            columnWidth: ".grid-sizer",
-            percentPosition: true,
-        });
+      new Masonry(grid, {
+        itemSelector: ".grid-item",
+        columnWidth: ".grid-sizer",
+        percentPosition: true,
+      });
     });
+  });
 });

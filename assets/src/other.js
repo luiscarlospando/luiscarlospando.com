@@ -302,7 +302,7 @@ import { initStatusManager } from "./statuslog.js";
     function getGreeting() {
       const now = new Date();
       const hour = now.getHours();
-      const day = now.getDay(); // 0 = domingo, 6 = sábado
+      const day = now.getDay(); // 0 = domingo, 6 = sábado, 5 = viernes
 
       const greetings = {
         weekday: {
@@ -349,6 +349,16 @@ import { initStatusManager } from "./statuslog.js";
             "✨ Buenas noches, disfruta el fin.",
           ],
         },
+        fridayNight: [
+          "🍻 Ya huele a viernes, destápate algo.",
+          "🎶 Playlist de viernes activado.",
+          "🕹️ Noche gamer, serie o cotorreo… lo que caiga.",
+        ],
+        sundayAfternoon: [
+          "😶‍🌫️ Ya se empieza a sentir el bajón dominguero.",
+          "🛋️ Aprovecha las últimas horas de libertad.",
+          "🍔 Pide algo rico, se vale.",
+        ],
       };
 
       const easterEggs = [
@@ -362,8 +372,23 @@ import { initStatusManager } from "./statuslog.js";
         return easterEggs[Math.floor(Math.random() * easterEggs.length)];
       }
 
-      const type = day === 0 || day === 6 ? "weekend" : "weekday";
+      let type;
       let moment;
+
+      // Detect friday night (after 7 PM)
+      if (day === 5 && hour >= 19) {
+        const options = greetings.fridayNight;
+        return options[Math.floor(Math.random() * options.length)];
+      }
+
+      // Detect sunday afternoon (after 5 PM)
+      if (day === 0 && hour >= 17 && hour < 21) {
+        const options = greetings.sundayAfternoon;
+        return options[Math.floor(Math.random() * options.length)];
+      }
+
+      // Regular weekend / weekday greetings
+      type = day === 0 || day === 6 ? "weekend" : "weekday";
 
       if (hour >= 5 && hour < 12) {
         moment = "morning";

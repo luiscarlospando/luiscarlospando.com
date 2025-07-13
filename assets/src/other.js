@@ -300,60 +300,83 @@ import { initStatusManager } from "./statuslog.js";
 
     // Greeting
     function getGreeting() {
-      const hour = new Date().getHours();
+      const now = new Date();
+      const hour = now.getHours();
+      const day = now.getDay(); // 0 = domingo, 6 = sábado
 
       const greetings = {
-        morning: [
-          "☕ Buenos días, hora de prender la compu y ver qué se arma hoy.",
-          "🌞 Échale ganas... o sino échale café.",
-          "📣 Nuevo día, mismo caos. A darle pues.",
-        ],
-        afternoon: [
-          "🍽️ Ya se vale botanear algo, no todo es trabajo.",
-          "😎 A esta hora ya nomás déjate llevar con el vuelito.",
-          "🖥️ ¡Que no decaiga ese playlist!",
-        ],
-        evening: [
-          "🌅 Ya es el último jalón, ya casi la libramos.",
-          "🍵 Pídete algo de cenar, te lo ganaste.",
-          "🎧 Si no has puesto buenas rolas, ¿qué andas haciendo?",
-        ],
-        night: [
-          "🌙 Apaga esa compu. Mañana le seguimos.",
-          "🛌 Ya vámonos a dormir...",
-          "✨ Buenas noches, my friend.",
-        ],
+        weekday: {
+          morning: [
+            "☕ Buenos días, hora de prender la compu y ver qué se arma hoy.",
+            "🌞 Échale ganas... o sino échale café.",
+            "📣 Nuevo día, mismo caos. A darle pues.",
+          ],
+          afternoon: [
+            "🍽️ Ya se vale botanear algo, no todo es trabajo.",
+            "😎 A esta hora ya nomás déjate llevar con el vuelito.",
+            "🖥️ ¡Que no decaiga ese playlist!",
+          ],
+          evening: [
+            "🌅 Ya es el último jalón, ya casi la libramos.",
+            "🍵 Pídete algo de cenar, te lo ganaste.",
+            "🎧 Si no has puesto buenas rolas, ¿qué andas haciendo?",
+          ],
+          night: [
+            "🌙 Apaga la compu. Mañana le seguimos.",
+            "🛌 Ya vámonos a dormir...",
+            "✨ Buenas noches, my friend.",
+          ],
+        },
+        weekend: {
+          morning: [
+            "☀️ A despertar con calma que es fin de semana.",
+            "🍳 Hora desayunar agusto, sin prisa.",
+            "🎮 ¿Y si hoy sí jugamos todo el día?",
+          ],
+          afternoon: [
+            "🍻 Se vale abrir una cheve a esta hora.",
+            "🎶 Dale play a ese playlist de rolas viejitas pero bonitas.",
+            "🍕 ¿Y si hoy pides algo rico de botanear?",
+          ],
+          evening: [
+            "🌇 La tarde es joven, pero ¿qué plan traes?",
+            "🍿 Una peli, una serie o un juego... lo que sea, pero algo relax.",
+            "🕹️ Noche jugona se antoja.",
+          ],
+          night: [
+            "🌌 Que no se te haga tarde viendo videos random.",
+            "🛌 Dormir tarde sí, pero no tan tarde.",
+            "✨ Buenas noches, disfruta el fin.",
+          ],
+        },
       };
 
-      // Easter eggs
       const easterEggs = [
-        "🎮 ¿Ya jugaste algo hoy o todo mal?",
-        "💾 Recuerda guardar, no seas confiad@.",
-        "🛑 Si estás viendo esto, ya duraste mucho aquí.",
+        "🎮 ¿Ya jugaste algo hoy o nel?",
+        "💾 Recuerda guardar tus cambios, no seas confiad@.",
+        "🛑 Si estás viendo esto es que ya duraste mucho aquí.",
       ];
 
-      // Probability of appearing of 3%
+      // Probability of appearing: 3%
       if (Math.random() < 0.03) {
         return easterEggs[Math.floor(Math.random() * easterEggs.length)];
       }
 
+      const type = day === 0 || day === 6 ? "weekend" : "weekday";
+      let moment;
+
       if (hour >= 5 && hour < 12) {
-        return greetings.morning[
-          Math.floor(Math.random() * greetings.morning.length)
-        ];
+        moment = "morning";
       } else if (hour >= 12 && hour < 17) {
-        return greetings.afternoon[
-          Math.floor(Math.random() * greetings.afternoon.length)
-        ];
+        moment = "afternoon";
       } else if (hour >= 17 && hour < 21) {
-        return greetings.evening[
-          Math.floor(Math.random() * greetings.evening.length)
-        ];
+        moment = "evening";
       } else {
-        return greetings.night[
-          Math.floor(Math.random() * greetings.night.length)
-        ];
+        moment = "night";
       }
+
+      const options = greetings[type][moment];
+      return options[Math.floor(Math.random() * options.length)];
     }
   });
 })();

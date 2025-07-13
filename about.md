@@ -42,6 +42,7 @@ Aquí está el [archivo completo][2] de todos mis posts (desde que armé este si
 
 Suscríbete a mi sitio por:
 - [<i class="fas fa-rss"></i> RSS (Blog)][16]
+- [<i class="fas fa-rss"></i> RSS (Fotos)][24]
 - [<i class="fas fa-rss"></i> RSS (Links)][21]
 - [<i class="fa-brands fa-mastodon"></i> Mastodon][17]{:rel="me" target="_blank"}
 
@@ -71,3 +72,4 @@ Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. 
 [20]: https://www.deepl.com/en/translator
 [21]: https://bg.raindrop.io/rss/public/50598757
 [23]: https://github.com/luiscarlospando/luiscarlospando.com/issues/new
+[24]: https://blog.luiscarlospando.com/photos/rss

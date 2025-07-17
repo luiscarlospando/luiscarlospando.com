@@ -319,6 +319,9 @@ figcaption,
 
 .thumb-foto {
     @include transition;
+    display: block;
+    width: 100%;
+    height: auto;
 
     &:hover,
     &:focus {

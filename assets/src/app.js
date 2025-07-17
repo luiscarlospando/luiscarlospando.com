@@ -26,6 +26,7 @@ import "./modals";
 import "./blog";
 import "./scroll-events";
 import "./masonry";
+import "./load-more-photos";
 import "./back-to-top";
 import "./deepl";
 import "./lastfm-last-played";

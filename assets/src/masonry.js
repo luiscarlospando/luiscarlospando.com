@@ -11,10 +11,19 @@ document.addEventListener("DOMContentLoaded", function () {
         percentPosition: true,
       });
 
-      // Extra: Relayout after slight delay for better accuracy
+      // Initial layout after delay
       setTimeout(() => {
         msnry.layout();
       }, 500);
+
+      // Debounced layout on window resize
+      let resizeTimeout;
+      window.addEventListener("resize", () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+          msnry.layout();
+        }, 300);
+      });
     });
   });
 });

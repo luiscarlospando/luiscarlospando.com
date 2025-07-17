@@ -57,14 +57,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (newItems.length < 6) {
               button.disabled = true;
-              button.innerHTML = `No hay más fotos <i class="${icon.className}"></i>`;
+              button.innerHTML = `No hay más fotos`;
             } else {
               this.disabled = false;
               icon.classList.remove("fa-spin");
             }
           } else {
             button.disabled = true;
-            button.innerHTML = `No hay más fotos <i class="${icon.className}"></i>`;
+            button.innerHTML = `No hay más fotos`;
             icon.classList.remove("fa-spin");
           }
         })

@@ -13,7 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log("year:", year);
       console.log("offset:", offset);
 
-      icon.classList.remove("d-none");
+      // Start loading state
+      icon.classList.add("fa-spin");
       this.disabled = true;
 
       fetch(ajaxurl.url, {
@@ -54,25 +55,24 @@ document.addEventListener("DOMContentLoaded", function () {
             offset += newItems.length;
             button.dataset.offset = offset;
 
-            // Disable button if fewer than 6 were loaded
             if (newItems.length < 6) {
               button.disabled = true;
-              button.innerHTML = "No hay más fotos";
+              button.innerHTML = `No hay más fotos <i class="${icon.className}"></i>`;
             } else {
-              icon.classList.add("d-none");
-              button.disabled = false;
+              this.disabled = false;
+              icon.classList.remove("fa-spin");
             }
           } else {
             button.disabled = true;
-            button.innerHTML = "No hay más fotos";
-            icon.classList.add("d-none");
+            button.innerHTML = `No hay más fotos <i class="${icon.className}"></i>`;
+            icon.classList.remove("fa-spin");
           }
         })
         .catch((error) => {
           console.error("Fetch error:", error);
-          icon.classList.add("d-none");
           button.disabled = false;
-          button.innerHTML = "Error al cargar más fotos";
+          button.innerHTML = `Error al cargar más fotos <i class="${icon.className}"></i>`;
+          icon.classList.remove("fa-spin");
         });
     });
   });

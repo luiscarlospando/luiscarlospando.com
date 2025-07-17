@@ -57,22 +57,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (newItems.length < 6) {
               button.disabled = true;
-              button.innerHTML = `No hay más fotos`;
+              icon.remove(); // Remove icon
+              button.textContent = `No hay más fotos`;
             } else {
               this.disabled = false;
               icon.classList.remove("fa-spin");
             }
           } else {
             button.disabled = true;
-            button.innerHTML = `No hay más fotos`;
-            icon.classList.remove("fa-spin");
+            icon.remove(); // Remove icon
+            button.textContent = `No hay más fotos`;
           }
         })
         .catch((error) => {
           console.error("Fetch error:", error);
           button.disabled = false;
-          button.innerHTML = `Error al cargar más fotos <i class="${icon.className}"></i>`;
-          icon.classList.remove("fa-spin");
+          icon.remove(); // Remove icon
+          button.textContent = `Error al cargar más fotos`;
         });
     });
   });

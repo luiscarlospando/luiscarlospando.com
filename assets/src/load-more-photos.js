@@ -8,10 +8,13 @@ document.addEventListener("DOMContentLoaded", function () {
       let offset = parseInt(this.dataset.offset);
       const icon = this.querySelector("i");
 
+      // Debug logs
+      console.log("ajaxurl.url:", ajaxurl.url);
+      console.log("year:", year);
+      console.log("offset:", offset);
+
       icon.classList.remove("d-none");
       this.disabled = true;
-
-      console.log(`Clicked year ${year} with offset ${offset}`);
 
       fetch(ajaxurl.url, {
         method: "POST",
@@ -22,7 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
           offset,
         }),
       })
-        .then((res) => res.json())
+        .then((res) => {
+          if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
+          return res.json();
+        })
         .then((data) => {
           console.log("Response:", data);
 
@@ -31,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
               `.masonry-grid[data-year="${year}"]`,
             );
             const temp = document.createElement("div");
-            temp.innerHTML = data.data.html;
+            temp.innerHTML = data.data;
 
             const newItems = temp.querySelectorAll(".grid-item");
             newItems.forEach((item) => container.appendChild(item));
@@ -61,6 +67,12 @@ document.addEventListener("DOMContentLoaded", function () {
             button.innerHTML = "No hay más fotos";
             icon.classList.add("d-none");
           }
+        })
+        .catch((error) => {
+          console.error("Fetch error:", error);
+          icon.classList.add("d-none");
+          button.disabled = false;
+          button.innerHTML = "Error al cargar más fotos";
         });
     });
   });

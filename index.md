@@ -20,7 +20,7 @@ De vez en cuando comparto cosas en [Mastodon][11]{:rel="me" target="_blank"}, [B
 
 También llevo un registro de toda [la música que escucho 🎧][14]{:rel="me" target="_blank"} en mi perfil de [Last.fm 🎵][15]{:rel="me" target="_blank"} (*been doin' it since '05 baby!*).
 
-Y tengo un guestbook 📖, si te animas, puedes [pasar a firmarlo][16] y saludar. ✌️
+Y tengo un guestbook 📖, que si te animas, puedes [pasar a firmarlo][16] y saludar. ✌️
 
 Eso es todo... de seguro ni supiste como llegaste, pero no importa, te agradezco por estar aquí. ✨
 </div>

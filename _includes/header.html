@@ -1,11 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html class="no-js" lang="es">
-<head profile="http://gmpg.org/xfn/11">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{% if page.url == "/" %}{% else %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <head profile="http://gmpg.org/xfn/11">
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <title>
+            {% if page.url == "/" %}{% else %}{{ page.title }} - {% endif %}{{
+            site.title }}
+        </title>
 
-    <!--
+        <!--
     ================================================================================
     === {{ site.title }} v{{ site.version }} =================================================
     ================================================================================
@@ -54,124 +60,205 @@
     ================================================================================
     -->
 
-    <!-- Primary Meta Tags -->
-    <meta name="title" content="{% if page.url == '/' %}{% else %}{{ page.title }} - {% endif %}{{ site.title }}" />
-    <meta name="description" content="{{ page.description }}" />
-    <meta name="robots" content="index, follow" />
-    <meta name="author" content="{{ site.author }}" />
-    <meta name="fediverse:creator" content="@{{ site.mastodon_username }}@{{ site.mastodon_instance }}" />
-    <meta name="copyright" content="© {{ 'now' | date: '%Y' }} {{ site.author }}" />
-    <meta name="email" content="{{ site.email }}" />
-    <meta name="distribution" content="global" />
-    <meta name="language" content="es-MX" />
-    <meta name="ICBM" content="28.6189208162, -106.101984179" />
-    <meta name="DC.title" content="{{ site.title }}" />
-    <meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="msapplication-TileColor" content="#0e0f34" />
-    <meta name="theme-color" content="#0e0f34" />
+        <!-- Primary Meta Tags -->
+        <meta
+            name="title"
+            content="{% if page.url == '/' %}{% else %}{{ page.title }} - {% endif %}{{ site.title }}"
+        />
+        <meta name="description" content="{{ page.description }}" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="{{ site.author }}" />
+        <meta
+            name="fediverse:creator"
+            content="@{{ site.mastodon_username }}@{{ site.mastodon_instance }}"
+        />
+        <meta
+            name="copyright"
+            content="© {{ 'now' | date: '%Y' }} {{ site.author }}"
+        />
+        <meta name="email" content="{{ site.email }}" />
+        <meta name="distribution" content="global" />
+        <meta name="language" content="es-MX" />
+        <meta name="ICBM" content="28.6189208162, -106.101984179" />
+        <meta name="DC.title" content="{{ site.title }}" />
+        <meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+        />
+        <meta name="msapplication-TileColor" content="#0e0f34" />
+        <meta name="theme-color" content="#0e0f34" />
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{% if page.url == '/' %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}" />
-    <meta property="og:title" content="{% if page.url == '/' %}{% else %}{{ page.title }} - {% endif %}{{ site.title }}" />
-    <meta property="og:description" content="{{ page.description }}" />
-    <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+        <!-- Open Graph -->
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="{% if page.url == '/' %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}"
+        />
+        <meta
+            property="og:title"
+            content="{% if page.url == '/' %}{% else %}{{ page.title }} - {% endif %}{{ site.title }}"
+        />
+        <meta property="og:description" content="{{ page.description }}" />
+        <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
 
-    <!-- Meta Tags Generated with https://metatags.io -->
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="https://blog.{{ site.domain }}/rss/" />
-    <link rel="author" href="/humans.txt" />
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="LuisCarlosPando.com" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="canonical" href="{% if page.url == '/' %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">
-    <link rel="me" href="{{ site.mastodon_url }}" />
-    <link rel="me" href="https://mastodon.online/@{{ site.mastodon_username }}" />
-    <link rel="me" href="https://hachyderm.io/@{{ site.mastodon_feed }}" />
-    <link rel="me" href="https://github.com/{{ site.github_username }}" />
-    <link rel="me" href="https://proven.lol/a5fae9" />
-    <link rel="pgpkey" href="/pgp-key.txt" />
+        <!-- Meta Tags Generated with https://metatags.io -->
+        <link
+            rel="alternate"
+            type="application/rss+xml"
+            title="{{ site.title }}"
+            href="https://blog.{{ site.domain }}/rss/"
+        />
+        <link rel="author" href="/humans.txt" />
+        <link
+            rel="icon"
+            type="image/png"
+            href="/favicon-96x96.png"
+            sizes="96x96"
+        />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+        />
+        <meta name="apple-mobile-web-app-title" content="LuisCarlosPando.com" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link
+            rel="canonical"
+            href="{% if page.url == '/' %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}"
+        />
+        <link rel="me" href="{{ site.mastodon_url }}" />
+        <link
+            rel="me"
+            href="https://mastodon.online/@{{ site.mastodon_username }}"
+        />
+        <link rel="me" href="https://hachyderm.io/@{{ site.mastodon_feed }}" />
+        <link rel="me" href="https://github.com/{{ site.github_username }}" />
+        <link rel="me" href="https://proven.lol/a5fae9" />
+        <link rel="pgpkey" href="/pgp-key.txt" />
 
-    <!-- OpenID -->
-    <link rel="openid.delegate" href="{{ site.url }}" />
-    <link rel="openid.server" href="https://openid.indieauth.com/openid" />
+        <!-- OpenID -->
+        <link rel="openid.delegate" href="{{ site.url }}" />
+        <link rel="openid.server" href="https://openid.indieauth.com/openid" />
 
-    <!-- omg.lol API preconnect -->
-    <link rel="preconnect" href="https://api.omg.lol" />
+        <!-- omg.lol API preconnect -->
+        <link rel="preconnect" href="https://api.omg.lol" />
 
-    <!-- Webmentions -->
-    <link rel="webmention" href="https://webmention.io/{{ site.domain }}/webmention" />
-    <link rel="pingback" href="https://webmention.io/{{ site.domain }}/xmlrpc" />
+        <!-- Webmentions -->
+        <link
+            rel="webmention"
+            href="https://webmention.io/{{ site.domain }}/webmention"
+        />
+        <link
+            rel="pingback"
+            href="https://webmention.io/{{ site.domain }}/xmlrpc"
+        />
 
-    {% css_asset_tag global %}
-    - /assets/css/jquery.mmenu.all.css
-    - /assets/css/jquery.mmenu.themes.css
-    - /assets/css/animate.css
-    - /assets/css/prism.css
-    {% endcss_asset_tag %}
-    <link rel="stylesheet" href="/assets/css/main.css">
-</head>
-<body>
-    <span class="p-author h-card d-none">
-        <img class="u-photo" src="{{ site.url }}/assets/images/avatar.webp" alt="{{ site.author }}'s avatar">
-        <img class="u-logo" src="{{ site.url }}/assets/images/avatar.webp" alt="{{ site.author }}'s logo">
-        <a class="p-name" href="{{ site.url }}" rel="author">{{ site.author }}</a>
-        <span class="p-note">{{ page.description }}</span>
-        <a rel="me" class="u-url u-uid" href="{% if page.url == '/' %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">Permalink</a>
-    </span>
-    
-    <progress id="progress-bar" value="0" max="100"></progress>
+        {% css_asset_tag global %} - /assets/css/jquery.mmenu.all.css -
+        /assets/css/jquery.mmenu.themes.css - /assets/css/animate.css -
+        /assets/css/prism.css {% endcss_asset_tag %}
+        <link rel="stylesheet" href="/assets/css/main.css" />
+    </head>
+    <body>
+        <span class="p-author h-card d-none">
+            <img
+                class="u-photo"
+                src="{{ site.url }}/assets/images/avatar.webp"
+                alt="{{ site.author }}'s avatar"
+            />
+            <img
+                class="u-logo"
+                src="{{ site.url }}/assets/images/avatar.webp"
+                alt="{{ site.author }}'s logo"
+            />
+            <a class="p-name" href="{{ site.url }}" rel="author"
+                >{{ site.author }}</a
+            >
+            <span class="p-note">{{ page.description }}</span>
+            <a
+                rel="me"
+                class="u-url u-uid"
+                href="{% if page.url == '/' %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}"
+                >Permalink</a
+            >
+        </span>
 
-    <!-- Wrapper for mmenu -->
-    <div>
-        <a id="btn-skip-nav" class="btn btn-primary btn-sm" href="#main-content">
-            <i class="fa-solid fa-forward"></i> Saltar navegación
-        </a>
+        <progress id="progress-bar" value="0" max="100"></progress>
 
-        <a id="btn-burger" href="#navigation">
-            <i class="fa-solid fa-bars"></i>
-        </a>
+        <!-- Wrapper for mmenu -->
+        <div>
+            <a
+                id="btn-skip-nav"
+                class="btn btn-primary btn-sm"
+                href="#main-content"
+            >
+                <i class="fa-solid fa-forward"></i> Saltar navegación
+            </a>
 
-        <div class="nav-container"></div>
+            <a id="btn-burger" href="#navigation">
+                <i class="fa-solid fa-bars"></i>
+            </a>
 
-        <nav id="navigation"></nav>
+            <div class="nav-container"></div>
 
-        <header class="container">
-            <div class="row">
-                <div class="col-12 col-md-10 offset-md-1">
-                    <div class="row">
-                        <div class="col-12 col-md-3 col-lg-2 d-flex align-items-center mb-3 mb-md-0">
-                            <div class="mt-3 mb-1 u-photo" id="logo">
-                                <a id="greetingTooltip" href="/" data-toggle="tooltip" data-placement="right" title="" data-original-title="">
-                                    <span>Logo</span>
-                                </a>
+            <nav id="navigation"></nav>
+
+            <header class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 offset-md-1">
+                        <div class="row">
+                            <div
+                                class="col-12 col-md-3 col-lg-2 d-flex align-items-center mb-3 mb-md-0"
+                            >
+                                <div class="mt-3 mb-1 u-photo" id="logo">
+                                    <a
+                                        id="greetingTooltip"
+                                        href="/"
+                                        data-toggle="tooltip"
+                                        data-placement="right"
+                                        aria-label="Inicio"
+                                        title=""
+                                        data-original-title=""
+                                    >
+                                        <span>Logo</span>
+                                    </a>
+                                </div>
+                                <div id="logo-blur"></div>
                             </div>
-                            <div id="logo-blur"></div>
-                        </div>
-                        <div class="col-12 col-md-9 col-lg-10 d-flex align-items-center flex-wrap">
-                            <div id="status"></div>
+                            <div
+                                class="col-12 col-md-9 col-lg-10 d-flex align-items-center flex-wrap"
+                            >
+                                <div id="status"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
+            </header>
 
-        <section id="live" class="container">
-            <div class="row">
-                <div class="col-12 col-md-10 offset-md-1">
-                    <div id="heymijotv-live-alert" class="card text-center mt-3">
-                        <div class="card-body rounded">
-                            <p>
-                                <i id="live-icon" class="fa-solid fa-circle animated live infinite"></i>
-                                ¡Estoy <a href="/live/">en vivo</a>!
-                            </p>
+            <section id="live" class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 offset-md-1">
+                        <div
+                            id="heymijotv-live-alert"
+                            class="card text-center mt-3"
+                        >
+                            <div class="card-body rounded">
+                                <p>
+                                    <i
+                                        id="live-icon"
+                                        class="fa-solid fa-circle animated live infinite"
+                                    ></i>
+                                    ¡Estoy <a href="/live/">en vivo</a>!
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
+    </body>
+</html>

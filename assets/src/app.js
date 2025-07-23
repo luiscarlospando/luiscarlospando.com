@@ -30,6 +30,7 @@ import "./load-more-photos";
 import "./back-to-top";
 import "./deepl";
 import "./lastfm-last-played";
+import "./button-press";
 import "./other";
 
 // React components

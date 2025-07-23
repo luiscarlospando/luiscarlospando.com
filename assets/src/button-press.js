@@ -1,4 +1,4 @@
-const clickSound = new Audio("../audio/click-sound.mp3");
+const clickSound = new Audio("/assets/audio/click-sound.mp3");
 
 document.addEventListener("click", function (event) {
   const target = event.target.closest("a, button");

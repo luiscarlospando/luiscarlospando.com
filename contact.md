@@ -78,7 +78,7 @@ Este es [mi perfil en Apple Music][9]{:rel="me" target="_blank"}.
 ## <i class="fa-brands fa-lastfm"></i> Last.fm
 Este es [mi perfil en Last.fm][10]{:rel="me" target="_blank"}.
 
-## <i class="fa-brands fa-reddit"></i> Reddit [![Reddit User Karma](https://img.shields.io/reddit/user-karma/comment/luiscarlospando)][11]{:rel="me" target="_blank"}
+## <i class="fa-brands fa-reddit"></i> Reddit [![Reddit User Karma](https://img.shields.io/reddit/user-karma/combined/luiscarlospando)][11]{:rel="me" target="_blank"}
 
 Este es [mi perfil en Reddit][11]{:rel="me" target="_blank"}.
 

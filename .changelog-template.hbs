@@ -1,11 +1,10 @@
 
 {{#each releases}}
-## [{{title}}] - {{isoDate}}
+## `{{title}}` - {{isoDate}}
 
 {{#if commits}}
-### Commits
 {{#each commits}}
-- {{subject}} (`[{{shorthash}}]({{href}})`)
+- {{subject}} `[{{shorthash}}]({{href}})`
 {{/each}}
 
 {{else}}

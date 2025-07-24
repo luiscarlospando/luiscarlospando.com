@@ -2,13 +2,14 @@ export default async function handler(req, res) {
   const accessToken = process.env.RAINDROP_ACCESS_TOKEN;
   const collectionId = 50598757;
   const perPage = 50;
+  const maxPages = 10; // Page limit to avoid infinite loops
   let page = 0;
   let allItems = [];
 
   try {
     console.log("📡 Fetching all Raindrop bookmarks...");
 
-    while (true) {
+    while (page < maxPages) {
       const apiUrl = `https://api.raindrop.io/rest/v1/raindrops/${collectionId}?perpage=${perPage}&page=${page + 1}`;
       const response = await fetch(apiUrl, {
         headers: {
@@ -23,10 +24,18 @@ export default async function handler(req, res) {
       }
 
       const json = await response.json();
+
+      if (!json.items || !Array.isArray(json.items)) {
+        throw new Error("Invalid response structure from Raindrop API");
+      }
+
       allItems = allItems.concat(json.items);
       page++;
 
-      if (json.items.length < perPage) break; // No more pages
+      if (json.items.length < perPage) {
+        // No more pages
+        break;
+      }
     }
 
     console.log(`✅ Total bookmarks fetched: ${allItems.length}`);

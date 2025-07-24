@@ -10,9 +10,6 @@ const BOOKMARKS_API = "/api/getBookmarkedLinks";
 const MAX_POSTS = 5;
 const ITEMS_PER_PAGE = 10;
 
-// You'll need to replace this with your actual cors.sh API key
-const CORS_API_KEY = "your-cors-api-key";
-
 let currentPage = 1;
 let allItems = [];
 
@@ -76,11 +73,11 @@ async function displayContent() {
     allItems = data;
 
     if (hasBookmarks) {
-      renderBookmarks(allItems.slice(0, MAX_POSTS));
+      renderBookmarks(allItems.slice(0, MAX_POSTS)); // MAX_POSTS = 5
     }
 
     if (hasLinks) {
-      renderPaginatedLinks();
+      renderPaginatedLinks(); // uses ITEMS_PER_PAGE = 10
       setupPagination();
     }
   } catch (error) {

@@ -33,7 +33,7 @@ Eso es todo... de seguro ni supiste como llegaste, pero no importa, te agradezco
 
 <ul id="last-played" class="list-unstyled mb-0">
     <li>
-        <span class="badge badge-success">¡Nuevo!</span> <i class="fa-solid fa-music"></i> Última reproducción: <span id="last-played-song"></span>
+        <i class="fa-solid fa-music"></i> Última reproducción: <span id="last-played-song"></span> <span id="last-played-ago"></span>
     </li>
 </ul>
 

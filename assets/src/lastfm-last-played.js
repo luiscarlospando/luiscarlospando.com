@@ -1,3 +1,12 @@
+// Import dependencies
+const dayjs = require("dayjs");
+const locale_es_mx = require("dayjs/locale/es-mx");
+const relativeTime = require("dayjs/plugin/relativeTime");
+
+// Dayjs configuration
+dayjs.locale("es-mx");
+dayjs.extend(relativeTime);
+
 document.addEventListener("DOMContentLoaded", () => {
   const lastPlayedEl = document.getElementById("last-played");
 
@@ -16,7 +25,27 @@ document.addEventListener("DOMContentLoaded", () => {
           const trackUrl = track.url;
 
           const lastPlayedSongEl = document.getElementById("last-played-song");
+          const lastPlayedAgoEl = document.getElementById("last-played-ago");
+
           lastPlayedSongEl.innerHTML = `<a href="${trackUrl}" target="_blank" rel="noopener noreferrer">${artistName} — ${songName}</a>`;
+
+          const isPlaying = track["@attr"]?.nowplaying === "true";
+
+          if (isPlaying) {
+            lastPlayedAgoEl.innerHTML = `
+              <small class="text-muted">
+                <em><i class="fa-solid fa-headphones"></i> reproduciendo ahora</em>
+              </small>
+            `;
+          } else if (track.date?.uts) {
+            const playedAt = dayjs.unix(Number(track.date.uts));
+            const relativeTime = playedAt.fromNow();
+            lastPlayedAgoEl.innerHTML = `
+              <small class="text-muted">
+                <em><i class="fa-solid fa-clock"></i> ${relativeTime}</em>
+              </small>
+            `;
+          }
         } else {
           document.getElementById("last-played-song").textContent =
             "Sin canciones recientes.";

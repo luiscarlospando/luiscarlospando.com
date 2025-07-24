@@ -5,7 +5,7 @@ image: /assets/images/logo.png
 permalink: /changelog/
 ---
 
-<p class="text-center">Todas los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).</p>
+<p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
 ## [`v2.50.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.50.0...v2.50.1) - 2025-07-22
 

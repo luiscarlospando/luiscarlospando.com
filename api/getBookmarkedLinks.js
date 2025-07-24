@@ -2,16 +2,25 @@ export default async function handler(req, res) {
   const accessToken = process.env.RAINDROP_ACCESS_TOKEN;
   const collectionId = 50598757;
   const perPage = 50;
-  const maxPages = 10; // Page limit to avoid infinite loops
-  let page = 0;
+  const maxPages = 10;
+  const baseUrl = `https://api.raindrop.io/rest/v1/raindrops/${collectionId}`;
+  let page = 1;
   let allItems = [];
 
-  try {
-    console.log("📡 Fetching all Raindrop bookmarks...");
+  // Check for missing access token early
+  if (!accessToken) {
+    console.error("❌ Missing RAINDROP_ACCESS_TOKEN in environment");
+    return res.status(500).json({ error: "Server misconfiguration" });
+  }
 
-    while (page < maxPages) {
-      const apiUrl = `https://api.raindrop.io/rest/v1/raindrops/${collectionId}?perpage=${perPage}&page=${page + 1}`;
-      const response = await fetch(apiUrl, {
+  console.log("📡 Fetching Raindrop bookmarks from collection:", collectionId);
+
+  try {
+    while (page <= maxPages) {
+      const url = `${baseUrl}?perpage=${perPage}&page=${page}`;
+      console.log(`➡️  Fetching page ${page}: ${url}`);
+
+      const response = await fetch(url, {
         headers: {
           Authorization: `Bearer ${accessToken}`,
         },
@@ -19,40 +28,51 @@ export default async function handler(req, res) {
 
       if (!response.ok) {
         const errorText = await response.text();
-        console.error(`Raindrop error body:`, errorText);
+        console.error(
+          `❌ HTTP ${response.status} from Raindrop API:`,
+          errorText,
+        );
         throw new Error(`Raindrop API error: ${response.status}`);
       }
 
-      const json = await response.json();
+      const data = await response.json();
 
-      if (!json.items || !Array.isArray(json.items)) {
-        throw new Error("Invalid response structure from Raindrop API");
+      if (!Array.isArray(data.items)) {
+        console.error("❌ Invalid response structure from Raindrop API:", data);
+        throw new Error("Unexpected API response structure");
       }
 
-      allItems = allItems.concat(json.items);
-      page++;
+      const itemsThisPage = data.items.length;
+      allItems = allItems.concat(data.items);
+      console.log(
+        `✅ Page ${page}: Fetched ${itemsThisPage} items (Total so far: ${allItems.length})`,
+      );
 
-      if (json.items.length < perPage) {
-        // No more pages
+      if (itemsThisPage < perPage) {
+        console.log("📭 No more pages to fetch (final page reached).");
         break;
       }
+
+      page++;
     }
 
-    console.log(`✅ Total bookmarks fetched: ${allItems.length}`);
-
+    // Transform and simplify items
     const simplifiedItems = allItems.map((item) => ({
       title: item.title,
       link: item.link,
-      date: item.created, // ISO 8601
+      date: item.created,
     }));
 
-    // Optional: cache headers
+    // Response headers
     res.setHeader("Content-Type", "application/json");
     res.setHeader("Cache-Control", "s-maxage=300, stale-while-revalidate");
 
-    res.status(200).json(simplifiedItems);
+    console.log(`🎉 Total bookmarks returned: ${simplifiedItems.length}`);
+    return res.status(200).json(simplifiedItems);
   } catch (error) {
-    console.error("❌ Error fetching from Raindrop API:", error);
-    res.status(500).json({ error: error.message });
+    console.error("❌ Unexpected error during fetch:", error);
+    return res
+      .status(500)
+      .json({ error: error.message || "Internal Server Error" });
   }
 }

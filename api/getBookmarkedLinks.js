@@ -1,35 +1,47 @@
 export default async function handler(req, res) {
+  const accessToken = process.env.RAINDROP_ACCESS_TOKEN;
+  const collectionId = 50598757;
+  const perPage = 50;
+  let page = 0;
+  let allItems = [];
+
   try {
-    console.log("🔄 Serverless function: Attempting to fetch bookmarked links");
+    console.log("📡 Fetching all Raindrop bookmarks...");
 
-    const response = await fetch("https://bg.raindrop.io/rss/public/50598757", {
-      headers: {
-        Accept: "application/rss+xml, application/xml, text/xml, */*",
-      },
-    });
+    while (true) {
+      const apiUrl = `https://api.raindrop.io/rest/v1/raindrops/${collectionId}?perpage=${perPage}&page=${page + 1}`;
+      const response = await fetch(apiUrl, {
+        headers: {
+          Authorization: `Bearer ${accessToken}`,
+        },
+      });
 
-    if (!response.ok) {
-      console.error(
-        `❌ Serverless function: HTTP error! status: ${response.status}`,
-      );
-      throw new Error(`HTTP error! status: ${response.status}`);
+      if (!response.ok) {
+        throw new Error(`Raindrop API error: ${response.status}`);
+      }
+
+      const json = await response.json();
+      allItems = allItems.concat(json.items);
+      page++;
+
+      if (json.items.length < perPage) break; // No more pages
     }
 
-    const data = await response.text();
-    console.log(
-      "✅ Serverless function: Bookmarked links fetched successfully",
-    );
+    console.log(`✅ Total bookmarks fetched: ${allItems.length}`);
 
-    // Set appropriate headers
-    res.setHeader("Content-Type", "application/xml");
+    const simplifiedItems = allItems.map((item) => ({
+      title: item.title,
+      link: item.link,
+      date: item.created, // ISO 8601
+    }));
+
+    // Optional: cache headers
+    res.setHeader("Content-Type", "application/json");
     res.setHeader("Cache-Control", "s-maxage=300, stale-while-revalidate");
 
-    res.status(200).send(data);
+    res.status(200).json(simplifiedItems);
   } catch (error) {
-    console.error("❌ Serverless function error:", error);
-    res.status(500).json({
-      error: error.message,
-      stack: process.env.NODE_ENV === "development" ? error.stack : undefined,
-    });
+    console.error("❌ Error fetching from Raindrop API:", error);
+    res.status(500).json({ error: error.message });
   }
 }

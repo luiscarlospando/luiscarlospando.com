@@ -72,8 +72,8 @@ async function displayContent() {
 
   try {
     console.log("Fetching links...");
-    const data = await fetchRSSFeed();
-    allItems = parseItems(data);
+    const data = await fetchBookmarksJSON();
+    allItems = data;
 
     if (hasBookmarks) {
       renderBookmarks(allItems.slice(0, MAX_POSTS));
@@ -88,63 +88,20 @@ async function displayContent() {
   }
 }
 
-// Get the RSS
-async function fetchRSSFeed() {
+// Get the JSON
+async function fetchBookmarksJSON() {
   try {
-    console.log(
-      "🔄 Attempting to fetch bookmarked links from serverless function...",
-    );
-
+    console.log("🔄 Attempting to fetch JSON bookmarks...");
     const response = await fetch(BOOKMARKS_API);
-    console.log("📡 Response status:", response.status);
-
     if (!response.ok) {
-      const errorText = await response.text();
-      console.error("📡 Error response body:", errorText);
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-
-    const data = await response.text();
-    console.log("✅ Bookmarked links length:", data.length);
-    console.log("✅ First 100 characters:", data.substring(0, 100));
+    const data = await response.json();
+    console.log(`✅ Bookmarks fetched: ${data.length}`);
     return data;
   } catch (error) {
-    console.error("❌ Error fetching bookmarked links:", error);
-    console.error("❌ Error details:", {
-      message: error.message,
-      stack: error.stack,
-    });
+    console.error("❌ Error fetching JSON bookmarks:", error);
     throw error;
-  }
-}
-
-// Parsing the XML to JavaScript objects
-function parseItems(xml) {
-  try {
-    console.log("🔄 Parsing RSS feed...");
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(xml, "text/xml");
-
-    // Check for parsing errors
-    const parseError = doc.querySelector("parsererror");
-    if (parseError) {
-      throw new Error("XML parsing failed");
-    }
-
-    const items = doc.querySelectorAll("item");
-    console.log(`📊 Total items found in XML: ${items.length}`);
-
-    const parsedItems = Array.from(items).map((item) => ({
-      title: item.querySelector("title")?.textContent || "",
-      link: item.querySelector("link")?.textContent || "",
-      date: item.querySelector("pubDate")?.textContent || "",
-    }));
-
-    console.log(`📊 Successfully parsed ${parsedItems.length} items`);
-    return parsedItems;
-  } catch (error) {
-    console.error("Error parsing RSS feed:", error);
-    return [];
   }
 }
 
@@ -247,10 +204,10 @@ function setupPagination() {
             (${allItems.length} links en total)
         </div>
         <div class="pagination-controls" style="display: flex; justify-content: center; gap: 0.5rem;">
-            <button id="prevPage" class="btn btn-primary" ${currentPage === 1 ? "disabled" : ""}>
+            <button id="prevPage" class="btn btn-primary" aria-label="Anterior" ${currentPage === 1 ? "disabled" : ""}>
                 « Anterior
             </button>
-            <button id="nextPage" class="btn btn-primary" ${currentPage === totalPages ? "disabled" : ""}>
+            <button id="nextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>
                 Siguiente »
             </button>
         </div>

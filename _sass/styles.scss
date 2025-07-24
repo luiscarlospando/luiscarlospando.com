@@ -689,6 +689,10 @@ code {
         float: left;
         text-align: center;
 
+        #last-played-ago {
+            display: block;
+        }
+
         &::after {
             content: "\f202";
             color: $transparentGray;

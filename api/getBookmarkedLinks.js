@@ -1,78 +1,50 @@
 export default async function handler(req, res) {
   const accessToken = process.env.RAINDROP_ACCESS_TOKEN;
-  const collectionId = 50598757;
-  const perPage = 50;
-  const maxPages = 10;
-  const baseUrl = `https://api.raindrop.io/rest/v1/raindrops/${collectionId}`;
-  let page = 1;
+  const collectionId = process.env.RAINDROP_COLLECTION_ID;
+  const perPage = 50; // max per page allowed by Raindrop.io API
+  let page = 0;
   let allItems = [];
+  let total = 0;
 
-  // Check for missing access token early
-  if (!accessToken) {
-    console.error("❌ Missing RAINDROP_ACCESS_TOKEN in environment");
-    return res.status(500).json({ error: "Server misconfiguration" });
+  if (!accessToken || !collectionId) {
+    return res.status(500).json({ error: "Missing environment variables." });
   }
 
-  console.log("📡 Fetching Raindrop bookmarks from collection:", collectionId);
+  console.log("📡 Fetching all Raindrop items...");
 
   try {
-    while (page <= maxPages) {
-      const url = `${baseUrl}?perpage=${perPage}&page=${page}`;
-      console.log(`➡️  Fetching page ${page}: ${url}`);
-
+    while (true) {
+      const url = `https://api.raindrop.io/rest/v1/raindrops/${collectionId}?perpage=${perPage}&page=${page}`;
       const response = await fetch(url, {
         headers: {
           Authorization: `Bearer ${accessToken}`,
         },
       });
 
-      if (!response.ok) {
-        const errorText = await response.text();
-        console.error(
-          `❌ HTTP ${response.status} from Raindrop API:`,
-          errorText,
-        );
-        throw new Error(`Raindrop API error: ${response.status}`);
-      }
-
       const data = await response.json();
 
-      if (!Array.isArray(data.items)) {
-        console.error("❌ Invalid response structure from Raindrop API:", data);
-        throw new Error("Unexpected API response structure");
-      }
-
-      const itemsThisPage = data.items.length;
-      allItems = allItems.concat(data.items);
-      console.log(
-        `✅ Page ${page}: Fetched ${itemsThisPage} items (Total so far: ${allItems.length})`,
-      );
-
-      if (itemsThisPage < perPage) {
-        console.log("📭 No more pages to fetch (final page reached).");
+      if (!response.ok || !data.items) {
+        console.error("❌ Error fetching page", page, data);
         break;
       }
 
-      page++;
+      if (page === 0) {
+        total = data.count;
+        console.log(`📊 Total items to fetch: ${total}`);
+      }
+
+      allItems.push(...data.items);
+      console.log(`✅ Page ${page + 1}: fetched ${data.items.length} items`);
+
+      if (data.items.length < perPage) break;
+
+      page += 1;
     }
 
-    // Transform and simplify items
-    const simplifiedItems = allItems.map((item) => ({
-      title: item.title,
-      link: item.link,
-      date: item.created,
-    }));
-
-    // Response headers
-    res.setHeader("Content-Type", "application/json");
-    res.setHeader("Cache-Control", "s-maxage=300, stale-while-revalidate");
-
-    console.log(`🎉 Total bookmarks returned: ${simplifiedItems.length}`);
-    return res.status(200).json(simplifiedItems);
-  } catch (error) {
-    console.error("❌ Unexpected error during fetch:", error);
-    return res
-      .status(500)
-      .json({ error: error.message || "Internal Server Error" });
+    console.log(`🎉 Total bookmarks fetched: ${allItems.length}`);
+    res.status(200).json(allItems);
+  } catch (err) {
+    console.error("🚨 Unexpected error:", err);
+    res.status(500).json({ error: "Error fetching bookmarks" });
   }
 }

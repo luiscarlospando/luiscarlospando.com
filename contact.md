@@ -78,7 +78,8 @@ Este es [mi perfil en Apple Music][9]{:rel="me" target="_blank"}.
 ## <i class="fa-brands fa-lastfm"></i> Last.fm
 Este es [mi perfil en Last.fm][10]{:rel="me" target="_blank"}.
 
-## <i class="fa-brands fa-reddit"></i> Reddit
+## <i class="fa-brands fa-reddit"></i> Reddit [![Reddit User Karma](https://img.shields.io/reddit/user-karma/comment/luiscarlospando)][11]{:rel="me" target="_blank"}
+
 Este es [mi perfil en Reddit][11]{:rel="me" target="_blank"}.
 
 ## <i class="fa-brands fa-twitch"></i> Twitch [![Twitch Status](https://img.shields.io/twitch/status/{{ site.twitch_username }}?style=flat&logo=twitch&logoColor=%23A172F7&link=https%3A%2F%2Fluiscarlospando.com%2Flive)][12]{:rel="me" target="_blank"}

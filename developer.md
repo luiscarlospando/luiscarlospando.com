@@ -9,7 +9,6 @@ permalink: /developer/
 <p class="text-center">{{ page.description }}</p>
 
 ## <i class="fa-solid fa-key"></i> Llave PGP pública
-
 Esta es [mi llave PGP pública][1] por si necesitan contactarme de forma segura.
 
 ## <i class="fa-brands fa-github"></i> GitHub [![GitHub User's stars](https://img.shields.io/github/stars/luiscarlospando)][2]{:rel="me" target="_blank"}
@@ -37,7 +36,6 @@ Mi perfil en CodePen es [este][8]{:rel="me" target="_blank"}.
 
 ## <i class="fa-solid fa-beer-mug-empty"></i> Brewfile
 Aquí comparto lo que tengo en [mi Brewfile][9]{:rel="me" target="_blank"}.
-
 
 [1]: /keys/
 [2]: https://github.com/{{ site.github_username }}

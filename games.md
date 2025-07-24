@@ -26,7 +26,7 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <ul class="list-unstyled">
 <li class="mb-3">
 <a href="/games/mario-kart/">
-<img class="img-fluid rounded" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213p.jpg" alt="Mario Kart 8 Deluxe" width="100">
+<img class="game-icon rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213p.jpg" alt="Mario Kart 8 Deluxe" width="100">
 </a>
 </li>
 <li>
@@ -54,7 +54,7 @@ Código del torneo: <code>{{ site.m7gp_code }}</code>
 <ul class="list-unstyled">
 <li class="mb-3">
 <a href="/games/splatoon/">
-<img class="img-fluid rounded" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" alt="Splatoon 3" width="100">
+<img class="game-icon rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" alt="Splatoon 3" width="100">
 </a>
 </li>
 <li>
@@ -78,7 +78,7 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li class="mb-3">
-<img class="img-fluid rounded" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2tau.jpg" alt="Mario's Picross (Game Boy)" width="100">
+<img class="game-icon rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2tau.jpg" alt="Mario's Picross (Game Boy)" width="100">
 </li>
 <li>
 <em>Mario's Picross (Game Boy)</em>

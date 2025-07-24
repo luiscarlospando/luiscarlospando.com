@@ -631,7 +631,8 @@ code {
     display: none;
 }
 
-.app-icon {
+.app-icon,
+.game-art {
     @include transition;
 
     &:hover,

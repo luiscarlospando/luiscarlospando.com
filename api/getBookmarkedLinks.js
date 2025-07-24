@@ -17,6 +17,8 @@ export default async function handler(req, res) {
       });
 
       if (!response.ok) {
+        const errorText = await response.text();
+        console.error(`Raindrop error body:`, errorText);
         throw new Error(`Raindrop API error: ${response.status}`);
       }
 

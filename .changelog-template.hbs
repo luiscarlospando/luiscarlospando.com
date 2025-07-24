@@ -1,0 +1,57 @@
+# Changelog
+
+Todas las modificaciones notables a este proyecto se documentan en este archivo.
+Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
+
+{{#each releases}}
+## [{{title}}] - {{niceDate}}
+
+{{#if added}}
+### Added
+{{#each added}}
+- {{this.subject}} ({{this.shorthash}})
+{{/each}}
+
+{{/if}}
+
+{{#if changed}}
+### Changed
+{{#each changed}}
+- {{this.subject}} ({{this.shorthash}})
+{{/each}}
+
+{{/if}}
+
+{{#if deprecated}}
+### Deprecated
+{{#each deprecated}}
+- {{this.subject}} ({{this.shorthash}})
+{{/each}}
+
+{{/if}}
+
+{{#if removed}}
+### Removed
+{{#each removed}}
+- {{this.subject}} ({{this.shorthash}})
+{{/each}}
+
+{{/if}}
+
+{{#if fixed}}
+### Fixed
+{{#each fixed}}
+- {{this.subject}} ({{this.shorthash}})
+{{/each}}
+
+{{/if}}
+
+{{#if security}}
+### Security
+{{#each security}}
+- {{this.subject}} ({{this.shorthash}})
+{{/each}}
+
+{{/if}}
+
+{{/each}}

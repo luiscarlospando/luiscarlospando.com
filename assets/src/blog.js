@@ -29,13 +29,13 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((response) => response.json())
       .then((data) => {
         // Update href attribute with GitHub repo URL
-        btnVersionBlog.href = `https://github.com/luiscarlospando/luiscarlospando.com`;
+        btnVersionBlog.href = `https://luiscarlospando.com/changelog/`;
 
         // Update title attribute with "Ver código fuente"
         // btnVersionBlog.title = `Ver código fuente`;
 
         // Update data-original-title attribute with "Ver código fuente"
-        btnVersionBlog.setAttribute("data-original-title", `Ver código fuente`);
+        btnVersionBlog.setAttribute("data-original-title", `Changelog`);
 
         // Update innerHTML of the <code> tag
         const codeTag = btnVersionBlog.querySelector("code");

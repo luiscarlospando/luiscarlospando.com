@@ -12,7 +12,7 @@ permalink: /developer/
 
 Esta es [mi llave PGP pública][1] por si necesitan contactarme de forma segura.
 
-## <i class="fa-brands fa-github"></i> GitHub
+## <i class="fa-brands fa-github"></i> GitHub [![GitHub User's stars](https://img.shields.io/github/stars/luiscarlospando)][2]{:rel="me" target="_blank"}
 
 Parte de mi jale se puede encontrar [aquí][2]{:rel="me" target="_blank"}.
 

@@ -17,7 +17,7 @@ Y bueno, este sitio es un lugar para expresarme libremente, compartir cosas que 
 
 *¡Gracias por visitar mi sitio!* ✨
 
---
+---
 
 Aquí está el [archivo completo][2] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][3]).
 

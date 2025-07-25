@@ -9,17 +9,17 @@ permalink: /acerca-de/
 
 {{ page.description }}
 
-Me enorgullece el hecho de formar parte del Internet independiente y descentralizado. ✌️ Este es un lugar que puedo considerar *completamente mío*. Aquí yo tengo el control de todo, del *look & feel*, del contenido, de los *features* y así. No estoy a expensas de ninguna empresa como Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok.
+Estoy orgulloso de ser parte del Internet independiente y descentralizado. Este es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, del *look & feel*, del contenido, de los *features* y básicamente todo. Mi tirada es no estar a expensas de ninguna compañía como Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok.
 
-Todo mundo sabe que el futuro de esas plataformas es incierto (y ya ha pasado varias veces que desaparecen o cambian de dueño/directores y valen sh!t). Hay que ser conscientes de que no tenemos control real, ni somos propietarios de nuestras cuentas y/o contenido.
+Todos sabemos que el futuro de esas plataformas es incierto (y ya hemos sido testigos esas plataformas desaparecen o cambian de dueño/directores y luego valen sh!t). Todo esto lo menciono generar consciencia de que ahí no tenemos control real, ni somos propietarios de nuestro contenido y/o cuentas.
 
-Y bueno, ya hablando de cosas más felices: este sitio es un lugar para expresarme libremente, compartir cosas que creo valen la pena, opinar, experimentar, codear y pasarla chido.
-
-Aquí está el [archivo completo][2] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][3]).
+Y bueno, este sitio es un lugar para expresarme libremente, compartir cosas que creo valen la pena, opinar, experimentar, equivocarme, aprender, codear y pasarla chido.
 
 *¡Gracias por visitar mi sitio!* ✨
 
----
+--
+
+Aquí está el [archivo completo][2] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][3]).
 
 *Disclaimer: Los links de DigitalOcean, Instatus y omg.lol son links de referidos.*
 

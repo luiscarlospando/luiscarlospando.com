@@ -1,4 +1,4 @@
-# 🚀 LuisCarlosPando.com
+# LuisCarlosPando.com
 
 ![Logo LuisCarlosPando.com](https://luiscarlospando.com/assets/images/logo.png)
 
@@ -111,4 +111,4 @@ Este proyecto está bajo la Licencia MIT. Siéntete libre de usar el código com
 
 ---
 
-**¿Te gusta el proyecto? ¡Dale una ⭐ si te ha sido útil!**
+**¿Te gusta el proyecto? ¡Dale una ⭐ si te sirve!**

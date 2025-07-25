@@ -7,6 +7,60 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.52.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.52.0...v2.52.1) - 2025-07-24
+
+- Implementar API de Raindrop.io en lugar de fetchear RSS público [`d213537`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d213537a8f4904a765631c7bb3459c81f7eebafd)
+- Implementar API de Raindrop.io en lugar de fetchear RSS público [`59596a9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/59596a95bd889bacd54d1a2e3135103db728dfc5)
+- Implementar API de Raindrop.io en lugar de fetchear RSS público [`a3ea1d9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a3ea1d97e0c8daa62e61fb8d163534e60a4bead2)
+- Mostrar timestamp de hace cuánto se reprodujo la última rola [`0ad84ad`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0ad84ad1c61a774feb815a7e15fdf5a6d72b1644)
+- Implementar API de Raindrop.io en lugar de fetchear RSS público [`a97bf89`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a97bf89bdabe7c7be55e6a55596db0f45e9ba1c6)
+- Ajustar posición del timestamp [`a226ff1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a226ff1419f9e0199f5a83644bd0746857906e19)
+- Deploy v2.52.1 [`a58c44a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a58c44a9971e684da7ff5ebcb05eeff860d11326)
+- Mostrar timestamp de hace cuánto se reprodujo la última rola [`fd30982`](https://github.com/luiscarlospando/luiscarlospando.com/commit/fd309821be30fb97ae2942b0bea639f581ba0a9d)
+- Implementar API de Raindrop.io en lugar de fetchear RSS público [`46d47e3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/46d47e3c228e67248ca114aa77db1db835f7bf94)
+- Actualizar CHANGELOG [`69b04c7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/69b04c72dec837677bd3561c17fadd366ceaea4c)
+
+## [`v2.52.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.51.0...v2.52.0) - 2025-07-23
+
+- Agregar CHANGELOG [`cdbcfef`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cdbcfef302b3f55b156f39d3e1fdb488740b480d)
+- Agregar CHANGELOG [`0866b9f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0866b9ffb06aeb07a3ca8c32e2bc7f26c04d1b89)
+- Agregar CHANGELOG [`d1c877b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d1c877be24b79d056438ad1d238b83e1300c57e0)
+- Agregar CHANGELOG [`2679677`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2679677ce8a7701b53fb2252e86269af7262de32)
+- Agregar CHANGELOG [`6aae343`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6aae343c144c5a4e29d80660dc3abaa15b7d326c)
+- Agregar CHANGELOG [`4bf23ae`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4bf23ae7e81724c0db72254d04d0756695050913)
+- Agregar transición a portadas de los juegos [`d2aa372`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d2aa372837911a2bf7d8204a3263f5d7d61465f2)
+- Agregar clase .app-icon a íconos [`2ccfdac`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2ccfdacd8689d7bb96750e9ed9ee7280f4f03f32)
+- Agregar CHANGELOG..md [`f4f9800`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f4f98007950910347f3dad67b6434501bd30822f)
+- Agregar transición a portadas de los juegos [`c945d8e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c945d8ed94c40b4cae8dcb9cc08007948f2541b8)
+- Quitar widgets de GitHub y StackOverflow [`f340c84`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f340c84e2f1233a2ea9bd61783c353ddd6bcd4c2)
+- Enlazar botón de versión a changelog [`2579377`](https://github.com/luiscarlospando/luiscarlospando.com/commit/25793779e8a56efe2a0fed783c4b663bc5067858)
+- Agregar CHANGELOG [`a17f5b7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a17f5b71904af68c866566180c9cb8555d2c4bab)
+- Agregar más badges [`0d0a329`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0d0a3298dd512200ab965c63ed8222582ad5339d)
+- Deploy v2.52.0 [`0483f32`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0483f32fc31c1ee797e35dd648061c5ea0e06ff6)
+- Corregir enlace a Keep a Changelog [`2a17dc0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2a17dc01e47b71c92b0bb583ac5783d9555dbb44)
+- Corregir enlace a Keep a Changelog [`6637920`](https://github.com/luiscarlospando/luiscarlospando.com/commit/663792083dbd56a17d7763a926511af4c20da3e1)
+- Enlazar botón de versión a changelog [`135957e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/135957e4b08bd79682d4a8fcdef72677bccafe7d)
+- Actualizar badge de Reddit para que muestre mi karma completo [`84e7d50`](https://github.com/luiscarlospando/luiscarlospando.com/commit/84e7d5076c9e66254b94e83035d603d4fad04ba9)
+- Actualizar saludo [`3b831ec`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3b831ec59151fa2540182fc4f1734f2ee26c28c5)
+- Agregar badge de GitHub [`3a719f9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3a719f9d3a3a65263648f55d6c973b87003762b6)
+- Actualizar descripción [`5ea9c77`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5ea9c7749084fb3840eaf651989578c35e28ba15)
+- Agregar overflow:hidden a .nowplaying [`6e00cd8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6e00cd8c65ea087dc2f99dad7d645c14b224d402)
+
+## [`v2.51.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.50.1...v2.51.0) - 2025-07-23
+
+- Mejorar accesibilidad [`f3ad396`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f3ad3967d19dccc9bafce25c2964f8701628fca9)
+- Update header.html [`3ed58c7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3ed58c7b1d4024853914bd124da57762d88c1fe8)
+- Implementar sonido de clic en botones y enlaces [`72b8c35`](https://github.com/luiscarlospando/luiscarlospando.com/commit/72b8c359b400f5006e7969015f0d57a1a16fa341)
+- Actualizar textos [`8134b70`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8134b70e6d3f805a649246379de658279ead4cdb)
+- Implementar sonido de clic en botones y enlaces [`49be8e5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/49be8e539befbd71f1f8aade9381553b33c9a92d)
+- Quitar botón de Discord [`684510f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/684510f611d7a533fe8de7a911cd614be15f06f9)
+- Implementar sonido de clic en botones y enlaces [`46c0a60`](https://github.com/luiscarlospando/luiscarlospando.com/commit/46c0a6014676d03000c73e1d58ec5eddfbb6abae)
+- Implementar sonido de clic en botones y enlaces [`48adccf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/48adccf031bd5aedff0a4013c8e926b939643139)
+- Deploy v2.51.0 [`41b0d5a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/41b0d5afaa067c14cb1901a62074b6cc4981f3fe)
+- Actualizar textos [`995c8b8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/995c8b8c975773dc3f39369312928c661e6a8a36)
+- Actualizar textos [`ed7452b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ed7452be05e64f867c2e282ebbb680fe88457316)
+- Actualizar textos [`60a06e3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/60a06e3d992b646310bd26dbc5299519ac6821d4)
+
 ## [`v2.50.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.50.0...v2.50.1) - 2025-07-22
 
 - Agregar botones adicionales [`2e70abe`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2e70abe1c38614cc1fd6bcb86d5ccd7dd1a0f75c)

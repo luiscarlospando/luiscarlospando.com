@@ -82,14 +82,14 @@
 
     <!-- Meta Tags Generated with https://metatags.io -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="https://blog.{{ site.domain }}/rss/" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="https://blog.{{ site.domain }}/photos/rss/" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="https://bg.raindrop.io/rss/public/50598757" />
+    <link rel="alternate" type="application/rss+xml" title="Fotos - {{ site.title }}" href="https://blog.{{ site.domain }}/photos/rss/" />
+    <link rel="alternate" type="application/rss+xml" title="Links - {{ site.title }}" href="https://bg.raindrop.io/rss/public/50598757" />
     <link rel="author" href="/humans.txt" />
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="LuisCarlosPando.com" />
+    <meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="canonical" href="{% if page.url == '/' %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">
     <link rel="me" href="{{ site.mastodon_url }}" />

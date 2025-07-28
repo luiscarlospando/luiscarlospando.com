@@ -125,18 +125,19 @@ function renderBookmarks(items) {
   console.log(`📊 Rendering ${items.length} bookmarks`);
 
   const bookmarksHTML = items
-    .map(
-      (item) => `
-    <li>
-      <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener noreferrer">
-        ${formatDate(item.date)}
-      </a>
-      <a href="${item.link}" target="_blank" rel="noopener noreferrer">
-        ${item.title}
-        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-      </a>
-    </li>`,
-    )
+    .map((item) => {
+      console.log("📌 Bookmark item:", item); // 👈 inspeccionar aquí
+      return `
+          <li>
+            <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener noreferrer">
+              ${formatDate(item.date)}
+            </a>
+            <a href="${item.link}" target="_blank" rel="noopener noreferrer">
+              ${item.title}
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </li>`;
+    })
     .join("");
 
   bookmarksList.innerHTML = bookmarksHTML;

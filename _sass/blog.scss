@@ -136,6 +136,13 @@ h6 {
     float: left;
 }
 
+.follow,
+.primary_navigation {
+    p {
+        font-size: 0.918rem;
+    }
+}
+
 .share-post {
     font-size: 0.916rem;
 
@@ -148,12 +155,9 @@ h6 {
     h4 {
         display: inline-block;
     }
-}
 
-.follow,
-.primary_navigation {
-    p {
-        font-size: 0.918rem;
+    a {
+        color: $mainColor;
     }
 }
 

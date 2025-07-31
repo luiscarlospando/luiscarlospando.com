@@ -283,3 +283,50 @@ progress::-moz-progress-bar {
 .app-icon {
     max-width: 80%;
 }
+
+#dismissable-alert {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: $cardBgColor;
+    color: $mainColor;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    z-index: 9999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition:
+        opacity 0.4s ease,
+        transform 0.4s ease,
+        visibility 0.4s;
+
+    &.show {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    a.btn {
+        margin-left: 0.5rem;
+    }
+
+    #alert-close {
+        background: none;
+        border: none;
+        color: $mainColor;
+        font-size: 1.1rem;
+        cursor: pointer;
+        position: absolute;
+        right: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

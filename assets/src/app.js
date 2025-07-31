@@ -31,6 +31,7 @@ import "./back-to-top";
 import "./deepl";
 import "./lastfm-last-played";
 import "./button-press";
+import "./dismissable-alert";
 import "./other";
 
 // React components

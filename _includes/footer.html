@@ -18,6 +18,49 @@
                     <hr>
                     <div class="row mb-md-2">
                         <div class="col-6 col-md-6">
+                            <p class="copyright">&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. Saludos desde Chihuahua, México. 🏜️</p>
+
+                            <p>🕸️💍 Parte del <a href="https://cs.sjoy.lol/" target="_blank"">CSS JOY Webring</a></p>
+
+                            <ul class="list-inline my-0">
+                                <li class="list-inline-item">
+                                    <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/previous?via=https://{{ site.domain }}" data-toggle="tooltip" data-placement="top" aria-label="Anterior" title="Anterior">
+                                        <i class="fa-solid fa-arrow-left"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/random?via=https://{{ site.domain }}" data-toggle="tooltip" data-placement="top" aria-label="Sitio aleatorio" title="Sitio aleatorio">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/next?via=https://{{ site.domain }}" data-toggle="tooltip" data-placement="top" aria-label="Siguiente" title="Siguiente">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="list-inline">
+                                <li class="list-inline-item me-2">
+                                    <a href="https://proven.lol/a5fae9" data-toggle="tooltip" data-placement="top" title="Proof" target="_blank">
+                                        <span class="fa-stack small">
+                                            <i class="fa-solid fa-check fa-stack-1x fa-inverse" style="--fa-stack-z-index: 2;"></i>
+                                            <i class="fa-solid fa-certificate fa-stack-2x" style="--fa-stack-z-index: 1;"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item me-2">
+                                    <a href="{{ site.url }}/acerca-de/" data-toggle="tooltip" data-placement="top" data-html="true" title="Acerca de">
+                                        <code>Acerca de</code>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://luiscarlospando.com/changelog/" data-toggle="tooltip" data-placement="top" data-html="true" title="Changelog">
+                                        <code>v{{ site.version }}</code>
+                                    </a>
+                                </li>
+                            </ul>
+
                             <ul id="social" class="list-inline">
                                 <li class="list-inline-item">
                                     <a rel="me" href="{{ site.mastodon_url }}" data-toggle="tooltip" data-placement="top" aria-label="Sígueme en Mastodon" title="Sígueme en Mastodon" target="_blank">
@@ -96,47 +139,6 @@
                                 <li class="list-inline-item">
                                     <a href="https://ko-fi.com/s/4662b19f61" target="_blank">
                                         <img src="{{ site.url }}//assets/images/buttons/WrittenByAHuman_04.svg" alt="Written by a human" class="img-fluid">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-12 text-center">
-                            <p class="copyright">&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. Saludos desde Chihuahua, México. 🏜️</p>
-                            <p>🕸️💍 Parte del <a href="https://cs.sjoy.lol/" target="_blank"">CSS JOY Webring</a></p>
-                            <ul class="list-inline my-0">
-                                <li class="list-inline-item">
-                                    <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/previous?via=https://{{ site.domain }}" data-toggle="tooltip" data-placement="top" aria-label="Anterior" title="Anterior">
-                                        <i class="fa-solid fa-arrow-left"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/random?via=https://{{ site.domain }}" data-toggle="tooltip" data-placement="top" aria-label="Sitio aleatorio" title="Sitio aleatorio">
-                                        <i class="fa-solid fa-shuffle"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/next?via=https://{{ site.domain }}" data-toggle="tooltip" data-placement="top" aria-label="Siguiente" title="Siguiente">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="list-inline">
-                                <li class="list-inline-item me-2">
-                                    <a href="https://proven.lol/a5fae9" data-toggle="tooltip" data-placement="top" title="Proof" target="_blank">
-                                        <span class="fa-stack small">
-                                            <i class="fa-solid fa-check fa-stack-1x fa-inverse" style="--fa-stack-z-index: 2;"></i>
-                                            <i class="fa-solid fa-certificate fa-stack-2x" style="--fa-stack-z-index: 1;"></i>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item me-2">
-                                    <a href="{{ site.url }}/acerca-de/" data-toggle="tooltip" data-placement="top" data-html="true" title="Acerca de">
-                                        <code>Acerca de</code>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="https://luiscarlospando.com/changelog/" data-toggle="tooltip" data-placement="top" data-html="true" title="Changelog">
-                                        <code>v{{ site.version }}</code>
                                     </a>
                                 </li>
                             </ul>

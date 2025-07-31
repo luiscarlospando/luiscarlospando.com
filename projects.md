@@ -81,7 +81,7 @@ Una extensión de Raycast que te permite controlar Discord sin cambiar de ventan
 </div>
 </div>
 </div>
-<div class="card-footer text-muted">
+<div class="card-footer">
 <h6>
 <code>Última actualización:</code> {{ page.last-modified-at }}
 </h6>

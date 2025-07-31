@@ -90,7 +90,7 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 </div>
 </div>
 </div>
-<div class="card-footer text-muted">
+<div class="card-footer">
 <h6>
 <code>Última actualización:</code> {{ page.last-modified-at }}
 </h6>

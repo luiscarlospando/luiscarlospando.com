@@ -15,7 +15,7 @@ Chihuahua, México
 
 Geek de tecnologías web que ha estado construyendo cosas para Internet desde ~2006.
 
-- 📞 614 177 4577
+- 📞 [+52 (614) 177 4577](tel:+526141774577)
 - 📧 [hey@luiscarlospando.com](mailto:hey@luiscarlospando.com)
 - 🌐 [LuisCarlosPando.com](https://luiscarlospando.com) (estás aquí)
 - 💬 [Otros medios de contacto](https://luiscarlospando.com/contacto)

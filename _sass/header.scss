@@ -316,6 +316,10 @@ progress::-moz-progress-bar {
         transform: translateY(0);
     }
 
+    p {
+        margin-bottom: 0;
+    }
+
     a.btn {
         margin-left: 0.5rem;
     }

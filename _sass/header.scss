@@ -285,6 +285,7 @@ progress::-moz-progress-bar {
 }
 
 #dismissable-alert {
+    border-top: 1px solid $componentBorderColor;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -293,6 +294,7 @@ progress::-moz-progress-bar {
     color: $mainColor;
     padding: 0.75rem 1rem;
     font-size: 0.9rem;
+    text-align: center;
     z-index: 9999;
 
     display: flex;

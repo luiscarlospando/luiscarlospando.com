@@ -1,0 +1,93 @@
+---
+layout: page
+title: Contacto
+description: Currículum de Luis Carlos Pando, desarrollador frontend en Chihuahua, México, con más de 15 años de experiencia en tecnologías web, trabajando con HTML, CSS, JavaScript, React, WordPress y más.
+image: /assets/images/logo.png
+permalink: /cv/
+---
+
+<p class="text-center">{{ page.description }}</p>
+
+# Luis Carlos Pando
+
+**Front end Developer**
+Chihuahua, Mexico
+📞 614 177 4577
+📧 [hey@luiscarlospando.com](mailto:hey@luiscarlospando.com)
+🌐 [LuisCarlosPando.com](https://luiscarlospando.com)
+
+Geek de tecnologías web que ha estado construyendo cosas para Internet desde ~2006.
+
+---
+
+## Experiencia Laboral
+
+### Frontend Developer
+**Mixen: Boosting Brands – Chihuahua, México**
+_Octubre 2019 — Presente_
+
+Desarrollo web en distintos proyectos para clientes locales. Algunas de las cuentas en las que he trabajado incluyen:
+
+- Castallia
+- Century 21 Census
+- Codetec
+- Bafar y algunas de sus submarcas
+- Compecer
+- CTU
+
+### Frontend Developer
+**Movimiento Digital – Chihuahua, México**
+_Marzo 2018 — Octubre 2019_
+
+Desarrollo de infografías web interactivas para **Discovery Channel Latin America**, dentro del programa *Discovery en la Escuela*, usando tecnologías web.
+
+### Frontend Developer
+**Xpectare Interactive Media – Chihuahua, México**
+_Marzo 2013 — Marzo 2018_
+
+Desarrollo web en diversos proyectos para clientes locales. Algunas de las cuentas en las que trabajé incluyen:
+
+- CTU
+- Castallia
+- 21k OXXO Chihuahua / Querétaro
+- La Opción de Chihuahua
+- Entre Líneas de Chihuahua
+- Dimanor
+- Mundo Joven
+- The Lofts
+- Urbemex
+- GoalTech
+
+---
+
+## Educación
+**Ingeniería en Sistemas Computacionales**
+Instituto Tecnológico de Chihuahua II, Chihuahua, México
+_2003 — 2009_
+
+---
+
+## Habilidades
+- HTML & CSS
+- JavaScript
+- Node.js
+- React
+- Git
+- WordPress
+- CSS frameworks & preprocesadores
+- Gestión de servidores y bases de datos
+- Trabajo en equipo
+- Trabajo bajo presión
+- Atención al cliente
+- Adaptabilidad
+
+---
+
+## Idiomas
+- **Español:** Nativo
+- **Inglés:** Alto dominio
+
+---
+
+## Hobbies
+Coleccionar discos, música, tecnología, automatización, películas y videojuegos.

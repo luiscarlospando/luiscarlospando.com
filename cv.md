@@ -94,6 +94,8 @@ _2003 — 2009_
 ## Hobbies
 Coleccionar discos, música, tecnología, automatización, películas y videojuegos.
 
+---
+
 <div class="text-center">
 <a class="btn btn-primary" href="./assets/docs/resume-2025.pdf" download>
 <i class="fa-solid fa-download"></i> Descargar CV

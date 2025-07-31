@@ -33,9 +33,16 @@ Desarrollo web en distintos proyectos para clientes locales. Algunas de las cuen
 - Castallia
 - Century 21 Census
 - Codetec
-- Bafar y algunas de sus submarcas
+- Bafar y algunas de sus submarcas como CarneMart
 - Compecer
 - CTU
+- Tiempo La Noticia Digital
+- Castallia
+- Lago Di como
+- Ponderosa
+- Despacho de arquitectura Ápice
+- DigriaPan
+- Codetec
 
 ### Frontend Developer
 **Movimiento Digital – Chihuahua, México**
@@ -76,6 +83,7 @@ _2003 — 2009_
 - React
 - Git
 - WordPress
+- Generadores estáticos
 - CSS frameworks & preprocesadores
 - Gestión de servidores y bases de datos
 - Trabajo en equipo
@@ -97,7 +105,7 @@ Coleccionar discos, música, tecnología, automatización, películas y videojue
 ---
 
 <div class="text-center">
-<a class="btn btn-primary" href="./assets/docs/resume-2025.pdf" download>
+<a class="btn btn-primary" href="https://luiscarlospando.com/assets/docs/resume-2025.pdf" download>
 <i class="fa-solid fa-download"></i> Descargar CV
 </a>
 </div>

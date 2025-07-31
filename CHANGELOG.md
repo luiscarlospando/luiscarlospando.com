@@ -7,6 +7,41 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.53.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.52.1...v2.53.0) - 2025-07-31
+
+- Reestructurar footer [`fc24460`](https://github.com/luiscarlospando/luiscarlospando.com/commit/fc24460e457594cac087ce1965f674d45f44c7e6)
+- Actualizar README [`080287a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/080287a1d0e6eae1df4201917a13620ca4598f99)
+- Reestructurar footer [`5795853`](https://github.com/luiscarlospando/luiscarlospando.com/commit/579585368fae453e26c1f2ee8b42ef9c7a48bcdb)
+- Actualizar CHANGELOG [`720feb6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/720feb65353fa1ab01fa45acd770d4975d7af299)
+- Reestructurar footer [`c38c14c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c38c14cfbdf2fac7eb4bf30a5281b60a24105468)
+- Reestructurar footer [`173568f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/173568f69ff9d1d2e8ecfe9d43bb957bfa5b6157)
+- Reestructurar footer [`ae94ee5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ae94ee5d34922119ff1645e5317446a920816957)
+- Debuggear error en fecha de los bookmarks [`4d7acb6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4d7acb6b7b4dbc6defed2eeb4464450018f81301)
+- Debuggear error en fecha de los bookmarks [`1cdaa06`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1cdaa068a32014372d7df705842fe43bfea49158)
+- Agregar encoding al SCSS [`71a0704`](https://github.com/luiscarlospando/luiscarlospando.com/commit/71a0704a596742bd4e3edc8cc66db77aa2a2f163)
+- Agregar licencia [`1c11595`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1c115955524cf77d4b0c37d77844576165f062dd)
+- Ajustar redes sociales [`9a632b8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9a632b893ea4bdbe21cef00396f4c303233ad7e8)
+- Reestructurar footer [`6278da4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6278da49d6b81dceb3fca3d5215334a3380a8830)
+- Actualizar textos [`b46ac25`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b46ac254eb05062f18092589f777274f4b69f8e8)
+- Reestructurar footer [`2929b9c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2929b9c3aec4a28ea0f34b8b96d396767f64d2e9)
+- Reestructurar footer [`e794f00`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e794f00b42612b18ff4c871b755e8783cc257ccb)
+- Redes sociales ya no son botones [`16bd9d9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/16bd9d93c0903bf0dc99d537a2fdfdfeac18fcea)
+- Actualizar títulos de los feeds [`3464610`](https://github.com/luiscarlospando/luiscarlospando.com/commit/34646102646eda73aaaa979956e593dc0e1a6b6f)
+- Quitar estilo innecesario [`4624c26`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4624c263b136b303c6b441f7891dd9eb259bd69c)
+- Settear color scheme por defecto para bloques de código sin lenguaje definido [`778710c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/778710c1ef1e72a999330bcadb5ef2ea36ff13da)
+- Reestructurar footer [`aef1ef2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/aef1ef2afebc5a21c1ec8c405bb22d1dd5b7d183)
+- Actualizar README [`4a548c0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4a548c0d22407a43b1634c70efc5995ec9b8f529)
+- Deploy v2.53.0 [`ad37aa0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ad37aa079afc3623b229efa94beabc2ede49ef9d)
+- Reestructurar footer [`1989a78`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1989a781bc574b2047fb31b64825af879a27137c)
+- Quitar comentario que contenía acento [`406b37e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/406b37ec88d641f990bffff1cca89d559bb0b30c)
+- Agregar encoding al SCSS [`0bfd6ea`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0bfd6eae105ba4c48dcda93662568a3cf397e6a7)
+- Actualizar texto referente al Hitz [`f824a13`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f824a1326a1fc61e8adb3c96b311679f8bfa893a)
+- Agregar RSS feeds faltantes [`5f00320`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5f003204f0fe44b7bc62a2f3a02a6af299745ee7)
+- Corregir error gramatical [`64a2da8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/64a2da81962be2ec21e80e8836f4f6163106d794)
+- Corregir separador [`5b9a359`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5b9a359f0d6a9cb6018d8da5d25468f6d82e1e8f)
+- Quitar estilo innecesario [`be59adf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/be59adfef26beee60402d0e08624d20e3d5401ed)
+- Settear color scheme por defecto para bloques de código sin lenguaje definido [`2d90948`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2d90948dbdc39e32a712f9b1a1067bdc67e9459b)
+
 ## [`v2.52.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.52.0...v2.52.1) - 2025-07-24
 
 - Implementar API de Raindrop.io en lugar de fetchear RSS público [`d213537`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d213537a8f4904a765631c7bb3459c81f7eebafd)

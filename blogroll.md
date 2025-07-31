@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blogroll
-description: Este es una lista de links a algunos amigos y a sitios personales que visito y recomiendo. Algunos de ellos han servido como inspiración para mi.
+description: Este es una lista de links a algunos amigos y a sitios personales que visito y recomiendo. Algunos de ellos han servido como inspiración para mi. Ordenados alfabéticamente.
 image: /assets/images/logo.png
 permalink: /blogroll/
 ---
@@ -23,6 +23,7 @@ permalink: /blogroll/
 |--------------------|-------------------------------------------------------------------------|
 | Adam Newbold       | [notes.neatnik.net](https://notes.neatnik.net/){:rel="me" target="_blank"} |
 | Ashur Cabrera      | [multiline.co/mment](https://multiline.co/mment){:rel="me" target="_blank"} |
+| Andy Bell          | [bell.bz](https://bell.bz/){:rel="me" target="_blank"}                 |
 | Cory Dransfeldt    | [coryd.dev](https://www.coryd.dev/){:rel="me" target="_blank"}         |
 | Dave Rupert        | [daverupert.com](https://daverupert.com/){:rel="me" target="_blank"}   |
 | Frills             | [frills.dev](https://frills.dev/){:rel="me" target="_blank"}           |

@@ -7,6 +7,40 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.54.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.53.0...v2.54.0) - 2025-08-01
+
+- Agregar botón Blogroll [`55edc65`](https://github.com/luiscarlospando/luiscarlospando.com/commit/55edc65ffac8b483fb7937b293c20a07089a7c66)
+- Armar página /cv [`d902313`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d902313c7af4ac22b0969aaee98d6c568eaf1f1b)
+- Agregar alerta [`a84732e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a84732e69c66b841f87b108042a4dea668252066)
+- Agregar /blogroll [`7538d4f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7538d4fcb5fc1b0bbbd2369ab05d6fa7fae60373)
+- Actualizar CHANGELOG [`e3258b6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e3258b65c74e97a212227455410e3699c01b603f)
+- Implementar validación en caso de que alertBar no exista en el DOM [`1e2970b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1e2970b8a4a6632607c8c3a3b2667c2e68abce46)
+- Agregar /blogroll [`f4b252c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f4b252cef4d379fff4c6227429691c3e42a4be5f)
+- Agregar link a /blogroll [`3c31fb0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3c31fb0b9a7b7c582dd6eca7c30d5b56118c2d8e)
+- Armar página /cv [`412653e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/412653e7889b84d02e4df4c52b58eb0ed4dcfc9c)
+- Actualizar CV [`35570a7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/35570a77754a695ea846a5df4bc55ed46329197e)
+- Quitar alerta [`ec6d607`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ec6d60764c9d8125493d979edfc629d14b179d4d)
+- Agregar alerta superior [`ab0ce5d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ab0ce5dccdafbc4b6b5e80907579ef53e29e7d74)
+- Agregar botón de Signal [`38b358a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/38b358a8de33492265393667b81f63a75f639d90)
+- Agregar link a /blogroll [`64815d9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/64815d90d24f558e91a90fdda3ecc48b8143d75f)
+- Quitar clase .text-muted del footer del card [`584c7dd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/584c7dd8f9006bd501387c5dda9c21d01bc95839)
+- Agregar link a /blogroll [`3cd0356`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3cd0356091a073bb72c9db23a5a4b37c4a0c734b)
+- Agregar botón Blogroll [`2a7a28b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2a7a28b18e07ca982b29bf6e99f21a21f2bece5f)
+- Agregar alerta [`6dce94b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6dce94bbb4546e6991fc169fba5fe21602950e7a)
+- Agregar /blogroll [`6b5d26a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6b5d26ad9d47289f314ea13114f051e1fa31b660)
+- Deploy v2.54.0 [`78891d4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/78891d432579575e1499523ccd2c15cce50e7804)
+- Ajustar link del CSS JOY [`893c0d1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/893c0d127ccf407d5b00f89c1bbca310c2bbc573)
+- Corregir error en tooltip en botón de Signal [`ad56971`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ad56971f3bb5561b98bd4095adc52dd8d218ed47)
+- Agregar link a /blogroll [`16eca16`](https://github.com/luiscarlospando/luiscarlospando.com/commit/16eca16694c0a25632fab5228439b28cadb9fba0)
+- Agregar link a /blogroll [`3336286`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3336286e2772858038d2ccadf023a260d01baccd)
+- Agregar alerta [`8abaad3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8abaad3e6d2fc761e16b3b80ad4758d22b42aa7c)
+- Agregar alerta [`05501e5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/05501e52aadd4483ed1a1283fbb6d51426beb5fc)
+- Agregar alerta [`767cbfc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/767cbfc2d305d151658a7fb3457ad6b8ba92a95d)
+- Armar página /cv [`58cd54d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/58cd54dc173c4ea6c2a4d09d9211bc23abca4fab)
+- Armar página /cv [`8736b8d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8736b8db5a6b530b251e2179db1c535b210c3880)
+- Resetear color de texto de la primer columna de las tablas [`b5de77d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b5de77dba4321094ffe551f1217245da88017df9)
+- Agregar alerta [`eea056b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/eea056bbd055a8d86d01b8d8aa1c00e5f28bb140)
+
 ## [`v2.53.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.52.1...v2.53.0) - 2025-07-31
 
 - Reestructurar footer [`fc24460`](https://github.com/luiscarlospando/luiscarlospando.com/commit/fc24460e457594cac087ce1965f674d45f44c7e6)

@@ -10,7 +10,6 @@ permalink: /cv/
 
 Actualmente estoy en busca de nuevas oportunidad laborales remotas. Si consideras que soy una buena opción para tu empresa o proyecto, por favor no dudes en contactarme.
 
-- 📞 [+52 (614) 177 4577](tel:+526141774577)
 - 📧 [hey@luiscarlospando.com](mailto:hey@luiscarlospando.com)
 - 🌐 [LuisCarlosPando.com](https://luiscarlospando.com) (estás aquí)
 - 💬 [Otros medios de contacto](https://luiscarlospando.com/contacto)

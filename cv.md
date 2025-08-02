@@ -8,6 +8,8 @@ permalink: /cv/
 
 <p class="text-center">{{ page.description }}</p>
 
+---
+
 Actualmente estoy en busca de nuevas oportunidad laborales remotas. Si consideras que soy una buena opción para tu empresa o proyecto, por favor no dudes en contactarme.
 
 - 📧 [hey@luiscarlospando.com](mailto:hey@luiscarlospando.com)

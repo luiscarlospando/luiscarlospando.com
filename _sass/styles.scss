@@ -599,6 +599,12 @@ footer {
 
 .badge-custom {
     background-color: $badgeCustomColor;
+
+    &:hover,
+    &:focus {
+        background-color: darken($badgeCustomColor, 10%);
+        text-decoration: none;
+    }
 }
 
 a.badge,

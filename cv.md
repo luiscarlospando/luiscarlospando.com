@@ -74,6 +74,7 @@ _2003 — 2009_
 - HTML & CSS
 - JavaScript
 - Node.js
+- PHP
 - React
 - Git
 - WordPress

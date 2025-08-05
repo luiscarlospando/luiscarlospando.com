@@ -33,4 +33,5 @@ permalink: /blogroll/
 | Marco Arment       | [marco.org](https://marco.org/){:target="_blank"}             |
 | Robb Knight        | [rknight.me](https://rknight.me/){:target="_blank"}           |
 | Sophie Koonin      | [localghost.dev](https://localghost.dev/){:target="_blank"}   |
+| Yordi Verkroost    | [yordi.me](https://yordi.me/){:target="_blank"}               |
 | Zachary Kai        | [zacharykai.net](https://zacharykai.net/){:target="_blank"}   |

@@ -476,19 +476,6 @@ footer {
         border-radius: $borderRadius;
         color: $sixthColor;
     }
-
-    &::after {
-        background-color: $transparentGray;
-        content: "";
-        border-radius: 0.375rem;
-        position: absolute;
-        inset: 0;
-        margin: auto;
-        z-index: -1;
-        transition: all 0.3s ease;
-        filter: blur(20px);
-        transform: scale(1);
-    }
 }
 
 .last-updated {

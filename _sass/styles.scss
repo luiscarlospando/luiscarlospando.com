@@ -381,6 +381,7 @@ footer {
     border: 1px solid $cardBorderColor;
     border-radius: $borderRadius;
     overflow: hidden;
+    position: relative;
 
     h1,
     h2,
@@ -474,6 +475,18 @@ footer {
         border: 1px solid $fifthColor;
         border-radius: $borderRadius;
         color: $sixthColor;
+    }
+
+    &::after {
+        content: "";
+        border-radius: 0.375rem;
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        z-index: -1;
+        transition: all 0.3s ease;
+        filter: blur(0);
+        transform: scale(1);
     }
 }
 

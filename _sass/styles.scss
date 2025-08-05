@@ -478,6 +478,7 @@ footer {
     }
 
     &::after {
+        background-color: $transparentGray;
         content: "";
         border-radius: 0.375rem;
         position: absolute;
@@ -485,7 +486,7 @@ footer {
         margin: auto;
         z-index: -1;
         transition: all 0.3s ease;
-        filter: blur(0);
+        filter: blur(20px);
         transform: scale(1);
     }
 }

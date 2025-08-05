@@ -66,7 +66,7 @@ permalink: /blogroll/
 | Johnny Harris | [@johnnyharris](https://www.youtube.com/@johnnyharris){:target="_blank"} |
 | Jon Sudano | [@JonSudano](https://www.youtube.com/@JonSudano){:target="_blank"} |
 | KEXP | [@kexp](https://www.youtube.com/@kexp){:target="_blank"} |
-| Loudwire | [https://www.youtube.com/LoudwireMusic](https://www.youtube.com/LoudwireMusic){:target="_blank"} |
+| Loudwire | [LoudwireMusic](https://www.youtube.com/LoudwireMusic){:target="_blank"} |
 | Mauricio PC | [@MauricioPCZ](https://www.youtube.com/@MauricioPCZ){:target="_blank"} |
 | Mode 7 | [@mode7gg](https://www.youtube.com/@mode7gg){:target="_blank"} |
 | My Life in Gaming | [@mylifeingaming](https://www.youtube.com/@mylifeingaming){:target="_blank"} |
@@ -77,7 +77,7 @@ permalink: /blogroll/
 | Oliur / UltraLinx | [@Oliur](https://www.youtube.com/@Oliur){:target="_blank"} |
 | Pure Noise Records | [@PureNoiseRecs](https://www.youtube.com/@PureNoiseRecs){:target="_blank"} |
 | REVOLVER | [@revolver](https://www.youtube.com/@revolver){:target="_blank"} |
-| Rick Beato | [https://www.youtube.com/@RickBeato](https://www.youtube.com/@RickBeato){:target="_blank"} |
+| Rick Beato | [@RickBeato](https://www.youtube.com/@RickBeato){:target="_blank"} |
 | Sam Griffin Guitar | [@SamGriffinGuitar](https://www.youtube.com/@SamGriffinGuitar){:target="_blank"} |
 | SO BE IT! | [@SOBEIT32AD](https://www.youtube.com/@SOBEIT32AD){:target="_blank"} |
 | strafefox (Splash Wave) | [@strafefox](https://www.youtube.com/@strafefox){:target="_blank"} |

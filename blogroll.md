@@ -38,7 +38,7 @@ permalink: /blogroll/
 
 ## Canales de YouTube favoritos
 
-### 🎮 Gaming y Retro Gaming
+### 🎮 Gaming
 
 | Canal              | URL                                                                   |
 |---------------------|----------------------------------------------------------------------|
@@ -91,7 +91,7 @@ permalink: /blogroll/
 | Vinilandia | [@Vinilandiapodcast](https://www.youtube.com/@Vinilandiapodcast){:target="_blank"} |
 | Vinyl Rewind | [@VinylRewind](https://www.youtube.com/@VinylRewind){:target="_blank"} |
 
-### 💻 Tecnología
+### 💻 Tech
 
 | Canal              | URL                                                                   |
 |---------------------|----------------------------------------------------------------------|
@@ -103,7 +103,7 @@ permalink: /blogroll/
 | The Coding Train | [@TheCodingTrain](https://www.youtube.com/@TheCodingTrain){:target="_blank"} |
 | Theo - t3.gg | [@t3dotgg](https://www.youtube.com/@t3dotgg){:target="_blank"} |
 
-### 🎬 Documentales y Contenido Educativo
+### 🎬 Documentales y contenido educativo
 
 | Canal              | URL                                                                   |
 |---------------------|----------------------------------------------------------------------|
@@ -114,13 +114,13 @@ permalink: /blogroll/
 | The B1M | [@TheB1M](https://www.youtube.com/@TheB1M){:target="_blank"} |
 | Un Mundo Inmenso | [@UnMundoInmenso](https://www.youtube.com/@UnMundoInmenso){:target="_blank"} |
 
-### 🎨 Arte y Creatividad
+### 🎨 Arte y creatividad
 
 | Canal              | URL                                                                   |
 |---------------------|----------------------------------------------------------------------|
 | Bob Ross | [@bobross_thejoyofpainting](https://www.youtube.com/@bobross_thejoyofpainting){:target="_blank"} |
 
-### 🌍 Viajes y Lifestyle
+### 🌍 Viajes y lifestyle
 
 | Canal              | URL                                                                   |
 |---------------------|----------------------------------------------------------------------|
@@ -128,7 +128,7 @@ permalink: /blogroll/
 | Beardbrand | [@Beardbrand](https://www.youtube.com/@Beardbrand){:target="_blank"} |
 | Casa Baviera | [@CasaBaviera](https://www.youtube.com/@CasaBaviera){:target="_blank"} |
 
-### 📝 Reviews y Entretenimiento
+### 📝 Reviews y entretenimiento
 
 | Canal              | URL                                                                   |
 |---------------------|----------------------------------------------------------------------|

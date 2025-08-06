@@ -40,7 +40,7 @@ permalink: /blogroll/
 
 ### 🎮 Gaming
 
-| Canal              | URL                                                                   |
+| Canal              | Enlace                                                                   |
 |---------------------|----------------------------------------------------------------------|
 | /noclip | [@NoclipDocs](https://www.youtube.com/@NoclipDocs){:target="_blank"} |
 | Artemio Urbina | [@ArtemioUrbina](https://www.youtube.com/@ArtemioUrbina){:target="_blank"} |
@@ -61,7 +61,7 @@ permalink: /blogroll/
 
 ### 🎵 Música
 
-| Canal              | URL                                                                   |
+| Canal              | Enlace                                                                   |
 |---------------------|----------------------------------------------------------------------|
 | ARTE Concert | [@arteconcert](https://www.youtube.com/@arteconcert){:target="_blank"} |
 | AudioTree | [@audiotree](https://www.youtube.com/@audiotree){:target="_blank"} |
@@ -93,7 +93,7 @@ permalink: /blogroll/
 
 ### 💻 Tech
 
-| Canal              | URL                                                                   |
+| Canal              | Enlace                                                                   |
 |---------------------|----------------------------------------------------------------------|
 | A Better Computer | [@ABetterComputer](https://www.youtube.com/@ABetterComputer){:target="_blank"} |
 | Brandon Butch | [@BrandonButch](https://www.youtube.com/@BrandonButch){:target="_blank"} |
@@ -105,7 +105,7 @@ permalink: /blogroll/
 
 ### 🎬 Documentales y contenido educativo
 
-| Canal              | URL                                                                   |
+| Canal              | Enlace                                                                   |
 |---------------------|----------------------------------------------------------------------|
 | Archipel | [@ArchipelDocumentaries](https://www.youtube.com/@ArchipelDocumentaries){:target="_blank"} |
 | Geography Now | [@GeographyNow](https://www.youtube.com/@GeographyNow){:target="_blank"} |
@@ -116,13 +116,13 @@ permalink: /blogroll/
 
 ### 🎨 Arte y creatividad
 
-| Canal              | URL                                                                   |
+| Canal              | Enlace                                                                   |
 |---------------------|----------------------------------------------------------------------|
 | Bob Ross | [@bobross_thejoyofpainting](https://www.youtube.com/@bobross_thejoyofpainting){:target="_blank"} |
 
 ### 🌍 Viajes y lifestyle
 
-| Canal              | URL                                                                   |
+| Canal              | Enlace                                                                   |
 |---------------------|----------------------------------------------------------------------|
 | bald and bankrupt | [@baldandbankrupt](https://www.youtube.com/@baldandbankrupt){:target="_blank"} |
 | Beardbrand | [@Beardbrand](https://www.youtube.com/@Beardbrand){:target="_blank"} |
@@ -130,7 +130,7 @@ permalink: /blogroll/
 
 ### 📝 Reviews y entretenimiento
 
-| Canal              | URL                                                                   |
+| Canal              | Enlace                                                                   |
 |---------------------|----------------------------------------------------------------------|
 | Andrew Robinson | [@andrewrobinsonreviews](https://www.youtube.com/@andrewrobinsonreviews){:target="_blank"} |
 | Doug DeMuro | [@DougDeMuro](https://www.youtube.com/@DougDeMuro){:target="_blank"} |
@@ -138,13 +138,13 @@ permalink: /blogroll/
 
 ### ✨ Espiritual
 
-| Canal              | URL                                                                   |
+| Canal              | Enlace                                                                   |
 |---------------------|----------------------------------------------------------------------|
 | Bible Time With Melonie Mac | [@BibleTimeWithMelonieMac](https://www.youtube.com/@BibleTimeWithMelonieMac){:target="_blank"} |
 | SO BE IT! | [@SOBEIT32AD](https://www.youtube.com/@SOBEIT32AD){:target="_blank"} |
 
 ### 🎮 Simulación
 
-| Canal              | URL                                                                   |
+| Canal              | Enlace                                                                   |
 |---------------------|----------------------------------------------------------------------|
 | Mauricio PC | [@MauricioPCZ](https://www.youtube.com/@MauricioPCZ){:target="_blank"} |

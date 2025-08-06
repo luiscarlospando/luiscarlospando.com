@@ -25,9 +25,9 @@ last-modified-at: <span id="last-updated-at">2025-08-06 16:50:00</span>
 >
 <input class="form-control mb-3" type="email" name="email" id="bd-email" placeholder="Introduce tu email" />
 <input class="btn btn-primary btn-lg" type="submit" value="Suscríbete" />
-<p>
-<a href="https://buttondown.com/refer/luiscarlospando" target="_blank">Powered by Buttondown.</a>
-</p>
 </form>
 </div>
+</div>
+<div class="text-center">
+<small>Powered by <a href="https://buttondown.com/refer/luiscarlospando" target="_blank">Buttondown</a></small>
 </div>

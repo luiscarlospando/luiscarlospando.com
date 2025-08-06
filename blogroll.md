@@ -14,6 +14,7 @@ permalink: /blogroll/
 |----------------------|----------------------------------------------------------------------|
 | Bart                 | [yosoybartsolo.com](https://www.yosoybartsolo.com/){:target="_blank"} |
 | Juan Manuel Terrazas | [juanmanuelterrazas.com](https://www.juanmterrazas.com/){:target="_blank"} |
+| Magiobus             | [magiobus.com](https://magiobus.com/){:target="_blank"} |
 | MexicanSkynet        | [mexicanskynet.com](https://mexicanskynet.com){:target="_blank"} |
 | Shinobipunk          | [shinobipunk.com](https://shinobipunk.com/){:target="_blank"} |
 

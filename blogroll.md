@@ -8,7 +8,7 @@ permalink: /blogroll/
 
 <p class="text-center">{{ page.description }}</p>
 
-## Amigos
+## Amigos (en la vida real)
 
 | Nombre               | URL                                                                 |
 |----------------------|----------------------------------------------------------------------|
@@ -38,7 +38,7 @@ permalink: /blogroll/
 
 ## YouTube
 
-| Nombre              | URL                                                                 |
+| Canal              | URL                                                                   |
 |---------------------|----------------------------------------------------------------------|
 | /noclip | [@NoclipDocs](https://www.youtube.com/@NoclipDocs){:target="_blank"} |
 | A Better Computer | [@ABetterComputer](https://www.youtube.com/@ABetterComputer){:target="_blank"} |

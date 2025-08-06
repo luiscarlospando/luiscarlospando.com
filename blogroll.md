@@ -140,8 +140,7 @@ permalink: /blogroll/
 
 | Canal              | URL                                                                   |
 |---------------------|----------------------------------------------------------------------|
-| Bible Time With Melonie Mac
- | [@BibleTimeWithMelonieMac](https://www.youtube.com/@BibleTimeWithMelonieMac){:target="_blank"} |
+| Bible Time With Melonie Mac | [@BibleTimeWithMelonieMac](https://www.youtube.com/@BibleTimeWithMelonieMac){:target="_blank"} |
 | SO BE IT! | [@SOBEIT32AD](https://www.youtube.com/@SOBEIT32AD){:target="_blank"} |
 
 ### 🎮 Simulación

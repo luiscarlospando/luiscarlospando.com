@@ -38,6 +38,31 @@ permalink: /blogroll/
 
 ## Canales de YouTube favoritos
 
+### 🎨 Arte y creatividad
+
+| Canal              | Enlace                                                                   |
+|---------------------|----------------------------------------------------------------------|
+| Bob Ross | [@bobross_thejoyofpainting](https://www.youtube.com/@bobross_thejoyofpainting){:target="_blank"} |
+
+### 🎬 Documentales y contenido educativo
+
+| Canal              | Enlace                                                                   |
+|---------------------|----------------------------------------------------------------------|
+| Archipel | [@ArchipelDocumentaries](https://www.youtube.com/@ArchipelDocumentaries){:target="_blank"} |
+| Geography Now | [@GeographyNow](https://www.youtube.com/@GeographyNow){:target="_blank"} |
+| Johnny Harris | [@johnnyharris](https://www.youtube.com/@johnnyharris){:target="_blank"} |
+| Main Watchers | [@MainWatchers](https://www.youtube.com/@MainWatchers){:target="_blank"} |
+| The B1M | [@TheB1M](https://www.youtube.com/@TheB1M){:target="_blank"} |
+| Un Mundo Inmenso | [@UnMundoInmenso](https://www.youtube.com/@UnMundoInmenso){:target="_blank"} |
+
+### ✨ Espiritual
+
+| Canal              | Enlace                                                                   |
+|---------------------|----------------------------------------------------------------------|
+| Bible Time With Melonie Mac | [@BibleTimeWithMelonieMac](https://www.youtube.com/@BibleTimeWithMelonieMac){:target="_blank"} |
+| Pastor Robert | [@roberthoughton7127](https://www.youtube.com/@roberthoughton7127){:target="_blank"} |
+| SO BE IT! | [@SOBEIT32AD](https://www.youtube.com/@SOBEIT32AD){:target="_blank"} |
+
 ### 🎮 Gaming
 
 | Canal              | Enlace                                                                   |
@@ -91,6 +116,20 @@ permalink: /blogroll/
 | Vinilandia | [@Vinilandiapodcast](https://www.youtube.com/@Vinilandiapodcast){:target="_blank"} |
 | Vinyl Rewind | [@VinylRewind](https://www.youtube.com/@VinylRewind){:target="_blank"} |
 
+### 📝 Reviews y entretenimiento
+
+| Canal              | Enlace                                                                   |
+|---------------------|----------------------------------------------------------------------|
+| Andrew Robinson | [@andrewrobinsonreviews](https://www.youtube.com/@andrewrobinsonreviews){:target="_blank"} |
+| Doug DeMuro | [@DougDeMuro](https://www.youtube.com/@DougDeMuro){:target="_blank"} |
+| Oliur / UltraLinx | [@Oliur](https://www.youtube.com/@Oliur){:target="_blank"} |
+
+### 🎮 Simulación
+
+| Canal              | Enlace                                                                   |
+|---------------------|----------------------------------------------------------------------|
+| Mauricio PC | [@MauricioPCZ](https://www.youtube.com/@MauricioPCZ){:target="_blank"} |
+
 ### 💻 Tech
 
 | Canal              | Enlace                                                                   |
@@ -103,23 +142,6 @@ permalink: /blogroll/
 | The Coding Train | [@TheCodingTrain](https://www.youtube.com/@TheCodingTrain){:target="_blank"} |
 | Theo - t3.gg | [@t3dotgg](https://www.youtube.com/@t3dotgg){:target="_blank"} |
 
-### 🎬 Documentales y contenido educativo
-
-| Canal              | Enlace                                                                   |
-|---------------------|----------------------------------------------------------------------|
-| Archipel | [@ArchipelDocumentaries](https://www.youtube.com/@ArchipelDocumentaries){:target="_blank"} |
-| Geography Now | [@GeographyNow](https://www.youtube.com/@GeographyNow){:target="_blank"} |
-| Johnny Harris | [@johnnyharris](https://www.youtube.com/@johnnyharris){:target="_blank"} |
-| Main Watchers | [@MainWatchers](https://www.youtube.com/@MainWatchers){:target="_blank"} |
-| The B1M | [@TheB1M](https://www.youtube.com/@TheB1M){:target="_blank"} |
-| Un Mundo Inmenso | [@UnMundoInmenso](https://www.youtube.com/@UnMundoInmenso){:target="_blank"} |
-
-### 🎨 Arte y creatividad
-
-| Canal              | Enlace                                                                   |
-|---------------------|----------------------------------------------------------------------|
-| Bob Ross | [@bobross_thejoyofpainting](https://www.youtube.com/@bobross_thejoyofpainting){:target="_blank"} |
-
 ### 🌍 Viajes y lifestyle
 
 | Canal              | Enlace                                                                   |
@@ -127,24 +149,3 @@ permalink: /blogroll/
 | bald and bankrupt | [@baldandbankrupt](https://www.youtube.com/@baldandbankrupt){:target="_blank"} |
 | Beardbrand | [@Beardbrand](https://www.youtube.com/@Beardbrand){:target="_blank"} |
 | Casa Baviera | [@CasaBaviera](https://www.youtube.com/@CasaBaviera){:target="_blank"} |
-
-### 📝 Reviews y entretenimiento
-
-| Canal              | Enlace                                                                   |
-|---------------------|----------------------------------------------------------------------|
-| Andrew Robinson | [@andrewrobinsonreviews](https://www.youtube.com/@andrewrobinsonreviews){:target="_blank"} |
-| Doug DeMuro | [@DougDeMuro](https://www.youtube.com/@DougDeMuro){:target="_blank"} |
-| Oliur / UltraLinx | [@Oliur](https://www.youtube.com/@Oliur){:target="_blank"} |
-
-### ✨ Espiritual
-
-| Canal              | Enlace                                                                   |
-|---------------------|----------------------------------------------------------------------|
-| Bible Time With Melonie Mac | [@BibleTimeWithMelonieMac](https://www.youtube.com/@BibleTimeWithMelonieMac){:target="_blank"} |
-| SO BE IT! | [@SOBEIT32AD](https://www.youtube.com/@SOBEIT32AD){:target="_blank"} |
-
-### 🎮 Simulación
-
-| Canal              | Enlace                                                                   |
-|---------------------|----------------------------------------------------------------------|
-| Mauricio PC | [@MauricioPCZ](https://www.youtube.com/@MauricioPCZ){:target="_blank"} |

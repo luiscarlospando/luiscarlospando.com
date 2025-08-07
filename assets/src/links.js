@@ -160,11 +160,11 @@ function renderBookmarks(items) {
         ${item.title}
         <i class="fa-solid fa-arrow-up-right-from-square"></i>
       </a>
-      <small class="text-muted"> vía
+      <small class="text-muted"><em> vía
         <a href="${rootDomainURL}" target="_blank" rel="noopener noreferrer" class="text-muted">
           ${domain}
         </a>
-      </small>
+      </em></small>
     </li>`;
     })
     .join("");
@@ -200,11 +200,11 @@ function renderPaginatedLinks() {
         ${item.title}
         <i class="fa-solid fa-arrow-up-right-from-square"></i>
       </a>
-      <small class="text-muted"> vía
+      <small class="text-muted"><em> vía
         <a href="${rootDomainURL}" target="_blank" rel="noopener noreferrer" class="text-muted">
           ${domain}
         </a>
-      </small>
+      </em></small>
     </li>`;
     })
     .join("");

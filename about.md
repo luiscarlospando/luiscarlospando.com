@@ -23,7 +23,7 @@ Soy muy autodidacta por naturaleza. Si algo me llama la atención, me obsesiono 
 
 ## El parteaguas musical
 
-Hay un momento que marcó mi vida para siempre: cuando conocí MTV 2 y Fuse 📺. Literal, mi mundo cambió. De ahí nació mi amor profundo por la música, especialmente el punk, metal y hardcore 🤘. Esos canales me abrieron las puertas a un universo sonoro que no sabía que existía, y desde entonces la música se volvió parte esencial de mi identidad.
+Hay un momento que marcó mi vida para siempre: cuando conocí MTV 2 y Fuse 📺. Literal, mi mundo cambió. De ahí nació mi amor profundo por la música y surgió un hambre de descubrir nuevas bandas, que aunque considero que tengo una apreciación por varios géneros, la verdad es que el punk, metal y hardcore, siempre serán mis géneros mis favoritos por todo lo que me hacen sentir 🤘. Y pues si, esos canales me abrieron las puertas a un universo sonoro que no sabía que existía, y desde entonces la música se volvió parte esencial de mi identidad.
 
 Por eso, junto a unos buenos amigos, creamos [Hitz-Musik.net][1]{:target="_blank"} (RIP 🪦). "El Hitz" era más que una página web; era una comunidad real que apoyaba la escena local de Chihuahua. Organizábamos toquines, compartíamos música, y creamos un espacio donde amantes de la música podían conectar con bandas locales. Aunque ya no existe, guardo esos recuerdos con mucho cariño porque representan una época donde el cotorreo y la pasión por la música nos unían.
 

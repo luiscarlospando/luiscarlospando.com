@@ -29,7 +29,7 @@ Por eso, junto a unos buenos amigos, creamos [Hitz-Musik.net][1]{:target="_blank
 
 ## Mis obsesiones favoritas
 
-No puedo hablar de mí sin mencionar mis tres grandes amores en el mundo de las marcas: Apple 🍎, Nintendo 🎮 y Volkswagen 🚗. Cada una representa algo diferente para mí. Apple por su diseño impecable y funcionalidad, Nintendo por haberme acompañado desde la infancia con experiencias de juego inolvidables y Volkswagen por esa ingeniería y minimalismo alemán.
+No puedo hablar de mí sin mencionar mis dos grandes amores en el mundo de las marcas: Apple 🍎, Nintendo 🎮. Cada una representa algo diferente para mí. Apple por su diseño impecable y funcionalidad y Nintendo por haberme acompañado desde la infancia con experiencias de juego inolvidables.
 
 Mi colección de videojuegos de Nintendo es algo de lo que estoy genuinamente orgulloso, y por eso creé la comunidad [Mode 7 🎮][2] en Discord junto a unos amigos. Ahí cotorreamos todo el día sobre nuestros juegos favoritos y cada jueves en la noche [transmitimos][3] nuestro frenético torneo de Mario Kart 🏁. Es un espacio donde todos son bienvenidos (✨ *All are welcome!* ✨).
 

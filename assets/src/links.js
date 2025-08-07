@@ -13,6 +13,28 @@ const ITEMS_PER_PAGE = 10;
 let currentPage = 1;
 let allItems = [];
 
+// Function to extract domain from URL
+function extractDomain(url) {
+  try {
+    const urlObj = new URL(url);
+    return urlObj.hostname.replace("www.", ""); // Remove www. prefix
+  } catch (error) {
+    console.error(`Error extracting domain from URL: ${url}`, error);
+    return "enlace";
+  }
+}
+
+// Function to get root domain URL
+function getRootDomainURL(url) {
+  try {
+    const urlObj = new URL(url);
+    return `${urlObj.protocol}//${urlObj.hostname}`;
+  } catch (error) {
+    console.error(`Error getting root domain from URL: ${url}`, error);
+    return url; // Fallback to original URL
+  }
+}
+
 // Check if elements exist in the DOM
 function checkElements() {
   const bookmarksElement = document.getElementById("bookmarks");
@@ -125,8 +147,11 @@ function renderBookmarks(items) {
   console.log(`📊 Rendering ${items.length} bookmarks`);
 
   const bookmarksHTML = items
-    .map(
-      (item) => `
+    .map((item) => {
+      const domain = extractDomain(item.link);
+      const rootDomainURL = getRootDomainURL(item.link);
+
+      return `
     <li>
       <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener noreferrer">
         ${formatDate(item.created)}
@@ -135,8 +160,12 @@ function renderBookmarks(items) {
         ${item.title}
         <i class="fa-solid fa-arrow-up-right-from-square"></i>
       </a>
-    </li>`,
-    )
+      <span style="color: #666; font-size: 0.9em;"> vía </span>
+      <a href="${rootDomainURL}" target="_blank" rel="noopener noreferrer" style="color: #666; font-size: 0.9em; text-decoration: none;">
+        ${domain}
+      </a>
+    </li>`;
+    })
     .join("");
 
   bookmarksList.innerHTML = bookmarksHTML;
@@ -157,8 +186,11 @@ function renderPaginatedLinks() {
   console.log(`📊 Items in current page: ${paginatedItems.length}`);
 
   const linksHTML = paginatedItems
-    .map(
-      (item) => `
+    .map((item) => {
+      const domain = extractDomain(item.link);
+      const rootDomainURL = getRootDomainURL(item.link);
+
+      return `
     <li>
       <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener noreferrer">
         ${formatDate(item.created)}
@@ -167,8 +199,12 @@ function renderPaginatedLinks() {
         ${item.title}
         <i class="fa-solid fa-arrow-up-right-from-square"></i>
       </a>
-    </li>`,
-    )
+      <span style="color: #666; font-size: 0.9em;"> vía </span>
+      <a href="${rootDomainURL}" target="_blank" rel="noopener noreferrer" style="color: #666; font-size: 0.9em; text-decoration: none;">
+        ${domain}
+      </a>
+    </li>`;
+    })
     .join("");
 
   linksList.innerHTML = linksHTML;

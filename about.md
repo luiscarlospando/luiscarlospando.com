@@ -55,7 +55,7 @@ Y bueno, este sitio es un lugar para expresarme libremente, compartir cosas que 
 
 ## El presente
 
-Estudié una carrera que, seamos honestos, no me gustó (Ingeniería en Sistemas) 🎓. Pero más bien creo que lo que no me gustó fue la escuela donde la cursé, porque escribir código y crear cosas me apasiona hasta la fecha.
+Estudié una carrera que, seamos honestos, no me gustó (Ingeniería en Sistemas) 🎓. Pero más bien creo que lo que no me gustó fue la escuela donde la cursé, porque escribir código y construir cosas me apasiona hasta la fecha.
 
 ## El cierre
 

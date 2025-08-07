@@ -95,6 +95,7 @@ Suscríbete a mi sitio por:
 - [<i class="fas fa-rss"></i> RSS (Fotos)][26]
 - [<i class="fas fa-rss"></i> RSS (Links)][27]
 - [<i class="fa-brands fa-mastodon"></i> Mastodon][28]{:rel="me" target="_blank"}
+- [<i class="fa-solid fa-envelope"></i> Newsletter][30] <span class="badge badge-success">Nuevo</span>
 
 ## Errores en el sitio
 
@@ -129,3 +130,4 @@ Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. 
 [27]: https://bg.raindrop.io/rss/public/50598757
 [28]: https://hachyderm.io/@{{ site.mastodon_feed }}
 [29]: https://github.com/luiscarlospando/{{ site.domain }}/issues/new
+[30]: /newsletter/

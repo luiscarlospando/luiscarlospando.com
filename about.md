@@ -47,6 +47,8 @@ También toco guitarra cuando necesito desconectarme del mundo digital. Como tod
 
 Me encanta pasar tiempo con amigos 👥 y conocer gente nueva (aunque sea introvertido), esas conversaciones espontáneas que pueden durar horas y donde aprendes cosas que jamás habías considerado. Cuando las circunstancias lo permiten, disfruto mucho viajar y conocer lugares nuevos ✈️. No necesito destinos exóticos; a veces los mejores momentos surgen explorando un pueblo cercano o redescubriendo rincones de mi propia ciudad que había pasado por alto.
 
+Otro de mis hobbies favoritos es coleccionar vinilos 📀 (odio que no haya todavía un emoji de discos de vinilo). Este cotorreo lo comencé junto a mi ex-esposa, y aunque nuestros caminos se separaron, siempre le agradeceré haber compartido conmigo esa pasión por el formato físico y la experiencia completa que representa escuchar un disco de vinilo. Hay algo mágico en el ritual de poner el disco, ajustar la aguja y dejarte llevar por esa calidez sonora que solo el vinilo puede ofrecer. Cada disco en mi colección cuenta una historia, no solo musical, sino también personal.
+
 ## El Internet indie (no solo me gusta la música y pelis indies)
 
 Estoy orgulloso de ser parte del Internet independiente y descentralizado 🌐. Este es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, del *look & feel*, del contenido, de los *features* y básicamente todo. Mi tirada es no estar a expensas de ninguna compañía como Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok.

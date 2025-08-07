@@ -7,6 +7,39 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.55.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.54.0...v2.55.0) - 2025-08-06
+
+- Archivar /now de julio, 2025 [`cb0b8f8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cb0b8f877666c59959d47308f529b317390eb0cc)
+- Agregar categorías a los canales de YouTube y agregar más canales [`29236c5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/29236c5e9a36d3cc712a1251d286998c2a89cd7e)
+- Reordenar categorías de los canales de YouTube [`96a5a44`](https://github.com/luiscarlospando/luiscarlospando.com/commit/96a5a4416334aa81eb547667fd6eff329fa9ffcc)
+- Agregar mis canales de YouTube favoritos [`8e97598`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8e975982edcfb2192ac3d0c0eefde15d8d9195fd)
+- Cambios varios [`cd11d60`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cd11d607c2753318e76995f5e03528c42cb0a64b)
+- Actualizar CHANGELOG [`1835e02`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1835e02eb97a62f75c0767ae7cd08eee0b05744f)
+- Agregar el sitio de Robb Knight (¿por qué se me había pasado agregarlo? IDK) y quitar atributos rel=me [`4ec45d9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4ec45d9cbff732b2190d0ae9e8f696a2c3f4acac)
+- Agregar categorías a los canales de YouTube y agregar más canales [`2f2d0dd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2f2d0dd9faf43699fcd8d9e514c4c0517d6e6527)
+- Deshacer glow a cards [`c3596c2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c3596c28ab3ebef3fb033d8af5c2b7503a8da92b)
+- Agregar glow a cards [`34be1b1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/34be1b162feb662fcdc94e189bc2b97ed07deb5f)
+- Agregar categorías a los canales de YouTube y agregar más canales [`e4b124b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e4b124b37e50cd8ae54984653a1af242999df1af)
+- Agregar link a /newsletter [`f463ce3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f463ce38a864f4a2f3b58f60efdcb1bb74f4b9a3)
+- Actualizar CV [`cac5012`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cac50129055462314c164f4189e96b54bc2e9580)
+- Cambios varios [`0b7d35a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0b7d35a0f02d6ba18d011eb8b732c219367d466c)
+- Actualizar color de los hashtags [`6ba2773`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6ba2773826cc21f9112c26379c99c71483f65004)
+- Actualizar color de los hashtags [`61ab14b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/61ab14b37951d7c3421795fee6b80e2961adfa31)
+- Cambiar palabra implementado por desplegado [`6bced4d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6bced4df40182bb19e2e8ea488be05f532adbb99)
+- Actualizar nombre de la columna de canales de la tabla de YouTube [`1d14ef7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1d14ef740a143b71ee4e48cfedf52bce5d7a0572)
+- Agregar mis canales de YouTube favoritos [`cdab566`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cdab56605adfbd1f0bbc183e709a2bb91402559d)
+- Corregir tabla Espiritual [`e451206`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e45120669cd912c14d3f63a2e4b8444ab38fc6b8)
+- Agregar glow a cards [`99f4932`](https://github.com/luiscarlospando/luiscarlospando.com/commit/99f4932a42264964c39287d8cc00034fb27a4b56)
+- Deploy v2.55.0 [`acd3b82`](https://github.com/luiscarlospando/luiscarlospando.com/commit/acd3b82555e23e2f2168bf2abdea90d6676b4a33)
+- Actualizar descripción [`433953e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/433953e0aa4c3feb1b06947c8a0a734b6e771b41)
+- Corregir descripción [`79932cd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/79932cd954c7eadae11b087edd1e5ecf2c86aea9)
+- Actualizar CV [`aded529`](https://github.com/luiscarlospando/luiscarlospando.com/commit/aded529328ff01c2c615012e33594ae6bbda92d6)
+- Actualizar descripción [`d0d171f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d0d171ffae1b262cf86ee1e33827fadaa9fd3296)
+- Agregar al tremendo Magiobus [`d05ad93`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d05ad935cfc0807c7284d4ce5bee2bd6c13e6d57)
+- Agregar blog de Yordi Verkroost [`a1d57f5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a1d57f5646e7f826138bb5b5329136d09f29c1ef)
+- Actualizar CV [`dab7bfa`](https://github.com/luiscarlospando/luiscarlospando.com/commit/dab7bfa971c5b9b754f15a66fcc281245dce437f)
+- Actualizar CV [`60018c4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/60018c42cde57868118daafc51de40e1a3eec61c)
+
 ## [`v2.54.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.53.0...v2.54.0) - 2025-08-01
 
 - Agregar botón Blogroll [`55edc65`](https://github.com/luiscarlospando/luiscarlospando.com/commit/55edc65ffac8b483fb7937b293c20a07089a7c66)

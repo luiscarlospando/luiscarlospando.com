@@ -45,6 +45,8 @@ Me gusta disfrutar una buena cerveza 🍺 mientras escucho música o trabajo en 
 
 También toco guitarra cuando necesito desconectarme del mundo digital. Como todo lo que hago, lo aprendí por mi cuenta, y aunque no soy un virtuoso, me sirve como válvula de escape y forma de expresión.
 
+Me encanta pasar tiempo con amigos 👥 y conocer gente nueva, esas conversaciones espontáneas que pueden durar horas y donde aprendes cosas que jamás habías considerado. Cuando las circunstancias lo permiten, disfruto mucho viajar y conocer lugares nuevos ✈️. No necesito destinos exóticos; a veces los mejores momentos surgen explorando un pueblo cercano o redescubriendo rincones de mi propia ciudad que había pasado por alto.
+
 ## El Internet indie (no solo me gusta la música y pelis indies)
 
 Estoy orgulloso de ser parte del Internet independiente y descentralizado 🌐. Este es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, del *look & feel*, del contenido, de los *features* y básicamente todo. Mi tirada es no estar a expensas de ninguna compañía como Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok.

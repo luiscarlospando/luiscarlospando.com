@@ -69,7 +69,7 @@ Al final del día, solo soy un vato de Chihuahua que ama hacer cosas para el Int
 
 Aquí está el [archivo completo][2] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][3]).
 
-*Disclaimer: Los links de DigitalOcean, Instatus y omg.lol son links de referidos.*
+*Disclaimer: Los links de DigitalOcean, Instatus, omg.lol y Buttondown son links de afiliación.*
 
 ## Colofón
 

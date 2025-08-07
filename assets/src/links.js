@@ -160,10 +160,11 @@ function renderBookmarks(items) {
         ${item.title}
         <i class="fa-solid fa-arrow-up-right-from-square"></i>
       </a>
-      <span style="color: #666; font-size: 0.9em;"> vía </span>
-      <a href="${rootDomainURL}" target="_blank" rel="noopener noreferrer" style="color: #666; font-size: 0.9em; text-decoration: none;">
-        ${domain}
-      </a>
+      <small class="text-muted"> vía
+        <a href="${rootDomainURL}" target="_blank" rel="noopener noreferrer" class="text-muted">
+          ${domain}
+        </a>
+      </small>
     </li>`;
     })
     .join("");
@@ -199,10 +200,11 @@ function renderPaginatedLinks() {
         ${item.title}
         <i class="fa-solid fa-arrow-up-right-from-square"></i>
       </a>
-      <span style="color: #666; font-size: 0.9em;"> vía </span>
-      <a href="${rootDomainURL}" target="_blank" rel="noopener noreferrer" style="color: #666; font-size: 0.9em; text-decoration: none;">
-        ${domain}
-      </a>
+      <small class="text-muted"> vía
+        <a href="${rootDomainURL}" target="_blank" rel="noopener noreferrer" class="text-muted">
+          ${domain}
+        </a>
+      </small>
     </li>`;
     })
     .join("");

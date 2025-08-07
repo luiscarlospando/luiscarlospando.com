@@ -25,13 +25,13 @@ Soy muy autodidacta por naturaleza. Si algo me llama la atención, me obsesiono 
 
 Hay un momento que marcó mi vida para siempre: cuando conocí MTV 2 y Fuse 📺. Literal, mi mundo cambió. De ahí nació mi amor profundo por la música, especialmente el punk, metal y hardcore 🤘. Esos canales me abrieron las puertas a un universo sonoro que no sabía que existía, y desde entonces la música se volvió parte esencial de mi identidad.
 
-Por eso, junto a unos buenos amigos, creamos [Hitz-Musik.net][25]{:target="_blank"} (RIP 🪦). "El Hitz" era más que una página web; era una comunidad real que apoyaba la escena local de Chihuahua. Organizábamos toquines, compartíamos música, y creamos un espacio donde amantes de la música podían conectar con bandas locales. Aunque ya no existe, guardo esos recuerdos con mucho cariño porque representan una época donde el cotorreo y la pasión por la música nos unían.
+Por eso, junto a unos buenos amigos, creamos [Hitz-Musik.net][1]{:target="_blank"} (RIP 🪦). "El Hitz" era más que una página web; era una comunidad real que apoyaba la escena local de Chihuahua. Organizábamos toquines, compartíamos música, y creamos un espacio donde amantes de la música podían conectar con bandas locales. Aunque ya no existe, guardo esos recuerdos con mucho cariño porque representan una época donde el cotorreo y la pasión por la música nos unían.
 
 ## Mis obsesiones favoritas
 
 No puedo hablar de mí sin mencionar mis tres grandes amores en el mundo de las marcas: Apple 🍎, Nintendo 🎮 y Volkswagen 🚗. Cada una representa algo diferente para mí. Apple por su diseño impecable y funcionalidad, Nintendo por haberme acompañado desde la infancia con experiencias de juego inolvidables y Volkswagen por esa ingeniería y minimalismo alemán.
 
-Mi colección de videojuegos de Nintendo es algo de lo que estoy genuinamente orgulloso, y por eso creé la comunidad [Mode 7 🎮][26] en Discord junto a unos amigos. Ahí cotorreamos todo el día sobre nuestros juegos favoritos y cada jueves en la noche [transmitimos][27] nuestro frenético torneo de Mario Kart 🏁. Es un espacio donde todos son bienvenidos (✨ *All are welcome!* ✨).
+Mi colección de videojuegos de Nintendo es algo de lo que estoy genuinamente orgulloso, y por eso creé la comunidad [Mode 7 🎮][2] en Discord junto a unos amigos. Ahí cotorreamos todo el día sobre nuestros juegos favoritos y cada jueves en la noche [transmitimos][3] nuestro frenético torneo de Mario Kart 🏁. Es un espacio donde todos son bienvenidos (✨ *All are welcome!* ✨).
 
 ## El lado más personal
 
@@ -41,7 +41,7 @@ Mi fe es algo muy importante para mí. Soy cristiano y tengo mi confianza puesta
 
 ## Los pequeños placeres
 
-Me gusta disfrutar una buena cerveza 🍺 mientras escucho música o trabajo en algún proyecto. Llevo registrando toda la música que escucho en [Last.fm 🎵][28]{:rel="me" target="_blank"} desde 2005 (*been doin' it since '05 baby!*), y es increíble ver cómo han evolucionado mis gustos a lo largo de los años.
+Me gusta disfrutar una buena cerveza 🍺 mientras escucho música o trabajo en algún proyecto. Llevo registrando toda la música que escucho en [Last.fm 🎵][4]{:rel="me" target="_blank"} desde 2005 (*been doin' it since '05 baby!*), y es increíble ver cómo han evolucionado mis gustos a lo largo de los años.
 
 También toco guitarra cuando necesito desconectarme del mundo digital. Como todo lo que hago, lo aprendí por mi cuenta, y aunque no soy un virtuoso, me sirve como válvula de escape y forma de expresión.
 
@@ -59,7 +59,7 @@ Estudié una carrera que, seamos honestos, no me gustó (Ingeniería en Sistemas
 
 ## El cierre
 
-Gracias por llegar hasta aquí y por tomarte el tiempo de conocerme un poco mejor. Si quieres cotorrear o simplemente saludar, no dudes en firmar mi [guestbook 📖][29] o [buscarme por aquí][30].
+Gracias por llegar hasta aquí y por tomarte el tiempo de conocerme un poco mejor. Si quieres cotorrear o simplemente saludar, no dudes en firmar mi [guestbook 📖][5] o [buscarme por aquí][6].
 
 Al final del día, solo soy un vato de Chihuahua que ama hacer cosas para el Internet y que encuentra en la música, la tecnología y la fe las piezas que dan sentido a su vida.
 
@@ -67,67 +67,65 @@ Al final del día, solo soy un vato de Chihuahua que ama hacer cosas para el Int
 
 ---
 
-Aquí está el [archivo completo][2] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][3]).
+Aquí está el [archivo completo][7] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][8]).
 
 *Disclaimer: Los links de DigitalOcean, Instatus, omg.lol y Buttondown son links de afiliación.*
 
 ## Colofón
 
-- 👨‍💻 Editor de código: [Zed][4]{:target="_blank"}
-- 🤖 Generador del sitio: [Jekyll][5]{:target="_blank"}, desplegado en [Vercel][6]{:target="_blank"} ([<code>site-info</code>][7])
-- 🛠️ Código fuente: [GitHub][8]{:target="_blank"}
-- ✍️ Blog: [WordPress][9]{:target="_blank"}, desplegado en [DigitalOcean][10]{:target="_blank"}
-- 🏠 Dominio: [Cloudflare][11]{:target="_blank"}
-- 🌐 DNS: [Cloudflare][11]{:target="_blank"} también
-- ✅ Monitoreo del sistema: [Instatus][12]{:target="_blank"}
-- 🆎 Fonts: [Bunny.net][13]{:target="_blank"}
+- 👨‍💻 Editor de código: [Zed][9]{:target="_blank"}
+- 🤖 Generador del sitio: [Jekyll][10]{:target="_blank"}, desplegado en [Vercel][11]{:target="_blank"} ([<code>site-info</code>][12])
+- 🛠️ Código fuente: [GitHub][13]{:target="_blank"}
+- ✍️ Blog: [WordPress][14]{:target="_blank"}, desplegado en [DigitalOcean][15]{:target="_blank"}
+- 🏠 Dominio: [Cloudflare][16]{:target="_blank"}
+- 🌐 DNS: [Cloudflare][16]{:target="_blank"} también
+- ✅ Monitoreo del sistema: [Instatus][17]{:target="_blank"}
+- 🆎 Fonts: [Bunny.net][18]{:target="_blank"}
 - 🖼️ Íconos: [Font Awesome][19]{:target="_blank"}
-- 📊 Analytics: [Tinylytics][14]{:target="_blank"}
-- 😉 Misceláneo: [omg.lol][15]{:target="_blank"} para Mastodon y otras cosas muy chidas
-- 💬 Traducción del sitio en tiempo real: [DeepL][20]{:target="_blank"}
-- 📔 Guestbook: [Guestbooks][31]{:target="_blank"}
-- 📫 Newsletter: [Buttondown][32]{:target="_blank"}
+- 📊 Analytics: [Tinylytics][20]{:target="_blank"}
+- 😉 Misceláneo: [omg.lol][21]{:target="_blank"} para Mastodon y otras cosas muy chidas
+- 💬 Traducción del sitio en tiempo real: [DeepL][22]{:target="_blank"}
+- 📔 Guestbook: [Guestbooks][23]{:target="_blank"}
+- 📫 Newsletter: [Buttondown][24]{:target="_blank"}
 
 ## Suscríbete
 
 Suscríbete a mi sitio por:
-- [<i class="fas fa-rss"></i> RSS (Blog)][16]
-- [<i class="fas fa-rss"></i> RSS (Fotos)][24]
-- [<i class="fas fa-rss"></i> RSS (Links)][21]
-- [<i class="fa-brands fa-mastodon"></i> Mastodon][17]{:rel="me" target="_blank"}
+- [<i class="fas fa-rss"></i> RSS (Blog)][25]
+- [<i class="fas fa-rss"></i> RSS (Fotos)][26]
+- [<i class="fas fa-rss"></i> RSS (Links)][27]
+- [<i class="fa-brands fa-mastodon"></i> Mastodon][28]{:rel="me" target="_blank"}
 
 ## Errores en el sitio
 
-Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][18] o [abre un issue en GitHub][23].
+Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][6] o [abre un issue en GitHub][29].
 
-[1]: /
-[2]: https://blog.{{ site.domain }}/author/me/
-[3]: https://blog.{{ site.domain }}
-[4]: https://zed.dev/
-[5]: https://jekyllrb.com/
-[6]: https://vercel.com/
-[7]: https://{{ site.domain }}/jekyll-info.html
-[8]: https://github.com/luiscarlospando/luiscarlospando.com
-[9]: https://wordpress.org/
-[10]: https://m.do.co/c/03bd95f889e7
-[11]: https://cloudflare.com/
-[12]: https://instatus.com?via=luis-carlos-pando
-[13]: https://fonts.bunny.net/
-[14]: https://tinylytics.app/
-[15]: https://home.omg.lol/referred-by/mijo
-[16]: https://blog.{{ site.domain }}/rss/
-[17]: https://hachyderm.io/@{{ site.mastodon_feed }}
-[18]: /contacto/
+[1]: https://hitz-musik.net/
+[2]: /discord/
+[3]: /live/
+[4]: https://last.fm/user/{{ site.lastfm_username }}
+[5]: /guestbook/
+[6]: /contacto/
+[7]: https://blog.{{ site.domain }}/author/me/
+[8]: https://blog.{{ site.domain }}
+[9]: https://zed.dev/
+[10]: https://jekyllrb.com/
+[11]: https://vercel.com/
+[12]: https://{{ site.domain }}/jekyll-info.html
+[13]: https://github.com/luiscarlospando/{{ site.domain }}
+[14]: https://wordpress.org/
+[15]: https://m.do.co/c/03bd95f889e7
+[16]: https://cloudflare.com/
+[17]: https://instatus.com?via=luis-carlos-pando
+[18]: https://fonts.bunny.net/
 [19]: https://fontawesome.com/
-[20]: https://www.deepl.com/en/translator
-[21]: https://bg.raindrop.io/rss/public/50598757
-[23]: https://github.com/luiscarlospando/luiscarlospando.com/issues/new
-[24]: https://blog.luiscarlospando.com/photos/rss
-[25]: https://hitz-musik.net/
-[26]: /discord/
-[27]: /live/
-[28]: https://last.fm/user/{{ site.lastfm_username }}
-[29]: /guestbook/
-[30]: /contacto/
-[31]: https://guestbooks.meadow.cafe/
-[32]: https://buttondown.com/refer/luiscarlospando
+[20]: https://tinylytics.app/
+[21]: https://home.omg.lol/referred-by/mijo
+[22]: https://www.deepl.com/en/translator
+[23]: https://guestbooks.meadow.cafe/
+[24]: https://buttondown.com/refer/luiscarlospando
+[25]: https://blog.{{ site.domain }}/rss/
+[26]: https://blog.{{ site.domain }}/photos/rss
+[27]: https://bg.raindrop.io/rss/public/50598757
+[28]: https://hachyderm.io/@{{ site.mastodon_feed }}
+[29]: https://github.com/luiscarlospando/{{ site.domain }}/issues/new

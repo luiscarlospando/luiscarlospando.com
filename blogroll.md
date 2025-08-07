@@ -29,7 +29,7 @@ permalink: /blogroll/
 | Dave Rupert        | [daverupert.com](https://daverupert.com/){:target="_blank"}   |
 | Frills             | [frills.dev](https://frills.dev/){:target="_blank"}           |
 | James' Coffee Blog | [jamesg.blog](https://jamesg.blog/){:target="_blank"}         |
-| Jarrod Blundy      | [heydingus.net](https://heydingus.net/){:target="_blank"}         |
+| Jarrod Blundy      | [heydingus.net](https://heydingus.net/){:target="_blank"}     |
 | Jason White        | [jasonwhite.us](https://jasonwhite.us/){:target="_blank"}     |
 | Jose Munoz         | [josemunozmatos.com](https://www.josemunozmatos.com/){:target="_blank"} |
 | LMNT               | [lmnt.me](https://lmnt.me/){:target="_blank"}                 |

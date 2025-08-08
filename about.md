@@ -41,7 +41,7 @@ Mi fe es algo muy importante para mí. Soy cristiano y tengo mi confianza puesta
 
 ## Los pequeños placeres
 
-Me gusta disfrutar una buena cerveza 🍺 mientras escucho música o trabajo en algún proyecto. Llevo registrando toda la música que escucho en [Last.fm 🎵][4]{:rel="me" target="_blank"} desde 2005 (*been doin' it since '05 baby!*), y es increíble ver cómo han evolucionado mis gustos a lo largo de los años.
+Me gusta disfrutar una buena cerveza 🍺 mientras escucho música o trabajo en algún proyecto. Llevo registrando toda la música que escucho en [Last.fm 🎵][4]{:rel="me" target="_blank"} desde 2005 y siempre me sorprende ver cómo han evolucionado mis gustos a lo largo de los años.
 
 También toco guitarra cuando necesito desconectarme del mundo digital. Como todo lo que hago, lo aprendí por mi cuenta, y aunque no soy un virtuoso, me sirve como válvula de escape y forma de expresión.
 

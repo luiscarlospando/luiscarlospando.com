@@ -25,6 +25,7 @@ permalink: /blogroll/
 | Adam Newbold       | [notes.neatnik.net](https://notes.neatnik.net/){:target="_blank"} |
 | Ashur Cabrera      | [multiline.co/mment](https://multiline.co/mment){:target="_blank"} |
 | Andy Bell          | [bell.bz](https://bell.bz/){:target="_blank"}                 |
+| Binary Digit       | [binarydigit.city](https://binarydigit.city/){:target="_blank"} |
 | Cory Dransfeldt    | [coryd.dev](https://www.coryd.dev/){:target="_blank"}         |
 | Dave Rupert        | [daverupert.com](https://daverupert.com/){:target="_blank"}   |
 | Frills             | [frills.dev](https://frills.dev/){:target="_blank"}           |

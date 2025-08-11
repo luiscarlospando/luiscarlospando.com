@@ -8,7 +8,7 @@ permalink: /blogroll/
 
 <p class="text-center">{{ page.description }}</p>
 
-## Amigos (en la vida real)
+## <i class="fa-solid fa-users"></i> Amigos (en la vida real)
 
 | Nombre               | URL                                                                 |
 |----------------------|----------------------------------------------------------------------|
@@ -18,7 +18,9 @@ permalink: /blogroll/
 | MexicanSkynet        | [mexicanskynet.com](https://mexicanskynet.com){:target="_blank"} |
 | Shinobipunk          | [shinobipunk.com](https://shinobipunk.com/){:target="_blank"} |
 
-## Sitios personales
+---
+
+## <i class="fa-solid fa-user"></i> Sitios personales
 
 | Nombre             | URL                                                                    |
 |--------------------|-------------------------------------------------------------------------|
@@ -40,7 +42,23 @@ permalink: /blogroll/
 | Yordi Verkroost    | [yordi.me](https://yordi.me/){:target="_blank"}               |
 | Zachary Kai        | [zacharykai.net](https://zacharykai.net/){:target="_blank"}   |
 
-## Canales de YouTube favoritos
+---
+
+## <i class="fa-solid fa-radio"></i> Noticias/Podcasts
+
+| Nombre               | URL                                                                 |
+|----------------------|----------------------------------------------------------------------|
+| 404 Media            | [404media.co](https://www.404media.co/){:target="_blank"} |
+| Comfort Zone         | [www.macstories.net/comfort-zone](https://www.macstories.net/comfort-zone/){:target="_blank"} |
+| MacStories           | [macstories.net](https://www.macstories.net/){:target="_blank"} |
+| Metal Injection      | [metalinjection.net](https://metalinjection.net/){:target="_blank"} |
+| Polygon              | [polygon.com](https://www.polygon.com/){:target="_blank"} |
+| Retronauts   | [retronauts.com](https://retronauts.com/){:target="_blank"} |
+| The First Ever Podcast | [the-first-ever-podcast.libsyn.com](https://the-first-ever-podcast.libsyn.com/){:target="_blank"} |
+
+---
+
+## <i class="fa-brands fa-youtube"></i> Canales de YouTube favoritos
 
 ### 🎨 Arte y creatividad
 

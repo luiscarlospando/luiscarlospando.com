@@ -49,7 +49,7 @@ permalink: /blogroll/
 | Nombre               | URL                                                                 |
 |----------------------|----------------------------------------------------------------------|
 | 404 Media            | [404media.co](https://www.404media.co/){:target="_blank"} |
-| Comfort Zone         | [www.macstories.net/comfort-zone](https://www.macstories.net/comfort-zone/){:target="_blank"} |
+| Comfort Zone         | [macstories.net/comfort-zone](https://www.macstories.net/comfort-zone/){:target="_blank"} |
 | MacStories           | [macstories.net](https://www.macstories.net/){:target="_blank"} |
 | Metal Injection      | [metalinjection.net](https://metalinjection.net/){:target="_blank"} |
 | Polygon              | [polygon.com](https://www.polygon.com/){:target="_blank"} |

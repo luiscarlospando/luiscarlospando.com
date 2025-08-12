@@ -51,11 +51,15 @@ Otro de mis hobbies favoritos es coleccionar vinilos 📀 (odio que no haya toda
 
 <h2 id="indie-web">El IndieWeb (porque no solamente me gusta la música y películas indies)</h2>
 
-Estoy orgulloso de ser parte del Internet independiente y descentralizado 🌐. Este es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, del *look & feel*, del contenido, de los *features* y básicamente todo. Mi tirada es no estar a expensas de ninguna compañía como Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok.
+Estoy orgulloso de ser parte del Internet independiente y descentralizado 🌐. Este es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, desde el *look & feel*, el layout, colores, del contenido, de los *features*, de las reglas y todo, todo, todo. Al tener mi propio sitio web no dependo de ninguna empresa como lo son Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok (que son las más grandes plataformas de la web). Todos sabemos que el futuro de esas plataformas es incierto (y ya hemos sido testigos que esas plataformas desaparecen o cambian de dueños/directivos y luego valen sh!t).
 
-Todos sabemos que el futuro de esas plataformas es incierto (y ya hemos sido testigos que esas plataformas desaparecen o cambian de dueño/directores y luego valen sh!t) 📉. Todo esto lo menciono generar consciencia de que ahí no tenemos control real, ni somos propietarios de nuestro contenido y/o cuentas.
+En la web comercial, estamos también sometidos a sus reglas y políticas, si no seguimos sus reglas pueden bloquearnos nuestras cuentas y/o contenido (¿eso no es una real libertdad de expresión, correcto?). Así que yo prefiero no ser parte de ese sistema ni invertir mi tiempo en crear contenido para ellos.
 
-Y bueno, este sitio es un lugar para expresarme libremente, compartir cosas que creo valen la pena, opinar, experimentar, equivocarme, aprender, codear y pasarla chido 💻.
+Todo esto lo menciono generar consciencia de que ahí no tenemos control real, ni somos propietarios de nuestro contenido y/o cuentas (aunque nos hagan creer eso).
+
+En el IndieWeb podemos subir contenido, crear páginas, compartir enlaces, comentar y mucho más, aparte de que la comunidad es súper inclusiva y colaborativa.
+
+La única red social de la que sigo siendo prisionero es Instagram (y en cierta manera, ¿Discord?), pero es porque todos mis amigos están ahí y no puedo aislarme 100% de todo mundo. Eso sí, tampoco es de que soy "influencer", solo un usuario común que quiere compartir su vida con sus compas.
 
 ## El presente
 

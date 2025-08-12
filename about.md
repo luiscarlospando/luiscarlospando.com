@@ -10,7 +10,7 @@ permalink: /acerca-de/
 {{ page.description }}
 
 <div class="text-center">
-<small>🤫 <em>¿Solo quieres conocer los detalles técnicos de mi sitio? Entonces [skippea](#colofon) y ve directo al colofón.</em>/small>
+<small>🤫 <em>¿Solo quieres conocer los detalles técnicos de mi sitio? Entonces [skippea](#colofon) y ve directo al colofón.</em></small>
 </div>
 
 ## El vato detrás de todo esto
@@ -51,9 +51,9 @@ También toco guitarra cuando necesito desconectarme del mundo digital. Como tod
 
 Estoy reaprendiendo a apreciar el tiempo con amigos 👥 y conocer gente nueva (aunque sea introvertido), esas conversaciones espontáneas que pueden durar horas y donde aprendes cosas que jamás habías considerado. Cuando las circunstancias lo permiten, disfruto mucho viajar y conocer lugares nuevos ✈️. No necesito destinos exóticos; a veces los mejores momentos surgen explorando un pueblo cercano o redescubriendo rincones de mi propia ciudad que había pasado por alto.
 
-Otro de mis hobbies favoritos es coleccionar vinilos 📀 (odio que no haya todavía un emoji de discos de vinilo). Este cotorreo lo comencé junto a mi ex-esposa, y aunque nuestros caminos se separaron, siempre le agradeceré haber compartido conmigo esa pasión por el formato físico y la experiencia completa que representa escuchar un disco de vinilo. Hay algo mágico en el ritual de poner el disco, ajustar la aguja y dejarte llevar por esa calidez sonora que solo el vinilo puede ofrecer. Cada disco en mi colección cuenta una historia, no solo musical, sino también personal.
+<span id="indie-web"></span> Otro de mis hobbies favoritos es coleccionar vinilos 📀 (odio que no haya todavía un emoji de discos de vinilo). Este cotorreo lo comencé junto a mi ex-esposa, y aunque nuestros caminos se separaron, siempre le agradeceré haber compartido conmigo esa pasión por el formato físico y la experiencia completa que representa escuchar un disco de vinilo. Hay algo mágico en el ritual de poner el disco, ajustar la aguja y dejarte llevar por esa calidez sonora que solo el vinilo puede ofrecer. Cada disco en mi colección cuenta una historia, no solo musical, sino también personal.
 
-<h2 id="indie-web">El IndieWeb (porque no solamente me gusta la música y películas indies)</h2>
+## El IndieWeb (porque no solamente me gusta la música y películas indies)
 
 Estoy orgulloso de ser parte del [Internet independiente y descentralizado][5]{:target="_blank"} 🌐. Este es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, desde el *look & feel*, el layout, colores, del contenido, de los *features*, de las reglas y todo, todo, todo. Al tener mi propio sitio web no dependo de ninguna empresa como lo son Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok (que son las más grandes plataformas de la web). Todos sabemos que el futuro de esas plataformas es incierto (y ya hemos sido testigos que esas plataformas desaparecen o cambian de dueños/directivos y luego valen sh!t).
 
@@ -81,11 +81,11 @@ Gracias por llegar hasta aquí y por tomarte el tiempo de conocerme un poco mejo
 
 Al final del día, solo soy un vato de Chihuahua que ama hacer cosas para el Internet y que encuentra en la música, la tecnología y la fe las piezas que dan sentido a su vida.
 
-*¡Gracias por visitar mi sitio!* ✨
+<span id="colofon"></span> *¡Gracias por visitar mi sitio!* ✨
 
 ---
 
-<span id="colofon"></span> Aquí está el [archivo completo][8] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][9]).
+Aquí está el [archivo completo][8] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][9]).
 
 *Disclaimer: Los links de DigitalOcean, Instatus, omg.lol y Buttondown son links de afiliación.*
 

@@ -49,7 +49,7 @@ Estoy reaprendiendo a apreciar el tiempo con amigos 👥 y conocer gente nueva (
 
 Otro de mis hobbies favoritos es coleccionar vinilos 📀 (odio que no haya todavía un emoji de discos de vinilo). Este cotorreo lo comencé junto a mi ex-esposa, y aunque nuestros caminos se separaron, siempre le agradeceré haber compartido conmigo esa pasión por el formato físico y la experiencia completa que representa escuchar un disco de vinilo. Hay algo mágico en el ritual de poner el disco, ajustar la aguja y dejarte llevar por esa calidez sonora que solo el vinilo puede ofrecer. Cada disco en mi colección cuenta una historia, no solo musical, sino también personal.
 
-## El Internet indie (no solo me gusta la música y pelis indies)
+<h2 id="indie-web">El IndieWeb (porque no solamente me gusta la música y películas indies)</h2>
 
 Estoy orgulloso de ser parte del Internet independiente y descentralizado 🌐. Este es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, del *look & feel*, del contenido, de los *features* y básicamente todo. Mi tirada es no estar a expensas de ninguna compañía como Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok.
 

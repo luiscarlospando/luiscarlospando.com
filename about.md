@@ -9,6 +9,10 @@ permalink: /acerca-de/
 
 {{ page.description }}
 
+<div class="text-center">
+<small>🤫 <em>¿Solo quieres conocer los detalles técnicos de mi sitio? Entonces [skippea](#colofon) y ve directo al colofón.</em>/small>
+</div>
+
 ## El vato detrás de todo esto
 
 Hola otra vez 👋. Si llegaste hasta acá es porque quieres conocer un poco más de mí, y la neta me da mucho gusto que te hayas tomado el tiempo.
@@ -81,7 +85,7 @@ Al final del día, solo soy un vato de Chihuahua que ama hacer cosas para el Int
 
 ---
 
-Aquí está el [archivo completo][8] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][9]).
+<span id="colofon"></span> Aquí está el [archivo completo][8] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][9]).
 
 *Disclaimer: Los links de DigitalOcean, Instatus, omg.lol y Buttondown son links de afiliación.*
 

@@ -51,9 +51,9 @@ Otro de mis hobbies favoritos es coleccionar vinilos 📀 (odio que no haya toda
 
 <h2 id="indie-web">El IndieWeb (porque no solamente me gusta la música y películas indies)</h2>
 
-Estoy orgulloso de ser parte del Internet independiente y descentralizado 🌐. Este es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, desde el *look & feel*, el layout, colores, del contenido, de los *features*, de las reglas y todo, todo, todo. Al tener mi propio sitio web no dependo de ninguna empresa como lo son Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok (que son las más grandes plataformas de la web). Todos sabemos que el futuro de esas plataformas es incierto (y ya hemos sido testigos que esas plataformas desaparecen o cambian de dueños/directivos y luego valen sh!t).
+Estoy orgulloso de ser parte del [Internet independiente y descentralizado][5]{:target="_blank"} 🌐. Este es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, desde el *look & feel*, el layout, colores, del contenido, de los *features*, de las reglas y todo, todo, todo. Al tener mi propio sitio web no dependo de ninguna empresa como lo son Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok (que son las más grandes plataformas de la web). Todos sabemos que el futuro de esas plataformas es incierto (y ya hemos sido testigos que esas plataformas desaparecen o cambian de dueños/directivos y luego valen sh!t).
 
-En la web comercial, estamos también sometidos a sus reglas y políticas, si no seguimos sus reglas pueden bloquearnos nuestras cuentas y/o contenido (¿eso no es una real libertdad de expresión, correcto?). Así que yo prefiero no ser parte de ese sistema ni invertir mi tiempo en crear contenido para ellos.
+En la web comercial, estamos también sometidos a sus reglas y políticas, si no seguimos sus reglas pueden bloquearnos nuestras cuentas y/o contenido (¿eso no es una real libertad de expresión, correcto?). Así que yo prefiero no ser parte de ese sistema ni invertir mi tiempo en crear contenido para ellos.
 
 Todo esto lo menciono generar consciencia de que ahí no tenemos control real, ni somos propietarios de nuestro contenido y/o cuentas (aunque nos hagan creer eso).
 
@@ -67,7 +67,7 @@ Estudié una carrera que, seamos honestos, no me gustó (Ingeniería en Sistemas
 
 ## El cierre
 
-Gracias por llegar hasta aquí y por tomarte el tiempo de conocerme un poco mejor. Si quieres cotorrear o simplemente saludar, no dudes en firmar mi [guestbook 📖][5] o [buscarme por aquí][6].
+Gracias por llegar hasta aquí y por tomarte el tiempo de conocerme un poco mejor. Si quieres cotorrear o simplemente saludar, no dudes en firmar mi [guestbook 📖][6] o [buscarme por aquí][7].
 
 Al final del día, solo soy un vato de Chihuahua que ama hacer cosas para el Internet y que encuentra en la música, la tecnología y la fe las piezas que dan sentido a su vida.
 
@@ -75,67 +75,68 @@ Al final del día, solo soy un vato de Chihuahua que ama hacer cosas para el Int
 
 ---
 
-Aquí está el [archivo completo][7] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][8]).
+Aquí está el [archivo completo][8] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][9]).
 
 *Disclaimer: Los links de DigitalOcean, Instatus, omg.lol y Buttondown son links de afiliación.*
 
 ## Colofón
 
-- 👨‍💻 Editor de código: [Zed][9]{:target="_blank"}
-- 🤖 Generador del sitio: [Jekyll][10]{:target="_blank"}, desplegado en [Vercel][11]{:target="_blank"} ([<code>site-info</code>][12])
-- 🛠️ Código fuente: [GitHub][13]{:target="_blank"}
-- ✍️ Blog: [WordPress][14]{:target="_blank"}, desplegado en [DigitalOcean][15]{:target="_blank"}
-- 🏠 Dominio: [Cloudflare][16]{:target="_blank"}
-- 🌐 DNS: [Cloudflare][16]{:target="_blank"} también
-- ✅ Monitoreo del sistema: [Instatus][17]{:target="_blank"}
-- 🆎 Fonts: [Bunny.net][18]{:target="_blank"}
-- 🖼️ Íconos: [Font Awesome][19]{:target="_blank"}
-- 📊 Analytics: [Tinylytics][20]{:target="_blank"}
-- 😉 Misceláneo: [omg.lol][21]{:target="_blank"} para Mastodon y otras cosas muy chidas
-- 💬 Traducción del sitio en tiempo real: [DeepL][22]{:target="_blank"}
-- 📔 Guestbook: [Guestbooks][23]{:target="_blank"}
-- 📫 Newsletter: [Buttondown][24]{:target="_blank"}
+- 👨‍💻 Editor de código: [Zed][10]{:target="_blank"}
+- 🤖 Generador del sitio: [Jekyll][11]{:target="_blank"}, desplegado en [Vercel][12]{:target="_blank"} ([<code>site-info</code>][13])
+- 🛠️ Código fuente: [GitHub][14]{:target="_blank"}
+- ✍️ Blog: [WordPress][15]{:target="_blank"}, desplegado en [DigitalOcean][16]{:target="_blank"}
+- 🏠 Dominio: [Cloudflare][17]{:target="_blank"}
+- 🌐 DNS: [Cloudflare][17]{:target="_blank"} también
+- ✅ Monitoreo del sistema: [Instatus][18]{:target="_blank"}
+- 🆎 Fonts: [Bunny.net][19]{:target="_blank"}
+- 🖼️ Íconos: [Font Awesome][20]{:target="_blank"}
+- 📊 Analytics: [Tinylytics][21]{:target="_blank"}
+- 😉 Misceláneo: [omg.lol][22]{:target="_blank"} para Mastodon y otras cosas muy chidas
+- 💬 Traducción del sitio en tiempo real: [DeepL][23]{:target="_blank"}
+- 📔 Guestbook: [Guestbooks][24]{:target="_blank"}
+- 📫 Newsletter: [Buttondown][25]{:target="_blank"}
 
 ## Suscríbete
 
 Suscríbete a mi sitio por:
-- [<i class="fas fa-rss"></i> RSS (Blog)][25]
-- [<i class="fas fa-rss"></i> RSS (Fotos)][26]
-- [<i class="fas fa-rss"></i> RSS (Links)][27]
-- [<i class="fa-brands fa-mastodon"></i> Mastodon][28]{:rel="me" target="_blank"}
+- [<i class="fas fa-rss"></i> RSS (Blog)][26]
+- [<i class="fas fa-rss"></i> RSS (Fotos)][27]
+- [<i class="fas fa-rss"></i> RSS (Links)][28]
+- [<i class="fa-brands fa-mastodon"></i> Mastodon][29]{:rel="me" target="_blank"}
 - [<i class="fa-solid fa-envelope"></i> Newsletter][30] <span class="badge badge-success">Nuevo</span>
 
 ## Errores en el sitio
 
-Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][6] o [abre un issue en GitHub][29].
+Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][7] o [abre un issue en GitHub][31].
 
 [1]: https://hitz-musik.net/
 [2]: /discord/
 [3]: /live/
 [4]: https://last.fm/user/{{ site.lastfm_username }}
-[5]: /guestbook/
-[6]: /contacto/
-[7]: https://blog.{{ site.domain }}/author/me/
-[8]: https://blog.{{ site.domain }}
-[9]: https://zed.dev/
-[10]: https://jekyllrb.com/
-[11]: https://vercel.com/
-[12]: https://{{ site.domain }}/jekyll-info.html
-[13]: https://github.com/luiscarlospando/{{ site.domain }}
-[14]: https://wordpress.org/
-[15]: https://m.do.co/c/03bd95f889e7
-[16]: https://cloudflare.com/
-[17]: https://instatus.com?via=luis-carlos-pando
-[18]: https://fonts.bunny.net/
-[19]: https://fontawesome.com/
-[20]: https://tinylytics.app/
-[21]: https://home.omg.lol/referred-by/mijo
-[22]: https://www.deepl.com/en/translator
-[23]: https://guestbooks.meadow.cafe/
-[24]: https://buttondown.com/refer/luiscarlospando
-[25]: https://blog.{{ site.domain }}/rss/
-[26]: https://blog.{{ site.domain }}/photos/rss
-[27]: https://bg.raindrop.io/rss/public/50598757
-[28]: https://hachyderm.io/@{{ site.mastodon_feed }}
-[29]: https://github.com/luiscarlospando/{{ site.domain }}/issues/new
+[5]: https://indieweb.org/
+[6]: /guestbook/
+[7]: /contacto/
+[8]: https://blog.{{ site.domain }}/author/me/
+[9]: https://blog.{{ site.domain }}
+[10]: https://zed.dev/
+[11]: https://jekyllrb.com/
+[12]: https://vercel.com/
+[13]: https://{{ site.domain }}/jekyll-info.html
+[14]: https://github.com/{{ site.github_username}}/{{ site.domain }}
+[15]: https://wordpress.org/
+[16]: https://m.do.co/c/03bd95f889e7
+[17]: https://cloudflare.com/
+[18]: https://instatus.com?via=luis-carlos-pando
+[19]: https://fonts.bunny.net/
+[20]: https://fontawesome.com/
+[21]: https://tinylytics.app/
+[22]: https://home.omg.lol/referred-by/mijo
+[23]: https://www.deepl.com/en/translator
+[24]: https://guestbooks.meadow.cafe/
+[25]: https://buttondown.com/refer/luiscarlospando
+[26]: https://blog.{{ site.domain }}/rss/
+[27]: https://blog.{{ site.domain }}/photos/rss
+[28]: https://bg.raindrop.io/rss/public/50598757
+[29]: https://hachyderm.io/@{{ site.mastodon_feed }}
 [30]: /newsletter/
+[31]: https://github.com/{{ site.github_username}}/{{ site.domain }}/issues/new

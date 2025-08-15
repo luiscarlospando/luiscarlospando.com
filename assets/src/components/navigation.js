@@ -192,9 +192,9 @@ function Navigation() {
     },
     {
       id: "15",
-      url: "https://luiscarlospando.com/rss/",
+      url: "https://luiscarlospando.com/suscribete/",
       icon: "fa-solid fa-square-rss",
-      text: "RSS",
+      text: "Suscríbete",
       subButtons: [
         {
           id: "15-1",
@@ -213,6 +213,18 @@ function Navigation() {
           url: "https://bg.raindrop.io/rss/public/50598757",
           icon: "fa-solid fa-square-rss",
           text: "Links",
+        },
+        {
+          id: "15-4",
+          url: "https://hachyderm.io/@luiscarlospando",
+          icon: "fa-brands fa-mastodon",
+          text: "Mastodon",
+        },
+        {
+          id: "15-5",
+          url: "https://luiscarlospando.com/newsletter/",
+          icon: "fa-solid fa-envelope",
+          text: "Newsletter",
         },
       ],
     },

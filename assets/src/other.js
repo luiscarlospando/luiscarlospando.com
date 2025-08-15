@@ -404,4 +404,7 @@ import { initStatusManager } from "./statuslog.js";
       return options[Math.floor(Math.random() * options.length)];
     }
   });
+
+  // Manually initialize tooltip on #stuff-i-like element (this is required)
+  $("#stuff-i-like").tooltip();
 })();

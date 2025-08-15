@@ -1,4 +1,4 @@
-// Modals
+// General modal
 document.addEventListener("DOMContentLoaded", function () {
   const modalTriggers = document.querySelectorAll('[data-toggle="modal"]');
 
@@ -22,5 +22,26 @@ document.addEventListener("DOMContentLoaded", function () {
         modalImg.setAttribute("src", imgSrc);
       }
     });
+  });
+});
+
+// #stuff-i-like modal
+document.addEventListener("DOMContentLoaded", function () {
+  // Button that opens up the modal
+  const stuffILikeBtn = document.getElementById("stuff-i-like");
+
+  stuffILikeBtn.addEventListener("click", function () {
+    const modalBody = document.querySelector("#modal .modal-body");
+
+    // Clear previous content
+    modalBody.innerHTML = "";
+
+    // Creating the Shoutouts widget
+    const script = document.createElement("script");
+    script.src = "https://shoutouts.page/embed/TiXVUqxaKaDqToHwFjQU.js";
+    script.defer = true;
+
+    // Insert the Shoututs script tag
+    modalBody.appendChild(script);
   });
 });

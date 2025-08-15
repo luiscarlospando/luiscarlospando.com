@@ -120,6 +120,12 @@ footer {
     }
 }
 
+#stuff-i-like {
+    position: fixed;
+    bottom: 12px;
+    left: 15px;
+}
+
 .cd-top {
     background-color: rgba(13, 14, 51, 0.7) !important;
     @include backdrop-filter(50%, 4px);

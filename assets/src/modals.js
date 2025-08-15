@@ -36,12 +36,18 @@ document.addEventListener("DOMContentLoaded", function () {
     // Clear previous content
     modalBody.innerHTML = "";
 
+    // Add description text
+    const description = document.createElement("p");
+    description.textContent =
+      "Este widget muestra cosas que me gustan, que recomiendo, pueden ser productos, marcas, servicios, cosas random en Internet, etc. Cierra este modal y vuélvelo a abrir para que aparezca una recomendación diferente.";
+    modalBody.appendChild(description);
+
     // Creating the Shoutouts widget
     const script = document.createElement("script");
     script.src = "https://shoutouts.page/embed/TiXVUqxaKaDqToHwFjQU.js";
     script.defer = true;
 
-    // Insert the Shoututs script tag
+    // Insert the Shoutouts script tag
     modalBody.appendChild(script);
   });
 });

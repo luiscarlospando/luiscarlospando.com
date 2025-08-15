@@ -37,31 +37,25 @@ import { initStatusManager } from "./statuslog.js";
     footer.classList.add("animated", "fadeIn");
 
     // Back to top button
-    const backToTopButton = document.querySelector(".cd-top");
+    function initScrollHandling(nowPlaying, backToTopBtn) {
+      if (!nowPlaying || !backToTopBtn) return;
 
-    // Function to initialize scroll handling once .nowplaying exists
-    function initScrollHandling(nowPlaying) {
-      window.addEventListener("scroll", function () {
+      window.addEventListener("scroll", () => {
         if (window.scrollY > 300) {
-          backToTopButton.classList.add("cd-is-visible");
-
-          if (window.innerWidth >= 1400) {
+          backToTopBtn.classList.add("cd-is-visible");
+          if (window.innerWidth >= 1400)
             nowPlaying.classList.add("nowplaying-scrolled");
-          }
         } else {
-          backToTopButton.classList.remove("cd-is-visible");
+          backToTopBtn.classList.remove("cd-is-visible");
           nowPlaying.classList.remove("nowplaying-scrolled");
         }
       });
 
-      // Check window resizing
-      window.addEventListener("resize", function () {
+      window.addEventListener("resize", () => {
         if (window.scrollY > 300) {
-          if (window.innerWidth >= 1400) {
+          if (window.innerWidth >= 1400)
             nowPlaying.classList.add("nowplaying-scrolled");
-          } else {
-            nowPlaying.classList.remove("nowplaying-scrolled");
-          }
+          else nowPlaying.classList.remove("nowplaying-scrolled");
         }
       });
     }

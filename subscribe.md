@@ -141,7 +141,7 @@ Esta es una cuenta automatizada con posts de mi sitio.
 <div class="card text-center mb-0">
 <div class="card-header">
 <h4 class="card-title">
-<i class="fa-brands fa-mastodon"></i> Mastodon
+<i class="fa-solid fa-envelope"></i> Newsletter
 </h4>
 </div>
 <div class="card-body">
@@ -154,8 +154,7 @@ Esta es una cuenta automatizada con posts de mi sitio.
 </a>
 </li>
 <li>
-Esta es una cuenta automatizada con posts de mi sitio.
-</li>
+Suscríbete para recibir mi contenido en tu bandeja de entrada una vez al mes.</li>
 </ul>
 </div>
 <div class="col-md-6 my-auto">

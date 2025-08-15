@@ -7,6 +7,53 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.55.2`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.55.1...v2.55.2) - 2025-08-15
+
+- Actualizar métodos de suscripción [`ab0966f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ab0966f6ebfe9fd1c766105e90784ba0810e5a86)
+- Reordenar links [`11e3952`](https://github.com/luiscarlospando/luiscarlospando.com/commit/11e3952a6cd7cb48b784f1ee31a984e1acfd2c69)
+- Agregar nueva sección e íconos a títulos [`2995dfc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2995dfcffdcd603eb578dd90af24a8709ccc51b5)
+- Agregar componente con timestamp de última actualización [`e6660fd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e6660fdaa62ad65dc2d679b4b867d0c3554f7239)
+- Cambiar botón de Privacidad [`cab8ac4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cab8ac43acf5c391203db7f7c36e8438cda4a508)
+- Reposicionar anchors [`d1c51fa`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d1c51faf9403859fe46e88c977a7a084e32fd745)
+- Actualizar párrafos referentes al IndieWeb [`2570f10`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2570f10c53fc46c540023d841ae75650ac7c83f4)
+- Agregar botón para skippear mi Acerca de e ir directo al Colofón [`2e93da5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2e93da57d42595de69e6d38fc6579257178d1053)
+- Agregar plataformas para empezar en el IndieWeb [`0f6f9aa`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0f6f9aa8a235b8c0808fcc5cf9c9a10e7500ad3d)
+- Corregir título y descripción del Newsletter [`0648f88`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0648f881e79d7115993fb46391e0a340ceb9a759)
+- Cambiar botón de Privacidad [`7bce493`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7bce493533e976e00469deccc8e4b41eafb22b2d)
+- Deploy v2.55.2 [`1b7deb7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1b7deb7390770d438d5c7294ddf29510c417ba9a)
+- Cambiar botón de Privacidad [`1c3e854`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1c3e854aaf780499e2670c1524634c956a8ef767)
+- Agregar anchor al subtítulo del IndieWeb [`0691741`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0691741c975338d418b0c7c8b8da92c22a537671)
+- Agregar nueva sección e íconos a títulos [`23d33fb`](https://github.com/luiscarlospando/luiscarlospando.com/commit/23d33fb133bb2ba717d148d9b078b4a8e752676a)
+- Actualizar palabras [`6ff5bf2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6ff5bf2ae50db01d114d057ae8d42b2827593b22)
+- Cambiar palabra [`f354a85`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f354a85b71bd2a630410701972788afb9fc1ccb0)
+- Agregar a Binary Digit [`b26d69e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b26d69eafac07a21ccf533a0eed01b1285654988)
+
+## [`v2.55.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.55.0...v2.55.1) - 2025-08-07
+
+- Actualizar CHANGELOG [`66031f8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/66031f8ff4a3e3983221d286f0ca7bd947bb1277)
+- Reordenar links [`49eec94`](https://github.com/luiscarlospando/luiscarlospando.com/commit/49eec9485517ae44916dc853de096e1c2c1e22b8)
+- Redactar un mejor Acerca de y agregar nuevos elementos al colofón [`9471951`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9471951c0424054cbe5e58a4463f2a6788caf483)
+- Agregar vía [dominio] después de cada link [`1b16513`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1b16513091e6af059e5dd3fd535d45314e07958f)
+- Agregar vía [dominio] después de cada link [`45c9d16`](https://github.com/luiscarlospando/luiscarlospando.com/commit/45c9d168e532ba1c929be699c926332c13c03676)
+- Hacer itálico el texto vía [dominio] [`01f4ec0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/01f4ec043b371dca65193a7f7982122946b873ae)
+- Agregar margen a elementos de lista [`117360c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/117360c1ad162f5eb4ca787d76177928052bb4d1)
+- Agregar link a /guestbook [`e06ecc9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e06ecc92c2d8179f5c8c0e5ee9ca9ca4adadf49f)
+- Agregar blogs [`8daa164`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8daa164c2eba1bc31eae67ac1c7dac8586e0ea3a)
+- Agregar blogs [`caec6a5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/caec6a58863aa3b33d6cfeebccf7b39413cdfe02)
+- Deploy v2.55.1 [`a2c5b41`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a2c5b411180212d3e0bbdae61cf9d7e0642bfdcc)
+- Cambiar palabra [`dacb2a8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/dacb2a83695aa4a1eace78474b2701aaea252563)
+- Agregar párrafo en sección pequeños placeres [`256461d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/256461d8ddcf80af5b2146b98ab8ba1fdff47c01)
+- Agregar párrafo en sección pequeños placeres [`e2d1a29`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e2d1a291ddd4e93f4024af2f4fb913c6c29b2034)
+- Cambiar palabra [`ddb38cf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ddb38cf47ed2db0c7030caeaf3265489e1ad4e8d)
+- Agregar párrafo en sección musical [`de33968`](https://github.com/luiscarlospando/luiscarlospando.com/commit/de33968780b628af395de97c4a2b395555bffa94)
+- Agregar párrafo en sección de pequeños placeres [`5a9b0a6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5a9b0a60bd6053a93099bb3ee1de6363aae7c0c4)
+- Agregar párrafo en sección de pequeños placeres [`7292277`](https://github.com/luiscarlospando/luiscarlospando.com/commit/729227723671c0be220a73edb8d4341e159eff90)
+- Cambiar palabra [`5b3fd11`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5b3fd111a71ced73313cf246b301ebf1367c112d)
+- Quitar referencias a VW [`5e2c3a0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5e2c3a0adc59d8e0ea238278bdfe358d66176b32)
+- Agregar /newsletter como opción de suscripción [`226e98a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/226e98a6c98606f9c32ea180d122f596f776fe2f)
+- Actualizar descripción [`82718d9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/82718d9bd6fcc9d6469015600fc908cc1b72fe7d)
+- Corregir leyenda de los links de afiliación [`6a9cc77`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6a9cc77fdb76af2735aff54c467b36adac04717a)
+
 ## [`v2.55.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.54.0...v2.55.0) - 2025-08-06
 
 - Archivar /now de julio, 2025 [`cb0b8f8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cb0b8f877666c59959d47308f529b317390eb0cc)

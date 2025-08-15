@@ -124,6 +124,13 @@ footer {
     position: fixed;
     bottom: 12px;
     left: 15px;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+
+    &:hover,
+    &:focus {
+        transform: scale(1.2);
+    }
 }
 
 .cd-top {

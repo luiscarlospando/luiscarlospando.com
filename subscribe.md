@@ -7,6 +7,12 @@ permalink: /suscribete/
 last-modified-at: <span id="last-updated-at">2025-08-15 13:30:00</span>
 ---
 
+<div class="card last-updated my-3 text-center">
+<div class="card-body rounded">
+#### <code>Última actualización:</code> {{ page.last-modified-at }}
+</div>
+</div>
+
 <div class="text-center">
 {{ page.description}}
 </div>
@@ -81,11 +87,6 @@ Aquí comparto mis links favoritos.
 </div>
 </div>
 </div>
-<div class="card-footer text-muted">
-<h6>
-<code>Última actualización:</code> {{ page.last-modified-at }}
-</h6>
-</div>
 </div>
 
 </div>
@@ -123,11 +124,6 @@ Esta es una cuenta automatizada con posts de mi sitio.
 </div>
 </div>
 </div>
-<div class="card-footer text-muted">
-<h6>
-<code>Última actualización:</code> {{ page.last-modified-at }}
-</h6>
-</div>
 </div>
 
 </div>
@@ -163,11 +159,6 @@ Suscríbete para recibir mi contenido en tu bandeja de entrada una vez al mes.</
 </a>
 </div>
 </div>
-</div>
-<div class="card-footer text-muted">
-<h6>
-<code>Última actualización:</code> {{ page.last-modified-at }}
-</h6>
 </div>
 </div>
 

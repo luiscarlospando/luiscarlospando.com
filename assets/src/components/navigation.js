@@ -37,7 +37,7 @@ function Navigation() {
         {
           id: "2-4",
           url: "https://blog.luiscarlospando.com/photos/",
-          icon: "fa-solid fa-images",
+          icon: "fa-solid fa-camera",
           text: "Fotos",
         },
         {

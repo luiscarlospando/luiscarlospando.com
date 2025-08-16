@@ -1,26 +1,24 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 
-function BackToTop({
-  className = "btn-primary cd-top",
-  title = "Volver arriba",
-  href = "#0",
-  dataToggle = "tooltip",
-  dataPlacement = "left",
-}) {
+function BackToTop() {
   return (
     <a
-      href={href}
-      className={className}
-      data-toggle={dataToggle}
-      data-placement={dataPlacement}
-      title={title}
+      href="#0"
+      className="btn-primary cd-top"
+      title="Volver arriba"
+      data-toggle="tooltip"
+      data-placement="left"
     >
       <i className="fa-solid fa-chevron-up"></i>
     </a>
   );
 }
 
-const container = document.querySelector("#back-to-top");
-const root = createRoot(container);
-root.render(<BackToTop />);
+document.addEventListener("DOMContentLoaded", () => {
+  const container = document.querySelector("#back-to-top");
+  if (container) {
+    const root = createRoot(container);
+    root.render(<BackToTop />);
+  }
+});

@@ -125,9 +125,7 @@ footer {
     bottom: 17px;
     right: 15px;
     text-decoration: none;
-    transition:
-        right 0.2s ease,
-        transform 0.2s ease;
+    @include transition;
 
     &:hover,
     &:focus {

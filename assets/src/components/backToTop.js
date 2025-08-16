@@ -21,10 +21,6 @@ function BackToTop({
   );
 }
 
-// DOM mounting
 const container = document.querySelector("#back-to-top");
 const root = createRoot(container);
 root.render(<BackToTop />);
-
-// Exporting button reference so other modules can use it
-export const backToTopButton = container.querySelector(".cd-top");

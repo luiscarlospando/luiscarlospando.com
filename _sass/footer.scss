@@ -122,7 +122,7 @@ footer {
 
 #stuff-i-like {
     position: fixed;
-    top: 12px;
+    bottom: 17px;
     right: 15px;
     text-decoration: none;
     transition: transform 0.2s ease;
@@ -131,6 +131,10 @@ footer {
     &:focus {
         transform: scale(1.6);
     }
+}
+
+.stuff-i-like-scrolled {
+    right: 70px;
 }
 
 .cd-top {

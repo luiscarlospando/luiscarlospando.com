@@ -42,11 +42,13 @@ import { initStatusManager } from "./statuslog.js";
         window.scrollTo({ top: 0, behavior: "smooth" });
       });
 
-      // Initialize scroll handling when .nowplaying exists
+      // Initialize scroll handling when .nowplaying or #stuff-i-like exist
       const observer = new MutationObserver(() => {
         const nowPlaying = document.querySelector(".nowplaying");
-        if (nowPlaying) {
-          initScrollHandling(nowPlaying, backToTopButton);
+        const stuffILike = document.querySelector("#stuff-i-like");
+
+        if (nowPlaying || stuffILike) {
+          initScrollHandling(nowPlaying, stuffILike, backToTopButton);
           observer.disconnect();
         }
       });
@@ -54,15 +56,28 @@ import { initStatusManager } from "./statuslog.js";
       observer.observe(document.body, { childList: true, subtree: true });
     }
 
-    function initScrollHandling(nowPlaying, backToTopButton) {
+    function initScrollHandling(nowPlaying, stuffILike, backToTopButton) {
       const handleScrollResize = () => {
         if (window.scrollY > 300) {
           backToTopButton.classList.add("cd-is-visible");
-          if (window.innerWidth >= 1400)
+
+          if (nowPlaying && window.innerWidth >= 1400) {
             nowPlaying.classList.add("nowplaying-scrolled");
+          }
+
+          if (stuffILike) {
+            stuffILike.classList.add("stuff-i-like-scrolled");
+          }
         } else {
           backToTopButton.classList.remove("cd-is-visible");
-          nowPlaying.classList.remove("nowplaying-scrolled");
+
+          if (nowPlaying) {
+            nowPlaying.classList.remove("nowplaying-scrolled");
+          }
+
+          if (stuffILike) {
+            stuffILike.classList.remove("stuff-i-like-scrolled");
+          }
         }
       };
 

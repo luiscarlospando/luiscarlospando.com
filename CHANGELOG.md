@@ -7,6 +7,24 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.56.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.55.2...v2.56.0) - 2025-08-16
+
+- Corregir bug en botón back to top [`19f42b2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/19f42b2d6c6cb094ed8548fb5aa482c1fc3b0eb5)
+- Corregir bug en botón back to top [`c0b5576`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c0b5576c32a60b98dca970bfaf0fcaad01fcf6cb)
+- Implementar botón para implementar widget Shoutouts en modal [`4587cb8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4587cb8a2d21616b26b596c61b63775dfb2170dd)
+- Actualizar CHANGELOG [`3de0fed`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3de0feda1ab4f2a592b420ab42ab9b90feb89eef)
+- Corregir bug en botón back to top [`f8bc7f9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f8bc7f9b98656b8ca973f521c4cc789ab06feb1d)
+- Reposicionar botón de cosas favoritas [`769d8fc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/769d8fcddd54a3ec05fb3b0c3fed34fb5f5f1597)
+- Corregir bug en botón back to top [`c683dac`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c683dac249186eb6cd0a3e590a4ca304f01519fe)
+- Corregir bug en botón back to top [`127ed83`](https://github.com/luiscarlospando/luiscarlospando.com/commit/127ed830c3a79dc2ec2f87b154eabfbe53fc885f)
+- Implementar botón para implementar widget Shoutouts en modal [`914b3dd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/914b3dd8046ee313cc2d60fdb73940db8d07947e)
+- Implementar botón para implementar widget Shoutouts en modal [`2024668`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2024668d136badee3a7b3e7e9b57273bec5311b3)
+- Reposicionar botón de cosas favoritas [`1642a49`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1642a491024a2c71e82a79af32849f0cd96b41ee)
+- Reposicionar botón de cosas favoritas [`69122ab`](https://github.com/luiscarlospando/luiscarlospando.com/commit/69122ab056da4506df85c76ca60a303c34692709)
+- Reposicionar botón de cosas favoritas [`53ac5d9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/53ac5d97814bd08c9b7457fbe6250d5a82b4d613)
+- Deploy v2.56.0 [`08d1901`](https://github.com/luiscarlospando/luiscarlospando.com/commit/08d19019e086dfdf50af605f41bc23f66f507a6d)
+- Actualizar URL del botón RSS [`c47d440`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c47d44029da18f04ace5b503eab4deba51fd2910)
+
 ## [`v2.55.2`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.55.1...v2.55.2) - 2025-08-15
 
 - Actualizar métodos de suscripción [`ab0966f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ab0966f6ebfe9fd1c766105e90784ba0810e5a86)

@@ -15,10 +15,13 @@ function BackToTop() {
   );
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const container = document.querySelector("#back-to-top");
-  if (container) {
-    const root = createRoot(container);
-    root.render(<BackToTop />);
-  }
-});
+console.log("Buscando contenedor #back-to-top...");
+const container = document.querySelector("#back-to-top");
+console.log("Contenedor encontrado:", container);
+
+if (container) {
+  const root = createRoot(container);
+  root.render(<BackToTop />);
+} else {
+  console.warn("No se encontró el contenedor #back-to-top");
+}

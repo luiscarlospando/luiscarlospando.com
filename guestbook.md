@@ -33,7 +33,7 @@ last-modified-at: <span id="last-updated-at">2025-08-06 16:50:00</span>
 <i class="fa-solid fa-file-signature"></i> Guestbook
 </h4>
 </div>
-<div class="card-body">
+<div class="card-body text-center">
 <form id="guestbooks___guestbook-form" action="https://guestbooks.meadow.cafe/guestbook/754/submit" method="post">
 <div class="guestbooks___input-container">
 <input class="form-control mb-3" placeholder="Nombre/Nickname" type="text" id="name" name="name" required>

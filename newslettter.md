@@ -27,7 +27,7 @@ last-modified-at: <span id="last-updated-at">2025-08-06 16:50:00</span>
 <input class="btn btn-primary btn-lg" type="submit" value="Suscríbete" />
 </form>
 <hr>
-<small>💡 Puedes <a href="https://buttondown.com/luiscarlospando/archive/" target="_blank">checar el archivo de newsletters</a> que ya he enviado, para que te dees una idea de lo que recibirás al suscribirte.</small>
+<small>💡 Puedes <a href="https://buttondown.com/luiscarlospando/archive/" target="_blank">checar el archivo de newsletters</a> que ya he enviado, para que te des una idea de lo que recibirás al suscribirte.</small>
 </div>
 </div>
 <div class="text-center">

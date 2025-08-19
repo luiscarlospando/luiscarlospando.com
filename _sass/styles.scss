@@ -162,9 +162,16 @@ pre {
     .modal-dialog {
         .modal-content {
             background-color: transparent;
+            border: none;
 
             .modal-header {
                 border-bottom: none;
+
+                .close {
+                    color: $mainColor;
+                    opacity: 1;
+                    text-shadow: none;
+                }
             }
 
             .modal-body {

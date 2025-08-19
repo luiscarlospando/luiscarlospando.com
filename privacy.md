@@ -4,7 +4,7 @@ title: Política de Privacidad
 description: Me interesa tu privacidad y tu seguridad. Aquí describo lo que se recolecta en mi sitio web.
 image: /assets/images/logo.png
 permalink: /privacidad/
-last-modified-at: <span id="last-updated-at">2025-05-08 16:16:56</span>
+last-modified-at: <span id="last-updated-at">2025-08-19 9:35:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -28,10 +28,10 @@ Esos sitios pueden recopilar datos sobre ti, utilizar cookies, incrustar un segu
 ### Analytics
 Para conocer y analizar el tráfico que recibo en mi sitio, uso [Tinylytics][1]{:target="_blank"}. Tinylytics respeta tu privacidad. Ninguna cookie es almacenada en tu dispositivo y es un servicio que cumple con el [RGPD][2]{:target="_blank"}.
 
-### Links de referidos
-Los links de referidos usados en mi sitio son una manera fácil de apoyarnos mútuamente. Cada servicio que recomiendo en mi sitio es porque lo estoy usando activamente y lo recomiendo genuinamente.
+### Links de afiliación
+Los links de afiliación usados en mi sitio son una manera fácil de apoyarnos mútuamente. Cada servicio que recomiendo en mi sitio es porque lo estoy usando activamente y lo recomiendo genuinamente.
 
-Aparte de que siempre procuraré indicar cuando algún link o botón de mi sitio sea un link de referido.
+Siempre procuraré indicar cuando algún link o botón en mi sitio sea un link de afiliación.
 
 [1]: https://tinylytics.app/
 [2]: https://es.wikipedia.org/wiki/Reglamento_General_de_Protecci%C3%B3n_de_Datos

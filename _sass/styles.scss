@@ -163,6 +163,10 @@ pre {
         .modal-content {
             background-color: transparent;
 
+            .modal-header {
+                border-bottom: none;
+            }
+
             .modal-body {
                 padding: 0;
             }

@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Add description text
     const description = document.createElement("p");
     description.textContent =
-      "Este widget muestra cosas que me gustan, que recomiendo, pueden ser productos, marcas, servicios, cosas random en Internet, etc. Cierra este modal y vuélvelo a abrir para que aparezca una recomendación diferente.";
+      "Este widget muestra cosas que me gustan y que recomiendo. Pueden ser productos, marcas, servicios, cosas random en Internet, etc. Cierra este modal y vuélvelo a abrir para ver una recomendación diferente.";
     modalBody.appendChild(description);
 
     // Creating the Shoutouts widget

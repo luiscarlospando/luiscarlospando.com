@@ -170,4 +170,3 @@ permalink: /blogroll/
 |---------------------|----------------------------------------------------------------------|
 | bald and bankrupt | [@baldandbankrupt](https://www.youtube.com/@baldandbankrupt){:target="_blank"} |
 | Beardbrand | [@Beardbrand](https://www.youtube.com/@Beardbrand){:target="_blank"} |
-| Casa Baviera | [@CasaBaviera](https://www.youtube.com/@CasaBaviera){:target="_blank"} |

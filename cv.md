@@ -38,7 +38,7 @@ Desarrollo web en distintos proyectos para clientes locales. Algunas de las cuen
 - Ponderosa
 - Despacho de arquitectura Ápice
 - DigriaPan
-- Codetec
+- Feria de Santa Rita
 
 ### Frontend Developer
 **Movimiento Digital – Chihuahua, México**

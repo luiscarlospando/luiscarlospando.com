@@ -68,6 +68,7 @@ Sé que la IndieWeb no es para todos y no te voy a juzgar por no estar ahí. Per
 - [omg.lol](https://home.omg.lol/referred-by/mijo)
 - [Bear Blog](https://bearblog.dev/)
 - [Micro.blog](https://micro.blog/)
+- [Neocities](https://neocities.org/)
 
 La única red social de la que sigo siendo prisionero es Instagram (y en cierta manera, ¿Discord?), pero es porque todos mis amigos están ahí y no puedo aislarme 100% de todo mundo. Eso sí, tampoco es de que soy "influencer", solo un usuario común que quiere compartir su vida con sus compas.
 

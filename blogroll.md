@@ -30,6 +30,7 @@ permalink: /blogroll/
 | Binary Digit       | [binarydigit.city](https://binarydigit.city/){:target="_blank"} |
 | Cory Dransfeldt    | [coryd.dev](https://www.coryd.dev/){:target="_blank"}         |
 | Dave Rupert        | [daverupert.com](https://daverupert.com/){:target="_blank"}   |
+| Eva Decker         | [eva.town](https://eva.town/){:target="_blank"}               |
 | Frills             | [frills.dev](https://frills.dev/){:target="_blank"}           |
 | James' Coffee Blog | [jamesg.blog](https://jamesg.blog/){:target="_blank"}         |
 | Jarrod Blundy      | [heydingus.net](https://heydingus.net/){:target="_blank"}     |

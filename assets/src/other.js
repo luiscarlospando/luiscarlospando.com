@@ -42,35 +42,34 @@ import { initStatusManager } from "./statuslog.js";
         window.scrollTo({ top: 0, behavior: "smooth" });
       });
 
-      // Initialize scroll handling when .nowplaying or #stuff-i-like exist
+      // Initialize scroll handling - Don't disconnect the observer
       const observer = new MutationObserver(() => {
-        const nowPlaying = document.querySelector(".nowplaying");
         const stuffILike = document.querySelector("#stuff-i-like");
 
-        if (nowPlaying || stuffILike) {
-          initScrollHandling(nowPlaying, stuffILike, backToTopButton);
-          observer.disconnect();
+        if (stuffILike && !stuffILike.hasScrollHandler) {
+          // Mark it that it has the handler already to avoid duplicates
+          stuffILike.hasScrollHandler = true;
+          initScrollHandling(backToTopButton);
         }
       });
 
       observer.observe(document.body, { childList: true, subtree: true });
     }
 
-    function initScrollHandling(nowPlaying, stuffILike, backToTopButton) {
+    function initScrollHandling(backToTopButton) {
       const handleScrollResize = () => {
         const scrollY = window.scrollY;
         const windowWidth = window.innerWidth;
 
-        // Debug: descomentar estas líneas para verificar valores
-        console.log("Scroll Y:", scrollY, "Window Width:", windowWidth);
-        console.log("nowPlaying element:", nowPlaying);
+        // Search elements on each execution because they're dynamic
+        const nowPlaying = document.querySelector(".nowplaying");
+        const stuffILike = document.querySelector("#stuff-i-like");
 
         if (scrollY > 300) {
           backToTopButton.classList.add("cd-is-visible");
 
-          // Solo añadir la clase en pantallas >= 1400px
+          // Only add .nowplaying-scrolled if element exists and screen is >= 1400px
           if (nowPlaying && windowWidth >= 1400) {
-            console.log("Adding nowplaying-scrolled class"); // Debug
             nowPlaying.classList.add("nowplaying-scrolled");
           }
 
@@ -90,11 +89,17 @@ import { initStatusManager } from "./statuslog.js";
         }
       };
 
-      // Ejecutar inmediatamente para establecer estado inicial
-      handleScrollResize();
+      // Only add listeners once
+      if (!window.hasScrollListeners) {
+        window.addEventListener("scroll", handleScrollResize, {
+          passive: true,
+        });
+        window.addEventListener("resize", handleScrollResize);
+        window.hasScrollListeners = true;
+      }
 
-      window.addEventListener("scroll", handleScrollResize, { passive: true });
-      window.addEventListener("resize", handleScrollResize);
+      // Run immediately after setting initial state
+      handleScrollResize();
     }
 
     waitForBackToTop();

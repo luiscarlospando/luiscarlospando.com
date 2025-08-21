@@ -61,9 +61,9 @@ import { initStatusManager } from "./statuslog.js";
         const scrollY = window.scrollY;
         const windowWidth = window.innerWidth;
 
-        // Debug: descomenta estas líneas para verificar valores
-        // console.log('Scroll Y:', scrollY, 'Window Width:', windowWidth);
-        // console.log('nowPlaying element:', nowPlaying);
+        // Debug: descomentar estas líneas para verificar valores
+        console.log("Scroll Y:", scrollY, "Window Width:", windowWidth);
+        console.log("nowPlaying element:", nowPlaying);
 
         if (scrollY > 300) {
           backToTopButton.classList.add("cd-is-visible");

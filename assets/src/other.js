@@ -58,10 +58,19 @@ import { initStatusManager } from "./statuslog.js";
 
     function initScrollHandling(nowPlaying, stuffILike, backToTopButton) {
       const handleScrollResize = () => {
-        if (window.scrollY > 300) {
+        const scrollY = window.scrollY;
+        const windowWidth = window.innerWidth;
+
+        // Debug: descomenta estas líneas para verificar valores
+        // console.log('Scroll Y:', scrollY, 'Window Width:', windowWidth);
+        // console.log('nowPlaying element:', nowPlaying);
+
+        if (scrollY > 300) {
           backToTopButton.classList.add("cd-is-visible");
 
-          if (nowPlaying && window.innerWidth >= 1400) {
+          // Solo añadir la clase en pantallas >= 1400px
+          if (nowPlaying && windowWidth >= 1400) {
+            console.log("Adding nowplaying-scrolled class"); // Debug
             nowPlaying.classList.add("nowplaying-scrolled");
           }
 
@@ -80,6 +89,9 @@ import { initStatusManager } from "./statuslog.js";
           }
         }
       };
+
+      // Ejecutar inmediatamente para establecer estado inicial
+      handleScrollResize();
 
       window.addEventListener("scroll", handleScrollResize, { passive: true });
       window.addEventListener("resize", handleScrollResize);

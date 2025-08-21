@@ -134,7 +134,7 @@ Esta es una cuenta automatizada con posts de mi sitio.
 <div class="row">
 <div class="col-12 my-auto">
 
-<div class="card text-center mb-0">
+<div class="card text-center mb-3">
 <div class="card-header">
 <h4 class="card-title">
 <i class="fa-solid fa-envelope"></i> Newsletter

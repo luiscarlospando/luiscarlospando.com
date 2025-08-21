@@ -14,7 +14,7 @@ last-modified-at: <span id="last-updated-at">2025-05-03 00:03:55</span>
 <div class="row">
 <div class="col-12 my-auto">
 
-<div class="card text-center mb-0">
+<div class="card text-center mb-3">
 <div class="card-header">
 <h4 class="card-title">
 <i class="fa-solid fa-box"></i> Proyectos

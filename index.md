@@ -58,7 +58,7 @@ Eso es todo... de seguro ni supiste como llegaste, pero no importa, te agradezco
 
 <ul class="list-inline">
     <li class="list-inline-item">
-        <h2><i class="fa-solid fa-link"></i> Links <i class="ico-links-info fa-solid fa-circle-info"  data-toggle="tooltip" data-placement="top" data-html="true" title="Esta es una lista de cosas que he encontrado navegando en Internet. Si algo me gusta o me parece interesante lo voy agregando a esta lista. La mayoría de los links son en inglés."></i></h2>
+        <h2><i class="fa-solid fa-link"></i> Links <i class="ico-links-info fa-solid fa-circle-info"  data-toggle="tooltip" data-placement="top" data-html="true" title="Esta es una lista de cosas que me encuentro navegando en Internet. Imagina que estos links son como tipo retweets. La mayoría de los links son en inglés."></i></h2>
     </li>
     <li class="list-inline-item">
         <a href="https://bg.raindrop.io/rss/public/50598757" class="btn btn-primary btn-sm" style="vertical-align: super;">

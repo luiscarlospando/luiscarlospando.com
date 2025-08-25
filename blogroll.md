@@ -45,16 +45,39 @@ permalink: /blogroll/
 
 ---
 
-## <i class="fa-solid fa-radio"></i> Noticias/Podcasts
+## <i class="fa-solid fa-gamepad"></i> Gaming
+
+| Nombre             | URL                                                                     |
+|--------------------|-------------------------------------------------------------------------|
+| Polygon              | [polygon.com](https://www.polygon.com/){:target="_blank"} |
+| Retronauts   | [retronauts.com](https://retronauts.com/){:target="_blank"} |
+| Wavelenghts        | [wavelengths.online](https://wavelengths.online/){:target="_blank"} |
+
+---
+
+## <i class="fa-solid fa-music"></i> Música
+
+| Nombre               | URL                                                                 |
+|----------------------|----------------------------------------------------------------------|
+| Heavy Blog Is Heavy  | [heavyblogisheavy.com](https://www.heavyblogisheavy.com/){:target="_blank"} |
+| Metal Injection      | [metalinjection.net](https://metalinjection.net/){:target="_blank"} |
+
+---
+
+## <i class="fa-solid fa-newspaper"></i> Noticias
 
 | Nombre               | URL                                                                 |
 |----------------------|----------------------------------------------------------------------|
 | 404 Media            | [404media.co](https://www.404media.co/){:target="_blank"} |
-| Comfort Zone         | [macstories.net/comfort-zone](https://www.macstories.net/comfort-zone/){:target="_blank"} |
 | MacStories           | [macstories.net](https://www.macstories.net/){:target="_blank"} |
-| Metal Injection      | [metalinjection.net](https://metalinjection.net/){:target="_blank"} |
-| Polygon              | [polygon.com](https://www.polygon.com/){:target="_blank"} |
-| Retronauts   | [retronauts.com](https://retronauts.com/){:target="_blank"} |
+
+---
+
+## <i class="fa-solid fa-podcast"></i> Podcasts
+
+| Nombre               | URL                                                                 |
+|----------------------|----------------------------------------------------------------------|
+| Comfort Zone         | [macstories.net/comfort-zone](https://www.macstories.net/comfort-zone/){:target="_blank"} |
 | The First Ever Podcast | [the-first-ever-podcast.libsyn.com](https://the-first-ever-podcast.libsyn.com/){:target="_blank"} |
 
 ---

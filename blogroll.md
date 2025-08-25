@@ -49,8 +49,8 @@ permalink: /blogroll/
 
 | Nombre             | URL                                                                     |
 |--------------------|-------------------------------------------------------------------------|
-| Polygon              | [polygon.com](https://www.polygon.com/){:target="_blank"} |
-| Retronauts   | [retronauts.com](https://retronauts.com/){:target="_blank"} |
+| Polygon            | [polygon.com](https://www.polygon.com/){:target="_blank"} |
+| Retronauts         | [retronauts.com](https://retronauts.com/){:target="_blank"} |
 | Wavelenghts        | [wavelengths.online](https://wavelengths.online/){:target="_blank"} |
 
 ---

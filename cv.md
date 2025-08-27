@@ -10,7 +10,7 @@ permalink: /cv/
 
 ---
 
-Actualmente estoy en busca de nuevas oportunidad laborales remotas. Si consideras que soy una buena opción para tu empresa o proyecto, por favor no dudes en contactarme.
+¡Hola! 👋 Actualmente estoy en busca de nuevas oportunidad laborales remotas. Si consideras que soy una buena opción para tu empresa o proyecto, por favor no dudes en contactarme.
 
 - 📧 [hey@luiscarlospando.com](mailto:hey@luiscarlospando.com)
 - 🌐 [LuisCarlosPando.com](https://luiscarlospando.com) (estás aquí)
@@ -34,6 +34,7 @@ Desarrollo web en distintos proyectos para clientes locales. Algunas de las cuen
 - CTU
 - Tiempo La Noticia Digital
 - Castallia
+- Canadevi
 - Lago Di como
 - Ponderosa
 - Despacho de arquitectura Ápice

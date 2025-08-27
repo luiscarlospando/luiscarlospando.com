@@ -2,7 +2,7 @@
 
 ![Logo LuisCarlosPando.com](https://luiscarlospando.com/assets/images/logo.png)
 
-**Mi sitio web personal - Desarrollado con pasión**
+**Mi sitio web personal**
 
 [![Sitio Web](https://img.shields.io/badge/🌐_Sitio_Web-luiscarlospando.com-blue?style=for-the-badge)](https://luiscarlospando.com/)
 [![Jekyll](https://img.shields.io/badge/Jekyll-CC0000?style=for-the-badge&logo=Jekyll&logoColor=white)](http://jekyllrb.com/)

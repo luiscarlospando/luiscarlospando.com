@@ -205,7 +205,7 @@ footer {
     width: 100%;
     background-color: $cardBgColor;
     color: $mainColor;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 3rem;
     text-align: center;
     z-index: 9999;
 
@@ -243,7 +243,7 @@ footer {
         font-size: 1.1rem;
         cursor: pointer;
         position: absolute;
-        right: 1rem;
+        left: 1rem;
         top: 50%;
         transform: translateY(-50%);
     }

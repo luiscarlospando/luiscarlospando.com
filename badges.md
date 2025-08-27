@@ -46,7 +46,7 @@ permalink: /badges/
 <img src="{{ site.url }}/assets/images/buttons/delete-facebook-now.png" alt="Delete Facebook now!" width="88" height="31">
 </li>
 <li class="list-inline-item mb-3">
-<img src="{{ site.url }}/assets/images/buttons/join-the-fediverse.gif" alt="Join the Fediverse"" width="88" height="31">
+<img src="{{ site.url }}/assets/images/buttons/join-the-fediverse.gif" alt="Join the Fediverse" width="88" height="31">
 </li>
 <li class="list-inline-item mb-3">
 <img src="{{ site.url }}/assets/images/buttons/leave-twitter-join-mastodon.gif" alt="Leave Twitter, join Mastodon" width="88" height="31">

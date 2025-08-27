@@ -40,9 +40,13 @@ document.addEventListener("DOMContentLoaded", () => {
           } else if (track.date?.uts) {
             const playedAt = dayjs.unix(Number(track.date.uts));
             const relativeTime = playedAt.fromNow();
+            const machineReadableDateTime = playedAt.toISOString();
+
             lastPlayedAgoEl.innerHTML = `
               <small class="text-muted">
-                <em><i class="fa-solid fa-clock"></i> ${relativeTime}</em>
+                <time datetime="${machineReadableDateTime}">
+                  <em><i class="fa-solid fa-clock"></i> ${relativeTime}</em>
+                </time>
               </small>
             `;
           }

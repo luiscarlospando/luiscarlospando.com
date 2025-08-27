@@ -9,8 +9,8 @@ dayjs.extend(relativeTime);
 
 // Constants
 const API_URL = "https://api.omg.lol/address/mijo/statuses/";
-const CACHE_DURATION = 180000; // 3 minnutes
-const UPDATE_INTERVAL = 180000; // 3 minnutes
+const CACHE_DURATION = 180000; // 3 minutes
+const UPDATE_INTERVAL = 180000; // 3 minutes
 
 // Caching data
 const statusCache = {
@@ -46,6 +46,7 @@ function renderStatus(data) {
   const lastUpdatedUnix = data.response.statuses[0].created;
   const lastUpdatedIso = dayjs.unix(lastUpdatedUnix);
   const lastUpdatedRelative = dayjs().to(lastUpdatedIso);
+  const machineReadableDateTime = lastUpdatedIso.toISOString();
 
   statusElement.innerHTML = `
         <div id="container" class="text-center">
@@ -55,7 +56,9 @@ function renderStatus(data) {
                 </p>
             </a>
             <small class="text-muted">
-                <em><i class="fa-solid fa-clock"></i> ${lastUpdatedRelative}</em>
+                <time datetime="${machineReadableDateTime}">
+                    <em><i class="fa-solid fa-clock"></i> ${lastUpdatedRelative}</em>
+                </time>
             </small>
         </div>
     `;

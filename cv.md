@@ -74,16 +74,17 @@ _2003 — 2009_
 ---
 
 ## Habilidades
-- HTML & CSS
+- HTML
+- CSS frameworks & preprocesadores
 - JavaScript
 - Node.js
 - PHP
 - React
 - Git
+- Webpack
 - WordPress
 - Generadores estáticos
-- CSS frameworks & preprocesadores
-- Gestión de servidores y bases de datos
+- Administración y gestión de servidores y bases de datos
 - Trabajo en equipo
 - Trabajo bajo presión
 - Atención al cliente

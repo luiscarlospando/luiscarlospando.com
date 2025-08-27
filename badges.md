@@ -10,6 +10,15 @@ permalink: /badges/
 
 <ul class="list-inline">
 <li class="list-inline-item mb-3">
+<img src="{{ site.url }}/assets/images/buttons/People-Pledge-Badge-Cream-Pink.svg" alt="" width="88" height="31">
+</li>
+<li class="list-inline-item mb-3">
+<img src="{{ site.url }}/assets/images/buttons/powered-by-echofeed-orange-large.svg" alt="" width="88" height="31">
+</li>
+<li class="list-inline-item mb-3">
+<img src="{{ site.url }}/assets/images/buttons/WrittenByAHuman_04.svg" alt="" width="88" height="31">
+</li>
+<li class="list-inline-item mb-3">
 <img src="{{ site.url }}/assets/images/buttons/upallnight.gif" alt="" width="88" height="31">
 </li>
 <li class="list-inline-item mb-3">

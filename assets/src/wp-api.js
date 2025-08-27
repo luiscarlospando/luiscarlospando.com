@@ -52,7 +52,9 @@ async function displayLatestPosts() {
       const postsHTML = data
         .map((post) => {
           const postDate = dayjs(post.date).format("D MMM, YYYY");
-          return `<li><a class="post-date badge badge-dark" href="${post.link}">${postDate}</a> <a href="${post.link}" title="" target="_self">${post.title.rendered}</a></li>`;
+          const machineReadableDate = dayjs(post.date).format("YYYY-MM-DD");
+
+          return `<li><a class="post-date badge badge-dark" href="${post.link}"><time datetime="${machineReadableDate}">${postDate}</time></a> <a href="${post.link}" title="" target="_self">${post.title.rendered}</a></li>`;
         })
         .join("");
 
@@ -74,10 +76,10 @@ async function displayLatestPosts() {
     const latestPostsEl = document.getElementById("latest-posts");
     if (latestPostsEl) {
       latestPostsEl.innerHTML = `
-              <li>
-                  Lo siento, no se pudieron cargar los posts.
-                  Por favor, intenta recargar la página.
-              </li>`;
+                      <li>
+                          Lo siento, no se pudieron cargar los posts.
+                          Por favor, intenta recargar la página.
+                      </li>`;
     }
   }
 }

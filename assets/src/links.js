@@ -150,11 +150,14 @@ function renderBookmarks(items) {
     .map((item) => {
       const domain = extractDomain(item.link);
       const rootDomainURL = getRootDomainURL(item.link);
+      const machineReadableDate = dayjs(item.created).format("YYYY-MM-DD");
 
       return `
     <li>
       <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener noreferrer">
-        ${formatDate(item.created)}
+        <time datetime="${machineReadableDate}">
+          ${formatDate(item.created)}
+        </time>
       </a>
       <a href="${item.link}" target="_blank" rel="noopener noreferrer">
         ${item.title}
@@ -190,11 +193,15 @@ function renderPaginatedLinks() {
     .map((item) => {
       const domain = extractDomain(item.link);
       const rootDomainURL = getRootDomainURL(item.link);
+      const machineReadableDate = dayjs(item.created).format("YYYY-MM-DD");
 
+      // UPDATED: Wrapped the <time> tag inside the <a> tag to make the date clickable again.
       return `
     <li>
       <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener noreferrer">
-        ${formatDate(item.created)}
+        <time datetime="${machineReadableDate}">
+          ${formatDate(item.created)}
+        </time>
       </a>
       <a href="${item.link}" target="_blank" rel="noopener noreferrer">
         ${item.title}
@@ -239,10 +246,14 @@ function setupPagination() {
             (${allItems.length} links en total)
         </div>
         <div class="pagination-controls" style="display: flex; justify-content: center; gap: 0.5rem;">
-            <button id="prevPage" class="btn btn-primary" aria-label="Anterior" ${currentPage === 1 ? "disabled" : ""}>
+            <button id="prevPage" class="btn btn-primary" aria-label="Anterior" ${
+              currentPage === 1 ? "disabled" : ""
+            }>
                 « Anterior
             </button>
-            <button id="nextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>
+            <button id="nextPage" class="btn btn-primary" aria-label="Siguiente" ${
+              currentPage === totalPages ? "disabled" : ""
+            }>
                 Siguiente »
             </button>
         </div>

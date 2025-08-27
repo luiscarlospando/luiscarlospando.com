@@ -96,4 +96,16 @@ permalink: /badges/
 <li class="list-inline-item mb-3">
 <img src="{{ site.url }}/assets/images/buttons/mode-7.gif" alt="" width="88" height="31">
 </li>
+<li class="list-inline-item mb-3">
+<img src="{{ site.url }}/assets/images/buttons/recy5OLShD-88.webp" alt="" width="88" height="31">
+</li>
+<li class="list-inline-item mb-3">
+<img src="{{ site.url }}/assets/images/buttons/SB7qKziVzd-88.webp" alt="" width="88" height="31">
+</li>
+<li class="list-inline-item mb-3">
+<img src="{{ site.url }}/assets/images/buttons/Y62zt7L8R4-88.webp" alt="" width="88" height="31">
+</li>
+<li class="list-inline-item mb-3">
+<img src="{{ site.url }}/assets/images/buttons/u_r0aXyVMa-88.webp" alt="" width="88" height="31">
+</li>
 </ul>

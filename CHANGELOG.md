@@ -7,6 +7,27 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.57.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.56.1...v2.57.0) - 2025-08-27
+
+- Agregar página /badges [`a18b6b6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a18b6b65358e04adafdd50aee36030ef9627dd4a)
+- Encapsular timestamps en etiqueta &lt;time&gt; para mejorar semántica y accesibilidad [`e71775c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e71775c7f288d9cdc12f9f5b2f9aa58a1f0d0cea)
+- Completar atributos alt [`369d7bc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/369d7bc4adc5b88aa01266e7ba80462d9009af3a)
+- Quitar slash de más [`e6075fc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e6075fc4316cb5b7b1e1e2b0c4b5c0596118dbf5)
+- Agregar botones [`c08fd50`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c08fd504e464f71be6b276f3cbc6244303af909b)
+- Actualizar CHANGELOG [`ad6fe02`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ad6fe025bbd311442fc3dde9fd593db2d95180f8)
+- Encapsular timestamps en etiqueta &lt;time&gt; para mejorar semántica y accesibilidad [`c161ad8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c161ad8a5b876c6caa719c4732a2e6861d26a8da)
+- Encapsular timestamps en etiqueta &lt;time&gt; para mejorar semántica y accesibilidad [`7a0b405`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7a0b40581d86c4c51164943f8f2790bec642ee2f)
+- Agregar botones [`f5c672a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f5c672ae8802c3580d21586f16d1a50ebddf1398)
+- Agregar badges faltantes [`54f4e89`](https://github.com/luiscarlospando/luiscarlospando.com/commit/54f4e8953847b3b9efbefd1d90b84d901149e58d)
+- Optimizar #dismissable-alert [`794dc75`](https://github.com/luiscarlospando/luiscarlospando.com/commit/794dc75a64e8438e38bbdb6cd1095bf8f03a0e23)
+- Actualizar habilidades [`6c82e0a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6c82e0a4b01ac17992bd027855dcadbdefdc9680)
+- Agregar página /badges [`eb1e88d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/eb1e88d34b854b32946a6d1ef33340bc5edad5d8)
+- Regresar #last-updated-at a front matter [`1c59ddf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1c59ddf571d1109671aa12563f5994ed5d6fc7a9)
+- Actualizar texto superior [`7680295`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7680295ce571fe0df60e7dadca8b6bdc24d3f2ff)
+- Deploy v2.57.0 [`eaca758`](https://github.com/luiscarlospando/luiscarlospando.com/commit/eaca7583b751ac84b82091b94a022b80f26ff6a9)
+- Completar atributos alt [`9eaa2dd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9eaa2dd86e4976076fd7e88e6d142af98264c79b)
+- Actualizar README [`cf3c3ec`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cf3c3ec845ba270e9f1bf26f13519941d7b295ef)
+
 ## [`v2.56.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.56.0...v2.56.1) - 2025-08-27
 
 - Agregar CSS reset moderno [`16bb128`](https://github.com/luiscarlospando/luiscarlospando.com/commit/16bb1282385e06924bae4e09287cbeb2b979c90e)

@@ -64,6 +64,8 @@ Algunos blogs de música que me gusta leer.
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|
 | Brooklyn Vegan       | [brooklynvegan.com](https://www.brooklynvegan.com/){:target="_blank"} |
+| Chorus.fm            | [chorus.fm](https://chorus.fm/){:target="_blank"}                    |
+| Crucial Tracks       | [crucialtracks.org](https://www.crucialtracks.org/){:target="_blank"} |
 | GORILLA VS. BEAR     | [www.gorillavsbear.net](https://www.gorillavsbear.net/){:target="_blank"} |
 | Heavy Blog Is Heavy  | [heavyblogisheavy.com](https://www.heavyblogisheavy.com/){:target="_blank"} |
 | Metal Injection      | [metalinjection.net](https://metalinjection.net/){:target="_blank"}  |

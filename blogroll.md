@@ -88,13 +88,13 @@ permalink: /blogroll/
         <h2><i class="fa-brands fa-youtube"></i> Canales de YouTube favoritos</h2>
     </li>
     <li class="list-inline-item">
-        <button id="btn-collapse-generic" class="btn btn-primary btn-sm collapsed" data-toggle="collapse" data-target="#collapseGeneric" role="button" aria-expanded="false" aria-controls="collapseGeneric" style="vertical-align: super;">
+        <button class="btn btn-primary btn-sm collapsed" data-toggle="collapse" data-target="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne" style="vertical-align: super;">
             <i class="fa-solid fa-caret-right"></i> Expandir
         </button>
     </li>
 </ul>
 
-<div class="collapse" id="collapseGeneric">
+<div class="collapse" id="collapseOne">
 
 ### 🎨 Arte y creatividad
 

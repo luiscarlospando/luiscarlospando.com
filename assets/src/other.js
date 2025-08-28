@@ -108,28 +108,36 @@ import { initStatusManager } from "./statuslog.js";
     $("#lastfm").lastplayed({ username: "luiscarlospando", refresh: 30 });
 
     // Generic collapse
-    const collapseGeneric = document.getElementById("collapseGeneric");
-    const btnCollapseGeneric = document.querySelector("#btn-collapse-generic");
-    if (collapseGeneric && btnCollapseGeneric) {
-      $(collapseGeneric).on("show.bs.collapse hide.bs.collapse", (e) => {
-        btnCollapseGeneric.innerHTML =
-          e.type === "show"
-            ? '<i class="fa-solid fa-caret-down"></i> Colapsar'
-            : '<i class="fa-solid fa-caret-right"></i> Expandir';
-      });
+    const collapseButtons = document.querySelectorAll(
+      '[data-toggle="collapse"]',
+    );
 
-      btnCollapseGeneric.addEventListener("click", (e) => {
-        if (e.target.tagName.toLowerCase() === "i") {
-          e.preventDefault();
-          e.stopPropagation();
-          $(collapseGeneric).collapse("toggle");
-        }
-      });
-    }
+    collapseButtons.forEach((btn) => {
+      const targetSelector = btn.getAttribute("data-target");
+      const collapseElement = document.querySelector(targetSelector);
+
+      if (collapseElement) {
+        $(collapseElement).on("show.bs.collapse hide.bs.collapse", (e) => {
+          btn.innerHTML =
+            e.type === "show"
+              ? '<i class="fa-solid fa-caret-down"></i> Colapsar'
+              : '<i class="fa-solid fa-caret-right"></i> Expandir';
+        });
+
+        btn.addEventListener("click", (e) => {
+          if (e.target.tagName.toLowerCase() === "i") {
+            e.preventDefault();
+            e.stopPropagation();
+            $(collapseElement).collapse("toggle");
+          }
+        });
+      }
+    });
 
     // Intro collapse
     const collapseIntro = document.getElementById("collapseIntro");
     const btnReadMore = document.querySelector("#btn-read-more");
+
     if (collapseIntro && btnReadMore) {
       $(collapseIntro).on("show.bs.collapse hide.bs.collapse", (e) => {
         btnReadMore.innerHTML =
@@ -152,6 +160,7 @@ import { initStatusManager } from "./statuslog.js";
       "collapseCodeOfConduct",
     );
     const btnCodeOfConduct = document.querySelector("#btn-code-of-conduct");
+
     if (collapseCodeOfConduct && btnCodeOfConduct) {
       $(collapseCodeOfConduct).on("show.bs.collapse hide.bs.collapse", (e) => {
         btnCodeOfConduct.innerHTML =

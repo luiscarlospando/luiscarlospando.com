@@ -53,7 +53,7 @@ Este cotorreo de agendar llamada conmigo francamente no creo usarlo nunca, pero 
 </ul>
 
 ## <i class="fa-brands fa-instagram"></i> Instagram
-[Estoy en Instagram][2]{:rel="me" target="_blank"} para subir fotos e historias de vez en cuando y otro método eficaz para ponerte en contacto conmigo.
+[Estoy en Instagram][2]{:rel="me" target="_blank"} para subir fotos e historias de vez en cuando y también lo uso como otro método eficaz para ponerse en contacto conmigo.
 
 ## <i class="fa-brands fa-discord"></i> Discord [![](https://dcbadge.limes.pink/api/shield/86571896581132288?style=flat&theme=discord-inverted)][3]{:rel="me" target="_blank"}
 Mi username en Discord es <a href="{{ site.discord_profile }}" rel="me" target="_blank"><code>{{ site.discord_tag }}</code></a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (_feel free to join in!_).

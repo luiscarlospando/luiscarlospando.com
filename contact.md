@@ -15,7 +15,7 @@ Mi correo es: <code>{{ site.email }}</code><br>
 </a>
 
 ## <i class="fa-brands fa-apple"></i> iMessage (Código de verificación)
-Si tienes mi número personal me puedes contactar _de preferencia_ por iMessage y opcionalmente puedes usar este código de abajo para [verificarme](https://support.apple.com/es-mx/118246){:target="_blank"}.
+Si tienes mi número personal me puedes contactar _preferentemente_ por iMessage y opcionalmente puedes usar este código de abajo para [verificarme](https://support.apple.com/es-mx/118246){:target="_blank"}. Por favor no me marques, por lo general no respondo llamadas.
 
 ```
 APKTIDqddeGKq1HgGGc9_rnoTBa9Pl5qoeZSlNhMBw1bky9JPefQ

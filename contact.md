@@ -15,11 +15,13 @@ Mi correo es: <code>{{ site.email }}</code><br>
 </a>
 
 ## <i class="fa-brands fa-apple"></i> iMessage (Código de verificación)
-Si tienes mi número personal me puedes contactar _preferentemente_ por iMessage y opcionalmente puedes usar este código de abajo para [verificarme](https://support.apple.com/es-mx/118246){:target="_blank"}. Por favor no me marques, por lo general no respondo llamadas.
+Si tienes mi número personal me puedes contactar _preferentemente_ por iMessage y opcionalmente puedes usar este código de abajo para [verificarme](https://support.apple.com/es-mx/118246){:target="_blank"}.
 
 ```
 APKTIDqddeGKq1HgGGc9_rnoTBa9Pl5qoeZSlNhMBw1bky9JPefQ
 ```
+
+Y si tienes mi número por favor no me marques, por lo general no respondo llamadas.
 
 ## <i class="fa-solid fa-file-signature"></i> Guestbook
 Una manera rápida y sencilla de mandarme algo (anónimamente o no) es [ir a mi guestbook][15] y dejarme un mensaje por ahí.
@@ -51,7 +53,7 @@ Este cotorreo de agendar llamada conmigo francamente no creo usarlo nunca, pero 
 </ul>
 
 ## <i class="fa-brands fa-instagram"></i> Instagram
-[Estoy en Instagram][2]{:rel="me" target="_blank"} para subir fotos e historias de vez en cuando, aunque más bien conservo la cuenta para mantener contacto con amigos. Mi tirada es mejor subir mis fotos [aquí][16].
+[Estoy en Instagram][2]{:rel="me" target="_blank"} para subir fotos e historias de vez en cuando y otro método eficaz para ponerte en contacto conmigo.
 
 ## <i class="fa-brands fa-discord"></i> Discord [![](https://dcbadge.limes.pink/api/shield/86571896581132288?style=flat&theme=discord-inverted)][3]{:rel="me" target="_blank"}
 Mi username en Discord es <a href="{{ site.discord_profile }}" rel="me" target="_blank"><code>{{ site.discord_tag }}</code></a> y tengo un server con unos amigos, se llama [Mode 7][4] y es para puros jugones (_feel free to join in!_).
@@ -103,4 +105,3 @@ En [Backloggd][14]{:rel="me" target="_blank"} llevo el control de los videojuego
 [13]: /live/
 [14]: https://www.backloggd.com/u/{{ site.backloggd_username }}
 [15]: /guestbook/
-[16]: /photos/

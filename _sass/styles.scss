@@ -11,6 +11,8 @@
 html {
     -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: auto;
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
     text-rendering: optimizeLegibility;
 }
 

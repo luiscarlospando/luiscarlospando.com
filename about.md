@@ -82,11 +82,11 @@ Gracias por llegar hasta aquí y por tomarte el tiempo de conocerme un poco mejo
 
 Al final del día, solo soy un vato de Chihuahua que ama hacer cosas para el Internet y que encuentra en la música, la tecnología y la fe las piezas que dan sentido a su vida.
 
-<span id="colofon"></span> *¡Gracias por visitar mi sitio!* ✨
+*¡Gracias por visitar mi sitio!* ✨
 
 ---
 
-Aquí está el [archivo completo][8] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][9]).
+<span id="colofon"></span> Aquí está el [archivo completo][8] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][9]).
 
 *Disclaimer: Los links de DigitalOcean, Instatus, omg.lol y Buttondown son links de afiliación.*
 

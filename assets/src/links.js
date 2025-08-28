@@ -152,6 +152,11 @@ function renderBookmarks(items) {
       const rootDomainURL = getRootDomainURL(item.link);
       const machineReadableDate = dayjs(item.created).format("YYYY-MM-DD");
 
+      let noteHTML = "";
+      if (item.note && item.note.trim() !== "") {
+        noteHTML = `<p><small>${item.note}</small></p>`;
+      }
+
       return `
     <li>
       <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener noreferrer">
@@ -168,6 +173,7 @@ function renderBookmarks(items) {
           ${domain}
         </a>
       </em></small>
+      ${noteHTML}
     </li>`;
     })
     .join("");
@@ -195,7 +201,11 @@ function renderPaginatedLinks() {
       const rootDomainURL = getRootDomainURL(item.link);
       const machineReadableDate = dayjs(item.created).format("YYYY-MM-DD");
 
-      // UPDATED: Wrapped the <time> tag inside the <a> tag to make the date clickable again.
+      let noteHTML = "";
+      if (item.note && item.note.trim() !== "") {
+        noteHTML = `<p><small>${item.note}</small></p>`;
+      }
+
       return `
     <li>
       <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener noreferrer">
@@ -212,6 +222,7 @@ function renderPaginatedLinks() {
           ${domain}
         </a>
       </em></small>
+      ${noteHTML}
     </li>`;
     })
     .join("");

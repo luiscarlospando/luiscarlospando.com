@@ -71,7 +71,7 @@ Algunos blogs de música que me gusta leer.
 ---
 
 ## <i class="fa-solid fa-newspaper"></i> Noticias
-Noticias sobre cultura general, tecnología, gadgets, etc.
+Noticias sobre cultura general, lifestyle, tecnología, gadgets, etc.
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|

@@ -230,6 +230,15 @@ function renderPaginatedLinks() {
   linksList.innerHTML = linksHTML;
 }
 
+// Handles page changes and scrolls to the top of the list.
+function handlePageChange(newPage) {
+  currentPage = newPage;
+  renderPaginatedLinks();
+  setupPagination();
+  // Scroll to the top of the #links element smoothly
+  document.getElementById("links")?.scrollIntoView({ behavior: "smooth" });
+}
+
 // Setup pagination controls
 function setupPagination() {
   const totalPages = Math.ceil(allItems.length / ITEMS_PER_PAGE);
@@ -276,17 +285,13 @@ function setupPagination() {
   // Add event listeners
   document.getElementById("prevPage")?.addEventListener("click", () => {
     if (currentPage > 1) {
-      currentPage--;
-      renderPaginatedLinks();
-      setupPagination();
+      handlePageChange(currentPage - 1);
     }
   });
 
   document.getElementById("nextPage")?.addEventListener("click", () => {
     if (currentPage < totalPages) {
-      currentPage++;
-      renderPaginatedLinks();
-      setupPagination();
+      handlePageChange(currentPage + 1);
     }
   });
 }

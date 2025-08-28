@@ -14,9 +14,9 @@ permalink: /blogroll/
 |----------------------|----------------------------------------------------------------------|
 | Bart                 | [yosoybartsolo.com](https://www.yosoybartsolo.com/){:target="_blank"} |
 | Juan Manuel Terrazas | [juanmanuelterrazas.com](https://www.juanmterrazas.com/){:target="_blank"} |
-| Magiobus             | [magiobus.com](https://magiobus.com/){:target="_blank"} |
-| MexicanSkynet        | [mexicanskynet.com](https://mexicanskynet.com){:target="_blank"} |
-| Shinobipunk          | [shinobipunk.com](https://shinobipunk.com/){:target="_blank"} |
+| Magiobus             | [magiobus.com](https://magiobus.com/){:target="_blank"}              |
+| MexicanSkynet        | [mexicanskynet.com](https://mexicanskynet.com){:target="_blank"}     |
+| Shinobipunk          | [shinobipunk.com](https://shinobipunk.com/){:target="_blank"}        |
 
 ---
 
@@ -83,13 +83,18 @@ permalink: /blogroll/
 
 ---
 
-## <i class="fa-brands fa-youtube"></i> Canales de YouTube favoritos
+<ul class="list-inline">
+    <li class="list-inline-item">
+        <h2><i class="fa-brands fa-youtube"></i> Canales de YouTube favoritos</h2>
+    </li>
+    <li class="list-inline-item">
+        <button id="btn-collapse-generic" class="btn btn-primary btn-sm collapsed" data-toggle="collapse" data-target="#collapseGeneric" role="button" aria-expanded="false" aria-controls="collapseGeneric" style="vertical-align: super;">
+            <i class="fa-solid fa-caret-right"></i> Expandir
+        </button>
+    </li>
+</ul>
 
-<button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseYouTube" role="button" aria-expanded="false" aria-controls="collapseYouTube">
-    <i class="fa-solid fa-caret-right"></i> Expandir
-</button>
-
-<div class="collapse" id="collapseYouTube">
+<div class="collapse" id="collapseGeneric">
 
 ### 🎨 Arte y creatividad
 

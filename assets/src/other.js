@@ -107,7 +107,27 @@ import { initStatusManager } from "./statuslog.js";
     // Last.fm now playing
     $("#lastfm").lastplayed({ username: "luiscarlospando", refresh: 30 });
 
-    // Collapse intro button
+    // Generic collapse
+    const collapseGeneric = document.getElementById("collapseGeneric");
+    const btnCollapseGeneric = document.querySelector("#btn-collapse-generic");
+    if (collapseGeneric && btnCollapseGeneric) {
+      $(collapseGeneric).on("show.bs.collapse hide.bs.collapse", (e) => {
+        btnCollapseGeneric.innerHTML =
+          e.type === "show"
+            ? '<i class="fa-solid fa-caret-down"></i> Colapsar'
+            : '<i class="fa-solid fa-caret-right"></i> Expandir';
+      });
+
+      btnCollapseGeneric.addEventListener("click", (e) => {
+        if (e.target.tagName.toLowerCase() === "i") {
+          e.preventDefault();
+          e.stopPropagation();
+          $(collapseGeneric).collapse("toggle");
+        }
+      });
+    }
+
+    // Intro collapse
     const collapseIntro = document.getElementById("collapseIntro");
     const btnReadMore = document.querySelector("#btn-read-more");
     if (collapseIntro && btnReadMore) {
@@ -127,7 +147,7 @@ import { initStatusManager } from "./statuslog.js";
       });
     }
 
-    // Guestbook Code of Conduct button
+    // Guestbook Code of Conduct collapse
     const collapseCodeOfConduct = document.getElementById(
       "collapseCodeOfConduct",
     );

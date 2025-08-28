@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blogroll
-description: Este es un listado de links a algunos amigos, también a sitios personales que frecuento y mis canales favoritos de YouTube. Todo está ordenado alfabéticamente.
+description: Esta es mi colección personal de links, recursos y websites que frecuento (ordenados alfabéticamente para tu comodidad). Diviértete explorando. 🏄
 image: /assets/images/logo.png
 permalink: /blogroll/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blogroll
-description: Esta es mi colección personal de links, recursos y websites que frecuento (ordenados alfabéticamente para tu comodidad). Diviértete explorando. 🏄
+description: Esta es mi colección personal de blogs favoritos, recursos y websites que frecuento (ordenados alfabéticamente para tu comodidad). Diviértete explorando. 🏄
 image: /assets/images/logo.png
 permalink: /blogroll/
 ---

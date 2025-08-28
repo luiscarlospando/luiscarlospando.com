@@ -8,7 +8,7 @@ permalink: /cv/
 
 <p class="text-center">{{ page.description }}</p>
 
-<div class="alert alert-info alert-dismissible" role="alert">
+<div class="alert alert-info" role="alert">
 <p>
 <span class="glyphicon glyphicon-exclamation-sign"></span>
 <strong>¡Busco trabajo!</strong>

@@ -9,6 +9,7 @@ permalink: /blogroll/
 <p class="text-center">{{ page.description }}</p>
 
 ## <i class="fa-solid fa-users"></i> Amigos (en la vida real)
+Algunos de mis compas en la vida real tienen su propio sitio, son poquitos pero algo es algo.
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|
@@ -16,11 +17,11 @@ permalink: /blogroll/
 | Juan Manuel Terrazas | [juanmanuelterrazas.com](https://www.juanmterrazas.com/){:target="_blank"} |
 | Magiobus             | [magiobus.com](https://magiobus.com/){:target="_blank"}              |
 | MexicanSkynet        | [mexicanskynet.com](https://mexicanskynet.com){:target="_blank"}     |
-| Shinobipunk          | [shinobipunk.com](https://shinobipunk.com/){:target="_blank"}        |
 
 ---
 
 ## <i class="fa-solid fa-user"></i> Sitios personales
+Algunos de los blogs y sitios personales que visito regularmente.
 
 | Nombre               | URL                                                                  |
 |--------------------|------------------------------------------------------------------------|
@@ -47,6 +48,7 @@ permalink: /blogroll/
 ---
 
 ## <i class="fa-solid fa-gamepad"></i> Gaming
+Noticias, podcasts y artículos sobre videojuegos.
 
 | Nombre               | URL                                                                  |
 |--------------------|------------------------------------------------------------------------|
@@ -57,15 +59,19 @@ permalink: /blogroll/
 ---
 
 ## <i class="fa-solid fa-music"></i> Música
+Algunos blogs de música que me gusta leer.
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|
+| Brooklyn Vegan       | [brooklynvegan.com](https://www.brooklynvegan.com/){:target="_blank"} |
+| GORILLA VS. BEAR     | [www.gorillavsbear.net](https://www.gorillavsbear.net/){:target="_blank"} |
 | Heavy Blog Is Heavy  | [heavyblogisheavy.com](https://www.heavyblogisheavy.com/){:target="_blank"} |
 | Metal Injection      | [metalinjection.net](https://metalinjection.net/){:target="_blank"}  |
 
 ---
 
 ## <i class="fa-solid fa-newspaper"></i> Noticias
+Noticias sobre cultura general, tecnología, gadgets, etc.
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|
@@ -75,6 +81,7 @@ permalink: /blogroll/
 ---
 
 ## <i class="fa-solid fa-podcast"></i> Podcasts
+Podcasts que escucho actualmente.
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|

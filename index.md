@@ -37,6 +37,14 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][5] para conecer 
     </li>
 </ul>
 
+<div class="text-center">
+    <a href="/music/">
+        <small>
+            Ver mis álbumes más escuchados de este mes
+        </small>
+    </a>
+</div>
+
 <ul class="list-inline">
     <li class="list-inline-item">
         <h2><i class="fa-solid fa-file-pen"></i> Blog</h2>

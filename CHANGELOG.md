@@ -7,6 +7,47 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.58.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.57.1...v2.58.0) - 2025-08-29
+
+- Crear página /musica para mostrar mis 12 álbumes más recientes [`db6b928`](https://github.com/luiscarlospando/luiscarlospando.com/commit/db6b92830e417f769805ce7ed033d7b4f9903083)
+- Actualizar blogroll [`aeecdf9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/aeecdf92d0ab574f262a04201d9b60c833094a50)
+- Crear página /musica para mostrar mis 12 álbumes más recientes [`0642d91`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0642d916135088fc9062b5bcb9112d63abe1b297)
+- Crear página /musica para mostrar mis 12 álbumes más recientes [`cc6c594`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cc6c594bde7b7dffede90ff89783c33ac7912ed4)
+- Crear página /musica para mostrar mis 12 álbumes más recientes [`77f2754`](https://github.com/luiscarlospando/luiscarlospando.com/commit/77f275472fb913c9f7857b09eb5a97498f94d8b4)
+- Actualizar menú de navegación [`7b2cc7b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7b2cc7baa49f11f96c5c9d2f80626d5e4fcdc239)
+- Crear página /musica para mostrar mis 12 álbumes más recientes [`bc0d3ad`](https://github.com/luiscarlospando/luiscarlospando.com/commit/bc0d3ad87d112c8692a5a27ca84c2aee910a9dcc)
+- Crear página /musica para mostrar mis 12 álbumes más recientes [`5cf01a2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5cf01a2559ef3b8abf9d808f88189eeda575ff29)
+- Crear página /musica para mostrar mis 12 álbumes más recientes [`4ad2533`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4ad2533c374cd0eeb4432989f43c7da44b491595)
+- Actualizar blogroll [`f4b47f8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f4b47f89c1abc0ee0fdf2371baf0ef573dc9d4fe)
+- Crear página /musica para mostrar mis 12 álbumes más recientes [`42a5a7e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/42a5a7eb382e0493363e1f537d1f7a8ff19c134c)
+- Deploy v2.58.0 [`8c8f79f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8c8f79fa0d770ab904dcdeb8115a648a79f82717)
+- Crear página /musica para mostrar mis 12 álbumes más recientes [`ac23fb6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ac23fb62add50ab230dfb2bab6634f266f16b252)
+
+## [`v2.57.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.57.0...v2.57.1) - 2025-08-28
+
+- Actualizar blogroll y colapsar canales de YouTube [`0a08cf3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0a08cf3eae08ecf71d83fb6a884e7f2470c25e6f)
+- Armar funcionalidad para botón de colapso genérico [`0bc354a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0bc354a01977d4781ce680cac5d3e314b230becd)
+- Armar funcionalidad para botón de colapso genérico [`156b87f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/156b87fc2291f20ed0f114bc330e213c96920855)
+- Mejorar experiencia de usuario al hacer scroll al tope de la lista de links al navegar entre páginas [`22b06a5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/22b06a5eab591c785ccd83fc9970c6ed978f265c)
+- Actualizar CHANGELOG [`9a0144a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9a0144a0a1420ce8efaa35801c6819367f2e9724)
+- Agregar notas a links [`c9a2ba0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c9a2ba00c1a8305ffb45833173e81d9a8a59e714)
+- Agregar alerta [`f326e4d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f326e4d888aea196b9d765c9fe3a2c4fa0349082)
+- Actualizar blogroll [`17d6d02`](https://github.com/luiscarlospando/luiscarlospando.com/commit/17d6d02637dd43d2a1d1fc064563fb89475a5364)
+- Actualizar textos [`ec722b0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ec722b04f839bc4d7034457285d3fc2482df781c)
+- Reposicionar anchor #colofon [`93de164`](https://github.com/luiscarlospando/luiscarlospando.com/commit/93de164503009ce6e9f9d85e20117e553d694fbf)
+- Actualizar textos [`bc97b8f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/bc97b8fa3e96339c1832fabc8e8145c20a3a4cf8)
+- Deploy v2.57.1 [`2ffe151`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2ffe15148d9b2b0ae6ad6a8db69b4e38cd1443f1)
+- Agregar scroll-padding-top para evitar hidden anchor [`578f347`](https://github.com/luiscarlospando/luiscarlospando.com/commit/578f34736f694323b21a84fab100cef0fb43915b)
+- Actualizar blogroll [`f095df6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f095df6f1c2a81626b2e9f5cbf64485845ea2953)
+- Agregar alerta [`16a9a5b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/16a9a5b13d1958b63791564dff8ea41d8bbf6f9e)
+- Actualizar textos [`cff76ea`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cff76eab375de810402cc2513b6cac33b93cbae1)
+- Actualizar blogroll [`af5b82f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/af5b82f1c19ee6648e801b1c5e9340575d1623f3)
+- Actualizar blogroll [`ac9f6a6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ac9f6a6ba3adc1627590e11a5f86cbff2f9c86c8)
+- Actualizar descripción [`9e5c145`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9e5c145dfe9099543de1e448f89ea48cd1157317)
+- Actualizar textos [`545daab`](https://github.com/luiscarlospando/luiscarlospando.com/commit/545daabe9e2d175fdaf377c0171be679afc133fb)
+- Actualizar descripción [`ec8f783`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ec8f7830ad11a55971f3b1f2b505a2efa9ae0197)
+- Actualizar textos [`c53d6ab`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c53d6ab99856df8da3d99a0743b971c9d9214b1a)
+
 ## [`v2.57.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.56.1...v2.57.0) - 2025-08-27
 
 - Agregar página /badges [`a18b6b6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a18b6b65358e04adafdd50aee36030ef9627dd4a)

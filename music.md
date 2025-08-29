@@ -8,8 +8,7 @@ permalink: /musica/
 
 <div class="row">
 <div class="col-12 col-md-10 offset-md-1">
-<div class="masonry-grid" id="lastfm-top-albums">
-<div class="grid-sizer col-6 col-md-4"></div>
+<div class="row" id="lastfm-albums-grid">
 </div>
 </div>
 </div>

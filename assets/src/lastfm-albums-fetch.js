@@ -2,23 +2,25 @@
 
 // Function to display Last.fm top albums
 function displayLastFmTopAlbums() {
-  // Point to the new endpoint we created
   fetch("https://luiscarlospando.com/api/lastfmTopAlbums")
     .then((response) => response.json())
     .then((data) => {
-      // Check if the container exists on the page
-      const container = document.getElementById("lastfm-top-albums");
+      // Check if the container exists on the page (now targeting the new ID)
+      const container = document.getElementById("lastfm-albums-grid");
       if (!container) {
-        console.log("❌ #lastfm-top-albums no existe en el DOM");
+        console.log("❌ #lastfm-albums-grid no exisre en el DOM");
         return;
       }
 
       console.log(
-        "✅ #lastfm-top-albums existe en el DOM. Cargando álbumes...",
+        "✅ #lastfm-albums-grid existe en el DOM. Cargando álbumes...",
       );
 
       // Get the list of albums from the JSON response
       const albums = data.topalbums.album;
+
+      // Clear container in case of re-run
+      container.innerHTML = "";
 
       // Iterate over each album to build the HTML
       albums.forEach((album) => {
@@ -28,13 +30,13 @@ function displayLastFmTopAlbums() {
         const albumArtUrl = album.image[3]["#text"];
         const fullTitle = `${artistName} - ${albumTitle}`;
 
-        // Create the container element for the grid item
-        const gridItem = document.createElement("div");
-        // Add the column classes that Masonry needs
-        gridItem.className = "grid-item col-6 col-md-4 mb-4";
+        // Create container element for the grid column
+        const columnDiv = document.createElement("div");
+        // Add Bootstrap column classes
+        columnDiv.className = "col-6 col-md-4 mb-4";
 
-        // Create the inner HTML using the structure you defined
-        gridItem.innerHTML = `
+        // Create inner HTML
+        columnDiv.innerHTML = `
                     <figure class="figure">
                         <img
                             src="${albumArtUrl}"
@@ -50,16 +52,14 @@ function displayLastFmTopAlbums() {
                     </figure>
                 `;
 
-        // Add the new element to the container
-        container.appendChild(gridItem);
+        // Add the new column directly to the row container
+        container.appendChild(columnDiv);
       });
 
-      // Masonry layout update
-      var msnry = new Masonry(container, {
-        itemSelector: ".grid-item",
-        columnWidth: ".grid-sizer",
-        percentPosition: true,
-      });
+      // Tooltips initialization
+      if (typeof $ !== "undefined" && $.fn.tooltip) {
+        $('[data-toggle="tooltip"]').tooltip();
+      }
     })
     .catch((error) =>
       console.error("Error fetching data from Last.fm:", error),

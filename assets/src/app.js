@@ -18,6 +18,7 @@ import "./last-updated-at";
 import "./wp-api";
 import "./links";
 import "./lastfm-fetch";
+import "./lastfm-albums-fetch";
 import "./now";
 import "./twitch-live";
 import "./mmenu";

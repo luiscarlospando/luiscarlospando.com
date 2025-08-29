@@ -30,16 +30,22 @@ Algunos de los blogs y sitios personales que visito regularmente.
 | Andy Bell            | [bell.bz](https://bell.bz/){:target="_blank"}                        |
 | Anh                  | [anhvn.com](https://anhvn.com/){:target="_blank"}                    |
 | Binary Digit         | [binarydigit.city](https://binarydigit.city/){:target="_blank"}      |
+| Brandon              | [krrd.ing](https://krrd.ing/){:target="_blank"}                      |
 | Cory Dransfeldt      | [coryd.dev](https://www.coryd.dev/){:target="_blank"}                |
 | Dave Rupert          | [daverupert.com](https://daverupert.com/){:target="_blank"}          |
 | Eva Decker           | [eva.town](https://eva.town/){:target="_blank"}                      |
 | Frills               | [frills.dev](https://frills.dev/){:target="_blank"}                  |
 | James' Coffee Blog   | [jamesg.blog](https://jamesg.blog/){:target="_blank"}                |
 | Jarrod Blundy        | [heydingus.net](https://heydingus.net/){:target="_blank"}            |
+| Jason Burk           | [grepjason.sh](https://grepjason.sh/){:target="_blank"}              |
 | Jason White          | [jasonwhite.us](https://jasonwhite.us/){:target="_blank"}            |
+| JCProbably           | [jeddacp.com](https://jeddacp.com/){:target="_blank"}                |
 | Jose Munoz           | [josemunozmatos.com](https://www.josemunozmatos.com/){:target="_blank"} |
+| Lean Rada            | [leanrada.com](https://leanrada.com/){:target="_blank"}              |
+| Limes.pink           | [limes.pink](https://limes.pink/){:target="_blank"}                  |
 | LMNT                 | [lmnt.me](https://lmnt.me/){:target="_blank"}                        |
 | Marco Arment         | [marco.org](https://marco.org/){:target="_blank"}                    |
+| Matthew Cassinelli   | [matthewcassinelli.com](https://matthewcassinelli.com/){:target="_blank"} |
 | Robb Knight          | [rknight.me](https://rknight.me/){:target="_blank"}                  |
 | Sophie Koonin        | [localghost.dev](https://localghost.dev/){:target="_blank"}          |
 | Tom (ttntm)          | [ttntm.me](https://ttntm.me/){:target="_blank"}                      |
@@ -53,6 +59,7 @@ Noticias, podcasts y artículos sobre videojuegos.
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|
+| My Nintendo News     | [mynintendonews.com](https://mynintendonews.com/){:target="_blank"}  |
 | Polygon              | [polygon.com](https://www.polygon.com/){:target="_blank"}            |
 | Retronauts           | [retronauts.com](https://retronauts.com/){:target="_blank"}          |
 | Wavelengths          | [wavelengths.online](https://wavelengths.online/){:target="_blank"}  |
@@ -66,10 +73,12 @@ Algunos blogs de música que me gusta leer.
 |----------------------|----------------------------------------------------------------------|
 | Brooklyn Vegan       | [brooklynvegan.com](https://www.brooklynvegan.com/){:target="_blank"} |
 | Chorus.fm            | [chorus.fm](https://chorus.fm/){:target="_blank"}                    |
+| Consequence          | [consequence.net](https://consequence.net/){:target="_blank"}        |
 | Crucial Tracks       | [crucialtracks.org](https://www.crucialtracks.org/){:target="_blank"} |
 | GORILLA VS. BEAR     | [gorillavsbear.net](https://www.gorillavsbear.net/){:target="_blank"} |
 | Heavy Blog Is Heavy  | [heavyblogisheavy.com](https://www.heavyblogisheavy.com/){:target="_blank"} |
 | Metal Injection      | [metalinjection.net](https://metalinjection.net/){:target="_blank"}  |
+| Metal Sucks          | [metalsucks.net](https://metalsucks.net/){:target="_blank"}          |
 
 ---
 
@@ -78,8 +87,12 @@ Noticias sobre cultura general, lifestyle, tecnología, gadgets, etc.
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|
-| 404 Media            | [404media.co](https://www.404media.co/){:target="_blank"}            |
-| MacStories           | [macstories.net](https://www.macstories.net/){:target="_blank"}      |
+| 404 Media            | [404media.co](https://404media.co/){:target="_blank"}                |
+| 512 Pixels           | [512pixels.net](https://512pixels.net/){:target="_blank"}            |
+| Daring Fireball      | [daringfireball.net](https://daringfireball.net/){:target="_blank"}  |
+| Jason Kottke         | [kottke.org](https://kottke.org/){:target="_blank"}                  |
+| MacStories           | [macstories.net](https://macstories.net/){:target="_blank"}          |
+| The Verge            | [theverge.com](https://theverge.com/){:target="_blank"}              |
 
 ---
 

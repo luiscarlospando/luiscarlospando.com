@@ -47,6 +47,7 @@ function displayLastFmTopAlbums() {
                                 data-placement="top"
                                 title="${fullTitle}"
                                 alt="${fullTitle}"
+                                loading="lazy"
                             />
                             <figcaption class="figure-caption text-center">
                                 ${fullTitle}

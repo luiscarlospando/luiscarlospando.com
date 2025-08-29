@@ -29,6 +29,7 @@ function displayLastFmTopAlbums() {
         // The API returns several images. The 3rd one (index 3) is usually 'extralarge', which is ideal for this.
         const albumArtUrl = album.image[3]["#text"];
         const fullTitle = `${artistName} - ${albumTitle}`;
+        const albumUrl = album.url;
 
         // Create container element for the grid column
         const columnDiv = document.createElement("div");
@@ -37,19 +38,21 @@ function displayLastFmTopAlbums() {
 
         // Create inner HTML
         columnDiv.innerHTML = `
-                    <figure class="figure">
-                        <img
-                            src="${albumArtUrl}"
-                            class="thumb-album rounded img-fluid"
-                            data-toggle="tooltip"
-                            data-placement="top"
-                            title="${fullTitle}"
-                            alt="${fullTitle}"
-                        />
-                        <figcaption class="figure-caption text-center">
-                            ${fullTitle}
-                        </figcaption>
-                    </figure>
+                      <a href="${albumUrl}" target="_blank" rel="noopener noreferrer">
+                        <figure class="figure">
+                            <img
+                                src="${albumArtUrl}"
+                                class="thumb-album rounded img-fluid"
+                                data-toggle="tooltip"
+                                data-placement="top"
+                                title="${fullTitle}"
+                                alt="${fullTitle}"
+                            />
+                            <figcaption class="figure-caption text-center">
+                                ${fullTitle}
+                            </figcaption>
+                        </figure>
+                      </a>
                 `;
 
         // Add the new column directly to the row container

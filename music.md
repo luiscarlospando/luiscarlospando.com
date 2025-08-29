@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mis álbumes más escuchados
-description: Aquí está un log de los 12 álbumes que más he escuchado este último mes (vía Last.fm).
+description: Aquí está un log de los 15 álbumes que más he escuchado este último mes (vía Last.fm).
 image: /assets/images/logo.png
 permalink: /music/
 ---

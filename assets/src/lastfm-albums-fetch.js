@@ -1,4 +1,4 @@
-// Top 10 albums from Last.fm in the past month
+// Top 15 albums from Last.fm in the past month
 
 // Function to display Last.fm top albums
 function displayLastFmTopAlbums() {

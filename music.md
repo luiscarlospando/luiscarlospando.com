@@ -6,9 +6,5 @@ image: /assets/images/logo.png
 permalink: /musica/
 ---
 
-<div class="row">
-<div class="col-12 col-md-10 offset-md-1">
 <div class="row" id="lastfm-albums-grid">
-</div>
-</div>
 </div>

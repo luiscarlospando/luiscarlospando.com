@@ -24,27 +24,27 @@ Algunos de mis compas en la vida real tienen su propio sitio, son poquitos pero 
 Algunos de los blogs y sitios personales que visito regularmente.
 
 | Nombre               | URL                                                                  |
-|--------------------|------------------------------------------------------------------------|
-| Adam Newbold       | [notes.neatnik.net](https://notes.neatnik.net/){:target="_blank"}      |
-| Ashur Cabrera      | [multiline.co/mment](https://multiline.co/mment){:target="_blank"}     |
-| Andy Bell          | [bell.bz](https://bell.bz/){:target="_blank"}                          |
-| Anh                | [anhvn.com](https://anhvn.com/){:target="_blank"}                      |
-| Binary Digit        | [binarydigit.city](https://binarydigit.city/){:target="_blank"}          |
-| Cory Dransfeldt     | [coryd.dev](https://www.coryd.dev/){:target="_blank"}                    |
-| Dave Rupert        | [daverupert.com](https://daverupert.com/){:target="_blank"}            |
-| Eva Decker         | [eva.town](https://eva.town/){:target="_blank"}                        |
-| Frills             | [frills.dev](https://frills.dev/){:target="_blank"}                    |
-| James' Coffee Blog | [jamesg.blog](https://jamesg.blog/){:target="_blank"}                  |
-| Jarrod Blundy      | [heydingus.net](https://heydingus.net/){:target="_blank"}              |
-| Jason White        | [jasonwhite.us](https://jasonwhite.us/){:target="_blank"}              |
-| Jose Munoz         | [josemunozmatos.com](https://www.josemunozmatos.com/){:target="_blank"} |
-| LMNT               | [lmnt.me](https://lmnt.me/){:target="_blank"}                          |
-| Marco Arment       | [marco.org](https://marco.org/){:target="_blank"}                      |
-| Robb Knight        | [rknight.me](https://rknight.me/){:target="_blank"}                    |
-| Sophie Koonin      | [localghost.dev](https://localghost.dev/){:target="_blank"}            |
-| Tom (ttntm)        | [ttntm.me](https://ttntm.me/){:target="_blank"}                        |
-| Yordi Verkroost    | [yordi.me](https://yordi.me/){:target="_blank"}                        |
-| Zachary Kai        | [zacharykai.net](https://zacharykai.net/){:target="_blank"}            |
+|----------------------|----------------------------------------------------------------------|
+| Adam Newbold         | [notes.neatnik.net](https://notes.neatnik.net/){:target="_blank"}    |
+| Ashur Cabrera        | [multiline.co/mment](https://multiline.co/mment){:target="_blank"}   |
+| Andy Bell            | [bell.bz](https://bell.bz/){:target="_blank"}                        |
+| Anh                  | [anhvn.com](https://anhvn.com/){:target="_blank"}                    |
+| Binary Digit         | [binarydigit.city](https://binarydigit.city/){:target="_blank"}      |
+| Cory Dransfeldt      | [coryd.dev](https://www.coryd.dev/){:target="_blank"}                |
+| Dave Rupert          | [daverupert.com](https://daverupert.com/){:target="_blank"}          |
+| Eva Decker           | [eva.town](https://eva.town/){:target="_blank"}                      |
+| Frills               | [frills.dev](https://frills.dev/){:target="_blank"}                  |
+| James' Coffee Blog   | [jamesg.blog](https://jamesg.blog/){:target="_blank"}                |
+| Jarrod Blundy        | [heydingus.net](https://heydingus.net/){:target="_blank"}            |
+| Jason White          | [jasonwhite.us](https://jasonwhite.us/){:target="_blank"}            |
+| Jose Munoz           | [josemunozmatos.com](https://www.josemunozmatos.com/){:target="_blank"} |
+| LMNT                 | [lmnt.me](https://lmnt.me/){:target="_blank"}                        |
+| Marco Arment         | [marco.org](https://marco.org/){:target="_blank"}                    |
+| Robb Knight          | [rknight.me](https://rknight.me/){:target="_blank"}                  |
+| Sophie Koonin        | [localghost.dev](https://localghost.dev/){:target="_blank"}          |
+| Tom (ttntm)          | [ttntm.me](https://ttntm.me/){:target="_blank"}                      |
+| Yordi Verkroost      | [yordi.me](https://yordi.me/){:target="_blank"}                      |
+| Zachary Kai          | [zacharykai.net](https://zacharykai.net/){:target="_blank"}          |
 
 ---
 
@@ -52,10 +52,10 @@ Algunos de los blogs y sitios personales que visito regularmente.
 Noticias, podcasts y artículos sobre videojuegos.
 
 | Nombre               | URL                                                                  |
-|--------------------|------------------------------------------------------------------------|
-| Polygon            | [polygon.com](https://www.polygon.com/){:target="_blank"}              |
-| Retronauts         | [retronauts.com](https://retronauts.com/){:target="_blank"}            |
-| Wavelengths        | [wavelengths.online](https://wavelengths.online/){:target="_blank"}    |
+|----------------------|----------------------------------------------------------------------|
+| Polygon              | [polygon.com](https://www.polygon.com/){:target="_blank"}            |
+| Retronauts           | [retronauts.com](https://retronauts.com/){:target="_blank"}          |
+| Wavelengths          | [wavelengths.online](https://wavelengths.online/){:target="_blank"}  |
 
 ---
 

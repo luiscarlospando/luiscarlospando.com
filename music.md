@@ -6,5 +6,6 @@ image: /assets/images/logo.png
 permalink: /musica/
 ---
 
-<div class="row" id="lastfm-albums-grid">
-</div>
+<p class="text-center">{{ page.description }}</p>
+
+<div class="row" id="lastfm-albums-grid"></div>

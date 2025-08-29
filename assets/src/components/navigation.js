@@ -124,9 +124,9 @@ function Navigation() {
     },
     {
       id: "9",
-      url: "https://luiscarlospando.com/projects/",
-      icon: "fa-solid fa-box",
-      text: "Proyectos",
+      url: "https://luiscarlospando.com/music/",
+      icon: "fa-solid fa-headphones",
+      text: "Mis álbumes más escuchados",
       subButtons: [],
     },
     {

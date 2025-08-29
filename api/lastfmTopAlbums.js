@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     const fetch = (await import("node-fetch")).default;
 
     const response = await fetch(
-      `https://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=${username}&api_key=${apiKey}&format=json&period=1month&limit=15`,
+      `https://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=${username}&api_key=${apiKey}&format=json&period=1month&limit=18`,
     );
 
     if (!response.ok) {

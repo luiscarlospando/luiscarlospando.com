@@ -40,7 +40,7 @@ function displayLastFmTopAlbums() {
                     <figure class="figure">
                         <img
                             src="${albumArtUrl}"
-                            class="rounded img-fluid"
+                            class="thumb-album rounded img-fluid"
                             data-toggle="tooltip"
                             data-placement="top"
                             title="${fullTitle}"

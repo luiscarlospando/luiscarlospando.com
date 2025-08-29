@@ -734,3 +734,16 @@ code {
         }
     }
 }
+
+// Last.fm top albums thumbnails
+.thumb-album {
+    @include transition;
+    display: block;
+    width: 100%;
+    height: auto;
+
+    &:hover,
+    &:focus {
+        transform: translateY(-5px);
+    }
+}

@@ -20,8 +20,17 @@ Algunos de mis compas en la vida real tienen su propio sitio, son poquitos pero 
 
 ---
 
-## <i class="fa-solid fa-user"></i> Sitios personales
-Algunos de los blogs y sitios personales que visito regularmente.
+## <i class="fa-solid fa-user"></i> Sitios y blogs personales (Español 🇲🇽/🇪🇸)
+Algunos de los sitios y blogs personales en inglés que más me gustan (como se podrán dan cuenta, apenas estoy comenzando a descubrir contenido en español).
+
+| Nombre               | URL                                                                  |
+|----------------------|----------------------------------------------------------------------|
+| Matizeta             | [matizeta.com](https://matizeta.com/){:target="_blank"}              |
+
+---
+
+## <i class="fa-solid fa-user"></i> Sitios y blogs personales (English 🇺🇸/🇬🇧)
+Algunos de los sitios y blogs personales en inglés que más me gustan.
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|

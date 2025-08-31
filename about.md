@@ -15,11 +15,11 @@ permalink: /acerca-de/
 
 ## El vato detrás de todo esto
 
-Hola otra vez 👋. Si llegaste hasta acá es porque quieres conocer un poco más de mí, y la neta me da mucho gusto que te hayas tomado el tiempo.
+Si llegaste aquí es porque quieres conocer un poco más de mí, y me da mucho gusto que te hayas tomado el tiempo.
 
-Soy Luis Carlos Pando, pero todos me conocen como `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊). Nací, crecí y vivo en Chihuahua, México 🇲🇽, una ciudad que amo profundamente. No solo por ser mi hogar, sino por toda la cultura que respiramos aquí, la comida que nos une 🌮, y esa influencia gringa que nos llega por la cercanía con Estados Unidos y que de alguna manera nos hace únicos.
+Soy Luis Carlos Pando 👋, pero todos me conocen como `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊). Nací, crecí y vivo en Chihuahua, México 🇲🇽, una ciudad que amo profundamente. No solo por ser mi hogar, sino por toda la cultura que respiramos aquí, la comida que nos une 🌮, y esa influencia gringa que nos llega por la cercanía con Estados Unidos y que de alguna manera nos hace únicos.
 
-## Los primeros indicios
+## Mis inicios
 
 Desde que tengo memoria, siempre he tenido una curiosidad insaciable por entender cómo funcionan las cosas 🔧. De niño era ese escuincle que desarmaba sus juguetes para ver qué había adentro, y aunque mis papás se desesperaran viendo pedazos regados por toda la casa, yo estaba fascinado descubriendo engranajes, circuitos y mecanismos. Esa curiosidad nunca se fue; simplemente evolucionó hacia las computadoras y el Internet.
 

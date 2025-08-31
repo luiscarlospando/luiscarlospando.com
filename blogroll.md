@@ -25,6 +25,7 @@ Algunos de los sitios y blogs personales en español que más me gustan (como se
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|
+| Manu Mateos          | [macram.es](https://www.macram.es/){:target="_blank"}                |
 | Matizeta             | [matizeta.com](https://matizeta.com/){:target="_blank"}              |
 
 ---

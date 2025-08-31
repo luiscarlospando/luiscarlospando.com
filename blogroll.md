@@ -21,7 +21,7 @@ Algunos de mis compas en la vida real tienen su propio sitio, son poquitos pero 
 ---
 
 ## <i class="fa-solid fa-user"></i> Sitios y blogs personales (Español 🇲🇽/🇪🇸)
-Algunos de los sitios y blogs personales en inglés que más me gustan (como se podrán dan cuenta, apenas estoy comenzando a descubrir contenido en español).
+Algunos de los sitios y blogs personales en español que más me gustan (como se podrán dan cuenta, apenas estoy comenzando a descubrir contenido en español).
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|

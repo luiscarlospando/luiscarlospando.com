@@ -193,6 +193,11 @@ footer {
     opacity: 0.5;
 }
 
+#greeting-emoji {
+    font-size: 1.6rem;
+    vertical-align: middle;
+}
+
 #dismissable-alert {
     border-top: 1px solid $componentBorderColor;
     position: fixed;

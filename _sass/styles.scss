@@ -119,11 +119,15 @@ video {
 }
 
 figure {
-    margin: 0 0 1rem !important;
+    margin-bottom: 1rem !important;
 
     img {
         border-radius: $borderRadius !important;
     }
+}
+
+figure.aligncenter {
+    margin: 0 auto 1rem !important;
 }
 
 blockquote {

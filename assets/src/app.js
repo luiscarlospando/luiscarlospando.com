@@ -15,7 +15,7 @@ import "./prism";
 import "./jquery.mmenu.min.all";
 import "./statuslog";
 import "./last-updated-at";
-import "./wp-api";
+import "./blog-posts";
 import "./links";
 import "./lastfm-fetch";
 import "./lastfm-albums-fetch";

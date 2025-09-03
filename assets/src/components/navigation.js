@@ -187,7 +187,7 @@ function Navigation() {
     {
       id: "15",
       url: "https://luiscarlospando.com/blogroll/",
-      icon: "fa-regular fa-address-book",
+      icon: "fa-solid fa-address-book",
       text: "Blogroll",
       subButtons: [],
     },

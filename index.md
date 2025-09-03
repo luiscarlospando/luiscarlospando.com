@@ -84,7 +84,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][5] para conecer 
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/blogroll/" class="btn btn-primary mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Revisa mis sitios y blogs favoritos" title="Revisa mis sitios y blogs favoritos">
+        <a href="/blogroll/" class="btn btn-primary mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Revisa mis blogs y websites favoritos" title="Revisa mis blogs y websites favoritos">
             <i class="fa-solid fa-address-book"></i> Blogroll
         </a>
     </li>

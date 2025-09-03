@@ -79,12 +79,12 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][5] para conecer 
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/contacto/" class="btn btn-primary mb-2 mb-lg-0" data-toggle="tooltip" data-placement="top" aria-label="Deja un mensaje en mi guestbook" title="Deja un mensaje en mi guestbook">
+        <a href="/guestbook/" class="btn btn-primary mb-2 mb-lg-0" data-toggle="tooltip" data-placement="top" aria-label="Deja un mensaje en mi guestbook" title="Deja un mensaje en mi guestbook">
             <i class="fa-solid fa-file-signature"></i> Guestbook
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/contacto/" class="btn btn-primary mb-2 mb-lg-0" data-toggle="tooltip" data-placement="top" aria-label="Revisa mis sitios y blogs favoritos" title="Revisa mis sitios y blogs favoritos">
+        <a href="/blogroll/" class="btn btn-primary mb-2 mb-lg-0" data-toggle="tooltip" data-placement="top" aria-label="Revisa mis sitios y blogs favoritos" title="Revisa mis sitios y blogs favoritos">
             <i class="fa-solid fa-address-book"></i> Blogroll
         </a>
     </li>

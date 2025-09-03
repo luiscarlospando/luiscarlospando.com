@@ -11,9 +11,9 @@ image: /assets/images/logo.png
 
 <span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando, aka `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊), un vato de [Chihuahua, México][1]{:target="_blank"} que [hace cosas para el Internet][3]{:rel="me" target="_blank"}. Soy amante de la música, especialmente el punk, metal y el hardcore. Algunos tal vez me ubiquen por haber creado [Hitz-Musik.net][4]{:target="_blank"} (RIP 🪦) junto a unos buenos amigos. "El Hitz" era una comunidad dedicada a apoyar la escena local de Chihuahua. Estaba chido el cotorreo de armar toquines pero de eso solo me quedan puros buenos recuerdos.
 
+<div class="collapse" id="collapseIntro">
 Hice mi sitio personal por mi amor por las computadoras 👨‍💻 y el Internet 🌐. Tuve como una necesidad de tener [mi propio espacio en la web][5], un lugar donde pudiera hablar de lo que yo quisiera, experimentar sin miedo a equivocarme, compartir y aprender. Y este sitio es básicamente eso, un lugar que concentra todo lo que soy y <strong>todo lo que hago</strong>.
 
-<div class="collapse" id="collapseIntro">
 No es ningún secreto el amor que le tengo a Nintendo 🕹️ y [aquí][7] llevo un registro de los videojuegos que tengo en mi colección. También armé la comunidad de [Mode 7 🎮 🕹️][8] (✨ *All are welcome!* ✨) en Discord junto a unos amigos. Ahí platicamos de nuestros juegos favoritos, cotorreamos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][9]. Todos los jueves en la noche [transmitimos el torneo][10].
 
 De vez en cuando comparto cosas en [Mastodon][11]{:rel="me" target="_blank"}, [Bluesky][12]{:rel="me" target="_blank"}  y en [omg.lol][13]{:rel="me" target="_blank"}.
@@ -44,6 +44,43 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][5] para conecer 
 </small>
 </a>
 </div>
+
+## <i class="fa-solid fa-signs-post"></i> ¿Por dónde empezar?
+
+<ul class="list-inline">
+    <li class="list-inline-item">
+        <a href="/acerca-de/" class="btn btn-primary btn-sm">
+            <i class="fa-solid fa-circle-info"></i> Acerca de
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="https://blog.luiscarlospando.com/" class="btn btn-primary btn-sm">
+            <i class="fa-solid fa-file-pen"></i> Blog
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="/photos/" class="btn btn-primary btn-sm">
+            <i class="fa-solid fa-camera"></i> Fotos
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="/games/" class="btn btn-primary btn-sm">
+            <i class="fa-solid fa-gamepad"></i> Games
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="/contacto/" class="btn btn-primary btn-sm">
+            <i class="fa-solid fa-address-card"></i> Contacto
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="/contacto/" class="btn btn-primary btn-sm">
+            <i class="fa-solid fa-square-rss"></i> Suscríbete
+        </a>
+    </li>
+</ul>
+
+---
 
 <ul class="list-inline">
     <li class="list-inline-item">

@@ -12,79 +12,79 @@ function Navigation() {
     },
     {
       id: "2",
+      url: "https://luiscarlospando.com/acerca-de/",
+      icon: "fa-solid fa-circle-info",
+      text: "Acerca de",
+      subButtons: [],
+    },
+    {
+      id: "3",
+      url: "https://luiscarlospando.com/now/",
+      icon: "fa-solid fa-clock",
+      text: "Now",
+      subButtons: [],
+    },
+    {
+      id: "4",
       url: "https://blog.luiscarlospando.com/",
       icon: "fa-solid fa-file-pen",
       text: "Blog",
       subButtons: [
         {
-          id: "2-1",
+          id: "4-1",
           url: "https://blog.luiscarlospando.com/personal/",
           icon: "fa-solid fa-user",
           text: "Personal",
         },
         {
-          id: "2-2",
+          id: "4-2",
           url: "https://blog.luiscarlospando.com/musica/",
           icon: "fa-solid fa-music",
           text: "Música",
         },
         {
-          id: "2-3",
+          id: "4-3",
           url: "https://blog.luiscarlospando.com/gaming/",
           icon: "fa-solid fa-gamepad",
           text: "Gaming",
         },
         {
-          id: "2-4",
+          id: "4-4",
           url: "https://blog.luiscarlospando.com/tech/",
           icon: "fa-solid fa-computer",
           text: "Tech",
         },
         {
-          id: "2-5",
+          id: "4-5",
           url: "https://blog.luiscarlospando.com/coding/",
           icon: "fa-solid fa-code",
           text: "Coding",
         },
         {
-          id: "2-6",
+          id: "4-6",
           url: "https://blog.luiscarlospando.com/diseno/",
           icon: "fa-solid fa-pen-ruler",
           text: "Diseño",
         },
         {
-          id: "2-7",
+          id: "4-7",
           url: "https://blog.luiscarlospando.com/todo-lo-demas/",
           icon: "fa-solid fa-arrow-pointer",
           text: "Todo lo demás",
         },
         {
-          id: "2-8",
+          id: "4-8",
           url: "https://blog.luiscarlospando.com/author/me/",
           icon: "fa-solid fa-folder-open",
           text: "Archivos del blog",
         },
         {
-          id: "2-9",
+          id: "4-9",
           url: "https://blog.luiscarlospando.com/hashtags/",
           icon: "fa-solid fa-hashtag",
           text: "Explorar por hashtag",
         },
       ],
-    },
-    {
-      id: "3",
-      url: "https://luiscarlospando.com/links/",
-      icon: "fa-solid fa-link",
-      text: "Links",
-      subButtons: [],
-    },
-    {
-      id: "4",
-      url: "https://luiscarlospando.com/contacto/",
-      icon: "fa-solid fa-address-card",
-      text: "Contacto",
-      subButtons: [],
     },
     {
       id: "5",
@@ -95,12 +95,46 @@ function Navigation() {
     },
     {
       id: "6",
+      url: "https://luiscarlospando.com/music/",
+      icon: "fa-solid fa-headphones",
+      text: "Mis álbumes más escuchados",
+      subButtons: [],
+    },
+    {
+      id: "7",
+      url: "https://luiscarlospando.com/games/",
+      icon: "fa-solid fa-gamepad",
+      text: "Games",
+      subButtons: [
+        {
+          id: "7-1",
+          url: "https://luiscarlospando.com/games/mario-kart/",
+          icon: "fa-solid fa-gamepad",
+          text: "Mario Kart 8 Deluxe (Mode 7 Grand Prix)",
+        },
+        {
+          id: "7-2",
+          url: "https://luiscarlospando.com/games/splatoon/",
+          icon: "fa-solid fa-gamepad",
+          text: "Splatoon 3",
+        },
+      ],
+    },
+    {
+      id: "8",
+      url: "https://luiscarlospando.com/live/",
+      icon: "fa-solid fa-video",
+      text: "Live",
+      subButtons: [],
+    },
+    {
+      id: "9",
       url: "https://luiscarlospando.com/developer/",
       icon: "fa-solid fa-code",
       text: "Development Stuff",
       subButtons: [
         {
-          id: "6-1",
+          id: "9-1",
           url: "https://luiscarlospando.com/keys/",
           icon: "fa-solid fa-key",
           text: "Llaves públicas",
@@ -109,41 +143,34 @@ function Navigation() {
       ],
     },
     {
-      id: "7",
-      url: "https://luiscarlospando.com/now/",
-      icon: "fa-solid fa-clock",
-      text: "Now",
-      subButtons: [],
-    },
-    {
-      id: "8",
+      id: "10",
       url: "https://luiscarlospando.com/uses/",
       icon: "fa-solid fa-wrench",
       text: "Uses",
       subButtons: [],
     },
     {
-      id: "9",
-      url: "https://luiscarlospando.com/music/",
-      icon: "fa-solid fa-headphones",
-      text: "Mis álbumes más escuchados",
+      id: "11",
+      url: "https://luiscarlospando.com/contacto/",
+      icon: "fa-solid fa-address-card",
+      text: "Contacto",
       subButtons: [],
     },
     {
-      id: "10",
+      id: "12",
       url: "https://luiscarlospando.com/guestbook/",
       icon: "fa-solid fa-file-signature",
       text: "Guestbook",
       subButtons: [],
     },
     {
-      id: "11",
+      id: "13",
       url: "https://luiscarlospando.com/discord/",
       icon: "fa-brands fa-discord",
       text: "Discord (Mode 7)",
       subButtons: [
         {
-          id: "11-1",
+          id: "13-1",
           url: "https://blog.luiscarlospando.com/hashtag/mode-7-podcast/",
           icon: "fa-solid fa-podcast",
           text: "Mode 7 Podcast",
@@ -151,116 +178,103 @@ function Navigation() {
       ],
     },
     {
-      id: "12",
-      url: "https://luiscarlospando.com/games/",
-      icon: "fa-solid fa-gamepad",
-      text: "Games",
-      subButtons: [
-        {
-          id: "12-1",
-          url: "https://luiscarlospando.com/games/mario-kart/",
-          icon: "fa-solid fa-gamepad",
-          text: "Mario Kart 8 Deluxe (Mode 7 Grand Prix)",
-        },
-        {
-          id: "12-2",
-          url: "https://luiscarlospando.com/games/splatoon/",
-          icon: "fa-solid fa-gamepad",
-          text: "Splatoon 3",
-        },
-      ],
-    },
-    {
-      id: "13",
-      url: "https://luiscarlospando.com/live/",
-      icon: "fa-solid fa-video",
-      text: "Live",
+      id: "14",
+      url: "https://luiscarlospando.com/links/",
+      icon: "fa-solid fa-link",
+      text: "Links",
       subButtons: [],
     },
     {
-      id: "14",
+      id: "15",
       url: "https://luiscarlospando.com/blogroll/",
       icon: "fa-regular fa-address-book",
       text: "Blogroll",
       subButtons: [],
     },
     {
-      id: "15",
+      id: "16",
       url: "https://luiscarlospando.com/suscribete/",
       icon: "fa-solid fa-square-rss",
       text: "Suscríbete",
       subButtons: [
         {
-          id: "15-1",
+          id: "16-1",
           url: "https://blog.luiscarlospando.com/rss/",
           icon: "fa-solid fa-square-rss",
           text: "Blog",
         },
         {
-          id: "15-2",
+          id: "16-2",
           url: "https://blog.luiscarlospando.com/photos/rss",
           icon: "fa-solid fa-square-rss",
           text: "Fotos",
         },
         {
-          id: "15-3",
+          id: "16-3",
           url: "https://bg.raindrop.io/rss/public/50598757",
           icon: "fa-solid fa-square-rss",
           text: "Links",
         },
         {
-          id: "15-4",
+          id: "16-4",
           url: "https://hachyderm.io/@luiscarlospando",
           icon: "fa-brands fa-mastodon",
           text: "Mastodon",
         },
         {
-          id: "15-5",
+          id: "16-5",
           url: "https://luiscarlospando.com/newsletter/",
           icon: "fa-solid fa-envelope",
           text: "Newsletter",
         },
       ],
     },
-    {
-      id: "16",
-      url: "https://luiscarlospando.com/acerca-de/",
-      icon: "fa-solid fa-circle-info",
-      text: "Acerca de",
-      subButtons: [],
-    },
   ];
 
   return (
     <ul>
+           {" "}
       {siteButtons.map((siteButton, i) => {
         if (siteButton.subButtons.length === 0) {
           return (
             <li key={i}>
+                           {" "}
               <a href={siteButton.url}>
-                <i className={siteButton.icon}></i> {siteButton.text}
+                                <i className={siteButton.icon}></i>{" "}
+                {siteButton.text}             {" "}
               </a>
+                         {" "}
             </li>
           );
         } else {
           return (
             <li key={i}>
+                           {" "}
               <a href={siteButton.url}>
-                <i className={siteButton.icon}></i> {siteButton.text}
+                                <i className={siteButton.icon}></i>{" "}
+                {siteButton.text}             {" "}
               </a>
+                           {" "}
               <ul>
+                               {" "}
                 {siteButton.subButtons.map((subButton, i) => (
                   <li key={i}>
+                                       {" "}
                     <a href={subButton.url}>
-                      <i className={subButton.icon}></i> {subButton.text}
+                                            <i className={subButton.icon}></i>{" "}
+                      {subButton.text}                   {" "}
                     </a>
+                                     {" "}
                   </li>
                 ))}
+                             {" "}
               </ul>
+                         {" "}
             </li>
           );
         }
       })}
+         {" "}
     </ul>
   );
 }

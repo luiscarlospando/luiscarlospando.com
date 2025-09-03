@@ -143,10 +143,6 @@
         #version {
             .list-inline-item {
                 margin-right: 0.5rem !important;
-
-                &:not(:last-child) {
-                    margin-right: 0 !important;
-                }
             }
         }
     }

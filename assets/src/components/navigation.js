@@ -233,48 +233,34 @@ function Navigation() {
 
   return (
     <ul>
-           {" "}
       {siteButtons.map((siteButton, i) => {
         if (siteButton.subButtons.length === 0) {
           return (
             <li key={i}>
-                           {" "}
               <a href={siteButton.url}>
-                                <i className={siteButton.icon}></i>{" "}
-                {siteButton.text}             {" "}
+                <i className={siteButton.icon}></i> {siteButton.text}
               </a>
-                         {" "}
             </li>
           );
         } else {
           return (
             <li key={i}>
-                           {" "}
               <a href={siteButton.url}>
-                                <i className={siteButton.icon}></i>{" "}
-                {siteButton.text}             {" "}
+                <i className={siteButton.icon}></i> {siteButton.text}
               </a>
-                           {" "}
               <ul>
-                               {" "}
                 {siteButton.subButtons.map((subButton, i) => (
                   <li key={i}>
-                                       {" "}
                     <a href={subButton.url}>
-                                            <i className={subButton.icon}></i>{" "}
-                      {subButton.text}                   {" "}
+                      <i className={subButton.icon}></i> {subButton.text}
                     </a>
-                                     {" "}
                   </li>
                 ))}
-                             {" "}
               </ul>
-                         {" "}
             </li>
           );
         }
       })}
-         {" "}
     </ul>
   );
 }

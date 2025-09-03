@@ -5,7 +5,7 @@ description: Este URL ha sido mi hogar en línea desde octubre del 2014 aproxima
 permalink: /acerca-de/
 ---
 
-<h2 class="subtitulo text-center"><small>{{ site.title }} <code>v{{ site.version }}</code></small></h2>
+<h2 class="subtitulo text-center"><small>{{ site.capitalized_domain }} <code>v{{ site.version }}</code></small></h2>
 
 {{ page.description }}
 

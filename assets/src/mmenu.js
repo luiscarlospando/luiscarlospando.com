@@ -79,8 +79,8 @@
       classes: "mm-slide",
       slidingSubmenus: true,
       header: {
-        title: "LuisCarlosPando.com",
-        add: true,
+        title: "Menú",
+        add: false,
         update: true,
       },
       footer: {

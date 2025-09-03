@@ -54,7 +54,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/now/" class="btn btn-primary mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Descubre en qué ando actualmente" title="Descubre en qué ando actualmente">
+        <a href="/now/" class="btn btn-primary mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Ve en qué ando actualmente" title="Ve en qué ando actualmente">
             <i class="fa-solid fa-clock"></i> Now
         </a>
     </li>

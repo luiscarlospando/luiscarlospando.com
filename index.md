@@ -22,7 +22,7 @@ También llevo un registro de toda [la música que escucho 🎧][14]{:rel="me" t
 
 [Aquí ando compartiendo mis fotos][6] 📸 y tengo un guestbook 📖, que si te animas, puedes [pasar a firmarlo][16] y saludar. ✌️
 
-Si te quedaste con ganas de más, [pasa a mi página Acerca de][5] para conecer más de mi.
+Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer más de mi.
 </div>
 
 <button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">

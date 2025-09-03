@@ -69,11 +69,6 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][5] para conecer 
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/games/" class="btn btn-primary mb-2 mb-lg-0" data-toggle="tooltip" data-placement="top" aria-label="Revisa lo que estoy jugando actualmente" title="Revisa lo que estoy jugando actualmente">
-            <i class="fa-solid fa-gamepad"></i> Games
-        </a>
-    </li>
-    <li class="list-inline-item">
         <a href="/contacto/" class="btn btn-primary mb-2 mb-lg-0" data-toggle="tooltip" data-placement="top" aria-label="Revisa las maneras de ponerte en contacto conmigo" title="Revisa las maneras de ponerte en contacto conmigo">
             <i class="fa-solid fa-address-card"></i> Contacto
         </a>
@@ -89,7 +84,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][5] para conecer 
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/suscribete/" class="btn btn-primary btn-sm mb-2 mb-lg-0" data-toggle="tooltip" data-placement="top" aria-label="Ve las maneras en las que puedes suscribirte" title="Ve las maneras en las que puedes suscribirte">
+        <a href="/suscribete/" class="btn btn-primary mb-2 mb-lg-0" data-toggle="tooltip" data-placement="top" aria-label="Ve las maneras en las que puedes suscribirte" title="Ve las maneras en las que puedes suscribirte">
             <i class="fa-solid fa-square-rss"></i> Suscríbete
         </a>
     </li>

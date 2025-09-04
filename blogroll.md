@@ -19,6 +19,8 @@ permalink: /blogroll/
 - [🎙️ Podcasts](#podcasts)
 - [📺 Canales de YouTube favoritos](#canales-de-youtube)
 
+---
+
 ## <i id="amigos-en-la-vida-real" class="fa-solid fa-users"></i> Amigos (en la vida real)
 Algunos de mis compas en la vida real tienen su propio sitio, son poquitos pero algo es algo.
 

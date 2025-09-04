@@ -60,7 +60,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
     </li>
     <li class="list-inline-item">
         <a href="https://blog.luiscarlospando.com/" class="btn btn-primary btn-sm mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Explora mi blog" title="Explora mi blog">
-            <i class="fa-solid fa-file-pen"></i> Blog
+            <i class="fa-solid fa-message"></i> Blog
         </a>
     </li>
     <li class="list-inline-item">

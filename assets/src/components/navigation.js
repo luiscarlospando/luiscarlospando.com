@@ -27,7 +27,7 @@ function Navigation() {
     {
       id: "4",
       url: "https://blog.luiscarlospando.com/",
-      icon: "fa-solid fa-file-pen",
+      icon: "fa-solid fa-message",
       text: "Blog",
       subButtons: [
         {

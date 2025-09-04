@@ -158,7 +158,7 @@ function renderBookmarks(items) {
       }
 
       return `
-    <li>
+    <li class="mb-3">
       <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener noreferrer">
         <time datetime="${machineReadableDate}">
           ${formatDate(item.created)}
@@ -207,7 +207,7 @@ function renderPaginatedLinks() {
       }
 
       return `
-    <li>
+    <li class="mb-3">
       <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener noreferrer">
         <time datetime="${machineReadableDate}">
           ${formatDate(item.created)}

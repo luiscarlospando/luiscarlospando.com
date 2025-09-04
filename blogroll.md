@@ -8,7 +8,18 @@ permalink: /blogroll/
 
 <p class="text-center">{{ page.description }}</p>
 
-## <i class="fa-solid fa-users"></i> Amigos (en la vida real)
+## Tabla de contenido
+
+- [🫂 Amigos (en la vida real)](#amigos-en-la-vida-real)
+- [🌐 Sitios y blogs personales (Español 🇲🇽/🇪🇸)](#sitios-y-blogs-personales-español)
+- [🌐 Sitios y blogs personales (Inglés 🇺🇸)](#sitios-y-blogs-personales-ingles)
+- [🎮 Gaming](#gaming)
+- [🎵 Música](#musica)
+- [📰 Noticias](#noticias)
+- [🎙️ Podcasts](#podcasts)
+- [📺 Canales de YouTube favoritos](#canales-de-youtube)
+
+## <i id="amigos-en-la-vida-real" class="fa-solid fa-users"></i> Amigos (en la vida real)
 Algunos de mis compas en la vida real tienen su propio sitio, son poquitos pero algo es algo.
 
 | Nombre               | URL                                                                  |
@@ -20,7 +31,7 @@ Algunos de mis compas en la vida real tienen su propio sitio, son poquitos pero 
 
 ---
 
-## <i class="fa-solid fa-user"></i> Sitios y blogs personales (Español 🇲🇽/🇪🇸)
+## <i id="sitios-y-blogs-personales-español" class="fa-solid fa-user"></i> Sitios y blogs personales (Español 🇲🇽/🇪🇸)
 Algunos de los sitios y blogs personales en español que más me gustan (como se podrán dan cuenta, apenas estoy comenzando a descubrir contenido en español).
 
 | Nombre               | URL                                                                  |
@@ -30,7 +41,7 @@ Algunos de los sitios y blogs personales en español que más me gustan (como se
 
 ---
 
-## <i class="fa-solid fa-user"></i> Sitios y blogs personales (English 🇺🇸/🇬🇧)
+## <i id="sitios-y-blogs-personales-ingles" class="fa-solid fa-user"></i> Sitios y blogs personales (English 🇺🇸/🇬🇧)
 Algunos de los sitios y blogs personales en inglés que más me gustan.
 
 | Nombre               | URL                                                                  |
@@ -64,7 +75,7 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 
 ---
 
-## <i class="fa-solid fa-gamepad"></i> Gaming
+## <i id="gaming" class="fa-solid fa-gamepad"></i> Gaming
 Noticias, podcasts y artículos sobre videojuegos.
 
 | Nombre               | URL                                                                  |
@@ -76,7 +87,7 @@ Noticias, podcasts y artículos sobre videojuegos.
 
 ---
 
-## <i class="fa-solid fa-music"></i> Música
+## <i id="musica" class="fa-solid fa-music"></i> Música
 Algunos blogs de música que me gusta leer.
 
 | Nombre               | URL                                                                  |
@@ -92,7 +103,7 @@ Algunos blogs de música que me gusta leer.
 
 ---
 
-## <i class="fa-solid fa-newspaper"></i> Noticias
+## <i id="noticias" class="fa-solid fa-newspaper"></i> Noticias
 Noticias sobre cultura general, lifestyle, tecnología, gadgets, etc.
 
 | Nombre               | URL                                                                  |
@@ -106,7 +117,7 @@ Noticias sobre cultura general, lifestyle, tecnología, gadgets, etc.
 
 ---
 
-## <i class="fa-solid fa-podcast"></i> Podcasts
+## <i id="podcasts" class="fa-solid fa-podcast"></i> Podcasts
 Podcasts que escucho actualmente.
 
 | Nombre               | URL                                                                  |
@@ -118,7 +129,7 @@ Podcasts que escucho actualmente.
 
 <ul class="list-inline">
     <li class="list-inline-item">
-        <h2><i class="fa-brands fa-youtube"></i> Canales de YouTube favoritos</h2>
+        <h2><i id="canales-de-youtube" class="fa-brands fa-youtube"></i> Canales de YouTube favoritos</h2>
     </li>
     <li class="list-inline-item">
         <button class="btn btn-primary btn-sm collapsed" data-toggle="collapse" data-target="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne" style="vertical-align: super;">

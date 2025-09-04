@@ -303,9 +303,8 @@ figcaption,
     overflow: hidden;
 }
 
-// Estilo para quitar el margen inferior que agrega el plugin Arve a los videos
 .arve {
-    margin-bottom: 0 !important;
+    margin-bottom: 1rem;
 }
 
 .badge-podcast {

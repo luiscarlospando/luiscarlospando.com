@@ -159,7 +159,7 @@ function Navigation() {
     {
       id: "12",
       url: "https://luiscarlospando.com/guestbook/",
-      icon: "fa-solid fa-file-signature",
+      icon: "fa-solid fa-pen-nib",
       text: "Guestbook",
       subButtons: [],
     },
@@ -187,7 +187,7 @@ function Navigation() {
     {
       id: "15",
       url: "https://luiscarlospando.com/blogroll/",
-      icon: "fa-solid fa-address-book",
+      icon: "fa-solid fa-bookmark",
       text: "Blogroll",
       subButtons: [],
     },

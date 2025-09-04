@@ -30,7 +30,7 @@ last-modified-at: <span id="last-updated-at">2025-08-06 16:50:00</span>
 <div class="card mt-4 mb-3">
 <div class="card-header text-center">
 <h4 class="card-title">
-<i class="fa-solid fa-file-signature"></i> Guestbook
+<i class="fa-solid fa-pen-nib"></i> Guestbook
 </h4>
 </div>
 <div class="card-body text-center">

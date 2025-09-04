@@ -12,7 +12,7 @@ permalink: /blogroll/
 
 - [🫂 Amigos (en la vida real)](#amigos-en-la-vida-real)
 - [🙋 Sitios y blogs personales (Español 🇲🇽/🇪🇸)](#sitios-y-blogs-personales-español)
-- [🙋 Sitios y blogs personales (Inglés 🇺🇸)](#sitios-y-blogs-personales-ingles)
+- [🙋 Sitios y blogs personales (Inglés 🇺🇸/🇬🇧)](#sitios-y-blogs-personales-ingles)
 - [🎮 Gaming](#gaming)
 - [🎵 Música](#musica)
 - [📰 Noticias](#noticias)

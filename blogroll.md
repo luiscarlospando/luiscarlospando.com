@@ -41,7 +41,7 @@ Algunos de los sitios y blogs personales en español que más me gustan (como se
 
 ---
 
-## <i id="sitios-y-blogs-personales-ingles" class="fa-solid fa-user"></i> Sitios y blogs personales (English 🇺🇸/🇬🇧)
+## <i id="sitios-y-blogs-personales-ingles" class="fa-solid fa-user"></i> Sitios y blogs personales (Inglés 🇺🇸/🇬🇧)
 Algunos de los sitios y blogs personales en inglés que más me gustan.
 
 | Nombre               | URL                                                                  |

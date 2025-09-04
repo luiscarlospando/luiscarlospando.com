@@ -84,7 +84,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/links/" class="btn btn-primary btn-sm mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Lista de cosas que me encuentro navegando en Internet" title="Lista de cosas que me encuentro navegando en Internet">
+        <a href="/links/" class="btn btn-primary btn-sm mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Colección de links que me encuentro navegando en Internet" title="Colección de links que me encuentro navegando en Internet">
             <i class="fa-solid fa-link"></i> Links
         </a>
     </li>
@@ -118,7 +118,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
 
 <ul class="list-inline">
     <li class="list-inline-item">
-        <h2><i class="fa-solid fa-link"></i> Links <i class="ico-links-info fa-solid fa-circle-info"  data-toggle="tooltip" data-placement="top" data-html="true" title="Esta es una lista de cosas que me encuentro navegando en Internet. Imagina que estos links son como tipo retweets. La mayoría de los links son en inglés."></i></h2>
+        <h2><i class="fa-solid fa-link"></i> Links <i class="ico-links-info fa-solid fa-circle-info"  data-toggle="tooltip" data-placement="top" data-html="true" title="Esta es mi colección de links interesantes que me encuentro navegando en Internet. Piensa en ellos como si fueran retweets. La mayoría de los links son en inglés."></i></h2>
     </li>
     <li class="list-inline-item">
         <a href="https://bg.raindrop.io/rss/public/50598757" class="btn btn-primary btn-sm" style="vertical-align: super;">

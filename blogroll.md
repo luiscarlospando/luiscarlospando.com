@@ -26,10 +26,10 @@ Algunos de mis compas en la vida real tienen su propio sitio, son poquitos pero 
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|
-| Bart                 | [yosoybartsolo.com](https://www.yosoybartsolo.com/){:target="_blank"} |
-| Juan Manuel Terrazas | [juanmanuelterrazas.com](https://www.juanmterrazas.com/){:target="_blank"} |
-| Magiobus             | [magiobus.com](https://magiobus.com/){:target="_blank"}              |
-| MexicanSkynet        | [mexicanskynet.com](https://mexicanskynet.com){:target="_blank"}     |
+| Bart                 | [yosoybartsolo.com](https://www.yosoybartsolo.com/){:target="_blank" rel="noopener"} |
+| Juan Manuel Terrazas | [juanmanuelterrazas.com](https://www.juanmterrazas.com/){:target="_blank" rel="noopener"} |
+| Magiobus             | [magiobus.com](https://magiobus.com/){:target="_blank" rel="noopener"}              |
+| MexicanSkynet        | [mexicanskynet.com](https://mexicanskynet.com){:target="_blank" rel="noopener"}     |
 
 ---
 
@@ -38,8 +38,8 @@ Algunos de los sitios y blogs personales en español que más me gustan (como se
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|
-| Manu Mateos          | [macram.es](https://www.macram.es/){:target="_blank"}                |
-| Matizeta             | [matizeta.com](https://matizeta.com/){:target="_blank"}              |
+| Manu Mateos          | [macram.es](https://www.macram.es/){:target="_blank" rel="noopener"}                |
+| Matizeta             | [matizeta.com](https://matizeta.com/){:target="_blank" rel="noopener"}              |
 
 ---
 
@@ -48,32 +48,32 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|
-| Adam Newbold         | [notes.neatnik.net](https://notes.neatnik.net/){:target="_blank"}    |
-| Ashur Cabrera        | [multiline.co/mment](https://multiline.co/mment){:target="_blank"}   |
-| Andy Bell            | [bell.bz](https://bell.bz/){:target="_blank"}                        |
-| Anh                  | [anhvn.com](https://anhvn.com/){:target="_blank"}                    |
-| Binary Digit         | [binarydigit.city](https://binarydigit.city/){:target="_blank"}      |
-| Brandon              | [krrd.ing](https://krrd.ing/){:target="_blank"}                      |
-| Cory Dransfeldt      | [coryd.dev](https://www.coryd.dev/){:target="_blank"}                |
-| Dave Rupert          | [daverupert.com](https://daverupert.com/){:target="_blank"}          |
-| Eva Decker           | [eva.town](https://eva.town/){:target="_blank"}                      |
-| Frills               | [frills.dev](https://frills.dev/){:target="_blank"}                  |
-| James' Coffee Blog   | [jamesg.blog](https://jamesg.blog/){:target="_blank"}                |
-| Jarrod Blundy        | [heydingus.net](https://heydingus.net/){:target="_blank"}            |
-| Jason Burk           | [grepjason.sh](https://grepjason.sh/){:target="_blank"}              |
-| Jason White          | [jasonwhite.us](https://jasonwhite.us/){:target="_blank"}            |
-| JCProbably           | [jeddacp.com](https://jeddacp.com/){:target="_blank"}                |
-| Jose Munoz           | [josemunozmatos.com](https://www.josemunozmatos.com/){:target="_blank"} |
-| Lean Rada            | [leanrada.com](https://leanrada.com/){:target="_blank"}              |
-| Limes.pink           | [limes.pink](https://limes.pink/){:target="_blank"}                  |
-| LMNT                 | [lmnt.me](https://lmnt.me/){:target="_blank"}                        |
-| Marco Arment         | [marco.org](https://marco.org/){:target="_blank"}                    |
-| Matthew Cassinelli   | [matthewcassinelli.com](https://matthewcassinelli.com/){:target="_blank"} |
-| Robb Knight          | [rknight.me](https://rknight.me/){:target="_blank"}                  |
-| Sophie Koonin        | [localghost.dev](https://localghost.dev/){:target="_blank"}          |
-| Tom (ttntm)          | [ttntm.me](https://ttntm.me/){:target="_blank"}                      |
-| Yordi Verkroost      | [yordi.me](https://yordi.me/){:target="_blank"}                      |
-| Zachary Kai          | [zacharykai.net](https://zacharykai.net/){:target="_blank"}          |
+| Adam Newbold         | [notes.neatnik.net](https://notes.neatnik.net/){:target="_blank" rel="noopener"}    |
+| Ashur Cabrera        | [multiline.co/mment](https://multiline.co/mment){:target="_blank" rel="noopener"}   |
+| Andy Bell            | [bell.bz](https://bell.bz/){:target="_blank" rel="noopener"}                        |
+| Anh                  | [anhvn.com](https://anhvn.com/){:target="_blank" rel="noopener"}                    |
+| Binary Digit         | [binarydigit.city](https://binarydigit.city/){:target="_blank" rel="noopener"}      |
+| Brandon              | [krrd.ing](https://krrd.ing/){:target="_blank" rel="noopener"}                      |
+| Cory Dransfeldt      | [coryd.dev](https://www.coryd.dev/){:target="_blank" rel="noopener"}                |
+| Dave Rupert          | [daverupert.com](https://daverupert.com/){:target="_blank" rel="noopener"}          |
+| Eva Decker           | [eva.town](https://eva.town/){:target="_blank" rel="noopener"}                      |
+| Frills               | [frills.dev](https://frills.dev/){:target="_blank" rel="noopener"}                  |
+| James' Coffee Blog   | [jamesg.blog](https://jamesg.blog/){:target="_blank" rel="noopener"}                |
+| Jarrod Blundy        | [heydingus.net](https://heydingus.net/){:target="_blank" rel="noopener"}            |
+| Jason Burk           | [grepjason.sh](https://grepjason.sh/){:target="_blank" rel="noopener"}              |
+| Jason White          | [jasonwhite.us](https://jasonwhite.us/){:target="_blank" rel="noopener"}            |
+| JCProbably           | [jeddacp.com](https://jeddacp.com/){:target="_blank" rel="noopener"}                |
+| Jose Munoz           | [josemunozmatos.com](https://www.josemunozmatos.com/){:target="_blank" rel="noopener"} |
+| Lean Rada            | [leanrada.com](https://leanrada.com/){:target="_blank" rel="noopener"}              |
+| Limes.pink           | [limes.pink](https://limes.pink/){:target="_blank" rel="noopener"}                  |
+| LMNT                 | [lmnt.me](https://lmnt.me/){:target="_blank" rel="noopener"}                        |
+| Marco Arment         | [marco.org](https://marco.org/){:target="_blank" rel="noopener"}                    |
+| Matthew Cassinelli   | [matthewcassinelli.com](https://matthewcassinelli.com/){:target="_blank" rel="noopener"} |
+| Robb Knight          | [rknight.me](https://rknight.me/){:target="_blank" rel="noopener"}                  |
+| Sophie Koonin        | [localghost.dev](https://localghost.dev/){:target="_blank" rel="noopener"}          |
+| Tom (ttntm)          | [ttntm.me](https://ttntm.me/){:target="_blank" rel="noopener"}                      |
+| Yordi Verkroost      | [yordi.me](https://yordi.me/){:target="_blank" rel="noopener"}                      |
+| Zachary Kai          | [zacharykai.net](https://zacharykai.net/){:target="_blank" rel="noopener"}          |
 
 ---
 
@@ -82,10 +82,10 @@ Noticias, podcasts y artículos sobre videojuegos.
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|
-| My Nintendo News     | [mynintendonews.com](https://mynintendonews.com/){:target="_blank"}  |
-| Polygon              | [polygon.com](https://www.polygon.com/){:target="_blank"}            |
-| Retronauts           | [retronauts.com](https://retronauts.com/){:target="_blank"}          |
-| Wavelengths          | [wavelengths.online](https://wavelengths.online/){:target="_blank"}  |
+| My Nintendo News     | [mynintendonews.com](https://mynintendonews.com/){:target="_blank" rel="noopener"}  |
+| Polygon              | [polygon.com](https://www.polygon.com/){:target="_blank" rel="noopener"}            |
+| Retronauts           | [retronauts.com](https://retronauts.com/){:target="_blank" rel="noopener"}          |
+| Wavelengths          | [wavelengths.online](https://wavelengths.online/){:target="_blank" rel="noopener"}  |
 
 ---
 
@@ -94,14 +94,14 @@ Algunos blogs de música que me gusta leer.
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|
-| Brooklyn Vegan       | [brooklynvegan.com](https://www.brooklynvegan.com/){:target="_blank"} |
-| Chorus.fm            | [chorus.fm](https://chorus.fm/){:target="_blank"}                    |
-| Consequence          | [consequence.net](https://consequence.net/){:target="_blank"}        |
-| Crucial Tracks       | [crucialtracks.org](https://www.crucialtracks.org/){:target="_blank"} |
-| GORILLA VS. BEAR     | [gorillavsbear.net](https://www.gorillavsbear.net/){:target="_blank"} |
-| Heavy Blog Is Heavy  | [heavyblogisheavy.com](https://www.heavyblogisheavy.com/){:target="_blank"} |
-| Metal Injection      | [metalinjection.net](https://metalinjection.net/){:target="_blank"}  |
-| Metal Sucks          | [metalsucks.net](https://metalsucks.net/){:target="_blank"}          |
+| Brooklyn Vegan       | [brooklynvegan.com](https://www.brooklynvegan.com/){:target="_blank" rel="noopener"} |
+| Chorus.fm            | [chorus.fm](https://chorus.fm/){:target="_blank" rel="noopener"}                    |
+| Consequence          | [consequence.net](https://consequence.net/){:target="_blank" rel="noopener"}        |
+| Crucial Tracks       | [crucialtracks.org](https://www.crucialtracks.org/){:target="_blank" rel="noopener"} |
+| GORILLA VS. BEAR     | [gorillavsbear.net](https://www.gorillavsbear.net/){:target="_blank" rel="noopener"} |
+| Heavy Blog Is Heavy  | [heavyblogisheavy.com](https://www.heavyblogisheavy.com/){:target="_blank" rel="noopener"} |
+| Metal Injection      | [metalinjection.net](https://metalinjection.net/){:target="_blank" rel="noopener"}  |
+| Metal Sucks          | [metalsucks.net](https://metalsucks.net/){:target="_blank" rel="noopener"}          |
 
 ---
 
@@ -110,12 +110,12 @@ Noticias sobre cultura general, lifestyle, tecnología, gadgets, etc.
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|
-| 404 Media            | [404media.co](https://404media.co/){:target="_blank"}                |
-| 512 Pixels           | [512pixels.net](https://512pixels.net/){:target="_blank"}            |
-| Daring Fireball      | [daringfireball.net](https://daringfireball.net/){:target="_blank"}  |
-| Jason Kottke         | [kottke.org](https://kottke.org/){:target="_blank"}                  |
-| MacStories           | [macstories.net](https://macstories.net/){:target="_blank"}          |
-| The Verge            | [theverge.com](https://theverge.com/){:target="_blank"}              |
+| 404 Media            | [404media.co](https://404media.co/){:target="_blank" rel="noopener"}                |
+| 512 Pixels           | [512pixels.net](https://512pixels.net/){:target="_blank" rel="noopener"}            |
+| Daring Fireball      | [daringfireball.net](https://daringfireball.net/){:target="_blank" rel="noopener"}  |
+| Jason Kottke         | [kottke.org](https://kottke.org/){:target="_blank" rel="noopener"}                  |
+| MacStories           | [macstories.net](https://macstories.net/){:target="_blank" rel="noopener"}          |
+| The Verge            | [theverge.com](https://theverge.com/){:target="_blank" rel="noopener"}              |
 
 ---
 
@@ -124,8 +124,8 @@ Podcasts que escucho actualmente.
 
 | Nombre               | URL                                                                  |
 |----------------------|----------------------------------------------------------------------|
-| Comfort Zone         | [macstories.net/comfort-zone](https://www.macstories.net/comfort-zone/){:target="_blank"} |
-| The First Ever Podcast | [the-first-ever-podcast.libsyn.com](https://the-first-ever-podcast.libsyn.com/){:target="_blank"} |
+| Comfort Zone         | [macstories.net/comfort-zone](https://www.macstories.net/comfort-zone/){:target="_blank" rel="noopener"} |
+| The First Ever Podcast | [the-first-ever-podcast.libsyn.com](https://the-first-ever-podcast.libsyn.com/){:target="_blank" rel="noopener"} |
 
 ---
 
@@ -146,111 +146,111 @@ Podcasts que escucho actualmente.
 
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
-| Bob Ross | [@bobross_thejoyofpainting](https://www.youtube.com/@bobross_thejoyofpainting){:target="_blank"} |
+| Bob Ross | [@bobross_thejoyofpainting](https://www.youtube.com/@bobross_thejoyofpainting){:target="_blank" rel="noopener"} |
 
 ### 🎬 Documentales y contenido educativo
 
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
-| Archipel | [@ArchipelDocumentaries](https://www.youtube.com/@ArchipelDocumentaries){:target="_blank"} |
-| Geography Now | [@GeographyNow](https://www.youtube.com/@GeographyNow){:target="_blank"}    |
-| Johnny Harris | [@johnnyharris](https://www.youtube.com/@johnnyharris){:target="_blank"}    |
-| Main Watchers | [@MainWatchers](https://www.youtube.com/@MainWatchers){:target="_blank"}    |
-| The B1M | [@TheB1M](https://www.youtube.com/@TheB1M){:target="_blank"}                      |
-| Un Mundo Inmenso | [@UnMundoInmenso](https://www.youtube.com/@UnMundoInmenso){:target="_blank"} |
+| Archipel | [@ArchipelDocumentaries](https://www.youtube.com/@ArchipelDocumentaries){:target="_blank" rel="noopener"} |
+| Geography Now | [@GeographyNow](https://www.youtube.com/@GeographyNow){:target="_blank" rel="noopener"}    |
+| Johnny Harris | [@johnnyharris](https://www.youtube.com/@johnnyharris){:target="_blank" rel="noopener"}    |
+| Main Watchers | [@MainWatchers](https://www.youtube.com/@MainWatchers){:target="_blank" rel="noopener"}    |
+| The B1M | [@TheB1M](https://www.youtube.com/@TheB1M){:target="_blank" rel="noopener"}                      |
+| Un Mundo Inmenso | [@UnMundoInmenso](https://www.youtube.com/@UnMundoInmenso){:target="_blank" rel="noopener"} |
 
 ### ✨ Espiritual
 
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
-| Bible Time With Melonie Mac | [@BibleTimeWithMelonieMac](https://www.youtube.com/@BibleTimeWithMelonieMac){:target="_blank"} |
-| Pastor Robert | [@roberthoughton7127](https://www.youtube.com/@roberthoughton7127){:target="_blank"} |
-| SO BE IT! | [@SOBEIT32AD](https://www.youtube.com/@SOBEIT32AD){:target="_blank"}            |
+| Bible Time With Melonie Mac | [@BibleTimeWithMelonieMac](https://www.youtube.com/@BibleTimeWithMelonieMac){:target="_blank" rel="noopener"} |
+| Pastor Robert | [@roberthoughton7127](https://www.youtube.com/@roberthoughton7127){:target="_blank" rel="noopener"} |
+| SO BE IT! | [@SOBEIT32AD](https://www.youtube.com/@SOBEIT32AD){:target="_blank" rel="noopener"}            |
 
 ### 🎮 Gaming
 
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
-| /noclip | [@NoclipDocs](https://www.youtube.com/@NoclipDocs){:target="_blank"}              |
-| Artemio Urbina | [@ArtemioUrbina](https://www.youtube.com/@ArtemioUrbina){:target="_blank"} |
-| BRCDEvg | [@BRCDEvg](https://www.youtube.com/@BRCDEvg){:target="_blank"}                    |
-| Cinemassacre | [@JamesNintendoNerd](https://www.youtube.com/@JamesNintendoNerd){:target="_blank"} |
-| Famicom Dojo | [@FamicomDojo](https://www.youtube.com/@FamicomDojo){:target="_blank"}       |
-| Game Maker's Toolkit | [@GMTK](https://www.youtube.com/@GMTK){:target="_blank"}             |
-| Happy Console Gamer | [@HappyConsoleGamer](https://www.youtube.com/@HappyConsoleGamer){:target="_blank"} |
-| Jeremy Parish | [@JeremyParish](https://www.youtube.com/@JeremyParish){:target="_blank"}    |
-| Mode 7 | [@mode7gg](https://www.youtube.com/@mode7gg){:target="_blank"}                     |
-| Modern Vintage Gamer | [@ModernVintageGamer](https://www.youtube.com/@ModernVintageGamer){:target="_blank"} |
-| My Life in Gaming | [@mylifeingaming](https://www.youtube.com/@mylifeingaming){:target="_blank"} |
-| NakeyJakey | [@NakeyJakey](https://www.youtube.com/@NakeyJakey){:target="_blank"}           |
-| Nintendo Memo | [@nintendomemo](https://www.youtube.com/@nintendomemo){:target="_blank"}    |
-| strafefox (Splash Wave) | [@strafefox](https://www.youtube.com/@strafefox){:target="_blank"} |
-| videogamedunkey | [@videogamedunkey](https://www.youtube.com/@videogamedunkey){:target="_blank"} |
-| WULFF DEN | [@WulffDen](https://www.youtube.com/@WulffDen){:target="_blank"}                |
+| /noclip | [@NoclipDocs](https://www.youtube.com/@NoclipDocs){:target="_blank" rel="noopener"}              |
+| Artemio Urbina | [@ArtemioUrbina](https://www.youtube.com/@ArtemioUrbina){:target="_blank" rel="noopener"} |
+| BRCDEvg | [@BRCDEvg](https://www.youtube.com/@BRCDEvg){:target="_blank" rel="noopener"}                    |
+| Cinemassacre | [@JamesNintendoNerd](https://www.youtube.com/@JamesNintendoNerd){:target="_blank" rel="noopener"} |
+| Famicom Dojo | [@FamicomDojo](https://www.youtube.com/@FamicomDojo){:target="_blank" rel="noopener"}       |
+| Game Maker's Toolkit | [@GMTK](https://www.youtube.com/@GMTK){:target="_blank" rel="noopener"}             |
+| Happy Console Gamer | [@HappyConsoleGamer](https://www.youtube.com/@HappyConsoleGamer){:target="_blank" rel="noopener"} |
+| Jeremy Parish | [@JeremyParish](https://www.youtube.com/@JeremyParish){:target="_blank" rel="noopener"}    |
+| Mode 7 | [@mode7gg](https://www.youtube.com/@mode7gg){:target="_blank" rel="noopener"}                     |
+| Modern Vintage Gamer | [@ModernVintageGamer](https://www.youtube.com/@ModernVintageGamer){:target="_blank" rel="noopener"} |
+| My Life in Gaming | [@mylifeingaming](https://www.youtube.com/@mylifeingaming){:target="_blank" rel="noopener"} |
+| NakeyJakey | [@NakeyJakey](https://www.youtube.com/@NakeyJakey){:target="_blank" rel="noopener"}           |
+| Nintendo Memo | [@nintendomemo](https://www.youtube.com/@nintendomemo){:target="_blank" rel="noopener"}    |
+| strafefox (Splash Wave) | [@strafefox](https://www.youtube.com/@strafefox){:target="_blank" rel="noopener"} |
+| videogamedunkey | [@videogamedunkey](https://www.youtube.com/@videogamedunkey){:target="_blank" rel="noopener"} |
+| WULFF DEN | [@WulffDen](https://www.youtube.com/@WulffDen){:target="_blank" rel="noopener"}                |
 
 ### 🎵 Música
 
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
-| ARTE Concert | [@arteconcert](https://www.youtube.com/@arteconcert){:target="_blank"}       |
-| AudioTree | [@audiotree](https://www.youtube.com/@audiotree){:target="_blank"}              |
-| BlankTV | [@blanktv](https://www.youtube.com/@blanktv){:target="_blank"}                    |
-| CraigTube | [@CraigTube](https://www.youtube.com/@CraigTube){:target="_blank"}              |
-| ChordHouse | [@chordhousemx](https://www.youtube.com/@chordhousemx){:target="_blank"}       |
-| Drumeo | [@DrumeoOfficial](https://www.youtube.com/@DrumeoOfficial){:target="_blank"}       |
-| Deathwish Inc | [@deathwishinc](https://www.youtube.com/@deathwishinc){:target="_blank"}    |
-| From The Basement | [@FromTheBasementOfficial](https://www.youtube.com/@FromTheBasementOfficial){:target="_blank"} |
-| Furnace Fest | [@FurnaceFest](https://www.youtube.com/@FurnaceFest){:target="_blank"}       |
-| Gear Anxiety | [@GearAnxiety](https://www.youtube.com/@gearanxiety){:target="_blank"}       |
-| hate5six | [@hate5six](https://www.youtube.com/@hate5six){:target="_blank"}                 |
-| Jon Sudano | [@JonSudano](https://www.youtube.com/@JonSudano){:target="_blank"}             |
-| KEXP | [@kexp](https://www.youtube.com/@kexp){:target="_blank"}                             |
-| Loudwire | [LoudwireMusic](https://www.youtube.com/LoudwireMusic){:target="_blank"}         |
-| My Analog Journal | [@MyAnalogJournal](https://www.youtube.com/@MyAnalogJournal){:target="_blank"} |
-| NewRetroWave | [@NewRetroWave](https://www.youtube.com/@NewRetroWave){:target="_blank"}     |
-| NPR Music | [@nprmusic](https://www.youtube.com/@nprmusic){:target="_blank"}                |
-| Pure Noise Records | [@PureNoiseRecs](https://www.youtube.com/@PureNoiseRecs){:target="_blank"} |
-| Relapse Records | [@relapserecords](https://www.youtube.com/@relapserecords){:target="_blank"} |
-| REVOLVER | [@revolver](https://www.youtube.com/@revolver){:target="_blank"}                 |
-| Rick Beato | [@RickBeato](https://www.youtube.com/@RickBeato){:target="_blank"}             |
-| Sam Griffin Guitar | [@SamGriffinGuitar](https://www.youtube.com/@SamGriffinGuitar){:target="_blank"} |
-| Super Guitar Bros | [@SuperGuitarBros](https://www.youtube.com/@SuperGuitarBros){:target="_blank"} |
-| theneedledrop | [@theneedledrop](https://www.youtube.com/@theneedledrop){:target="_blank"}  |
-| Two Minutes to Late Night | [@TwoMinutesToLateNight](https://www.youtube.com/c/TwoMinutesToLateNight){:target="_blank"} |
-| Vinilandia | [@Vinilandiapodcast](https://www.youtube.com/@Vinilandiapodcast){:target="_blank"} |
-| Vinyl Rewind | [@VinylRewind](https://www.youtube.com/@VinylRewind){:target="_blank"}       |
+| ARTE Concert | [@arteconcert](https://www.youtube.com/@arteconcert){:target="_blank" rel="noopener"}       |
+| AudioTree | [@audiotree](https://www.youtube.com/@audiotree){:target="_blank" rel="noopener"}              |
+| BlankTV | [@blanktv](https://www.youtube.com/@blanktv){:target="_blank" rel="noopener"}                    |
+| CraigTube | [@CraigTube](https://www.youtube.com/@CraigTube){:target="_blank" rel="noopener"}              |
+| ChordHouse | [@chordhousemx](https://www.youtube.com/@chordhousemx){:target="_blank" rel="noopener"}       |
+| Drumeo | [@DrumeoOfficial](https://www.youtube.com/@DrumeoOfficial){:target="_blank" rel="noopener"}       |
+| Deathwish Inc | [@deathwishinc](https://www.youtube.com/@deathwishinc){:target="_blank" rel="noopener"}    |
+| From The Basement | [@FromTheBasementOfficial](https://www.youtube.com/@FromTheBasementOfficial){:target="_blank" rel="noopener"} |
+| Furnace Fest | [@FurnaceFest](https://www.youtube.com/@FurnaceFest){:target="_blank" rel="noopener"}       |
+| Gear Anxiety | [@GearAnxiety](https://www.youtube.com/@gearanxiety){:target="_blank" rel="noopener"}       |
+| hate5six | [@hate5six](https://www.youtube.com/@hate5six){:target="_blank" rel="noopener"}                 |
+| Jon Sudano | [@JonSudano](https://www.youtube.com/@JonSudano){:target="_blank" rel="noopener"}             |
+| KEXP | [@kexp](https://www.youtube.com/@kexp){:target="_blank" rel="noopener"}                             |
+| Loudwire | [LoudwireMusic](https://www.youtube.com/LoudwireMusic){:target="_blank" rel="noopener"}         |
+| My Analog Journal | [@MyAnalogJournal](https://www.youtube.com/@MyAnalogJournal){:target="_blank" rel="noopener"} |
+| NewRetroWave | [@NewRetroWave](https://www.youtube.com/@NewRetroWave){:target="_blank" rel="noopener"}     |
+| NPR Music | [@nprmusic](https://www.youtube.com/@nprmusic){:target="_blank" rel="noopener"}                |
+| Pure Noise Records | [@PureNoiseRecs](https://www.youtube.com/@PureNoiseRecs){:target="_blank" rel="noopener"} |
+| Relapse Records | [@relapserecords](https://www.youtube.com/@relapserecords){:target="_blank" rel="noopener"} |
+| REVOLVER | [@revolver](https://www.youtube.com/@revolver){:target="_blank" rel="noopener"}                 |
+| Rick Beato | [@RickBeato](https://www.youtube.com/@RickBeato){:target="_blank" rel="noopener"}             |
+| Sam Griffin Guitar | [@SamGriffinGuitar](https://www.youtube.com/@SamGriffinGuitar){:target="_blank" rel="noopener"} |
+| Super Guitar Bros | [@SuperGuitarBros](https://www.youtube.com/@SuperGuitarBros){:target="_blank" rel="noopener"} |
+| theneedledrop | [@theneedledrop](https://www.youtube.com/@theneedledrop){:target="_blank" rel="noopener"}  |
+| Two Minutes to Late Night | [@TwoMinutesToLateNight](https://www.youtube.com/c/TwoMinutesToLateNight){:target="_blank" rel="noopener"} |
+| Vinilandia | [@Vinilandiapodcast](https://www.youtube.com/@Vinilandiapodcast){:target="_blank" rel="noopener"} |
+| Vinyl Rewind | [@VinylRewind](https://www.youtube.com/@VinylRewind){:target="_blank" rel="noopener"}       |
 
 ### 📝 Reviews y entretenimiento
 
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
-| Andrew Robinson | [@andrewrobinsonreviews](https://www.youtube.com/@andrewrobinsonreviews){:target="_blank"} |
-| Doug DeMuro | [@DougDeMuro](https://www.youtube.com/@DougDeMuro){:target="_blank"}          |
-| Oliur / UltraLinx | [@Oliur](https://www.youtube.com/@Oliur){:target="_blank"}              |
+| Andrew Robinson | [@andrewrobinsonreviews](https://www.youtube.com/@andrewrobinsonreviews){:target="_blank" rel="noopener"} |
+| Doug DeMuro | [@DougDeMuro](https://www.youtube.com/@DougDeMuro){:target="_blank" rel="noopener"}          |
+| Oliur / UltraLinx | [@Oliur](https://www.youtube.com/@Oliur){:target="_blank" rel="noopener"}              |
 
 ### 🎮 Simulación
 
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
-| Mauricio PC | [@MauricioPCZ](https://www.youtube.com/@MauricioPCZ){:target="_blank"}        |
+| Mauricio PC | [@MauricioPCZ](https://www.youtube.com/@MauricioPCZ){:target="_blank" rel="noopener"}        |
 
 ### 💻 Tech
 
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
-| A Better Computer | [@ABetterComputer](https://www.youtube.com/@ABetterComputer){:target="_blank"} |
-| Brandon Butch | [@BrandonButch](https://www.youtube.com/@BrandonButch){:target="_blank"}    |
-| Christopher Lawley | [@ChrisLawley](https://www.youtube.com/@ChrisLawley){:target="_blank"} |
-| Computerphile | [@Computerphile](https://www.youtube.com/@Computerphile){:target="_blank"}  |
-| Raycast | [@raycastapp](https://www.youtube.com/@raycastapp){:target="_blank"}              |
-| The Coding Train | [@TheCodingTrain](https://www.youtube.com/@TheCodingTrain){:target="_blank"} |
-| Theo - t3.gg | [@t3dotgg](https://www.youtube.com/@t3dotgg){:target="_blank"}               |
+| A Better Computer | [@ABetterComputer](https://www.youtube.com/@ABetterComputer){:target="_blank" rel="noopener"} |
+| Brandon Butch | [@BrandonButch](https://www.youtube.com/@BrandonButch){:target="_blank" rel="noopener"}    |
+| Christopher Lawley | [@ChrisLawley](https://www.youtube.com/@ChrisLawley){:target="_blank" rel="noopener"} |
+| Computerphile | [@Computerphile](https://www.youtube.com/@Computerphile){:target="_blank" rel="noopener"}  |
+| Raycast | [@raycastapp](https://www.youtube.com/@raycastapp){:target="_blank" rel="noopener"}              |
+| The Coding Train | [@TheCodingTrain](https://www.youtube.com/@TheCodingTrain){:target="_blank" rel="noopener"} |
+| Theo - t3.gg | [@t3dotgg](https://www.youtube.com/@t3dotgg){:target="_blank" rel="noopener"}               |
 
 ### 🌍 Viajes y lifestyle
 
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
-| bald and bankrupt | [@baldandbankrupt](https://www.youtube.com/@baldandbankrupt){:target="_blank"} |
-| Beardbrand | [@Beardbrand](https://www.youtube.com/@Beardbrand){:target="_blank"}           |
+| bald and bankrupt | [@baldandbankrupt](https://www.youtube.com/@baldandbankrupt){:target="_blank" rel="noopener"} |
+| Beardbrand | [@Beardbrand](https://www.youtube.com/@Beardbrand){:target="_blank" rel="noopener"}           |
 
 </div>

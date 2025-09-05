@@ -19,7 +19,7 @@ current-location: Chihuahua, México
 <div class="text-center">
 <ul class="list-inline">
 <li class="list-inline-item">
-<a class="btn btn-primary btn-sm" href="{{ site.omglol_url }}/now">
+<a class="btn btn-primary btn-sm" href="{{ site.omglol_url }}/now" rel="alternate">
 <i class="fa-solid fa-heart"></i> Reflejo en omg.lol
 </a>
 </li>

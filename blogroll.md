@@ -94,14 +94,14 @@ Algunos blogs de música que me gusta leer.
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
-| Brooklyn Vegan | [brooklynvegan.com](https://www.brooklynvegan.com/){:target="_blank" rel="noopener"} | |
-| Chorus.fm | [chorus.fm](https://chorus.fm/){:target="_blank" rel="noopener"} | |
+| Brooklyn Vegan | [brooklynvegan.com](https://www.brooklynvegan.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.brooklynvegan.com/feed/){:target="_blank" rel="noopener"} |
+| Chorus.fm | [chorus.fm](https://chorus.fm/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://chorus.fm/feed/){:target="_blank" rel="noopener"} |
 | Consequence | [consequence.net](https://consequence.net/){:target="_blank" rel="noopener"} | |
-| Crucial Tracks | [crucialtracks.org](https://www.crucialtracks.org/){:target="_blank" rel="noopener"} | |
-| GORILLA VS. BEAR | [gorillavsbear.net](https://www.gorillavsbear.net/){:target="_blank" rel="noopener"} | |
-| Heavy Blog Is Heavy | [heavyblogisheavy.com](https://www.heavyblogisheavy.com/){:target="_blank" rel="noopener"} | |
-| Metal Injection | [metalinjection.net](https://metalinjection.net/){:target="_blank" rel="noopener"} | |
-| Metal Sucks | [metalsucks.net](https://metalsucks.net/){:target="_blank" rel="noopener"} | |
+| Crucial Tracks | [crucialtracks.org](https://www.crucialtracks.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.crucialtracks.org/rss/){:target="_blank" rel="noopener"} |
+| GORILLA VS. BEAR | [gorillavsbear.net](https://www.gorillavsbear.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.gorillavsbear.net/feed/){:target="_blank" rel="noopener"} |
+| Heavy Blog Is Heavy | [heavyblogisheavy.com](https://www.heavyblogisheavy.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.heavyblogisheavy.com/rss/){:target="_blank" rel="noopener"} |
+| Metal Injection | [metalinjection.net](https://metalinjection.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://metalinjection.net/feed){:target="_blank" rel="noopener"} |
+| Metal Sucks | [metalsucks.net](https://metalsucks.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.feedburner.com/Metalsucks){:target="_blank" rel="noopener"} |
 
 ---
 
@@ -110,11 +110,11 @@ Noticias sobre cultura general, lifestyle, tecnología, gadgets, etc.
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
-| 404 Media | [404media.co](https://404media.co/){:target="_blank" rel="noopener"} | |
-| 512 Pixels | [512pixels.net](https://512pixels.net/){:target="_blank" rel="noopener"} | |
-| Daring Fireball | [daringfireball.net](https://daringfireball.net/){:target="_blank" rel="noopener"} | |
-| Jason Kottke | [kottke.org](https://kottke.org/){:target="_blank" rel="noopener"} | |
-| MacStories | [macstories.net](https://macstories.net/){:target="_blank" rel="noopener"} | |
+| 404 Media | [404media.co](https://404media.co/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.404media.co/rss/){:target="_blank" rel="noopener"} |
+| 512 Pixels | [512pixels.net](https://512pixels.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feedpress.me/512pixels){:target="_blank" rel="noopener"} |
+| Daring Fireball | [daringfireball.net](https://daringfireball.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://daringfireball.net/feeds/main){:target="_blank" rel="noopener"} |
+| Jason Kottke | [kottke.org](https://kottke.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.kottke.org/main){:target="_blank" rel="noopener"} |
+| MacStories | [macstories.net](https://macstories.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.macstories.net/feed/){:target="_blank" rel="noopener"} |
 | The Verge | [theverge.com](https://theverge.com/){:target="_blank" rel="noopener"} | |
 
 ---
@@ -124,8 +124,8 @@ Podcasts que escucho actualmente.
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
-| Comfort Zone | [macstories.net/comfort-zone](https://www.macstories.net/comfort-zone/){:target="_blank" rel="noopener"} | |
-| The First Ever Podcast | [the-first-ever-podcast.libsyn.com](https://the-first-ever-podcast.libsyn.com/){:target="_blank" rel="noopener"} | |
+| Comfort Zone | [macstories.net/comfort-zone](https://www.macstories.net/comfort-zone/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.libsyn.com/531557/rss){:target="_blank" rel="noopener"} |
+| The First Ever Podcast | [the-first-ever-podcast.libsyn.com](https://the-first-ever-podcast.libsyn.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.libsyn.com/342104/rss){:target="_blank" rel="noopener"} |
 
 ---
 

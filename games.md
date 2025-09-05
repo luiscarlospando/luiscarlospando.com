@@ -68,7 +68,7 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://discord.gg/NUSDKeJ" target="_blank">
+<a class="btn btn-primary btn-lg" href="https://discord.gg/NUSDKeJ" rel="noreferrer noopener" target="_blank">
 <i class="fa-brands fa-discord"></i> Discord
 </a>
 </div>
@@ -120,7 +120,7 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 </button>
 </div>
 </div>
-<a class="btn btn-primary btn-sm mt-4" href="https://discordapp.com/users/86571896581132288/" rel="me" target="_blank">
+<a class="btn btn-primary btn-sm mt-4" href="https://discordapp.com/users/86571896581132288/" rel="me noreferrer noopener" target="_blank">
 <i class="fa-solid fa-user-plus"></i> Agrégame como amigo
 </a>
 </div>
@@ -147,7 +147,7 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 </div>
 <ul class="list-inline mt-4">
 <li class="list-inline-item">
-<a class="btn btn-primary btn-sm" href="https://lounge.nintendo.com/friendcode/3920-3330-9820/DLkJcWQ1L6" rel="me" target="_blank">
+<a class="btn btn-primary btn-sm" href="https://lounge.nintendo.com/friendcode/3920-3330-9820/DLkJcWQ1L6" rel="me noreferrer noopener" target="_blank">
 <i class="fa-solid fa-user-plus"></i> Agrégame como amigo
 </a>
 </li>

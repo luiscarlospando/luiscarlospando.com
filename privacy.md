@@ -26,7 +26,7 @@ Esos sitios pueden recopilar datos sobre ti, utilizar cookies, incrustar un segu
 ¡Sobre aviso no hay engaño!
 
 ### Analytics
-Para conocer y analizar el tráfico que recibo en mi sitio, uso [Tinylytics][1]{:target="_blank"}. Tinylytics respeta tu privacidad. Ninguna cookie es almacenada en tu dispositivo y es un servicio que cumple con el [RGPD][2]{:target="_blank"}.
+Para conocer y analizar el tráfico que recibo en mi sitio, uso [Tinylytics][1]{:target="_blank" rel="noreferrer noopener"}. Tinylytics respeta tu privacidad. Ninguna cookie es almacenada en tu dispositivo y es un servicio que cumple con el [RGPD][2]{:target="_blank" rel="noreferrer noopener"}.
 
 ### Links de afiliación
 Los links de afiliación usados en mi sitio son una manera fácil de apoyarnos mútuamente. Cada servicio que recomiendo en mi sitio es porque lo estoy usando activamente y lo recomiendo genuinamente.

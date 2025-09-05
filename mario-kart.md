@@ -45,8 +45,8 @@ permalink: /games/mario-kart/
 
 ## <i class="fa-brands fa-discord"></i> Discord
 
-- Puedes unirte al canal [`# 🏁│mario-kart`][1]{:target="_blank"} en el Discord de Mode 7 para recibir updates y notificaciones de todas las personas que jugamos
-- Chat de voz por el canal [`🏁|Mario Kart`][2]{:target="_blank"} dentro de Mode 7.
+- Puedes unirte al canal [`# 🏁│mario-kart`][1]{:target="_blank" rel="noreferrer noopener"} en el Discord de Mode 7 para recibir updates y notificaciones de todas las personas que jugamos
+- Chat de voz por el canal [`🏁|Mario Kart`][2]{:target="_blank" rel="noreferrer noopener"} dentro de Mode 7.
 - La intención del Discord de Mode 7 es ser útil para armar partidas, armar cotorreo, conocer gente, jugar, hablar sobre *Mario Kart 8 Deluxe* y mucho más.
 - Link a mi perfil de Discord:
 <a href="{{ site.discord_profile }}" rel="me" target="_blank"><code>{{ site.discord_tag }}</code></a>
@@ -71,7 +71,7 @@ permalink: /games/mario-kart/
 
 ## <i class="fa-brands fa-mastodon"></i> Mastodon
 
-- Para recibir más notificaciones o estar al pendiente de actualizaciones, puedes [seguirme en Mastodon][4]{:rel="me" target="_blank"}.
+- Para recibir más notificaciones o estar al pendiente de actualizaciones, puedes [seguirme en Mastodon][4]{:rel="me noreferrer noopener" target="_blank"}.
 
 </div>
 </div>

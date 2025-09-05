@@ -14,7 +14,7 @@ permalink: /discord/
 </div>
 <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-auto">
 ## <i class="fa-brands fa-discord"></i> Mode 7
-[Mode 7][1]{:target="_blank"} (`Mode7gg` para los compas) es una comunidad que armamos unos amigos y yo para compartir el amor que sentimos por el gaming. Mode 7 es básicamente un servidor en Discord y un [podcast][2] para hablar de nuestros juegos favoritos y por supuesto, jugarlos.
+[Mode 7][1]{:target="_blank" rel="noreferrer noopener"} (`Mode7gg` para los compas) es una comunidad que armamos unos amigos y yo para compartir el amor que sentimos por el gaming. Mode 7 es básicamente un servidor en Discord y un [podcast][2] para hablar de nuestros juegos favoritos y por supuesto, jugarlos.
 </div>
 </div>
 
@@ -22,7 +22,7 @@ permalink: /discord/
 <div class="col-md-12 col-lg-6 my-auto">
 [![Discord Presence](https://lanyard-profile-readme.vercel.app/api/86571896581132288?theme=dark&bg=1E1F22&animated=true&showDisplayName=true&hideDiscrim=true&borderRadius=6px&hideSpotify=true&idleMessage=Currently%20I'm%20not%20doing%20anything!)](https://discord.com/users/86571896581132288)
 
-Entra y únete al servidor de [Mode 7 en Discord][1]{:target="_blank"} para conversar y jugar junto a nuestra comunidad.
+Entra y únete al servidor de [Mode 7 en Discord][1]{:target="_blank" rel="noreferrer noopener"} para conversar y jugar junto a nuestra comunidad.
 
 En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7:
 - [*Mario Kart 8 Deluxe*][3]

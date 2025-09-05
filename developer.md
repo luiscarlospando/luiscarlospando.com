@@ -16,7 +16,7 @@ Esta es [mi llave PGP pública][1] por si necesitan contactarme de forma segura.
 Parte de mi jale se puede encontrar [aquí][2]{:rel="me" target="_blank"}.
 
 ## <i class="fa-solid fa-code-branch"></i> Ask me anything (AMA) @ GitHub
-[Tengo un repo en GitHub][3] donde me puedes preguntar cualquier cosa, solo es cuestión de [abrir][4]{:target="_blank"} un nuevo `issue`.
+[Tengo un repo en GitHub][3] donde me puedes preguntar cualquier cosa, solo es cuestión de [abrir][4]{:target="_blank" rel="noreferrer noopener"} un nuevo `issue`.
 
 ## <i class="fa-brands fa-gitlab"></i> GitLab
 Otra parte de mi jale también se puede encontrar [aquí][5]{:rel="me" target="_blank"}.

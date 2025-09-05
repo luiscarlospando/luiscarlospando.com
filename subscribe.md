@@ -108,7 +108,7 @@ Aquí comparto mis links favoritos.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://hachyderm.io/@luiscarlospando" target="_blank">
+<a href="https://hachyderm.io/@luiscarlospando" rel="me noopener noreferrer" target="_blank">
     🐘 Mastodon
 </a>
 </li>
@@ -118,7 +118,7 @@ Esta es una cuenta automatizada con posts de mi sitio.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://hachyderm.io/@luiscarlospando" target="_blank">
+<a class="btn btn-primary btn-lg" href="https://hachyderm.io/@luiscarlospando" rel="me noopener noreferrer" target="_blank">
 <i class="fa-brands fa-mastodon"></i> Seguir
 </a>
 </div>
@@ -145,7 +145,7 @@ Esta es una cuenta automatizada con posts de mi sitio.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://luiscarlospando.com/newsletter/">
+<a href="https://luiscarlospando.com/newsletter/" rel="noopener noreferrer" target="_blank">
     📫 Newsletter
 </a>
 </li>
@@ -154,7 +154,7 @@ Suscríbete para recibir mi contenido en tu bandeja de entrada una vez al mes.</
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://luiscarlospando.com/newsletter/">
+<a class="btn btn-primary btn-lg" href="https://luiscarlospando.com/newsletter/" rel="noopener noreferrer" target="_blank">
 <i class="fa-solid fa-envelope"></i> Suscribirse
 </a>
 </div>

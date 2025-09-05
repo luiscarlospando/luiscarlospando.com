@@ -31,5 +31,5 @@ last-modified-at: <span id="last-updated-at">2025-08-06 16:50:00</span>
 </div>
 </div>
 <div class="text-center">
-<small>Powered by <a href="https://buttondown.com/refer/luiscarlospando" target="_blank">Buttondown</a></small>
+<small>Powered by <a href="https://buttondown.com/refer/luiscarlospando" rel="noopener noreferrer" target="_blank">Buttondown</a></small>
 </div>

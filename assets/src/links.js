@@ -159,17 +159,17 @@ function renderBookmarks(items) {
 
       return `
     <li class="mb-3">
-      <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener noreferrer">
+      <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener">
         <time datetime="${machineReadableDate}">
           ${formatDate(item.created)}
         </time>
       </a>
-      <a href="${item.link}" target="_blank" rel="noopener noreferrer">
+      <a href="${item.link}" target="_blank" rel="noopener">
         ${item.title}
         <i class="fa-solid fa-arrow-up-right-from-square"></i>
       </a>
       <small class="text-muted"><em> vía
-        <a href="${rootDomainURL}" target="_blank" rel="noopener noreferrer" class="text-muted">
+        <a href="${rootDomainURL}" target="_blank" rel="noopener" class="text-muted">
           ${domain}
         </a>
       </em></small>
@@ -208,17 +208,17 @@ function renderPaginatedLinks() {
 
       return `
     <li class="mb-3">
-      <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener noreferrer">
+      <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener">
         <time datetime="${machineReadableDate}">
           ${formatDate(item.created)}
         </time>
       </a>
-      <a href="${item.link}" target="_blank" rel="noopener noreferrer">
+      <a href="${item.link}" target="_blank" rel="noopener">
         ${item.title}
         <i class="fa-solid fa-arrow-up-right-from-square"></i>
       </a>
       <small class="text-muted"><em> vía
-        <a href="${rootDomainURL}" target="_blank" rel="noopener noreferrer" class="text-muted">
+        <a href="${rootDomainURL}" target="_blank" rel="noopener" class="text-muted">
           ${domain}
         </a>
       </em></small>

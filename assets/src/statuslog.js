@@ -50,7 +50,7 @@ function renderStatus(data) {
 
   statusElement.innerHTML = `
         <div id="container" class="text-center">
-            <a href="https://mijo.status.lol/" target="_blank">
+            <a href="https://mijo.status.lol/" rel="me noreferrer noopener" target="_blank">
                 <p>
                     ${data.response.statuses[0].emoji} ${data.response.statuses[0].content}
                 </p>

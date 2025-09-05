@@ -29,7 +29,7 @@ Soy muy autodidacta por naturaleza. Si algo me llama la atención, me obsesiono 
 
 Hay un momento que marcó mi vida para siempre: cuando conocí MTV 2 y Fuse 📺. Literal, mi mundo cambió. De ahí nació mi amor profundo por la música y surgió un hambre de descubrir nuevas bandas, que aunque considero que tengo una apreciación por varios géneros, la verdad es que el punk, metal y hardcore, siempre serán mis géneros mis favoritos por todo lo que me hacen sentir 🤘. Y pues si, esos canales me abrieron las puertas a un universo sonoro que no sabía que existía, y desde entonces la música se volvió parte esencial de mi identidad.
 
-Por eso, junto a unos buenos amigos, creamos [Hitz-Musik.net][1]{:target="_blank"} (RIP 🪦). "El Hitz" era más que una página web; era una comunidad real que apoyaba la escena local de Chihuahua. Organizábamos toquines, compartíamos música, y creamos un espacio donde amantes de la música podían conectar con bandas locales. Aunque ya no existe, guardo esos recuerdos con mucho cariño porque representan una época donde el cotorreo y el amor por la música nos unían.
+Por eso, junto a unos buenos amigos, creamos [Hitz-Musik.net][1]{:target="_blank" rel="noopener"} (RIP 🪦). "El Hitz" era más que una página web; era una comunidad real que apoyaba la escena local de Chihuahua. Organizábamos toquines, compartíamos música, y creamos un espacio donde amantes de la música podían conectar con bandas locales. Aunque ya no existe, guardo esos recuerdos con mucho cariño porque representan una época donde el cotorreo y el amor por la música nos unían.
 
 ## Mis obsesiones favoritas
 
@@ -45,7 +45,7 @@ Mi fe es algo muy importante para mí. Soy cristiano y tengo mi confianza puesta
 
 ## Los pequeños placeres
 
-Me gusta disfrutar una buena cerveza 🍺 mientras escucho música o trabajo en algún proyecto. Llevo registrando toda la música que escucho en [Last.fm 🎵][4]{:rel="me" target="_blank"} desde 2005 y siempre me sorprende ver cómo han evolucionado mis gustos a lo largo de los años.
+Me gusta disfrutar una buena cerveza 🍺 mientras escucho música o trabajo en algún proyecto. Llevo registrando toda la música que escucho en [Last.fm 🎵][4]{:rel="me noreferrer noopener" target="_blank"} desde 2005 y siempre me sorprende ver cómo han evolucionado mis gustos a lo largo de los años.
 
 También toco guitarra cuando necesito desconectarme del mundo digital. Como todo lo que hago, lo aprendí por mi cuenta, y aunque no soy un virtuoso, me sirve como válvula de escape y forma de expresión.
 
@@ -55,7 +55,7 @@ Estoy reaprendiendo a apreciar el tiempo con amigos 👥 y conocer gente nueva (
 
 ## El IndieWeb (porque no solamente me gusta la música y películas indies)
 
-Estoy orgulloso de ser parte del [Internet independiente y descentralizado][5]{:target="_blank"} 🌐. Este es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, desde el *look & feel*, el layout, colores, del contenido, de los *features*, de las reglas y todo, todo, todo. Al tener mi propio sitio web no dependo de ninguna empresa como lo son Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok (que son las más grandes plataformas de la web). Todos sabemos que el futuro de esas plataformas es incierto (y ya hemos sido testigos que esas plataformas desaparecen o cambian de dueños/directivos y luego valen sh!t).
+Estoy orgulloso de ser parte del [Internet independiente y descentralizado][5]{:target="_blank" rel="noreferrer noopener"} 🌐. Este es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, desde el *look & feel*, el layout, colores, del contenido, de los *features*, de las reglas y todo, todo, todo. Al tener mi propio sitio web no dependo de ninguna empresa como lo son Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok (que son las más grandes plataformas de la web). Todos sabemos que el futuro de esas plataformas es incierto (y ya hemos sido testigos que esas plataformas desaparecen o cambian de dueños/directivos y luego valen sh!t).
 
 En la web comercial, estamos también sometidos a sus reglas y políticas, si no seguimos sus reglas pueden bloquearnos nuestras cuentas y/o contenido (¿eso no es una real libertad de expresión, correcto?). Así que yo prefiero no ser parte de ese sistema ni invertir mi tiempo en crear contenido para ellos.
 
@@ -92,20 +92,20 @@ Al final del día, solo soy un vato de Chihuahua que ama hacer cosas para el Int
 
 ## Colofón
 
-- 👨‍💻 Editor de código: [Zed][10]{:target="_blank"}
-- 🤖 Generador del sitio: [Jekyll][11]{:target="_blank"}, desplegado en [Vercel][12]{:target="_blank"} ([<code>site-info</code>][13])
-- 🛠️ Código fuente: [GitHub][14]{:target="_blank"}
-- ✍️ Blog: [WordPress][15]{:target="_blank"}, desplegado en [DigitalOcean][16]{:target="_blank"}
-- 🏠 Dominio: [Cloudflare][17]{:target="_blank"}
-- 🌐 DNS: [Cloudflare][17]{:target="_blank"} también
+- 👨‍💻 Editor de código: [Zed][10]{:rel="noreferrer noopener" target="_blank"}
+- 🤖 Generador del sitio: [Jekyll][11]{:rel="noreferrer noopener" target="_blank"}, desplegado en [Vercel][12]{:rel="noreferrer noopener" target="_blank"} ([<code>site-info</code>][13])
+- 🛠️ Código fuente: [GitHub][14]{:rel="noreferrer noopener" target="_blank"}
+- ✍️ Blog: [WordPress][15]{:target="_blank"}, desplegado en [DigitalOcean][16]{:rel="noreferrer noopener" target="_blank"}
+- 🏠 Dominio: [Cloudflare][17]{:rel="noreferrer noopener" target="_blank"}
+- 🌐 DNS: [Cloudflare][17]{:rel="noreferrer noopener" target="_blank"} también
 - ✅ Monitoreo del sistema: [Instatus][18]{:target="_blank"}
-- 🆎 Fonts: [Bunny.net][19]{:target="_blank"}
-- 🖼️ Íconos: [Font Awesome][20]{:target="_blank"}
-- 📊 Analytics: [Tinylytics][21]{:target="_blank"}
-- 😉 Misceláneo: [omg.lol][22]{:target="_blank"} para Mastodon y otras cosas muy chidas
-- 💬 Traducción del sitio en tiempo real: [DeepL][23]{:target="_blank"}
-- 📔 Guestbook: [Guestbooks][24]{:target="_blank"}
-- 📫 Newsletter: [Buttondown][25]{:target="_blank"}
+- 🆎 Fonts: [Bunny.net][19]{:rel="noreferrer noopener" target="_blank"}
+- 🖼️ Íconos: [Font Awesome][20]{:rel="noreferrer noopener" target="_blank"}
+- 📊 Analytics: [Tinylytics][21]{:rel="noreferrer noopener" target="_blank"}
+- 😉 Misceláneo: [omg.lol][22]{:rel="noreferrer noopener" target="_blank"} para Mastodon y otras cosas muy chidas
+- 💬 Traducción del sitio en tiempo real: [DeepL][23]{:rel="noreferrer noopener" target="_blank"}
+- 📔 Guestbook: [Guestbooks][24]{:rel="noreferrer noopener" target="_blank"}
+- 📫 Newsletter: [Buttondown][25]{:rel="noreferrer noopener" target="_blank"}
 
 ## Suscríbete
 
@@ -113,7 +113,7 @@ Suscríbete a mi sitio por:
 - [<i class="fas fa-rss"></i> RSS (Blog)][26]
 - [<i class="fas fa-rss"></i> RSS (Fotos)][27]
 - [<i class="fas fa-rss"></i> RSS (Links)][28]
-- [<i class="fa-brands fa-mastodon"></i> Mastodon][29]{:rel="me" target="_blank"}
+- [<i class="fa-brands fa-mastodon"></i> Mastodon][29]{:rel="me noreferrer noopener" target="_blank"}
 - [<i class="fa-solid fa-envelope"></i> Newsletter][30] <span class="badge badge-success">Nuevo</span>
 
 ## Errores en el sitio

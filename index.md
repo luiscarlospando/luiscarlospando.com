@@ -16,9 +16,9 @@ Amo la música, es una parte importante de mi y los géneros que más me gustan 
 
 No es ningún secreto el amor que le tengo a Nintendo 🕹️ y [aquí][7] llevo un registro de los videojuegos que tengo en mi colección. También armé la comunidad de [Mode 7 🎮 🕹️][8] (✨ *All are welcome!* ✨) en Discord junto a unos amigos. Ahí platicamos de nuestros juegos favoritos, cotorreamos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][9]. Todos los jueves en la noche [transmitimos el torneo][10].
 
-De vez en cuando comparto cosas en [Mastodon][11]{:rel="me" target="_blank"}, [Bluesky][12]{:rel="me" target="_blank"}  y en [omg.lol][13]{:rel="me" target="_blank"}.
+De vez en cuando comparto cosas en [Mastodon][11]{:rel="me noreferrer noopener" target="_blank"}, [Bluesky][12]{:rel="me noreferrer noopener" target="_blank"}  y en [omg.lol][13]{:rel="me noreferrer noopener" target="_blank"}.
 
-También llevo un registro de toda [la música que escucho 🎧][14]{:rel="me" target="_blank"} en mi perfil de [Last.fm 🎵][15]{:rel="me" target="_blank"} (*been doin' it since '05 baby!*).
+También llevo un registro de toda [la música que escucho 🎧][14]{:rel="me noreferrer noopener" target="_blank"} en mi perfil de [Last.fm 🎵][15]{:rel="me noreferrer noopener" target="_blank"} (*been doin' it since '05 baby!*).
 
 [Aquí ando compartiendo mis fotos][6] 📸 y tengo un guestbook 📖, que si te animas, puedes [pasar a firmarlo][16] y saludar. ✌️
 

@@ -24,12 +24,12 @@ permalink: /blogroll/
 ## <i id="amigos-en-la-vida-real" class="fa-solid fa-users"></i> Amigos (en la vida real)
 Algunos de mis compas en la vida real tienen su propio sitio, son poquitos pero algo es algo.
 
-| Nombre               | URL                                                                  |
-|----------------------|----------------------------------------------------------------------|
-| Bart                 | [yosoybartsolo.com](https://www.yosoybartsolo.com/){:target="_blank" rel="noopener"} |
-| Juan Manuel Terrazas | [juanmanuelterrazas.com](https://www.juanmterrazas.com/){:target="_blank" rel="noopener"} |
-| Magiobus             | [magiobus.com](https://magiobus.com/){:target="_blank" rel="noopener"}              |
-| MexicanSkynet        | [mexicanskynet.com](https://mexicanskynet.com){:target="_blank" rel="noopener"}     |
+| Nombre | URL | RSS |
+|--------|-----|-----|
+| Bart | [yosoybartsolo.com](https://www.yosoybartsolo.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.yosoybartsolo.com/feed.xml){:target="_blank" rel="noopener"} |
+| Juan Manuel Terrazas | [juanmanuelterrazas.com](https://www.juanmterrazas.com/){:target="_blank" rel="noopener"} | |
+| Magiobus | [magiobus.com](https://magiobus.com/){:target="_blank" rel="noopener"} | |
+| MexicanSkynet | [mexicanskynet.com](https://mexicanskynet.com){:target="_blank" rel="noopener"} | |
 
 ---
 

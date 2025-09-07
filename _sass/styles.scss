@@ -747,3 +747,8 @@ code {
         transform: translateY(-5px);
     }
 }
+
+// Removing open in new windows icon from .rss-link
+.rss-link i:nth-of-type(2) {
+    display: none;
+}

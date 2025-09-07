@@ -26,7 +26,7 @@ Algunos de mis compas en la vida real tienen su propio sitio, son poquitos pero 
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
-| Bart | [yosoybartsolo.com](https://www.yosoybartsolo.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.yosoybartsolo.com/feed.xml){:target="_blank" rel="noopener"} |
+| Bart | [yosoybartsolo.com](https://www.yosoybartsolo.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.yosoybartsolo.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Juan Manuel Terrazas | [juanmanuelterrazas.com](https://www.juanmterrazas.com/){:target="_blank" rel="noopener"} | |
 | Magiobus | [magiobus.com](https://magiobus.com/){:target="_blank" rel="noopener"} | |
 | MexicanSkynet | [mexicanskynet.com](https://mexicanskynet.com){:target="_blank" rel="noopener"} | |
@@ -39,7 +39,7 @@ Algunos de los sitios y blogs personales en español que más me gustan (como se
 | Nombre | URL | RSS |
 |--------|-----|-----|
 | Manu Mateos | [macram.es](https://www.macram.es/){:target="_blank" rel="noopener"} | |
-| Matizeta | [matizeta.com](https://matizeta.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://matizeta.com/feed/){:target="_blank" rel="noopener"} |
+| Matizeta | [matizeta.com](https://matizeta.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://matizeta.com/feed/){:target="_blank" rel="noopener" .rss-link} |
 
 ---
 
@@ -48,32 +48,32 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
-| Adam Newbold | [notes.neatnik.net](https://notes.neatnik.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://notes.neatnik.net/rss.xml){:target="_blank" rel="noopener"} |
-| Ashur Cabrera | [multiline.co/mment](https://multiline.co/mment){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://multiline.co/mment/feed.xml){:target="_blank" rel="noopener"} |
-| Andy Bell | [bell.bz](https://bell.bz/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://bell.bz/feed.xml){:target="_blank" rel="noopener"} |
-| Anh | [anhvn.com](https://anhvn.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://anhvn.com/feed.xml){:target="_blank" rel="noopener"} |
-| Binary Digit | [binarydigit.city](https://binarydigit.city/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://binarydigit.city/feed/?type=rss){:target="_blank" rel="noopener"} |
-| Brandon | [krrd.ing](https://krrd.ing/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://krrd.ing/rss/){:target="_blank" rel="noopener"} |
-| Cory Dransfeldt | [coryd.dev](https://www.coryd.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.coryd.dev/feeds/all.xml){:target="_blank" rel="noopener"} |
-| Dave Rupert | [daverupert.com](https://daverupert.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://daverupert.com/atom.xml){:target="_blank" rel="noopener"} |
-| Eva Decker | [eva.town](https://eva.town/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://eva.town/rss.xml){:target="_blank" rel="noopener"} |
-| Frills | [frills.dev](https://frills.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://frills.dev/all.xml){:target="_blank" rel="noopener"} |
-| James' Coffee Blog | [jamesg.blog](https://jamesg.blog/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://subscribeopenly.net/subscribe/?url=https://jamesg.blog/feeds/posts.xml){:target="_blank" rel="noopener"} |
-| Jarrod Blundy | [heydingus.net](https://heydingus.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://heydingus.net/feed.rss){:target="_blank" rel="noopener"} |
-| Jason Burk | [grepjason.sh](https://grepjason.sh/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://grepjason.sh/rss.xml){:target="_blank" rel="noopener"} |
-| Jason White | [jasonwhite.us](https://jasonwhite.us/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://jasonwhite.us/index.xml){:target="_blank" rel="noopener"} |
-| JCProbably | [jeddacp.com](https://jeddacp.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://notes.jeddacp.com/feed/?type=rss){:target="_blank" rel="noopener"} |
-| Jose Munoz | [josemunozmatos.com](https://www.josemunozmatos.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://www.josemunozmatos.com/blog/rss.xml){:target="_blank" rel="noopener"} |
+| Adam Newbold | [notes.neatnik.net](https://notes.neatnik.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://notes.neatnik.net/rss.xml){:target="_blank" rel="noopener" .rss-link} |
+| Ashur Cabrera | [multiline.co/mment](https://multiline.co/mment){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://multiline.co/mment/feed.xml){:target="_blank" rel="noopener" .rss-link} |
+| Andy Bell | [bell.bz](https://bell.bz/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://bell.bz/feed.xml){:target="_blank" rel="noopener" .rss-link} |
+| Anh | [anhvn.com](https://anhvn.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://anhvn.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
+| Binary Digit | [binarydigit.city](https://binarydigit.city/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://binarydigit.city/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
+| Brandon | [krrd.ing](https://krrd.ing/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://krrd.ing/rss/){:target="_blank" rel="noopener" .rss-link} |
+| Cory Dransfeldt | [coryd.dev](https://www.coryd.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.coryd.dev/feeds/all.xml){:target="_blank" rel="noopener" .rss-link} |
+| Dave Rupert | [daverupert.com](https://daverupert.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://daverupert.com/atom.xml){:target="_blank" rel="noopener" .rss-link} |
+| Eva Decker | [eva.town](https://eva.town/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://eva.town/rss.xml){:target="_blank" rel="noopener" .rss-link} |
+| Frills | [frills.dev](https://frills.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://frills.dev/all.xml){:target="_blank" rel="noopener" .rss-link} |
+| James' Coffee Blog | [jamesg.blog](https://jamesg.blog/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://subscribeopenly.net/subscribe/?url=https://jamesg.blog/feeds/posts.xml){:target="_blank" rel="noopener" .rss-link} |
+| Jarrod Blundy | [heydingus.net](https://heydingus.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://heydingus.net/feed.rss){:target="_blank" rel="noopener" .rss-link} |
+| Jason Burk | [grepjason.sh](https://grepjason.sh/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://grepjason.sh/rss.xml){:target="_blank" rel="noopener" .rss-link} |
+| Jason White | [jasonwhite.us](https://jasonwhite.us/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://jasonwhite.us/index.xml){:target="_blank" rel="noopener" .rss-link} |
+| JCProbably | [jeddacp.com](https://jeddacp.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://notes.jeddacp.com/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
+| Jose Munoz | [josemunozmatos.com](https://www.josemunozmatos.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://www.josemunozmatos.com/blog/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 | Lean Rada | [leanrada.com](https://leanrada.com/){:target="_blank" rel="noopener"} | |
 | Limes.pink | [limes.pink](https://limes.pink/){:target="_blank" rel="noopener"} | |
-| LMNT | [lmnt.me](https://lmnt.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://lmnt.me/feed.xml){:target="_blank" rel="noopener"} |
-| Marco Arment | [marco.org](https://marco.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://marco.org/rss){:target="_blank" rel="noopener"} |
-| Matthew Cassinelli | [matthewcassinelli.com](https://matthewcassinelli.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://matthewcassinelli.com/comments/feed/){:target="_blank" rel="noopener"} |
-| Robb Knight | [rknight.me](https://rknight.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://rknight.me/subscribe/posts/rss.xml){:target="_blank" rel="noopener"} |
-| Sophie Koonin | [localghost.dev](https://localghost.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://localghost.dev/feed.xml){:target="_blank" rel="noopener"} |
-| Tom (ttntm) | [ttntm.me](https://ttntm.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://ttntm.me/everything.xml){:target="_blank" rel="noopener"} |
-| Yordi Verkroost | [yordi.me](https://yordi.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://yordi.me/feed/?type=rss){:target="_blank" rel="noopener"} |
-| Zachary Kai | [zacharykai.net](https://zacharykai.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://zacharykai.net/assets/rss.xml){:target="_blank" rel="noopener"} |
+| LMNT | [lmnt.me](https://lmnt.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://lmnt.me/feed.xml){:target="_blank" rel="noopener" .rss-link} |
+| Marco Arment | [marco.org](https://marco.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://marco.org/rss){:target="_blank" rel="noopener" .rss-link} |
+| Matthew Cassinelli | [matthewcassinelli.com](https://matthewcassinelli.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://matthewcassinelli.com/comments/feed/){:target="_blank" rel="noopener" .rss-link} |
+| Robb Knight | [rknight.me](https://rknight.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://rknight.me/subscribe/posts/rss.xml){:target="_blank" rel="noopener" .rss-link} |
+| Sophie Koonin | [localghost.dev](https://localghost.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://localghost.dev/feed.xml){:target="_blank" rel="noopener" .rss-link} |
+| Tom (ttntm) | [ttntm.me](https://ttntm.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://ttntm.me/everything.xml){:target="_blank" rel="noopener" .rss-link} |
+| Yordi Verkroost | [yordi.me](https://yordi.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://yordi.me/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
+| Zachary Kai | [zacharykai.net](https://zacharykai.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://zacharykai.net/assets/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 
 ---
 
@@ -82,10 +82,10 @@ Noticias, podcasts y artículos sobre videojuegos.
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
-| My Nintendo News | [mynintendonews.com](https://mynintendonews.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://mynintendonews.com/feed/){:target="_blank" rel="noopener"} |
+| My Nintendo News | [mynintendonews.com](https://mynintendonews.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://mynintendonews.com/feed/){:target="_blank" rel="noopener" .rss-link} |
 | Polygon | [polygon.com](https://www.polygon.com/){:target="_blank" rel="noopener"} | |
-| Retronauts | [retronauts.com](https://retronauts.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://retronauts.com/feed/rss){:target="_blank" rel="noopener"} |
-| Wavelengths | [wavelengths.online](https://wavelengths.online/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://wavelengths.online/posts_feed){:target="_blank" rel="noopener"} |
+| Retronauts | [retronauts.com](https://retronauts.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://retronauts.com/feed/rss){:target="_blank" rel="noopener" .rss-link} |
+| Wavelengths | [wavelengths.online](https://wavelengths.online/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://wavelengths.online/posts_feed){:target="_blank" rel="noopener" .rss-link} |
 
 ---
 
@@ -94,14 +94,14 @@ Algunos blogs de música que me gusta leer.
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
-| Brooklyn Vegan | [brooklynvegan.com](https://www.brooklynvegan.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.brooklynvegan.com/feed/){:target="_blank" rel="noopener"} |
-| Chorus.fm | [chorus.fm](https://chorus.fm/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://chorus.fm/feed/){:target="_blank" rel="noopener"} |
+| Brooklyn Vegan | [brooklynvegan.com](https://www.brooklynvegan.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.brooklynvegan.com/feed/){:target="_blank" rel="noopener" .rss-link} |
+| Chorus.fm | [chorus.fm](https://chorus.fm/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://chorus.fm/feed/){:target="_blank" rel="noopener" .rss-link} |
 | Consequence | [consequence.net](https://consequence.net/){:target="_blank" rel="noopener"} | |
-| Crucial Tracks | [crucialtracks.org](https://www.crucialtracks.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.crucialtracks.org/rss/){:target="_blank" rel="noopener"} |
-| GORILLA VS. BEAR | [gorillavsbear.net](https://www.gorillavsbear.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.gorillavsbear.net/feed/){:target="_blank" rel="noopener"} |
-| Heavy Blog Is Heavy | [heavyblogisheavy.com](https://www.heavyblogisheavy.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.heavyblogisheavy.com/rss/){:target="_blank" rel="noopener"} |
-| Metal Injection | [metalinjection.net](https://metalinjection.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://metalinjection.net/feed){:target="_blank" rel="noopener"} |
-| Metal Sucks | [metalsucks.net](https://metalsucks.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.feedburner.com/Metalsucks){:target="_blank" rel="noopener"} |
+| Crucial Tracks | [crucialtracks.org](https://www.crucialtracks.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.crucialtracks.org/rss/){:target="_blank" rel="noopener" .rss-link} |
+| GORILLA VS. BEAR | [gorillavsbear.net](https://www.gorillavsbear.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.gorillavsbear.net/feed/){:target="_blank" rel="noopener" .rss-link} |
+| Heavy Blog Is Heavy | [heavyblogisheavy.com](https://www.heavyblogisheavy.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.heavyblogisheavy.com/rss/){:target="_blank" rel="noopener" .rss-link} |
+| Metal Injection | [metalinjection.net](https://metalinjection.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://metalinjection.net/feed){:target="_blank" rel="noopener" .rss-link} |
+| Metal Sucks | [metalsucks.net](https://metalsucks.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.feedburner.com/Metalsucks){:target="_blank" rel="noopener" .rss-link} |
 
 ---
 
@@ -110,11 +110,11 @@ Noticias sobre cultura general, lifestyle, tecnología, gadgets, etc.
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
-| 404 Media | [404media.co](https://404media.co/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.404media.co/rss/){:target="_blank" rel="noopener"} |
-| 512 Pixels | [512pixels.net](https://512pixels.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feedpress.me/512pixels){:target="_blank" rel="noopener"} |
-| Daring Fireball | [daringfireball.net](https://daringfireball.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://daringfireball.net/feeds/main){:target="_blank" rel="noopener"} |
-| Jason Kottke | [kottke.org](https://kottke.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.kottke.org/main){:target="_blank" rel="noopener"} |
-| MacStories | [macstories.net](https://macstories.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.macstories.net/feed/){:target="_blank" rel="noopener"} |
+| 404 Media | [404media.co](https://404media.co/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.404media.co/rss/){:target="_blank" rel="noopener" .rss-link} |
+| 512 Pixels | [512pixels.net](https://512pixels.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feedpress.me/512pixels){:target="_blank" rel="noopener" .rss-link} |
+| Daring Fireball | [daringfireball.net](https://daringfireball.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://daringfireball.net/feeds/main){:target="_blank" rel="noopener" .rss-link} |
+| Jason Kottke | [kottke.org](https://kottke.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.kottke.org/main){:target="_blank" rel="noopener" .rss-link} |
+| MacStories | [macstories.net](https://macstories.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.macstories.net/feed/){:target="_blank" rel="noopener" .rss-link} |
 | The Verge | [theverge.com](https://theverge.com/){:target="_blank" rel="noopener"} | |
 
 ---
@@ -124,8 +124,8 @@ Podcasts que escucho actualmente.
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
-| Comfort Zone | [macstories.net/comfort-zone](https://www.macstories.net/comfort-zone/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.libsyn.com/531557/rss){:target="_blank" rel="noopener"} |
-| The First Ever Podcast | [the-first-ever-podcast.libsyn.com](https://the-first-ever-podcast.libsyn.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.libsyn.com/342104/rss){:target="_blank" rel="noopener"} |
+| Comfort Zone | [macstories.net/comfort-zone](https://www.macstories.net/comfort-zone/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.libsyn.com/531557/rss){:target="_blank" rel="noopener" .rss-link} |
+| The First Ever Podcast | [the-first-ever-podcast.libsyn.com](https://the-first-ever-podcast.libsyn.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.libsyn.com/342104/rss){:target="_blank" rel="noopener" .rss-link} |
 
 ---
 

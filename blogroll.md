@@ -8,6 +8,12 @@ permalink: /blogroll/
 
 <p class="text-center">{{ page.description }}</p>
 
+<div class="text-center">
+<button id="btn-random-link" class="btn btn-primary">
+    <i class="fa-solid fa-shuffle"></i> Abrir un sitio aleatorio
+</button>
+</div>
+
 ## <i class="fa-solid fa-list-ul"></i> Tabla de contenido
 
 - [🫂 Amigos (en la vida real)](#amigos-en-la-vida-real)

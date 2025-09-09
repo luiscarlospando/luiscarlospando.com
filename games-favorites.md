@@ -446,3 +446,50 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
     </figure>
   </li>
 </ul>
+
+## <span id="wii"></span> Wii
+
+<ul class="lista-juegos list-inline">
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21ro.jpg" alt="Super Mario Galaxy" title="Super Mario Galaxy" width="150">
+      <figcaption class="figure-caption text-center">Super Mario Galaxy</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21tl.jpg" alt="Super Mario Galaxy 2" title="Super Mario Galaxy 2" width="150">
+      <figcaption class="figure-caption text-center">Super Mario Galaxy 2</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ydx.jpg" alt="Tatsunoko vs. Capcom: Ultimate All-Stars" title="Tatsunoko vs. Capcom: Ultimate All-Stars" width="150">
+      <figcaption class="figure-caption text-center">Tatsunoko vs. Capcom: Ultimate All-Stars</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7k9z.jpg" alt="Mega Man 9" title="Mega Man 9" width="150">
+      <figcaption class="figure-caption text-center">Mega Man 9</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7cty.jpg" alt="Cave Story" title="Cave Story" width="150">
+      <figcaption class="figure-caption text-center">Cave Story</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3dgx.jpg" alt="Contra ReBirth" title="Contra ReBirth" width="150">
+      <figcaption class="figure-caption text-center">Contra ReBirth</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5wts.jpg" alt="Castlevania: The Adventure ReBirth" title="Castlevania: The Adventure ReBirth" width="150">
+      <figcaption class="figure-caption text-center">Castlevania: The Adventure ReBirth</figcaption>
+    </figure>
+  </li>
+</ul>

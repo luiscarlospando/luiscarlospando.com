@@ -104,8 +104,8 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 </li>
 <li class="list-inline-item">
 <figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9kln.jpg" alt="TMNT II: The Arcade Game" title="TMNT II: The Arcade Game" width="150">
-<figcaption class="figure-caption text-center">TMNT II: The Arcade Game</figcaption>
+<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9kln.jpg" alt="Teenage Mutant Ninja Turtles II: The Arcade Game" title="Teenage Mutant Ninja Turtles II: The Arcade Game" width="150">
+<figcaption class="figure-caption text-center">Teenage Mutant Ninja Turtles II: The Arcade Game</figcaption>
 </figure>
 </li>
 <li class="list-inline-item">
@@ -198,97 +198,97 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 <ul class="lista-juegos list-inline">
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario World" title="Super Mario World" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8lo8.jpg" alt="Super Mario World" title="Super Mario World" width="150">
       <figcaption class="figure-caption text-center">Super Mario World</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario Kart" title="Super Mario Kart" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21w8.jpg" alt="Super Mario Kart" title="Super Mario Kart" width="150">
       <figcaption class="figure-caption text-center">Super Mario Kart</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Mario Paint" title="Mario Paint" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2er1.jpg" alt="Mario Paint" title="Mario Paint" width="150">
       <figcaption class="figure-caption text-center">Mario Paint</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="The Legend of Zelda: A Link to the Past" title="The Legend of Zelda: A Link to the Past" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3vzn.jpg" alt="The Legend of Zelda: A Link to the Past" title="The Legend of Zelda: A Link to the Past" width="150">
       <figcaption class="figure-caption text-center">The Legend of Zelda: A Link to the Past</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Metroid" title="Super Metroid" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5osy.jpg" alt="Super Metroid" title="Super Metroid" width="150">
       <figcaption class="figure-caption text-center">Super Metroid</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="F-Zero" title="F-Zero" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6ufz.jpg" alt="F-Zero" title="F-Zero" width="150">
       <figcaption class="figure-caption text-center">F-Zero</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Star Fox" title="Star Fox" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co99og.jpg" alt="Star Fox" title="Star Fox" width="150">
       <figcaption class="figure-caption text-center">Star Fox</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario All-Stars" title="Super Mario All-Stars" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ap.jpg" alt="Super Mario All-Stars" title="Super Mario All-Stars" width="150">
       <figcaption class="figure-caption text-center">Super Mario All-Stars</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Tetris Attack" title="Tetris Attack" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2w6k.jpg" alt="Tetris Attack" title="Tetris Attack" width="150">
       <figcaption class="figure-caption text-center">Tetris Attack</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Mega Man X" title="Mega Man X" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3tu2.jpg" alt="Mega Man X" title="Mega Man X" width="150">
       <figcaption class="figure-caption text-center">Mega Man X</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Chrono Trigger" title="Chrono Trigger" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3plw.jpg" alt="Chrono Trigger" title="Chrono Trigger" width="150">
       <figcaption class="figure-caption text-center">Chrono Trigger</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Donkey Kong Country" title="Donkey Kong Country" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co70qn.jpg" alt="Donkey Kong Country" title="Donkey Kong Country" width="150">
       <figcaption class="figure-caption text-center">Donkey Kong Country</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario World 2: Yoshi's Island" title="Super Mario World 2: Yoshi's Island" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2kn9.jpg" alt="Super Mario World 2: Yoshi's Island" title="Super Mario World 2: Yoshi's Island" width="150">
       <figcaption class="figure-caption text-center">Super Mario World 2: Yoshi's Island</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Earthbound" title="Earthbound" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6v07.jpg" alt="Earthbound" title="Earthbound" width="150">
       <figcaption class="figure-caption text-center">Earthbound</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="TMNT: Turtles in Time" title="TMNT: Turtles in Time" width="150">
-      <figcaption class="figure-caption text-center">TMNT: Turtles in Time</figcaption>
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ruz.jpg" alt="Teenage Mutant Ninja Turtles: Turtles in Time" title="Teenage Mutant Ninja Turtles: Turtles in Time" width="150">
+      <figcaption class="figure-caption text-center">Teenage Mutant Ninja Turtles: Turtles in Time</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Off Road" title="Super Off Road" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9ict.jpg" alt="Super Off Road" title="Super Off Road" width="150">
       <figcaption class="figure-caption text-center">Super Off Road</figcaption>
     </figure>
   </li>

@@ -4,7 +4,7 @@ title: Mis juegos favoritos
 description: Esta es una lista de mis juegos favoritos.
 image: /assets/images/logo-games.png
 permalink: /games/favorites/
-last-modified-at: <span id="last-updated-at">2025-09-09 16:00:00</span>
+last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -18,6 +18,7 @@ last-modified-at: <span id="last-updated-at">2025-09-09 16:00:00</span>
 ## <i class="fa-solid fa-list-ul"></i> Tabla de contenido
 
 - [Nintendo Entertainment System (NES)](#nes)
+- [Game Boy](#game-boy)
 - [Super Nintendo Entertainment System (SNES)](#snes)
 
 ## <span id="nes"></span> Nintendo Entertainment System (NES)
@@ -133,4 +134,157 @@ last-modified-at: <span id="last-updated-at">2025-09-09 16:00:00</span>
 </li>
 </ul>
 
+## <span id="game-boy"></span> Game Boy
+
+<ul class="list-inline">
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Tetris" width="150">
+      <figcaption class="figure-caption text-center">Tetris</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario Land" width="150">
+      <figcaption class="figure-caption text-center">Super Mario Land</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario Land 2: 6 Golden Coins" width="150">
+      <figcaption class="figure-caption text-center">Super Mario Land 2: 6 Golden Coins</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Pokémon (Red/Blue/Yellow)" width="150">
+      <figcaption class="figure-caption text-center">Pokémon (Red/Blue/Yellow)</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Pokémon (Gold/Silver)" width="150">
+      <figcaption class="figure-caption text-center">Pokémon (Gold/Silver)</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Kirby's Dreamland" width="150">
+      <figcaption class="figure-caption text-center">Kirby's Dreamland</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Mega Man" width="150">
+      <figcaption class="figure-caption text-center">Mega Man</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Game & Watch Gallery" width="150">
+      <figcaption class="figure-caption text-center">Game & Watch Gallery</figcaption>
+    </figure>
+  </li>
+</ul>
+
+
 ## <span id="snes"></span> Super Nintendo Entertainment System (SNES)
+
+<ul class="list-inline">
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario World" width="150">
+      <figcaption class="figure-caption text-center">Super Mario World</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario Kart" width="150">
+      <figcaption class="figure-caption text-center">Super Mario Kart</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Mario Paint" width="150">
+      <figcaption class="figure-caption text-center">Mario Paint</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="The Legend of Zelda: A Link to the Past" width="150">
+      <figcaption class="figure-caption text-center">The Legend of Zelda: A Link to the Past</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Metroid" width="150">
+      <figcaption class="figure-caption text-center">Super Metroid</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="F-Zero" width="150">
+      <figcaption class="figure-caption text-center">F-Zero</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Star Fox" width="150">
+      <figcaption class="figure-caption text-center">Star Fox</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario All-Stars" width="150">
+      <figcaption class="figure-caption text-center">Super Mario All-Stars</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Tetris Attack" width="150">
+      <figcaption class="figure-caption text-center">Tetris Attack</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Mega Man X" width="150">
+      <figcaption class="figure-caption text-center">Mega Man X</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Chrono Trigger" width="150">
+      <figcaption class="figure-caption text-center">Chrono Trigger</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Donkey Kong Country" width="150">
+      <figcaption class="figure-caption text-center">Donkey Kong Country</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario World 2: Yoshi's Island" width="150">
+      <figcaption class="figure-caption text-center">Super Mario World 2: Yoshi's Island</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Earthbound" width="150">
+      <figcaption class="figure-caption text-center">Earthbound</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="TMNT: Turtles in Time" width="150">
+      <figcaption class="figure-caption text-center">TMNT: Turtles in Time</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Off Road" width="150">
+      <figcaption class="figure-caption text-center">Super Off Road</figcaption>
+    </figure>
+  </li>
+</ul>

@@ -108,12 +108,18 @@ function Navigation() {
       subButtons: [
         {
           id: "7-1",
+          url: "https://luiscarlospando.com/games/favorites/",
+          icon: "fa-solid fa-star",
+          text: "Mis juegos favoritos",
+        },
+        {
+          id: "7-2",
           url: "https://luiscarlospando.com/games/mario-kart/",
           icon: "fa-solid fa-gamepad",
           text: "Mario Kart 8 Deluxe (Mode 7 Grand Prix)",
         },
         {
-          id: "7-2",
+          id: "7-3",
           url: "https://luiscarlospando.com/games/splatoon/",
           icon: "fa-solid fa-gamepad",
           text: "Splatoon 3",

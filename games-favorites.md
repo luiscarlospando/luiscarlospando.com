@@ -24,6 +24,7 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 - [Nintendo 64](#n64)
 - [Nintendo GameCube](#gcn)
 - [Wii](#wii)
+- [Nintendo 3DS](#3ds)
 - [Wii U](#wii-u)
 - [Nintendo Switch](#nsw)
 

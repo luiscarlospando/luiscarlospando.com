@@ -493,3 +493,58 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
     </figure>
   </li>
 </ul>
+
+## <span id="3ds"></span> Nintendo 3DS
+
+## <span id="wii-u"></span> Wii U
+
+<ul class="lista-juegos list-inline">
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vd.jpg" alt="Super Mario 3D World" title="Super Mario 3D World" width="150">
+      <figcaption class="figure-caption text-center">Super Mario 3D World</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213q.jpg" alt="Mario Kart 8" title="Mario Kart 8" width="150">
+      <figcaption class="figure-caption text-center">Mario Kart 8</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2hwo.jpg" alt="Splatoon" title="Splatoon" width="150">
+      <figcaption class="figure-caption text-center">Splatoon</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1wj6.jpg" alt="Yoshi's Woolly World" title="Yoshi's Woolly World" width="150">
+      <figcaption class="figure-caption text-center">Yoshi's Woolly World</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vl.jpg" alt="Super Mario Maker" title="Super Mario Maker" width="150">
+      <figcaption class="figure-caption text-center">Super Mario Maker</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6pup.jpg" alt="Shovel Knight" title="Shovel Knight" width="150">
+      <figcaption class="figure-caption text-center">Shovel Knight</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6ffy.jpg" alt="Bayonetta 2" title="Bayonetta 2" width="150">
+      <figcaption class="figure-caption text-center">Bayonetta 2</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6r2f.jpg" alt="The Wonderful 101" title="The Wonderful 101" width="150">
+      <figcaption class="figure-caption text-center">The Wonderful 101</figcaption>
+    </figure>
+  </li>
+</ul>

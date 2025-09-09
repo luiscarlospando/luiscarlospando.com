@@ -15,7 +15,12 @@ last-modified-at: <span id="last-updated-at">2025-09-09 16:00:00</span>
 
 <p class="text-center">{{ page.description }}</p>
 
-## Nintendo Entertainment System (NES)
+## <i class="fa-solid fa-list-ul"></i> Tabla de contenido
+
+- [Nintendo Entertainment System (NES)](#nes)
+- [Super Nintendo Entertainment System (SNES)](#snes)
+
+## <span id="nes"></span> Nintendo Entertainment System (NES)
 
 <ul class="list-inline">
 <li class="list-inline-item">
@@ -127,3 +132,5 @@ last-modified-at: <span id="last-updated-at">2025-09-09 16:00:00</span>
 </figure>
 </li>
 </ul>
+
+## <span id="snes"></span> Super Nintendo Entertainment System (SNES)

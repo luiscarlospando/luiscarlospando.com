@@ -45,6 +45,8 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
 </a>
 </div>
 
+---
+
 ## <i class="fa-solid fa-signs-post"></i> ¿Por dónde empezar?
 
 <ul class="list-inline">

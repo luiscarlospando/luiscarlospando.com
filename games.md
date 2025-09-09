@@ -7,9 +7,13 @@ permalink: /games/
 last-modified-at: <span id="last-updated-at">2025-04-17 14:51:48</span>
 ---
 
-<div class="text-center">
-Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa-link"></i> Discord][1], [<i class="fa-solid fa-link"></i> Nintendo Switch][2] y [<i class="fa-solid fa-link"></i> Backloggd][3]{:rel="me" target="_blank"}.
-</div>
+<p class="text-center">
+Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa-link"></i> Discord][1], [<i class="fa-solid fa-link"></i> Nintendo Switch][2] y [<i class="fa-solid fa-link"></i> Backloggd][3]{:rel="me noreferrer noopener" target="_blank"}.
+</p>
+
+<p class="text-center">
+¿Curiosidad por saber cuáles son mis juegos favoritos ever? Entonces [ve aquí][4]. 😁
+</p>
 
 <div class="row">
 <div class="col-12 my-auto">
@@ -166,5 +170,6 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 [1]: #discord-tag
 [2]: #nintendo-switch
 [3]: https://www.backloggd.com/u/mijo/playing/
-[4]: /games/mario-kart/
-[5]: /games/splatoon/
+[4]: /games/favorites/
+[5]: /games/mario-kart/
+[6]: /games/splatoon/

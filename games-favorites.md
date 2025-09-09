@@ -20,6 +20,12 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 - [Nintendo Entertainment System (NES)](#nes)
 - [Game Boy](#game-boy)
 - [Super Nintendo Entertainment System (SNES)](#snes)
+- [SEGA Genesis](#sega-genesis)
+- [Nintendo 64](#nintendo-64)
+- [Nintendo GameCube](#nintendo-gamecube)
+- [Wii](#wii)
+- [Wii U](#wii-u)
+- [Nintendo Switch](#nintendo-switch)
 
 ## <span id="nes"></span> Nintendo Entertainment System (NES)
 
@@ -187,7 +193,6 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
   </li>
 </ul>
 
-
 ## <span id="snes"></span> Super Nintendo Entertainment System (SNES)
 
 <ul class="list-inline">
@@ -285,6 +290,29 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
     <figure class="figure">
       <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Off Road" width="150">
       <figcaption class="figure-caption text-center">Super Off Road</figcaption>
+    </figure>
+  </li>
+</ul>
+
+## <span id="sega-genesis"></span> SEGA Genesis
+
+<ul class="list-inline">
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Sonic the Hedgehog" width="150">
+      <figcaption class="figure-caption text-center">Sonic the Hedgehog</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Sonic the Hedgehog 2" width="150">
+      <figcaption class="figure-caption text-center">Sonic the Hedgehog 2</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Sonic the Hedgehog 3" width="150">
+      <figcaption class="figure-caption text-center">Sonic the Hedgehog 3</figcaption>
     </figure>
   </li>
 </ul>

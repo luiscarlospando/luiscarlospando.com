@@ -19,23 +19,45 @@ last-modified-at: <span id="last-updated-at">2025-09-09 16:00:00</span>
 
 <ul class="list-inline">
 <li class="list-inline-item">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co23a9.jpg" alt="Pinball" width="150">
-<br>
-<em>Pinball</em>
-</li>
-<li class="list-inline-item">
+<figure class="figure">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario Bros." width="150">
-<br>
-<em>Super Mario Bros.</em>
+<figcaption class="figure-caption text-center">Super Mario Bros.</figcaption>
+</figure>
 </li>
 <li class="list-inline-item">
+<figure class="figure">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7yq7.jpg" alt="Super Mario Bros. 2" width="150">
-<br>
-<em>Super Mario Bros. 2</em>
+<figcaption class="figure-caption text-center">Super Mario Bros. 2</figcaption>
+</figure>
 </li>
 <li class="list-inline-item">
+<figure class="figure">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ozx.jpg" alt="Super Mario Bros. 3" width="150">
-<br>
-<em>Super Mario Bros. 3</em>
+<figcaption class="figure-caption text-center">Super Mario Bros. 3</figcaption>
+</figure>
+</li>
+<li class="list-inline-item">
+<figure class="figure">
+<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co55ce.jpg" alt="Mega Man 3" width="150">
+<figcaption class="figure-caption text-center">Mega Man 3</figcaption>
+</figure>
+</li>
+<li class="list-inline-item">
+<figure class="figure">
+<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5ssy.jpg" alt="Mega Man 4" width="150">
+<figcaption class="figure-caption text-center">Mega Man 4</figcaption>
+</figure>
+</li>
+<li class="list-inline-item">
+<figure class="figure">
+<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5x45.jpg" alt="Mega Man 5" width="150">
+<figcaption class="figure-caption text-center">Mega Man 5</figcaption>
+</figure>
+</li>
+<li class="list-inline-item">
+<figure class="figure">
+<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5x45.jpg" alt="Mega Man 5" width="150">
+<figcaption class="figure-caption text-center">Mega Man 5</figcaption>
+</figure>
 </li>
 </ul>

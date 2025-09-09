@@ -21,11 +21,11 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 - [Game Boy](#game-boy)
 - [Super Nintendo Entertainment System (SNES)](#snes)
 - [SEGA Genesis](#sega-genesis)
-- [Nintendo 64](#nintendo-64)
-- [Nintendo GameCube](#nintendo-gamecube)
+- [Nintendo 64](#n64)
+- [Nintendo GameCube](#gcn)
 - [Wii](#wii)
 - [Wii U](#wii-u)
-- [Nintendo Switch](#nintendo-switch)
+- [Nintendo Switch](#nsw)
 
 ## <span id="nes"></span> Nintendo Entertainment System (NES)
 
@@ -299,26 +299,28 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 <ul class="lista-juegos list-inline">
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Sonic the Hedgehog" title="Sonic the Hedgehog" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6yzr.jpg" alt="Sonic the Hedgehog" title="Sonic the Hedgehog" width="150">
       <figcaption class="figure-caption text-center">Sonic the Hedgehog</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Sonic the Hedgehog 2" title="Sonic the Hedgehog 2" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5kkj.jpg" alt="Sonic the Hedgehog 2" title="Sonic the Hedgehog 2" width="150">
       <figcaption class="figure-caption text-center">Sonic the Hedgehog 2</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Sonic the Hedgehog 3" title="Sonic the Hedgehog 3" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1zut.jpg" alt="Sonic the Hedgehog 3" title="Sonic the Hedgehog 3" width="150">
       <figcaption class="figure-caption text-center">Sonic the Hedgehog 3</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Sonic & Knuckles" title="Sonic & Knuckles" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ups.jpg" alt="Sonic & Knuckles" title="Sonic & Knuckles" width="150">
       <figcaption class="figure-caption text-center">Sonic & Knuckles</figcaption>
     </figure>
   </li>
 </ul>
+
+## <span id="n64"></span> Nintendo 64

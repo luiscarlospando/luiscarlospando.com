@@ -145,49 +145,49 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 <ul class="lista-juegos list-inline">
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Tetris" title="Tetris" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2ufl.jpg" alt="Tetris" title="Tetris" width="150">
       <figcaption class="figure-caption text-center">Tetris</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario Land" title="Super Mario Land" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7o14.jpg" alt="Super Mario Land" title="Super Mario Land" width="150">
       <figcaption class="figure-caption text-center">Super Mario Land</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario Land 2: 6 Golden Coins" title="Super Mario Land 2: 6 Golden Coins" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7gxg.jpg" alt="Super Mario Land 2: 6 Golden Coins" title="Super Mario Land 2: 6 Golden Coins" width="150">
       <figcaption class="figure-caption text-center">Super Mario Land 2: 6 Golden Coins</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Pokémon (Red/Blue/Yellow)" title="Pokémon (Red/Blue/Yellow)" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5pi7.jpg" alt="Pokémon (Red/Blue/Yellow)" title="Pokémon (Red/Blue/Yellow)" width="150">
       <figcaption class="figure-caption text-center">Pokémon (Red/Blue/Yellow)</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Pokémon (Gold/Silver)" title="Pokémon (Gold/Silver)" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5pid.jpg" alt="Pokémon (Gold/Silver)" title="Pokémon (Gold/Silver)" width="150">
       <figcaption class="figure-caption text-center">Pokémon (Gold/Silver)</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Kirby's Dreamland" title="Kirby's Dreamland" width="150">
-      <figcaption class="figure-caption text-center">Kirby's Dreamland</figcaption>
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3ffy.jpg" alt="Kirby's Dream Land" title="Kirby's Dream Land" width="150">
+      <figcaption class="figure-caption text-center">Kirby's Dream Land</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Mega Man" title="Mega Man" width="150">
-      <figcaption class="figure-caption text-center">Mega Man</figcaption>
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5hwy.jpg" alt="Mega Man V" title="Mega Man V" width="150">
+      <figcaption class="figure-caption text-center">Mega Man V</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Game & Watch Gallery" title="Game & Watch Gallery" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co60wm.jpg" alt="Game & Watch Gallery" title="Game & Watch Gallery" width="150">
       <figcaption class="figure-caption text-center">Game & Watch Gallery</figcaption>
     </figure>
   </li>

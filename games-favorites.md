@@ -92,8 +92,8 @@ last-modified-at: <span id="last-updated-at">2025-09-09 16:00:00</span>
 </li>
 <li class="list-inline-item">
 <figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9kln.jpg" alt="Teenage Mutant Ninja Turtles II: The Arcade Game" width="150">
-<figcaption class="figure-caption text-center">Teenage Mutant Ninja Turtles II: The Arcade Game</figcaption>
+<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9kln.jpg" alt="TMNT II: The Arcade Game" width="150">
+<figcaption class="figure-caption text-center">TMNT II: The Arcade Game</figcaption>
 </figure>
 </li>
 <li class="list-inline-item">

@@ -27,118 +27,119 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 - [Nintendo 3DS](#3ds)
 - [Wii U](#wii-u)
 - [Nintendo Switch](#nsw)
+- [Nintendo Switch 2](#nsw2)
 
 ## <span id="nes"></span> Nintendo Entertainment System (NES)
 
 <ul class="lista-juegos list-inline">
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario Bros." title="Super Mario Bros." width="150">
-<figcaption class="figure-caption text-center">Super Mario Bros.</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7yq7.jpg" alt="Super Mario Bros. 2" title="Super Mario Bros. 2" width="150">
-<figcaption class="figure-caption text-center">Super Mario Bros. 2</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ozx.jpg" alt="Super Mario Bros. 3" title="Super Mario Bros. 3" width="150">
-<figcaption class="figure-caption text-center">Super Mario Bros. 3</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4zyc.jpg" alt="Dr. Mario" title="Dr. Mario" width="150">
-<figcaption class="figure-caption text-center">Dr. Mario</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9sy3.jpg" alt="Punch-Out!!" title="Punch-Out!!" width="150">
-<figcaption class="figure-caption text-center">Punch-Out!!</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8mzl.jpg" alt="Earthbound Beginnings" title="Earthbound Beginnings" width="150">
-<figcaption class="figure-caption text-center">Earthbound Beginnings</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co55ce.jpg" alt="Mega Man 3" title="Mega Man 3" width="150">
-<figcaption class="figure-caption text-center">Mega Man 3</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5ssy.jpg" alt="Mega Man 4" title="Mega Man 4" width="150">
-<figcaption class="figure-caption text-center">Mega Man 4</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5x45.jpg" alt="Mega Man 5" title="Mega Man 5" width="150">
-<figcaption class="figure-caption text-center">Mega Man 5</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6dcb.jpg" alt="Castlevania" title="Castlevania" width="150">
-<figcaption class="figure-caption text-center">Castlevania</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9se1.jpg" alt="Castlevania III: Dracula's Curse" title="Castlevania III: Dracula's Curse" width="150">
-<figcaption class="figure-caption text-center">Castlevania III: Dracula's Curse</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6q7i.jpg" alt="Teenage Mutant Ninja Turtles" title="Teenage Mutant Ninja Turtles" width="150">
-<figcaption class="figure-caption text-center">Teenage Mutant Ninja Turtles</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9kln.jpg" alt="Teenage Mutant Ninja Turtles II: The Arcade Game" title="Teenage Mutant Ninja Turtles II: The Arcade Game" width="150">
-<figcaption class="figure-caption text-center">Teenage Mutant Ninja Turtles II: The Arcade Game</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3z3x.jpg" alt="Hudson's Adventure Island" title="Hudson's Adventure Island" width="150">
-<figcaption class="figure-caption text-center">Hudson's Adventure Island</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5agp.jpg" alt="Battletoads" title="Battletoads" width="150">
-<figcaption class="figure-caption text-center">Battletoads</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2xcg.jpg" alt="R.C. Pro-Am" title="R.C. Pro-Am" width="150">
-<figcaption class="figure-caption text-center">R.C. Pro-Am</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4aoc.jpg" alt="Rockin' Kats" title="Rockin' Kats" width="150">
-<figcaption class="figure-caption text-center">Rockin' Kats</figcaption>
-</figure>
-</li>
-<li class="list-inline-item">
-<figure class="figure">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6hsx.jpg" alt="Mr. Gimmick" title="Mr. Gimmick" width="150">
-<figcaption class="figure-caption text-center">Mr. Gimmick</figcaption>
-</figure>
-</li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario Bros." title="Super Mario Bros." width="150">
+      <figcaption class="figure-caption text-center">Super Mario Bros.</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7yq7.jpg" alt="Super Mario Bros. 2" title="Super Mario Bros. 2" width="150">
+      <figcaption class="figure-caption text-center">Super Mario Bros. 2</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ozx.jpg" alt="Super Mario Bros. 3" title="Super Mario Bros. 3" width="150">
+      <figcaption class="figure-caption text-center">Super Mario Bros. 3</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4zyc.jpg" alt="Dr. Mario" title="Dr. Mario" width="150">
+      <figcaption class="figure-caption text-center">Dr. Mario</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9sy3.jpg" alt="Punch-Out!!" title="Punch-Out!!" width="150">
+      <figcaption class="figure-caption text-center">Punch-Out!!</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8mzl.jpg" alt="Earthbound Beginnings" title="Earthbound Beginnings" width="150">
+      <figcaption class="figure-caption text-center">Earthbound Beginnings</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co55ce.jpg" alt="Mega Man 3" title="Mega Man 3" width="150">
+      <figcaption class="figure-caption text-center">Mega Man 3</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5ssy.jpg" alt="Mega Man 4" title="Mega Man 4" width="150">
+      <figcaption class="figure-caption text-center">Mega Man 4</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5x45.jpg" alt="Mega Man 5" title="Mega Man 5" width="150">
+      <figcaption class="figure-caption text-center">Mega Man 5</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6dcb.jpg" alt="Castlevania" title="Castlevania" width="150">
+      <figcaption class="figure-caption text-center">Castlevania</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9se1.jpg" alt="Castlevania III: Dracula's Curse" title="Castlevania III: Dracula's Curse" width="150">
+      <figcaption class="figure-caption text-center">Castlevania III: Dracula's Curse</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6q7i.jpg" alt="Teenage Mutant Ninja Turtles" title="Teenage Mutant Ninja Turtles" width="150">
+      <figcaption class="figure-caption text-center">Teenage Mutant Ninja Turtles</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9kln.jpg" alt="Teenage Mutant Ninja Turtles II: The Arcade Game" title="Teenage Mutant Ninja Turtles II: The Arcade Game" width="150">
+      <figcaption class="figure-caption text-center">Teenage Mutant Ninja Turtles II: The Arcade Game</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3z3x.jpg" alt="Hudson's Adventure Island" title="Hudson's Adventure Island" width="150">
+      <figcaption class="figure-caption text-center">Hudson's Adventure Island</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5agp.jpg" alt="Battletoads" title="Battletoads" width="150">
+      <figcaption class="figure-caption text-center">Battletoads</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2xcg.jpg" alt="R.C. Pro-Am" title="R.C. Pro-Am" width="150">
+      <figcaption class="figure-caption text-center">R.C. Pro-Am</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4aoc.jpg" alt="Rockin' Kats" title="Rockin' Kats" width="150">
+      <figcaption class="figure-caption text-center">Rockin' Kats</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6hsx.jpg" alt="Mr. Gimmick" title="Mr. Gimmick" width="150">
+      <figcaption class="figure-caption text-center">Mr. Gimmick</figcaption>
+    </figure>
+  </li>
 </ul>
 
 ## <span id="game-boy"></span> Game Boy
@@ -160,6 +161,12 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
     <figure class="figure">
       <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7gxg.jpg" alt="Super Mario Land 2: 6 Golden Coins" title="Super Mario Land 2: 6 Golden Coins" width="150">
       <figcaption class="figure-caption text-center">Super Mario Land 2: 6 Golden Coins</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3nnt.jpg" alt="The Legend of Zelda: Link's Awakening" title="The Legend of Zelda: Link's Awakening" width="150">
+      <figcaption class="figure-caption text-center">The Legend of Zelda: Link's Awakening</figcaption>
     </figure>
   </li>
   <li class="list-inline-item">
@@ -588,3 +595,78 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
     </figure>
   </li>
 </ul>
+
+## <span id="nsw"></span> Nintendo Switch
+
+<ul class="lista-juegos list-inline">
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3p2d.jpg" alt="The Legend of Zelda: Breath of the Wild" title="The Legend of Zelda: Breath of the Wild" width="150">
+      <figcaption class="figure-caption text-center">The Legend of Zelda: Breath of the Wild</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5vmg.jpg" alt="The Legend of Zelda: Tears of the Kingdom" title="The Legend of Zelda: Tears of the Kingdom" width="150">
+      <figcaption class="figure-caption text-center">The Legend of Zelda: Tears of the Kingdom</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1mxf.jpg" alt="Super Mario Odyssey" title="Super Mario Odyssey" width="150">
+      <figcaption class="figure-caption text-center">Super Mario Odyssey</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8g7m.jpg" alt="Mario Kart 8 Deluxe + Booster Course Pass" title="Mario Kart 8 Deluxe + Booster Course Pass" width="150">
+      <figcaption class="figure-caption text-center">Mario Kart 8 Deluxe + Booster Course Pass</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6dn3.jpg" alt="Splatoon 2" title="Splatoon 2" width="150">
+      <figcaption class="figure-caption text-center">Splatoon 2</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" alt="Splatoon 3" title="Splatoon 3" width="150">
+      <figcaption class="figure-caption text-center">Splatoon 3</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1qve.jpg" alt="The Legend of Zelda: Link's Awakening" title="The Legend of Zelda: Link's Awakening" width="150">
+      <figcaption class="figure-caption text-center">The Legend of Zelda: Link's Awakening</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co39zx.jpg" alt="Metroid Dread" title="Metroid Dread" width="150">
+      <figcaption class="figure-caption text-center">Metroid Dread</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1obi.jpg" alt="Sonic Mania" title="Sonic Mania" width="150">
+      <figcaption class="figure-caption text-center">Sonic Mania</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co22a9.jpg" alt="Luigi's Mansion 3" title="Luigi's Mansion 3" width="150">
+      <figcaption class="figure-caption text-center">Luigi's Mansion 3</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vp.jpg" alt="Clubhouse Games: 51 Worldwide Classics" title="Clubhouse Games: 51 Worldwide Classics" width="150">
+      <figcaption class="figure-caption text-center">Clubhouse Games: 51 Worldwide Classics</figcaption>
+    </figure>
+  </li>
+</ul>
+
+## <span id="nsw2"></span> Nintendo Switch 2
+
+Próximamente. 🙏

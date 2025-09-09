@@ -2,8 +2,10 @@ const button = document.getElementById("btn-random-link");
 
 if (button) {
   button.addEventListener("click", () => {
-    // Select all links within all tables except those with .rss-link
-    const links = document.querySelectorAll("table a:not(.rss-link)");
+    // Select all links within all tables except those with .rss-link and .youtube-link
+    const links = document.querySelectorAll(
+      "table a:not(.rss-link):not(.youtube-link)",
+    );
 
     if (links.length === 0) {
       alert("No hay enlaces disponibles.");

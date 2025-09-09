@@ -18,8 +18,12 @@ last-modified-at: <span id="last-updated-at">2025-09-09 16:00:00</span>
 ## Nintendo Entertainment System (NES)
 
 <ul class="list-inline">
-    <li class="list-inline-item">
-        <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario Bros." width="200">
-        *Super Mario Bros.*
-    </li>
+<li class="list-inline-item">
+<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario Bros." width="150">
+<em>Super Mario Bros.</em>
+</li>
+<li class="list-inline-item">
+<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7yq7.jpg" alt="Super Mario Bros. 2" width="150">
+<em>Super Mario Bros. 2</em>
+</li>
 </ul>

@@ -757,3 +757,13 @@ code {
 .web-badge {
     image-rendering: pixelated;
 }
+
+// Lista de juegos
+.lista-juegos {
+    figcaption {
+        width: 150px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

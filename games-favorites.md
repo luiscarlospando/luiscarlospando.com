@@ -29,7 +29,7 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 
 ## <span id="nes"></span> Nintendo Entertainment System (NES)
 
-<ul class="list-inline">
+<ul class="lista-juegos list-inline">
 <li class="list-inline-item">
 <figure class="figure">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario Bros." width="150">
@@ -142,7 +142,7 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 
 ## <span id="game-boy"></span> Game Boy
 
-<ul class="list-inline">
+<ul class="lista-juegos list-inline">
   <li class="list-inline-item">
     <figure class="figure">
       <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Tetris" width="150">
@@ -195,7 +195,7 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 
 ## <span id="snes"></span> Super Nintendo Entertainment System (SNES)
 
-<ul class="list-inline">
+<ul class="lista-juegos list-inline">
   <li class="list-inline-item">
     <figure class="figure">
       <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Super Mario World" width="150">
@@ -296,7 +296,7 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 
 ## <span id="sega-genesis"></span> SEGA Genesis
 
-<ul class="list-inline">
+<ul class="lista-juegos list-inline">
   <li class="list-inline-item">
     <figure class="figure">
       <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" alt="Sonic the Hedgehog" width="150">

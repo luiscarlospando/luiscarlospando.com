@@ -496,6 +496,45 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 
 ## <span id="3ds"></span> Nintendo 3DS
 
+<ul class="lista-juegos list-inline">
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21tq.jpg" alt="Super Mario 3D Land" title="Super Mario 3D Land" width="150">
+      <figcaption class="figure-caption text-center">Super Mario 3D Land</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2146.jpg" alt="Mario Kart 7" title="Mario Kart 7" width="150">
+      <figcaption class="figure-caption text-center">Mario Kart 7</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3p0j.jpg" alt="The Legend of Zelda: A Link Between Worlds" title="The Legend of Zelda: A Link Between Worlds" width="150">
+      <figcaption class="figure-caption text-center">The Legend of Zelda: A Link Between Worlds</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1wwu.jpg" alt="Star Fox 64 3D" title="Star Fox 64 3D" width="150">
+      <figcaption class="figure-caption text-center">Star Fox 64 3D</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4sp5.jpg" alt="SEGA 3D Classics Collection" title="SEGA 3D Classics Collection" width="150">
+      <figcaption class="figure-caption text-center">SEGA 3D Classics Collection</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co204v.jpg" alt="Mega Man Legacy Collection" title="Mega Man Legacy Collection" width="150">
+      <figcaption class="figure-caption text-center">Mega Man Legacy Collection</figcaption>
+    </figure>
+  </li>
+</ul>
+
 ## <span id="wii-u"></span> Wii U
 
 <ul class="lista-juegos list-inline">

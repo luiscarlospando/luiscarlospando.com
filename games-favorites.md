@@ -394,8 +394,55 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
   </li>
   <li class="list-inline-item">
     <figure class="figure">
-      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8lo8.jpg" alt="Pokémon Stadium" title="Pokémon Stadium" width="150">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1yyd.jpg" alt="Pokémon Stadium" title="Pokémon Stadium" width="150">
       <figcaption class="figure-caption text-center">Pokémon Stadium</figcaption>
+    </figure>
+  </li>
+</ul>
+
+## <span id="gcn"></span> Nintendo GameCube
+
+<ul class="lista-juegos list-inline">
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5p3o.jpg" alt="Sonic Adventure 2: Battle" title="Sonic Adventure 2: Battle" width="150">
+      <figcaption class="figure-caption text-center">Sonic Adventure 2: Battle</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21rh.jpg" alt="Super Mario Sunshine" title="Super Mario Sunshine" width="150">
+      <figcaption class="figure-caption text-center">Super Mario Sunshine</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3ohz.jpg" alt="The Legend of Zelda: The Wind Waker" title="The Legend of Zelda: The Wind Waker" width="150">
+      <figcaption class="figure-caption text-center">The Legend of Zelda: The Wind Waker</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2wk8.jpg" alt="Resident Evil 4" title="Resident Evil 4" width="150">
+      <figcaption class="figure-caption text-center">Resident Evil 4</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3w4w.jpg" alt="Metroid Prime" title="Metroid Prime" width="150">
+      <figcaption class="figure-caption text-center">Metroid Prime</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21yv.jpg" alt="Super Smash Bros. Melee" title="Super Smash Bros. Melee" width="150">
+      <figcaption class="figure-caption text-center">Super Smash Bros. Melee</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co209h.jpg" alt="Need for Speed: Underground 2" title="Need for Speed: Underground 2" width="150">
+      <figcaption class="figure-caption text-center">Need for Speed: Underground 2</figcaption>
     </figure>
   </li>
 </ul>

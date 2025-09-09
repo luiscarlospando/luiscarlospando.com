@@ -324,3 +324,78 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
 </ul>
 
 ## <span id="n64"></span> Nintendo 64
+
+<ul class="lista-juegos list-inline">
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co721v.jpg" alt="Super Mario 64" title="Super Mario 64" width="150">
+      <figcaption class="figure-caption text-center">Super Mario 64</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5iq6.jpg" alt="Pilotwings 64" title="Pilotwings 64" width="150">
+      <figcaption class="figure-caption text-center">Pilotwings 64</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co67hm.jpg" alt="Mario Kart 64" title="Mario Kart 64" width="150">
+      <figcaption class="figure-caption text-center">Mario Kart 64</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa9f0.jpg" alt="Wave Race 64" title="Wave Race 64" width="150">
+      <figcaption class="figure-caption text-center">Wave Race 64</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2e4k.jpg" alt="Star Fox 64" title="Star Fox 64" width="150">
+      <figcaption class="figure-caption text-center">Star Fox 64</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3nnx.jpg" alt="The Legend of Zelda: Ocarina of Time" title="The Legend of Zelda: Ocarina of Time" width="150">
+      <figcaption class="figure-caption text-center">The Legend of Zelda: Ocarina of Time</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3pah.jpg" alt="The Legend of Zelda: Majora's Mask" title="The Legend of Zelda: Majora's Mask" width="150">
+      <figcaption class="figure-caption text-center">The Legend of Zelda: Majora's Mask</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co53i2.jpg" alt="F-Zero X" title="F-Zero X" width="150">
+      <figcaption class="figure-caption text-center">F-Zero X</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1wgj.jpg" alt="Diddy Kong Racing" title="Diddy Kong Racing" width="150">
+      <figcaption class="figure-caption text-center">Diddy Kong Racing</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2tso.jpg" alt="Super Smash Bros." title="Super Smash Bros." width="150">
+      <figcaption class="figure-caption text-center">Super Smash Bros.</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21yt.jpg" alt="Mario Party 2" title="Mario Party 2" width="150">
+      <figcaption class="figure-caption text-center">Mario Party 2</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8lo8.jpg" alt="Pokémon Stadium" title="Pokémon Stadium" width="150">
+      <figcaption class="figure-caption text-center">Pokémon Stadium</figcaption>
+    </figure>
+  </li>
+</ul>

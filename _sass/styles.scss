@@ -752,3 +752,8 @@ code {
 .rss-link i:nth-of-type(2) {
     display: none;
 }
+
+// Improve web badge rendering
+.web-badge {
+    image-rendering: pixelated;
+}

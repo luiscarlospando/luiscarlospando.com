@@ -28,32 +28,43 @@ document.addEventListener("DOMContentLoaded", function () {
 // Video modal
 document.addEventListener("DOMContentLoaded", function () {
   const modalTriggers = document.querySelectorAll('[data-toggle="modal"]');
+  const videoModal = document.getElementById("videoModal");
+  const modalIframe = videoModal.querySelector("iframe");
+  const modalCloseButtons = videoModal.querySelectorAll(
+    '[data-dismiss="modal"]',
+  );
 
+  // When a trigger is clicked, set video src
   modalTriggers.forEach((trigger) => {
     trigger.addEventListener("click", function () {
-      // Get the video URL from data-video attribute
-      let videoUrl = this.getAttribute("data-video");
-      if (!videoUrl) return; // If no video, do nothing
+      const videoUrl = this.getAttribute("data-video");
+      if (!videoUrl) return;
 
-      // Get the iframe inside the modal
-      const modalIframe = document.querySelector("#videoModal iframe");
-      if (modalIframe) {
-        // Set the iframe src with autoplay
-        modalIframe.setAttribute("src", videoUrl + "?autoplay=1");
-      }
+      modalIframe.setAttribute("src", videoUrl + "?autoplay=1");
     });
   });
 
-  // Stop the video when the modal is closed
-  const videoModal = document.getElementById("videoModal");
-  if (videoModal) {
-    videoModal.addEventListener("hidden.bs.modal", function () {
-      const modalIframe = videoModal.querySelector("iframe");
-      if (modalIframe) {
-        modalIframe.setAttribute("src", ""); // Clear src to stop video
-      }
-    });
-  }
+  // Stop video when the modal is closed
+  const stopVideo = () => {
+    modalIframe.setAttribute("src", "");
+  };
+
+  // Close button(s)
+  modalCloseButtons.forEach((btn) => {
+    btn.addEventListener("click", stopVideo);
+  });
+
+  // Close when clicking on the backdrop
+  videoModal.addEventListener("click", function (e) {
+    if (e.target === videoModal) stopVideo();
+  });
+
+  // Optional: stop video when pressing Escape
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && videoModal.classList.contains("show")) {
+      stopVideo();
+    }
+  });
 });
 
 // #stuff-i-like modal

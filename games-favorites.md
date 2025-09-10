@@ -44,7 +44,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 18:00:00</span>
       </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Izc1yLUxPIw">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7yq7.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Bros. 2" title="Super Mario Bros. 2" width="150">
         <figcaption class="figure-caption text-center">Super Mario Bros. 2</figcaption>

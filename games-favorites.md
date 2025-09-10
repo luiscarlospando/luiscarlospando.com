@@ -382,10 +382,10 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/nMEg-xMxCXk">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/oFobNkUwkEM">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9ict.jpg" data-toggle="tooltip" data-placement="top" alt="Ivan Ironman Stewart's Super Off Road" title="Ivan Ironman Stewart's Super Off Road" width="150">
-        <figcaption class="figure-caption text-center">Ivan Ironman Stewart's Super Off Road</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9ict.jpg" data-toggle="tooltip" data-placement="top" alt="Super Off Road" title="Super Off Road" width="150">
+        <figcaption class="figure-caption text-center">Super Off Road</figcaption>
       </figure>
     </a>
   </li>

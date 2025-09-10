@@ -533,7 +533,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 18:30:00</span>
 
 <ul class="games-list list-inline">
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/TkarHtwQUG0">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5p3o.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic Adventure 2: Battle" title="Sonic Adventure 2: Battle" width="150">
         <figcaption class="figure-caption text-center">Sonic Adventure 2: Battle</figcaption>
@@ -541,7 +541,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 18:30:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/C5mcz3RfwMA">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21rh.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Sunshine" title="Super Mario Sunshine" width="150">
         <figcaption class="figure-caption text-center">Super Mario Sunshine</figcaption>
@@ -549,7 +549,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 18:30:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/IyxTw_AlRaA">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3ohz.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: The Wind Waker" title="The Legend of Zelda: The Wind Waker" width="150">
         <figcaption class="figure-caption text-center">The Legend of Zelda: The Wind Waker</figcaption>
@@ -557,7 +557,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 18:30:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/XSp0DFpBbtc">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2wk8.jpg" data-toggle="tooltip" data-placement="top" alt="Resident Evil 4" title="Resident Evil 4" width="150">
         <figcaption class="figure-caption text-center">Resident Evil 4</figcaption>
@@ -565,7 +565,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 18:30:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/0gZExa9quRg">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3w4w.jpg" data-toggle="tooltip" data-placement="top" alt="Metroid Prime" title="Metroid Prime" width="150">
         <figcaption class="figure-caption text-center">Metroid Prime</figcaption>
@@ -573,7 +573,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 18:30:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/pPpkIitFjvk">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21yv.jpg" data-toggle="tooltip" data-placement="top" alt="Super Smash Bros. Melee" title="Super Smash Bros. Melee" width="150">
         <figcaption class="figure-caption text-center">Super Smash Bros. Melee</figcaption>
@@ -581,7 +581,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 18:30:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/1UQkOEYwcn0">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co209h.jpg" data-toggle="tooltip" data-placement="top" alt="Need for Speed: Underground 2" title="Need for Speed: Underground 2" width="150">
         <figcaption class="figure-caption text-center">Need for Speed: Underground 2</figcaption>

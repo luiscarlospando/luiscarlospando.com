@@ -758,12 +758,22 @@ code {
     image-rendering: pixelated;
 }
 
-// Lista de juegos
-.lista-juegos {
+// Favorite games list
+.games-list {
     figcaption {
         width: 150px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+}
+
+// Game thumbnails
+.thumb-game {
+    @include transition;
+
+    &:hover,
+    &:focus {
+        transform: translateY(-5px);
     }
 }

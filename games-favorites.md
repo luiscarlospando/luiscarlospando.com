@@ -33,10 +33,15 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
 
 <ul class="games-list list-inline">
   <li class="list-inline-item">
-    <figure class="figure">
-      <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Bros." title="Super Mario Bros." width="150">
-      <figcaption class="figure-caption text-center">Super Mario Bros.</figcaption>
-    </figure>
+      <a href="javascript:void(0)"
+         data-toggle="modal"
+         data-target="#videoModal"
+         data-video="https://www.youtube.com/embed/c_b9Yn34pdI">
+            <figure class="figure">
+                <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Bros." title="Super Mario Bros." width="150">
+                <figcaption class="figure-caption text-center">Super Mario Bros.</figcaption>
+            </figure>
+      </a>
   </li>
   <li class="list-inline-item">
     <figure class="figure">

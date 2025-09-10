@@ -25,6 +25,37 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// Video modal
+document.addEventListener("DOMContentLoaded", function () {
+  const modalTriggers = document.querySelectorAll('[data-toggle="modal"]');
+
+  modalTriggers.forEach((trigger) => {
+    trigger.addEventListener("click", function () {
+      // Get the video URL from data-video attribute
+      let videoUrl = this.getAttribute("data-video");
+      if (!videoUrl) return; // If no video, do nothing
+
+      // Get the iframe inside the modal
+      const modalIframe = document.querySelector("#videoModal iframe");
+      if (modalIframe) {
+        // Set the iframe src with autoplay
+        modalIframe.setAttribute("src", videoUrl + "?autoplay=1");
+      }
+    });
+  });
+
+  // Stop the video when the modal is closed
+  const videoModal = document.getElementById("videoModal");
+  if (videoModal) {
+    videoModal.addEventListener("hidden.bs.modal", function () {
+      const modalIframe = videoModal.querySelector("iframe");
+      if (modalIframe) {
+        modalIframe.setAttribute("src", ""); // Clear src to stop video
+      }
+    });
+  }
+});
+
 // #stuff-i-like modal
 document.addEventListener("DOMContentLoaded", function () {
   // Button that opens up the modal

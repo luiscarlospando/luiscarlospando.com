@@ -128,6 +128,8 @@ permalink: /badges/
 <img class="web-badge" src="{{ site.url }}/assets/images/buttons/u_r0aXyVMa-88.webp" alt="Ditch Social Media Now!" width="88" height="31" />
 </li>
 <li class="list-inline-item mb-3">
+<a rel="noreferrer noopener" href="https://zed.dev/" target="_blank">
 <img class="web-badge" src="{{ site.url }}/assets/images/buttons/zed.gif" alt="Zed - The editor for what's next" width="88" height="31" />
+</a>
 </li>
 </ul>

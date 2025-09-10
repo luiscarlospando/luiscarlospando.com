@@ -86,7 +86,7 @@ permalink: /badges/
 </a>
 </li>
 <li class="list-inline-item mb-3">
-<a rel="me noreferrer noopener" href="{{ site.bluesky }}" target="_blank">
+<a rel="me noreferrer noopener" href="{{ site.bluesky_url }}" target="_blank">
 <img class="web-badge" src="{{ site.url }}/assets/images/buttons/bluesky.gif" alt="Follow me on Bluesky" width="88" height="31" />
 </a>
 </li>

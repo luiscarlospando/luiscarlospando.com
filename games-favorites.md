@@ -144,7 +144,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
 
 ## <span id="game-boy"></span> Game Boy
 
-<ul class="lista-juegos list-inline">
+<ul class="games-list list-inline">
   <li class="list-inline-item">
     <figure class="figure">
       <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2ufl.jpg" data-toggle="tooltip" data-placement="top" alt="Tetris" title="Tetris" width="150">
@@ -203,7 +203,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
 
 ## <span id="snes"></span> Super Nintendo Entertainment System (SNES)
 
-<ul class="lista-juegos list-inline">
+<ul class="games-list list-inline">
   <li class="list-inline-item">
     <figure class="figure">
       <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8lo8.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario World" title="Super Mario World" width="150">
@@ -304,7 +304,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
 
 ## <span id="sega-genesis"></span> SEGA Genesis
 
-<ul class="lista-juegos list-inline">
+<ul class="games-list list-inline">
   <li class="list-inline-item">
     <figure class="figure">
       <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6yzr.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic the Hedgehog" title="Sonic the Hedgehog" width="150">
@@ -333,7 +333,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
 
 ## <span id="n64"></span> Nintendo 64
 
-<ul class="lista-juegos list-inline">
+<ul class="games-list list-inline">
   <li class="list-inline-item">
     <figure class="figure">
       <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co721v.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario 64" title="Super Mario 64" width="150">
@@ -410,7 +410,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
 
 ## <span id="gcn"></span> Nintendo GameCube
 
-<ul class="lista-juegos list-inline">
+<ul class="games-list list-inline">
   <li class="list-inline-item">
     <figure class="figure">
       <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5p3o.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic Adventure 2: Battle" title="Sonic Adventure 2: Battle" width="150">
@@ -457,7 +457,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
 
 ## <span id="wii"></span> Wii
 
-<ul class="lista-juegos list-inline">
+<ul class="games-list list-inline">
   <li class="list-inline-item">
     <figure class="figure">
       <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21ro.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Galaxy" title="Super Mario Galaxy" width="150">
@@ -504,7 +504,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
 
 ## <span id="3ds"></span> Nintendo 3DS
 
-<ul class="lista-juegos list-inline">
+<ul class="games-list list-inline">
   <li class="list-inline-item">
     <figure class="figure">
       <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21tq.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario 3D Land" title="Super Mario 3D Land" width="150">
@@ -545,7 +545,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
 
 ## <span id="wii-u"></span> Wii U
 
-<ul class="lista-juegos list-inline">
+<ul class="games-list list-inline">
   <li class="list-inline-item">
     <figure class="figure">
       <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vd.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario 3D World" title="Super Mario 3D World" width="150">
@@ -598,7 +598,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
 
 ## <span id="nsw"></span> Nintendo Switch
 
-<ul class="lista-juegos list-inline">
+<ul class="games-list list-inline">
   <li class="list-inline-item">
     <figure class="figure">
       <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3p2d.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: Breath of the Wild" title="The Legend of Zelda: Breath of the Wild" width="150">

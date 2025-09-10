@@ -185,7 +185,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
 
 <ul class="games-list list-inline">
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/VNbo1AGqKrI">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2ufl.jpg" data-toggle="tooltip" data-placement="top" alt="Tetris" title="Tetris" width="150">
         <figcaption class="figure-caption text-center">Tetris</figcaption>
@@ -193,7 +193,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/EV0qJd-phvQ">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7o14.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Land" title="Super Mario Land" width="150">
         <figcaption class="figure-caption text-center">Super Mario Land</figcaption>
@@ -201,7 +201,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/lXMJt5PP3kM">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7gxg.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Land 2: 6 Golden Coins" title="Super Mario Land 2: 6 Golden Coins" width="150">
         <figcaption class="figure-caption text-center">Super Mario Land 2: 6 Golden Coins</figcaption>
@@ -209,7 +209,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/oPme8LZj2PQ">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3nnt.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: Link's Awakening" title="The Legend of Zelda: Link's Awakening" width="150">
         <figcaption class="figure-caption text-center">The Legend of Zelda: Link's Awakening</figcaption>
@@ -217,7 +217,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/noNl2NkVC5E">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5pi7.jpg" data-toggle="tooltip" data-placement="top" alt="Pokémon (Red/Blue/Yellow)" title="Pokémon (Red/Blue/Yellow)" width="150">
         <figcaption class="figure-caption text-center">Pokémon (Red/Blue/Yellow)</figcaption>
@@ -225,7 +225,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/IPMBe37oiiI">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5pid.jpg" data-toggle="tooltip" data-placement="top" alt="Pokémon (Gold/Silver)" title="Pokémon (Gold/Silver)" width="150">
         <figcaption class="figure-caption text-center">Pokémon (Gold/Silver)</figcaption>
@@ -233,7 +233,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/giWzzjEgGIM">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3ffy.jpg" data-toggle="tooltip" data-placement="top" alt="Kirby's Dream Land" title="Kirby's Dream Land" width="150">
         <figcaption class="figure-caption text-center">Kirby's Dream Land</figcaption>
@@ -241,7 +241,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/bwtAEweHofg">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5hwy.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man V" title="Mega Man V" width="150">
         <figcaption class="figure-caption text-center">Mega Man V</figcaption>
@@ -249,7 +249,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/I9N6IaPt58Q">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co60wm.jpg" data-toggle="tooltip" data-placement="top" alt="Game & Watch Gallery" title="Game & Watch Gallery" width="150">
         <figcaption class="figure-caption text-center">Game & Watch Gallery</figcaption>

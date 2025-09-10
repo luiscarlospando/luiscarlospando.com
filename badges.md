@@ -69,7 +69,9 @@ permalink: /badges/
 <img class="web-badge" src="{{ site.url }}/assets/images/buttons/css-is-awesome.webp" alt="CSS is awesome" width="88" height="31" />
 </li>
 <li class="list-inline-item mb-3">
+<a rel="noopener" href="https://home.omg.lol/referred-by/mijo" target="_blank">
 <img class="web-badge" src="{{ site.url }}/assets/images/buttons/omglol.svg" alt="omg.lol" width="88" height="31" />
+</a>
 </li>
 <li class="list-inline-item mb-3">
 <img class="web-badge" src="{{ site.url }}/assets/images/buttons/made-by-hand-animated.gif" alt="Made by hand" width="88" height="31" />

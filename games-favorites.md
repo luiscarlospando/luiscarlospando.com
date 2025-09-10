@@ -262,7 +262,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
 
 <ul class="games-list list-inline">
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/htFJTiVH5Ao">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8lo8.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario World" title="Super Mario World" width="150">
         <figcaption class="figure-caption text-center">Super Mario World</figcaption>
@@ -270,7 +270,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/AlAmXXNz5ac">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21w8.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Kart" title="Super Mario Kart" width="150">
         <figcaption class="figure-caption text-center">Super Mario Kart</figcaption>
@@ -278,7 +278,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/LrNFnrAc5WU">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2er1.jpg" data-toggle="tooltip" data-placement="top" alt="Mario Paint" title="Mario Paint" width="150">
         <figcaption class="figure-caption text-center">Mario Paint</figcaption>
@@ -286,7 +286,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Z6hjG6MCcZ8">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3vzn.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: A Link to the Past" title="The Legend of Zelda: A Link to the Past" width="150">
         <figcaption class="figure-caption text-center">The Legend of Zelda: A Link to the Past</figcaption>
@@ -294,7 +294,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/2mHYOzLh19E">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5osy.jpg" data-toggle="tooltip" data-placement="top" alt="Super Metroid" title="Super Metroid" width="150">
         <figcaption class="figure-caption text-center">Super Metroid</figcaption>
@@ -302,7 +302,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/BIe4AvKLSa4">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6ufz.jpg" data-toggle="tooltip" data-placement="top" alt="F-Zero" title="F-Zero" width="150">
         <figcaption class="figure-caption text-center">F-Zero</figcaption>
@@ -310,7 +310,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/2Cq5B-NOIrQ">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co99og.jpg" data-toggle="tooltip" data-placement="top" alt="Star Fox" title="Star Fox" width="150">
         <figcaption class="figure-caption text-center">Star Fox</figcaption>
@@ -318,7 +318,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/R_KycP25oP8">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ap.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario All-Stars" title="Super Mario All-Stars" width="150">
         <figcaption class="figure-caption text-center">Super Mario All-Stars</figcaption>
@@ -326,7 +326,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/bcUo0m5FFvk">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2w6k.jpg" data-toggle="tooltip" data-placement="top" alt="Tetris Attack" title="Tetris Attack" width="150">
         <figcaption class="figure-caption text-center">Tetris Attack</figcaption>
@@ -334,7 +334,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/wd2NqblSmIY">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3tu2.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man X" title="Mega Man X" width="150">
         <figcaption class="figure-caption text-center">Mega Man X</figcaption>
@@ -342,7 +342,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/fEcwtSkRz2Q">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3plw.jpg" data-toggle="tooltip" data-placement="top" alt="Chrono Trigger" title="Chrono Trigger" width="150">
         <figcaption class="figure-caption text-center">Chrono Trigger</figcaption>
@@ -350,7 +350,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/hakuztODkAw">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co70qn.jpg" data-toggle="tooltip" data-placement="top" alt="Donkey Kong Country" title="Donkey Kong Country" width="150">
         <figcaption class="figure-caption text-center">Donkey Kong Country</figcaption>
@@ -358,7 +358,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/SbdEBom6Bx0">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2kn9.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario World 2: Yoshi's Island" title="Super Mario World 2: Yoshi's Island" width="150">
         <figcaption class="figure-caption text-center">Super Mario World 2: Yoshi's Island</figcaption>
@@ -366,7 +366,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/mPWlDqkQIeY">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6v07.jpg" data-toggle="tooltip" data-placement="top" alt="Earthbound" title="Earthbound" width="150">
         <figcaption class="figure-caption text-center">Earthbound</figcaption>
@@ -374,7 +374,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/wpz0xxjZuCw">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ruz.jpg" data-toggle="tooltip" data-placement="top" alt="Teenage Mutant Ninja Turtles: Turtles in Time" title="Teenage Mutant Ninja Turtles: Turtles in Time" width="150">
         <figcaption class="figure-caption text-center">Teenage Mutant Ninja Turtles: Turtles in Time</figcaption>
@@ -382,10 +382,10 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/nMEg-xMxCXk">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9ict.jpg" data-toggle="tooltip" data-placement="top" alt="Super Off Road" title="Super Off Road" width="150">
-        <figcaption class="figure-caption text-center">Super Off Road</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9ict.jpg" data-toggle="tooltip" data-placement="top" alt="Ivan Ironman Stewart's Super Off Road" title="Ivan Ironman Stewart's Super Off Road" width="150">
+        <figcaption class="figure-caption text-center">Ivan Ironman Stewart's Super Off Road</figcaption>
       </figure>
     </a>
   </li>

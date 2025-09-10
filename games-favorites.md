@@ -4,7 +4,7 @@ title: Mis juegos favoritos
 description: Esta es una lista de mis juegos favoritos.
 image: /assets/images/logo-games.png
 permalink: /games/favorites/
-last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
+last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -663,6 +663,15 @@ last-modified-at: <span id="last-updated-at">2025-09-09 17:00:00</span>
     <figure class="figure">
       <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vp.jpg" alt="Clubhouse Games: 51 Worldwide Classics" title="Clubhouse Games: 51 Worldwide Classics" width="150">
       <figcaption class="figure-caption text-center">Clubhouse Games: 51 Worldwide Classics</figcaption>
+    </figure>
+  </li>
+  <li class="list-inline-item">
+    <figure class="figure">
+      <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1x9f.jpg" alt="Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition
+" title="Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition
+" width="150">
+      <figcaption class="figure-caption text-center">Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition
+</figcaption>
     </figure>
   </li>
 </ul>

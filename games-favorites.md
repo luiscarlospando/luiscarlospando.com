@@ -52,7 +52,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/7i9omPUt9iQ">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ozx.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Bros. 3" title="Super Mario Bros. 3" width="150">
         <figcaption class="figure-caption text-center">Super Mario Bros. 3</figcaption>
@@ -60,7 +60,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/IHXdtKEHDNU">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4zyc.jpg" data-toggle="tooltip" data-placement="top" alt="Dr. Mario" title="Dr. Mario" width="150">
         <figcaption class="figure-caption text-center">Dr. Mario</figcaption>
@@ -68,7 +68,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/rcJneBFV9cI">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9sy3.jpg" data-toggle="tooltip" data-placement="top" alt="Punch-Out!!" title="Punch-Out!!" width="150">
         <figcaption class="figure-caption text-center">Punch-Out!!</figcaption>
@@ -76,7 +76,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/xTonuqUL_MU">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8mzl.jpg" data-toggle="tooltip" data-placement="top" alt="Earthbound Beginnings" title="Earthbound Beginnings" width="150">
         <figcaption class="figure-caption text-center">Earthbound Beginnings</figcaption>
@@ -84,7 +84,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/3apcIT1rGzE">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co55ce.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man 3" title="Mega Man 3" width="150">
         <figcaption class="figure-caption text-center">Mega Man 3</figcaption>
@@ -92,7 +92,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Z8v_aLnf9Iw">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5ssy.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man 4" title="Mega Man 4" width="150">
         <figcaption class="figure-caption text-center">Mega Man 4</figcaption>
@@ -100,7 +100,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/tO6ZBTpxxCs">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5x45.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man 5" title="Mega Man 5" width="150">
         <figcaption class="figure-caption text-center">Mega Man 5</figcaption>
@@ -108,7 +108,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/yCKrE86cxQI">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6dcb.jpg" data-toggle="tooltip" data-placement="top" alt="Castlevania" title="Castlevania" width="150">
         <figcaption class="figure-caption text-center">Castlevania</figcaption>
@@ -116,7 +116,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/hFFKAl2A898">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9se1.jpg" data-toggle="tooltip" data-placement="top" alt="Castlevania III: Dracula's Curse" title="Castlevania III: Dracula's Curse" width="150">
         <figcaption class="figure-caption text-center">Castlevania III: Dracula's Curse</figcaption>
@@ -124,7 +124,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/2Xxe0TXGg-8">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6q7i.jpg" data-toggle="tooltip" data-placement="top" alt="Teenage Mutant Ninja Turtles" title="Teenage Mutant Ninja Turtles" width="150">
         <figcaption class="figure-caption text-center">Teenage Mutant Ninja Turtles</figcaption>
@@ -132,7 +132,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/QMm6NIhJFJ4">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9kln.jpg" data-toggle="tooltip" data-placement="top" alt="Teenage Mutant Ninja Turtles II: The Arcade Game" title="Teenage Mutant Ninja Turtles II: The Arcade Game" width="150">
         <figcaption class="figure-caption text-center">Teenage Mutant Ninja Turtles II: The Arcade Game</figcaption>
@@ -140,7 +140,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Ly734lgeIAs">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3z3x.jpg" data-toggle="tooltip" data-placement="top" alt="Hudson's Adventure Island" title="Hudson's Adventure Island" width="150">
         <figcaption class="figure-caption text-center">Hudson's Adventure Island</figcaption>
@@ -148,7 +148,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/QLxXmnqaJtw">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5agp.jpg" data-toggle="tooltip" data-placement="top" alt="Battletoads" title="Battletoads" width="150">
         <figcaption class="figure-caption text-center">Battletoads</figcaption>
@@ -156,7 +156,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Y04CtbRKAPY">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2xcg.jpg" data-toggle="tooltip" data-placement="top" alt="R.C. Pro-Am" title="R.C. Pro-Am" width="150">
         <figcaption class="figure-caption text-center">R.C. Pro-Am</figcaption>
@@ -164,7 +164,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/xSbViwipIFI">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4aoc.jpg" data-toggle="tooltip" data-placement="top" alt="Rockin' Kats" title="Rockin' Kats" width="150">
         <figcaption class="figure-caption text-center">Rockin' Kats</figcaption>
@@ -172,7 +172,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 8:51:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PEGAR_ID">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/O71__ki3rYw">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6hsx.jpg" data-toggle="tooltip" data-placement="top" alt="Mr. Gimmick" title="Mr. Gimmick" width="150">
         <figcaption class="figure-caption text-center">Mr. Gimmick</figcaption>

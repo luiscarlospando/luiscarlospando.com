@@ -4,7 +4,7 @@ title: Mis juegos favoritos
 description: Esta es una lista de mis juegos favoritos.
 image: /assets/images/logo-games.png
 permalink: /games/favorites/
-last-modified-at: <span id="last-updated-at">2025-09-11 11:00:00</span>
+last-modified-at: <span id="last-updated-at">2025-09-11 10:14:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">

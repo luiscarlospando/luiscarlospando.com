@@ -596,7 +596,7 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:14:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/UULRZry27E">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/-UULRZry27E">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lb9.jpg" data-toggle="tooltip" data-placement="top" alt="Grand Theft Auto: San Andreas" title="Grand Theft Auto: San Andreas" width="150">
         <figcaption class="figure-caption text-center">Grand Theft Auto: San Andreas</figcaption>

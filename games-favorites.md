@@ -602,7 +602,7 @@ last-modified-at: <span id="last-updated-at">2025-09-10 18:30:00</span>
     </a>
   </li>
   <li class="list-inline-item">
-    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/4du67C8Yf8">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/-4du67C8Yf8">
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21tl.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Galaxy 2" title="Super Mario Galaxy 2" width="150">
         <figcaption class="figure-caption text-center">Super Mario Galaxy 2</figcaption>

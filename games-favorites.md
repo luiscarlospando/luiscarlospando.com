@@ -4,7 +4,7 @@ title: Mis juegos favoritos
 description: Esta es una lista de mis juegos favoritos.
 image: /assets/images/logo-games.png
 permalink: /games/favorites/
-last-modified-at: <span id="last-updated-at">2025-09-11 10:14:00</span>
+last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -470,6 +470,14 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:14:00</span>
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6he0.jpg" data-toggle="tooltip" data-placement="top" alt="Driver" title="Driver" width="150">
         <figcaption class="figure-caption text-center">Driver</figcaption>
+      </figure>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/nCVjlcNByqg">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co54d3.jpg" data-toggle="tooltip" data-placement="top" alt="Dragon Ball GT: Final Bout" title="Dragon Ball GT: Final Bout" width="150">
+        <figcaption class="figure-caption text-center">Dragon Ball GT: Final Bout</figcaption>
       </figure>
     </a>
   </li>

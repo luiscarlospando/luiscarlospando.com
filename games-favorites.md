@@ -4,7 +4,7 @@ title: Mis juegos favoritos
 description: Esta es una lista de mis juegos favoritos.
 image: /assets/images/logo-games.png
 permalink: /games/favorites/
-last-modified-at: <span id="last-updated-at">2025-09-10 18:30:00</span>
+last-modified-at: <span id="last-updated-at">2025-09-11 11:00:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -21,7 +21,9 @@ last-modified-at: <span id="last-updated-at">2025-09-10 18:30:00</span>
 - [Game Boy](#game-boy)
 - [Super Nintendo Entertainment System (SNES)](#snes)
 - [SEGA Genesis](#sega-genesis)
+- [PlayStation](#ps1)
 - [Nintendo 64](#n64)
+- [PlayStation 2](#ps2)
 - [Nintendo GameCube](#gcn)
 - [Wii](#wii)
 - [Nintendo 3DS](#3ds)
@@ -428,6 +430,51 @@ last-modified-at: <span id="last-updated-at">2025-09-10 18:30:00</span>
   </li>
 </ul>
 
+## <span id="ps1"></span> Sony PlayStation (PS1)
+
+<ul class="games-list list-inline">
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/5HnhPNS0rqM">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co53m8.jpg" data-toggle="tooltip" data-placement="top" alt="Castlevania: Symphony of the Night" title="Castlevania: Symphony of the Night" width="150">
+        <figcaption class="figure-caption text-center">Castlevania: Symphony of the Night</figcaption>
+      </figure>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/jaQb1NwvdBE">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co55c7.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man 8" title="Mega Man 8" width="150">
+        <figcaption class="figure-caption text-center">Mega Man 8</figcaption>
+      </figure>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/masSU59If3g">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8ste.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man X4" title="Mega Man X4" width="150">
+        <figcaption class="figure-caption text-center">Mega Man X4</figcaption>
+      </figure>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/2yKb0I2CoyQ">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co20af.jpg" data-toggle="tooltip" data-placement="top" alt="Gran Turismo 2" title="Gran Turismo 2" width="150">
+        <figcaption class="figure-caption text-center">Gran Turismo 2</figcaption>
+      </figure>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/as4JWnokyxA">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6he0.jpg" data-toggle="tooltip" data-placement="top" alt="Driver" title="Driver" width="150">
+        <figcaption class="figure-caption text-center">Driver</figcaption>
+      </figure>
+    </a>
+  </li>
+</ul>
+
 ## <span id="n64"></span> Nintendo 64
 
 <ul class="games-list list-inline">
@@ -524,6 +571,35 @@ last-modified-at: <span id="last-updated-at">2025-09-10 18:30:00</span>
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1yyd.jpg" data-toggle="tooltip" data-placement="top" alt="Pokémon Stadium" title="Pokémon Stadium" width="150">
         <figcaption class="figure-caption text-center">Pokémon Stadium</figcaption>
+      </figure>
+    </a>
+  </li>
+</ul>
+
+## <span id="ps2"></span> PlayStation 2
+
+<ul class="games-list list-inline">
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/vA1oKXxfGF8">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lb8.jpg" data-toggle="tooltip" data-placement="top" alt="Grand Theft Auto III" title="Grand Theft Auto III" width="150">
+        <figcaption class="figure-caption text-center">Grand Theft Auto III</figcaption>
+      </figure>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/VvjFE13ttpY">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lbb.jpg" data-toggle="tooltip" data-placement="top" alt="Grand Theft Auto: Vice City" title="Grand Theft Auto: Vice City" width="150">
+        <figcaption class="figure-caption text-center">Grand Theft Auto: Vice City</figcaption>
+      </figure>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/UULRZry27E">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lb9.jpg" data-toggle="tooltip" data-placement="top" alt="Grand Theft Auto: San Andreas" title="Grand Theft Auto: San Andreas" width="150">
+        <figcaption class="figure-caption text-center">Grand Theft Auto: San Andreas</figcaption>
       </figure>
     </a>
   </li>
@@ -869,6 +945,14 @@ last-modified-at: <span id="last-updated-at">2025-09-10 18:30:00</span>
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1x9f.jpg" data-toggle="tooltip" data-placement="top" alt="Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition" title="Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition" width="150">
         <figcaption class="figure-caption text-center">Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition</figcaption>
+      </figure>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/cDryeHrZFc4">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4kap.jpg" data-toggle="tooltip" data-placement="top" alt="Octopath Traveler" title="Octopath Traveler" width="150">
+        <figcaption class="figure-caption text-center">Octopath Traveler</figcaption>
       </figure>
     </a>
   </li>

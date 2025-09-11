@@ -430,7 +430,7 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:14:00</span>
   </li>
 </ul>
 
-## <span id="ps1"></span> Sony PlayStation (PS1)
+## <span id="ps1"></span> PlayStation
 
 <ul class="games-list list-inline">
   <li class="list-inline-item">

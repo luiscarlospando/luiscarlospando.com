@@ -7,7 +7,6 @@ dayjs.extend(relativeTime);
 
 // Config
 const TRACKS_API = "/api/getCrucialTracks"; // API endpoint
-const MAX_POSTS = 5; // number of latest tracks to show
 const ITEMS_PER_PAGE = 10; // items per page for pagination
 
 let currentPage = 1;
@@ -35,23 +34,19 @@ function getRootDomainURL(url) {
 
 // Set loading state while fetching
 function setLoadingState(isLoading) {
-  ["tracks", "latest-tracks"].forEach((id) => {
-    const element = document.getElementById(id);
-    if (element && isLoading) {
-      element.innerHTML = `
-        <li class="loading-state">
-          <i class="fas fa-spinner fa-spin"></i> Cargando Crucial Tracks...
-        </li>`;
-    }
-  });
+  const element = document.getElementById("tracks");
+  if (element && isLoading) {
+    element.innerHTML = `
+      <li class="loading-state">
+        <i class="fas fa-spinner fa-spin"></i> Cargando Crucial Tracks...
+      </li>`;
+  }
 }
 
 // Main function to fetch and display tracks
 async function displayTracks() {
-  const hasTracks = document.getElementById("tracks");
-  const hasLatest = document.getElementById("latest-tracks");
-
-  if (!hasTracks && !hasLatest) return;
+  const listContainer = document.getElementById("tracks");
+  if (!listContainer) return;
 
   setLoadingState(true);
 
@@ -59,11 +54,8 @@ async function displayTracks() {
     const data = await fetchTracksJSON();
     allItems = data;
 
-    if (hasLatest) renderLatestTracks(allItems.slice(0, MAX_POSTS));
-    if (hasTracks) {
-      renderPaginatedTracks();
-      setupPagination();
-    }
+    renderPaginatedTracks();
+    setupPagination();
   } catch (error) {
     handleError(error);
   }
@@ -84,42 +76,6 @@ function formatDate(dateString) {
     : "unknown date";
 }
 
-// Render the latest tracks
-function renderLatestTracks(items) {
-  const list = document.getElementById("latest-tracks");
-  if (!list) return;
-
-  list.innerHTML = items
-    .map((item) => {
-      const machineDate = dayjs(item.created).format("YYYY-MM-DD");
-
-      // Optional artwork
-      const artworkHTML = item.artwork_url
-        ? `<img src="${item.artwork_url}" alt="${item.song}" class="track-artwork mb-2" style="width:60px; height:60px; object-fit:cover;">`
-        : "";
-
-      // Optional audio preview
-      const audioHTML = item.preview_url
-        ? `<audio controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
-        : "";
-
-      return `
-        <li class="mb-3">
-          <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener">
-            <time datetime="${machineDate}">${formatDate(item.created)}</time>
-          </a>
-          <a href="${item.link}" target="_blank" rel="noopener">
-            ${item.title} <i class="fa-solid fa-arrow-up-right-from-square"></i>
-          </a>
-          ${artworkHTML}
-          ${audioHTML}
-          <small class="text-muted"><em>by ${item.artist}</em></small>
-          ${item.note ? `<div class="track-note">${item.note}</div>` : ""}
-        </li>`;
-    })
-    .join("");
-}
-
 // Render paginated tracks
 function renderPaginatedTracks() {
   const list = document.getElementById("tracks");
@@ -133,9 +89,12 @@ function renderPaginatedTracks() {
     .map((item) => {
       const machineDate = dayjs(item.created).format("YYYY-MM-DD");
 
+      // Optional artwork
       const artworkHTML = item.artwork_url
         ? `<img src="${item.artwork_url}" alt="${item.song}" class="track-artwork mb-2" style="width:60px; height:60px; object-fit:cover;">`
         : "";
+
+      // Optional audio preview
       const audioHTML = item.preview_url
         ? `<audio controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
         : "";
@@ -202,11 +161,9 @@ function setupPagination() {
 // Error handling
 function handleError(error) {
   console.error("Error:", error);
-  ["tracks", "latest-tracks"].forEach((id) => {
-    const el = document.getElementById(id);
-    if (el)
-      el.innerHTML = `<li>No se pudieron cargar las canciones. Por favor, actualiza la página.</li>`;
-  });
+  const el = document.getElementById("tracks");
+  if (el)
+    el.innerHTML = `<li>No se pudieron cargar las canciones. Por favor, actualiza la página.</li>`;
 }
 
 // Initialize on DOM load

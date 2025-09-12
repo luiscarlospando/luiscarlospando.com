@@ -34,6 +34,7 @@ import "./lastfm-last-played";
 import "./button-press";
 import "./dismissable-alert";
 import "./blogroll";
+import "./crucialtracks";
 import "./other";
 
 // React components

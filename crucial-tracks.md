@@ -8,7 +8,7 @@ permalink: /crucial-tracks/
 
 <p class="text-center">{{ page.description }}</p>
 
-<p>Este es [mi perfil en Crucial Tracks][1] y este es el [playlist][2] donde voy agregando las canciones que comparto ahí.</p>
+<p class="text-center">Este es [mi perfil en Crucial Tracks][1] y este es el [playlist][2] donde voy agregando las canciones que comparto ahí.</p>
 
 <ul id="tracks"></ul>
 

@@ -116,10 +116,10 @@ function renderPaginatedTracks() {
                 </div>
                 <div class="col-md-8 col-lg-9">
                   <div class="info">
-                    <h2>${item.song}</h2>
+                    <h2 style="margin: 0 0 0.13em">${item.song}</h2>
                     <p>${item.artist}</p>
                     ${audioHTML}
-                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks</a></p>
+                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
                   </div>
                 </div>
               </div>

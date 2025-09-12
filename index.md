@@ -51,52 +51,52 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
 
 <ul class="list-inline">
     <li class="list-inline-item">
-        <a href="/acerca-de/" class="btn btn-primary btn-lg mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Conoce más sobre mi" title="Conoce más sobre mi">
+        <a href="/acerca-de/" class="btn btn-primary btn-lg mb-3" data-toggle="tooltip" data-placement="top" aria-label="Conoce más sobre mi" title="Conoce más sobre mi">
             <i class="fa-solid fa-circle-info"></i> Acerca de
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/now/" class="btn btn-primary btn-lg mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Ve en qué ando actualmente" title="Ve en qué ando actualmente">
+        <a href="/now/" class="btn btn-primary btn-lg mb-3" data-toggle="tooltip" data-placement="top" aria-label="Ve en qué ando actualmente" title="Ve en qué ando actualmente">
             <i class="fa-solid fa-clock"></i> Now
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="https://blog.luiscarlospando.com/" class="btn btn-primary btn-lg mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Explora mi blog" title="Explora mi blog">
+        <a href="https://blog.luiscarlospando.com/" class="btn btn-primary btn-lg mb-3" data-toggle="tooltip" data-placement="top" aria-label="Explora mi blog" title="Explora mi blog">
             <i class="fa-solid fa-message"></i> Blog
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/photos/" class="btn btn-primary btn-lg mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Ve las fotos que he tomado con mi iPhone" title="Ve las fotos que he tomado con mi iPhone">
+        <a href="/photos/" class="btn btn-primary btn-lg mb-3" data-toggle="tooltip" data-placement="top" aria-label="Ve las fotos que he tomado con mi iPhone" title="Ve las fotos que he tomado con mi iPhone">
             <i class="fa-solid fa-camera"></i> Fotos
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/music/" class="btn btn-primary btn-lg mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Revisa lo que estoy jugando actualmente" title="Revisa mis álbumes más escuchados últimamente y/o mi diario en Crucial Tracks">
+        <a href="/music/" class="btn btn-primary btn-lg mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa lo que estoy jugando actualmente" title="Revisa mis álbumes más escuchados últimamente y/o mi diario en Crucial Tracks">
             <i class="fa-solid fa-headphones"></i> Música
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/games/" class="btn btn-primary btn-lg mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Revisa lo que estoy jugando actualmente" title="Revisa lo que estoy jugando actualmente">
+        <a href="/games/" class="btn btn-primary btn-lg mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa lo que estoy jugando actualmente" title="Revisa lo que estoy jugando actualmente">
             <i class="fa-solid fa-gamepad"></i> Games
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/contacto/" class="btn btn-primary btn-lg mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Revisa las maneras de ponerte en contacto conmigo" title="Revisa las maneras de ponerte en contacto conmigo">
+        <a href="/contacto/" class="btn btn-primary btn-lg mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa las maneras de ponerte en contacto conmigo" title="Revisa las maneras de ponerte en contacto conmigo">
             <i class="fa-solid fa-address-card"></i> Contacto
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/guestbook/" class="btn btn-primary btn-lg mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Deja un mensaje en mi guestbook" title="Deja un mensaje en mi guestbook">
+        <a href="/guestbook/" class="btn btn-primary btn-lg mb-3" data-toggle="tooltip" data-placement="top" aria-label="Deja un mensaje en mi guestbook" title="Deja un mensaje en mi guestbook">
             <i class="fa-solid fa-pen-nib"></i> Guestbook
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/links/" class="btn btn-primary btn-lg mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Colección de links que me encuentro navegando en Internet" title="Colección de links que me encuentro navegando en Internet">
+        <a href="/links/" class="btn btn-primary btn-lg mb-3" data-toggle="tooltip" data-placement="top" aria-label="Colección de links que me encuentro navegando en Internet" title="Colección de links que me encuentro navegando en Internet">
             <i class="fa-solid fa-link"></i> Links
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/blogroll/" class="btn btn-primary btn-lg mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Revisa mis blogs y websites favoritos" title="Revisa mis blogs y websites favoritos">
+        <a href="/blogroll/" class="btn btn-primary btn-lg mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa mis blogs y websites favoritos" title="Revisa mis blogs y websites favoritos">
             <i class="fa-solid fa-bookmark"></i> Blogroll
         </a>
     </li>

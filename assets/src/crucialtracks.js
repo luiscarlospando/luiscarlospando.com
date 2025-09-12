@@ -6,14 +6,14 @@ const relativeTime = require("dayjs/plugin/relativeTime");
 dayjs.extend(relativeTime);
 
 // Config
-const TRACKS_API = "/api/getCrucialTracks";
-const MAX_POSTS = 5; // latest tracks
-const ITEMS_PER_PAGE = 10; // pagination limit
+const TRACKS_API = "/api/getCrucialTracks"; // API endpoint
+const MAX_POSTS = 5; // number of latest tracks to show
+const ITEMS_PER_PAGE = 10; // items per page for pagination
 
 let currentPage = 1;
 let allItems = [];
 
-// Extract domain from URL
+// Function to extract domain from URL
 function extractDomain(url) {
   try {
     const urlObj = new URL(url);
@@ -23,7 +23,7 @@ function extractDomain(url) {
   }
 }
 
-// Get root domain URL
+// Function to get root domain URL
 function getRootDomainURL(url) {
   try {
     const urlObj = new URL(url);
@@ -33,20 +33,20 @@ function getRootDomainURL(url) {
   }
 }
 
-// Show loading state
+// Set loading state while fetching
 function setLoadingState(isLoading) {
   ["tracks", "latest-tracks"].forEach((id) => {
     const element = document.getElementById(id);
     if (element && isLoading) {
       element.innerHTML = `
         <li class="loading-state">
-          <i class="fas fa-spinner fa-spin"></i> Loading tracks...
+          <i class="fas fa-spinner fa-spin"></i> Cargando Crucial Tracks...
         </li>`;
     }
   });
 }
 
-// Main function
+// Main function to fetch and display tracks
 async function displayTracks() {
   const hasTracks = document.getElementById("tracks");
   const hasLatest = document.getElementById("latest-tracks");
@@ -69,14 +69,14 @@ async function displayTracks() {
   }
 }
 
-// Fetch JSON from API
+// Fetch tracks JSON from API
 async function fetchTracksJSON() {
   const response = await fetch(TRACKS_API);
   if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
   return await response.json();
 }
 
-// Format date
+// Format date using dayjs
 function formatDate(dateString) {
   const date = dayjs(dateString);
   return date.isValid()
@@ -84,21 +84,21 @@ function formatDate(dateString) {
     : "unknown date";
 }
 
-// Render latest tracks
+// Render the latest tracks
 function renderLatestTracks(items) {
   const list = document.getElementById("latest-tracks");
   if (!list) return;
 
   list.innerHTML = items
     .map((item) => {
-      const domain = extractDomain(item.link);
-      const rootDomainURL = getRootDomainURL(item.link);
       const machineDate = dayjs(item.created).format("YYYY-MM-DD");
 
-      // Optional artwork / audio preview
+      // Optional artwork
       const artworkHTML = item.artwork_url
         ? `<img src="${item.artwork_url}" alt="${item.song}" class="track-artwork mb-2" style="width:60px; height:60px; object-fit:cover;">`
         : "";
+
+      // Optional audio preview
       const audioHTML = item.preview_url
         ? `<audio controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
         : "";
@@ -113,7 +113,7 @@ function renderLatestTracks(items) {
           </a>
           ${artworkHTML}
           ${audioHTML}
-          <small class="text-muted"><em> by ${item.artist}</em></small>
+          <small class="text-muted"><em>by ${item.artist}</em></small>
           ${item.note ? `<div class="track-note">${item.note}</div>` : ""}
         </li>`;
     })
@@ -131,9 +131,8 @@ function renderPaginatedTracks() {
 
   list.innerHTML = items
     .map((item) => {
-      const domain = extractDomain(item.link);
-      const rootDomainURL = getRootDomainURL(item.link);
       const machineDate = dayjs(item.created).format("YYYY-MM-DD");
+
       const artworkHTML = item.artwork_url
         ? `<img src="${item.artwork_url}" alt="${item.song}" class="track-artwork mb-2" style="width:60px; height:60px; object-fit:cover;">`
         : "";
@@ -151,7 +150,7 @@ function renderPaginatedTracks() {
           </a>
           ${artworkHTML}
           ${audioHTML}
-          <small class="text-muted"><em> by ${item.artist}</em></small>
+          <small class="text-muted"><em>by ${item.artist}</em></small>
           ${item.note ? `<div class="track-note">${item.note}</div>` : ""}
         </li>`;
     })
@@ -166,7 +165,7 @@ function handlePageChange(newPage) {
   document.getElementById("tracks")?.scrollIntoView({ behavior: "smooth" });
 }
 
-// Setup pagination controls
+// Setup pagination buttons
 function setupPagination() {
   const totalPages = Math.ceil(allItems.length / ITEMS_PER_PAGE);
   const list = document.getElementById("tracks");
@@ -178,6 +177,7 @@ function setupPagination() {
   const container = document.createElement("div");
   container.className = "pagination";
   container.style.textAlign = "center";
+
   container.innerHTML = `
     <hr>
     <div class="pagination-info" style="margin-bottom: 1rem;">
@@ -188,6 +188,7 @@ function setupPagination() {
       <button id="nextPage" class="btn btn-primary" aria-label="Next" ${currentPage === totalPages ? "disabled" : ""}>Next »</button>
     </div>
   `;
+
   list.parentNode.insertBefore(container, list.nextSibling);
 
   document.getElementById("prevPage")?.addEventListener("click", () => {
@@ -198,15 +199,15 @@ function setupPagination() {
   });
 }
 
-// Handle errors
+// Error handling
 function handleError(error) {
   console.error("Error:", error);
   ["tracks", "latest-tracks"].forEach((id) => {
     const el = document.getElementById(id);
     if (el)
-      el.innerHTML = `<li>Sorry, tracks could not be loaded. Please refresh the page.</li>`;
+      el.innerHTML = `<li>No se pudieron cargar las canciones. Por favor, actualiza la página.</li>`;
   });
 }
 
-// Initialize
+// Initialize on DOM load
 document.addEventListener("DOMContentLoaded", displayTracks);

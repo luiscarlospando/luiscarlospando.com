@@ -91,7 +91,7 @@ function renderPaginatedTracks() {
 
       // Optional artwork
       const artworkHTML = item.artwork_url
-        ? `<img src="${item.artwork_url}" data-toggle="tooltip" data-placement="top" alt="${item.album}" title="${item.album}" class="track-artwork rounded img-fluid">`
+        ? `<img src="${item.artwork_url}" data-toggle="tooltip" data-placement="top" alt="${item.song}" title="${item.song}" class="track-artwork rounded img-fluid">`
         : "";
 
       // Optional audio preview
@@ -100,7 +100,7 @@ function renderPaginatedTracks() {
         : "";
 
       return `
-        <li class="mb-3">
+        <li class="mb-4">
           <a class="post-date badge badge-dark mb-3" href="${item.link}" target="_blank" rel="noopener">
             <time datetime="${machineDate}">${formatDate(item.created)}</time>
           </a>

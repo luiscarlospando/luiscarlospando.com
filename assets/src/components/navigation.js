@@ -97,8 +97,21 @@ function Navigation() {
       id: "6",
       url: "https://luiscarlospando.com/music/",
       icon: "fa-solid fa-headphones",
-      text: "Mis álbumes más escuchados",
-      subButtons: [],
+      text: "Música",
+      subButtons: [
+        {
+          id: "6-1",
+          url: "https://luiscarlospando.com/music/",
+          icon: "fa-solid fa-headphones",
+          text: "Mis álbumes más escuchados",
+        },
+        {
+          id: "6-2",
+          url: "https://luiscarlospando.com/crucial-tracks/",
+          icon: "fa-solid fa-headphones",
+          text: "Crucial Tracks",
+        },
+      ],
     },
     {
       id: "7",

@@ -71,6 +71,11 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         </a>
     </li>
     <li class="list-inline-item">
+        <a href="/music/" class="btn btn-primary btn-sm mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Revisa lo que estoy jugando actualmente" title="Revisa mis álbumes más escuchados últimamente y/o mi diario en Crucial Tracks">
+            <i class="fa-solid fa-headphones"></i> Música
+        </a>
+    </li>
+    <li class="list-inline-item">
         <a href="/games/" class="btn btn-primary btn-sm mb-3 mb-xl-0" data-toggle="tooltip" data-placement="top" aria-label="Revisa lo que estoy jugando actualmente" title="Revisa lo que estoy jugando actualmente">
             <i class="fa-solid fa-gamepad"></i> Games
         </a>

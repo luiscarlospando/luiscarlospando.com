@@ -91,7 +91,7 @@ function renderPaginatedTracks() {
 
       // Optional artwork
       const artworkHTML = item.artwork_url
-        ? `<img src="${item.artwork_url}" data-toggle="tooltip" data-placement="top" alt="${item.song}" title="${item.song}" class="track-artwork rounded img-fluid">`
+        ? `<img src="${item.artwork_url}" data-toggle="tooltip" data-placement="top" alt="${item.song}" title="${item.song}" class="track-artwork rounded mb-4 mb-md-0img-fluid">`
         : "";
 
       // Optional audio preview
@@ -107,18 +107,19 @@ function renderPaginatedTracks() {
           <div class="card">
             <div class="card-body">
               <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-lg-3">
                   <div class="artwork">
                     <a href="${item.link}" target="_blank" rel="noopener">
                       ${artworkHTML}
                     </a>
                   </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 col-lg-9">
                   <div class="info">
-                    <h4>${item.song}</h4>
+                    <h2>${item.song}</h2>
                     <p>${item.artist}</p>
                     ${audioHTML}
+                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks</a></p>
                   </div>
                 </div>
               </div>

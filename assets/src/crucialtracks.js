@@ -91,7 +91,7 @@ function renderPaginatedTracks() {
 
       // Optional artwork
       const artworkHTML = item.artwork_url
-        ? `<img src="${item.artwork_url}" alt="${item.song}" class="track-artwork enlarge-transition rounded img-fluid">`
+        ? `<img src="${item.artwork_url}" data-toggle="tooltip" data-placement="top" alt="${item.album}" title="${item.album}" class="track-artwork rounded img-fluid">`
         : "";
 
       // Optional audio preview
@@ -105,7 +105,7 @@ function renderPaginatedTracks() {
             <time datetime="${machineDate}">${formatDate(item.created)}</time>
           </a>
           <div class="card">
-            <div class="card-body">
+            <div class="card-body d-flex">
               <div class="artwork">
                 <a href="${item.link}" target="_blank" rel="noopener">
                   ${artworkHTML}

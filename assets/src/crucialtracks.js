@@ -105,11 +105,19 @@ function renderPaginatedTracks() {
             <time datetime="${machineDate}">${formatDate(item.created)}</time>
           </a>
           <a href="${item.link}" target="_blank" rel="noopener">
-            ${item.title} <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <div class="card">
+              <div class="card-body">
+                <div class="artwork">
+                  ${artworkHTML}
+                </div>
+                <div class="info">
+                  <h6>${item.song}</h6>
+                  <p>${item.artist}</p>
+                  ${audioHTML}
+                </div>
+              </div>
+            </div>
           </a>
-          ${artworkHTML}
-          ${audioHTML}
-          <small class="text-muted"><em>by ${item.artist}</em></small>
           ${item.note ? `<div class="track-note">${item.note}</div>` : ""}
         </li>`;
     })

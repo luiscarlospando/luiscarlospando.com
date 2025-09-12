@@ -105,16 +105,22 @@ function renderPaginatedTracks() {
             <time datetime="${machineDate}">${formatDate(item.created)}</time>
           </a>
           <div class="card">
-            <div class="card-body d-flex">
-              <div class="artwork">
-                <a href="${item.link}" target="_blank" rel="noopener">
-                  ${artworkHTML}
-                </a>
-              </div>
-              <div class="info">
-                <h4>${item.song}</h4>
-                <p>${item.artist}</p>
-                ${audioHTML}
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="artwork">
+                    <a href="${item.link}" target="_blank" rel="noopener">
+                      ${artworkHTML}
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="info">
+                    <h4>${item.song}</h4>
+                    <p>${item.artist}</p>
+                    ${audioHTML}
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -147,11 +153,11 @@ function setupPagination() {
   container.innerHTML = `
     <hr>
     <div class="pagination-info" style="margin-bottom: 1rem;">
-      Page ${currentPage} of ${totalPages} (${allItems.length} tracks total)
+      Página ${currentPage} de ${totalPages} (${allItems.length} canciones)
     </div>
     <div class="pagination-controls" style="display: flex; justify-content: center; gap: 0.5rem;">
-      <button id="prevPage" class="btn btn-primary" aria-label="Previous" ${currentPage === 1 ? "disabled" : ""}>« Previous</button>
-      <button id="nextPage" class="btn btn-primary" aria-label="Next" ${currentPage === totalPages ? "disabled" : ""}>Next »</button>
+      <button id="prevPage" class="btn btn-primary" aria-label="Anterior" ${currentPage === 1 ? "disabled" : ""}>« Anterior</button>
+      <button id="nextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>
     </div>
   `;
 

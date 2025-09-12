@@ -8,7 +8,7 @@ permalink: /music/
 
 <p class="text-center">{{ page.description }}</p>
 
-<p class="text-center">También puedes ver las rolas que voy agregando [mi perfil de Crucial Tracks][1].</p>
+<p class="text-center">También puedes ver las rolas que voy agregando en [Crucial Tracks][1]. <span class="badge badge-success">Nuevo</span></p>
 
 <div class="row" id="lastfm-albums-grid"></div>
 

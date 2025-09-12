@@ -91,7 +91,7 @@ function renderPaginatedTracks() {
 
       // Optional artwork
       const artworkHTML = item.artwork_url
-        ? `<img src="${item.artwork_url}" data-toggle="tooltip" data-placement="top" alt="${item.song}" title="${item.song}" class="track-artwork rounded mb-4 mb-md-0img-fluid">`
+        ? `<img src="${item.artwork_url}" data-toggle="tooltip" data-placement="top" alt="${item.song}" title="${item.song}" class="track-artwork rounded mb-4 mb-md-0 img-fluid">`
         : "";
 
       // Optional audio preview

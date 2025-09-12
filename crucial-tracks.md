@@ -10,7 +10,7 @@ permalink: /crucial-tracks/
 
 <p>Este es [mi perfil en Crucial Tracks][1] y este es el [playlist][2] donde voy agregando las canciones que comparto ahí.</p>
 
-<ul id="latest-tracks"></ul>
+<ul id="tracks" class="list-unstyled"></ul>
 
 [1]: https://app.crucialtracks.org/profile/mijo
 [2]: https://music.apple.com/mx/playlist/crucial-tracks/pl.u-g39JFWq0EPd?l=en

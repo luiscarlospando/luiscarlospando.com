@@ -91,7 +91,7 @@ function renderPaginatedTracks() {
 
       // Optional artwork
       const artworkHTML = item.artwork_url
-        ? `<img src="${item.artwork_url}" alt="${item.song}" class="track-artwork mb-2" style="width:60px; height:60px; object-fit:cover;">`
+        ? `<img src="${item.artwork_url}" alt="${item.song}" class="track-artwork enlarge-transition rounded img-fluid">`
         : "";
 
       // Optional audio preview
@@ -101,24 +101,23 @@ function renderPaginatedTracks() {
 
       return `
         <li class="mb-3">
-          <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener">
+          <a class="post-date badge badge-dark mb-3" href="${item.link}" target="_blank" rel="noopener">
             <time datetime="${machineDate}">${formatDate(item.created)}</time>
           </a>
-          <a href="${item.link}" target="_blank" rel="noopener">
-            <div class="card">
-              <div class="card-body">
-                <div class="artwork">
+          <div class="card">
+            <div class="card-body">
+              <div class="artwork">
+                <a href="${item.link}" target="_blank" rel="noopener">
                   ${artworkHTML}
-                </div>
-                <div class="info">
-                  <h6>${item.song}</h6>
-                  <p>${item.artist}</p>
-                  ${audioHTML}
-                </div>
+                </a>
+              </div>
+              <div class="info">
+                <h4>${item.song}</h4>
+                <p>${item.artist}</p>
+                ${audioHTML}
               </div>
             </div>
-          </a>
-          ${item.note ? `<div class="track-note">${item.note}</div>` : ""}
+          </div>
         </li>`;
     })
     .join("");

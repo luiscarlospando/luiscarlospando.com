@@ -481,96 +481,96 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/h6tFoIUyOdU">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co721v.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario 64" title="Super Mario 64" width="150">
-        <figcaption class="figure-caption text-center">Super Mario 64</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co721v.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario 64 (1996)" title="Super Mario 64 (1996)" width="150">
+        <figcaption class="figure-caption text-center">Super Mario 64 (1996)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/tYMci1g8LOU">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5iq6.jpg" data-toggle="tooltip" data-placement="top" alt="Pilotwings 64" title="Pilotwings 64" width="150">
-        <figcaption class="figure-caption text-center">Pilotwings 64</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5iq6.jpg" data-toggle="tooltip" data-placement="top" alt="Pilotwings 64 (1996)" title="Pilotwings 64 (1996)" width="150">
+        <figcaption class="figure-caption text-center">Pilotwings 64 (1996)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/_odfzCwoA_s">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co67hm.jpg" data-toggle="tooltip" data-placement="top" alt="Mario Kart 64" title="Mario Kart 64" width="150">
-        <figcaption class="figure-caption text-center">Mario Kart 64</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co67hm.jpg" data-toggle="tooltip" data-placement="top" alt="Mario Kart 64 (1997)" title="Mario Kart 64 (1997)" width="150">
+        <figcaption class="figure-caption text-center">Mario Kart 64 (1997)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/y_3VrjOk8mc">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa9f0.jpg" data-toggle="tooltip" data-placement="top" alt="Wave Race 64" title="Wave Race 64" width="150">
-        <figcaption class="figure-caption text-center">Wave Race 64</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa9f0.jpg" data-toggle="tooltip" data-placement="top" alt="Wave Race 64 (1996)" title="Wave Race 64 (1996)" width="150">
+        <figcaption class="figure-caption text-center">Wave Race 64 (1996)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/7LzwUL1yUpE">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2e4k.jpg" data-toggle="tooltip" data-placement="top" alt="Star Fox 64" title="Star Fox 64" width="150">
-        <figcaption class="figure-caption text-center">Star Fox 64</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2e4k.jpg" data-toggle="tooltip" data-placement="top" alt="Star Fox 64 (1997)" title="Star Fox 64 (1997)" width="150">
+        <figcaption class="figure-caption text-center">Star Fox 64 (1997)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/mF9CxAulk04">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3nnx.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: Ocarina of Time" title="The Legend of Zelda: Ocarina of Time" width="150">
-        <figcaption class="figure-caption text-center">The Legend of Zelda: Ocarina of Time</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3nnx.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: Ocarina of Time (1998)" title="The Legend of Zelda: Ocarina of Time (1998)" width="150">
+        <figcaption class="figure-caption text-center">The Legend of Zelda: Ocarina of Time (1998)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/_9Kw6AfaZ2s">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3pah.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: Majora's Mask" title="The Legend of Zelda: Majora's Mask" width="150">
-        <figcaption class="figure-caption text-center">The Legend of Zelda: Majora's Mask</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3pah.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: Majora's Mask (2000)" title="The Legend of Zelda: Majora's Mask (2000)" width="150">
+        <figcaption class="figure-caption text-center">The Legend of Zelda: Majora's Mask (2000)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/DTQeEzG0tSc">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co53i2.jpg" data-toggle="tooltip" data-placement="top" alt="F-Zero X" title="F-Zero X" width="150">
-        <figcaption class="figure-caption text-center">F-Zero X</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co53i2.jpg" data-toggle="tooltip" data-placement="top" alt="F-Zero X (1998)" title="F-Zero X (1998)" width="150">
+        <figcaption class="figure-caption text-center">F-Zero X (1998)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/3gPXyMK4Lls">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1wgj.jpg" data-toggle="tooltip" data-placement="top" alt="Diddy Kong Racing" title="Diddy Kong Racing" width="150">
-        <figcaption class="figure-caption text-center">Diddy Kong Racing</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1wgj.jpg" data-toggle="tooltip" data-placement="top" alt="Diddy Kong Racing (1997)" title="Diddy Kong Racing (1997)" width="150">
+        <figcaption class="figure-caption text-center">Diddy Kong Racing (1997)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/LbDKMSTp4ZU">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2tso.jpg" data-toggle="tooltip" data-placement="top" alt="Super Smash Bros." title="Super Smash Bros." width="150">
-        <figcaption class="figure-caption text-center">Super Smash Bros.</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2tso.jpg" data-toggle="tooltip" data-placement="top" alt="Super Smash Bros. (1999)" title="Super Smash Bros. (1999)" width="150">
+        <figcaption class="figure-caption text-center">Super Smash Bros. (1999)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/MpIDKOTJGow">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21yt.jpg" data-toggle="tooltip" data-placement="top" alt="Mario Party 2" title="Mario Party 2" width="150">
-        <figcaption class="figure-caption text-center">Mario Party 2</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21yt.jpg" data-toggle="tooltip" data-placement="top" alt="Mario Party 2 (2000)" title="Mario Party 2 (2000)" width="150">
+        <figcaption class="figure-caption text-center">Mario Party 2 (2000)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/4f-wYYxTlQw">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1yyd.jpg" data-toggle="tooltip" data-placement="top" alt="Pokémon Stadium" title="Pokémon Stadium" width="150">
-        <figcaption class="figure-caption text-center">Pokémon Stadium</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1yyd.jpg" data-toggle="tooltip" data-placement="top" alt="Pokémon Stadium (2000)" title="Pokémon Stadium (2000)" width="150">
+        <figcaption class="figure-caption text-center">Pokémon Stadium (2000)</figcaption>
       </figure>
     </a>
   </li>

@@ -582,24 +582,24 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/vA1oKXxfGF8">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lb8.jpg" data-toggle="tooltip" data-placement="top" alt="Grand Theft Auto III" title="Grand Theft Auto III" width="150">
-        <figcaption class="figure-caption text-center">Grand Theft Auto III</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lb8.jpg" data-toggle="tooltip" data-placement="top" alt="Grand Theft Auto III (2001)" title="Grand Theft Auto III (2001)" width="150">
+        <figcaption class="figure-caption text-center">Grand Theft Auto III (2001)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/VvjFE13ttpY">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lbb.jpg" data-toggle="tooltip" data-placement="top" alt="Grand Theft Auto: Vice City" title="Grand Theft Auto: Vice City" width="150">
-        <figcaption class="figure-caption text-center">Grand Theft Auto: Vice City</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lbb.jpg" data-toggle="tooltip" data-placement="top" alt="Grand Theft Auto: Vice City (2002)" title="Grand Theft Auto: Vice City (2002)" width="150">
+        <figcaption class="figure-caption text-center">Grand Theft Auto: Vice City (2002)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/-UULRZry27E">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lb9.jpg" data-toggle="tooltip" data-placement="top" alt="Grand Theft Auto: San Andreas" title="Grand Theft Auto: San Andreas" width="150">
-        <figcaption class="figure-caption text-center">Grand Theft Auto: San Andreas</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lb9.jpg" data-toggle="tooltip" data-placement="top" alt="Grand Theft Auto: San Andreas (2004)" title="Grand Theft Auto: San Andreas (2004)" width="150">
+        <figcaption class="figure-caption text-center">Grand Theft Auto: San Andreas (2004)</figcaption>
       </figure>
     </a>
   </li>

@@ -428,48 +428,48 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/5HnhPNS0rqM">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co53m8.jpg" data-toggle="tooltip" data-placement="top" alt="Castlevania: Symphony of the Night" title="Castlevania: Symphony of the Night" width="150">
-        <figcaption class="figure-caption text-center">Castlevania: Symphony of the Night</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co53m8.jpg" data-toggle="tooltip" data-placement="top" alt="Castlevania: Symphony of the Night (1997)" title="Castlevania: Symphony of the Night (1997)" width="150">
+        <figcaption class="figure-caption text-center">Castlevania: Symphony of the Night (1997)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/jaQb1NwvdBE">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co55c7.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man 8" title="Mega Man 8" width="150">
-        <figcaption class="figure-caption text-center">Mega Man 8</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co55c7.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man 8 (1996)" title="Mega Man 8 (1996)" width="150">
+        <figcaption class="figure-caption text-center">Mega Man 8 (1996)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/masSU59If3g">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8ste.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man X4" title="Mega Man X4" width="150">
-        <figcaption class="figure-caption text-center">Mega Man X4</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8ste.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man X4 (1997)" title="Mega Man X4 (1997)" width="150">
+        <figcaption class="figure-caption text-center">Mega Man X4 (1997)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/2yKb0I2CoyQ">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co20af.jpg" data-toggle="tooltip" data-placement="top" alt="Gran Turismo 2" title="Gran Turismo 2" width="150">
-        <figcaption class="figure-caption text-center">Gran Turismo 2</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co20af.jpg" data-toggle="tooltip" data-placement="top" alt="Gran Turismo 2 (1992)" title="Gran Turismo 2 (1992)" width="150">
+        <figcaption class="figure-caption text-center">Gran Turismo 2 (1992)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/as4JWnokyxA">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6he0.jpg" data-toggle="tooltip" data-placement="top" alt="Driver" title="Driver" width="150">
-        <figcaption class="figure-caption text-center">Driver</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6he0.jpg" data-toggle="tooltip" data-placement="top" alt="Driver (1999)" title="Driver (1999)" width="150">
+        <figcaption class="figure-caption text-center">Driver (1999)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/nCVjlcNByqg">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co54d3.jpg" data-toggle="tooltip" data-placement="top" alt="Dragon Ball GT: Final Bout" title="Dragon Ball GT: Final Bout" width="150">
-        <figcaption class="figure-caption text-center">Dragon Ball GT: Final Bout</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co54d3.jpg" data-toggle="tooltip" data-placement="top" alt="Dragon Ball GT: Final Bout (1997)" title="Dragon Ball GT: Final Bout (1997)" width="150">
+        <figcaption class="figure-caption text-center">Dragon Ball GT: Final Bout (1997)</figcaption>
       </figure>
     </a>
   </li>

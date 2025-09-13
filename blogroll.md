@@ -19,6 +19,7 @@ permalink: /blogroll/
 - [🫂 Amigos (en la vida real)](#amigos-en-la-vida-real)
 - [🙋 Sitios y blogs personales (Español 🇲🇽/🇪🇸)](#sitios-y-blogs-personales-español)
 - [🙋 Sitios y blogs personales (Inglés 🇺🇸/🇬🇧)](#sitios-y-blogs-personales-ingles)
+- [📖 Directorios](#directorios)
 - [🎮 Gaming](#gaming)
 - [🎵 Música](#musica)
 - [📰 Noticias](#noticias)
@@ -80,6 +81,17 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 | Tom (ttntm) | [ttntm.me](https://ttntm.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://ttntm.me/everything.xml){:target="_blank" rel="noopener" .rss-link} |
 | Yordi Verkroost | [yordi.me](https://yordi.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://yordi.me/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
 | Zachary Kai | [zacharykai.net](https://zacharykai.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://zacharykai.net/assets/rss.xml){:target="_blank" rel="noopener" .rss-link} |
+
+---
+
+## <i id="directorios" class="fa-solid fa-address-book"></i> Directorios
+Estos son algunos directorios de blogs y sitios.
+
+| Nombre | URL | RSS |
+|--------|-----|-----|
+| Ye Olde Blogroll | [blogroll.org](https://blogroll.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blogroll.org/feed){:target="_blank" rel="noopener" .rss-link} |
+| powRSS | [powrss.com](https://powrss.com/){:target="_blank" rel="noopener"} | |
+| ¡Blogs! ¡Blogs! | [https://blogsencastellano.wordpress.com/](https://blogroll.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blogsencastellano.wordpress.com/feed/){:target="_blank" rel="noopener" .rss-link} |
 
 ---
 

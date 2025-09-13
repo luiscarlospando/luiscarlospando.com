@@ -786,64 +786,64 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/6Ig2q_e6_oc">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vd.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario 3D World" title="Super Mario 3D World" width="150">
-        <figcaption class="figure-caption text-center">Super Mario 3D World</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vd.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario 3D World (2013)" title="Super Mario 3D World (2013)" width="150">
+        <figcaption class="figure-caption text-center">Super Mario 3D World (2013)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/_rkrmTZWezA">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213q.jpg" data-toggle="tooltip" data-placement="top" alt="Mario Kart 8" title="Mario Kart 8" width="150">
-        <figcaption class="figure-caption text-center">Mario Kart 8</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213q.jpg" data-toggle="tooltip" data-placement="top" alt="Mario Kart 8 (2014)" title="Mario Kart 8 (2014)" width="150">
+        <figcaption class="figure-caption text-center">Mario Kart 8 (2014)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/DCoGfJsTyBU">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2hwo.jpg" data-toggle="tooltip" data-placement="top" alt="Splatoon" title="Splatoon" width="150">
-        <figcaption class="figure-caption text-center">Splatoon</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2hwo.jpg" data-toggle="tooltip" data-placement="top" alt="Splatoon (2015)" title="Splatoon (2015)" width="150">
+        <figcaption class="figure-caption text-center">Splatoon (2015)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ffgphmen9kQ">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1wj6.jpg" data-toggle="tooltip" data-placement="top" alt="Yoshi's Woolly World" title="Yoshi's Woolly World" width="150">
-        <figcaption class="figure-caption text-center">Yoshi's Woolly World</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1wj6.jpg" data-toggle="tooltip" data-placement="top" alt="Yoshi's Woolly World (2015)" title="Yoshi's Woolly World (2015)" width="150">
+        <figcaption class="figure-caption text-center">Yoshi's Woolly World (2015)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/qSZstAHyWQg">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vl.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Maker" title="Super Mario Maker" width="150">
-        <figcaption class="figure-caption text-center">Super Mario Maker</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vl.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Maker (2015)" title="Super Mario Maker (2015)" width="150">
+        <figcaption class="figure-caption text-center">Super Mario Maker (2015)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/bLbVVOlhxdM">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6pup.jpg" data-toggle="tooltip" data-placement="top" alt="Shovel Knight" title="Shovel Knight" width="150">
-        <figcaption class="figure-caption text-center">Shovel Knight</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6pup.jpg" data-toggle="tooltip" data-placement="top" alt="Shovel Knight (2014)" title="Shovel Knight (2014)" width="150">
+        <figcaption class="figure-caption text-center">Shovel Knight (2014)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/L0Hbeau1aoU">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6ffy.jpg" data-toggle="tooltip" data-placement="top" alt="Bayonetta 2" title="Bayonetta 2" width="150">
-        <figcaption class="figure-caption text-center">Bayonetta 2</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6ffy.jpg" data-toggle="tooltip" data-placement="top" alt="Bayonetta 2 (2014)" title="Bayonetta 2 (2014)" width="150">
+        <figcaption class="figure-caption text-center">Bayonetta 2 (2014)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/mq4dGyI1gvw">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6r2f.jpg" data-toggle="tooltip" data-placement="top" alt="The Wonderful 101" title="The Wonderful 101" width="150">
-        <figcaption class="figure-caption text-center">The Wonderful 101</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6r2f.jpg" data-toggle="tooltip" data-placement="top" alt="The Wonderful 101 (2013)" title="The Wonderful 101 (2013)" width="150">
+        <figcaption class="figure-caption text-center">The Wonderful 101 (2013)</figcaption>
       </figure>
     </a>
   </li>

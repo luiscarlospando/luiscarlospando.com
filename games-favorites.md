@@ -855,104 +855,104 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/JbhS4OXWNsE">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3p2d.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: Breath of the Wild" title="The Legend of Zelda: Breath of the Wild" width="150">
-        <figcaption class="figure-caption text-center">The Legend of Zelda: Breath of the Wild</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3p2d.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: Breath of the Wild (2017)" title="The Legend of Zelda: Breath of the Wild (2017)" width="150">
+        <figcaption class="figure-caption text-center">The Legend of Zelda: Breath of the Wild (2017)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Von5kEuMfl8">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5vmg.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: Tears of the Kingdom" title="The Legend of Zelda: Tears of the Kingdom" width="150">
-        <figcaption class="figure-caption text-center">The Legend of Zelda: Tears of the Kingdom</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5vmg.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: Tears of the Kingdom (2023)" title="The Legend of Zelda: Tears of the Kingdom (2023)" width="150">
+        <figcaption class="figure-caption text-center">The Legend of Zelda: Tears of the Kingdom (2023)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/n6HVhJ4VbTw">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1mxf.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Odyssey" title="Super Mario Odyssey" width="150">
-        <figcaption class="figure-caption text-center">Super Mario Odyssey</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1mxf.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Odyssey (2017)" title="Super Mario Odyssey (2017)" width="150">
+        <figcaption class="figure-caption text-center">Super Mario Odyssey (2017)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/WxbhJhB74-w">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8g7m.jpg" data-toggle="tooltip" data-placement="top" alt="Mario Kart 8 Deluxe + Booster Course Pass" title="Mario Kart 8 Deluxe + Booster Course Pass" width="150">
-        <figcaption class="figure-caption text-center">Mario Kart 8 Deluxe + Booster Course Pass</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8g7m.jpg" data-toggle="tooltip" data-placement="top" alt="Mario Kart 8 Deluxe + Booster Course Pass (2017)" title="Mario Kart 8 Deluxe + Booster Course Pass (2017)" width="150">
+        <figcaption class="figure-caption text-center">Mario Kart 8 Deluxe + Booster Course Pass (2017)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/NRMDjmI_Zx0">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6dn3.jpg" data-toggle="tooltip" data-placement="top" alt="Splatoon 2" title="Splatoon 2" width="150">
-        <figcaption class="figure-caption text-center">Splatoon 2</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6dn3.jpg" data-toggle="tooltip" data-placement="top" alt="Splatoon 2 (2017)" title="Splatoon 2 (2017)" width="150">
+        <figcaption class="figure-caption text-center">Splatoon 2 (2017)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/131f1dRK4wc">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" data-toggle="tooltip" data-placement="top" alt="Splatoon 3" title="Splatoon 3" width="150">
-        <figcaption class="figure-caption text-center">Splatoon 3</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" data-toggle="tooltip" data-placement="top" alt="Splatoon 3 (2022)" title="Splatoon 3 (2022)" width="150">
+        <figcaption class="figure-caption text-center">Splatoon 3 (2022)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/3Eqz7kJMOBM">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1qve.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: Link's Awakening" title="The Legend of Zelda: Link's Awakening" width="150">
-        <figcaption class="figure-caption text-center">The Legend of Zelda: Link's Awakening</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1qve.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: Link's Awakening (2019)" title="The Legend of Zelda: Link's Awakening (2019)" width="150">
+        <figcaption class="figure-caption text-center">The Legend of Zelda: Link's Awakening (2019)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/emgE9hSVSNk">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co39zx.jpg" data-toggle="tooltip" data-placement="top" alt="Metroid Dread" title="Metroid Dread" width="150">
-        <figcaption class="figure-caption text-center">Metroid Dread</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co39zx.jpg" data-toggle="tooltip" data-placement="top" alt="Metroid Dread (2021)" title="Metroid Dread (2021)" width="150">
+        <figcaption class="figure-caption text-center">Metroid Dread (2021)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/tPzt9hnc9zQ">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1obi.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic Mania" title="Sonic Mania" width="150">
-        <figcaption class="figure-caption text-center">Sonic Mania</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1obi.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic Mania (2017)" title="Sonic Mania (2017)" width="150">
+        <figcaption class="figure-caption text-center">Sonic Mania (2017)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/7qXeejLPc0c">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co22a9.jpg" data-toggle="tooltip" data-placement="top" alt="Luigi's Mansion 3" title="Luigi's Mansion 3" width="150">
-        <figcaption class="figure-caption text-center">Luigi's Mansion 3</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co22a9.jpg" data-toggle="tooltip" data-placement="top" alt="Luigi's Mansion 3 (2019)" title="Luigi's Mansion 3 (2019)" width="150">
+        <figcaption class="figure-caption text-center">Luigi's Mansion 3 (2019)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/KN1LSUF8Nwc">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vp.jpg" data-toggle="tooltip" data-placement="top" alt="Clubhouse Games: 51 Worldwide Classics" title="Clubhouse Games: 51 Worldwide Classics" width="150">
-        <figcaption class="figure-caption text-center">Clubhouse Games: 51 Worldwide Classics</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vp.jpg" data-toggle="tooltip" data-placement="top" alt="Clubhouse Games: 51 Worldwide Classics (2020)" title="Clubhouse Games: 51 Worldwide Classics (2020)" width="150">
+        <figcaption class="figure-caption text-center">Clubhouse Games: 51 Worldwide Classics (2020)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/rbedFIAYVKE">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1x9f.jpg" data-toggle="tooltip" data-placement="top" alt="Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition" title="Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition" width="150">
-        <figcaption class="figure-caption text-center">Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1x9f.jpg" data-toggle="tooltip" data-placement="top" alt="Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition (2019)" title="Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition (2019)" width="150">
+        <figcaption class="figure-caption text-center">Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition (2019)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/cDryeHrZFc4">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4kap.jpg" data-toggle="tooltip" data-placement="top" alt="Octopath Traveler" title="Octopath Traveler" width="150">
-        <figcaption class="figure-caption text-center">Octopath Traveler</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4kap.jpg" data-toggle="tooltip" data-placement="top" alt="Octopath Traveler (2018)" title="Octopath Traveler (2018)" width="150">
+        <figcaption class="figure-caption text-center">Octopath Traveler (2018)</figcaption>
       </figure>
     </a>
   </li>

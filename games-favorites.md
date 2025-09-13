@@ -733,48 +733,48 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/TzIgKFBhfyc">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21tq.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario 3D Land" title="Super Mario 3D Land" width="150">
-        <figcaption class="figure-caption text-center">Super Mario 3D Land</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21tq.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario 3D Land (2011)" title="Super Mario 3D Land (2011)" width="150">
+        <figcaption class="figure-caption text-center">Super Mario 3D Land (2011)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/4BLRb3zlkqI">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2146.jpg" data-toggle="tooltip" data-placement="top" alt="Mario Kart 7" title="Mario Kart 7" width="150">
-        <figcaption class="figure-caption text-center">Mario Kart 7</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2146.jpg" data-toggle="tooltip" data-placement="top" alt="Mario Kart 7 (2011)" title="Mario Kart 7 (2011)" width="150">
+        <figcaption class="figure-caption text-center">Mario Kart 7 (2011)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/LwKNmm5YBlc">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3p0j.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: A Link Between Worlds" title="The Legend of Zelda: A Link Between Worlds" width="150">
-        <figcaption class="figure-caption text-center">The Legend of Zelda: A Link Between Worlds</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3p0j.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: A Link Between Worlds (2013)" title="The Legend of Zelda: A Link Between Worlds (2013)" width="150">
+        <figcaption class="figure-caption text-center">The Legend of Zelda: A Link Between Worlds (2013)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/HkbsB7NE2Ww">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1wwu.jpg" data-toggle="tooltip" data-placement="top" alt="Star Fox 64 3D" title="Star Fox 64 3D" width="150">
-        <figcaption class="figure-caption text-center">Star Fox 64 3D</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1wwu.jpg" data-toggle="tooltip" data-placement="top" alt="Star Fox 64 3D (2011)" title="Star Fox 64 3D (2011)" width="150">
+        <figcaption class="figure-caption text-center">Star Fox 64 3D (2011)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ajln_TK1iHc">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4sp5.jpg" data-toggle="tooltip" data-placement="top" alt="SEGA 3D Classics Collection" title="SEGA 3D Classics Collection" width="150">
-        <figcaption class="figure-caption text-center">SEGA 3D Classics Collection</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4sp5.jpg" data-toggle="tooltip" data-placement="top" alt="SEGA 3D Classics Collection (2016)" title="SEGA 3D Classics Collection (2016)" width="150">
+        <figcaption class="figure-caption text-center">SEGA 3D Classics Collection (2016)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/UF_FfQ1EZEo">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co204v.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man Legacy Collection" title="Mega Man Legacy Collection" width="150">
-        <figcaption class="figure-caption text-center">Mega Man Legacy Collection</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co204v.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man Legacy Collection (2016)" title="Mega Man Legacy Collection (2016)" width="150">
+        <figcaption class="figure-caption text-center">Mega Man Legacy Collection (2016)</figcaption>
       </figure>
     </a>
   </li>

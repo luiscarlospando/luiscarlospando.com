@@ -391,32 +391,32 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/6fDZUfX5fHw">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6yzr.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic the Hedgehog" title="Sonic the Hedgehog" width="150">
-        <figcaption class="figure-caption text-center">Sonic the Hedgehog</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6yzr.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic the Hedgehog (1991)" title="Sonic the Hedgehog (1991)" width="150">
+        <figcaption class="figure-caption text-center">Sonic the Hedgehog (1991)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/9Q0NCY-zhGg">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5kkj.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic the Hedgehog 2" title="Sonic the Hedgehog 2" width="150">
-        <figcaption class="figure-caption text-center">Sonic the Hedgehog 2</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5kkj.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic the Hedgehog 2 (1992)" title="Sonic the Hedgehog 2 (1992)" width="150">
+        <figcaption class="figure-caption text-center">Sonic the Hedgehog 2 (1992)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/qcpwAlBAEzE">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1zut.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic the Hedgehog 3" title="Sonic the Hedgehog 3" width="150">
-        <figcaption class="figure-caption text-center">Sonic the Hedgehog 3</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1zut.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic the Hedgehog 3 (1994)" title="Sonic the Hedgehog 3 (1994)" width="150">
+        <figcaption class="figure-caption text-center">Sonic the Hedgehog 3 (1994)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/fJLgUVNP5dM">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ups.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic & Knuckles" title="Sonic & Knuckles" width="150">
-        <figcaption class="figure-caption text-center">Sonic & Knuckles</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ups.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic & Knuckles (1994)" title="Sonic & Knuckles (1994)" width="150">
+        <figcaption class="figure-caption text-center">Sonic & Knuckles (1994)</figcaption>
       </figure>
     </a>
   </li>

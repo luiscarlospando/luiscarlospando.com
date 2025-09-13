@@ -611,56 +611,56 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/TkarHtwQUG0">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5p3o.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic Adventure 2: Battle" title="Sonic Adventure 2: Battle" width="150">
-        <figcaption class="figure-caption text-center">Sonic Adventure 2: Battle</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5p3o.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic Adventure 2: Battle (2001)" title="Sonic Adventure 2: Battle (2001)" width="150">
+        <figcaption class="figure-caption text-center">Sonic Adventure 2: Battle (2001)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/C5mcz3RfwMA">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21rh.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Sunshine" title="Super Mario Sunshine" width="150">
-        <figcaption class="figure-caption text-center">Super Mario Sunshine</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21rh.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Sunshine (2002)" title="Super Mario Sunshine (2002)" width="150">
+        <figcaption class="figure-caption text-center">Super Mario Sunshine (2002)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/IyxTw_AlRaA">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3ohz.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: The Wind Waker" title="The Legend of Zelda: The Wind Waker" width="150">
-        <figcaption class="figure-caption text-center">The Legend of Zelda: The Wind Waker</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3ohz.jpg" data-toggle="tooltip" data-placement="top" alt="The Legend of Zelda: The Wind Waker (2003)" title="The Legend of Zelda: The Wind Waker (2003)" width="150">
+        <figcaption class="figure-caption text-center">The Legend of Zelda: The Wind Waker (2003)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/XSp0DFpBbtc">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2wk8.jpg" data-toggle="tooltip" data-placement="top" alt="Resident Evil 4" title="Resident Evil 4" width="150">
-        <figcaption class="figure-caption text-center">Resident Evil 4</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2wk8.jpg" data-toggle="tooltip" data-placement="top" alt="Resident Evil 4 (2005)" title="Resident Evil 4 (2005)" width="150">
+        <figcaption class="figure-caption text-center">Resident Evil 4 (2005)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/0gZExa9quRg">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3w4w.jpg" data-toggle="tooltip" data-placement="top" alt="Metroid Prime" title="Metroid Prime" width="150">
-        <figcaption class="figure-caption text-center">Metroid Prime</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3w4w.jpg" data-toggle="tooltip" data-placement="top" alt="Metroid Prime (2002)" title="Metroid Prime (2002)" width="150">
+        <figcaption class="figure-caption text-center">Metroid Prime (2002)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/pPpkIitFjvk">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21yv.jpg" data-toggle="tooltip" data-placement="top" alt="Super Smash Bros. Melee" title="Super Smash Bros. Melee" width="150">
-        <figcaption class="figure-caption text-center">Super Smash Bros. Melee</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21yv.jpg" data-toggle="tooltip" data-placement="top" alt="Super Smash Bros. Melee (2001)" title="Super Smash Bros. Melee (2001)" width="150">
+        <figcaption class="figure-caption text-center">Super Smash Bros. Melee (2001)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/1UQkOEYwcn0">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co209h.jpg" data-toggle="tooltip" data-placement="top" alt="Need for Speed: Underground 2" title="Need for Speed: Underground 2" width="150">
-        <figcaption class="figure-caption text-center">Need for Speed: Underground 2</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co209h.jpg" data-toggle="tooltip" data-placement="top" alt="Need for Speed: Underground 2 (2004)" title="Need for Speed: Underground 2 (2004)" width="150">
+        <figcaption class="figure-caption text-center">Need for Speed: Underground 2 (2004)</figcaption>
       </figure>
     </a>
   </li>
@@ -672,56 +672,56 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/xcw4GFH4nwI">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21ro.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Galaxy" title="Super Mario Galaxy" width="150">
-        <figcaption class="figure-caption text-center">Super Mario Galaxy</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21ro.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Galaxy (2007)" title="Super Mario Galaxy (2007)" width="150">
+        <figcaption class="figure-caption text-center">Super Mario Galaxy (2007)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/-4du67C8Yf8">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21tl.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Galaxy 2" title="Super Mario Galaxy 2" width="150">
-        <figcaption class="figure-caption text-center">Super Mario Galaxy 2</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21tl.jpg" data-toggle="tooltip" data-placement="top" alt="Super Mario Galaxy 2 (2010)" title="Super Mario Galaxy 2 (2010)" width="150">
+        <figcaption class="figure-caption text-center">Super Mario Galaxy 2 (2010)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Iqe_aFiEISA">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ydx.jpg" data-toggle="tooltip" data-placement="top" alt="Tatsunoko vs. Capcom: Ultimate All-Stars" title="Tatsunoko vs. Capcom: Ultimate All-Stars" width="150">
-        <figcaption class="figure-caption text-center">Tatsunoko vs. Capcom: Ultimate All-Stars</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ydx.jpg" data-toggle="tooltip" data-placement="top" alt="Tatsunoko vs. Capcom: Ultimate All-Stars (2008)" title="Tatsunoko vs. Capcom: Ultimate All-Stars (2008)" width="150">
+        <figcaption class="figure-caption text-center">Tatsunoko vs. Capcom: Ultimate All-Stars (2008)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/WdI6ZL-ul0Q">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7k9z.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man 9" title="Mega Man 9" width="150">
-        <figcaption class="figure-caption text-center">Mega Man 9</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7k9z.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man 9 (2008)" title="Mega Man 9 (2008)" width="150">
+        <figcaption class="figure-caption text-center">Mega Man 9 (2008)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/BTWnOE9SyBc">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7cty.jpg" data-toggle="tooltip" data-placement="top" alt="Cave Story" title="Cave Story" width="150">
-        <figcaption class="figure-caption text-center">Cave Story</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7cty.jpg" data-toggle="tooltip" data-placement="top" alt="Cave Story (2004)" title="Cave Story (2004)" width="150">
+        <figcaption class="figure-caption text-center">Cave Story (2004)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/NYaiHkbxXeE">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3dgx.jpg" data-toggle="tooltip" data-placement="top" alt="Contra ReBirth" title="Contra ReBirth" width="150">
-        <figcaption class="figure-caption text-center">Contra ReBirth</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3dgx.jpg" data-toggle="tooltip" data-placement="top" alt="Contra ReBirth (2009)" title="Contra ReBirth (2009)" width="150">
+        <figcaption class="figure-caption text-center">Contra ReBirth (2009)</figcaption>
       </figure>
     </a>
   </li>
   <li class="list-inline-item">
     <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/BAyc7-NqWwU">
       <figure class="figure">
-        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5wts.jpg" data-toggle="tooltip" data-placement="top" alt="Castlevania: The Adventure ReBirth" title="Castlevania: The Adventure ReBirth" width="150">
-        <figcaption class="figure-caption text-center">Castlevania: The Adventure ReBirth</figcaption>
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5wts.jpg" data-toggle="tooltip" data-placement="top" alt="Castlevania: The Adventure ReBirth (2009)" title="Castlevania: The Adventure ReBirth (2009)" width="150">
+        <figcaption class="figure-caption text-center">Castlevania: The Adventure ReBirth (2009)</figcaption>
       </figure>
     </a>
   </li>

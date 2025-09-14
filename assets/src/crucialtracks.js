@@ -55,7 +55,7 @@ function extractQuestionContent(html) {
 
     paragraphs.forEach((p) => {
       if (p.textContent.includes("?")) {
-        finalHTML += `<h2>${p.innerHTML}</h2>`;
+        finalHTML += `<h3>${p.innerHTML}</h3>`;
       } else {
         finalHTML += `<p>${p.innerHTML}</p>`;
       }

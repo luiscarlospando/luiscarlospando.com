@@ -115,7 +115,7 @@ function renderPaginatedTracks() {
   const items = allItems.slice(startIndex, endIndex);
 
   list.innerHTML = items
-    .map((item) => {
+    .map((item, index) => {
       const machineDate = dayjs(item.created).format("YYYY-MM-DD");
 
       const artworkHTML = item.artwork_url
@@ -125,6 +125,8 @@ function renderPaginatedTracks() {
       const audioHTML = item.preview_url
         ? `<audio controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
         : "";
+
+      const separator = index < items.length - 1 ? "<hr>" : "";
 
       return `
         <li class="mb-4">
@@ -154,7 +156,7 @@ function renderPaginatedTracks() {
           </div>
           ${extractQuestionContent(item.note)}
         </li>
-        <hr>`;
+        ${separator}`;
     })
     .join("");
 }

@@ -48,46 +48,29 @@ function extractQuestionContent(html) {
   const parser = new DOMParser();
   const doc = parser.parseFromString(html, "text/html");
 
-  // Remove Apple Music links
-  const links = doc.querySelectorAll("a");
-  links.forEach((a) => {
+  // Eliminar todos los elementos que no queremos mostrar
+  doc.querySelectorAll("a, audio").forEach((el) => {
+    // Si el elemento es un enlace de Apple Music o un reproductor de audio,
+    // eliminamos su elemento padre <p> para quitar toda la línea.
     if (
-      a.textContent.includes("Apple Music playlist") ||
-      a.textContent.includes("Listen on Apple Music")
+      el.tagName.toLowerCase() === "audio" ||
+      el.textContent.includes("Apple Music")
     ) {
-      a.remove();
+      el.parentElement.remove();
     }
   });
 
-  let foundQuestion = false;
-  let content = "";
+  // El contenido que nos interesa está consistentemente dentro de un <div>
+  const contentDiv = doc.querySelector("div");
 
-  // Loop through all elements (paragraphs, divs, em, etc.)
-  const walker = doc.createTreeWalker(
-    doc.body,
-    NodeFilter.SHOW_ELEMENT,
-    null,
-    false,
-  );
-
-  let node;
-  while ((node = walker.nextNode())) {
-    const text = node.textContent.trim();
-    if (!foundQuestion) {
-      if (text.includes("?")) {
-        foundQuestion = true;
-        content += text + "\n\n";
-      }
-    } else {
-      // Take subsequent text elements
-      // Ignore audio or empty text nodes
-      if (text && !["audio"].includes(node.tagName.toLowerCase())) {
-        content += text + "\n\n";
-      }
-    }
+  // Si encontramos el div, devolvemos su texto.
+  // .innerText es ideal porque mantiene los saltos de línea entre párrafos.
+  if (contentDiv) {
+    return contentDiv.innerText.trim();
   }
 
-  return content.trim();
+  // Si no se encuentra un div, devolvemos una cadena vacía.
+  return "";
 }
 
 // Main function to fetch and display tracks

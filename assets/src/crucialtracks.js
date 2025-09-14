@@ -43,33 +43,27 @@ function setLoadingState(isLoading) {
   }
 }
 
-// Extract only the question and its following text, removing Apple Music links
 function extractQuestionContent(html) {
   const parser = new DOMParser();
   const doc = parser.parseFromString(html, "text/html");
 
-  // Eliminar todos los elementos que no queremos mostrar
-  doc.querySelectorAll("a, audio").forEach((el) => {
-    // Si el elemento es un enlace de Apple Music o un reproductor de audio,
-    // eliminamos su elemento padre <p> para quitar toda la línea.
-    if (
-      el.tagName.toLowerCase() === "audio" ||
-      el.textContent.includes("Apple Music")
-    ) {
-      el.parentElement.remove();
-    }
-  });
-
-  // El contenido que nos interesa está consistentemente dentro de un <div>
   const contentDiv = doc.querySelector("div");
 
-  // Si encontramos el div, devolvemos su texto.
-  // .innerText es ideal porque mantiene los saltos de línea entre párrafos.
   if (contentDiv) {
-    return contentDiv.innerText.trim();
+    let finalHTML = "";
+    const paragraphs = contentDiv.querySelectorAll("p");
+
+    paragraphs.forEach((p) => {
+      if (p.textContent.includes("?")) {
+        finalHTML += `<p><em>${p.innerHTML}</em></p>`;
+      } else {
+        finalHTML += `<p>${p.innerHTML}</p>`;
+      }
+    });
+
+    return finalHTML;
   }
 
-  // Si no se encuentra un div, devolvemos una cadena vacía.
   return "";
 }
 
@@ -158,9 +152,9 @@ function renderPaginatedTracks() {
               </div>
             </div>
           </div>
-          {/* El contenido HTML está en la propiedad 'note' */}
-          <p>${extractQuestionContent(item.note)}</p>
-        </li>`;
+          ${extractQuestionContent(item.note)}
+        </li>
+        <hr>`;
     })
     .join("");
 }

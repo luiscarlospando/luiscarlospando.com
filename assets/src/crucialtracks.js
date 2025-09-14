@@ -125,7 +125,7 @@ function renderPaginatedTracks() {
               </div>
             </div>
           </div>
-          <p>${item.content_html}</p>
+          <p>${item.note}</p>
         </li>`;
     })
     .join("");

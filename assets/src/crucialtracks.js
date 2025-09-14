@@ -83,13 +83,11 @@ async function displayTracks() {
   try {
     const data = await fetchTracksJSON();
 
-    console.log("Respuesta real del API:", data);
-
-    if (!data || !Array.isArray(data.items)) {
-      throw new Error("La respuesta del API no tiene el formato esperado.");
+    if (!Array.isArray(data)) {
+      throw new Error("La respuesta del API no es un arreglo.");
     }
 
-    allItems = data.items;
+    allItems = data;
 
     renderPaginatedTracks();
     setupPagination();
@@ -124,44 +122,44 @@ function renderPaginatedTracks() {
 
   list.innerHTML = items
     .map((item) => {
-      const machineDate = dayjs(item.date_published).format("YYYY-MM-DD");
-      const songDetails = item._song_details; // Objeto con los detalles de la canción
+      const machineDate = dayjs(item.created).format("YYYY-MM-DD");
 
-      const artworkHTML = songDetails.artwork_url
-        ? `<img src="${songDetails.artwork_url}" data-toggle="tooltip" data-placement="top" alt="${songDetails.song}" title="${songDetails.song}" class="track-artwork rounded mb-4 mb-md-0 img-fluid">`
+      const artworkHTML = item.artwork_url
+        ? `<img src="${item.artwork_url}" data-toggle="tooltip" data-placement="top" alt="${item.song}" title="${item.song}" class="track-artwork rounded mb-4 mb-md-0 img-fluid">`
         : "";
 
-      const audioHTML = songDetails.preview_url
-        ? `<audio controls><source src="${songDetails.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
+      const audioHTML = item.preview_url
+        ? `<audio controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
         : "";
 
       return `
         <li class="mb-4">
-          <a class="post-date badge badge-dark mb-3" href="${item.url}" target="_blank" rel="noopener">
-            <time datetime="${machineDate}">${formatDate(item.date_published)}</time>
+          <a class="post-date badge badge-dark mb-3" href="${item.link}" target="_blank" rel="noopener">
+            <time datetime="${machineDate}">${formatDate(item.created)}</time>
           </a>
           <div class="card mb-4">
             <div class="card-body">
               <div class="row">
                 <div class="col-md-4 col-lg-3">
                   <div class="artwork">
-                    <a href="${item.url}" target="_blank" rel="noopener">
+                    <a href="${item.link}" target="_blank" rel="noopener">
                       ${artworkHTML}
                     </a>
                   </div>
                 </div>
                 <div class="col-md-8 col-lg-9">
                   <div class="info">
-                    <h2 style="margin: 0 0 0.13em !important;">${songDetails.song}</h2>
-                    <p>${songDetails.artist}</p>
+                    <h2 style="margin: 0 0 0.13em !important;">${item.song}</h2>
+                    <p>${item.artist}</p>
                     ${audioHTML}
-                    <p><a href="${item.url}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <p>${extractQuestionContent(item.content_html)}</p>
+          {/* El contenido HTML está en la propiedad 'note' */}
+          <p>${extractQuestionContent(item.note)}</p>
         </li>`;
     })
     .join("");

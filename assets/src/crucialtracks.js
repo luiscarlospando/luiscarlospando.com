@@ -82,7 +82,7 @@ async function displayTracks() {
 
   try {
     const data = await fetchTracksJSON();
-    allItems = data;
+    allItems = data.items;
 
     renderPaginatedTracks();
     setupPagination();

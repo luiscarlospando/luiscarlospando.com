@@ -83,6 +83,8 @@ async function displayTracks() {
   try {
     const data = await fetchTracksJSON();
 
+    console.log("Respuesta real del API:", data);
+
     if (!data || !Array.isArray(data.items)) {
       throw new Error("La respuesta del API no tiene el formato esperado.");
     }

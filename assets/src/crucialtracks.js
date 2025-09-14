@@ -57,26 +57,32 @@ function cleanAndTruncateContent(html, maxLength = 200) {
   });
 
   // Collect paragraphs after the "question"
-  const paragraphs = doc.querySelectorAll("p");
+  const paragraphs = Array.from(doc.querySelectorAll("p"));
   let foundQuestion = false;
   let cleanedContent = "";
 
-  paragraphs.forEach((p) => {
+  for (const p of paragraphs) {
     const text = p.textContent.trim();
 
-    // Skip until a question mark is found
     if (!foundQuestion) {
-      if (text.endsWith("?")) {
-        foundQuestion = true; // start keeping content after the question
+      // Look for a question mark anywhere in the text
+      if (text.includes("?")) {
+        foundQuestion = true;
       }
-      return;
+      continue;
     }
 
     cleanedContent += text + " ";
-  });
+  }
 
-  // Trim and truncate
   cleanedContent = cleanedContent.trim();
+
+  if (!cleanedContent) {
+    // fallback: if nothing was found, return first non-empty paragraph
+    const firstValid = paragraphs.find((p) => p.textContent.trim().length > 0);
+    cleanedContent = firstValid ? firstValid.textContent.trim() : "";
+  }
+
   return cleanedContent.length > maxLength
     ? cleanedContent.slice(0, maxLength) + "..."
     : cleanedContent;
@@ -143,7 +149,7 @@ function renderPaginatedTracks() {
           <a class="post-date badge badge-dark mb-3" href="${item.link}" target="_blank" rel="noopener">
             <time datetime="${machineDate}">${formatDate(item.created)}</time>
           </a>
-          <div class="card">
+          <div class="card mb-4">
             <div class="card-body">
               <div class="row">
                 <div class="col-md-4 col-lg-3">

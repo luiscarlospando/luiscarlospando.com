@@ -48,7 +48,7 @@ function extractQuestionContent(html) {
   const parser = new DOMParser();
   const doc = parser.parseFromString(html, "text/html");
 
-  // Remove "Listen to ... Apple Music playlist" links
+  // Remove Apple Music links
   const links = doc.querySelectorAll("a");
   links.forEach((a) => {
     if (
@@ -59,20 +59,31 @@ function extractQuestionContent(html) {
     }
   });
 
-  const paragraphs = Array.from(doc.querySelectorAll("p"));
   let foundQuestion = false;
   let content = "";
 
-  for (const p of paragraphs) {
-    const text = p.textContent.trim();
+  // Loop through all elements (paragraphs, divs, em, etc.)
+  const walker = doc.createTreeWalker(
+    doc.body,
+    NodeFilter.SHOW_ELEMENT,
+    null,
+    false,
+  );
+
+  let node;
+  while ((node = walker.nextNode())) {
+    const text = node.textContent.trim();
     if (!foundQuestion) {
       if (text.includes("?")) {
         foundQuestion = true;
-        content += text + "\n\n"; // start with the question
+        content += text + "\n\n";
       }
     } else {
-      // include subsequent paragraphs
-      content += text + "\n\n";
+      // Take subsequent text elements
+      // Ignore audio or empty text nodes
+      if (text && !["audio"].includes(node.tagName.toLowerCase())) {
+        content += text + "\n\n";
+      }
     }
   }
 

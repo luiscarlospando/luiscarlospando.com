@@ -82,6 +82,11 @@ async function displayTracks() {
 
   try {
     const data = await fetchTracksJSON();
+
+    if (!data || !Array.isArray(data.items)) {
+      throw new Error("La respuesta del API no tiene el formato esperado.");
+    }
+
     allItems = data.items;
 
     renderPaginatedTracks();

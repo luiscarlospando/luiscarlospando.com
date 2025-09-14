@@ -43,49 +43,40 @@ function setLoadingState(isLoading) {
   }
 }
 
-// Function to clean and truncate Crucial Tracks notes
-function cleanAndTruncateContent(html, maxLength = 200) {
+// Extract only the question and its following text, removing Apple Music links
+function extractQuestionContent(html) {
   const parser = new DOMParser();
   const doc = parser.parseFromString(html, "text/html");
 
-  // Remove "Listen to ... Apple Music playlist" link
+  // Remove "Listen to ... Apple Music playlist" links
   const links = doc.querySelectorAll("a");
   links.forEach((a) => {
-    if (a.textContent.includes("Apple Music playlist")) {
+    if (
+      a.textContent.includes("Apple Music playlist") ||
+      a.textContent.includes("Listen on Apple Music")
+    ) {
       a.remove();
     }
   });
 
-  // Collect paragraphs after the "question"
   const paragraphs = Array.from(doc.querySelectorAll("p"));
   let foundQuestion = false;
-  let cleanedContent = "";
+  let content = "";
 
   for (const p of paragraphs) {
     const text = p.textContent.trim();
-
     if (!foundQuestion) {
-      // Look for a question mark anywhere in the text
       if (text.includes("?")) {
         foundQuestion = true;
+        content += text + "\n\n"; // start with the question
       }
-      continue;
+    } else {
+      // include subsequent paragraphs
+      content += text + "\n\n";
     }
-
-    cleanedContent += text + " ";
   }
 
-  cleanedContent = cleanedContent.trim();
-
-  if (!cleanedContent) {
-    // fallback: if nothing was found, return first non-empty paragraph
-    const firstValid = paragraphs.find((p) => p.textContent.trim().length > 0);
-    cleanedContent = firstValid ? firstValid.textContent.trim() : "";
-  }
-
-  return cleanedContent.length > maxLength
-    ? cleanedContent.slice(0, maxLength) + "..."
-    : cleanedContent;
+  return content.trim();
 }
 
 // Main function to fetch and display tracks
@@ -170,7 +161,7 @@ function renderPaginatedTracks() {
               </div>
             </div>
           </div>
-          <p>${item._song_details?.content || cleanAndTruncateContent(item.content_html, 200)}</p>
+          <p>${extractQuestionContent(item.content_html)}</p>
         </li>`;
     })
     .join("");

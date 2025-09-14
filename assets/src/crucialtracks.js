@@ -43,6 +43,45 @@ function setLoadingState(isLoading) {
   }
 }
 
+// Function to clean and truncate Crucial Tracks notes
+function cleanAndTruncateContent(html, maxLength = 200) {
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(html, "text/html");
+
+  // Remove "Listen to ... Apple Music playlist" link
+  const links = doc.querySelectorAll("a");
+  links.forEach((a) => {
+    if (a.textContent.includes("Apple Music playlist")) {
+      a.remove();
+    }
+  });
+
+  // Collect paragraphs after the "question"
+  const paragraphs = doc.querySelectorAll("p");
+  let foundQuestion = false;
+  let cleanedContent = "";
+
+  paragraphs.forEach((p) => {
+    const text = p.textContent.trim();
+
+    // Skip until a question mark is found
+    if (!foundQuestion) {
+      if (text.endsWith("?")) {
+        foundQuestion = true; // start keeping content after the question
+      }
+      return;
+    }
+
+    cleanedContent += text + " ";
+  });
+
+  // Trim and truncate
+  cleanedContent = cleanedContent.trim();
+  return cleanedContent.length > maxLength
+    ? cleanedContent.slice(0, maxLength) + "..."
+    : cleanedContent;
+}
+
 // Main function to fetch and display tracks
 async function displayTracks() {
   const listContainer = document.getElementById("tracks");
@@ -125,7 +164,7 @@ function renderPaginatedTracks() {
               </div>
             </div>
           </div>
-          <p>${item.note}</p>
+          <p>${cleanAndTruncateContent(item.content_html, 200)}</p>
         </li>`;
     })
     .join("");

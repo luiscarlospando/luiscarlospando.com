@@ -96,20 +96,20 @@ Este es [mi perfil en Reddit][11]{:rel="me noopener" target="_blank"}.
 ## <i class="fa-solid fa-gamepad"></i> Backloggd
 En [Backloggd][14]{:rel="me noopener" target="_blank"} llevo el control de los videojuegos que tengo.
 
-[1]: https://signal.me/#eu/yXhJR9hhF1ntcOAnw5Cl6kLpsoxcYzyzFAtH-m4sLL1nZ8Ta_fBK_5lIcmQzHKyo
-[2]: https://instagram.com/{{ site.instagram_username }}
+[1]: {{ site.signal_url }}
+[2]: {{ site.instagram_url }}
 [3]: {{ site.discord_profile }}
 [4]: /discord/
 [5]: https://{{ site.omglol_username }}.{{ site.domain }}/
 [6]: https://home.omg.lol/referred-by/{{ site.omglol_username }}
 [7]: https://pics.{{ site.domain }}/
 [8]: https://purls.{{ site.domain }}/
-[9]: https://music.apple.com/profile/{{ site.apple_music_username }}
-[10]: https://last.fm/user/{{ site.lastfm_username }}
-[11]: https://reddit.com/u/{{ site.reddit_username }}
+[9]: {{ site.apple_music_url }}
+[10]: {{ site.lastfm_url }}
+[11]: {{ site.reddit_url }}
 [12]: {{ site.twitch_purl }}
 [13]: /live/
-[14]: https://www.backloggd.com/u/{{ site.backloggd_username }}
+[14]: {{ site.backloggd_url }}
 [15]: /guestbook/
-[16]: https://app.crucialtracks.org/profile/{{ site.crucial_tracks_username }}
-[17]: https://spacehey.com/{{ site.spacehey_username }}
+[16]: {{ site.crucial_tracks_url }}
+[17]: {{ site.spacehey_url }}

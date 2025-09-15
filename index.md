@@ -146,13 +146,13 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
 [4]: /acerca-de/
 [5]: http://hitz-musik.net/
 [6]: /photos/
-[7]: https://www.backloggd.com/u/{{ site.backloggd_username }}
+[7]: {{ site.backloggd_url }}
 [8]: /discord/
 [9]: /games/mario-kart/
 [10]: /live/
-[11]: https://social.lol/@{{ site.mastodon_username }}
+[11]: {{ site.mastodon_url }}
 [12]: {{ site.bluesky_url }}
 [13]: https://home.omg.lol/referred-by/{{ site.omglol_username }}
-[14]: https://music.apple.com/profile/{{ site.apple_music_username }}
-[15]: https://last.fm/user/{{ site.lastfm_username }}
+[14]: {{ site.apple_music_url }}
+[15]: {{ site.lastfm_url }}
 [16]: /guestbook/

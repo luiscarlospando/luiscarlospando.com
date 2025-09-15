@@ -74,6 +74,9 @@ $ finger {{ site.omglol_username }}@omg.lol
 ## <i class="fa-solid fa-arrow-right-from-bracket"></i> PURLs
 Cuando necesito generar links rápidamente, utilizo [omg.lol][6]{:target="_blank"}, aquí comparto [los links que he generado][8]{:rel="me noopener" target="_blank"}.
 
+## <i class="fa-solid fa-user"></i> SpaceHey
+Estoy en [SpaceHey][16]{:rel="me noopener" target="_blank"}, un throwback a los tiempos del MySpace. Agrégame para poder decirte *"Thanks for the add!"*.
+
 ## <i class="fa-brands fa-itunes-note"></i> Apple Music
 Este es [mi perfil en Apple Music][9]{:rel="me noopener" target="_blank"}.
 
@@ -105,3 +108,4 @@ En [Backloggd][14]{:rel="me noopener" target="_blank"} llevo el control de los v
 [13]: /live/
 [14]: https://www.backloggd.com/u/{{ site.backloggd_username }}
 [15]: /guestbook/
+[16]: https://spacehey.com/{{ site.spacehey_username }}

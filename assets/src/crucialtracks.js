@@ -5,6 +5,10 @@ dayjs.locale("es-mx");
 const relativeTime = require("dayjs/plugin/relativeTime");
 dayjs.extend(relativeTime);
 
+// Import Marked.js and DOMPurify
+const { marked } = require("marked");
+const DOMPurify = require("dompurify");
+
 // Config
 const TRACKS_API = "/api/getCrucialTracks"; // API endpoint
 const ITEMS_PER_PAGE = 10; // items per page for pagination
@@ -50,18 +54,25 @@ function extractQuestionContent(html) {
   const contentDiv = doc.querySelector("div");
 
   if (contentDiv) {
-    let finalHTML = "";
+    let questionHTML = "";
+    let answerMarkdown = "";
+
     const paragraphs = contentDiv.querySelectorAll("p");
 
     paragraphs.forEach((p) => {
+      const pText = p.textContent.trim();
       if (p.textContent.includes("?")) {
-        finalHTML += `<h3>${p.innerHTML}</h3>`;
+        questionHTML = `<h3>${p.innerHTML}</h3>`;
       } else {
-        finalHTML += `<p>${p.innerHTML}</p>`;
+        answerMarkdown += pText + "\n\n";
       }
     });
 
-    return finalHTML;
+    const dirtyHTML = marked(answerMarkdown.trim()); // Usamos marked()
+
+    const cleanAnswerHTML = DOMPurify.sanitize(dirtyHTML);
+
+    return questionHTML + cleanAnswerHTML;
   }
 
   return "";

@@ -75,7 +75,7 @@ $ finger {{ site.omglol_username }}@omg.lol
 Cuando necesito generar links rápidamente, utilizo [omg.lol][6]{:target="_blank"}, aquí comparto [los links que he generado][8]{:rel="me noopener" target="_blank"}.
 
 ## <i class="fa-solid fa-user"></i> SpaceHey
-Estoy en [SpaceHey][16]{:rel="me noopener" target="_blank"}, un throwback a los tiempos del MySpace. Agrégame para poder decirte *"Thanks for the add!"*.
+Estoy en [SpaceHey][16]{:rel="me noopener" target="_blank"}, una red social que es un throwback a los tiempos del MySpace. Agrégame para poder decirte *"Thank you for the add!"*.
 
 ## <i class="fa-brands fa-itunes-note"></i> Apple Music
 Este es [mi perfil en Apple Music][9]{:rel="me noopener" target="_blank"}.

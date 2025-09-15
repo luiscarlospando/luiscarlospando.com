@@ -74,8 +74,11 @@ $ finger {{ site.omglol_username }}@omg.lol
 ## <i class="fa-solid fa-arrow-right-from-bracket"></i> PURLs
 Cuando necesito generar links rápidamente, utilizo [omg.lol][6]{:target="_blank"}, aquí comparto [los links que he generado][8]{:rel="me noopener" target="_blank"}.
 
+## <i class="fa-solid fa-record-vinyl"></i> Crucial Tracks
+En [mi perfil de Crucial Tracks][16]{:rel="me noopener" target="_blank"} llevo un diario, no de mis canciones favoritas, sino de las canciones que me han marcado y definido de alguna manera.
+
 ## <i class="fa-solid fa-user"></i> SpaceHey
-Estoy en [SpaceHey][16]{:rel="me noopener" target="_blank"}, una red social que es un throwback a los tiempos del MySpace. Agrégame para poder decirte *"Thank you for the add!"*.
+Estoy en [SpaceHey][17]{:rel="me noopener" target="_blank"}, una red social que es un throwback a los tiempos del MySpace. Agrégame para poder decirte *"Thank you for the add!"*.
 
 ## <i class="fa-brands fa-itunes-note"></i> Apple Music
 Este es [mi perfil en Apple Music][9]{:rel="me noopener" target="_blank"}.
@@ -108,4 +111,5 @@ En [Backloggd][14]{:rel="me noopener" target="_blank"} llevo el control de los v
 [13]: /live/
 [14]: https://www.backloggd.com/u/{{ site.backloggd_username }}
 [15]: /guestbook/
-[16]: https://spacehey.com/{{ site.spacehey_username }}
+[16]: https://app.crucialtracks.org/profile/{{ site.crucial_tracks_username }}
+[17]: https://spacehey.com/{{ site.spacehey_username }}

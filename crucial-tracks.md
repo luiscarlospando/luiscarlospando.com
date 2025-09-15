@@ -12,5 +12,5 @@ permalink: /crucial-tracks/
 
 <ul id="tracks" class="list-unstyled"></ul>
 
-[1]: https://app.crucialtracks.org/profile/mijo
+[1]: https://app.crucialtracks.org/profile/{{ site.crucial_tracks_username }}
 [2]: https://music.apple.com/mx/playlist/crucial-tracks/pl.u-g39JFWq0EPd?l=en

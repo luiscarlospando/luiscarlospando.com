@@ -12,4 +12,4 @@ permalink: /music/
 
 <div class="row" id="lastfm-albums-grid"></div>
 
-[1]: /crucial-tracks/
+[1]: /music/crucial-tracks/

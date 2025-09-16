@@ -76,6 +76,7 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 | LMNT | [lmnt.me](https://lmnt.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://lmnt.me/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Marco Arment | [marco.org](https://marco.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://marco.org/rss){:target="_blank" rel="noopener" .rss-link} |
 | Matthew Cassinelli | [matthewcassinelli.com](https://matthewcassinelli.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://matthewcassinelli.com/comments/feed/){:target="_blank" rel="noopener" .rss-link} |
+| Nick Simson | [nicksimson.com](https://www.nicksimson.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.nicksimson.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Robb Knight | [rknight.me](https://rknight.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://rknight.me/subscribe/posts/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 | Sophie Koonin | [localghost.dev](https://localghost.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://localghost.dev/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Tom (ttntm) | [ttntm.me](https://ttntm.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://ttntm.me/everything.xml){:target="_blank" rel="noopener" .rss-link} |

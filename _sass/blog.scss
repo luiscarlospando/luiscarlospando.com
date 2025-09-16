@@ -347,3 +347,10 @@ figcaption,
 .comments-title {
     margin-bottom: 0.5rem !important;
 }
+
+#cusdis_thread {
+    background-color: $cardBgColor;
+    border: 1px solid $cardBorderColor;
+    width: 100%;
+    float: left;
+}

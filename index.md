@@ -76,7 +76,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/music/crucial-tracks/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa lo que estoy jugando actualmente" title="Checa mi diario en Crucial Tracks">
+        <a href="/music/crucial-tracks/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Checa las rolas que tengo en Crucial Tracks" title="Checa las rolas que tengo en Crucial Tracks">
             <i class="fa-solid fa-record-vinyl"></i> Crucial Tracks
         </a>
     </li>
@@ -91,7 +91,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/uses/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Stack de app que uso a diario" title="Stack de app que uso a diario">
+        <a href="/uses/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="El stack de apps que uso a diario" title="El stack de apps que uso a diario">
             <i class="fa-solid fa-wrench"></i> Uses
         </a>
     </li>

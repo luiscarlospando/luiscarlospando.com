@@ -87,7 +87,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
     </li>
     <li class="list-inline-item">
         <a href="/games/favorites/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Esta es una lista de mis juegos favoritos" title="Esta es una lista de mis juegos favoritos">
-            <i class="fa-solid fa-gamepad"></i> Mis juegos favoritos
+            <i class="fa-solid fa-star"></i> Mis juegos favoritos
         </a>
     </li>
     <li class="list-inline-item">

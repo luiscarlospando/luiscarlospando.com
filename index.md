@@ -86,6 +86,16 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         </a>
     </li>
     <li class="list-inline-item">
+        <a href="/games/favorites/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Esta es una lista de mis juegos favoritos" title="Esta es una lista de mis juegos favoritos">
+            <i class="fa-solid fa-gamepad"></i> Mis juegos favoritos
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="/uses/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Stack de app que uso a diario" title="Stack de app que uso a diario">
+            <i class="fa-solid fa-wrench"></i> Uses
+        </a>
+    </li>
+    <li class="list-inline-item">
         <a href="/contacto/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa las maneras de ponerte en contacto conmigo" title="Revisa las maneras de ponerte en contacto conmigo">
             <i class="fa-solid fa-address-card"></i> Contacto
         </a>

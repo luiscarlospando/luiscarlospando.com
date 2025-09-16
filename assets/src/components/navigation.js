@@ -108,7 +108,7 @@ function Navigation() {
         {
           id: "6-2",
           url: "https://luiscarlospando.com/music/crucial-tracks/",
-          icon: "fa-solid fa-headphones",
+          icon: "fa-solid fa-record-vinyl",
           text: "Crucial Tracks",
         },
       ],

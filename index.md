@@ -71,8 +71,13 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/music/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa lo que estoy jugando actualmente" title="Revisa mis álbumes más escuchados últimamente y/o mi diario en Crucial Tracks">
+        <a href="/music/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa lo que estoy jugando actualmente" title="Revisa mis álbumes más escuchados últimamente">
             <i class="fa-solid fa-headphones"></i> Música
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="/music/crucial-tracks/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa lo que estoy jugando actualmente" title="Checa mi diario en Crucial Tracks">
+            <i class="fa-solid fa-record-vinyl"></i> Crucial Tracks
         </a>
     </li>
     <li class="list-inline-item">

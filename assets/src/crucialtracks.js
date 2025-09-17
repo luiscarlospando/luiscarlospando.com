@@ -55,7 +55,7 @@ function extractQuestionContent(html) {
 
   if (contentDiv) {
     let questionHTML = "";
-    let answerMarkdownSource = "";
+    let answerHTML = "";
 
     const paragraphs = contentDiv.querySelectorAll("p");
 
@@ -63,14 +63,14 @@ function extractQuestionContent(html) {
       if (p.textContent.includes("?")) {
         questionHTML = `<h3>${DOMPurify.sanitize(p.innerHTML)}</h3>`;
       } else {
-        answerMarkdownSource += p.innerHTML + "\n\n";
+        const paragraphContent = p.innerHTML;
+        const dirtyParsedHTML = marked.parse(paragraphContent);
+        const cleanParsedHTML = DOMPurify.sanitize(dirtyParsedHTML);
+        answerHTML += cleanParsedHTML;
       }
     });
 
-    const dirtyHTML = marked(answerMarkdownSource.trim());
-    const cleanAnswerHTML = DOMPurify.sanitize(dirtyHTML);
-
-    const finalAnswerHTML = `<div class="crucial-tracks-answer">${cleanAnswerHTML}</div>`;
+    const finalAnswerHTML = `<div class="crucial-tracks-answer">${answerHTML}</div>`;
 
     return questionHTML + finalAnswerHTML;
   }

@@ -15,7 +15,10 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
 
 <p class="text-center">{{ page.description }}</p>
 
+<details>
+<summary>
 ## <i class="fa-solid fa-list-ul"></i> Tabla de contenido
+</summary>
 
 - [Nintendo Entertainment System (NES)](#nes)
 - [Game Boy](#game-boy)
@@ -30,6 +33,7 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
 - [Wii U](#wii-u)
 - [Nintendo Switch](#nsw)
 - [Nintendo Switch 2](#nsw2)
+</details>
 
 ## <span id="nes"></span> Nintendo Entertainment System (NES)
 

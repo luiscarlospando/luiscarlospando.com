@@ -800,4 +800,10 @@ code {
     p {
         margin-bottom: 1rem;
     }
+
+    .card {
+        p:first-of-type {
+            margin-bottom: 0;
+        }
+    }
 }

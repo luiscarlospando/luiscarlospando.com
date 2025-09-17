@@ -16,7 +16,7 @@ permalink: /blogroll/
 
 <details>
 <summary>
-    ## <i class="fa-solid fa-list-ul"></i> Tabla de contenido
+## <i class="fa-solid fa-list-ul"></i> Tabla de contenido
 </summary>
 
 - [🫂 Amigos (en la vida real)](#amigos-en-la-vida-real)

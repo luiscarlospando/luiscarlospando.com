@@ -47,6 +47,13 @@ function setLoadingState(isLoading) {
   }
 }
 
+// Helper function to decode HTML entities like "&gt;" back to ">"
+function decodeHTMLEntities(text) {
+  const textarea = document.createElement("textarea");
+  textarea.innerHTML = text;
+  return textarea.value;
+}
+
 function extractQuestionContent(html) {
   const parser = new DOMParser();
   const doc = parser.parseFromString(html, "text/html");
@@ -59,36 +66,14 @@ function extractQuestionContent(html) {
 
     const paragraphs = contentDiv.querySelectorAll("p");
 
-    // Usaremos el índice para identificar cada párrafo en la consola
-    paragraphs.forEach((p, index) => {
+    paragraphs.forEach((p) => {
       if (p.textContent.includes("?")) {
         questionHTML = `<h3>${DOMPurify.sanitize(p.innerHTML)}</h3>`;
       } else {
-        // --- INICIO DE LA DEPURACIÓN ---
-
-        console.group(`Párrafo de Respuesta #${index}`); // Agrupa los mensajes en la consola
-
-        // 1. ¿Qué contenido estamos extrayendo realmente?
-        const paragraphContent = p.innerHTML;
-        console.log(
-          "1. Contenido crudo (p.innerHTML):",
-          `"${paragraphContent}"`,
-        );
-
-        // 2. ¿Qué resultado nos da `marked` con ese contenido?
-        const dirtyParsedHTML = marked.parse(paragraphContent);
-        console.log("2. Resultado de marked.parse():", `"${dirtyParsedHTML}"`);
-
-        // 3. ¿`DOMPurify` está cambiando algo?
+        const encodedContent = p.innerHTML;
+        const decodedContent = decodeHTMLEntities(encodedContent);
+        const dirtyParsedHTML = marked.parse(decodedContent);
         const cleanParsedHTML = DOMPurify.sanitize(dirtyParsedHTML);
-        console.log(
-          "3. Resultado después de DOMPurify:",
-          `"${cleanParsedHTML}"`,
-        );
-
-        console.groupEnd(); // Fin del grupo de mensajes
-
-        // --- FIN DE LA DEPURACIÓN ---
 
         answerHTML += cleanParsedHTML;
       }

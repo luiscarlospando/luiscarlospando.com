@@ -61,25 +61,28 @@ function extractQuestionContent(html) {
   const contentDiv = doc.querySelector("div");
 
   if (contentDiv) {
-    let questionHTML = "";
-    let answerHTML = "";
-
     const paragraphs = contentDiv.querySelectorAll("p");
 
-    paragraphs.forEach((p) => {
-      if (p.textContent.includes("?")) {
-        questionHTML = `<h3>${DOMPurify.sanitize(p.innerHTML)}</h3>`;
-      } else {
-        const encodedContent = p.innerHTML;
-        const decodedContent = decodeHTMLEntities(encodedContent);
-        const dirtyParsedHTML = marked.parse(decodedContent);
-        const cleanParsedHTML = DOMPurify.sanitize(dirtyParsedHTML);
+    if (paragraphs.length === 0) {
+      return "";
+    }
 
-        answerHTML += cleanParsedHTML;
-      }
+    const questionParagraph = paragraphs[0];
+    const questionHTML = `<h3>${DOMPurify.sanitize(questionParagraph.innerHTML)}</h3>`;
+
+    const answerParagraphs = Array.from(paragraphs).slice(1);
+    let answerHTML = "";
+
+    answerParagraphs.forEach((p) => {
+      const encodedContent = p.innerHTML;
+      const decodedContent = decodeHTMLEntities(encodedContent);
+      const dirtyParsedHTML = marked.parse(decodedContent);
+      const cleanParsedHTML = DOMPurify.sanitize(dirtyParsedHTML);
+      answerHTML += cleanParsedHTML;
     });
 
     const finalAnswerHTML = `<div class="crucial-tracks-answer">${answerHTML}</div>`;
+
     return questionHTML + finalAnswerHTML;
   }
 

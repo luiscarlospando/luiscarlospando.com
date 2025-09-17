@@ -59,19 +59,42 @@ function extractQuestionContent(html) {
 
     const paragraphs = contentDiv.querySelectorAll("p");
 
-    paragraphs.forEach((p) => {
+    // Usaremos el índice para identificar cada párrafo en la consola
+    paragraphs.forEach((p, index) => {
       if (p.textContent.includes("?")) {
         questionHTML = `<h3>${DOMPurify.sanitize(p.innerHTML)}</h3>`;
       } else {
+        // --- INICIO DE LA DEPURACIÓN ---
+
+        console.group(`Párrafo de Respuesta #${index}`); // Agrupa los mensajes en la consola
+
+        // 1. ¿Qué contenido estamos extrayendo realmente?
         const paragraphContent = p.innerHTML;
+        console.log(
+          "1. Contenido crudo (p.innerHTML):",
+          `"${paragraphContent}"`,
+        );
+
+        // 2. ¿Qué resultado nos da `marked` con ese contenido?
         const dirtyParsedHTML = marked.parse(paragraphContent);
+        console.log("2. Resultado de marked.parse():", `"${dirtyParsedHTML}"`);
+
+        // 3. ¿`DOMPurify` está cambiando algo?
         const cleanParsedHTML = DOMPurify.sanitize(dirtyParsedHTML);
+        console.log(
+          "3. Resultado después de DOMPurify:",
+          `"${cleanParsedHTML}"`,
+        );
+
+        console.groupEnd(); // Fin del grupo de mensajes
+
+        // --- FIN DE LA DEPURACIÓN ---
+
         answerHTML += cleanParsedHTML;
       }
     });
 
     const finalAnswerHTML = `<div class="crucial-tracks-answer">${answerHTML}</div>`;
-
     return questionHTML + finalAnswerHTML;
   }
 

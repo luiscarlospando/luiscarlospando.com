@@ -5,8 +5,7 @@ dayjs.locale("es-mx");
 const relativeTime = require("dayjs/plugin/relativeTime");
 dayjs.extend(relativeTime);
 
-// Import Marked.js and DOMPurify
-const { marked } = require("marked");
+// Import DOMPurify
 const DOMPurify = require("dompurify");
 
 // Config
@@ -55,24 +54,21 @@ function extractQuestionContent(html) {
 
   if (contentDiv) {
     let questionHTML = "";
-    let answerMarkdown = "";
+    let answerHTML = "";
 
     const paragraphs = contentDiv.querySelectorAll("p");
 
     paragraphs.forEach((p) => {
-      const pText = p.textContent.trim();
+      const cleanContent = DOMPurify.sanitize(p.innerHTML);
+
       if (p.textContent.includes("?")) {
-        questionHTML = `<h3>${p.innerHTML}</h3>`;
+        questionHTML = `<h3>${cleanContent}</h3>`;
       } else {
-        answerMarkdown += pText + "\n\n";
+        answerHTML += `<p>${cleanContent}</p>`;
       }
     });
 
-    const dirtyHTML = marked(answerMarkdown.trim()); // Usamos marked()
-
-    const cleanAnswerHTML = DOMPurify.sanitize(dirtyHTML);
-
-    return questionHTML + cleanAnswerHTML;
+    return questionHTML + answerHTML;
   }
 
   return "";

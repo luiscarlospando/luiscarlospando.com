@@ -15,19 +15,19 @@ permalink: /blogroll/
 </div>
 
 <details>
-<summary>
-## <i class="fa-solid fa-list-ul"></i> Tabla de contenido
-</summary>
+    <summary>
+        ## <i class="fa-solid fa-list-ul"></i> Tabla de contenido
+    </summary>
 
-- [🫂 Amigos (en la vida real)](#amigos-en-la-vida-real)
-- [🙋 Sitios y blogs personales (Español 🇲🇽/🇪🇸)](#sitios-y-blogs-personales-español)
-- [🙋 Sitios y blogs personales (Inglés 🇺🇸/🇬🇧)](#sitios-y-blogs-personales-ingles)
-- [📖 Directorios](#directorios)
-- [🎮 Gaming](#gaming)
-- [🎵 Música](#musica)
-- [📰 Noticias](#noticias)
-- [🎙️ Podcasts](#podcasts)
-- [📺 Canales de YouTube favoritos](#canales-de-youtube)
+    - [🫂 Amigos (en la vida real)](#amigos-en-la-vida-real)
+    - [🙋 Sitios y blogs personales (Español 🇲🇽/🇪🇸)](#sitios-y-blogs-personales-español)
+    - [🙋 Sitios y blogs personales (Inglés 🇺🇸/🇬🇧)](#sitios-y-blogs-personales-ingles)
+    - [📖 Directorios](#directorios)
+    - [🎮 Gaming](#gaming)
+    - [🎵 Música](#musica)
+    - [📰 Noticias](#noticias)
+    - [🎙️ Podcasts](#podcasts)
+    - [📺 Canales de YouTube favoritos](#canales-de-youtube)
 </details>
 
 ---

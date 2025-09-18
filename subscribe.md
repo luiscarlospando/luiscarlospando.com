@@ -31,7 +31,7 @@ last-modified-at: <span id="last-updated-at">2025-09-18 08:09:00</span>
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://blog.luiscarlospando.com/rss/" rel="me">
+<a href="https://blog.luiscarlospando.com/" rel="me">
     ✍️ Blog
 </a>
 </li>
@@ -51,7 +51,7 @@ Este es el feed principal de mi blog personal.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://blog.luiscarlospando.com/photos/rss" rel="me">
+<a href="https://blog.luiscarlospando.com/photos/" rel="me">
     📸 Fotos
 </a>
 </li>
@@ -71,7 +71,7 @@ Este es el feed donde comparto mis fotos.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://bg.raindrop.io/rss/public/50598757">
+<a href="/links/">
     🔗 Links
 </a>
 </li>
@@ -165,7 +165,7 @@ Esta es una cuenta automatizada con posts de mi sitio.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://luiscarlospando.com/newsletter/" rel="me">
+<a href="/newsletter/" rel="me">
     📫 Newsletter
 </a>
 </li>
@@ -174,7 +174,7 @@ Suscríbete para recibir mi contenido en tu bandeja de entrada una vez al mes.</
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://luiscarlospando.com/newsletter/" rel="me">
+<a class="btn btn-primary btn-lg" href="/newsletter/" rel="me">
 <i class="fa-solid fa-envelope"></i> Suscribirse
 </a>
 </div>

@@ -124,7 +124,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         <h2><i class="fa-solid fa-file-pen"></i> Blog</h2>
     </li>
     <li class="list-inline-item">
-        <a href="https://blog.luiscarlospando.com/rss/" class="btn btn-primary btn-sm" style="vertical-align: super;">
+        <a class="btn btn-primary btn-sm" href="https://blog.luiscarlospando.com/rss/" rel="me" style="vertical-align: super;">
             <i class="fa-solid fa-rss"></i> Suscribirse
         </a>
     </li>
@@ -143,7 +143,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         <h2><i class="fa-solid fa-link"></i> Links <i class="ico-links-info fa-solid fa-circle-info"  data-toggle="tooltip" data-placement="top" data-html="true" title="Esta es mi colección de links interesantes que me encuentro navegando en Internet. Piensa en ellos como si fueran retweets. La mayoría de los links son en inglés."></i></h2>
     </li>
     <li class="list-inline-item">
-        <a href="https://bg.raindrop.io/rss/public/50598757" class="btn btn-primary btn-sm" style="vertical-align: super;">
+        <a class="btn btn-primary btn-sm" href="https://bg.raindrop.io/rss/public/50598757" rel="me noopener" style="vertical-align: super;">
             <i class="fa-solid fa-rss"></i> Suscribirse
         </a>
     </li>

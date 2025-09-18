@@ -31,7 +31,7 @@ last-modified-at: <span id="last-updated-at">2025-08-15 13:30:00</span>
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://blog.luiscarlospando.com/rss/">
+<a href="https://blog.luiscarlospando.com/rss/" rel="me">
     ✍️ Blog
 </a>
 </li>
@@ -41,7 +41,7 @@ Este es el feed principal de mi blog personal.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/rss/" rel="me noopener">
+<a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/rss/" rel="me">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -51,7 +51,7 @@ Este es el feed principal de mi blog personal.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://blog.luiscarlospando.com/photos/rss" rel="me noopener">
+<a href="https://blog.luiscarlospando.com/photos/rss" rel="me">
     📸 Fotos
 </a>
 </li>
@@ -61,7 +61,7 @@ Este es el feed donde comparto mis fotos.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/photos/rss" rel="me noopener">
+<a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/photos/rss" rel="me">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -101,7 +101,7 @@ Mi log de canciones diarias que representan algo para mi.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://app.crucialtracks.org/profile/mijo/feed" rel="me noopener" target="_blank">
+<a class="btn btn-primary btn-lg" href="https://app.crucialtracks.org/profile/mijo/feed" rel="me noopener">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -128,7 +128,7 @@ Mi log de canciones diarias que representan algo para mi.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://hachyderm.io/@luiscarlospando" rel="me noopener noreferrer" target="_blank">
+<a href="https://hachyderm.io/@luiscarlospando" rel="me noopener noreferrer">
     🐘 Mastodon
 </a>
 </li>
@@ -138,7 +138,7 @@ Esta es una cuenta automatizada con posts de mi sitio.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://hachyderm.io/@luiscarlospando" rel="me noopener noreferrer" target="_blank">
+<a class="btn btn-primary btn-lg" href="https://hachyderm.io/@luiscarlospando" rel="me noopener noreferrer">
 <i class="fa-brands fa-mastodon"></i> Seguir
 </a>
 </div>
@@ -165,7 +165,7 @@ Esta es una cuenta automatizada con posts de mi sitio.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://luiscarlospando.com/newsletter/" rel="me noopener">
+<a href="https://luiscarlospando.com/newsletter/" rel="me">
     📫 Newsletter
 </a>
 </li>
@@ -174,7 +174,7 @@ Suscríbete para recibir mi contenido en tu bandeja de entrada una vez al mes.</
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://luiscarlospando.com/newsletter/" rel="me noopener" target="_blank">
+<a class="btn btn-primary btn-lg" href="https://luiscarlospando.com/newsletter/" rel="me">
 <i class="fa-solid fa-envelope"></i> Suscribirse
 </a>
 </div>

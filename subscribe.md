@@ -41,7 +41,7 @@ Este es el feed principal de mi blog personal.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/rss/">
+<a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/rss/" rel="me noopener">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -51,7 +51,7 @@ Este es el feed principal de mi blog personal.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://blog.luiscarlospando.com/photos/rss">
+<a href="https://blog.luiscarlospando.com/photos/rss" rel="me noopener">
     📸 Fotos
 </a>
 </li>
@@ -61,7 +61,7 @@ Este es el feed donde comparto mis fotos.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/photos/rss">
+<a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/photos/rss" rel="me noopener">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -81,7 +81,27 @@ Aquí comparto mis links favoritos.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://bg.raindrop.io/rss/public/50598757">
+<a class="btn btn-primary btn-lg" href="https://bg.raindrop.io/rss/public/50598757" rel="me noopener">
+<i class="fa-solid fa-rss"></i> Suscribirse
+</a>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-md-6 my-auto">
+<ul class="list-unstyled">
+<li>
+<a href="/music/crucial-tracks/">
+    📀 Crucial Tracks
+</a>
+</li>
+<li>
+Mi log de canciones diarias que representan algo para mi.
+</li>
+</ul>
+</div>
+<div class="col-md-6 my-auto">
+<a class="btn btn-primary btn-lg" href="https://app.crucialtracks.org/profile/mijo/feed" rel="me noopener" target="_blank">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -145,7 +165,7 @@ Esta es una cuenta automatizada con posts de mi sitio.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://luiscarlospando.com/newsletter/" rel="noopener noreferrer" target="_blank">
+<a href="https://luiscarlospando.com/newsletter/" rel="me noopener">
     📫 Newsletter
 </a>
 </li>
@@ -154,7 +174,7 @@ Suscríbete para recibir mi contenido en tu bandeja de entrada una vez al mes.</
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://luiscarlospando.com/newsletter/" rel="noopener noreferrer" target="_blank">
+<a class="btn btn-primary btn-lg" href="https://luiscarlospando.com/newsletter/" rel="me noopener" target="_blank">
 <i class="fa-solid fa-envelope"></i> Suscribirse
 </a>
 </div>

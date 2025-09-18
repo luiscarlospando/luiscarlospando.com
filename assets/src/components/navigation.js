@@ -236,12 +236,18 @@ function Navigation() {
         },
         {
           id: "16-4",
+          url: "https://app.crucialtracks.org/profile/mijo/feed",
+          icon: "fa-solid fa-square-rss",
+          text: "Crucial Tracks",
+        },
+        {
+          id: "16-5",
           url: "https://hachyderm.io/@luiscarlospando",
           icon: "fa-brands fa-mastodon",
           text: "Mastodon",
         },
         {
-          id: "16-5",
+          id: "16-6",
           url: "https://luiscarlospando.com/newsletter/",
           icon: "fa-solid fa-envelope",
           text: "Newsletter",

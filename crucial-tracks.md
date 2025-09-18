@@ -11,7 +11,7 @@ permalink: /music/crucial-tracks/
 <p class="text-center">Este es [mi perfil en Crucial Tracks][1]{:rel="alternate noopener" target="_blank"} y este es el [playlist][2]{:rel="noreferrer noopener" target="_blank"} donde voy agregando las rolas que comparto ahí.</p>
 
 <p class="text-center">
-    <a href="https://app.crucialtracks.org/profile/mijo/feed" rel="me noopener">
+    <a class="btn btn-primary btn-sm" href="https://app.crucialtracks.org/profile/mijo/feed" rel="me noopener">
         <i class="fa-solid fa-rss"></i> Suscribirse
     </a>
 </p>

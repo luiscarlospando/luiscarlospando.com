@@ -61,7 +61,7 @@ Este es el feed donde comparto mis fotos.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/photos/rss" rel="me">
+<a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/photos/rss/" rel="me">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>

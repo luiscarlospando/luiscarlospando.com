@@ -55,46 +55,63 @@ function decodeHTMLEntities(text) {
 }
 
 function extractQuestionContent(html) {
+  // Create a DOM parser to read the HTML string
   const parser = new DOMParser();
   const doc = parser.parseFromString(html, "text/html");
 
+  // Check for the specific div used in Q&A posts
   const contentDiv = doc.querySelector("div");
-
-  // If there is no div, we search in the main body, this handles both cases
+  // If no div is found, search in the main body, this handles both cases
   const mainContainer = contentDiv || doc.body;
   const paragraphs = mainContainer.querySelectorAll("p");
 
-  if (paragraphs.length === 0) {
-    return "";
+  // If paragraphs are found, use a refined logic
+  if (paragraphs.length > 0) {
+    let questionHTML = "";
+    let answerParagraphs = Array.from(paragraphs);
+
+    if (contentDiv) {
+      // Question/Answer format
+      const questionParagraph = paragraphs[0];
+      questionHTML = `<h3>${DOMPurify.sanitize(
+        questionParagraph.innerHTML,
+      )}</h3>`;
+      answerParagraphs = answerParagraphs.slice(1);
+    }
+
+    let answerHTML = "";
+    answerParagraphs.forEach((p) => {
+      const encodedContent = p.innerHTML;
+      const decodedContent = decodeHTMLEntities(encodedContent);
+      const dirtyParsedHTML = marked.parse(decodedContent);
+      const cleanParsedHTML = DOMPurify.sanitize(dirtyParsedHTML);
+      answerHTML += cleanParsedHTML;
+    });
+
+    const finalAnswerHTML = `<div class="crucial-tracks-answer">${answerHTML}</div>`;
+    return questionHTML + finalAnswerHTML;
   }
+  // If there are NO paragraphs, process the entire container's content
+  else {
+    const rawContent = mainContainer.innerHTML;
 
-  let questionHTML = "";
-  // By default, all paragraphs are part of the answer
-  let answerParagraphs = Array.from(paragraphs);
+    // If there's no content, show nothing
+    if (!rawContent.trim()) {
+      return "";
+    }
 
-  // If we find a 'div', it means it's in the format Question/Answer
-  if (contentDiv) {
-    // The first paragraph es the question
-    const questionParagraph = paragraphs[0];
-    questionHTML = `<h3>${DOMPurify.sanitize(questionParagraph.innerHTML)}</h3>`;
-
-    // The answer are the remaining paragraphs
-    answerParagraphs = answerParagraphs.slice(1);
-  }
-
-  // Processing the paragraphs that were determined to be part of the answer
-  let answerHTML = "";
-  answerParagraphs.forEach((p) => {
-    const encodedContent = p.innerHTML;
-    const decodedContent = decodeHTMLEntities(encodedContent);
+    // Since there are no paragraphs, treat everything as the "answer"
+    const decodedContent = decodeHTMLEntities(rawContent);
     const dirtyParsedHTML = marked.parse(decodedContent);
     const cleanParsedHTML = DOMPurify.sanitize(dirtyParsedHTML);
-    answerHTML += cleanParsedHTML;
-  });
 
-  const finalAnswerHTML = `<div class="crucial-tracks-answer">${answerHTML}</div>`;
+    // Avoid showing an empty paragraph if the content was only whitespace
+    if (cleanParsedHTML.trim() === "<p></p>" || !cleanParsedHTML.trim()) {
+      return "";
+    }
 
-  return questionHTML + finalAnswerHTML;
+    return `<div class="crucial-tracks-answer">${cleanParsedHTML}</div>`;
+  }
 }
 
 // Main function to fetch and display tracks

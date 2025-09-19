@@ -60,33 +60,41 @@ function extractQuestionContent(html) {
 
   const contentDiv = doc.querySelector("div");
 
-  if (contentDiv) {
-    const paragraphs = contentDiv.querySelectorAll("p");
+  // If there is no div, we search in the main body, this handles both cases
+  const mainContainer = contentDiv || doc.body;
+  const paragraphs = mainContainer.querySelectorAll("p");
 
-    if (paragraphs.length === 0) {
-      return "";
-    }
-
-    const questionParagraph = paragraphs[0];
-    const questionHTML = `<h3>${DOMPurify.sanitize(questionParagraph.innerHTML)}</h3>`;
-
-    const answerParagraphs = Array.from(paragraphs).slice(1);
-    let answerHTML = "";
-
-    answerParagraphs.forEach((p) => {
-      const encodedContent = p.innerHTML;
-      const decodedContent = decodeHTMLEntities(encodedContent);
-      const dirtyParsedHTML = marked.parse(decodedContent);
-      const cleanParsedHTML = DOMPurify.sanitize(dirtyParsedHTML);
-      answerHTML += cleanParsedHTML;
-    });
-
-    const finalAnswerHTML = `<div class="crucial-tracks-answer">${answerHTML}</div>`;
-
-    return questionHTML + finalAnswerHTML;
+  if (paragraphs.length === 0) {
+    return "";
   }
 
-  return "";
+  let questionHTML = "";
+  // By default, all paragraphs are part of the answer
+  let answerParagraphs = Array.from(paragraphs);
+
+  // If we find a 'div', it means it's in the format Question/Answer
+  if (contentDiv) {
+    // The first paragraph es the question
+    const questionParagraph = paragraphs[0];
+    questionHTML = `<h3>${DOMPurify.sanitize(questionParagraph.innerHTML)}</h3>`;
+
+    // The answer are the remaining paragraphs
+    answerParagraphs = answerParagraphs.slice(1);
+  }
+
+  // Processing the paragraphs that were determined to be part of the answer
+  let answerHTML = "";
+  answerParagraphs.forEach((p) => {
+    const encodedContent = p.innerHTML;
+    const decodedContent = decodeHTMLEntities(encodedContent);
+    const dirtyParsedHTML = marked.parse(decodedContent);
+    const cleanParsedHTML = DOMPurify.sanitize(dirtyParsedHTML);
+    answerHTML += cleanParsedHTML;
+  });
+
+  const finalAnswerHTML = `<div class="crucial-tracks-answer">${answerHTML}</div>`;
+
+  return questionHTML + finalAnswerHTML;
 }
 
 // Main function to fetch and display tracks

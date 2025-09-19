@@ -12,7 +12,7 @@ function Navigation() {
     },
     {
       id: "2",
-      url: "https://luiscarlospando.com/acerca-de/",
+      url: "https://luiscarlospando.com/about/",
       icon: "fa-solid fa-circle-info",
       text: "Acerca de",
       subButtons: [],
@@ -170,7 +170,7 @@ function Navigation() {
     },
     {
       id: "11",
-      url: "https://luiscarlospando.com/contacto/",
+      url: "https://luiscarlospando.com/contact/",
       icon: "fa-solid fa-address-card",
       text: "Contacto",
       subButtons: [],
@@ -212,7 +212,7 @@ function Navigation() {
     },
     {
       id: "16",
-      url: "https://luiscarlospando.com/suscribete/",
+      url: "https://luiscarlospando.com/subscribe/",
       icon: "fa-solid fa-square-rss",
       text: "Suscríbete",
       subButtons: [

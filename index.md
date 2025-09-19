@@ -158,7 +158,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
 [1]: https://es.wikipedia.org/wiki/Chihuahua_(Chihuahua)
 [2]: https://www.instagram.com/primitivegirl
 [3]: https://github.com/{{ site.github_username }}
-[4]: /acerca-de/
+[4]: /about/
 [5]: http://hitz-musik.net/
 [6]: /photos/
 [7]: {{ site.backloggd_url }}

@@ -3,7 +3,7 @@ layout: page
 title: Contacto
 description: Gracias por tu interés en ponerte en contacto conmigo. 🥰
 image: /assets/images/logo.png
-permalink: /contacto/
+permalink: /contact/
 ---
 
 <p class="text-center">{{ page.description }}</p>

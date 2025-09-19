@@ -2,7 +2,7 @@
 layout: page
 title: Acerca de
 description: Este URL ha sido mi hogar en línea desde octubre del 2014 aproximadamente. Este sitio lo hice para que sea como un hub central en donde pueda escribir y enlazar todos mis demás perfiles y proyectos.
-permalink: /acerca-de/
+permalink: /about/
 ---
 
 <h2 class="subtitulo text-center"><small>{{ site.capitalized_domain }} <code>v{{ site.version }}</code></small></h2>
@@ -126,7 +126,7 @@ Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. 
 [4]: https://last.fm/user/{{ site.lastfm_username }}
 [5]: https://indieweb.org/
 [6]: /guestbook/
-[7]: /contacto/
+[7]: /contact/
 [8]: https://blog.{{ site.domain }}/author/me/
 [9]: https://blog.{{ site.domain }}
 [10]: https://zed.dev/

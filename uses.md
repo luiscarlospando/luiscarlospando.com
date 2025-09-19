@@ -15,5 +15,5 @@ last-modified-at: <span id="last-updated-at">2025-09-17 23:44:13</span>
 
 <p class="text-center">Este es el stack de apps que uso en mi día a día, me gusta mucho descubrir y probar apps interesantes, así que si tienes sugerencias, [por favor adelante][1]. Por cierto, [así mero se ve mi dock ahorita][2]{:target="_blank" rel="noreferrer noopener"}. 😉</p>
 
-[1]: /contacto/
+[1]: /contact/
 [2]: https://www.dockhunt.com/users/mijo

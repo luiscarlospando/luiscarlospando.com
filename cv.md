@@ -18,7 +18,7 @@ permalink: /cv/
 </p>
 - 📧 [hey@luiscarlospando.com](mailto:hey@luiscarlospando.com)
 - 🌐 [LuisCarlosPando.com](https://luiscarlospando.com) (estás aquí)
-- 💬 [Otros medios de contacto](https://luiscarlospando.com/contacto)
+- 💬 [Otros medios de contacto](https://luiscarlospando.com/contact)
 </div>
 
 ## Experiencia Laboral

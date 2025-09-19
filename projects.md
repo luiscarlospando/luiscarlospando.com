@@ -7,9 +7,9 @@ permalink: /projects/
 last-modified-at: <span id="last-updated-at">2025-05-03 00:03:55</span>
 ---
 
-<div class="text-center">
-{{ page.description}}
-</div>
+<p class="text-center">
+    {{ page.description}}
+</p>
 
 <div class="row">
 <div class="col-12 my-auto">

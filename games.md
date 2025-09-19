@@ -169,7 +169,7 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 
 [1]: #discord-tag
 [2]: #nintendo-switch
-[3]: https://www.backloggd.com/u/mijo/playing/
+[3]: {{ site.backloggd_url }}
 [4]: /games/favorites/
 [5]: /games/mario-kart/
 [6]: /games/splatoon/

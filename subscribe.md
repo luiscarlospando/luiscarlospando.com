@@ -3,7 +3,7 @@ layout: page
 title: Suscríbete
 description: Puedes suscribirte a mi sitio con estos feeds RSS, en Mastodon o a través de mi Newsletter para recibir actualizaciones de mi contenido.
 image: /assets/images/logo.png
-permalink: /suscribete/
+permalink: /subscribe/
 last-modified-at: <span id="last-updated-at">2025-09-18 08:09:00</span>
 ---
 

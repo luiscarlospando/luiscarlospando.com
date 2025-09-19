@@ -9,6 +9,10 @@ last-modified-at: <span id="last-updated-at">2025-08-06 16:50:00</span>
 
 <p class="text-center">{{ page.description }}</p>
 
+<p class="text-center">
+    👉 <em>Psst, psst... If you speak English or any other language, feel free to leave a message!</em> ✨
+</p>
+
 <div class="text-center">
 <button id="btn-code-of-conduct" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseCodeOfConduct" role="button" aria-expanded="false" aria-controls="collapseCodeOfConduct">
     <i class="fa-solid fa-caret-right"></i> Código de conducta

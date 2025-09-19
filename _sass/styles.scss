@@ -141,6 +141,10 @@ blockquote {
 
     p {
         font-size: 1.375rem !important;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
     }
 
     cite {

@@ -113,7 +113,7 @@ Suscríbete a mi sitio por:
 - [<i class="fas fa-rss"></i> RSS (Blog)][26]
 - [<i class="fas fa-rss"></i> RSS (Fotos)][27]
 - [<i class="fas fa-rss"></i> RSS (Links)][28]
-- [<i class="fas fa-rss"></i> RSS (Crucial Tracks)][29]]
+- [<i class="fas fa-rss"></i> RSS (Crucial Tracks)][29]
 - [<i class="fa-brands fa-mastodon"></i> Mastodon][30]{:rel="me noreferrer noopener" target="_blank"}
 - [<i class="fa-solid fa-envelope"></i> Newsletter][31] <span class="badge badge-success">Nuevo</span>
 

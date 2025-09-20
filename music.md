@@ -20,7 +20,7 @@ permalink: /music/
         </a>
     </li>
     <li class="list-inline-item">
-        <a class="btn btn-primary btn-sm" href="{{ site.crucial_tracks_url}}" target="_blank" rel="me noopener">
+        <a class="btn btn-primary btn-sm" href="/music/crucial-tracks/">
           <i class="fa-solid fa-record-vinyl"></i> Crucial Tracks
         </a>
         <span class="badge badge-success">Nuevo</span>

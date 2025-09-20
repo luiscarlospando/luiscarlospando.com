@@ -161,6 +161,8 @@ function renderPaginatedTracks() {
   const endIndex = startIndex + ITEMS_PER_PAGE;
   const items = allItems.slice(startIndex, endIndex);
 
+  const newestItemId = allItems[0]?.id;
+
   list.innerHTML = items
     .map((item, index) => {
       const machineDate = dayjs(item.created).format("YYYY-MM-DD");
@@ -175,11 +177,25 @@ function renderPaginatedTracks() {
 
       const separator = index < items.length - 1 ? "<hr>" : "";
 
+      let newBadgeHTML = "";
+      if (item.id === newestItemId) {
+        newBadgeHTML = `
+          <li class="list-inline-item">
+            <span class="badge badge-success">
+              Nueva canción
+            </span>
+          </li>`;
+      }
+
       return `
         <li class="mb-4">
-          <a class="post-date badge badge-dark mb-3" href="${item.link}" target="_blank" rel="noopener">
-            <time datetime="${machineDate}">${formatDate(item.created)}</time>
-          </a>
+          <ul class="list-inline mb-3">
+            <li class="list-inline-item">
+              <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener">
+                <time datetime="${machineDate}">${formatDate(item.created)}</time>
+              </a>
+            </li>
+            ${newBadgeHTML} </ul>
           <div class="card mb-4">
             <div class="card-body">
               <div class="row">

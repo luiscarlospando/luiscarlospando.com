@@ -8,6 +8,25 @@ permalink: /music/
 
 <p class="text-center">{{ page.description }}</p>
 
+<ul class="list-inline text-center">
+    <li class="list-inline-item">
+        <a class="btn btn-primary btn-sm" href="{{ site.apple_music_url}}" target="_blank" rel="me noopener noreferrer">
+          <i class="fa-brands fa-apple"></i> Apple Music
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a class="btn btn-primary btn-sm" href="{{ site.lastfm_url}}" target="_blank" rel="me noopener noreferrer">
+          <i class="fa-brands fa-lastfm"></i> Last.fm
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a class="btn btn-primary btn-sm" href="{{ site.crucial_tracks_url}}" target="_blank" rel="me noopener">
+          <i class="fa-solid fa-record-vinyl"></i> Crucial Tracks
+        </a>
+        <span class="badge badge-success">Nuevo</span>
+    </li>
+</ul>
+
 <p class="text-center">También puedes ver las rolas que voy agregando en [Crucial Tracks][1]. <span class="badge badge-success">Nuevo</span></p>
 
 <div class="row" id="lastfm-albums-grid"></div>

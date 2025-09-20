@@ -8,7 +8,7 @@ permalink: /music/
 
 <p class="text-center">{{ page.description }}</p>
 
-<ul class="list-inline text-center">
+<ul class="list-inline mb-4 text-center">
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="{{ site.apple_music_url}}" target="_blank" rel="me noopener noreferrer">
           <i class="fa-brands fa-apple"></i> Apple Music

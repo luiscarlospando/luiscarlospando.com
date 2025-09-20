@@ -20,8 +20,8 @@ permalink: /blogroll/
 </summary>
 
 - [🫂 Amigos (en la vida real)](#amigos-en-la-vida-real)
-- [🙋 Sitios y blogs personales (Español 🇲🇽/🇪🇸)](#sitios-y-blogs-personales-español)
-- [🙋 Sitios y blogs personales (Inglés 🇺🇸/🇬🇧)](#sitios-y-blogs-personales-ingles)
+- [🙋 Sitios y blogs personales (Español)](#sitios-y-blogs-personales-español)
+- [🙋 Sitios y blogs personales (Inglés)](#sitios-y-blogs-personales-ingles)
 - [📖 Directorios](#directorios)
 - [🎮 Gaming](#gaming)
 - [🎵 Música](#musica)
@@ -44,7 +44,7 @@ Algunos de mis compas en la vida real tienen su propio sitio, son poquitos pero 
 
 ---
 
-## <i id="sitios-y-blogs-personales-español" class="fa-solid fa-user"></i> Sitios y blogs personales (Español 🇲🇽/🇪🇸)
+## <i id="sitios-y-blogs-personales-español" class="fa-solid fa-user"></i> Sitios y blogs personales (Español)
 Algunos de los sitios y blogs personales en español que más me gustan (como se podrán dan cuenta, apenas estoy comenzando a descubrir contenido en español).
 
 | Nombre | URL | RSS |
@@ -54,7 +54,7 @@ Algunos de los sitios y blogs personales en español que más me gustan (como se
 
 ---
 
-## <i id="sitios-y-blogs-personales-ingles" class="fa-solid fa-user"></i> Sitios y blogs personales (Inglés 🇺🇸/🇬🇧)
+## <i id="sitios-y-blogs-personales-ingles" class="fa-solid fa-user"></i> Sitios y blogs personales (Inglés)
 Algunos de los sitios y blogs personales en inglés que más me gustan.
 
 | Nombre | URL | RSS |

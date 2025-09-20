@@ -51,7 +51,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
 
 <ul class="list-inline">
     <li class="list-inline-item">
-        <a href="/acerca-de/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Conoce más sobre mi" title="Conoce más sobre mi">
+        <a href="/about/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Conoce más sobre mi" title="Conoce más sobre mi">
             <i class="fa-solid fa-circle-info"></i> Acerca de
         </a>
     </li>
@@ -96,7 +96,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/contacto/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa las maneras de ponerte en contacto conmigo" title="Revisa las maneras de ponerte en contacto conmigo">
+        <a href="/contact/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa las maneras de ponerte en contacto conmigo" title="Revisa las maneras de ponerte en contacto conmigo">
             <i class="fa-solid fa-address-card"></i> Contacto
         </a>
     </li>

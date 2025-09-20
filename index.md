@@ -168,6 +168,6 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
 [11]: {{ site.mastodon_url }}
 [12]: {{ site.bluesky_url }}
 [13]: https://home.omg.lol/referred-by/{{ site.omglol_username }}
-[14]: {{ site.apple_music_url }}
+[14]: /music/
 [15]: {{ site.lastfm_url }}
 [16]: /guestbook/

@@ -182,7 +182,7 @@ function renderPaginatedTracks() {
         newBadgeHTML = `
           <li class="list-inline-item">
             <span class="badge badge-success">
-              Nueva canción
+              Canción más reciente
             </span>
           </li>`;
       }

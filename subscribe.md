@@ -31,7 +31,7 @@ last-modified-at: <span id="last-updated-at">2025-09-18 08:09:00</span>
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://blog.luiscarlospando.com/" rel="me">
+<a href="{{ site.blog_url }}" rel="me">
     ✍️ Blog
 </a>
 </li>
@@ -41,7 +41,7 @@ Este es el feed principal de mi blog personal.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/rss/" rel="me">
+<a class="btn btn-primary btn-lg" href="{{ site.blog_url }}/rss/" rel="me">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -51,7 +51,7 @@ Este es el feed principal de mi blog personal.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://blog.luiscarlospando.com/photos/" rel="me">
+<a href="{{ site.blog_url }}/photos/" rel="me">
     📸 Fotos
 </a>
 </li>
@@ -61,7 +61,7 @@ Este es el feed donde comparto mis fotos.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://blog.luiscarlospando.com/photos/rss/" rel="me">
+<a class="btn btn-primary btn-lg" href="{{ site.blog_url }}/photos/rss/" rel="me">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>

@@ -67,7 +67,7 @@ permalink: /games/mario-kart/
 
 ## <i class="fa-solid fa-hashtag"></i> Posts sobre *Mario Kart 8*
 
-- Puedes revisar todos mis posts sobre *Mario Kart 8* en este hashtag: <a class="badge badge-dark" href="https://blog.{{ site.domain }}/hashtag/mario-kart-8/">#Mario Kart 8</a>
+- Puedes revisar todos mis posts sobre *Mario Kart 8* en este hashtag: <a class="badge badge-dark" href="{{ site.blog_url }}/hashtag/mario-kart-8/">#Mario Kart 8</a>
 
 ## <i class="fa-brands fa-mastodon"></i> Mastodon
 

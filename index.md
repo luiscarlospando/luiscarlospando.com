@@ -61,7 +61,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="https://blog.luiscarlospando.com/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Explora mi blog" title="Explora mi blog">
+        <a href="{{ site.blog_url }}" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Explora mi blog" title="Explora mi blog">
             <i class="fa-solid fa-message"></i> Blog
         </a>
     </li>
@@ -132,7 +132,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
 
 <ul id="latest-posts"></ul>
 
-<a class="btn btn-primary" href="https://blog.{{ site.domain }}/" target="_self">
+<a class="btn btn-primary" href="{{ site.blog_url }}">
     <i class="fa-solid fa-list-ul"></i> Ver todos
 </a>
 

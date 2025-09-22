@@ -124,12 +124,12 @@ Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. 
 [1]: https://hitz-musik.net/
 [2]: /discord/
 [3]: /live/
-[4]: https://last.fm/user/{{ site.lastfm_username }}
+[4]: {{ site.lastfm_url }}
 [5]: https://indieweb.org/
 [6]: /guestbook/
 [7]: /contact/
-[8]: https://blog.{{ site.domain }}/author/me/
-[9]: https://blog.{{ site.domain }}
+[8]: {{ site.blog_url }}/author/me/
+[9]: {{ site.blog_url }}
 [10]: https://zed.dev/
 [11]: https://jekyllrb.com/
 [12]: https://vercel.com/

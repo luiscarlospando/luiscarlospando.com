@@ -124,7 +124,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         <h2><i class="fa-solid fa-file-pen"></i> Blog</h2>
     </li>
     <li class="list-inline-item">
-        <a class="btn btn-primary btn-sm" href="https://blog.luiscarlospando.com/rss/" rel="me" style="vertical-align: super;">
+        <a class="btn btn-primary btn-sm" href="{{ site.blog_url }}/rss/" rel="me" style="vertical-align: super;">
             <i class="fa-solid fa-rss"></i> Suscribirse
         </a>
     </li>

@@ -52,8 +52,9 @@ h6 {
 .post-details {
     font-size: 0.833rem;
     font-style: italic;
-    position: relative;
     margin: 0.2rem 0 0.5rem;
+    position: relative;
+    z-index: 2;
 }
 
 .hashtag-list {
@@ -88,6 +89,7 @@ h6 {
     font-size: 0.918rem;
     width: 100%;
     float: left;
+    z-index: 3;
 }
 
 #webmentions-likes,

@@ -113,7 +113,6 @@
     width: 100%;
     height: auto;
     position: relative;
-    z-index: -1;
 
     a {
         text-decoration: underline;
@@ -136,6 +135,7 @@
         float: left;
         padding: 26px 15px 26px;
         position: relative;
+        z-index: -1;
 
         .statuslol {
             display: flex;

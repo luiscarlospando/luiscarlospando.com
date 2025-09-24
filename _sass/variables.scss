@@ -31,7 +31,7 @@ $btnBorderTextColor: hsl(210deg, 30%, 12%);
 $btnBgHoverColor: hsla(0, 0%, 100%, 0.1);
 $btnBorderHoverColor: hsl(210deg, 30%, 12%);
 
-$cardHeaderBgColor: #151f28;
+$cardHeaderBgColor: hsl(210deg, 30%, 12%);
 $cardBgColor: hsl(210deg, 50%, 9%);
 $cardFooterBgColor: hsl(0, 0%, 7%);
 $cardBorderColor: hsl(210deg, 30%, 12%);
@@ -41,7 +41,8 @@ $btnCardBorderTextColor: hsl(210deg, 30%, 12%);
 $btnCardBgHoverColor: hsl(275, 99%, 43%);
 $btnCardBorderHoverColor: hsl(210deg, 30%, 12%);
 
-$navMenuBgColor: hsl(0, 0%, 7%);
+$navMenuBgColor: hsl(210deg, 50%, 9%);
+$navFooterBgColor: hsl(210deg, 30%, 12%);
 
 $alertBgColor: hsl(210deg, 50%, 9%);
 $alertBorderColor: hsl(210deg, 30%, 12%);

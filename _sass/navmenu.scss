@@ -62,10 +62,11 @@
     > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(
         .mm-noresults
     ):after {
-    border-bottom-width: 0;
+    border-color: $componentBorderColor;
 }
 
 .mm-footer {
+    background-color: $navFooterBgColor;
     font-size: 0.8125rem;
     height: auto;
     padding: 10px;

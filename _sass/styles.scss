@@ -408,6 +408,7 @@ footer {
     background-color: $cardBgColor;
     border: 1px solid $cardBorderColor;
     border-radius: $borderRadius;
+    box-shadow: 0px 0px 160px $cardBoxShadowColor;
     overflow: hidden;
     position: relative;
 
@@ -504,10 +505,6 @@ footer {
     }
 }
 
-.last-updated {
-    background-color: $cardFooterBgColor;
-}
-
 .alert {
     background-color: $alertBgColor;
     border-color: $alertBorderColor;
@@ -515,6 +512,7 @@ footer {
     border-radius: 0.75rem;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    box-shadow: 0px 0px 160px $cardBoxShadowColor;
     color: $mainColor;
     font-size: 0.916rem;
     margin: 1rem 0;
@@ -722,6 +720,7 @@ code {
         border: 1px solid $componentBorderColor !important;
         border: none;
         border-radius: $borderRadius;
+        box-shadow: 0px 0px 160px $cardBoxShadowColor;
         padding: 16px 14px 15px;
         margin: 0;
         position: relative;

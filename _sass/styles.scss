@@ -276,9 +276,12 @@ table {
     color: #fff;
     border: 1px solid $cardBorderColor;
     border-radius: 0.75rem;
+    box-shadow: 0px 0px 160px $cardBoxShadowColor;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 0.9rem;
+    position: relative;
+    z-index: 1;
 }
 
 th,

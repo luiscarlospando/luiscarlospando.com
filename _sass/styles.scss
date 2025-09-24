@@ -265,9 +265,10 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background: #1a1a2e;
+    background: $cardBgColor;
     color: #fff;
-    border-radius: 8px;
+    border: 1px solid $cardBorderColor;
+    border-radius: 0.75rem;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family:
@@ -283,7 +284,7 @@ td {
 }
 
 th {
-    background-color: #2a2a40;
+    background-color: $cardHeaderBgColor;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 0.9em;

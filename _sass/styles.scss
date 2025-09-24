@@ -284,35 +284,43 @@ table {
     color: #fff;
     border: 1px solid $cardBorderColor;
     border-radius: 0.75rem;
-    box-shadow: 0px 0px 160px $cardBoxShadowColor;
+    box-shadow:
+        0px 0px 160px $cardBoxShadowColor,
+        0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 0.9rem;
     position: relative;
     z-index: 1;
-}
 
-th,
-td {
-    padding: 8px 10px;
-    text-align: left;
-    border-bottom: 1px solid $cardBorderColor;
-}
+    th,
+    td {
+        padding: 8px 10px;
+        text-align: left;
+        border-bottom: 1px solid $cardBorderColor;
+    }
 
-th {
-    background-color: $cardHeaderBgColor;
-}
+    th {
+        background-color: $cardHeaderBgColor;
+        font-family: "Raleway", sans-serif;
+    }
 
-tr:hover {
-    background-color: #252542;
-}
+    tr {
+        &:hover {
+            background-color: #252542;
+        }
 
-tr:last-child td {
-    border-bottom: none;
-}
+        &:last-child {
+            td {
+                border-bottom: none;
+            }
+        }
+    }
 
-td:first-child {
-    font-weight: bold;
+    td {
+        &:first-child {
+            font-weight: bold;
+        }
+    }
 }
 
 .form-control {

@@ -35,28 +35,33 @@ permalink: /blogroll/
 ## <i id="amigos-en-la-vida-real" class="fa-solid fa-users"></i> Amigos (en la vida real)
 Algunos de mis compas en la vida real tienen su propio sitio, son poquitos pero algo es algo.
 
+<div class="table-responsive">
 | Nombre | URL | RSS |
 |--------|-----|-----|
 | Bart | [yosoybartsolo.com](https://www.yosoybartsolo.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.yosoybartsolo.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Juan Manuel Terrazas | [juanmanuelterrazas.com](https://www.juanmterrazas.com/){:target="_blank" rel="noopener"} | |
 | Magiobus | [magiobus.com](https://magiobus.com/){:target="_blank" rel="noopener"} | |
 | MexicanSkynet | [mexicanskynet.com](https://mexicanskynet.com){:target="_blank" rel="noopener"} | |
+</div>
 
 ---
 
 ## <i id="sitios-y-blogs-personales-español" class="fa-solid fa-user"></i> Sitios y blogs personales (Español)
 Algunos de los sitios y blogs personales en español que más me gustan (como se podrán dan cuenta, apenas estoy comenzando a descubrir contenido en español).
 
+<div class="table-responsive">
 | Nombre | URL | RSS |
 |--------|-----|-----|
 | Manu Mateos | [macram.es](https://www.macram.es/){:target="_blank" rel="noopener"} | |
 | Matizeta | [matizeta.com](https://matizeta.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://matizeta.com/feed/){:target="_blank" rel="noopener" .rss-link} |
+</div>
 
 ---
 
 ## <i id="sitios-y-blogs-personales-ingles" class="fa-solid fa-user"></i> Sitios y blogs personales (Inglés)
 Algunos de los sitios y blogs personales en inglés que más me gustan.
 
+<div class="table-responsive">
 | Nombre | URL | RSS |
 |--------|-----|-----|
 | Adam Newbold | [notes.neatnik.net](https://notes.neatnik.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://notes.neatnik.net/rss.xml){:target="_blank" rel="noopener" .rss-link} |
@@ -86,35 +91,41 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 | Tom (ttntm) | [ttntm.me](https://ttntm.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://ttntm.me/everything.xml){:target="_blank" rel="noopener" .rss-link} |
 | Yordi Verkroost | [yordi.me](https://yordi.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://yordi.me/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
 | Zachary Kai | [zacharykai.net](https://zacharykai.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://zacharykai.net/assets/rss.xml){:target="_blank" rel="noopener" .rss-link} |
+</div>
 
 ---
 
 ## <i id="directorios" class="fa-solid fa-address-book"></i> Directorios
 Estos son algunos directorios de blogs y sitios.
 
+<div class="table-responsive">
 | Nombre | URL | RSS |
 |--------|-----|-----|
 | Ye Olde Blogroll | [blogroll.org](https://blogroll.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blogroll.org/feed){:target="_blank" rel="noopener" .rss-link} |
 | powRSS | [powrss.com](https://powrss.com/){:target="_blank" rel="noopener"} | |
 | ¡Blog! ¡Blog! | [blogsencastellano.wordpress.com](https://blogsencastellano.wordpress.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blogsencastellano.wordpress.com/feed/){:target="_blank" rel="noopener" .rss-link} |
+</div>
 
 ---
 
 ## <i id="gaming" class="fa-solid fa-gamepad"></i> Gaming
 Noticias, podcasts y artículos sobre videojuegos.
 
+<div class="table-responsive">
 | Nombre | URL | RSS |
 |--------|-----|-----|
 | My Nintendo News | [mynintendonews.com](https://mynintendonews.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://mynintendonews.com/feed/){:target="_blank" rel="noopener" .rss-link} |
 | Polygon | [polygon.com](https://www.polygon.com/){:target="_blank" rel="noopener"} | |
 | Retronauts | [retronauts.com](https://retronauts.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://retronauts.com/feed/rss){:target="_blank" rel="noopener" .rss-link} |
 | Wavelengths | [wavelengths.online](https://wavelengths.online/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://wavelengths.online/posts_feed){:target="_blank" rel="noopener" .rss-link} |
+</div>
 
 ---
 
 ## <i id="musica" class="fa-solid fa-music"></i> Música
 Algunos blogs de música que me gusta leer.
 
+<div class="table-responsive">
 | Nombre | URL | RSS |
 |--------|-----|-----|
 | Brooklyn Vegan | [brooklynvegan.com](https://www.brooklynvegan.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.brooklynvegan.com/feed/){:target="_blank" rel="noopener" .rss-link} |
@@ -125,12 +136,14 @@ Algunos blogs de música que me gusta leer.
 | Heavy Blog Is Heavy | [heavyblogisheavy.com](https://www.heavyblogisheavy.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.heavyblogisheavy.com/rss/){:target="_blank" rel="noopener" .rss-link} |
 | Metal Injection | [metalinjection.net](https://metalinjection.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://metalinjection.net/feed){:target="_blank" rel="noopener" .rss-link} |
 | Metal Sucks | [metalsucks.net](https://metalsucks.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.feedburner.com/Metalsucks){:target="_blank" rel="noopener" .rss-link} |
+</div>
 
 ---
 
 ## <i id="noticias" class="fa-solid fa-newspaper"></i> Noticias
 Noticias sobre cultura general, lifestyle, tecnología, gadgets, etc.
 
+<div class="table-responsive">
 | Nombre | URL | RSS |
 |--------|-----|-----|
 | 404 Media | [404media.co](https://404media.co/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.404media.co/rss/){:target="_blank" rel="noopener" .rss-link} |
@@ -139,16 +152,19 @@ Noticias sobre cultura general, lifestyle, tecnología, gadgets, etc.
 | Jason Kottke | [kottke.org](https://kottke.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.kottke.org/main){:target="_blank" rel="noopener" .rss-link} |
 | MacStories | [macstories.net](https://macstories.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.macstories.net/feed/){:target="_blank" rel="noopener" .rss-link} |
 | The Verge | [theverge.com](https://theverge.com/){:target="_blank" rel="noopener"} | |
+</div>
 
 ---
 
 ## <i id="podcasts" class="fa-solid fa-podcast"></i> Podcasts
 Podcasts que escucho actualmente.
 
+<div class="table-responsive">
 | Nombre | URL | RSS |
 |--------|-----|-----|
 | Comfort Zone | [macstories.net/comfort-zone](https://www.macstories.net/comfort-zone/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.libsyn.com/531557/rss){:target="_blank" rel="noopener" .rss-link} |
 | The First Ever Podcast | [the-first-ever-podcast.libsyn.com](https://the-first-ever-podcast.libsyn.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.libsyn.com/342104/rss){:target="_blank" rel="noopener" .rss-link} |
+</div>
 
 ---
 
@@ -167,12 +183,15 @@ Podcasts que escucho actualmente.
 
 ### 🎨 Arte y creatividad
 
+<div class="table-responsive">
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
 | Bob Ross | [@bobross_thejoyofpainting](https://www.youtube.com/@bobross_thejoyofpainting){:target="_blank" rel="noopener" .youtube-link} |
+</div>
 
 ### 🎬 Documentales y contenido educativo
 
+<div class="table-responsive">
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
 | Archipel | [@ArchipelDocumentaries](https://www.youtube.com/@ArchipelDocumentaries){:target="_blank" rel="noopener" .youtube-link} |
@@ -181,17 +200,21 @@ Podcasts que escucho actualmente.
 | Main Watchers | [@MainWatchers](https://www.youtube.com/@MainWatchers){:target="_blank" rel="noopener" .youtube-link} |
 | The B1M | [@TheB1M](https://www.youtube.com/@TheB1M){:target="_blank" rel="noopener" .youtube-link} |
 | Un Mundo Inmenso | [@UnMundoInmenso](https://www.youtube.com/@UnMundoInmenso){:target="_blank" rel="noopener" .youtube-link} |
+</div>
 
 ### ✨ Espiritual
 
+<div class="table-responsive">
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
 | Bible Time With Melonie Mac | [@BibleTimeWithMelonieMac](https://www.youtube.com/@BibleTimeWithMelonieMac){:target="_blank" rel="noopener" .youtube-link} |
 | Pastor Robert | [@roberthoughton7127](https://www.youtube.com/@roberthoughton7127){:target="_blank" rel="noopener" .youtube-link} |
 | SO BE IT! | [@SOBEIT32AD](https://www.youtube.com/@SOBEIT32AD){:target="_blank" rel="noopener" .youtube-link} |
+</div>
 
 ### 🎮 Gaming
 
+<div class="table-responsive">
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
 | /noclip | [@NoclipDocs](https://www.youtube.com/@NoclipDocs){:target="_blank" rel="noopener" .youtube-link} |
@@ -210,9 +233,11 @@ Podcasts que escucho actualmente.
 | strafefox (Splash Wave) | [@strafefox](https://www.youtube.com/@strafefox){:target="_blank" rel="noopener" .youtube-link} |
 | videogamedunkey | [@videogamedunkey](https://www.youtube.com/@videogamedunkey){:target="_blank" rel="noopener" .youtube-link} |
 | WULFF DEN | [@WulffDen](https://www.youtube.com/@WulffDen){:target="_blank" rel="noopener" .youtube-link} |
+</div>
 
 ### 🎵 Música
 
+<div class="table-responsive">
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
 | ARTE Concert | [@arteconcert](https://www.youtube.com/@arteconcert){:target="_blank" rel="noopener" .youtube-link} |
@@ -242,23 +267,29 @@ Podcasts que escucho actualmente.
 | Two Minutes to Late Night | [@TwoMinutesToLateNight](https://www.youtube.com/c/TwoMinutesToLateNight){:target="_blank" rel="noopener" .youtube-link} |
 | Vinilandia | [@Vinilandiapodcast](https://www.youtube.com/@Vinilandiapodcast){:target="_blank" rel="noopener" .youtube-link} |
 | Vinyl Rewind | [@VinylRewind](https://www.youtube.com/@VinylRewind){:target="_blank" rel="noopener" .youtube-link} |
+</div>
 
 ### 📝 Reviews y entretenimiento
 
+<div class="table-responsive">
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
 | Andrew Robinson | [@andrewrobinsonreviews](https://www.youtube.com/@andrewrobinsonreviews){:target="_blank" rel="noopener" .youtube-link} |
 | Doug DeMuro | [@DougDeMuro](https://www.youtube.com/@DougDeMuro){:target="_blank" rel="noopener" .youtube-link} |
 | Oliur / UltraLinx | [@Oliur](https://www.youtube.com/@Oliur){:target="_blank" rel="noopener" .youtube-link} |
+</div>
 
 ### 🎮 Simulación
 
+<div class="table-responsive">
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
 | Mauricio PC | [@MauricioPCZ](https://www.youtube.com/@MauricioPCZ){:target="_blank" rel="noopener" .youtube-link} |
+</div>
 
 ### 💻 Tech
 
+<div class="table-responsive">
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
 | A Better Computer | [@ABetterComputer](https://www.youtube.com/@ABetterComputer){:target="_blank" rel="noopener" .youtube-link} |
@@ -268,12 +299,15 @@ Podcasts que escucho actualmente.
 | Raycast | [@raycastapp](https://www.youtube.com/@raycastapp){:target="_blank" rel="noopener" .youtube-link} |
 | The Coding Train | [@TheCodingTrain](https://www.youtube.com/@TheCodingTrain){:target="_blank" rel="noopener" .youtube-link} |
 | Theo - t3.gg | [@t3dotgg](https://www.youtube.com/@t3dotgg){:target="_blank" rel="noopener" .youtube-link} |
+</div>
 
 ### 🌍 Viajes y lifestyle
 
+<div class="table-responsive">
 | Nombre               | URL                                                                  |
 |---------------------|-----------------------------------------------------------------------|
 | bald and bankrupt | [@baldandbankrupt](https://www.youtube.com/@baldandbankrupt){:target="_blank" rel="noopener" .youtube-link} |
 | Beardbrand | [@Beardbrand](https://www.youtube.com/@Beardbrand){:target="_blank" rel="noopener" .youtube-link} |
+</div>
 
 </div>

@@ -243,7 +243,7 @@ import { initStatusManager } from "./statuslog.js";
             // Show tooltip manually
             $trigger.tooltip("show");
 
-            // Hide tooltip after 2 seconds
+            // Hide tooltip after 3 seconds
             setTimeout(() => {
                 $trigger.tooltip("hide");
             }, 3000);
@@ -254,7 +254,7 @@ import { initStatusManager } from "./statuslog.js";
         clipboardInputs.on("error", function (e) {
             console.error("Error copying to clipboard:", e);
 
-            // You could show an error tooltip here if needed
+            // Show an error tooltip here if needed
             const $trigger = $(e.trigger);
             const originalTitle =
                 $trigger.attr("data-original-title") || $trigger.attr("title");
@@ -264,12 +264,12 @@ import { initStatusManager } from "./statuslog.js";
                 .attr("data-original-title", "Error al copiar ❌")
                 .tooltip("show");
 
-            // Restore original tooltip text and hide after 2 seconds
+            // Restore original tooltip text and hide after 3 seconds
             setTimeout(() => {
                 $trigger
                     .attr("data-original-title", originalTitle)
                     .tooltip("hide");
-            }, 2000);
+            }, 3000);
         });
 
         // Pagination buttons

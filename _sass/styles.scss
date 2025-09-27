@@ -2,6 +2,10 @@
 
 @import "mixins.scss";
 
+/* ==========================================================================
+   RESET & BASE STYLES
+   ========================================================================== */
+
 *,
 *::before,
 *::after {
@@ -11,30 +15,16 @@
 html {
     -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: auto;
+    min-height: 100vh;
     scroll-behavior: smooth;
     scroll-padding-top: 70px;
     text-rendering: optimizeLegibility;
 }
 
-::selection {
-    background: $transparentGray;
-    color: $fourthColor;
-}
-
-::-moz-selection {
-    background: $transparentGray;
-    color: $fourthColor;
-}
-
-html,
-body {
-    min-height: 100vh;
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: "Libre Baskerville", serif;
     font-size: 1rem;
+    line-height: 1.8;
     color: $mainColor;
     background-color: $bgColor1;
     background-image: linear-gradient(
@@ -45,204 +35,44 @@ body {
     );
     background-repeat: no-repeat;
     background-attachment: fixed;
-    line-height: 1.8;
+    min-height: 100vh;
     overflow-x: hidden;
 }
 
-p,
+/* ==========================================================================
+   SELECTION STYLES
+   ========================================================================== */
+
+::selection,
+::-moz-selection {
+    background: $transparentGray;
+    color: $fourthColor;
+}
+
+/* ==========================================================================
+   TYPOGRAPHY
+   ========================================================================== */
+
+/* Headings */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-.badge {
-    position: relative;
-    z-index: 2;
-}
-
-a {
-    color: $linkColor;
-    text-decoration: none;
-    border-bottom-style: none;
-    position: relative;
-    outline: 0 !important;
-    text-decoration: underline;
-    text-decoration-color: $underlineColor;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 2px;
-    @include transition;
-
-    &:hover {
-        color: $hoverColor;
-        text-decoration: underline;
-        text-decoration-color: $underlineHoverColor;
-        text-decoration-thickness: 2px;
-        text-underline-offset: 2px;
-    }
-}
-
-ol,
-ul {
-    margin-bottom: 16px !important;
-}
-
-/*
-ol {
-    font-size: 12pt;
-    line-height: 180%;
-    padding: 0 2.5em;
-}
-*/
-
-ul {
-    margin-top: 16px;
-    list-style-type: disc;
-
-    li {
-        p {
-            margin: 0;
-        }
-
-        ul {
-            list-style-type: circle;
-            margin-top: 0;
-        }
-    }
-}
-
-hr,
-.wp-block-separator {
-    border-top: none;
-    border-bottom: none;
-    background: $separatorBgColor;
-    margin: 1.4rem 0;
-    width: 100%;
-    height: 1px;
-}
-
-audio {
-    width: 100%;
-    margin: 12px 0 0 0;
-}
-
-video {
-    width: 100%;
-}
-
-figure {
-    margin-bottom: 1rem !important;
-
-    img {
-        border-radius: $borderRadius !important;
-    }
-}
-
-figure.aligncenter {
-    margin: 0 auto 1rem !important;
-}
-
-blockquote {
-    border-left: 5px solid $sixthColor;
-    font-family: "Raleway", sans-serif;
-    font-size: 1.375rem;
-    font-style: italic;
-    line-height: 1.925rem;
-    margin: 30px 40px;
-    padding: 10px 20px;
-
-    p {
-        font-size: 1.375rem !important;
-
-        &:last-of-type {
-            margin-bottom: 0;
-        }
-    }
-
-    cite {
-        font-size: 1.1rem;
-    }
-}
-
-pre {
-    background-color: #2d2d2d;
-    border-radius: $borderRadius;
-    box-shadow: 0px 0px 160px $cardBoxShadowColor;
-    z-index: 1;
-
-    code {
-        background-color: #2d2d2d;
-        color: #ccc;
-    }
-}
-
-.modal {
-    background-color: rgba(13, 14, 51, 0.3);
-    @include backdrop-filter(50%, 6px);
-
-    .modal-dialog {
-        .modal-content {
-            background-color: transparent;
-            border: none;
-
-            .modal-header {
-                border-bottom: none;
-
-                .close {
-                    color: $mainColor;
-                    opacity: 1;
-                    padding: 0.325rem;
-                    text-shadow: none;
-                }
-            }
-
-            .modal-body {
-                padding: 0;
-            }
-
-            .modal-body-jekyll {
-                p {
-                    margin-bottom: 0;
-                }
-            }
-        }
-
-        .modal-backdrop {
-            position: relative;
-        }
-    }
-}
-
 .h1,
 .h2,
 .h3,
 .h4,
 .h5,
 .h6 {
-    line-height: $headings-lh;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
     font-family: "Raleway", sans-serif;
+    line-height: $headings-lh;
+    letter-spacing: 0;
 
     a {
         color: $mainColor;
     }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-blockquote {
-    letter-spacing: 0px;
 }
 
 h1 {
@@ -271,10 +101,141 @@ h6 {
     font-size: 1.125rem;
 }
 
+/* Content elements */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.badge {
+    position: relative;
+    z-index: 2;
+}
+
+/* Links */
+a {
+    color: $linkColor;
+    text-decoration: underline;
+    text-decoration-color: $underlineColor;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+    border-bottom-style: none;
+    position: relative;
+    outline: 0 !important;
+    @include transition;
+
+    &:hover {
+        color: $hoverColor;
+        text-decoration-color: $underlineHoverColor;
+    }
+}
+
+/* Lists */
+ol,
+ul {
+    margin-bottom: 16px !important;
+}
+
+ul {
+    margin-top: 16px;
+    list-style-type: disc;
+
+    li {
+        p {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: circle;
+            margin-top: 0;
+        }
+    }
+}
+
+/* Quotes */
+blockquote {
+    border-left: 5px solid $sixthColor;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.375rem;
+    font-style: italic;
+    line-height: 1.925rem;
+    letter-spacing: 0;
+    margin: 30px 40px;
+    padding: 10px 20px;
+
+    p {
+        font-size: 1.375rem !important;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+    cite {
+        font-size: 1.1rem;
+    }
+}
+
+/* Code */
+pre {
+    background-color: #2d2d2d;
+    border-radius: $borderRadius;
+    box-shadow: 0px 0px 160px $cardBoxShadowColor;
+    z-index: 1;
+
+    code {
+        background-color: #2d2d2d;
+        color: #ccc;
+    }
+}
+
+code {
+    background-color: #000;
+}
+
+/* ==========================================================================
+   CONTENT ELEMENTS
+   ========================================================================== */
+
+/* Separators */
+hr,
+.wp-block-separator {
+    border: none;
+    background: $separatorBgColor;
+    margin: 1.4rem 0;
+    width: 100%;
+    height: 1px;
+}
+
+/* Media */
+audio {
+    width: 100%;
+    margin: 12px 0 0 0;
+}
+
+video {
+    width: 100%;
+}
+
+figure {
+    margin-bottom: 1rem !important;
+
+    img {
+        border-radius: $borderRadius !important;
+    }
+
+    &.aligncenter {
+        margin: 0 auto 1rem !important;
+    }
+}
+
 iframe {
     border-radius: $borderRadius;
 }
 
+/* Tables */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -306,20 +267,42 @@ table {
             background-color: #252542;
         }
 
-        &:last-child {
-            td {
-                border-bottom: none;
-            }
+        &:last-child td {
+            border-bottom: none;
         }
     }
 
-    td {
-        &:first-child {
-            font-weight: bold;
-        }
+    td:first-child {
+        font-weight: bold;
     }
 }
 
+/* Details/Summary */
+details summary {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        display: inline-block;
+        margin: 0 !important;
+        vertical-align: middle;
+    }
+}
+
+/* ==========================================================================
+   COMPONENTS
+   ========================================================================== */
+
+/* Initial opacity for animations */
+header,
+.site-body,
+footer {
+    opacity: 0;
+}
+
+/* Forms */
 .form-control {
     font-family:
         "SFMono-Regular",
@@ -339,27 +322,7 @@ table {
     }
 }
 
-details {
-    summary {
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            display: inline-block;
-            margin: 0 !important;
-            vertical-align: middle;
-        }
-    }
-}
-
-header,
-.site-body,
-footer {
-    opacity: 0;
-}
-
+/* Buttons */
 .btn {
     border-radius: $btnBorderRadius;
     font-family: "Raleway", sans-serif;
@@ -410,12 +373,12 @@ footer {
         filter: blur(0);
         transform: scale(1);
     }
-}
 
-.btn-primary.disabled,
-.btn-primary:disabled {
-    background: $btnBgColor;
-    border: 1px solid $componentBorderColor;
+    &.disabled,
+    &:disabled {
+        background: $btnBgColor;
+        border: 1px solid $componentBorderColor;
+    }
 }
 
 .btn-sm,
@@ -423,10 +386,7 @@ footer {
     padding: 0.1rem 0.5rem;
 }
 
-.rounded {
-    border-radius: $borderRadius !important;
-}
-
+/* Cards */
 .card {
     background-color: $cardBgColor;
     border: 1px solid $cardBorderColor;
@@ -483,12 +443,12 @@ footer {
         .btn-outline-secondary {
             color: $mainColor;
             border: 1px solid rgba(255, 255, 255, 0.169);
-        }
 
-        .btn-outline-secondary:hover,
-        .btn-outline-secondary:focus {
-            color: $linkColor;
-            background-color: transparent;
+            &:hover,
+            &:focus {
+                color: $linkColor;
+                background-color: transparent;
+            }
         }
 
         .clipboard-field {
@@ -504,11 +464,11 @@ footer {
                 border-left: none;
                 border-top-left-radius: 0;
                 border-bottom-left-radius: 0;
-            }
 
-            .btn-outline-secondary:hover,
-            .btn-outline-secondary:focus {
-                background-color: rgba(255, 255, 255, 0.169);
+                &:hover,
+                &:focus {
+                    background-color: rgba(255, 255, 255, 0.169);
+                }
             }
         }
     }
@@ -529,6 +489,7 @@ footer {
     }
 }
 
+/* Alerts */
 .alert {
     background-color: $alertBgColor;
     border-color: $alertBorderColor;
@@ -555,32 +516,22 @@ footer {
         position: absolute;
         top: 0;
         left: 0;
-        -webkit-transform: translate(calc(-50% - 1.5px), -50%);
-        -ms-transform: translate(calc(-50% - 1.5px), -50%);
         transform: translate(calc(-50% - 1.5px), -50%);
     }
-}
 
-.alert-danger {
-    &::before {
+    &.alert-danger::before {
         content: "\f06a";
     }
-}
 
-.alert-info {
-    &::before {
+    &.alert-info::before {
         content: "\f05a";
     }
-}
 
-.alert-success {
-    &::before {
+    &.alert-success::before {
         content: "\f058";
     }
-}
 
-.alert-warning {
-    &::before {
+    &.alert-warning::before {
         content: "\f071";
     }
 }
@@ -591,6 +542,95 @@ footer {
 
 .alert-dismissible {
     padding-right: 1.25rem;
+}
+
+/* Badges */
+.badge {
+    border-radius: $badgeBorderRadius !important;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 100%;
+    text-decoration: none;
+
+    &.badge-primary {
+        background-color: $primary;
+    }
+    &.badge-secondary {
+        background-color: $secondary;
+    }
+    &.badge-success {
+        background-color: $success;
+    }
+    &.badge-danger {
+        background-color: $danger;
+    }
+    &.badge-warning {
+        background-color: $warning;
+    }
+    &.badge-info {
+        background-color: $info;
+    }
+    &.badge-light {
+        background-color: $light;
+    }
+    &.badge-dark {
+        background-color: $dark;
+    }
+    &.badge-rss {
+        background-color: $tertiaryColor;
+    }
+    &.badge-custom {
+        background-color: $badgeCustomColor;
+
+        &:hover,
+        &:focus {
+            background-color: darken($badgeCustomColor, 10%);
+            text-decoration: none;
+        }
+    }
+}
+
+/* Modals */
+.modal {
+    background-color: rgba(13, 14, 51, 0.3);
+    @include backdrop-filter(50%, 6px);
+
+    .modal-dialog {
+        .modal-content {
+            background-color: transparent;
+            border: none;
+
+            .modal-header {
+                border-bottom: none;
+
+                .close {
+                    color: $mainColor;
+                    opacity: 1;
+                    padding: 0.325rem;
+                    text-shadow: none;
+                }
+            }
+
+            .modal-body {
+                padding: 0;
+
+                &.modal-body-jekyll p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .modal-backdrop {
+            position: relative;
+        }
+    }
+}
+
+/* ==========================================================================
+   UTILITIES
+   ========================================================================== */
+
+.rounded {
+    border-radius: $borderRadius !important;
 }
 
 .embed-responsive {
@@ -604,59 +644,38 @@ footer {
     padding: 13px 8px 0 0;
 }
 
-.badge {
-    border-radius: $badgeBorderRadius !important;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 100%;
-    text-decoration: none;
+.subtitulo {
+    margin: 0px 0 14px !important;
 }
 
-.badge-primary {
-    background-color: $primary;
+.omg-lol-now-page-element {
+    display: none;
 }
 
-.badge-secondary {
-    background-color: $secondary;
-}
-
-.badge-success {
-    background-color: $success;
-}
-
-.badge-danger {
-    background-color: $danger;
-}
-
-.badge-warning {
-    background-color: $warning;
-}
-
-.badge-info {
-    background-color: $info;
-}
-
-.badge-light {
-    background-color: $light;
-}
-
-.badge-dark {
-    background-color: $dark;
-}
-
-.badge-rss {
-    background-color: $tertiaryColor;
-}
-
-.badge-custom {
-    background-color: $badgeCustomColor;
+.enlarge-transition {
+    @include transition;
 
     &:hover,
     &:focus {
-        background-color: darken($badgeCustomColor, 10%);
-        text-decoration: none;
+        transform: scale(1.11) translate3d(0, 0, 0);
     }
 }
 
+.ico-links-info {
+    font-size: 1rem;
+    position: relative;
+    top: -1px;
+}
+
+.stream-status {
+    animation-duration: 5s;
+}
+
+.web-badge {
+    image-rendering: pixelated;
+}
+
+/* Link styles for badges and buttons */
 a.badge,
 a.btn {
     color: $mainColor;
@@ -678,39 +697,31 @@ a.bmac {
     }
 }
 
-.stream-status {
-    animation-duration: 5s;
+/* ==========================================================================
+   ICONS & SPECIAL ELEMENTS
+   ========================================================================== */
+
+/* Font Awesome external links icon */
+.fa-arrow-up-right-from-square,
+.fa-external-link {
+    font-size: 0.8rem;
+    margin-left: 0.2rem;
+    opacity: 0.7;
+    vertical-align: middle;
 }
 
-code {
-    background-color: #000;
+/* omg.lol icon */
+#omglol-icon {
+    display: inline-block;
+    fill: $mainColor;
+    vertical-align: text-bottom;
+    width: 1.8rem;
 }
 
-.subtitulo {
-    margin: 0px 0 14px !important;
-}
+/* ==========================================================================
+   TWITCH EMBEDS
+   ========================================================================== */
 
-.omg-lol-now-page-element {
-    display: none;
-}
-
-.enlarge-transition {
-    @include transition;
-
-    &:hover,
-    &:focus {
-        -webkit-transform: scale(1.11) translate3d(0, 0, 0);
-        transform: scale(1.11) translate3d(0, 0, 0);
-    }
-}
-
-.ico-links-info {
-    font-size: 1rem;
-    position: relative;
-    top: -1px;
-}
-
-// Twitch
 #stream_embed {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -721,58 +732,41 @@ code {
     border-top-right-radius: 0;
 }
 
-// Font Awesome external links icon
-.fa-arrow-up-right-from-square,
-.fa-external-link {
-    font-size: 0.8rem;
-    margin-left: 0.2rem;
-    opacity: 0.7;
-    vertical-align: middle;
-}
+/* ==========================================================================
+   LAST.FM INTEGRATION
+   ========================================================================== */
 
-// omg.lol icon
-#omglol-icon {
-    display: inline-block;
-    fill: $mainColor;
-    vertical-align: text-bottom;
-    width: 1.8rem;
-}
+#last-played li {
+    background-color: $cardBgColor;
+    border: 1px solid $componentBorderColor !important;
+    border-radius: $borderRadius;
+    box-shadow: 0px 0px 160px $cardBoxShadowColor;
+    padding: 16px 14px 15px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    float: left;
+    text-align: center;
 
-// Last played from Last.fm
-#last-played {
-    li {
-        background-color: $cardBgColor;
-        border: 1px solid $componentBorderColor !important;
-        border-radius: $borderRadius;
-        box-shadow: 0px 0px 160px $cardBoxShadowColor;
-        padding: 16px 14px 15px;
-        margin: 0;
-        position: relative;
-        z-index: 1;
-        width: 100%;
-        float: left;
-        text-align: center;
+    #last-played-ago {
+        display: block;
+    }
 
-        #last-played-ago {
-            display: block;
-        }
-
-        &::after {
-            content: "\f202";
-            color: $transparentGray;
-            font-family: "Font Awesome 5 Brands";
-            position: absolute;
-            font-size: 1rem;
-            bottom: -5px;
-            right: 5px;
-            font-variant: normal;
-            text-rendering: auto;
-            -webkit-font-smoothing: antialiased;
-        }
+    &::after {
+        content: "\f202";
+        color: $transparentGray;
+        font-family: "Font Awesome 5 Brands";
+        position: absolute;
+        font-size: 1rem;
+        bottom: -5px;
+        right: 5px;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
     }
 }
 
-// Last.fm top albums thumbnails
 .thumb-album {
     @include transition;
     display: block;
@@ -785,27 +779,22 @@ code {
     }
 }
 
-// Removing open in new windows icon from .rss-link
+/* Removing open in new windows icon from .rss-link */
 .rss-link i:nth-of-type(2) {
     display: none;
 }
 
-// Improve web badge rendering
-.web-badge {
-    image-rendering: pixelated;
+/* ==========================================================================
+   GAMES SECTION
+   ========================================================================== */
+
+.games-list figcaption {
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-// Favorite games list
-.games-list {
-    figcaption {
-        width: 150px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-}
-
-// Game thumbnails
 .thumb-game {
     @include transition;
 
@@ -815,15 +804,16 @@ code {
     }
 }
 
-// Crucial Tracks
+/* ==========================================================================
+   CRUCIAL TRACKS
+   ========================================================================== */
+
 #tracks {
     p {
         margin-bottom: 1rem;
     }
 
-    .card {
-        p {
-            margin-bottom: 0;
-        }
+    .card p {
+        margin-bottom: 0;
     }
 }

@@ -1,7 +1,8 @@
 // encoding: UTF-8
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
+/* ==========================================================================
+   BOOTSTRAP BREAKPOINTS & CONTAINERS
+   ========================================================================== */
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
@@ -38,44 +39,17 @@
         min-width: 720px !important;
     }
 
-    #last-toot,
-    #status {
-        width: 100%;
-        height: auto;
-
-        #container {
-            &::before {
-                border-width: 15px 15px 15px 0;
-                border-color: transparent $cardBgColor transparent transparent;
-                top: 0;
-                bottom: 0;
-                margin: auto 0;
-                left: -15px;
-            }
-        }
-
-        &::before {
-            border-width: 16px 16px 16px 0;
-            border-color: transparent $componentBorderColor transparent
-                transparent;
-            top: 0;
-            bottom: 0;
-            margin: auto 0;
-            left: -15px;
-        }
-    }
-
     .app-icon {
         max-width: 40%;
     }
 
     table {
         font-size: 1rem;
-    }
 
-    th,
-    td {
-        padding: 12px 15px;
+        th,
+        td {
+            padding: 12px 15px;
+        }
     }
 
     .w-md-50 {
@@ -89,13 +63,6 @@
         min-width: 960px !important;
     }
 
-    #last-toot,
-    #status {
-        #container {
-            padding: 15px 15px 14px;
-        }
-    }
-
     .app-icon {
         max-width: 50%;
     }
@@ -104,24 +71,10 @@
         top: -5px;
     }
 
-    // Twitch
-    #stream_embed {
-        border-radius: $borderRadius;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
-    }
-
-    #chat_embed {
-        border-radius: $borderRadius;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-    }
-
     .w-lg-50 {
         width: 50%;
     }
 
-    // omg.lol icon
     #omglol-icon {
         width: 2.6rem;
     }
@@ -134,81 +87,127 @@
     }
 
     footer {
-        .list-inline-item {
-            &:not(:last-child) {
-                margin-right: 0;
-            }
+        .list-inline-item:not(:last-child) {
+            margin-right: 0;
         }
 
-        #version {
-            .list-inline-item {
-                margin-right: 0.5rem !important;
-            }
+        #version .list-inline-item {
+            margin-right: 0.5rem !important;
         }
     }
 }
 
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {
-    #live {
-        #heymijotv-live-alert {
-            position: fixed;
-            right: 15px;
+/* ==========================================================================
+   STATUS COMPONENTS RESPONSIVE
+   ========================================================================== */
+
+@media (min-width: 768px) {
+    #last-toot,
+    #status {
+        width: 100%;
+        height: auto;
+
+        #container::before {
+            border-width: 15px 15px 15px 0;
+            border-color: transparent $cardBgColor transparent transparent;
             top: 0;
-            width: 200px;
-            z-index: 1;
-            -webkit-transition: all 0.3s ease 0s;
-            -o-transition: all 0.3s ease 0s;
-            transition: all 0.3s ease 0s;
+            bottom: 0;
+            margin: auto 0;
+            left: -15px;
         }
 
-        .positionate-live-alert {
+        &::before {
+            border-width: 16px 16px 16px 0;
+            border-color: transparent $componentBorderColor transparent
+                transparent;
+            top: 0;
+            bottom: 0;
+            margin: auto 0;
+            left: -15px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    #last-toot,
+    #status {
+        #container {
+            padding: 15px 15px 14px;
+        }
+    }
+}
+
+/* ==========================================================================
+   TWITCH EMBEDS RESPONSIVE
+   ========================================================================== */
+
+@media (min-width: 992px) {
+    #stream_embed {
+        border-radius: $borderRadius;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    #chat_embed {
+        border-radius: $borderRadius;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}
+
+/* ==========================================================================
+   LARGE SCREEN FEATURES (1400px+)
+   ========================================================================== */
+
+@media (min-width: 1400px) {
+    #live #heymijotv-live-alert {
+        position: fixed;
+        right: 15px;
+        top: 0;
+        width: 200px;
+        z-index: 1;
+        transition: all 0.3s ease 0s;
+
+        &.positionate-live-alert {
             top: 50px !important;
         }
     }
 
-    footer {
-        #lastfm {
-            ul {
-                .nowplaying {
-                    margin: 0 0 1rem;
-                    position: fixed;
-                    right: 15px;
-                    bottom: 0;
-                    width: 200px;
-                    z-index: 1;
-                    @include transition;
-                }
+    footer #lastfm ul .nowplaying {
+        margin: 0 0 1rem;
+        position: fixed;
+        right: 15px;
+        bottom: 0;
+        width: 200px;
+        z-index: 1;
+        @include transition;
 
-                .nowplaying-scrolled {
-                    bottom: 50px;
-                }
-            }
+        &.nowplaying-scrolled {
+            bottom: 50px;
         }
     }
 }
 
-// Super XX-Large devices (larger desktops, 1600px and up)
+/* ==========================================================================
+   SUPER LARGE SCREENS (1600px+)
+   ========================================================================== */
+
 @media (min-width: 1600px) {
-    header {
-        #heymijotv-live-alert {
-            width: 300px;
-        }
+    header #heymijotv-live-alert {
+        width: 300px;
     }
 
-    footer {
-        #lastfm {
-            ul {
-                .nowplaying {
-                    width: 300px;
-                }
-            }
-        }
+    footer #lastfm ul .nowplaying {
+        width: 300px;
     }
 }
 
-// Mobile
+/* ==========================================================================
+   MOBILE DEVICES (max-width: 768px)
+   ========================================================================== */
+
 @media (max-width: 768px) {
+    /* Typography adjustments */
     h1 {
         font-size: 1.875rem;
         margin: 0.67em 0 0.27em !important;
@@ -227,6 +226,7 @@
         font-size: 1.125rem;
     }
 
+    /* Component adjustments */
     .pagination,
     #lastfm {
         font-size: 0.918rem;
@@ -246,16 +246,10 @@
     }
 }
 
-// iPhone (landscape)
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-    .tri-right.btm-left {
-        &::after {
-            left: 45.6%;
-        }
-    }
-}
+/* ==========================================================================
+   TABLET DEVICES (768px - 991px)
+   ========================================================================== */
 
-// iPad (landscape and portrait)
 @media (min-width: 768px) and (max-width: 991px) {
     h1 {
         font-size: 2.125rem;
@@ -273,5 +267,16 @@
 
     h4 {
         font-size: 1.125rem;
+    }
+}
+
+/* ==========================================================================
+   DEVICE-SPECIFIC ADJUSTMENTS
+   ========================================================================== */
+
+/* iPhone landscape orientation */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .tri-right.btm-left::after {
+        left: 45.6%;
     }
 }

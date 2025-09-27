@@ -1,24 +1,38 @@
 // encoding: UTF-8
 
+/* ==========================================================================
+   MASONRY GRID LAYOUT
+   ========================================================================== */
+
+/**
+ * Masonry grid container with negative margins to offset item padding
+ */
 .masonry-grid {
-    margin-left: -15px;
-    margin-right: -15px;
+    margin: 0 -15px;
 }
 
+/**
+ * Grid items and sizer with consistent padding
+ * Used for masonry layout calculations and spacing
+ */
 .grid-item,
 .grid-sizer {
-    padding-left: 15px;
-    padding-right: 15px;
-}
+    padding: 0 15px;
 
-.grid-item {
+    // Remove bottom margin to prevent layout issues
     margin-bottom: 0;
 }
 
-.grid-item {
-    img {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
+/* ==========================================================================
+   GRID ITEM CONTENT
+   ========================================================================== */
+
+/**
+ * Responsive images within grid items
+ * Ensures images scale properly and maintain aspect ratio
+ */
+.grid-item img {
+    display: block;
+    width: 100%;
+    height: auto;
 }

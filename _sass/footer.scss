@@ -1,90 +1,25 @@
 // encoding: UTF-8
 
+/* ==========================================================================
+   FOOTER BASE
+   ========================================================================== */
+
 footer {
     font-size: 0.917rem;
 
-    #blog {
-        a {
-            text-decoration: underline;
-            text-decoration-color: $underlineColor;
-            text-decoration-thickness: 2px;
-            text-underline-offset: 2px;
+    #blog a {
+        text-decoration: underline;
+        text-decoration-color: $underlineColor;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 2px;
 
-            &:hover {
-                text-decoration-color: $underlineHoverColor;
-            }
+        &:hover {
+            text-decoration-color: $underlineHoverColor;
         }
     }
 
-    #lastfm {
-        width: 100%;
-        float: left;
-
-        p {
-            margin: 0;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0 !important;
-            padding: 0;
-
-            .nowplaying {
-                background-color: $cardBgColor;
-                border: 1px solid $componentBorderColor !important;
-                border: none;
-                border-radius: $borderRadius;
-                padding: 16px 14px 15px;
-                margin: 0;
-                overflow: hidden;
-                position: relative;
-                width: 100%;
-                float: left;
-
-                &::after {
-                    content: "\f202";
-                    color: $transparentGray;
-                    font-family: "Font Awesome 5 Brands";
-                    position: absolute;
-                    font-size: 1rem;
-                    bottom: -5px;
-                    right: 5px;
-                    font-variant: normal;
-                    text-rendering: auto;
-                    -webkit-font-smoothing: antialiased;
-                }
-
-                div {
-                    display: inline;
-                }
-
-                .track {
-                    background: url("../images/icon_eq.gif") no-repeat;
-                    background-position: 0 3px;
-                    padding-left: 20px;
-
-                    &::before {
-                        content: '"';
-                    }
-
-                    &::after {
-                        content: '" ';
-                    }
-
-                    &:first-child::after {
-                        content: '" ';
-                    }
-                }
-
-                .album {
-                    font-style: italic;
-                }
-            }
-
-            .notplaying {
-                display: none;
-            }
-        }
+    #social {
+        font-size: 1.6rem;
     }
 
     .version {
@@ -115,10 +50,89 @@ footer {
         height: 20px;
     }
 
-    #social {
-        font-size: 1.6rem;
+    #greeting-emoji {
+        font-size: 1.4rem;
+        vertical-align: middle;
     }
 }
+
+/* ==========================================================================
+   LAST.FM INTEGRATION
+   ========================================================================== */
+
+#lastfm {
+    width: 100%;
+    float: left;
+
+    p {
+        margin: 0;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0 !important;
+        padding: 0;
+
+        .nowplaying {
+            background-color: $cardBgColor;
+            border: 1px solid $componentBorderColor !important;
+            border-radius: $borderRadius;
+            padding: 16px 14px 15px;
+            margin: 0;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            float: left;
+
+            &::after {
+                content: "\f202";
+                color: $transparentGray;
+                font-family: "Font Awesome 5 Brands";
+                position: absolute;
+                font-size: 1rem;
+                bottom: -5px;
+                right: 5px;
+                font-variant: normal;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            div {
+                display: inline;
+            }
+
+            .track {
+                background: url("../images/icon_eq.gif") no-repeat;
+                background-position: 0 3px;
+                padding-left: 20px;
+
+                &::before {
+                    content: '"';
+                }
+
+                &::after {
+                    content: '" ';
+                }
+
+                &:first-child::after {
+                    content: '" ';
+                }
+            }
+
+            .album {
+                font-style: italic;
+            }
+        }
+
+        .notplaying {
+            display: none;
+        }
+    }
+}
+
+/* ==========================================================================
+   FLOATING ACTION BUTTONS
+   ========================================================================== */
 
 #stuff-i-like {
     position: fixed;
@@ -131,12 +145,13 @@ footer {
     &:focus {
         transform: scale(1.6);
     }
+
+    &.stuff-i-like-scrolled {
+        right: 70px !important;
+    }
 }
 
-.stuff-i-like-scrolled {
-    right: 70px !important;
-}
-
+/* Back to top button */
 .cd-top {
     background-color: rgba(13, 14, 51, 0.7) !important;
     @include backdrop-filter(50%, 4px);
@@ -154,12 +169,6 @@ footer {
     visibility: hidden;
     text-decoration: none;
     opacity: 0;
-    -webkit-transition:
-        opacity 0.3s 0s,
-        visibility 0s 0.3s;
-    -o-transition:
-        opacity 0.3s 0s,
-        visibility 0s 0.3s;
     transition:
         opacity 0.3s 0s,
         visibility 0s 0.3s;
@@ -168,35 +177,34 @@ footer {
     &:focus {
         text-decoration: none;
     }
+
+    /* Visible states */
+    &.cd-is-visible,
+    &.cd-fade-out {
+        transition:
+            opacity 0.3s 0s,
+            visibility 0s 0s;
+    }
+
+    &.cd-is-visible {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    &.cd-fade-out {
+        opacity: 0.5;
+    }
 }
 
-.cd-top.cd-is-visible,
-.cd-top.cd-fade-out,
 .no-touch .cd-top:hover {
-    -webkit-transition:
-        opacity 0.3s 0s,
-        visibility 0s 0s;
-    -o-transition:
-        opacity 0.3s 0s,
-        visibility 0s 0s;
     transition:
         opacity 0.3s 0s,
         visibility 0s 0s;
 }
 
-.cd-top.cd-is-visible {
-    visibility: visible;
-    opacity: 1;
-}
-
-.cd-top.cd-fade-out {
-    opacity: 0.5;
-}
-
-#greeting-emoji {
-    font-size: 1.4rem;
-    vertical-align: middle;
-}
+/* ==========================================================================
+   DISMISSABLE ALERT
+   ========================================================================== */
 
 #dismissable-alert {
     border-top: 1px solid $componentBorderColor;
@@ -209,12 +217,10 @@ footer {
     padding: 0.75rem 3rem;
     text-align: center;
     z-index: 9999;
-
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-
     opacity: 0;
     visibility: hidden;
     transform: translateY(20px);

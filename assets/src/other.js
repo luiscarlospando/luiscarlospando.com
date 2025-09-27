@@ -230,10 +230,46 @@ import { initStatusManager } from "./statuslog.js";
         new ClipboardJS(".btn");
 
         // Clipboard for input fields - copy on click
-        new ClipboardJS(".clipboard-field", {
+        const clipboardInputs = new ClipboardJS(".clipboard-field", {
             text: function (trigger) {
                 return trigger.value;
             },
+        });
+
+        // Handle clipboard success/error events for input fields
+        clipboardInputs.on("success", function (e) {
+            const $trigger = $(e.trigger);
+
+            // Show tooltip manually
+            $trigger.tooltip("show");
+
+            // Hide tooltip after 2 seconds
+            setTimeout(() => {
+                $trigger.tooltip("hide");
+            }, 3000);
+
+            e.clearSelection();
+        });
+
+        clipboardInputs.on("error", function (e) {
+            console.error("Error copying to clipboard:", e);
+
+            // You could show an error tooltip here if needed
+            const $trigger = $(e.trigger);
+            const originalTitle =
+                $trigger.attr("data-original-title") || $trigger.attr("title");
+
+            // Temporarily change tooltip text to show error
+            $trigger
+                .attr("data-original-title", "Error al copiar ❌")
+                .tooltip("show");
+
+            // Restore original tooltip text and hide after 2 seconds
+            setTimeout(() => {
+                $trigger
+                    .attr("data-original-title", originalTitle)
+                    .tooltip("hide");
+            }, 2000);
         });
 
         // Pagination buttons

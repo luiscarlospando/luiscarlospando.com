@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Newsletter
-description: Este es el newsletter de mi sitio personal. Puedes suscribirte si te gustaría recibir lo que publico en mi blog directamente en tu bandeja de entrada. Aquí nada es obligatorio, simplemente creo que ofrecer más opciones a mis lectores, es mejor. 👌
+description: Este es mi newsletter personal, un espacio donde comparto lo que publico en mi blog, ya sea ideas, proyectos o reflexiones. Si te late la idea de recibirlo todo directo en tu bandeja de entrada, este es el lugar para ti. 👌
 image: /assets/images/logo.png
 permalink: /newsletter/
 last-modified-at: <span id="last-updated-at">2025-08-06 16:50:00</span>

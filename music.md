@@ -23,7 +23,7 @@ permalink: /music/
         <a class="btn btn-primary btn-sm" href="/music/crucial-tracks/">
           <i class="fa-solid fa-record-vinyl"></i> Crucial Tracks
         </a>
-        <span class="badge badge-success">Nuevo</span>
+        <span class="badge badge-success pulse-subtle">Nuevo</span>
     </li>
 </ul>
 

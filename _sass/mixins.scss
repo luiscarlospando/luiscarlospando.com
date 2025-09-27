@@ -141,3 +141,57 @@
     text-decoration: none;
     outline: none;
 }
+
+/* ==========================================================================
+   ANIMATIONS
+   ========================================================================== */
+
+/**
+ * Subtle pulse animation keyframes
+ * Creates a gentle breathing effect
+ */
+@keyframes subtle-pulse {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.7;
+        transform: scale(1.02);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/**
+ * Subtle pulsing animation mixin
+ * @param {string} $duration - Animation duration (default: 2s)
+ * @param {string} $timing - Animation timing function (default: ease-in-out)
+ */
+@mixin subtle-pulse($duration: 2s, $timing: ease-in-out) {
+    animation: subtle-pulse $duration $timing infinite;
+}
+
+/**
+ * Utility class for subtle pulsing animation
+ * Can be applied to badges, buttons, or any element
+ */
+.pulse-subtle {
+    @include subtle-pulse;
+
+    // Variations with different speeds
+    &.pulse-fast {
+        @include subtle-pulse(1.5s);
+    }
+
+    &.pulse-slow {
+        @include subtle-pulse(3s);
+    }
+
+    // Pause animation on hover for better UX
+    &:hover {
+        animation-play-state: paused;
+    }
+}

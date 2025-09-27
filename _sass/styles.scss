@@ -817,3 +817,118 @@ a.bmac {
         margin-bottom: 0;
     }
 }
+
+/* ==========================================================================
+   ANIMATION UTILITIES
+   ========================================================================== */
+
+/**
+ * Additional pulse animation variations
+ */
+@keyframes pulse-glow {
+    0% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    }
+    100% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    }
+}
+
+@keyframes pulse-bounce {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/**
+ * Pulse with glow effect - great for badges or important elements
+ */
+.pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+
+    &.pulse-fast {
+        animation-duration: 1.5s;
+    }
+
+    &.pulse-slow {
+        animation-duration: 3s;
+    }
+
+    &:hover {
+        animation-play-state: paused;
+    }
+}
+
+/**
+ * Gentle bounce pulse - more playful animation
+ */
+.pulse-bounce {
+    animation: pulse-bounce 2s ease-in-out infinite;
+
+    &.pulse-fast {
+        animation-duration: 1.5s;
+    }
+
+    &.pulse-slow {
+        animation-duration: 3s;
+    }
+
+    &:hover {
+        animation-play-state: paused;
+    }
+}
+
+/**
+ * Breathing animation - very subtle opacity change
+ */
+.breathing {
+    animation: breathing 4s ease-in-out infinite;
+
+    &.breathing-fast {
+        animation-duration: 2.5s;
+    }
+
+    &.breathing-slow {
+        animation-duration: 6s;
+    }
+}
+
+@keyframes breathing {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+}
+
+/**
+ * Utility classes for controlling animations
+ */
+.animate-pause {
+    animation-play-state: paused !important;
+}
+
+.animate-resume {
+    animation-play-state: running !important;
+}
+
+/**
+ * Reduce motion for accessibility
+ */
+@media (prefers-reduced-motion: reduce) {
+    .pulse-subtle,
+    .pulse-glow,
+    .pulse-bounce,
+    .breathing {
+        animation: none;
+    }
+}

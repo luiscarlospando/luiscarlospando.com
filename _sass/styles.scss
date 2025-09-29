@@ -3,6 +3,27 @@
 @import "mixins.scss";
 
 /* ==========================================================================
+   DARK MODE ENFORCEMENT
+   ========================================================================== */
+
+/* Force dark mode as default - override any system preferences */
+:root {
+    color-scheme: dark;
+}
+
+/* Ensure dark mode is always applied regardless of user agent styles */
+html {
+    color-scheme: dark;
+}
+
+/* Override any potential light mode styles */
+@media (prefers-color-scheme: light) {
+    :root {
+        color-scheme: dark !important;
+    }
+}
+
+/* ==========================================================================
    RESET & BASE STYLES
    ========================================================================== */
 

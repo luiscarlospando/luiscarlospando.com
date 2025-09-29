@@ -12,13 +12,13 @@ permalink: /music/crucial-tracks/
 
 <ul class="list-inline mb-4 text-center">
     <li class="list-inline-item">
-        <a class="btn btn-primary btn-sm" href="https://app.crucialtracks.org/profile/mijo/feed" rel="me noopener">
-            <i class="fa-solid fa-rss"></i> Suscribirse
+        <a class="btn btn-primary btn-sm" href="https://music.apple.com/mx/playlist/crucial-tracks/pl.u-g39JFWq0EPd?l=en" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-apple"></i> Reproducir playlist en Apple Music
         </a>
     </li>
     <li class="list-inline-item">
-        <a class="btn btn-primary btn-sm" href="https://music.apple.com/mx/playlist/crucial-tracks/pl.u-g39JFWq0EPd?l=en" target="_blank" rel="noopener noreferrer">
-          <i class="fa-brands fa-apple"></i> Reproducir playlist en Apple Music
+        <a class="btn btn-primary btn-sm" href="https://app.crucialtracks.org/profile/mijo/feed" rel="me noopener">
+            <i class="fa-solid fa-rss"></i> Suscribirse
         </a>
     </li>
 </ul>

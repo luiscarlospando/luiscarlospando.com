@@ -109,7 +109,7 @@ Al final del día, solo soy un vato de Chihuahua que ama hacer cosas para el Int
 
 ## Suscríbete
 
-Suscríbete a mi sitio por:
+Suscríbete a mis diferentes feeds:
 - [<i class="fas fa-rss"></i> RSS (Blog)][26]
 - [<i class="fas fa-rss"></i> RSS (Fotos)][27]
 - [<i class="fas fa-rss"></i> RSS (Links)][28]

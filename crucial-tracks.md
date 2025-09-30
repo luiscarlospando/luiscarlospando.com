@@ -10,11 +10,9 @@ permalink: /music/crucial-tracks/
 
 <p class="text-center">Este es [mi perfil en Crucial Tracks][1]{:rel="alternate noopener" target="_blank"} y este es el [playlist][2]{:rel="noreferrer noopener" target="_blank"} donde voy agregando las rolas que comparto ahí.</p>
 
-<div class="card my-3 text-center">
-<div class="card-body rounded">
-    ⚠️ *Disclaimer: Este log lo escribo en inglés, espero que no sea un problema. Lo que pasa es que las preguntas que proporciona Crucial Tracks son en inglés y me es más natural responderlas en inglés.*
-</div>
-</div>
+<p class="text-center">
+    ⚠️ <em>Disclaimer: Este log lo escribo en inglés, esperando que no sea un problema. Lo que pasa es que las preguntas que proporciona Crucial Tracks son en inglés y me es más natural responderlas en inglés.</em>
+</p>
 
 <ul class="list-inline mb-4 text-center">
     <li class="list-inline-item">

@@ -4,7 +4,7 @@ title: Games
 description: Esto es lo que ando jugando actualmente y mis perfiles de Discord, Nintendo Switch y Backloggd.
 image: /assets/images/logo-games.png
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2025-04-17 14:51:48</span>
+last-modified-at: <span id="last-updated-at">2025-09-27 19:51:48</span>
 ---
 
 <p class="text-center">
@@ -82,10 +82,10 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li class="mb-3">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2tau.jpg" alt="Mario's Picross (Game Boy)" width="100">
+<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3ffy.jpg" alt="Kirby's Dream Land (Game Boy)" width="100">
 </li>
 <li>
-<em>Mario's Picross (Game Boy)</em>
+<em>Kirby's Dream Land  (Game Boy)</em>
 </li>
 </ul>
 </div>

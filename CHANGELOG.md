@@ -7,6 +7,46 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.61.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.61.0...v2.61.1) - 2025-09-30
+
+- Agregar RSS feed de mi Statuslog [`8c40226`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8c40226efd9641813485171b030a43e0ea6e41c5)
+- Mejorar copiado de inputs [`2ccd15d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2ccd15dc27083250407de941cbf1b6f2095e47c0)
+- Mejorar experiencia de usuario [`a8ca73e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a8ca73ec3d12e95a766a8f6496b3385102af9d96)
+- Corregir overlay de .nav-container con botón de cerrar modal [`118c635`](https://github.com/luiscarlospando/luiscarlospando.com/commit/118c635fa9043235a39db8ce6772c74607a0c885)
+- Agregar sistema de animaciones para los badges [`2ea79e2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2ea79e287b074ede4fc6bdcabb68c9d0ac328bc0)
+- Actualizar CHANGELOG [`e20c7d1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e20c7d16c3baa4c580c1acf77e07ded3c577f702)
+- Archivar /now 05-09-2025 [`d4b28ea`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d4b28ea94de8abd071554682aaef7ffa36ce2ae4)
+- Mejorar copiado de inputs [`0fa5d81`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0fa5d817eb98f9821d156ce8555f087cdbd6a8f3)
+- Implementar dark mode [`c1dc1d4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c1dc1d42a81f80cac2a03572934b2da26177e7f8)
+- Agregar botón para reproducir mi playlist Crucial Tracks en Apple Music [`2b3ea58`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2b3ea58ee26097a0d664ae83e356a148fa707c05)
+- Optimizar y dar mantenimiento a código [`b42d757`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b42d7574da76dd6f33a03af9afe9d93b18291c60)
+- Agregar Cuphead [`47220bf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/47220bf76b61f6ca0817b0c9a17bb8d306dc2563)
+- Agregar disclaimer [`319ab07`](https://github.com/luiscarlospando/luiscarlospando.com/commit/319ab071b2059509a9b911a82986c11ccf33fc4b)
+- Agregar disclaimer [`4098d1c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4098d1c3041bf9bdd7af92469273a06e5c0865de)
+- Agregar botón para reproducir mi playlist Crucial Tracks en Apple Music [`082436c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/082436ce6bf5c7b3523c8f4ef402c061b9722fcf)
+- Mejorar copiado de inputs [`ce3f996`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ce3f996fabbd556c54be61307cd90ab96f5d049f)
+- Actualizar juegos [`2cb560d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2cb560deafdda9bb2d884ce1025202d38dedd3d2)
+- Agregar link a código fuente [`b7852cd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b7852cdd5b7bc830d078574e1cc338701f986f52)
+- Agregar disclaimer [`86722d8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/86722d831102263acb98e7b1f6e50a885b75ab62)
+- Implementar dark mode [`47ecb87`](https://github.com/luiscarlospando/luiscarlospando.com/commit/47ecb87b357476c8a3f0c00758aaa17a8cc0afd6)
+- Agregar sistema de animaciones para los badges [`3a59997`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3a599978ddea69def9751ac5254099d929406c40)
+- Unificar tamaño de fuente de mi Statuslog [`533c2ad`](https://github.com/luiscarlospando/luiscarlospando.com/commit/533c2ad1087018b59338fbd89d62686bb85367cc)
+- Deploy 2.61.1 [`8687f33`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8687f334081496e42203903ad4640f0c0743577b)
+- Overriddear scroll-padding-top [`6201e56`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6201e56e3b857849e43dd778a7d887b755b81ee8)
+- Aumentar tamaño de modal de imágenes [`3e15234`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3e1523415e85fb25772f8039df0975b46c6b4660)
+- Agregar disclaimer [`91b2b15`](https://github.com/luiscarlospando/luiscarlospando.com/commit/91b2b15d4b841ee66a5a4391932e4ef7b70b7e84)
+- Agregar badge Nuevo [`65f1c62`](https://github.com/luiscarlospando/luiscarlospando.com/commit/65f1c62657f959df8ffdb830756e05959f083bc8)
+- Agregar disclaimer [`c86eb76`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c86eb765549b082c126902a23b8f2c4d6a72f4d9)
+- Agregar disclaimer [`be8fc63`](https://github.com/luiscarlospando/luiscarlospando.com/commit/be8fc6348c39024a3da408f486bb5a422e0c5eb1)
+- Agregar disclaimer [`3e6c453`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3e6c453432fcb8f92f108ba14b74809a7205cd1e)
+- Agregar RSS feed de mi Statuslog [`02e3416`](https://github.com/luiscarlospando/luiscarlospando.com/commit/02e341616b02b001e00f40da8f0cf9dcb0a0c6bb)
+- Agregar RSS feed de mi Statuslog [`fba7011`](https://github.com/luiscarlospando/luiscarlospando.com/commit/fba701175354b6eae7bffc3b946323769dfd1565)
+- Agregar RSS feed de mi Statuslog [`59f14a7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/59f14a73eea1db00975e1ffbaee39f89e2be4cad)
+- Agregar RSS feed de mi Statuslog [`a09e89c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a09e89c6b1e32ab8924bc79a23f0bb050648eee3)
+- Actualizar descripción [`83c5a4b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/83c5a4b2421a87d833eeb9e478a12f4d63d8c77c)
+- Agregar link a código fuente [`e5206de`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e5206de5c17f3f673e06c8ff2623ebe0072f3509)
+- Agregar RSS feed de mi Statuslog [`01959c8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/01959c8ffc87f14596f08c5c924b0429565764a1)
+
 ## [`v2.61.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.60.0...v2.61.0) - 2025-09-26
 
 - Optimizar y dar mantenimiento a código [`1e68841`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1e688413fb81806f6872fa689737c61dbadd0978)

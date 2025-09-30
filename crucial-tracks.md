@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Crucial Tracks
-description: Crucial Tracks es como un diario que sirve para compartir una rola al día y escribir algo al respecto de esa rola. Pensé que sería divertido crear una página aquí en mi sitio en donde mostrar las canciones que voy agregando a mi Crucial Tracks.
+description: Crucial Tracks es un diario que sirve para compartir una rola al día y te invita aescribir algo de esa rola. Pensé que sería divertido crear una página aquí en mi sitio en donde mostrar las canciones que voy agregando a mi perfil en Crucial Tracks.
 image: /assets/images/logo.png
 permalink: /music/crucial-tracks/
 ---

@@ -113,13 +113,14 @@ Suscríbete a mi sitio por:
 - [<i class="fas fa-rss"></i> RSS (Blog)][26]
 - [<i class="fas fa-rss"></i> RSS (Fotos)][27]
 - [<i class="fas fa-rss"></i> RSS (Links)][28]
-- [<i class="fas fa-rss"></i> RSS (Crucial Tracks)][29]
-- [<i class="fa-brands fa-mastodon"></i> Mastodon][30]{:rel="me noreferrer noopener" target="_blank"}
-- [<i class="fa-solid fa-envelope"></i> Newsletter][31] <span class="badge badge-success pulse-subtle pulse-fast">Nuevo</span>
+- [<i class="fas fa-rss"></i> RSS (Statuslog)][29]
+- [<i class="fas fa-rss"></i> RSS (Crucial Tracks)][30]
+- [<i class="fa-brands fa-mastodon"></i> Mastodon][31]{:rel="me noreferrer noopener" target="_blank"}
+- [<i class="fa-solid fa-envelope"></i> Newsletter][32] <span class="badge badge-success pulse-subtle pulse-fast">Nuevo</span>
 
 ## Errores en el sitio
 
-Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][7] o [abre un issue en GitHub][32].
+Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][7] o [abre un issue en GitHub][33].
 
 [1]: https://hitz-musik.net/
 [2]: /discord/
@@ -149,7 +150,8 @@ Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. 
 [26]: https://blog.{{ site.domain }}/rss/
 [27]: https://blog.{{ site.domain }}/photos/rss
 [28]: https://bg.raindrop.io/rss/public/50598757
-[29]: https://app.crucialtracks.org/profile/mijo/feed
-[30]: https://hachyderm.io/@{{ site.mastodon_feed }}
-[31]: /newsletter/
-[32]: https://github.com/{{ site.github_username}}/{{ site.domain }}/issues/new
+[29]: https://mijo.status.lol/feed/rss
+[30]: https://app.crucialtracks.org/profile/mijo/feed
+[31]: https://hachyderm.io/@{{ site.mastodon_feed }}
+[32]: /newsletter/
+[33]: https://github.com/{{ site.github_username}}/{{ site.domain }}/issues/new

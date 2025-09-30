@@ -81,7 +81,27 @@ Aquí comparto mis links favoritos.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://bg.raindrop.io/rss/public/50598757" rel="me noopener">
+<a class="btn btn-primary btn-lg" href="https://bg.raindrop.io/rss/public/50598757" rel="noopener">
+<i class="fa-solid fa-rss"></i> Suscribirse
+</a>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-md-6 my-auto">
+<ul class="list-unstyled">
+<li>
+<a href="https://status.luiscarlospando.com/" rel="me noopener" target="_blank">
+    🕒 Statuslog
+</a>
+</li>
+<li>
+    En mi Statuslog comparto mi estatus actual,lo que estoy haciendo, pensando, jugando, aprendiendo (you get the idea), etc. Usa este feed para suscribirte.
+</li>
+</ul>
+</div>
+<div class="col-md-6 my-auto">
+<a class="btn btn-primary btn-lg" href="https://mijo.status.lol/feed/rss" rel="me noopener">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -128,7 +148,7 @@ Mi log de canciones diarias que representan algo para mi.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://hachyderm.io/@luiscarlospando" rel="me noopener noreferrer">
+<a href="https://hachyderm.io/@luiscarlospando" rel="me noopener noreferrer" target="_blank">
     🐘 Mastodon
 </a>
 </li>
@@ -138,7 +158,7 @@ Esta es una cuenta automatizada con posts de mi sitio.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://hachyderm.io/@luiscarlospando" rel="me noopener noreferrer">
+<a class="btn btn-primary btn-lg" href="https://hachyderm.io/@luiscarlospando" rel="me noopener noreferrer" target="_blank">
 <i class="fa-brands fa-mastodon"></i> Seguir
 </a>
 </div>

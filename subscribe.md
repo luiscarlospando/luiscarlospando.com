@@ -96,7 +96,7 @@ Aquí comparto mis links favoritos.
 </a>
 </li>
 <li>
-    En mi Statuslog comparto mi estatus actual,lo que estoy haciendo, pensando, jugando, aprendiendo (you get the idea), etc. Usa este feed para suscribirte.
+    En mi Statuslog comparto lo que estoy haciendo actualmente.
 </li>
 </ul>
 </div>

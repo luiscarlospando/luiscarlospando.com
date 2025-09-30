@@ -160,12 +160,11 @@
         }
 
         p {
-            font-size: 11pt;
             margin: 0;
             overflow: hidden;
         }
 
-        /* Speech bubble top arrow */
+        /* Speech bubble left arrow */
         &::before {
             content: "";
             width: 0;

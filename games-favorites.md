@@ -960,6 +960,14 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
       </figure>
     </a>
   </li>
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/QF9tzn7UUIo">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6029.jpg" data-toggle="tooltip" data-placement="top" alt="Cuphead (2020)" title="Cuphead (2020)" width="150">
+        <figcaption class="figure-caption text-center">Cuphead (2020)</figcaption>
+      </figure>
+    </a>
+  </li>
 </ul>
 
 ## <span id="nsw2"></span> Nintendo Switch 2

@@ -10,6 +10,10 @@ permalink: /music/crucial-tracks/
 
 <p class="text-center">Este es [mi perfil en Crucial Tracks][1]{:rel="alternate noopener" target="_blank"} y este es el [playlist][2]{:rel="noreferrer noopener" target="_blank"} donde voy agregando las rolas que comparto ahí.</p>
 
+<p class="text-center">
+    ⚠️ <em>Lo único es que este log lo escribo en inglés, espero que no sea un problema. Lo que pasa es que las preguntas que proporciona Crucial Tracks son en inglés y me es más natural responderlas en inglés.</em>
+</p>
+
 <ul class="list-inline mb-4 text-center">
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="https://music.apple.com/mx/playlist/crucial-tracks/pl.u-g39JFWq0EPd?l=en" target="_blank" rel="noopener noreferrer">

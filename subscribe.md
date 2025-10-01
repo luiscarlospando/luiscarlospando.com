@@ -147,7 +147,7 @@ Mi log de canciones diarias que representan algo para mi.
 <div class="row">
 <div class="col-12 my-auto">
 
-<div class="card text-center mb-0" id="mastodon>
+<div class="card text-center mb-0" id="mastodon">
 <div class="card-header">
 <h4 class="card-title">
 <i class="fa-brands fa-mastodon"></i> Mastodon

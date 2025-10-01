@@ -8,6 +8,13 @@
 
 /* Force dark mode as default - override any system preferences */
 :root {
+    --hdr-gradient: linear-gradient(
+        168deg in oklab,
+        $bgColor1,
+        $bgColor2,
+        $bgColor1
+    );
+    --sdr-gradient: linear-gradient(168deg, $bgColor1, $bgColor2, $bgColor1);
     color-scheme: dark;
 }
 
@@ -47,14 +54,7 @@ body {
     font-size: 1rem;
     line-height: 1.8;
     color: $mainColor;
-    background-color: $bgColor1;
-    background-image: linear-gradient(
-        168deg,
-        $bgColor1 0%,
-        $bgColor2 60%,
-        $bgColor1 100%
-    );
-    background-repeat: no-repeat;
+    background: var(--hdr-gradient);
     background-attachment: fixed;
     min-height: 100vh;
     overflow-x: hidden;

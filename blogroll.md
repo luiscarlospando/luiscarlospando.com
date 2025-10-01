@@ -84,6 +84,7 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 | Jason Burk | [grepjason.sh](https://grepjason.sh/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://grepjason.sh/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 | Jason White | [jasonwhite.us](https://jasonwhite.us/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://jasonwhite.us/index.xml){:target="_blank" rel="noopener" .rss-link} |
 | JCProbably | [jeddacp.com](https://jeddacp.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://notes.jeddacp.com/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
+| Jim Nielsen | [blog.jim-nielsen.com](https://blog.jim-nielsen.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blog.jim-nielsen.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Jose Munoz | [josemunozmatos.com](https://www.josemunozmatos.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://www.josemunozmatos.com/blog/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 | Lean Rada | [leanrada.com](https://leanrada.com/){:target="_blank" rel="noopener"} | |
 | Limes.pink | [limes.pink](https://limes.pink/){:target="_blank" rel="noopener"} | |

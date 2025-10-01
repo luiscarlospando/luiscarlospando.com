@@ -22,7 +22,7 @@ last-modified-at: <span id="last-updated-at">2025-09-30 21:03:00</span>
 ## <i class="fa-solid fa-list-ul"></i> ¿Qué es un feed?
 </summary>
 
-Es una forma de recibir contenido sin necesidad de visitar el sitio web. Es una manera de suscribirte a tus contenidos favoritos y recibir actualizaciones en tiempo real (como si le dieras 'seguir' otro usuario en otra red social).
+Es una forma de recibir contenido sin necesidad de visitar el sitio web. Es una manera de suscribirte a tus contenidos favoritos y recibir actualizaciones en tiempo real (como si le dieras 'seguir' a otro usuario en otra red social).
 
 Hay una ligera curva de aprendizaje, pero créeme que vale la pena. Conoce más [aquí](https://aboutfeeds-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=en&_x_tr_pto=wapp){:rel="noopener" target="_blank"}.
 </details>

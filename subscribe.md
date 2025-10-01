@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Suscríbete
-description: Puedes suscribirte a mi sitio con estos feeds RSS, en Mastodon o a través de mi Newsletter para recibir actualizaciones de mi contenido.
+description: Puedes suscribirte a mi sitio con estos RSS feeds, en Mastodon o a través de mi Newsletter para recibir actualizaciones de mi contenido.
 image: /assets/images/logo.png
 permalink: /subscribe/
 last-modified-at: <span id="last-updated-at">2025-09-30 21:03:00</span>
@@ -14,7 +14,7 @@ last-modified-at: <span id="last-updated-at">2025-09-30 21:03:00</span>
 </div>
 
 <div class="text-center">
-Puedes suscribirte a mi sitio con estos [<i class="fa-solid fa-link"></i> feeds RSS][1], en [<i class="fa-solid fa-link"></i> Mastodon][2] o a través de mi [<i class="fa-solid fa-link"></i> Newsletter][3] para recibir actualizaciones de mi contenido.
+Puedes suscribirte a mi sitio con estos [<i class="fa-solid fa-link"></i> RSS feeds][1], en [<i class="fa-solid fa-link"></i> Mastodon][2] o a través de mi [<i class="fa-solid fa-link"></i> Newsletter][3] para recibir actualizaciones de mi contenido.
 </div>
 
 <details class="mb-3">

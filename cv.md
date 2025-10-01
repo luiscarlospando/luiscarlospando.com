@@ -14,7 +14,7 @@ permalink: /cv/
 <strong>¡Busco trabajo!</strong>
 </p>
 <p>
-¡Hola! 👋 Actualmente estoy en busca de nuevas oportunidades laborales en 🇲🇽 Chihuahua, México o trabajo remoto como frontend developer. Si consideras que soy una buena opción para tu empresa o proyecto, por favor no dudes en contactarme.
+¡Hola! 👋 Actualmente estoy en busca de nuevas oportunidades laborales en Chihuahua, México 🇲🇽 (o trabajo remoto) como frontend developer. Si consideras que soy una buena opción para tu empresa o proyecto, por favor no dudes en contactarme.
 </p>
 - 📧 [hey@luiscarlospando.com](mailto:hey@luiscarlospando.com)
 - 🌐 [LuisCarlosPando.com](https://luiscarlospando.com) (estás aquí)

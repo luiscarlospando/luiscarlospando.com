@@ -16,6 +16,24 @@ const ITEMS_PER_PAGE = 10; // items per page for pagination
 let currentPage = 1;
 let allItems = [];
 
+// Function to get page number from URL
+function getPageFromURL() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const page = parseInt(urlParams.get("page"), 10);
+    return page && page > 0 ? page : 1;
+}
+
+// Function to update URL with current page
+function updateURL(page) {
+    const url = new URL(window.location);
+    if (page === 1) {
+        url.searchParams.delete("page");
+    } else {
+        url.searchParams.set("page", page);
+    }
+    window.history.pushState({ page }, "", url);
+}
+
 // Audio player management
 let audioPlayers = [];
 
@@ -154,6 +172,9 @@ async function displayTracks() {
     const listContainer = document.getElementById("tracks");
     if (!listContainer) return;
 
+    // Get current page from URL
+    currentPage = getPageFromURL();
+
     setLoadingState(true);
 
     try {
@@ -164,6 +185,13 @@ async function displayTracks() {
         }
 
         allItems = data;
+
+        // Validate page number after we know total items
+        const totalPages = Math.ceil(allItems.length / ITEMS_PER_PAGE);
+        if (currentPage > totalPages) {
+            currentPage = 1;
+            updateURL(currentPage);
+        }
 
         renderPaginatedTracks();
         setupPagination();
@@ -263,6 +291,7 @@ function renderPaginatedTracks() {
 // Handle page navigation
 function handlePageChange(newPage) {
     currentPage = newPage;
+    updateURL(currentPage);
     renderPaginatedTracks();
     setupPagination();
     setupAudioPlayers(); // Re-setup audio players after pagination
@@ -310,6 +339,22 @@ function handleError(error) {
     if (el)
         el.innerHTML = `<li>No se pudieron cargar las canciones. Por favor, actualiza la página.</li>`;
 }
+
+// Handle browser back/forward navigation
+window.addEventListener("popstate", (event) => {
+    if (event.state && event.state.page) {
+        currentPage = event.state.page;
+    } else {
+        currentPage = getPageFromURL();
+    }
+
+    // Only re-render if we have data loaded
+    if (allItems.length > 0) {
+        renderPaginatedTracks();
+        setupPagination();
+        setupAudioPlayers();
+    }
+});
 
 // Initialize on DOM load
 document.addEventListener("DOMContentLoaded", displayTracks);

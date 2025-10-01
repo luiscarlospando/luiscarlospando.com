@@ -8,13 +8,8 @@
 
 /* Force dark mode as default - override any system preferences */
 :root {
-    --hdr-gradient: linear-gradient(
-        168deg in oklab,
-        $bgColor1,
-        $bgColor2,
-        $bgColor1
-    );
-    --sdr-gradient: linear-gradient(168deg, $bgColor1, $bgColor2, $bgColor1);
+    --hdr-gradient: linear-gradient(168deg in oklab, #0e0f34, #0d0e16, #0e0f34);
+    --sdr-gradient: linear-gradient(168deg, #0e0f34, #0d0e16, #0e0f34);
     color-scheme: dark;
 }
 

@@ -17,7 +17,7 @@ last-modified-at: <span id="last-updated-at">2025-09-29 18:34:00</span>
 {{ page.description}}
 </div>
 
-<details>
+<details class="mb-3">
 <summary>
 ## <i class="fa-solid fa-list-ul"></i> ¿Qué es un feed?
 </summary>
@@ -26,7 +26,7 @@ Es una forma de recibir contenido sin necesidad de visitar el sitio web. Es una 
 
 Hay una ligera curva de aprendizaje, pero créeme que vale la pena.
 
-Conoce más [aquí].(https://aboutfeeds-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=en&_x_tr_pto=wapp)
+Conoce más [aquí](https://aboutfeeds-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=en&_x_tr_pto=wapp)
 </details>
 
 <div class="row">

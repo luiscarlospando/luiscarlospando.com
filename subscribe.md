@@ -14,7 +14,7 @@ last-modified-at: <span id="last-updated-at">2025-09-30 21:03:00</span>
 </div>
 
 <div class="text-center">
-{{ page.description}}
+Puedes suscribirte a mi sitio con estos [<i class="fa-solid fa-link"></i> feeds RSS][1], en [<i class="fa-solid fa-link"></i> Mastodon][2] o a través de mi [<i class="fa-solid fa-link"></i> Newsletter][3] para recibir actualizaciones de mi contenido.
 </div>
 
 <details class="mb-3">
@@ -30,7 +30,7 @@ Hay una ligera curva de aprendizaje, pero créeme que vale la pena. Conoce más 
 <div class="row">
 <div class="col-12 my-auto">
 
-<div class="card text-center mb-0">
+<div class="card text-center mb-0" id="rss-feeds">
 <div class="card-header">
 <h4 class="card-title">
 <i class="fa-solid fa-square-rss"></i> RSS feeds
@@ -147,7 +147,7 @@ Mi log de canciones diarias que representan algo para mi.
 <div class="row">
 <div class="col-12 my-auto">
 
-<div class="card text-center mb-0">
+<div class="card text-center mb-0" id="mastodon>
 <div class="card-header">
 <h4 class="card-title">
 <i class="fa-brands fa-mastodon"></i> Mastodon
@@ -184,7 +184,7 @@ Esta es una cuenta automatizada con posts de mi sitio.
 <div class="row">
 <div class="col-12 my-auto">
 
-<div class="card text-center mb-3">
+<div class="card text-center mb-3" id="newsletter">
 <div class="card-header">
 <h4 class="card-title">
 <i class="fa-solid fa-envelope"></i> Newsletter
@@ -214,3 +214,7 @@ Suscríbete para recibir mi contenido en tu bandeja de entrada una vez al mes.</
 
 </div>
 </div>
+
+[1]: #rss-feeds
+[2]: #mastodon
+[3]: #newsletter

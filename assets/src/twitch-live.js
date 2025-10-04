@@ -4,14 +4,12 @@ async function checkLiveStatus() {
 
     // Skip everything if we're already on the /live page
     const currentPath = window.location.pathname;
-    console.log("Current pathname:", currentPath); // Debug log
 
     if (
         currentPath === "/live" ||
         currentPath === "/live/" ||
         currentPath.endsWith("/live")
     ) {
-        console.log("On live page, hiding alert"); // Debug log
         if (heymijotvLiveAlert) {
             heymijotvLiveAlert.style.display = "none";
         }

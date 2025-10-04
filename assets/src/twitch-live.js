@@ -3,7 +3,15 @@ async function checkLiveStatus() {
     const heymijotvLiveAlert = document.getElementById("heymijotv-live-alert");
 
     // Skip everything if we're already on the /live page
-    if (window.location.pathname === "/live") {
+    const currentPath = window.location.pathname;
+    console.log("Current pathname:", currentPath); // Debug log
+
+    if (
+        currentPath === "/live" ||
+        currentPath === "/live/" ||
+        currentPath.endsWith("/live")
+    ) {
+        console.log("On live page, hiding alert"); // Debug log
         if (heymijotvLiveAlert) {
             heymijotvLiveAlert.style.display = "none";
         }

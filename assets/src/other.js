@@ -10,6 +10,9 @@ import { initStatusManager } from "./statuslog.js";
         // Run Statuslog
         initStatusManager();
 
+        // Update greeting emoji
+        updateGreetingEmoji();
+
         // Burger button blur
         const btnBurger = document.getElementById("btn-burger");
         btnBurger?.addEventListener("click", () => btnBurger.blur());
@@ -342,6 +345,33 @@ import { initStatusManager } from "./statuslog.js";
 
             // Combining the greetings
             return `${timeGreeting}, feliz ${daysOfWeek[day]}.`;
+        }
+
+        // Greeting emoji
+        function updateGreetingEmoji() {
+            const emojiSpan = document.getElementById("greeting-emoji");
+            if (!emojiSpan) return; // Exit if the element doesn't exist
+
+            const now = new Date();
+            const month = now.getMonth(); // 0 = January, 9 = October, etc.
+
+            let emoji;
+
+            switch (month) {
+                case 9: // October
+                    emoji = "🎃";
+                    break;
+                case 10: // November
+                    emoji = "🎂";
+                    break;
+                case 11: // December
+                    emoji = "🎄";
+                    break;
+                default: // All other months
+                    emoji = "🤠";
+            }
+
+            emojiSpan.textContent = emoji;
         }
 
         // Manual tooltip init for #stuff-i-like

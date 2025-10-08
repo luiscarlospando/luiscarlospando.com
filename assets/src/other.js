@@ -316,13 +316,32 @@ import { initStatusManager } from "./statuslog.js";
         // Greeting function
         function getGreeting() {
             const now = new Date();
-            const hour = now.getHours();
-            const day = now.getDay();
-            const greetings = {
-                /* ... tu objeto completo de saludos ... */
-            };
-            // Mantener toda tu lógica actual de saludos aquí
-            return greetings.weekday?.morning[0]; // placeholder, reemplazar con tu lógica completa
+            const hour = now.getHours(); // 0-23
+            const day = now.getDay(); // 0 = Sunday, 1 = Monday, ... 6 = Saturday
+
+            const daysOfWeek = [
+                "domingo",
+                "lunes",
+                "martes",
+                "miércoles",
+                "jueves",
+                "viernes",
+                "sábado",
+            ];
+
+            let timeGreeting;
+
+            // Determining the greeting based on the time of day
+            if (hour >= 5 && hour < 12) {
+                timeGreeting = "Buenos días ☀️";
+            } else if (hour >= 12 && hour < 20) {
+                timeGreeting = "Buenas tardes 🌤️";
+            } else {
+                timeGreeting = "Buenas noches 🌙";
+            }
+
+            // Combining the greetings
+            return `${timeGreeting}, feliz ${daysOfWeek[day]}.`;
         }
 
         // Manual tooltip init for #stuff-i-like

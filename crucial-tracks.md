@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Crucial Tracks
-description: Crucial Tracks es un diario que sirve para compartir una rola al día y te invita a escribir algo de esa rola. Pensé que sería divertido crear una página aquí en mi sitio en donde mostrar las canciones que voy agregando a mi perfil en Crucial Tracks.
+description: Crucial Tracks es un diario donde comparto una canción al día y escribo un poco sobre ella. Se me ocurrió que sería divertido crear una página en mi sitio para mostrar todas las canciones que voy agregando a mi log en Crucial Tracks.
 image: /assets/images/logo.png
 permalink: /music/crucial-tracks/
 ---
@@ -11,7 +11,7 @@ permalink: /music/crucial-tracks/
 <p class="text-center">Este es [mi perfil en Crucial Tracks][1]{:rel="alternate noopener" target="_blank"} y este es el [playlist][2]{:rel="noreferrer noopener" target="_blank"} donde voy agregando las rolas que comparto ahí.</p>
 
 <p class="text-center">
-    ⚠️ <em>Disclaimer: Este log lo escribo en inglés, esperando que no sea un problema. Lo que pasa es que las preguntas que me proporciona Crucial Tracks son en inglés y me es más natural responderlas en inglés.</em>
+    ⚠️ <em>Disclaimer: Escribo este log en inglés, espero que no sea un problema. Las preguntas que me da Crucial Tracks están en inglés, y me resulta más natural responderlas en el mismo idioma.</em>
 </p>
 
 <ul class="list-inline mb-4 text-center">

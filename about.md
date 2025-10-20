@@ -55,7 +55,7 @@ Estoy reaprendiendo a apreciar el tiempo con amigos 👥 y conocer gente nueva (
 
 Estoy orgulloso de ser parte del [Internet independiente y descentralizado][5]{:target="_blank" rel="noreferrer noopener"} 🌐. Este es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, desde el *look & feel*, el layout, colores, del contenido, de los *features*, de las reglas y todo, todo, todo. Al tener mi propio sitio web no dependo de ninguna empresa como lo son Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok (que son las más grandes plataformas de la web). Todos sabemos que el futuro de esas plataformas es incierto (y ya hemos sido testigos que esas plataformas desaparecen o cambian de dueños/directivos y luego valen sh!t).
 
-En la web comercial, estamos también sometidos a sus reglas y políticas, si no seguimos sus reglas pueden bloquearnos nuestras cuentas y/o contenido (¿eso no es una real libertad de expresión, correcto?). Así que yo prefiero no ser parte de ese sistema ni invertir mi tiempo en crear contenido para ellos.
+En la web comercial, estamos también sometidos a sus reglas y políticas, si no seguimos sus reglas pueden bloquearnos nuestras cuentas y/o contenido (¿eso no es una real libertad de expresión, verdad?). Así que yo prefiero no ser parte de ese sistema ni invertir mi tiempo en crear contenido para ellos.
 
 Todo esto lo menciono generar consciencia de que ahí no tenemos control real, ni somos propietarios de nuestro contenido y/o cuentas (aunque nos hagan creer eso).
 

@@ -37,7 +37,7 @@ Mi colección de videojuegos de Nintendo es algo de lo que estoy orgulloso, y po
 
 ## El lado más personal
 
-Aunque muchos no lo crean por cómo me desenvuelvo en línea, soy bastante introvertido 🫣. Me siento más cómodo expresándome a través de la escritura o la música que en conversaciones cara a cara. Tal vez por eso este sitio web significa tanto para mí: es mi forma más auténtica de conectar con el mundo.
+Aunque muchos no lo crean por como me desenvuelvo en línea, soy bastante introvertido 🫣. Me siento más cómodo expresándome a través de la escritura o la música que en conversaciones cara a cara. Tal vez por eso este sitio web significa tanto para mí: es mi forma más auténtica de conectar con el mundo.
 
 También mi fe es algo muy importante para mí. Soy cristiano y tengo mi confianza puesta en Jesús ✝️. Esta parte de mi vida me da tranquilidad y propósito, especialmente en esos momentos donde la inseguridad me gana (sí, soy algo inseguro, aunque trate de no demostrarlo mucho).
 

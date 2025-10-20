@@ -72,7 +72,7 @@ La única red social de la que sigo siendo prisionero es Instagram (y en cierta 
 
 ## El presente
 
-Estudié una carrera que, seamos honestos, no me gustó (Ingeniería en Sistemas) 🎓, bueno, aún me pregunto si fue la carrera o la escuela lo que no me gustó, ya que mi inclinación por las computadoras y codear sigue aquí.
+Estudié una carrera que, seamos honestos, no me gustó (Ingeniería en Sistemas) 🎓, bueno, aún me pregunto si fue la carrera o la escuela lo que no me gustó, ya que mi inclinación por las computadoras y codear sigue ahí.
 
 ## El cierre
 

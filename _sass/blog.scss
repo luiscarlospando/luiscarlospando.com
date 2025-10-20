@@ -213,6 +213,13 @@ figcaption,
    VIDEO & EMBEDS
    ========================================================================== */
 
+#html div.arve,
+#html div.wp-block-nextgenthemes-arve-block,
+html div.arve,
+html div.wp-block-nextgenthemes-arve-block {
+    margin-bottom: 0;
+}
+
 .arve-wrapper {
     margin-bottom: 14px !important;
 }

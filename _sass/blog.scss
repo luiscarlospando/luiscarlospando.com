@@ -217,10 +217,6 @@ figcaption,
     margin-bottom: 14px !important;
 }
 
-.arve {
-    margin-bottom: 1rem;
-}
-
 .is-type-video {
     border-radius: $borderRadius;
     overflow: hidden;
@@ -235,6 +231,11 @@ figcaption,
 .wp-block-embed.wp-embed-aspect-18-9 .wp-block-embed__wrapper:before,
 .wp-block-embed.wp-embed-aspect-21-9 .wp-block-embed__wrapper:before {
     padding-top: 0;
+}
+
+/* WordPress block figcaption */
+.wp-block-image :where(figcaption) {
+    margin-bottom: 0;
 }
 
 /* Social media embeds */

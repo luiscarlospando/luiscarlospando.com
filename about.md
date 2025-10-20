@@ -19,9 +19,9 @@ Soy Luis Carlos Pando 👋, pero la mayoría me conoce como `Mijo` (<a href="#" 
 
 ## Mis inicios
 
-Desde que tengo memoria, siempre he tenido una curiosidad insaciable por entender cómo funcionan las cosas 🔧. De niño era ese escuincle que desarmaba sus juguetes para ver qué había adentro, y aunque mis papás se desesperaran viendo pedazos regados por toda la casa, yo estaba fascinado descubriendo engranajes, circuitos y mecanismos. Esa curiosidad nunca se fue; simplemente evolucionó hacia las computadoras y el Internet.
+Desde que tengo memoria, siempre he tenido una curiosidad insaciable por entender cómo funcionan las cosas 🔧. De niño recuerdo que la curiosidad me hacía desarmar mis juguetes para ver qué había adentro. Me gustaba estar descubriendo engranajes, circuitos y mecanismos. Esa curiosidad nunca se fue; simplemente evolucionó hacia las computadoras.
 
-Soy muy autodidacta por naturaleza. Si algo me llama la atención, me obsesiono hasta dominarlo. Así aprendí a tocar guitarra 🎸 (no soy taaan bueno, pero me defiendo poquito), así me metí de lleno al mundo de la tecnología, y así es como sigo aprendiendo cosas nuevas todos los días. Supongo que esa característica mía de ser súper ordenado y cuidadoso me ayuda a procesar mejor la información y no dejar cabos sueltos.
+Soy autodidacta por naturaleza. Si algo me llama la atención, me obsesiono con ello. Así aprendí a tocar guitarra 🎸 (no soy taaan bueno, pero me defiendo poquito), así me metí de lleno al mundo del tech, y así es como sigo aprendiendo cosas nuevas todos los días. Supongo que esa característica mía de ser súper ordenado y cuidadoso me ayuda a procesar mejor la información y no dejar cabos sueltos.
 
 ## El parteaguas musical
 
@@ -31,25 +31,25 @@ Por eso, junto a unos buenos amigos, creamos [Hitz-Musik.net][1]{:target="_blank
 
 ## Mis obsesiones favoritas
 
-No puedo hablar de mí sin mencionar mis dos grandes amores en el mundo de las marcas: Apple 🍎 y Nintendo 🎮. Cada una representa algo diferente para mí. Apple por su diseño impecable y funcionalidad y Nintendo por haberme acompañado desde la infancia con experiencias de juego inolvidables.
+No puedo hablar de mí sin mencionar que soy fanático de Apple 🍎 y de Nintendo 🎮. Cada una representa algo diferente para mí. Apple por su diseño impecable, filosofía de diseño y funcionalidad y Nintendo por haberme acompañado desde la infancia con experiencias de juego inolvidables.
 
-Mi colección de videojuegos de Nintendo es algo de lo que estoy genuinamente orgulloso, y por eso creé la comunidad [Mode 7 🎮][2] en Discord junto a unos amigos. Ahí cotorreamos todo el día sobre nuestros juegos favoritos y cada jueves en la noche [transmitimos][3] nuestro frenético torneo de Mario Kart 🏁. Es un espacio donde todos son bienvenidos (✨ *All are welcome!* ✨).
+Mi colección de videojuegos de Nintendo es algo de lo que estoy orgulloso, y por eso creé la comunidad [Mode 7 🎮][2] en Discord junto a unos amigos. Ahí cotorreamos todo el día sobre nuestros juegos favoritos y cada jueves en la noche [transmitimos][3] nuestro frenético torneo de Mario Kart 🏁. Es un espacio donde todos son bienvenidos (✨ *All are welcome!* ✨).
 
 ## El lado más personal
 
-Aunque muchos no lo crean por cómo me desenvuelvo en línea, soy bastante introvertido 🤐. Me siento más cómodo expresándome a través de la escritura o la música que en conversaciones cara a cara. Tal vez por eso este sitio web significa tanto para mí: es mi forma más auténtica de conectar con el mundo.
+Aunque muchos no lo crean por cómo me desenvuelvo en línea, soy bastante introvertido 🫣. Me siento más cómodo expresándome a través de la escritura o la música que en conversaciones cara a cara. Tal vez por eso este sitio web significa tanto para mí: es mi forma más auténtica de conectar con el mundo.
 
-Mi fe es algo muy importante para mí. Soy cristiano y tengo mi confianza puesta en Jesús ✝️. Esta parte de mi vida me da tranquilidad y propósito, especialmente en esos momentos donde la inseguridad me gana (sí, soy algo inseguro, aunque trate de no demostrarlo mucho).
+También mi fe es algo muy importante para mí. Soy cristiano y tengo mi confianza puesta en Jesús ✝️. Esta parte de mi vida me da tranquilidad y propósito, especialmente en esos momentos donde la inseguridad me gana (sí, soy algo inseguro, aunque trate de no demostrarlo mucho).
 
 ## Los pequeños placeres
 
-Me gusta disfrutar una buena cerveza 🍺 mientras escucho música o trabajo en algún proyecto. Llevo registrando toda la música que escucho en [Last.fm 🎵][4]{:rel="me noreferrer noopener" target="_blank"} desde 2005 y siempre me sorprende ver cómo han evolucionado mis gustos a lo largo de los años.
+Me gusta disfrutar de una buena cerveza 🍺 mientras escucho música o trabajo en algún proyecto. Llevo registrando toda la música que escucho en [Last.fm 🎵][4]{:rel="me noreferrer noopener" target="_blank"} desde 2005 y siempre me sorprende ver cómo han evolucionado mis gustos a lo largo de los años.
 
-También toco guitarra cuando necesito desconectarme del mundo digital. Como todo lo que hago, lo aprendí por mi cuenta, y aunque no soy un virtuoso, me sirve como válvula de escape y forma de expresión.
+También me gusta tocar guitarra cuando necesito desconectarme del mundo. Y como todo lo que hago, lo aprendí por mi cuenta, y aunque no soy un virtuoso, me sirve como válvula de escape y forma de expresión.
 
 Estoy reaprendiendo a apreciar el tiempo con amigos 👥 y conocer gente nueva (aunque sea introvertido), esas conversaciones espontáneas que pueden durar horas y donde aprendes cosas que jamás habías considerado. Cuando las circunstancias lo permiten, disfruto mucho viajar y conocer lugares nuevos ✈️. No necesito destinos exóticos; a veces los mejores momentos surgen explorando un pueblo cercano o redescubriendo rincones de mi propia ciudad que había pasado por alto.
 
-<span id="indie-web"></span> Otro de mis hobbies favoritos es coleccionar vinilos 📀 (odio que no haya todavía un emoji de discos de vinilo). Este cotorreo lo comencé junto a mi ex-esposa, y aunque nuestros caminos se separaron, siempre le agradeceré haber compartido conmigo esa pasión por el formato físico y la experiencia completa que representa escuchar un disco de vinilo. Hay algo mágico en el ritual de poner el disco, ajustar la aguja y dejarte llevar por esa calidez sonora que solo el vinilo puede ofrecer. Cada disco en mi colección cuenta una historia, no solo musical, sino también personal.
+<span id="indie-web"></span> Otro de mis hobbies favoritos es coleccionar vinilos 📀 (👈 odio que no haya todavía un emoji de discos de vinilo). Este cotorreo lo comencé junto a mi ex-esposa, y aunque nuestros caminos se separaron, siempre le agradeceré haber compartido conmigo esa pasión por el formato físico y la experiencia completa que representa escuchar un disco de vinilo. Hay algo mágico en el ritual de poner el disco, ajustar la aguja y dejarte llevar por esa calidez sonora que solo el vinilo puede ofrecer. Cada disco en mi colección cuenta una historia, no solo musical, sino también personal.
 
 ## El IndieWeb (porque no solamente me gusta la música y películas indies)
 
@@ -72,11 +72,11 @@ La única red social de la que sigo siendo prisionero es Instagram (y en cierta 
 
 ## El presente
 
-Estudié una carrera que, seamos honestos, no me gustó (Ingeniería en Sistemas) 🎓. Pero más bien creo que lo que no me gustó fue la escuela donde la cursé, porque escribir código y construir cosas me apasiona hasta la fecha.
+Estudié una carrera que, seamos honestos, no me gustó (Ingeniería en Sistemas) 🎓, bueno, aún me pregunto si fue la carrera o la escuela lo que no me gustó, ya que mi inclinación por las computadoras y codear sigue aquí.
 
 ## El cierre
 
-Gracias por llegar hasta aquí y por tomarte el tiempo de conocerme un poco mejor. Si quieres cotorrear o simplemente saludar, no dudes en firmar mi [guestbook 📖][6] o [buscarme por aquí][7].
+Y pues eso es básicamente todo. gracias por llegar hasta aquí y por tomarte el tiempo de conocerme un poco mejor. Si quieres cotorrear o simplemente saludar, no dudes en firmar mi [guestbook 📖][6] o [buscarme por aquí][7].
 
 Al final del día, solo soy un vato de Chihuahua que ama hacer cosas para el Internet y que encuentra en la música, la tecnología y la fe las piezas que dan sentido a su vida.
 

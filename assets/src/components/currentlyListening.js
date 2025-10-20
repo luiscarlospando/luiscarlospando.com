@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 
 function CurrentlyListening({lastfmId = 'lastfm'}) {
     return (
-        <div id={lastfmId}></div>
+        <div id={lastfmId} className="mb-3"></div>
     );
 }
 

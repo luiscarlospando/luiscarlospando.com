@@ -34,7 +34,7 @@ function displayLastFmTopAlbums() {
         // Create container element for the grid column
         const columnDiv = document.createElement("div");
         // Add Bootstrap column classes
-        columnDiv.className = "col-6 col-md-4 mb-4";
+        columnDiv.className = "col-6 col-md-4";
 
         // Create inner HTML
         columnDiv.innerHTML = `

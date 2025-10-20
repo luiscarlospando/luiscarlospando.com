@@ -76,7 +76,7 @@ Estudié una carrera que, seamos honestos, no me gustó (Ingeniería en Sistemas
 
 ## El cierre
 
-Y pues eso es básicamente todo. gracias por llegar hasta aquí y por tomarte el tiempo de conocerme un poco mejor. Si quieres cotorrear o simplemente saludar, no dudes en firmar mi [guestbook 📖][6] o [buscarme por aquí][7].
+Y pues eso es básicamente todo. Gracias por llegar hasta aquí y por tomarte el tiempo de conocerme un poco mejor. Si quieres cotorrear o simplemente saludar, no dudes en firmar mi [guestbook 📖][6] o [buscarme por aquí][7].
 
 Al final del día, solo soy un vato de Chihuahua que ama hacer cosas para el Internet y que encuentra en la música, la tecnología y la fe las piezas que dan sentido a su vida.
 

@@ -10,7 +10,7 @@ permalink: /about/
 {{ page.description }}
 
 <div class="text-center">
-<small>🤫 <em>¿Solo quieres conocer los detalles técnicos de mi sitio? Entonces [skippea](#colofon) y ve directo al colofón.</em></small>
+<small>🤫 <em>¿Solo quieres conocer los detalles técnicos de mi sitio? Entonces [skippea y ve directo al colofón](#colofon).</em></small>
 </div>
 
 ## El vato detrás de todo esto

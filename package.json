@@ -22,11 +22,11 @@
         "url": "git+https://github.com/luiscarlospando/luiscarlospando.com"
     },
     "keywords": [
-        "LuisCarlosPando.com",
-        "Luis Carlos Pando"
+        "Luis Carlos Pando",
+        "LuisCarlosPando.com"
     ],
     "author": "Luis Carlos Pando <hey@luiscarlospando.com>",
-    "license": "ISC",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/luiscarlospando/luiscarlospando.com/issues"
     },

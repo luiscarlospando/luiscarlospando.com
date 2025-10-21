@@ -39,10 +39,10 @@ module.exports = {
                         loader: "sass-loader",
                         options: {
                             implementation: require("sass"),
-                            api: "modern-compiler",
                             sassOptions: {
                                 includePaths: [path.resolve(__dirname, "_sass")],
                                 outputStyle: "compressed",
+                                silenceDeprecations: ["legacy-js-api"],
                             },
                         },
                     },

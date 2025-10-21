@@ -4,15 +4,15 @@
 $fa-font-path: "../fonts";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "../css/all.min.css"; // FontAwesome
-@import "fonts";
-@import "bootstrap";
-@import "bootstrap-utilities";
-@import "variables";
-@import "navmenu";
-@import "header";
-@import "footer";
-@import "styles";
-@import "blog";
-@import "masonry";
-@import "media-queries";
+@use "../css/all.min.css"; // FontAwesome
+@use "fonts";
+@use "bootstrap";
+@use "bootstrap-utilities";
+@use "variables";
+@use "navmenu";
+@use "header";
+@use "footer";
+@use "styles";
+@use "blog";
+@use "masonry";
+@use "media-queries";

@@ -652,6 +652,11 @@ footer {
    UTILITIES
    ========================================================================== */
 
+.w-100-fl {
+    width: 100%;
+    float: left;
+}
+
 .rounded {
     border-radius: $borderRadius !important;
 }

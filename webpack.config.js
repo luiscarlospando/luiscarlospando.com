@@ -1,17 +1,22 @@
 const webpack = require("webpack");
 const path = require("path");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 /** @type {import('webpack').Configuration} */
 module.exports = {
-    entry: "./assets/src/app.js",
+    entry: {
+        app: "./assets/src/app.js",
+        styles: "./assets/css/main.scss",
+    },
     output: {
-        filename: "app.bundle.js",
-        path: path.resolve(__dirname, "assets/js"),
+        filename: "[name].bundle.js",
+        path: path.resolve(__dirname, "assets/dist"),
+        clean: true,
     },
     resolve: {
         modules: [path.resolve(__dirname, "node_modules"), "node_modules"],
     },
-    devtool: "source-map", // preferred in production
+    devtool: "source-map",
     mode: "production",
     module: {
         rules: [
@@ -25,6 +30,30 @@ module.exports = {
                     },
                 },
             },
+            {
+                test: /\.s[ac]ss$/i,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    "css-loader",
+                    {
+                        loader: "sass-loader",
+                        options: {
+                            implementation: require("sass"),
+                            sassOptions: {
+                                includePaths: [path.resolve(__dirname, "_sass")],
+                                outputStyle: "compressed",
+                            },
+                        },
+                    },
+                ],
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/i,
+                type: "asset/resource",
+                generator: {
+                    filename: "../fonts/[name][ext]",
+                },
+            },
         ],
     },
     externals: {
@@ -34,6 +63,9 @@ module.exports = {
         new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: "jquery",
+        }),
+        new MiniCssExtractPlugin({
+            filename: "../css/[name].css",
         }),
     ],
 };

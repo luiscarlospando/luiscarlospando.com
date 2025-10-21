@@ -7,6 +7,29 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.62.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.61.2...v2.62.0) - 2025-10-20
+
+- Actualizar package.json [`7f616af`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7f616af8a561c3b6a6435511a58e4e7e04e55562)
+- Actualizar package.json [`a22291f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a22291f4ca934345d635740a5aa5dc3be8bdbbb0)
+- Quitar archivo innecesario [`18ff275`](https://github.com/luiscarlospando/luiscarlospando.com/commit/18ff2751f217c787c8b2d142f5c16dfb5c2f0401)
+- Actualizar configuraciones [`c79bf02`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c79bf02e189eeefc4bc0d5a1607deb31f7662cf4)
+- Migrar de Ruby Sass a Dart Sass vía Webpack [`3ca9450`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3ca94505f51397cc2e93d76f4b88aab8af319cbb)
+- Actualizar CHANGELOG [`8e31a97`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8e31a972b68816ef33aef1fd19b3842f9db059fe)
+- Actualizar configuración [`cbc92d4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cbc92d4b10aec66db4caaba11b4465631fa1e2a8)
+- Reemplazar @import por @use [`8cd03ae`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8cd03aeb76ca31f3a815b51dbbcd387134f8f7b4)
+- Reemplazar @use por @import [`6ce820a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6ce820a8339f5c8f46c77eebb883768220311e2e)
+- Reemplazar @use por @import [`b427dc8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b427dc8be6248aeec85ecbd43f9eac8b97873fff)
+- Actualizar package.json [`f439ed2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f439ed2a1927e5886e9cfdbbc1e0d0d83e6a6dae)
+- Deploy 2.62.0 [`46323be`](https://github.com/luiscarlospando/luiscarlospando.com/commit/46323bed3f69bb5eff8e01fdb22f1f3ae96c6788)
+- Reemplazar directorio js por dist [`2b85cd9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2b85cd9f97d9a961d21953cc7b04a6b49dde5a0d)
+- Deploy 2.62.0 [`afda55b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/afda55bc0942d304a632d5ad1195c1c5c3fd9f53)
+- Quitar Ruby Sass [`8ddd628`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8ddd6288568ee328db1df3519424f2b982686990)
+- Actualizar descripción [`183fadf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/183fadf69ca3c14518149679eade4ec5c8088273)
+- Silenciar warning de Legacy JS API [`aa460d3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/aa460d3fc24e01eea2b7968e87e089842b9533b0)
+- Reemplazar main.css por styles.css [`91e945e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/91e945e68ea7a542f64c73cc4336272210d41164)
+- Actualizar Jekyll a v4.3.3 [`f9d3aca`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f9d3aca83080afe58ea6eb70dca9a1e749d0106d)
+- Silenciar warning de Legacy JS API [`927436a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/927436ad851ac59bb5d69c4d69e958d9d952449f)
+
 ## [`v2.61.2`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.61.1...v2.61.2) - 2025-10-20
 
 - Agregar funciones que actualizan el URL dependiendo la página que se esté visualizando [`385b721`](https://github.com/luiscarlospando/luiscarlospando.com/commit/385b7211951ce172f75b06fd061ffab77cf8c0f9)

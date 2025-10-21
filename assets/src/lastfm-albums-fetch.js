@@ -8,7 +8,7 @@ function displayLastFmTopAlbums() {
       // Check if the container exists on the page (now targeting the new ID)
       const container = document.getElementById("lastfm-albums-grid");
       if (!container) {
-        console.log("❌ #lastfm-albums-grid no exisre en el DOM");
+        console.log("❌ #lastfm-albums-grid no existe en el DOM");
         return;
       }
 

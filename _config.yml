@@ -75,9 +75,6 @@ plugins:
     - jekyll-info
     - jekyll-sitemap
 #  - jekyll-feed
-sass:
-    sass_dir: _sass
-    style: compressed
 asset_pipeline:
     compress: true
 info:

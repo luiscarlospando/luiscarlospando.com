@@ -77,6 +77,7 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 | Brandon | [krrd.ing](https://krrd.ing/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://krrd.ing/rss/){:target="_blank" rel="noopener" .rss-link} |
 | Cory Dransfeldt | [coryd.dev](https://www.coryd.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.coryd.dev/feeds/all.xml){:target="_blank" rel="noopener" .rss-link} |
 | Dave Rupert | [daverupert.com](https://daverupert.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://daverupert.com/atom.xml){:target="_blank" rel="noopener" .rss-link} |
+| Derek Sivers | [sive.rs](https://sive.rs/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://sive.rs/en.atom){:target="_blank" rel="noopener" .rss-link} |
 | Eva Decker | [eva.town](https://eva.town/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://eva.town/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 | Frills | [frills.dev](https://frills.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://frills.dev/all.xml){:target="_blank" rel="noopener" .rss-link} |
 | James' Coffee Blog | [jamesg.blog](https://jamesg.blog/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://subscribeopenly.net/subscribe/?url=https://jamesg.blog/feeds/posts.xml){:target="_blank" rel="noopener" .rss-link} |

@@ -6,6 +6,10 @@ User-agent: *
 Allow: /
 Sitemap: https://luiscarlospando.com/sitemap.xml
 
+# Explicitly allow the Internet Archive (Wayback Machine)
+User-agent: ia_archiver
+Disallow:
+
 # Dark Visitors Robots.txt
 
 # AI Data Scraper

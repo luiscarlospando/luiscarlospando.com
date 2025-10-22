@@ -37,6 +37,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
     </li>
 </ul>
 
+{::nomarkdown}
 <div class="text-center">
 <a href="/music/">
 <small>
@@ -44,6 +45,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
 </small>
 </a>
 </div>
+{:/nomarkdown}
 
 ---
 

@@ -78,8 +78,8 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="/music/crucial-tracks/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Checa las rolas voy agregando a Crucial Tracks" title="Checa las rolas voy agregando a Crucial Tracks">
-            <i class="fa-solid fa-record-vinyl"></i> Crucial Tracks
+        <a href="/music/plylist/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Un playlist que actualizo diariamente con música que agrego a mi perfil de Crucial Tracks desde septiembre de 2025" title="Un playlist que actualizo diariamente con música que agrego a mi perfil de Crucial Tracks desde septiembre de 2025">
+            <i class="fa-solid fa-record-vinyl"></i> Playlist
         </a>
     </li>
     <li class="list-inline-item">

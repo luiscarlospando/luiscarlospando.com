@@ -20,13 +20,11 @@ permalink: /music/
         </a>
     </li>
     <li class="list-inline-item">
-        <a class="btn btn-primary btn-sm" href="/music/crucial-tracks/">
-          <i class="fa-solid fa-record-vinyl"></i> Crucial Tracks
+        <a class="btn btn-primary btn-sm" href="/music/playlist/">
+          <i class="fa-solid fa-record-vinyl"></i> Playlist
         </a>
         <span class="badge badge-success pulse-subtle pulse-fast">Nuevo</span>
     </li>
 </ul>
 
 <div class="row" id="lastfm-albums-grid"></div>
-
-[1]: /music/crucial-tracks/

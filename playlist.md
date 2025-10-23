@@ -1,17 +1,17 @@
 ---
 layout: page
 title: Playlist
-description: Un playlist que actualizo diariamente con música que agrego a mi perfil de Crucial Tracks desde septiembre de 2025.
+description: Un playlist que actualizo diariamente con música que voy agregando a mi perfil de Crucial Tracks desde septiembre de 2025.
 image: /assets/images/logo.png
 permalink: /music/playlist/
 ---
 
 <p class="text-center">{{ page.description }}</p>
 
-<p class="text-center">Este es [mi perfil en Crucial Tracks][1]{:rel="alternate noopener" target="_blank"} y este es el [post que escribí][2]{:rel="noreferrer noopener" target="_blank"} explicando de qué trata todo esto.</p>
+<p class="text-center">Este es [mi perfil en Crucial Tracks][1]{:rel="alternate noopener" target="_blank"} y este es el [post que escribí][2] explicando de qué trata todo esto.</p>
 
 <p class="text-center">
-    ⚠️ <em>Disclaimer: Publico este log en inglés, esperando que no sea un problema. Las preguntas que me da Crucial Tracks están en inglés, y me resulta más natural responderlas en el mismo idioma.</em>
+    ⚠️ <em>Disclaimer: Este log está en inglés, esperando que no sea un problema. Las preguntas que me da Crucial Tracks están en inglés, y me resulta más natural responderlas en el mismo idioma.</em>
 </p>
 
 <ul class="list-inline mb-4 text-center">

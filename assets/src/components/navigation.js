@@ -244,7 +244,7 @@ function Navigation() {
                     id: "16-5",
                     url: "https://app.crucialtracks.org/profile/mijo/feed",
                     icon: "fa-solid fa-square-rss",
-                    text: "Crucial Tracks",
+                    text: "Playlist",
                 },
                 {
                     id: "16-6",

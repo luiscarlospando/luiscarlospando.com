@@ -35,6 +35,7 @@ import "./button-press";
 import "./dismissable-alert";
 import "./blogroll";
 import "./crucialtracks";
+import "./surprise-me";
 import "./other";
 
 // React components

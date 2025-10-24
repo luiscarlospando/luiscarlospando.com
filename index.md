@@ -54,9 +54,9 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         <h2><i class="fa-solid fa-signs-post"></i> ¿Por dónde empezar?</h2>
     </li>
     <li class="list-inline-item">
-        <a id="btn-surprise-me" class="btn btn-primary btn-sm" href="#" style="vertical-align: super;" data-toggle="tooltip" data-placement="top" data-html="true" title="Este botón te lleva a una página al azar o a algún post de mi blog.">
+        <button id="btn-surprise-me" class="btn btn-primary btn-sm" style="vertical-align: super;" data-toggle="tooltip" data-placement="top" data-html="true" title="Este botón te lleva a una página al azar o a algún post de mi blog.">
             <i class="fa-solid fa-wand-magic-sparkles"></i> Sorpréndeme
-        </a>
+        </button>
         <span class="badge badge-success pulse-subtle pulse-fast" style="vertical-align: super;">Nuevo</span>
     </li>
 </ul>

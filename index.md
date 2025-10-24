@@ -57,6 +57,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         <a id="btn-surprise-me" class="btn btn-primary btn-sm" href="{{ site.blog_url }}/rss/" rel="me" style="vertical-align: super;" data-toggle="tooltip" data-placement="top" data-html="true" title="Este botón te lleva a una página al azar dentro de mi sitio.">
             <i class="fa-solid fa-wand-magic-sparkles"></i> Sorpréndeme
         </a>
+        <span class="badge badge-success pulse-subtle pulse-fast">Nuevo</span>
     </li>
 </ul>
 

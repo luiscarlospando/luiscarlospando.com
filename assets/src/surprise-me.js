@@ -2,7 +2,9 @@ const btnSurpriseMe = document.getElementById("btn-surprise-me");
 let cachedTotalPosts = null;
 
 if (btnSurpriseMe) {
-    btnSurpriseMe.addEventListener("click", async () => {
+    btnSurpriseMe.addEventListener("click", async (e) => {
+        e.preventDefault(); // Previene que el link se abra
+
         const originalText = btnSurpriseMe.innerHTML;
         btnSurpriseMe.disabled = true;
 
@@ -13,6 +15,10 @@ if (btnSurpriseMe) {
         try {
             // 50/50 chance: main site or blog
             const useBlog = Math.random() < 0.5;
+
+            console.log(
+                useBlog ? "Eligiendo blog..." : "Eligiendo sitio principal..."
+            ); // Para debug
 
             if (useBlog) {
                 // Blog route
@@ -43,6 +49,7 @@ if (btnSurpriseMe) {
                 const randomUrl =
                     blogUrls[Math.floor(Math.random() * blogUrls.length)];
 
+                console.log("Yendo a:", randomUrl); // Para debug
                 window.location.href = randomUrl;
             } else {
                 // Main site route
@@ -76,6 +83,8 @@ if (btnSurpriseMe) {
                     mainSiteUrls[
                         Math.floor(Math.random() * mainSiteUrls.length)
                     ];
+
+                console.log("Yendo a:", randomUrl); // Para debug
                 window.location.href = randomUrl;
             }
         } catch (error) {

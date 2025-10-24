@@ -7,6 +7,36 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.63.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.62.0...v2.63.0) - 2025-10-23
+
+- Implementar botón Sopréndeme [`195479c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/195479c58cf1e1062d4377f4bfe6dcca07ed0d2c)
+- Renombrar /music/crucial-tracks a /music/playlist [`232db9f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/232db9f9338a1089cb72ff341449cbb3ba87c34f)
+- Corregir z-index [`46e56fb`](https://github.com/luiscarlospando/luiscarlospando.com/commit/46e56fbb64aac165de0d54726a17e2ccd3993202)
+- Agregar nueva página /support [`9ab49d1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9ab49d1d2b16a654dd297b11cd6b675ba921c52c)
+- Actualizar CHANGELOG [`5163714`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5163714d2c89f6a3a3fdb09712dd5af0a5184284)
+- Implementar botón Sopréndeme [`9b82d5a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9b82d5a47cc5ea9a8abe9b3fd46f0065020d22f2)
+- Agregar logo del IndieWeb [`044074c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/044074c6b08d63ca0c280508f66e57c9103ac88c)
+- Corregir z-index [`49867e2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/49867e2efa7ba13035d6ebbb52c28b11e333761b)
+- Implementar botón Sopréndeme [`b2a3aaf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b2a3aaf839e6d099b27160cc708ba2e2b0b74053)
+- Actualizar texto [`d60f7aa`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d60f7aaddd2c934a565cd36cfd23758cfa8d51c7)
+- Agregar logo del IndieWeb [`ac00736`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ac00736b0fca5638ab873b2e87a7941154c1287c)
+- Agregar logo del IndieWeb [`4f91ab4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4f91ab4405ad441bba33eb6245a4db4227d16eda)
+- Actualizar descripción de /playlist [`8fd51cc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8fd51ccf40021a59f7554fd1436dee7e5f3f827a)
+- Agregar utility class .w-100-fl [`7624caa`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7624caa1581cdbfd61aeeb8fa2f52a38d8627617)
+- Implementar botón Sopréndeme [`27f1e11`](https://github.com/luiscarlospando/luiscarlospando.com/commit/27f1e110c1658594e1720dc40249c60c532db8b7)
+- Arreglar link roto [`0cc909b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0cc909bdb56064337758ca71bc5e95f007b9878f)
+- Asegurarme de que no estemos bloqueando el crawling de Internet Archive (Wayback Machine) [`3191b7e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3191b7e3f5f4f48d7ca2a44f7131f448314e842a)
+- Agregar regla para headings inline [`4646f4c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4646f4c730f2aa1f584fff93d894c2c96cef6bc2)
+- Deploy v2.63.0 [`bf178ce`](https://github.com/luiscarlospando/luiscarlospando.com/commit/bf178ce506605821426055ac0271493e881bc3a4)
+- Implementar botón Sopréndeme [`d69f68c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d69f68cede7c07e96220bd7767dedc39f36944f7)
+- Actualizar botón del playlist [`75a8053`](https://github.com/luiscarlospando/luiscarlospando.com/commit/75a805389bc9fa25cb1bda5d9a84e44d59cc3a5c)
+- Arreglar link roto [`67a2acf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/67a2acfcbb4f99a20e21ae3a25e15fd9f64e6256)
+- Agregar logo del IndieWeb [`f4d9e9c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f4d9e9cf2adc5d278edc8ad141e76794abf473a2)
+- Corregir empalme de elemento p innecesario (que se inyectaba con Markdown) [`7777413`](https://github.com/luiscarlospando/luiscarlospando.com/commit/77774138de10652b67bd2db918608f3cf8ba0433)
+- Corregir typo [`9168bed`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9168bedf5182609801ea0492428f71c4ae43d41d)
+- Implementar botón Sopréndeme [`8b7c07c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8b7c07c9a76154e2edf95d7b9d7d0716021cce5a)
+- Agregar a Derek Sivers [`774e226`](https://github.com/luiscarlospando/luiscarlospando.com/commit/774e226caf08677a91dfc92cbd668278e5987f69)
+
 ## [`v2.62.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.61.2...v2.62.0) - 2025-10-20
 
 - Actualizar package.json [`7f616af`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7f616af8a561c3b6a6435511a58e4e7e04e55562)

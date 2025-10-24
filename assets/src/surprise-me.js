@@ -3,14 +3,14 @@ let cachedTotalPosts = null;
 
 if (btnSurpriseMe) {
     btnSurpriseMe.addEventListener("click", async (e) => {
-        e.preventDefault(); // Previene que el link se abra
+        e.preventDefault(); // Prevents the link from opening
 
         const originalText = btnSurpriseMe.innerHTML;
         btnSurpriseMe.disabled = true;
 
         // Change to loading icon
         btnSurpriseMe.innerHTML =
-            '<i class="fa-solid fa-spinner fa-spin"></i> Cargando...';
+            '<i class="fa-solid fa-spinner fa-spin"></i> Espera por favor...';
 
         try {
             // 50/50 chance: main site or blog
@@ -49,7 +49,7 @@ if (btnSurpriseMe) {
                 const randomUrl =
                     blogUrls[Math.floor(Math.random() * blogUrls.length)];
 
-                console.log("Yendo a:", randomUrl); // Para debug
+                console.log("Yendo a:", randomUrl); // Debugging
                 window.location.href = randomUrl;
             } else {
                 // Main site route
@@ -73,6 +73,7 @@ if (btnSurpriseMe) {
                     "https://luiscarlospando.com/music/playlist",
                     "https://luiscarlospando.com/newsletter",
                     "https://luiscarlospando.com/now",
+                    "https://luiscarlospando.com/photos",
                     "https://luiscarlospando.com/privacy",
                     "https://luiscarlospando.com/subscribe",
                     "https://luiscarlospando.com/support",
@@ -84,14 +85,14 @@ if (btnSurpriseMe) {
                         Math.floor(Math.random() * mainSiteUrls.length)
                     ];
 
-                console.log("Yendo a:", randomUrl); // Para debug
+                console.log("Yendo a:", randomUrl); // Debugging
                 window.location.href = randomUrl;
             }
         } catch (error) {
             console.error("Error fetching blog posts:", error);
             btnSurpriseMe.disabled = false;
             btnSurpriseMe.innerHTML = originalText;
-            alert("¡No se encontraron los posts del blog! ¿Volver a intentar?");
+            alert("¡Error al obtener los posts del blog! ¿Volver a intentar?");
         }
     });
 }

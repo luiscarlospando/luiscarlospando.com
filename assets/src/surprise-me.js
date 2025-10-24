@@ -3,9 +3,12 @@ let cachedTotalPosts = null;
 
 if (btnSurpriseMe) {
     btnSurpriseMe.addEventListener("click", async () => {
-        const originalText = btnSurpriseMe.textContent;
+        const originalText = btnSurpriseMe.innerHTML;
         btnSurpriseMe.disabled = true;
-        btnSurpriseMe.textContent = "Cargando...";
+
+        // Change to loading icon
+        btnSurpriseMe.innerHTML =
+            '<i class="fa-solid fa-spinner fa-spin"></i> Cargando...';
 
         try {
             // 50/50 chance: main site or blog
@@ -30,7 +33,13 @@ if (btnSurpriseMe) {
                 );
                 const posts = await response.json();
 
-                const blogUrls = posts.map((post) => post.link);
+                // Filter out RSS/feed URLs
+                const blogUrls = posts
+                    .map((post) => post.link)
+                    .filter(
+                        (url) => !url.includes("/feed") && !url.includes("/rss")
+                    );
+
                 const randomUrl =
                     blogUrls[Math.floor(Math.random() * blogUrls.length)];
 
@@ -72,8 +81,8 @@ if (btnSurpriseMe) {
         } catch (error) {
             console.error("Error fetching blog posts:", error);
             btnSurpriseMe.disabled = false;
-            btnSurpriseMe.textContent = originalText;
-            alert("¡No se pudieron cargarlos posts! ¿Volver a intentar?");
+            btnSurpriseMe.innerHTML = originalText;
+            alert("¡No se encontraron los posts del blog! ¿Volver a intentar?");
         }
     });
 }

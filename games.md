@@ -82,10 +82,14 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li class="mb-3">
+<a href="https://backloggd.com/games/angry-video-game-nerd-8-bit/" rel="noreferrer noopener" target="_blank">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9b5b.jpg" alt="Angry Video Game Nerd 8-bit (Nintendo Switch)" width="100">
+</a>
 </li>
 <li>
+<a href="https://backloggd.com/games/angry-video-game-nerd-8-bit/" rel="noreferrer noopener" target="_blank">
 <em>Angry Video Game Nerd 8-bit (Nintendo Switch)</em>
+</a>
 </li>
 </ul>
 </div>

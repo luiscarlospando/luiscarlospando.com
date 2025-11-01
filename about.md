@@ -112,7 +112,7 @@ Suscríbete a mis diferentes feeds:
 - [<i class="fas fa-rss"></i> RSS (Fotos)][27]
 - [<i class="fas fa-rss"></i> RSS (Links)][28]
 - [<i class="fas fa-rss"></i> RSS (Statuslog)][29]
-- [<i class="fas fa-rss"></i> RSS (Crucial Tracks)][30]
+- [<i class="fas fa-rss"></i> RSS (Playlist)][30]
 - [<i class="fa-brands fa-mastodon"></i> Mastodon][31]{:rel="me noreferrer noopener" target="_blank"}
 - [<i class="fa-solid fa-envelope"></i> Newsletter][32] <span class="badge badge-success pulse-subtle pulse-fast">Nuevo</span>
 

@@ -87,6 +87,7 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 | JCProbably | [jeddacp.com](https://jeddacp.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://notes.jeddacp.com/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
 | Jim Nielsen | [blog.jim-nielsen.com](https://blog.jim-nielsen.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blog.jim-nielsen.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Jose Munoz | [josemunozmatos.com](https://www.josemunozmatos.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://www.josemunozmatos.com/blog/rss.xml){:target="_blank" rel="noopener" .rss-link} |
+| Keenan (A Very Good Blog) | [[josemunozmatos.com](https://gkeenan.co/avgb/)](https://gkeenan.co/avgb/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://gkeenan.co/avgb/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Lean Rada | [leanrada.com](https://leanrada.com/){:target="_blank" rel="noopener"} | |
 | Limes.pink | [limes.pink](https://limes.pink/){:target="_blank" rel="noopener"} | |
 | LMNT | [lmnt.me](https://lmnt.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://lmnt.me/feed.xml){:target="_blank" rel="noopener" .rss-link} |

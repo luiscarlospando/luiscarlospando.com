@@ -113,7 +113,7 @@ Estos son algunos directorios de blogs y sitios.
 |--------|-----|-----|
 | Ye Olde Blogroll | [blogroll.org](https://blogroll.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blogroll.org/feed){:target="_blank" rel="noopener" .rss-link} |
 | powRSS | [powrss.com](https://powrss.com/){:target="_blank" rel="noopener"} | |
-| ¡Blog! ¡Blog! | [blogsencastellano.wordpress.com](https://blogsencastellano.wordpress.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blogsencastellano.wordpress.com/feed/){:target="_blank" rel="noopener" .rss-link} |
+| ¡Blog!¡Blog! | [blogblog.es](https://blogblog.es/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blogsencastellano.wordpress.com/feed/){:target="_blank" rel="noopener" .rss-link} |
 
 </div>
 

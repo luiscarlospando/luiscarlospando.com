@@ -25,7 +25,7 @@ permalink: /badges/
 </a>
 </li>
 <li class="list-inline-item mb-3">
-<a rel="noopener" href="https://blogsencastellano.wordpress.com/" target="_blank">
+<a rel="noopener" href="https://blogblog.es/" target="_blank">
 <img class="web-badge" width="88" height="31" src="{{ site.url }}/assets/images/buttons/blogblog.webp" alt="¡Blog! ¡Blog!" />
 </a>
 </li>

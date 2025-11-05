@@ -15,6 +15,10 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
 
 <p class="text-center">{{ page.description }}</p>
 
+<p class="text-center">
+Y [aquí está lo que estoy jugando actualmente][1].
+</p>
+
 <details>
 <summary>
 ## <i class="fa-solid fa-list-ul"></i> Tabla de contenido
@@ -973,3 +977,5 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
 ## <span id="nsw2"></span> Nintendo Switch 2
 
 Próximamente. 🙏
+
+[1]: /games/

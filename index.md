@@ -61,6 +61,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
     </li>
 </ul>
 
+{::nomarkdown}
 <nav>
     <ul class="list-inline">
         <li class="list-inline-item">
@@ -130,6 +131,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         </li>
     </ul>
 </nav>
+{:/nomarkdown}
 
 ---
 

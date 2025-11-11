@@ -7,6 +7,33 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.64.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.63.0...v2.64.0) - 2025-11-11
+
+- Agregar etiqueta nav [`8293950`](https://github.com/luiscarlospando/luiscarlospando.com/commit/82939503e0b758f85556f4c1cf42728611b27fa1)
+- Archivar /now 30-09-2025 [`00c49a3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/00c49a386db4c8e9cfa06f6ec8c6a3430fdc66d5)
+- Agregar Calendar.app [`9b80e6c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9b80e6cd54d8092b332c80bfff73d24c82290683)
+- Implementar botón para saltar a página directamente [`30ce0d2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/30ce0d214a0951f24bd1f1fe86100e47551b8e63)
+- Agregar Triode [`aac6599`](https://github.com/luiscarlospando/luiscarlospando.com/commit/aac6599e70a88bdace70e40c01d4eb56c779bac4)
+- Actualizar CHANGELOG [`ccc1fd4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ccc1fd40f996659c7b15db1d3902c1eb685efd0c)
+- Agregar /photos [`f828497`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f828497bf62aa9f0e3581b92ccaecc7ff9cb445b)
+- Agregar etiqueta nav [`de5fd56`](https://github.com/luiscarlospando/luiscarlospando.com/commit/de5fd56fcd63712f87a55dedc0a914662887bd5a)
+- Actualizar URL del directorio BlogBlog [`8e8bf61`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8e8bf6148e87da20edfb51e008a6e5f6d8343dc9)
+- Agregar Angry Video Game Nerd 8-bit (Nintendo Switch) [`b0625c2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b0625c2bd1e4bbf3c59b9ca2a088c1d447373813)
+- Implementar botón para saltar a página directamente [`43b8eb0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/43b8eb012f987ab3f74e9a3790caea1eed768688)
+- Cambiar botón de Signal por Discord [`7939343`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7939343aef0c08a13799894ce1df664a9a7ab217)
+- Agregar Angry Video Game Nerd 8-bit (Nintendo Switch) [`550b6b7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/550b6b74bf14c09808d7368db7dace307f21e017)
+- Deploy v2.64.0 [`75f2971`](https://github.com/luiscarlospando/luiscarlospando.com/commit/75f2971457ebe5d0da3eff44fb342240ca362307)
+- Corregir link [`3d9d4de`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3d9d4de41a69371bb3a13e1499feef672f29e0ca)
+- Agregar link a juegos actuales [`2a98a81`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2a98a81ddaa47d88a211847a83b8eaff0018e93e)
+- Agregar etiqueta nav [`3035bf9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3035bf9cf120ba014836e5c96b95a1d31f3e9f2d)
+- Actualizar URL del directorio BlogBlog [`b5bb478`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b5bb478fb67ace243925dc64e7e6801030a62224)
+- Agregar AVGB [`213ec5e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/213ec5e9ca28187d92394071099a846d6892bbef)
+- Corregir texto [`bbf0227`](https://github.com/luiscarlospando/luiscarlospando.com/commit/bbf022731d27cc14c74e3c1bc6cc6e5f57010189)
+- Actualizar fecha de la alerta de CV [`6eb84ba`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6eb84bac3cea7b55e1dd85317efc5f9118d9e15e)
+- Archivar /now 30-09-2025 [`1766215`](https://github.com/luiscarlospando/luiscarlospando.com/commit/176621555df010e61617830fce77d513c84bc004)
+- Actualizar textos [`8694ce1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8694ce1fcf9dff40b8aa1f44a31ca5156d4a06e4)
+- Agregar AVGB [`f13373b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f13373bc2c9b6ff360582f6574e129759e56e4b0)
+
 ## [`v2.63.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.62.0...v2.63.0) - 2025-10-23
 
 - Implementar botón Sopréndeme [`195479c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/195479c58cf1e1062d4377f4bfe6dcca07ed0d2c)

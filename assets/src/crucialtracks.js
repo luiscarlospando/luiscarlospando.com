@@ -290,12 +290,29 @@ function renderPaginatedTracks() {
 
 // Handle page navigation
 function handlePageChange(newPage) {
+    const totalPages = Math.ceil(allItems.length / ITEMS_PER_PAGE);
+
+    // Validate page number
+    if (newPage < 1 || newPage > totalPages) {
+        return;
+    }
+
     currentPage = newPage;
     updateURL(currentPage);
     renderPaginatedTracks();
     setupPagination();
     setupAudioPlayers(); // Re-setup audio players after pagination
     document.getElementById("tracks")?.scrollIntoView({ behavior: "smooth" });
+}
+
+// Handle page jump from input
+function handlePageJump() {
+    const input = document.getElementById("pageJumpInput");
+    const page = parseInt(input.value, 10);
+
+    if (!isNaN(page) && page > 0) {
+        handlePageChange(page);
+    }
 }
 
 // Setup pagination buttons
@@ -316,8 +333,23 @@ function setupPagination() {
     <div class="pagination-info" style="margin-bottom: 1rem;">
       Página ${currentPage} de ${totalPages} (${allItems.length} canciones)
     </div>
-    <div class="pagination-controls" style="display: flex; justify-content: center; gap: 0.5rem;">
+    <div class="pagination-controls" style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
       <button id="prevPage" class="btn btn-primary" aria-label="Anterior" ${currentPage === 1 ? "disabled" : ""}>« Anterior</button>
+
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <label for="pageJumpInput" style="margin: 0; white-space: nowrap;">Ir a página:</label>
+        <input
+          type="number"
+          id="pageJumpInput"
+          min="1"
+          max="${totalPages}"
+          value="${currentPage}"
+          style="width: 70px; padding: 0.375rem 0.5rem; border: 1px solid #ced4da; border-radius: 0.25rem;"
+          aria-label="Número de página"
+        >
+        <button id="pageJumpBtn" class="btn btn-secondary" aria-label="Ir">Ir</button>
+      </div>
+
       <button id="nextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>
     </div>
   `;
@@ -327,9 +359,24 @@ function setupPagination() {
     document.getElementById("prevPage")?.addEventListener("click", () => {
         if (currentPage > 1) handlePageChange(currentPage - 1);
     });
+
     document.getElementById("nextPage")?.addEventListener("click", () => {
         if (currentPage < totalPages) handlePageChange(currentPage + 1);
     });
+
+    // Page jump button
+    document
+        .getElementById("pageJumpBtn")
+        ?.addEventListener("click", handlePageJump);
+
+    // Allow Enter key in input
+    document
+        .getElementById("pageJumpInput")
+        ?.addEventListener("keypress", (e) => {
+            if (e.key === "Enter") {
+                handlePageJump();
+            }
+        });
 }
 
 // Error handling

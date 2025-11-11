@@ -336,7 +336,7 @@ function setupPagination() {
     <div class="pagination-controls" style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
       <button id="prevPage" class="btn btn-primary" aria-label="Anterior" ${currentPage === 1 ? "disabled" : ""}>« Anterior</button>
 
-      <div style="display: flex; align-items: center; gap: 0.5rem;">
+      <div style="display: flex; align-items: center; gap: 0.5rem; margin: 0 0.5rem;">
         <label for="pageJumpInput" style="margin: 0; white-space: nowrap;">Ir a página:</label>
         <input
           type="number"
@@ -347,7 +347,7 @@ function setupPagination() {
           style="width: 70px; padding: 0.375rem 0.5rem; border: 1px solid #ced4da; border-radius: 0.25rem;"
           aria-label="Número de página"
         >
-        <button id="pageJumpBtn" class="btn btn-secondary" aria-label="Ir">Ir</button>
+        <button id="pageJumpBtn" class="btn btn-primary" aria-label="Ir">Ir</button>
       </div>
 
       <button id="nextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>

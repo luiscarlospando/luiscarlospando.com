@@ -899,6 +899,36 @@ a.bmac {
 }
 
 /* ==========================================================================
+   GUESTBOOKS
+   ========================================================================== */
+
+.guestbook-message {
+    background-color: $cardBgColor;
+    border: 1px solid $cardBorderColor;
+    border-radius: $borderRadius;
+    box-shadow: 0px 0px 160px $cardBoxShadowColor;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+
+    p {
+        font-family: "Raleway", sans-serif;
+        line-height: $headings-lh;
+        letter-spacing: 0;
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+
+    blockquote {
+        font-family: "Libre Baskerville", serif;
+        font-size: 1rem;
+        line-height: 1.8;
+        color: $mainColor;
+        margin: 0;
+    }
+}
+
+/* ==========================================================================
    ANIMATION UTILITIES
    ========================================================================== */
 

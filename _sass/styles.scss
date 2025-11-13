@@ -907,12 +907,17 @@ a.bmac {
     border: 1px solid $cardBorderColor;
     border-radius: $borderRadius;
     box-shadow: 0px 0px 160px $cardBoxShadowColor;
+    flex: 1 1 auto;
+    margin-bottom: 1rem;
     overflow: hidden;
+    padding: 1.25rem;
     position: relative;
     z-index: 1;
 
     p {
+        border-left: none;
         font-family: "Raleway", sans-serif;
+        font-style: normal;
         line-height: $headings-lh;
         letter-spacing: 0;
         font-size: 1.25rem;

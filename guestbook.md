@@ -56,7 +56,7 @@ last-modified-at: <span id="last-updated-at">2025-08-06 16:50:00</span>
 </div>
 </div>
 <div id="guestbooks___guestbook-made-with" class="text-center">
-<small>Hecho usando <a rel="noreferrer noopener" target="_blank" href="https://guestbooks.meadow.cafe">Guestbooks</a></small>
+<small>Hecho con cariño usando <a rel="noreferrer noopener" target="_blank" href="https://guestbooks.meadow.cafe">Guestbooks</a></small>
 </div>
 <hr style="margin: 1em 0;"/>
 <h2 id="guestbooks___guestbook-messages-header">Mensajes</h2>

@@ -57,7 +57,7 @@ Estoy orgulloso de ser parte del [Internet independiente y descentralizado][5]{:
 
 En la web comercial, estamos también sometidos a sus reglas y políticas, si no seguimos sus reglas pueden bloquearnos nuestras cuentas y/o contenido (¿eso no es una real libertad de expresión, verdad?). Así que yo prefiero no ser parte de ese sistema ni invertir mi tiempo en crear contenido para ellos.
 
-Todo esto lo menciono generar consciencia de que ahí no tenemos control real, ni somos propietarios de nuestro contenido y/o cuentas (aunque nos hagan creer eso).
+Todo esto lo menciono para generar consciencia de que ahí no tenemos control real, ni somos propietarios de nuestro contenido y/o cuentas (aunque nos hagan creer eso).
 
 En el IndieWeb podemos subir contenido, crear páginas, compartir enlaces, comentar y mucho más, aparte de que la comunidad es súper inclusiva y colaborativa.
 

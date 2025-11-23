@@ -7,6 +7,20 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.64.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.64.0...v2.64.1) - 2025-11-22
+
+- Agregar portada placeholder para portadas no existentes [`b3af90b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b3af90bd7a667637bcf9c6a68cb92d4fc1c6882f)
+- Estilizar mensajes del Guestbook [`924912c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/924912c66be56956d9d61bd82cfcb80a67d2b8ac)
+- Actualizar CHANGELOG [`02af502`](https://github.com/luiscarlospando/luiscarlospando.com/commit/02af502b2451aeb50a297c968acdb1d0ec39a0b2)
+- Estilizar mensajes del Guestbook [`f3f058c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f3f058ca3a0c7c494d4109541b453847288c8e60)
+- Estilizar mensajes del Guestbook [`9897be6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9897be6a0422484ea87257d9a72518735f57529a)
+- Estilizar mensajes del Guestbook [`3d0951a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3d0951a1e07b13bc2090c5141f99457926977a65)
+- Actualizar íconos de botones [`3731181`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3731181a7f110292f7846aa45a7f10f533ec2d66)
+- Deploy v2.64.1 [`f2b59cc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f2b59cc5ef73358add43557967b6825e8000e1c7)
+- Corregir error gramatical [`6b01f32`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6b01f32b2caefbc7c00706d986336197724e9164)
+- Actualizar leyenda de Guestbooks [`4868aa9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4868aa9d5337f371a9fc22a3ce3b8eb7d94e5f6d)
+- Agregar a Robert Birming [`2307ca1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2307ca1ef688008c7851a9365ad564bdd8ffa676)
+
 ## [`v2.64.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.63.0...v2.64.0) - 2025-11-11
 
 - Agregar etiqueta nav [`8293950`](https://github.com/luiscarlospando/luiscarlospando.com/commit/82939503e0b758f85556f4c1cf42728611b27fa1)

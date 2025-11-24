@@ -97,7 +97,38 @@ function extractYouTubeEmbed(html) {
     const embedDiv = doc.querySelector('div[style*="position: relative"]');
 
     if (embedDiv) {
-        return DOMPurify.sanitize(embedDiv.outerHTML);
+        // Configure DOMPurify to allow iframes and necessary attributes
+        const cleanHTML = DOMPurify.sanitize(embedDiv.outerHTML, {
+            ADD_TAGS: ["iframe"],
+            ADD_ATTR: [
+                "allow",
+                "allowfullscreen",
+                "frameborder",
+                "scrolling",
+                "src",
+                "style",
+            ],
+        });
+        return cleanHTML;
+    }
+
+    // Fallback: try to find any iframe with youtube.com
+    const iframe = doc.querySelector('iframe[src*="youtube.com"]');
+    if (iframe) {
+        // Create a wrapper div with responsive styling
+        const wrapper = `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">${iframe.outerHTML}</div>`;
+        const cleanHTML = DOMPurify.sanitize(wrapper, {
+            ADD_TAGS: ["iframe"],
+            ADD_ATTR: [
+                "allow",
+                "allowfullscreen",
+                "frameborder",
+                "scrolling",
+                "src",
+                "style",
+            ],
+        });
+        return cleanHTML;
     }
 
     return null;

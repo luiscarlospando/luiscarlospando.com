@@ -75,6 +75,34 @@ function decodeHTMLEntities(text) {
     return textarea.value;
 }
 
+// Function to check if item has YouTube embed
+function hasYouTubeEmbed(item) {
+    // Check if note contains YouTube embed
+    if (item.note && item.note.includes("youtube.com/embed")) {
+        return true;
+    }
+    // Check if Apple Music fields are missing (indicates non-Apple Music source)
+    if (!item.preview_url && !item.artwork_url) {
+        return true;
+    }
+    return false;
+}
+
+// Function to extract YouTube embed from note HTML
+function extractYouTubeEmbed(html) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, "text/html");
+
+    // Find the div with the YouTube iframe
+    const embedDiv = doc.querySelector('div[style*="position: relative"]');
+
+    if (embedDiv) {
+        return DOMPurify.sanitize(embedDiv.outerHTML);
+    }
+
+    return null;
+}
+
 function extractQuestionContent(html) {
     // Create a DOM parser to read the HTML string
     const parser = new DOMParser();
@@ -230,16 +258,7 @@ function renderPaginatedTracks() {
     list.innerHTML = items
         .map((item, index) => {
             const machineDate = dayjs(item.created).format("YYYY-MM-DD");
-
-            const artworkHTML = item.artwork_url
-                ? `<img src="${item.artwork_url}" data-toggle="tooltip" data-placement="top" alt="${item.song}" title="${item.song}" class="track-artwork rounded mb-4 mb-md-0 img-fluid">`
-                : "";
-
-            const audioHTML = item.preview_url
-                ? `<audio controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
-                : "";
-
-            const separator = index < items.length - 1 ? "<hr>" : "";
+            const isYouTube = hasYouTubeEmbed(item);
 
             let newBadgeHTML = "";
             if (item.id === newestItemId) {
@@ -251,6 +270,52 @@ function renderPaginatedTracks() {
           </li>`;
             }
 
+            const separator = index < items.length - 1 ? "<hr>" : "";
+
+            // Render YouTube embed version
+            if (isYouTube) {
+                const youtubeEmbed = extractYouTubeEmbed(item.note);
+
+                return `
+        <li class="mb-4">
+          <ul class="list-inline mb-3">
+            <li class="list-inline-item">
+              <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener">
+                <time datetime="${machineDate}">${formatDate(item.created)}</time>
+              </a>
+            </li>
+            ${newBadgeHTML}
+          </ul>
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-12">
+                  ${youtubeEmbed || ""}
+                </div>
+                <div class="col-12 mt-3">
+                  <div class="info">
+                    <h2 style="margin: 0 0 0.13em !important;">${item.song}</h2>
+                    <p>${item.artist}</p>
+                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          ${extractQuestionContent(item.note)}
+        </li>
+        ${separator}`;
+            }
+
+            // Render standard Apple Music version
+            const artworkHTML = item.artwork_url
+                ? `<img src="${item.artwork_url}" data-toggle="tooltip" data-placement="top" alt="${item.song}" title="${item.song}" class="track-artwork rounded mb-4 mb-md-0 img-fluid">`
+                : "";
+
+            const audioHTML = item.preview_url
+                ? `<audio controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
+                : "";
+
             return `
         <li class="mb-4">
           <ul class="list-inline mb-3">
@@ -259,7 +324,8 @@ function renderPaginatedTracks() {
                 <time datetime="${machineDate}">${formatDate(item.created)}</time>
               </a>
             </li>
-            ${newBadgeHTML} </ul>
+            ${newBadgeHTML}
+          </ul>
           <div class="card mb-4">
             <div class="card-body">
               <div class="row">

@@ -7,6 +7,13 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.65.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.64.1...v2.65.0) - 2025-11-24
+
+- Agregar soporte para posts que contienen embeds de YouTube [`a9dd4e5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a9dd4e55065213cd56f5f43c399093a743e12fe9)
+- Agregar soporte para posts que contienen embeds de YouTube [`fc400f1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/fc400f13c9ad83dfaf2a7f1ae7783ad561eec4c9)
+- Actualizar CHANGELOG [`e1ace72`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e1ace72a20d2ea08e4e957104cf1df88cc5ccbef)
+- Deploy v2.65.0 [`3fe339d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3fe339df31da01b92ec3460f291fafbe5a591ee7)
+
 ## [`v2.64.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.64.0...v2.64.1) - 2025-11-22
 
 - Agregar portada placeholder para portadas no existentes [`b3af90b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b3af90bd7a667637bcf9c6a68cb92d4fc1c6882f)

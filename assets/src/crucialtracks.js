@@ -264,7 +264,20 @@ async function displayTracks() {
 async function fetchTracksJSON() {
     const response = await fetch(TRACKS_API);
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-    return await response.json();
+    const data = await response.json();
+
+    // Map the JSON feed structure to our expected format
+    return data.items.map((item) => ({
+        id: item.id,
+        link: item.url,
+        song: item._song_details.song,
+        artist: item._song_details.artist,
+        note: item.content_html,
+        created: item.date_published,
+        artwork_url: item._song_details.artwork_url,
+        preview_url: item._song_details.preview_url,
+        apple_music_url: item._song_details.apple_music_url,
+    }));
 }
 
 // Format date using dayjs

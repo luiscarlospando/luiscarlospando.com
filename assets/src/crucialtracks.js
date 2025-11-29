@@ -306,6 +306,7 @@ function renderPaginatedTracks() {
             // Render YouTube embed version
             if (isYouTube) {
                 const youtubeEmbed = extractYouTubeEmbed(item.note);
+                const questionAnswer = extractQuestionContent(item.note);
 
                 return `
         <li class="mb-4">
@@ -333,7 +334,7 @@ function renderPaginatedTracks() {
               </div>
             </div>
           </div>
-          ${extractQuestionContent(item.note)}
+          ${questionAnswer}
         </li>
         ${separator}`;
             }

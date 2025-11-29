@@ -139,9 +139,25 @@ function extractQuestionContent(html) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, "text/html");
 
-    // Check for the specific div used in Q&A posts
-    const contentDiv = doc.querySelector("div");
-    // If no div is found, search in the main body, this handles both cases
+    // For YouTube posts, skip the first div (which contains the iframe)
+    // and look for the second div which contains the content
+    const allDivs = doc.querySelectorAll("div");
+    let contentDiv = null;
+
+    // Find the div that doesn't contain an iframe (that's our content div)
+    for (const div of allDivs) {
+        if (!div.querySelector("iframe")) {
+            contentDiv = div;
+            break;
+        }
+    }
+
+    // If no content div found, fall back to the original logic
+    if (!contentDiv) {
+        contentDiv = doc.querySelector("div");
+    }
+
+    // If no div is found, search in the main body
     const mainContainer = contentDiv || doc.body;
     const paragraphs = mainContainer.querySelectorAll("p");
 

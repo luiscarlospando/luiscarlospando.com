@@ -266,17 +266,23 @@ async function fetchTracksJSON() {
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     const data = await response.json();
 
+    // Check if data has the expected structure
+    if (!data.items || !Array.isArray(data.items)) {
+        console.error("Unexpected API response structure:", data);
+        throw new Error("Invalid API response structure");
+    }
+
     // Map the JSON feed structure to our expected format
     return data.items.map((item) => ({
         id: item.id,
         link: item.url,
-        song: item._song_details.song,
-        artist: item._song_details.artist,
-        note: item.content_html,
+        song: item._song_details?.song || "Unknown Song",
+        artist: item._song_details?.artist || "Unknown Artist",
+        note: item.content_html || "",
         created: item.date_published,
-        artwork_url: item._song_details.artwork_url,
-        preview_url: item._song_details.preview_url,
-        apple_music_url: item._song_details.apple_music_url,
+        artwork_url: item._song_details?.artwork_url || null,
+        preview_url: item._song_details?.preview_url || null,
+        apple_music_url: item._song_details?.apple_music_url || null,
     }));
 }
 

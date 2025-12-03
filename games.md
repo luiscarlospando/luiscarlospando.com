@@ -28,7 +28,7 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <div class="row">
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
-<li class="mb-3">
+<li class="mb-2">
 <a href="/games/mario-kart/">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213p.jpg" alt="Mario Kart 8 Deluxe" width="100">
 </a>
@@ -58,7 +58,7 @@ Código del torneo: <code>{{ site.m7gp_code }}</code>
 <div class="row">
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
-<li class="mb-3">
+<li class="mb-2">
 <a href="/games/splatoon/">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" alt="Splatoon 3" width="100">
 </a>
@@ -85,29 +85,29 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 <div class="row">
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
-<li class="mb-3">
+<li class="mb-2">
 <a href="https://backloggd.com/games/star-fox-64/" rel="noreferrer noopener" target="_blank">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2e4k.jpg" alt="Star Fox 64" width="100">
 </a>
 </li>
-<li class="mb-3">
+<li class="mb-4">
 <a href="https://backloggd.com/games/star-fox-64/" rel="noreferrer noopener" target="_blank">
 <em>Star Fox 64</em>
 </a>
 </li>
 
-<li class="mb-3">
+<li class="mb-2">
 <a href="https://backloggd.com/games/mega-man-x/" rel="noreferrer noopener" target="_blank">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3tu2.jpg" alt="Mega Man X" width="100">
 </a>
 </li>
-<li class="mb-3">
+<li class="mb-4">
 <a href="https://backloggd.com/games/mega-man-x/" rel="noreferrer noopener" target="_blank">
 <em>Mega Man X</em>
 </a>
 </li>
     
-<li class="mb-3">
+<li class="mb-2">
 <a href="https://backloggd.com/games/angry-video-game-nerd-8-bit/" rel="noreferrer noopener" target="_blank">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9b5b.jpg" alt="Angry Video Game Nerd 8-bit (Nintendo Switch)" width="100">
 </a>

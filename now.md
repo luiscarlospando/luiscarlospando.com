@@ -3,6 +3,7 @@ layout: page
 title: Now
 description: Esta es mi página `/now` y aquí voy poniendo en lo que ando actualmente.
 image: /assets/images/logo.png
+tags: now now-page current-status
 permalink: /now/
 last-modified-at: <span id="now-updated"></span>
 current-location: Chihuahua, México

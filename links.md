@@ -3,6 +3,7 @@ layout: page
 title: Links
 description: Esta es mi colección de links interesantes que me voy encontrando navegando en Internet. Piensa en ellos como si fueran "retweets". La mayoría de los links son en inglés.
 image: /assets/images/logo.png
+tags: links linkroll favorite-links bookmarks raindrop.io
 permalink: /links/
 ---
 

@@ -3,6 +3,7 @@ layout: page
 title: Newsletter
 description: Este es mi newsletter personal, un espacio donde comparto lo que publico en mi blog, ya sea ideas, proyectos o reflexiones. Si te late la idea de recibirlo todo directo en tu bandeja de entrada, este es el lugar para ti. 👌
 image: /assets/images/logo.png
+tags: newsletter, newsletters
 permalink: /newsletter/
 last-modified-at: <span id="last-updated-at">2025-08-06 16:50:00</span>
 ---

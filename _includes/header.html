@@ -114,6 +114,12 @@
     <link rel="webmention" href="https://webmention.io/{{ site.domain }}/webmention" />
     <link rel="pingback" href="https://webmention.io/{{ site.domain }}/xmlrpc" />
 
+    <!-- Octothorpe -->
+    <link rel="preload" as="fetch" href="https://octothorp.es/?uri={% if page.url == '/' %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">
+    {% if page.tags %}
+    <link rel="octo:octothorpes" href="{{ page.tags | join: ', ' | escape }}" >
+    {% endif %}
+
     {% css_asset_tag global %}
     - /assets/css/jquery.mmenu.all.css
     - /assets/css/jquery.mmenu.themes.css

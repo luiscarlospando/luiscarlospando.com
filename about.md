@@ -2,6 +2,7 @@
 layout: page
 title: Acerca de
 description: Este URL ha sido mi hogar en línea desde octubre del 2014 aproximadamente. Este sitio lo hice para que sea como un hub central en donde pueda escribir y enlazar todos mis demás perfiles y proyectos.
+tags: about-me acerca-de
 permalink: /about/
 ---
 

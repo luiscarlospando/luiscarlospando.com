@@ -3,6 +3,7 @@ layout: page
 title: Contacto
 description: Gracias por tu interés en ponerte en contacto conmigo. 🥰
 image: /assets/images/logo.png
+tags: contact
 permalink: /contact/
 ---
 

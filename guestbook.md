@@ -3,6 +3,7 @@ layout: page
 title: Guestbook
 description: Recordemos un rato lo divertido que era el Internet en los 2000s 🌎. Déjame un mensaje o un saludo por aquí y si quieres también puedes leer los mensajes de los demás. ✌️😉
 image: /assets/images/logo.png
+tags: guestbook libro-de-visitas
 permalink: /guestbook/
 last-modified-at: <span id="last-updated-at">2025-08-06 16:50:00</span>
 ---

@@ -3,6 +3,7 @@ layout: page
 title: Apoya mi sitio
 description: Mi sitio es un hobby que hago por gusto, sin intención de vivir de él. Pero la realidad es que mantener un sitio web cuesta dinero, así que si te gusta lo que hago aquí, eres libre de apoyarme con lo que gustes.
 image: /assets/images/logo.png
+tags: support support-me apoyo apóyame buy-me-a-coffee
 permalink: /support/
 ---
 

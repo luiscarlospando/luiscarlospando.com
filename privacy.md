@@ -3,6 +3,7 @@ layout: page
 title: Política de Privacidad
 description: Me interesa tu privacidad y tu seguridad. Aquí describo lo que se recolecta en mi sitio web.
 image: /assets/images/logo.png
+tags: privacy privacy-policy privacidad politica-de-privacidad
 permalink: /privacy/
 last-modified-at: <span id="last-updated-at">2025-08-19 9:35:00</span>
 ---

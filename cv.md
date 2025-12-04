@@ -3,6 +3,7 @@ layout: page
 title: Currículum Vitae
 description: Currículum de Luis Carlos Pando, desarrollador frontend en Chihuahua, México, con más de 15 años de experiencia en tecnologías web, trabajando con HTML, CSS, JavaScript, PHP, React y más.
 image: /assets/images/logo.png
+tags: cv resume currículum
 permalink: /cv/
 ---
 

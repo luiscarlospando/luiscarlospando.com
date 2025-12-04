@@ -3,6 +3,7 @@ layout: page
 title: Development Stuff
 description: Estos son mis perfiles de developer. 👨‍💻
 image: /assets/images/logo.png
+tags: developer development pgp-key github gitlab pastebin stack-overflow dev-to codepen
 permalink: /developer/
 ---
 

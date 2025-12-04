@@ -3,6 +3,7 @@ layout: page
 title: Mis juegos favoritos
 description: Esta es una lista de mis juegos favoritos.
 image: /assets/images/logo-games.png
+tags: games video-games favorite-games favorite-video-games
 permalink: /games/favorites/
 last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
 ---

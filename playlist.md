@@ -3,6 +3,7 @@ layout: page
 title: Playlist
 description: Un playlist que actualizo diariamente con música que voy agregando a mi perfil de Crucial Tracks desde septiembre de 2025.
 image: /assets/images/logo.png
+tags: playlist music música music-playlist crucial-tracks apple-music apple-music-playlist
 permalink: /music/playlist/
 ---
 

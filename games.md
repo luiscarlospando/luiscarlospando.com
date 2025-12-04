@@ -3,6 +3,7 @@ layout: page
 title: Games
 description: Esto es lo que ando jugando actualmente y mis perfiles de Discord, Nintendo Switch y Backloggd.
 image: /assets/images/logo-games.png
+tags: games video-games current-games currently-playing
 permalink: /games/
 last-modified-at: <span id="last-updated-at">2025-12-03 12:39:00</span>
 ---

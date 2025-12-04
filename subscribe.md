@@ -3,7 +3,7 @@ layout: page
 title: Suscríbete
 description: Puedes suscribirte a mi sitio con estos RSS feeds, en Mastodon o a través de mi Newsletter para recibir actualizaciones de mi contenido.
 image: /assets/images/logo.png
-tags: subscribe rss rss feeds mastodon newsletter
+tags: [subscribe, rss, rss-feeds, mastodon, newsletter, newsletters]
 permalink: /subscribe/
 last-modified-at: <span id="last-updated-at">2025-09-30 21:03:00</span>
 ---

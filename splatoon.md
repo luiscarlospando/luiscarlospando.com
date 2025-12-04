@@ -3,7 +3,7 @@ layout: page
 title: Splatoon
 description: En Mode 7 jugamos mucho Splatoon, casi todos los días por las noches.
 image: /assets/images/splatoon-3-flyer.png
-tags: splatoon nintendo
+tags: [splatoon, nintendo]
 permalink: /games/splatoon/
 ---
 

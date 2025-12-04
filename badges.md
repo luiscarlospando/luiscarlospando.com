@@ -3,7 +3,7 @@ layout: page
 title: Badge Wall
 description: Esta es mi colección de botones 88x31 (o web badges).
 image: /assets/images/logo.png
-tags: badges web-badges
+tags: [badges, web-badges]
 permalink: /badges/
 ---
 

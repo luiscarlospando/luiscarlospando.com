@@ -5,7 +5,7 @@
 layout: default
 description: Mijo (/ˈmiːhoʊ/). Punk dude coding his way through chaos. Still losing followers since 2007.
 image: /assets/images/logo.png
-tags: home homepage luis-carlos-pando mijo
+tags: [home, homepage, portada, inicio, luis-carlos-pando, mijo]
 ---
 
 <h1 class="text-center">{{ site.title }}</h1>

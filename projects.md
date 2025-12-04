@@ -3,7 +3,7 @@ layout: page
 title: Proyectos
 description: Algunas cosas que he hecho para mi mismo y que pueden ser de utilidad para alguien más.
 image: /assets/images/logo.png
-tags: projects proyectos
+tags: [projects, personal-projects, proyectos, proyectos-personales]
 permalink: /projects/
 last-modified-at: <span id="last-updated-at">2025-05-03 00:03:55</span>
 ---

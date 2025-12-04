@@ -2,6 +2,7 @@
 layout: page
 title: Changelog
 image: /assets/images/logo.png
+tags: [changelog, changelogs]
 permalink: /changelog/
 ---
 

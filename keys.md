@@ -3,7 +3,7 @@ layout: page
 title: Llaves públicas
 description: Estas son mis llaves públicas. 🔑
 image: /assets/images/logo.png
-tags: pgp pgp-key ssh ssh-key keys public-keys
+tags: [pgp, pgp-key, ssh, ssh-key, keys, public-keys]
 permalink: /keys/
 ---
 

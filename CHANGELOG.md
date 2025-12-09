@@ -8,6 +8,40 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.65.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.65.0...v2.65.1) - 2025-12-09
+
+- Agregar desplegado de pregunta/respuesta a posts de YouTube [`5eb8d64`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5eb8d64ed1a909ef630e98727b9e7d9b2a92025e)
+- Agregar desplegado de pregunta/respuesta a posts de YouTube [`54f3141`](https://github.com/luiscarlospando/luiscarlospando.com/commit/54f3141733b5c80d3e5ff1d78fc3a1f768f66dcc)
+- Agregar estilos para luces de Navidad [`8ead816`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8ead816ae409b46ced75253bb03d2b0dc850ef83)
+- Archivar /now 30-10-2025 [`03d75d9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/03d75d9af987c72c5dac31d013c50f6ce2455675)
+- Agregar markup para luces de Navidad [`81f3688`](https://github.com/luiscarlospando/luiscarlospando.com/commit/81f36888b063e0a4d10bd470134b59ee41a7c1db)
+- Agregar tags [`2c0b883`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2c0b88332a023d1424c80cb007f83fb4e39fb028)
+- Agregar markup para luces de Navidad [`5e6783d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5e6783d5ec45500cc9fdbcc092b2108e0e658638)
+- Actualizar juegos [`f7ed647`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f7ed647c6afd9869bead37fe8a8bd0d98fc09f4f)
+- Agregar desplegado de pregunta/respuesta a posts de YouTube [`82066bf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/82066bf97be00bc1678c75ca13a7d26989950503)
+- Agregar tags [`6dd441a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6dd441af8584685f961452e8ce0326f720f7a5fa)
+- Agregar desplegado de pregunta/respuesta a posts de YouTube (debug) [`3d0ee03`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3d0ee03b2b7a0f0f14193547028b53072a6c0b7c)
+- Agregar desplegado de pregunta/respuesta a posts de YouTube (debug) [`fddb94b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/fddb94b50378989613ed8115fcbd21564afe1438)
+- Agregar mensaje cuando se llega a la 5ta. página [`bb57058`](https://github.com/luiscarlospando/luiscarlospando.com/commit/bb57058e54a88e2ffa69a58c7a1192770f71162f)
+- Agregar desplegado de pregunta/respuesta a posts de YouTube [`f1fd1b7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f1fd1b7d2968934e218c76a26764984a18b083ef)
+- Ajustar separación de elementos [`0bcd4ec`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0bcd4ec889356f3ce8ae1f1cba64c0531562ad24)
+- Agregar badge de Octothorpe [`e01c7d4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e01c7d4ca280ff045c1052a82b74dc21e7b55826)
+- Actualizar CHANGELOG [`f4c3f49`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f4c3f49a9d7fb2bbb6088a9b3a2afeb9950f83c9)
+- Add Octothorpe protocol support [`3ee4e05`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3ee4e058234e7156e6b554acbfe78b0fc2641c34)
+- Agregar badge de Octothorpe [`9950827`](https://github.com/luiscarlospando/luiscarlospando.com/commit/995082745d39a86f6e869d18c273352f6d72a5bc)
+- Agregar tags [`8f5219c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8f5219c4fefe2256e4823f557db302c131879f03)
+- Agregar margen inferior a todo el bloque de una galería mosaico [`94a3ad8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/94a3ad808e54455678b7b12bf0babd612070c94e)
+- Quitar margen inferior a figures en galerías mosaico [`17006b5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/17006b5e9b1b299a8827f9c3c96fc9e824d24136)
+- Recorrer todas las tags para generar un meta tag por separado para el Octothorpe protocol [`b4b1612`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b4b16125a964aea52fc2a149badff694a93b4e30)
+- Ocultar alerta de trabajo [`4719df8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4719df877b60b2aa7ed7ff4edbd9e0894fa781d9)
+- Reacomodar logo IndieWeb [`1f680f8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1f680f8bffcf18d299beb22d0752663c386b900e)
+- Agregar desplegado de pregunta/respuesta a posts de YouTube [`3ed2b99`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3ed2b99f67ac126f1087534103f63c19c30f143c)
+- Deploy v2.65.1 [`2ba07b3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2ba07b349bb5294956868ceb271fc1e9cd5a1f82)
+- Ajustar margen superior [`fc9ece0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/fc9ece03b707663d3090b00c86b472c8bb99ae3f)
+- Actualizar widget de Discord Presence [`7384a85`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7384a85c04dc47c07c4489e92d0ca3a72d51bbb0)
+- Agregar tags [`255a534`](https://github.com/luiscarlospando/luiscarlospando.com/commit/255a5346e11adec2d785c8cab16f37c2189307ab)
+- Agregar tags [`8f0b1b2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8f0b1b2ce7678c0416a0d654ff810785c12bbf40)
+
 ## [`v2.65.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.64.1...v2.65.0) - 2025-11-24
 
 - Agregar soporte para posts que contienen embeds de YouTube [`a9dd4e5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a9dd4e55065213cd56f5f43c399093a743e12fe9)

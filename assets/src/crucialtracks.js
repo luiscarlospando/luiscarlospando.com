@@ -450,6 +450,22 @@ function setupPagination() {
     container.className = "pagination";
     container.style.textAlign = "center";
 
+    // Check if we're on the last page (page 5)
+    const isLastPage = currentPage === totalPages;
+    const ctProfileMessage = isLastPage
+        ? `
+      <div class="card mb-4">
+        <div class="card-body text-center">
+          <p>
+            ¡Parece que llegaste al final! Aquí solo muestro las últimas 50 canciones, pero te invito a ir a
+            <a href="https://app.crucialtracks.org/profile/mijo?page=6" target="_blank" rel="noopener">mi perfil de Crucial Tracks</a>
+            para ver todas las canciones que he compartido.
+          </p>
+        </div>
+      </div>
+    `
+        : "";
+
     container.innerHTML = `
     <hr>
     <div class="pagination-info" style="margin-bottom: 1rem;">
@@ -474,6 +490,7 @@ function setupPagination() {
 
       <button id="nextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>
     </div>
+    ${ctProfileMessage}
   `;
 
     list.parentNode.insertBefore(container, list.nextSibling);

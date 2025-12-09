@@ -454,7 +454,7 @@ function setupPagination() {
     const isLastPage = currentPage === totalPages;
     const ctProfileMessage = isLastPage
         ? `
-      <div class="card mb-4">
+      <div class="card my-4">
         <div class="card-body text-center">
           <p>
             ¡Parece que llegaste al final! Aquí solo muestro las últimas 50 canciones, pero te invito a ir a

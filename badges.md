@@ -31,7 +31,7 @@ permalink: /badges/
 </a>
 </li>
 <li class="list-inline-item mb-3">
-<a rel="noopener" href="https://octothorp.es" target="_blank">
+<a rel="noopener" href="https://octothorp.es/explore?s=luiscarlospando.com" target="_blank">
 <img class="web-badge" width="88" height="31" src="https://octothorp.es/badge.png" alt="Badge for the Octothorpes main ring" />
 </a>
 </li>

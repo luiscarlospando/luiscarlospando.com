@@ -45,9 +45,7 @@ function setupAudioPlayers() {
     audioPlayers = [];
 
     // Find all audio elements and add event listeners
-    const audioElements = document.querySelectorAll(
-        "#lastfm-loved-tracks-grid audio"
-    );
+    const audioElements = document.querySelectorAll("#tracks audio");
     audioElements.forEach((audio) => {
         audioPlayers.push(audio);
 
@@ -64,21 +62,22 @@ function displayLastFmLovedTracks() {
     // Get current page from URL
     currentPage = getPageFromURL();
 
+    const container = document.getElementById("tracks");
+    if (!container) {
+        console.log("❌ #tracks no existe en el DOM");
+        return;
+    }
+
+    // Set loading state
+    container.innerHTML = `
+        <li class="loading-state">
+            <i class="fas fa-spinner fa-spin"></i> Cargando canciones favoritas...
+        </li>`;
+
     fetch("https://luiscarlospando.com/api/lastfmLovedTracks")
         .then((response) => response.json())
         .then((data) => {
-            // Check if the container exists on the page
-            const container = document.getElementById(
-                "lastfm-loved-tracks-grid"
-            );
-            if (!container) {
-                console.log("❌ #lastfm-loved-tracks-grid no existe en el DOM");
-                return;
-            }
-
-            console.log(
-                "✅ #lastfm-loved-tracks-grid existe en el DOM. Cargando canciones..."
-            );
+            console.log("✅ #tracks existe en el DOM. Cargando canciones...");
 
             // Get the list of tracks from the JSON response
             allTracks = data.lovedtracks.track;
@@ -94,88 +93,82 @@ function displayLastFmLovedTracks() {
             setupPagination();
             setupAudioPlayers();
         })
-        .catch((error) =>
-            console.error("Error fetching data from Last.fm:", error)
-        );
+        .catch((error) => {
+            console.error("Error fetching data from Last.fm:", error);
+            container.innerHTML = `<li>No se pudieron cargar las canciones. Por favor, actualiza la página.</li>`;
+        });
 }
 
 // Render paginated tracks
 function renderPaginatedTracks() {
-    const container = document.getElementById("lastfm-loved-tracks-grid");
-    if (!container) return;
+    const list = document.getElementById("tracks");
+    if (!list) return;
 
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const tracks = allTracks.slice(startIndex, endIndex);
 
-    // Clear container
-    container.innerHTML = "";
+    list.innerHTML = tracks
+        .map((track, index) => {
+            const artistName = track.artist.name;
+            const trackTitle = track.name;
 
-    // Iterate over each track to build the HTML
-    tracks.forEach((track) => {
-        const artistName = track.artist.name;
-        const trackTitle = track.name;
+            // Check if any image is available and not the placeholder
+            let albumArtUrl = "";
+            const hasRealImage = track.image.some(
+                (img) =>
+                    img["#text"] &&
+                    !img["#text"].includes("2a96cbd8b46e442fc41c2b86b821562f")
+            );
 
-        // Check if any image is available and not the placeholder
-        let albumArtUrl = "";
-        const hasRealImage = track.image.some(
-            (img) =>
-                img["#text"] &&
-                !img["#text"].includes("2a96cbd8b46e442fc41c2b86b821562f")
-        );
+            if (hasRealImage) {
+                // Get the extralarge image (index 3)
+                albumArtUrl = track.image[3]["#text"];
+            }
 
-        if (hasRealImage) {
-            // Get the extralarge image (index 3)
-            albumArtUrl = track.image[3]["#text"];
-        }
+            const trackUrl = track.url;
+            const previewUrl = track.preview_url;
 
-        const fullTitle = `${artistName} - ${trackTitle}`;
-        const trackUrl = track.url;
-        const previewUrl = track.preview_url;
+            // Use custom placeholder if album art URL is empty
+            const finalImageUrl =
+                albumArtUrl ||
+                "https://placehold.co/300x300?text=Portada+no+encontrada";
 
-        // Use custom placeholder if album art URL is empty
-        const finalImageUrl =
-            albumArtUrl ||
-            "https://placehold.co/300x300/1a1a2e/ffffff?text=" +
-                encodeURIComponent(artistName.substring(0, 1));
+            const artworkHTML = `<img src="${finalImageUrl}" data-toggle="tooltip" data-placement="top" alt="${trackTitle}" title="${trackTitle}" class="track-artwork rounded mb-4 mb-md-0 img-fluid">`;
 
-        // Create audio element if preview is available
-        const audioHTML = previewUrl
-            ? `<audio controls class="w-100 mt-2">
-                 <source src="${previewUrl}" type="audio/mp4">
-                 Tu navegador no soporta el elemento de audio.
-               </audio>`
-            : "";
+            const audioHTML = previewUrl
+                ? `<audio controls><source src="${previewUrl}" type="audio/mp4">Tu navegador no soporta el elemento de audio.</audio>`
+                : '<p class="text-muted"><em>Preview no disponible para esta canción</em></p>';
 
-        // Create container element for the grid column
-        const columnDiv = document.createElement("div");
-        // Add Bootstrap column classes
-        columnDiv.className = "col-6 col-md-4";
+            const separator = index < tracks.length - 1 ? "<hr>" : "";
 
-        // Create inner HTML
-        columnDiv.innerHTML = `
-              <a href="${trackUrl}" target="_blank" rel="noopener noreferrer">
-                <figure class="figure">
-                    <img
-                        src="${finalImageUrl}"
-                        class="thumb-album rounded img-fluid"
-                        data-toggle="tooltip"
-                        data-placement="top"
-                        title="${fullTitle}"
-                        alt="${fullTitle}"
-                        loading="lazy"
-                    />
-                    <figcaption class="figure-caption text-center">
-                        ${fullTitle}
-                    </figcaption>
-                </figure>
-              </a>
-              ${audioHTML}
-        `;
-
-        // Add the new column directly to the row container
-        container.appendChild(columnDiv);
-    });
+            return `
+                <li class="mb-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4 col-lg-3">
+                                    <div class="artwork">
+                                        <a href="${trackUrl}" target="_blank" rel="noopener">
+                                            ${artworkHTML}
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 col-lg-9">
+                                    <div class="info">
+                                        <h2 style="margin: 0 0 0.13em !important;">${trackTitle}</h2>
+                                        <p>${artistName}</p>
+                                        ${audioHTML}
+                                        <p><a href="${trackUrl}" target="_blank" rel="noopener">Abrir en Last.fm <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                ${separator}`;
+        })
+        .join("");
 
     // Tooltips initialization
     if (typeof $ !== "undefined" && $.fn.tooltip) {
@@ -198,15 +191,13 @@ function handlePageChange(newPage) {
     setupPagination();
     setupAudioPlayers();
 
-    // Scroll to top of the grid
-    document
-        .getElementById("lastfm-loved-tracks-grid")
-        ?.scrollIntoView({ behavior: "smooth" });
+    // Scroll to top of the list
+    document.getElementById("tracks")?.scrollIntoView({ behavior: "smooth" });
 }
 
 // Handle page jump from input
 function handlePageJump() {
-    const input = document.getElementById("lovedTracksPageJumpInput");
+    const input = document.getElementById("pageJumpInput");
     const page = parseInt(input.value, 10);
 
     if (!isNaN(page) && page > 0) {
@@ -217,66 +208,58 @@ function handlePageJump() {
 // Setup pagination buttons
 function setupPagination() {
     const totalPages = Math.ceil(allTracks.length / ITEMS_PER_PAGE);
-    const container = document.getElementById("lastfm-loved-tracks-grid");
-    if (!container) return;
+    const list = document.getElementById("tracks");
+    if (!list) return;
 
-    const existing = document.querySelector(".loved-tracks-pagination");
+    const existing = document.querySelector(".pagination");
     if (existing) existing.remove();
 
-    const paginationContainer = document.createElement("div");
-    paginationContainer.className = "loved-tracks-pagination col-12";
-    paginationContainer.style.textAlign = "center";
-    paginationContainer.style.marginTop = "2rem";
+    const container = document.createElement("div");
+    container.className = "pagination";
+    container.style.textAlign = "center";
 
-    paginationContainer.innerHTML = `
+    container.innerHTML = `
     <hr>
     <div class="pagination-info" style="margin-bottom: 1rem;">
       Página ${currentPage} de ${totalPages} (${allTracks.length} canciones)
     </div>
     <div class="pagination-controls" style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-      <button id="lovedTracksPrevPage" class="btn btn-primary" aria-label="Anterior" ${currentPage === 1 ? "disabled" : ""}>« Anterior</button>
+      <button id="prevPage" class="btn btn-primary" aria-label="Anterior" ${currentPage === 1 ? "disabled" : ""}>« Anterior</button>
 
       <div style="display: flex; align-items: center; gap: 0.5rem; margin: 0 0.5rem;">
-        <label for="lovedTracksPageJumpInput" style="margin: 0; white-space: nowrap;">Ir a página:</label>
+        <label for="pageJumpInput" style="margin: 0; white-space: nowrap;">Ir a página:</label>
         <input
           type="number"
-          id="lovedTracksPageJumpInput"
+          id="pageJumpInput"
           min="1"
           max="${totalPages}"
           value="${currentPage}"
           style="width: 70px; padding: 0.375rem 0.5rem; border: 1px solid #ced4da; border-radius: 0.25rem;"
           aria-label="Número de página"
         >
-        <button id="lovedTracksPageJumpBtn" class="btn btn-primary" aria-label="Ir">Ir</button>
+        <button id="pageJumpBtn" class="btn btn-primary" aria-label="Ir">Ir</button>
       </div>
 
-      <button id="lovedTracksNextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>
+      <button id="nextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>
     </div>
   `;
 
-    container.parentNode.insertBefore(
-        paginationContainer,
-        container.nextSibling
-    );
+    list.parentNode.insertBefore(container, list.nextSibling);
+
+    document.getElementById("prevPage")?.addEventListener("click", () => {
+        if (currentPage > 1) handlePageChange(currentPage - 1);
+    });
+
+    document.getElementById("nextPage")?.addEventListener("click", () => {
+        if (currentPage < totalPages) handlePageChange(currentPage + 1);
+    });
 
     document
-        .getElementById("lovedTracksPrevPage")
-        ?.addEventListener("click", () => {
-            if (currentPage > 1) handlePageChange(currentPage - 1);
-        });
-
-    document
-        .getElementById("lovedTracksNextPage")
-        ?.addEventListener("click", () => {
-            if (currentPage < totalPages) handlePageChange(currentPage + 1);
-        });
-
-    document
-        .getElementById("lovedTracksPageJumpBtn")
+        .getElementById("pageJumpBtn")
         ?.addEventListener("click", handlePageJump);
 
     document
-        .getElementById("lovedTracksPageJumpInput")
+        .getElementById("pageJumpInput")
         ?.addEventListener("keypress", (e) => {
             if (e.key === "Enter") {
                 handlePageJump();

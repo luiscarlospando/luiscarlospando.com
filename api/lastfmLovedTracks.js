@@ -16,6 +16,7 @@ export default async function handler(req, res) {
     try {
         const fetch = (await import("node-fetch")).default;
 
+        // Get loved tracks
         const response = await fetch(
             `https://ws.audioscrobbler.com/2.0/?method=user.getlovedtracks&user=${username}&api_key=${apiKey}&format=json&limit=18`
         );
@@ -34,8 +35,53 @@ export default async function handler(req, res) {
         }
 
         const data = await response.json();
-        console.log("Loved tracks data fetched successfully from Last.fm");
-        return res.status(200).json(data);
+        const tracks = data.lovedtracks.track;
+
+        // Enrich each track with album information
+        const enrichedTracks = await Promise.all(
+            tracks.map(async (track) => {
+                try {
+                    // Get track info to obtain album art
+                    const trackInfoResponse = await fetch(
+                        `https://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key=${apiKey}&artist=${encodeURIComponent(track.artist.name)}&track=${encodeURIComponent(track.name)}&format=json`
+                    );
+
+                    if (trackInfoResponse.ok) {
+                        const trackInfo = await trackInfoResponse.json();
+
+                        // If track info has album with images, use those
+                        if (
+                            trackInfo.track &&
+                            trackInfo.track.album &&
+                            trackInfo.track.album.image
+                        ) {
+                            return {
+                                ...track,
+                                image: trackInfo.track.album.image,
+                            };
+                        }
+                    }
+                } catch (error) {
+                    console.error(
+                        `Error fetching info for ${track.name}:`,
+                        error
+                    );
+                }
+
+                // Return original track if enrichment fails
+                return track;
+            })
+        );
+
+        console.log(
+            "Loved tracks data fetched and enriched successfully from Last.fm"
+        );
+        return res.status(200).json({
+            lovedtracks: {
+                ...data.lovedtracks,
+                track: enrichedTracks,
+            },
+        });
     } catch (error) {
         console.error("Error fetching Last.fm loved tracks:", error);
         return res

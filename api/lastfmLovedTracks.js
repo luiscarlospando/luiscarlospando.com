@@ -18,7 +18,7 @@ export default async function handler(req, res) {
 
         // Get loved tracks
         const response = await fetch(
-            `https://ws.audioscrobbler.com/2.0/?method=user.getlovedtracks&user=${username}&api_key=${apiKey}&format=json&limit=18`
+            `https://ws.audioscrobbler.com/2.0/?method=user.getlovedtracks&user=${username}&api_key=${apiKey}&format=json&limit=50`
         );
 
         if (!response.ok) {
@@ -37,7 +37,7 @@ export default async function handler(req, res) {
         const data = await response.json();
         const tracks = data.lovedtracks.track;
 
-        // Enrich each track with album information
+        // Enrich each track with album and preview information
         const enrichedTracks = await Promise.all(
             tracks.map(async (track) => {
                 try {
@@ -45,6 +45,8 @@ export default async function handler(req, res) {
                     const trackInfoResponse = await fetch(
                         `https://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key=${apiKey}&artist=${encodeURIComponent(track.artist.name)}&track=${encodeURIComponent(track.name)}&format=json`
                     );
+
+                    let albumImages = track.image;
 
                     if (trackInfoResponse.ok) {
                         const trackInfo = await trackInfoResponse.json();
@@ -55,21 +57,45 @@ export default async function handler(req, res) {
                             trackInfo.track.album &&
                             trackInfo.track.album.image
                         ) {
-                            return {
-                                ...track,
-                                image: trackInfo.track.album.image,
-                            };
+                            albumImages = trackInfo.track.album.image;
                         }
                     }
+
+                    // Get preview from iTunes
+                    let previewUrl = null;
+                    try {
+                        const itunesResponse = await fetch(
+                            `https://itunes.apple.com/search?term=${encodeURIComponent(track.artist.name + " " + track.name)}&entity=song&limit=1`
+                        );
+
+                        if (itunesResponse.ok) {
+                            const itunesData = await itunesResponse.json();
+                            if (
+                                itunesData.results &&
+                                itunesData.results.length > 0
+                            ) {
+                                previewUrl = itunesData.results[0].previewUrl;
+                            }
+                        }
+                    } catch (error) {
+                        console.error(
+                            `Error fetching iTunes preview for ${track.name}:`,
+                            error
+                        );
+                    }
+
+                    return {
+                        ...track,
+                        image: albumImages,
+                        preview_url: previewUrl,
+                    };
                 } catch (error) {
                     console.error(
                         `Error fetching info for ${track.name}:`,
                         error
                     );
+                    return track;
                 }
-
-                // Return original track if enrichment fails
-                return track;
             })
         );
 

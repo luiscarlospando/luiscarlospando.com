@@ -18,7 +18,7 @@ export default async function handler(req, res) {
 
         // Get loved tracks
         const response = await fetch(
-            `https://ws.audioscrobbler.com/2.0/?method=user.getlovedtracks&user=${username}&api_key=${apiKey}&format=json&limit=50`
+            `https://ws.audioscrobbler.com/2.0/?method=user.getlovedtracks&user=${username}&api_key=${apiKey}&format=json&limit=100`
         );
 
         if (!response.ok) {

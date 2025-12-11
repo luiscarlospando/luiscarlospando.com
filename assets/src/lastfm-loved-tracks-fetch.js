@@ -18,48 +18,52 @@ function displayLastFmLovedTracks() {
                 "✅ #lastfm-loved-tracks-grid existe en el DOM. Cargando canciones..."
             );
 
+            // LOG: Ver toda la respuesta de la API
+            console.log("📦 Respuesta completa de la API:", data);
+
             // Get the list of tracks from the JSON response
             const tracks = data.lovedtracks.track;
+
+            // LOG: Ver cuántas canciones hay
+            console.log("🎵 Número de canciones:", tracks.length);
 
             // Clear container in case of re-run
             container.innerHTML = "";
 
             // Iterate over each track to build the HTML
-            tracks.forEach((track) => {
+            tracks.forEach((track, index) => {
                 const artistName = track.artist.name;
                 const trackTitle = track.name;
 
-                // Get the largest available image
-                let albumArtUrl = track.image[track.image.length - 1]["#text"];
+                // LOG: Ver las imágenes disponibles para cada canción
+                if (index < 3) {
+                    // Solo loguear las primeras 3 para no saturar
+                    console.log(
+                        `\n🖼️ Canción ${index + 1}: ${artistName} - ${trackTitle}`
+                    );
+                    console.log("Imágenes disponibles:", track.image);
+                }
 
-                // If the URL is empty or contains the placeholder, try other sizes
-                if (
-                    !albumArtUrl ||
-                    albumArtUrl.includes("2a96cbd8b46e442fc41c2b86b821562f")
-                ) {
-                    // Try to find any non-empty image
-                    for (let i = track.image.length - 1; i >= 0; i--) {
-                        if (
-                            track.image[i]["#text"] &&
-                            !track.image[i]["#text"].includes(
-                                "2a96cbd8b46e442fc41c2b86b821562f"
-                            )
-                        ) {
-                            albumArtUrl = track.image[i]["#text"];
-                            break;
-                        }
-                    }
+                // The API returns several images. The 3rd one (index 3) is usually 'extralarge'
+                const albumArtUrl = track.image[3]["#text"];
+
+                // LOG: Ver la URL seleccionada
+                if (index < 3) {
+                    console.log("URL seleccionada (índice 3):", albumArtUrl);
                 }
 
                 const fullTitle = `${artistName} - ${trackTitle}`;
                 const trackUrl = track.url;
 
-                // Use placeholder if album art URL is empty or is Last.fm's default placeholder
+                // Use placeholder if album art URL is empty
                 const finalImageUrl =
-                    albumArtUrl &&
-                    !albumArtUrl.includes("2a96cbd8b46e442fc41c2b86b821562f")
-                        ? albumArtUrl
-                        : "https://placehold.co/300x300?text=Portada+no+encontrada";
+                    albumArtUrl ||
+                    "https://placehold.co/300x300?text=Portada+no+encontrada";
+
+                // LOG: Ver la URL final
+                if (index < 3) {
+                    console.log("URL final a usar:", finalImageUrl);
+                }
 
                 // Create container element for the grid column
                 const columnDiv = document.createElement("div");
@@ -90,13 +94,15 @@ function displayLastFmLovedTracks() {
                 container.appendChild(columnDiv);
             });
 
+            console.log("\n✅ Todas las canciones han sido agregadas al DOM");
+
             // Tooltips initialization
             if (typeof $ !== "undefined" && $.fn.tooltip) {
                 $('[data-toggle="tooltip"]').tooltip();
             }
         })
         .catch((error) =>
-            console.error("Error fetching data from Last.fm:", error)
+            console.error("❌ Error fetching data from Last.fm:", error)
         );
 }
 

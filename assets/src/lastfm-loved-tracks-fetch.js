@@ -45,7 +45,7 @@ function setupAudioPlayers() {
     audioPlayers = [];
 
     // Find all audio elements and add event listeners
-    const audioElements = document.querySelectorAll("#tracks audio");
+    const audioElements = document.querySelectorAll("#loved-tracks audio");
     audioElements.forEach((audio) => {
         audioPlayers.push(audio);
 
@@ -62,9 +62,9 @@ function displayLastFmLovedTracks() {
     // Get current page from URL
     currentPage = getPageFromURL();
 
-    const container = document.getElementById("tracks");
+    const container = document.getElementById("loved-tracks");
     if (!container) {
-        console.log("❌ #tracks no existe en el DOM");
+        console.log("❌ #loved-tracks no existe en el DOM");
         return;
     }
 
@@ -77,7 +77,9 @@ function displayLastFmLovedTracks() {
     fetch("https://luiscarlospando.com/api/lastfmLovedTracks")
         .then((response) => response.json())
         .then((data) => {
-            console.log("✅ #tracks existe en el DOM. Cargando canciones...");
+            console.log(
+                "✅ #loved-tracks existe en el DOM. Cargando canciones..."
+            );
 
             // Get the list of tracks from the JSON response
             allTracks = data.lovedtracks.track;
@@ -101,7 +103,7 @@ function displayLastFmLovedTracks() {
 
 // Render paginated tracks
 function renderPaginatedTracks() {
-    const list = document.getElementById("tracks");
+    const list = document.getElementById("loved-tracks");
     if (!list) return;
 
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
@@ -192,12 +194,14 @@ function handlePageChange(newPage) {
     setupAudioPlayers();
 
     // Scroll to top of the list
-    document.getElementById("tracks")?.scrollIntoView({ behavior: "smooth" });
+    document
+        .getElementById("loved-tracks")
+        ?.scrollIntoView({ behavior: "smooth" });
 }
 
 // Handle page jump from input
 function handlePageJump() {
-    const input = document.getElementById("pageJumpInput");
+    const input = document.getElementById("lovedTracksPageJumpInput");
     const page = parseInt(input.value, 10);
 
     if (!isNaN(page) && page > 0) {
@@ -208,14 +212,14 @@ function handlePageJump() {
 // Setup pagination buttons
 function setupPagination() {
     const totalPages = Math.ceil(allTracks.length / ITEMS_PER_PAGE);
-    const list = document.getElementById("tracks");
+    const list = document.getElementById("loved-tracks");
     if (!list) return;
 
-    const existing = document.querySelector(".pagination");
+    const existing = document.querySelector(".loved-tracks-pagination");
     if (existing) existing.remove();
 
     const container = document.createElement("div");
-    container.className = "pagination";
+    container.className = "loved-tracks-pagination";
     container.style.textAlign = "center";
 
     container.innerHTML = `
@@ -224,42 +228,46 @@ function setupPagination() {
       Página ${currentPage} de ${totalPages} (${allTracks.length} canciones)
     </div>
     <div class="pagination-controls" style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-      <button id="prevPage" class="btn btn-primary" aria-label="Anterior" ${currentPage === 1 ? "disabled" : ""}>« Anterior</button>
+      <button id="lovedTracksPrevPage" class="btn btn-primary" aria-label="Anterior" ${currentPage === 1 ? "disabled" : ""}>« Anterior</button>
 
       <div style="display: flex; align-items: center; gap: 0.5rem; margin: 0 0.5rem;">
-        <label for="pageJumpInput" style="margin: 0; white-space: nowrap;">Ir a página:</label>
+        <label for="lovedTracksPageJumpInput" style="margin: 0; white-space: nowrap;">Ir a página:</label>
         <input
           type="number"
-          id="pageJumpInput"
+          id="lovedTracksPageJumpInput"
           min="1"
           max="${totalPages}"
           value="${currentPage}"
           style="width: 70px; padding: 0.375rem 0.5rem; border: 1px solid #ced4da; border-radius: 0.25rem;"
           aria-label="Número de página"
         >
-        <button id="pageJumpBtn" class="btn btn-primary" aria-label="Ir">Ir</button>
+        <button id="lovedTracksPageJumpBtn" class="btn btn-primary" aria-label="Ir">Ir</button>
       </div>
 
-      <button id="nextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>
+      <button id="lovedTracksNextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>
     </div>
   `;
 
     list.parentNode.insertBefore(container, list.nextSibling);
 
-    document.getElementById("prevPage")?.addEventListener("click", () => {
-        if (currentPage > 1) handlePageChange(currentPage - 1);
-    });
-
-    document.getElementById("nextPage")?.addEventListener("click", () => {
-        if (currentPage < totalPages) handlePageChange(currentPage + 1);
-    });
+    document
+        .getElementById("lovedTracksPrevPage")
+        ?.addEventListener("click", () => {
+            if (currentPage > 1) handlePageChange(currentPage - 1);
+        });
 
     document
-        .getElementById("pageJumpBtn")
+        .getElementById("lovedTracksNextPage")
+        ?.addEventListener("click", () => {
+            if (currentPage < totalPages) handlePageChange(currentPage + 1);
+        });
+
+    document
+        .getElementById("lovedTracksPageJumpBtn")
         ?.addEventListener("click", handlePageJump);
 
     document
-        .getElementById("pageJumpInput")
+        .getElementById("lovedTracksPageJumpInput")
         ?.addEventListener("keypress", (e) => {
             if (e.key === "Enter") {
                 handlePageJump();

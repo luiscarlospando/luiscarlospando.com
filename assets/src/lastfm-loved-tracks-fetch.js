@@ -53,8 +53,7 @@ function displayLastFmLovedTracks() {
                 // Use custom placeholder if album art URL is empty
                 const finalImageUrl =
                     albumArtUrl ||
-                    "https://placehold.co/300x300/1a1a2e/ffffff?text=" +
-                        encodeURIComponent(artistName.substring(0, 1));
+                    "https://placehold.co/300x300?text=Portada+no+encontrada";
 
                 // Create container element for the grid column
                 const columnDiv = document.createElement("div");

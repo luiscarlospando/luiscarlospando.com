@@ -17,6 +17,20 @@ permalink: /music/playlist/
 
 <ul class="list-inline mb-4 text-center">
     <li class="list-inline-item">
+        <a class="btn btn-primary btn-sm" href="/music/">
+          <i class="fa-solid fa-headphones"></i> Mis álbumes más escuchados
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a class="btn btn-primary btn-sm" href="/music/loved-tracks/">
+          <i class="fa-solid fa-heart"></i> Canciones favoritas recientes
+        </a>
+        <span class="badge badge-success pulse-subtle pulse-fast">Nuevo</span>
+    </li>
+</ul>
+
+<ul class="list-inline mb-4 text-center">
+    <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="https://music.apple.com/mx/playlist/crucial-tracks/pl.u-g39JFWq0EPd?l=en" target="_blank" rel="noopener noreferrer">
           <i class="fa-brands fa-apple"></i> Escuchar en Apple Music
         </a>

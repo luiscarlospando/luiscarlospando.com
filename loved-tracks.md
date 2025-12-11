@@ -11,16 +11,6 @@ permalink: /music/loved-tracks/
 
 <ul class="list-inline mb-4 text-center">
     <li class="list-inline-item">
-        <a class="btn btn-primary btn-sm" href="{{ site.apple_music_url}}" target="_blank" rel="me noopener noreferrer">
-          <i class="fa-brands fa-apple"></i> Apple Music
-        </a>
-    </li>
-    <li class="list-inline-item">
-        <a class="btn btn-primary btn-sm" href="{{ site.lastfm_url}}" target="_blank" rel="me noopener noreferrer">
-          <i class="fa-brands fa-lastfm"></i> Last.fm
-        </a>
-    </li>
-    <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="/music/">
           <i class="fa-solid fa-headphones"></i> Mis álbumes más escuchados
         </a>

@@ -18,52 +18,43 @@ function displayLastFmLovedTracks() {
                 "✅ #lastfm-loved-tracks-grid existe en el DOM. Cargando canciones..."
             );
 
-            // LOG: Ver toda la respuesta de la API
-            console.log("📦 Respuesta completa de la API:", data);
-
             // Get the list of tracks from the JSON response
             const tracks = data.lovedtracks.track;
-
-            // LOG: Ver cuántas canciones hay
-            console.log("🎵 Número de canciones:", tracks.length);
 
             // Clear container in case of re-run
             container.innerHTML = "";
 
             // Iterate over each track to build the HTML
-            tracks.forEach((track, index) => {
+            tracks.forEach((track) => {
                 const artistName = track.artist.name;
                 const trackTitle = track.name;
 
-                // LOG: Ver las imágenes disponibles para cada canción
-                if (index < 3) {
-                    // Solo loguear las primeras 3 para no saturar
-                    console.log(
-                        `\n🖼️ Canción ${index + 1}: ${artistName} - ${trackTitle}`
-                    );
-                    console.log("Imágenes disponibles:", track.image);
-                }
+                // Check if any image is available and not the placeholder
+                let albumArtUrl = "";
+                const hasRealImage = track.image.some(
+                    (img) =>
+                        img["#text"] &&
+                        !img["#text"].includes(
+                            "2a96cbd8b46e442fc41c2b86b821562f"
+                        )
+                );
 
-                // The API returns several images. The 3rd one (index 3) is usually 'extralarge'
-                const albumArtUrl = track.image[3]["#text"];
-
-                // LOG: Ver la URL seleccionada
-                if (index < 3) {
-                    console.log("URL seleccionada (índice 3):", albumArtUrl);
+                if (hasRealImage) {
+                    // Get the extralarge image (index 3)
+                    albumArtUrl = track.image[3]["#text"];
+                } else {
+                    // Use custom placeholder if no real image is available
+                    albumArtUrl = "";
                 }
 
                 const fullTitle = `${artistName} - ${trackTitle}`;
                 const trackUrl = track.url;
 
-                // Use placeholder if album art URL is empty
+                // Use custom placeholder if album art URL is empty
                 const finalImageUrl =
                     albumArtUrl ||
-                    "https://placehold.co/300x300?text=Portada+no+encontrada";
-
-                // LOG: Ver la URL final
-                if (index < 3) {
-                    console.log("URL final a usar:", finalImageUrl);
-                }
+                    "https://placehold.co/300x300/1a1a2e/ffffff?text=" +
+                        encodeURIComponent(artistName.substring(0, 1));
 
                 // Create container element for the grid column
                 const columnDiv = document.createElement("div");
@@ -94,15 +85,13 @@ function displayLastFmLovedTracks() {
                 container.appendChild(columnDiv);
             });
 
-            console.log("\n✅ Todas las canciones han sido agregadas al DOM");
-
             // Tooltips initialization
             if (typeof $ !== "undefined" && $.fn.tooltip) {
                 $('[data-toggle="tooltip"]').tooltip();
             }
         })
         .catch((error) =>
-            console.error("❌ Error fetching data from Last.fm:", error)
+            console.error("Error fetching data from Last.fm:", error)
         );
 }
 

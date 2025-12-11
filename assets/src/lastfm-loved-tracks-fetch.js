@@ -28,15 +28,38 @@ function displayLastFmLovedTracks() {
             tracks.forEach((track) => {
                 const artistName = track.artist.name;
                 const trackTitle = track.name;
-                // The API returns several images. The 3rd one (index 3) is usually 'extralarge', which is ideal for this.
-                const albumArtUrl = track.image[3]["#text"];
+
+                // Get the largest available image
+                let albumArtUrl = track.image[track.image.length - 1]["#text"];
+
+                // If the URL is empty or contains the placeholder, try other sizes
+                if (
+                    !albumArtUrl ||
+                    albumArtUrl.includes("2a96cbd8b46e442fc41c2b86b821562f")
+                ) {
+                    // Try to find any non-empty image
+                    for (let i = track.image.length - 1; i >= 0; i--) {
+                        if (
+                            track.image[i]["#text"] &&
+                            !track.image[i]["#text"].includes(
+                                "2a96cbd8b46e442fc41c2b86b821562f"
+                            )
+                        ) {
+                            albumArtUrl = track.image[i]["#text"];
+                            break;
+                        }
+                    }
+                }
+
                 const fullTitle = `${artistName} - ${trackTitle}`;
                 const trackUrl = track.url;
 
-                // Use placeholder if album art URL is empty
+                // Use placeholder if album art URL is empty or is Last.fm's default placeholder
                 const finalImageUrl =
-                    albumArtUrl ||
-                    "https://placehold.co/300x300?text=Portada+no+encontrada";
+                    albumArtUrl &&
+                    !albumArtUrl.includes("2a96cbd8b46e442fc41c2b86b821562f")
+                        ? albumArtUrl
+                        : "https://placehold.co/300x300?text=Portada+no+encontrada";
 
                 // Create container element for the grid column
                 const columnDiv = document.createElement("div");

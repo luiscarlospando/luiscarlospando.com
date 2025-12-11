@@ -8,6 +8,16 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.66.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.65.1...v2.66.0) - 2025-12-11
+
+- Implementar página para mostrar mis canciones favoritas recientes [`f183e17`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f183e17c97e984e082f11b1a69f98844e6b0d1cf)
+- Actualizar Acerca de [`978f1ba`](https://github.com/luiscarlospando/luiscarlospando.com/commit/978f1ba44a9044d4f96ca340a2f399fdbd9ffe16)
+- Actualizar CHANGELOG [`522e268`](https://github.com/luiscarlospando/luiscarlospando.com/commit/522e268860e4a3bbbe5123b30d56c6f9c7fa4d90)
+- Agregar SourceTube [`204fc10`](https://github.com/luiscarlospando/luiscarlospando.com/commit/204fc1031b608254042c542a3d34588f65351512)
+- Actualizar permalink del badge de Octothorpe [`bca1535`](https://github.com/luiscarlospando/luiscarlospando.com/commit/bca1535fe023ea72364cf28d1466b51ba0700fc9)
+- Deploy v2.66.0 [`fac4bdf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/fac4bdf60d63d258a1fb078b6e42876e8e6f1aa5)
+- Actualizar Acerca de [`b19130a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b19130aaa8769c8fc209c223f3e9a3061feefb63)
+
 ## [`v2.65.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.65.0...v2.65.1) - 2025-12-09
 
 - Agregar desplegado de pregunta/respuesta a posts de YouTube [`5eb8d64`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5eb8d64ed1a909ef630e98727b9e7d9b2a92025e)

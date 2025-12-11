@@ -138,7 +138,7 @@ function renderPaginatedTracks() {
 
             const audioHTML = previewUrl
                 ? `<audio controls><source src="${previewUrl}" type="audio/mp4">Tu navegador no soporta el elemento de audio.</audio>`
-                : '<p class="text-muted"><em>Preview no disponible para esta canción</em></p>';
+                : '<p class="text-muted"><em>Preview no disponible para esta canción.</em></p>';
 
             const separator = index < tracks.length - 1 ? "<hr>" : "";
 

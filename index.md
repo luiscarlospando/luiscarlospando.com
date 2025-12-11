@@ -58,7 +58,6 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
         <button id="btn-surprise-me" class="btn btn-primary btn-sm" style="vertical-align: super;" data-toggle="tooltip" data-placement="top" data-html="true" title="Este botón te lleva a una página al azar o a algún post de mi blog.">
             <i class="fa-solid fa-wand-magic-sparkles"></i> Sorpréndeme
         </button>
-        <span class="badge badge-success pulse-subtle pulse-fast" style="vertical-align: super;">Nuevo</span>
     </li>
 </ul>
 
@@ -94,6 +93,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
             <a href="/music/loved-tracks/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Estas son las 100 canciones que más me han gustado recientemente" title="Estas son las 100 canciones que más me han gustado recientemente">
                 <i class="fa-solid fa-heart"></i> Canciones favoritas recientes
             </a>
+            <span class="badge badge-success pulse-subtle pulse-fast" style="vertical-align: super;">Nuevo</span>
         </li>
         <li class="list-inline-item">
             <a href="/music/playlist/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Un playlist que actualizo diariamente con música que voy agregando a mi perfil de Crucial Tracks desde septiembre de 2025" title="Un playlist que actualizo diariamente con música que voy agregando a mi perfil de Crucial Tracks desde septiembre de 2025">

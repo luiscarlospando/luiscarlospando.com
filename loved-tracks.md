@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Mis álbumes más escuchados
-description: Aquí está un log de los 18 álbumes que más he escuchado en los últimos 30 días (vía Last.fm).
+title: Canciones favoritas recientes
+description: Estas son las 18 canciones que más me han gustado recientemente.
 image: /assets/images/logo.png
-tags: [music, música, most-listened, most-listened-albums, álbumes-más-escuchados, last.fm]
-permalink: /music/
+tags: [music, música, favorite-songs, favorite-tracks, loved-songs, loved-tracks, canciones-favoritas, last.fm]
+permalink: /music/loved-tracks/
 ---
 
 <p class="text-center">{{ page.description }}</p>
@@ -21,10 +21,9 @@ permalink: /music/
         </a>
     </li>
     <li class="list-inline-item">
-        <a class="btn btn-primary btn-sm" href="/music/loved-tracks/">
-          <i class="fa-solid fa-heart"></i> Canciones favoritas recientes
+        <a class="btn btn-primary btn-sm" href="/music/">
+          <i class="fa-solid fa-headphones"></i> Mis álbumes más escuchados
         </a>
-        <span class="badge badge-success pulse-subtle pulse-fast">Nuevo</span>
     </li>
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="/music/playlist/">
@@ -33,4 +32,4 @@ permalink: /music/
     </li>
 </ul>
 
-<div class="row" id="lastfm-albums-grid"></div>
+<div class="row" id="lastfm-loved-tracks-grid"></div>

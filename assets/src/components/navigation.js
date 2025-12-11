@@ -107,6 +107,12 @@ function Navigation() {
                 },
                 {
                     id: "6-2",
+                    url: "https://luiscarlospando.com/music/loved-tracks/",
+                    icon: "fa-solid fa-heart",
+                    text: "Canciones favoritas recientes",
+                },
+                {
+                    id: "6-3",
                     url: "https://luiscarlospando.com/music/playlist/",
                     icon: "fa-solid fa-record-vinyl",
                     text: "Playlist",

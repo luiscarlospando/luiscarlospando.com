@@ -91,6 +91,11 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
             </a>
         </li>
         <li class="list-inline-item">
+            <a href="/music/loved-tracks/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Estas son las 18 canciones que más me han gustado recientemente" title="Estas son las 18 canciones que más me han gustado recientemente">
+                <i class="fa-solid fa-heart"></i> Canciones favoritas recientes
+            </a>
+        </li>
+        <li class="list-inline-item">
             <a href="/music/playlist/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Un playlist que actualizo diariamente con música que voy agregando a mi perfil de Crucial Tracks desde septiembre de 2025" title="Un playlist que actualizo diariamente con música que voy agregando a mi perfil de Crucial Tracks desde septiembre de 2025">
                 <i class="fa-solid fa-record-vinyl"></i> Playlist
             </a>

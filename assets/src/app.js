@@ -1,6 +1,6 @@
 /*!
  * LuisCarlosPando.com
- * © 2025 Luis Carlos Pando (https://luiscarlospando.com)
+ * © 2026 Luis Carlos Pando (https://luiscarlospando.com)
  * Made with love in Chihuahua, Mexico.
  */
 
@@ -19,6 +19,7 @@ import "./blog-posts";
 import "./links";
 import "./lastfm-fetch";
 import "./lastfm-albums-fetch";
+import "./lastfm-loved-tracks-fetch";
 import "./now";
 import "./twitch-live";
 import "./mmenu";

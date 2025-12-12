@@ -115,7 +115,7 @@ function Navigation() {
                     id: "6-3",
                     url: "https://luiscarlospando.com/music/playlist/",
                     icon: "fa-solid fa-record-vinyl",
-                    text: "Playlist",
+                    text: "Playlist (Crucial Tracks)",
                 },
             ],
         },

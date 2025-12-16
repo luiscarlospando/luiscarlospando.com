@@ -123,7 +123,7 @@ Aquí comparto mis links favoritos.
 <ul class="list-unstyled">
 <li>
 <a href="/music/playlist/">
-    📀 Playlist
+    📀 Playlist (Crucial Tracks)
 </a>
 </li>
 <li>

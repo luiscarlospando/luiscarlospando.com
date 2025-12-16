@@ -8,6 +8,39 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.66.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.66.0...v2.66.1) - 2025-12-16
+
+- Implementar audio players para que el usuario pueda escuchar las canciones directamente en la página [`55ee4d5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/55ee4d5e45ed83f1a88ed09537cc75f0e0cab42c)
+- Implementar audio players para que el usuario pueda escuchar las canciones directamente en la página [`909da06`](https://github.com/luiscarlospando/luiscarlospando.com/commit/909da062adc20922d072d2590d74cfe277b4ee16)
+- Agregar anchors [`1037c94`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1037c948532f43c5ef0248abea5040c19b752f3c)
+- Debugging de portadas que no se muestran correctamente [`e98ac0f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e98ac0f3121d28964e2850a0dacfdc93c801de20)
+- Usar id único para renderizar loved tracks y evitar conflicto con Crucial Tracks [`5bcbaea`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5bcbaeadc95899fc51ddc0fd6e27cee68bbcb44a)
+- Debugging de portadas que no se muestran correctamente [`f20a932`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f20a93232d8244eb83c651d9665a84fa5b3e6ddc)
+- Debugging de portadas que no se muestran correctamente [`df6f374`](https://github.com/luiscarlospando/luiscarlospando.com/commit/df6f37447f5d66481bdef984d3865bbbd4073f1f)
+- Actualizar /uses [`18fc317`](https://github.com/luiscarlospando/luiscarlospando.com/commit/18fc317cbc51d6f9360c9d8f3b49965f8a2fd56d)
+- Debugging de portadas que no se muestran correctamente [`56f9f11`](https://github.com/luiscarlospando/luiscarlospando.com/commit/56f9f11ee5cb490dbee45cf3b04a835d80d358dc)
+- Mejorar navegación entre páginas de música [`9d8f487`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9d8f487892c61c2ec920f2612cec5fe979b89f38)
+- Actualizar títulos y textos [`32e4a8e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/32e4a8ebc21eb074de2b93f3e9eb84c7dec5173b)
+- Bajar paginación Ir a [`4cc00d5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4cc00d549c9d9a0e604e6460e095075612f4008f)
+- Actualizar CHANGELOG [`5404163`](https://github.com/luiscarlospando/luiscarlospando.com/commit/54041639a98fd24c545a03265d45ab7477cba7db)
+- Bajar paginación Ir a [`2e4f51b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2e4f51b673ae994030a49b77a57e8834e00f2281)
+- Agregar link a PURLs [`c0a54ad`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c0a54add296886edc873988e7b6c1084c26e78a5)
+- Bajar paginación Ir a [`2155955`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2155955aa9b76c7f41c56cdf98b81a30ce44f19a)
+- Modificar color de selección de texto [`974f47b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/974f47bea4322813e5c3b72a1afe47f44432b355)
+- Actualizar about.md [`0d76d8b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0d76d8bea791c7d71894f461cb75023cde9a5632)
+- Aumentar límite de consultas para jalar las últimas 100 canciones [`32cf094`](https://github.com/luiscarlospando/luiscarlospando.com/commit/32cf09430f5aed95c280d5ebd7eb5b9e13f9ba0f)
+- Bajar paginación Ir a [`9ade411`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9ade4115d2df35b36863b6af5ed6753b12ad0e66)
+- Agregar TL;DR [`bfc299b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/bfc299be627f3aef31f072da379cae7f841d3175)
+- Debugging de portadas que no se muestran correctamente [`3c37ac4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3c37ac4a27795eab01e0788b7ce88ed96fd5b121)
+- Deploy v2.66.1 [`506d88d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/506d88da8ee68475537e55aa56eaca965863e755)
+- Actualizar título de página Playlist (Crucial Tracks) [`585eb51`](https://github.com/luiscarlospando/luiscarlospando.com/commit/585eb51e3f0b55dbd4b87289fce9bc4411f79332)
+- Actualizar título de página Playlist (Crucial Tracks) [`0010192`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0010192257a106ed39203346290a4debb156ad2e)
+- Hacer que las portadas abarquen todo el espacio disponible [`3ce86ac`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3ce86ac9b02946915e0a75711cfc205dd78326a8)
+- Agregar badge Nuevo a botón de Canciones favoritas recientes [`a9b6154`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a9b6154195d40d5e5c1bfbc47fa395ec9f1dd531)
+- Aumentar límite de consultas para jalar las últimas 100 canciones [`577fcc2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/577fcc2e80b4272659f83beff0a2a79b67793579)
+- Actualizar tooltip en las portadas de los discos [`ede7a6e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ede7a6eddaadaac1004d86b3574fe27debbfccd7)
+- Implementar audio players para que el usuario pueda escuchar las canciones directamente en la página [`7cb1eae`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7cb1eae16901d1dac30dc69826c9b95d88863f60)
+
 ## [`v2.66.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.65.1...v2.66.0) - 2025-12-11
 
 - Implementar página para mostrar mis canciones favoritas recientes [`f183e17`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f183e17c97e984e082f11b1a69f98844e6b0d1cf)

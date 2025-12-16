@@ -227,12 +227,12 @@ function setupPagination() {
     <div class="pagination-info" style="margin-bottom: 1rem;">
       Página ${currentPage} de ${totalPages} (${allTracks.length} canciones)
     </div>
-    <div class="pagination-controls" style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+    <div class="pagination-controls" style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
       <button id="lovedTracksPrevPage" class="btn btn-primary" aria-label="Anterior" ${currentPage === 1 ? "disabled" : ""}>« Anterior</button>
       <button id="lovedTracksNextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>
     </div>
     <hr>
-    <div class="pagination-go-to">
+    <div class="pagination-go-to" margin-bottom: 1rem;>
       <div>
         <label for="lovedTracksPageJumpInput" style="margin: 0; white-space: nowrap;">Ir a página:</label>
         <input

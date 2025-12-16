@@ -476,7 +476,7 @@ function setupPagination() {
       <button id="nextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>
     </div>
     <hr>
-    <div class="pagination-go-to">
+    <div class="pagination-go-to" margin-bottom: 1rem;>
       <div>
         <label for="pageJumpInput" style="margin: 0; white-space: nowrap;">Ir a página:</label>
         <input

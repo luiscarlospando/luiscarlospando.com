@@ -83,6 +83,9 @@ Al final del día, solo soy un vato de Chihuahua que ama hacer cosas para el Int
 
 *¡Muchas gracias por tu visita!* ✨
 
+## TL;DR
+Vato de Chihuahua, autodidacta y desarrollador web, apasionado por la música, la tecnología y el IndieWeb; encuentro sentido en crear, en la fe y en compartir desde un espacio propio en Internet.
+
 ---
 
 <span id="colofon"></span> Aquí está el [archivo completo][8] de todos mis posts (desde que armé este sitio he publicado ya [<span id="contador-posts"></span> posts en total][9]).

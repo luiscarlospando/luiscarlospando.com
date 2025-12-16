@@ -471,10 +471,12 @@ function setupPagination() {
     <div class="pagination-info" style="margin-bottom: 1rem;">
       Página ${currentPage} de ${totalPages} (${allItems.length} canciones)
     </div>
-    <div class="pagination-controls" style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+    <div class="pagination-controls" style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
       <button id="prevPage" class="btn btn-primary" aria-label="Anterior" ${currentPage === 1 ? "disabled" : ""}>« Anterior</button>
-
-      <div style="display: flex; align-items: center; gap: 0.5rem; margin: 0 0.5rem;">
+      <button id="nextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>
+    </div>
+    <div class="pagination-go-to">
+      <div style="display: flex; align-items: center; gap: 0.5rem; margin: 0;">
         <label for="pageJumpInput" style="margin: 0; white-space: nowrap;">Ir a página:</label>
         <input
           type="number"
@@ -487,8 +489,6 @@ function setupPagination() {
         >
         <button id="pageJumpBtn" class="btn btn-primary" aria-label="Ir">Ir</button>
       </div>
-
-      <button id="nextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>
     </div>
     ${ctProfileMessage}
   `;

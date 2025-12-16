@@ -35,6 +35,12 @@ html {
     box-sizing: border-box;
 }
 
+::selection,
+::target-text {
+    background-color: $fifthColor;
+    color: $mainColor;
+}
+
 html {
     -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: auto;

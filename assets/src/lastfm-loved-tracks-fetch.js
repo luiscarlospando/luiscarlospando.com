@@ -229,8 +229,11 @@ function setupPagination() {
     </div>
     <div class="pagination-controls" style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
       <button id="lovedTracksPrevPage" class="btn btn-primary" aria-label="Anterior" ${currentPage === 1 ? "disabled" : ""}>« Anterior</button>
-
-      <div style="display: flex; align-items: center; gap: 0.5rem; margin: 0 0.5rem;">
+      <button id="lovedTracksNextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>
+    </div>
+    <hr>
+    <div class="pagination-go-to">
+      <div>
         <label for="lovedTracksPageJumpInput" style="margin: 0; white-space: nowrap;">Ir a página:</label>
         <input
           type="number"
@@ -243,8 +246,6 @@ function setupPagination() {
         >
         <button id="lovedTracksPageJumpBtn" class="btn btn-primary" aria-label="Ir">Ir</button>
       </div>
-
-      <button id="lovedTracksNextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>
     </div>
   `;
 

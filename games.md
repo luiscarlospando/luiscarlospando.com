@@ -13,7 +13,7 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 </p>
 
 <p class="text-center">
-¿Curiosidad por saber cuáles son mis juegos favoritos ever? Entonces [ve aquí][4]. 😁 <span class="badge badge-success pulse-subtle pulse-fast">Nuevo</span>
+¿Curiosidad por saber cuáles son mis juegos favoritos ever? Entonces [ve aquí][4]. 😁
 </p>
 
 <div class="row">

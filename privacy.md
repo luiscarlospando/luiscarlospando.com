@@ -32,7 +32,7 @@ De repente comparto cosas en mi sitio, como por ejemplo videos, reproductores mu
 
 ### Información enviada por el usuario
 
-Hay algunas secciones en mi sitio donde es posible enviar información. Aunque realmente nunca pido tus datos reales, es necesario que sepas qué información tuya podría quedar expuesta. Por ejemplo, si interactúas de alguna manera con los posts que comparto a través de [Mastodon][3], tu comentario puede aparecer en el post correspondiente dentro de mi blog.
+Hay algunas secciones en mi sitio donde es posible enviar información. Aunque realmente nunca pido tus datos reales, es necesario que sepas qué información tuya podría quedar expuesta. Por ejemplo, si interactúas de alguna manera con los posts que comparto a través de [Mastodon][3]{:rel="noreferrer noopener" target="_blank"}, tu comentario puede aparecer en el post correspondiente dentro de mi blog.
 
 Lo mismo sucede en el [Guestbook][4]: aquí tienes la posibilidad de dejar comentarios o saludos, pero depende de ti si decides usar datos reales.
 

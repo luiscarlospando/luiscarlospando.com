@@ -38,9 +38,7 @@ En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7
 </div>
 </div>
 
----
-
-<div class="row">
+<!-- div class="row">
 <div class="col-12">
 <div class="card my-3 text-center">
 <div class="card-header">
@@ -58,7 +56,7 @@ En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7
 </div>
 </div>
 </div>
-</div>
+</div -->
 
 [1]: {{ site.mode7_discord }}
 [2]: https://blog.{{ site.domain }}/hashtag/mode-7-podcast/

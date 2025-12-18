@@ -41,7 +41,6 @@ Algunos de mis compas en la vida real tienen su propio sitio, son poquitos pero 
 | Nombre | URL | RSS |
 |--------|-----|-----|
 | Bart | [yosoybartsolo.com](https://www.yosoybartsolo.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.yosoybartsolo.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
-| Juan Manuel Terrazas | [juanmanuelterrazas.com](https://www.juanmterrazas.com/){:target="_blank" rel="noopener"} | |
 | Magiobus | [magiobus.com](https://magiobus.com/){:target="_blank" rel="noopener"} | |
 | MexicanSkynet | [mexicanskynet.com](https://mexicanskynet.com){:target="_blank" rel="noopener"} | |
 
@@ -56,6 +55,7 @@ Algunos de los sitios y blogs personales en español que más me gustan (como se
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
+| Diego López | [diegologs.com](https://diegologs.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://diegologs.com/rss/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Manu Mateos | [macram.es](https://www.macram.es/){:target="_blank" rel="noopener"} | |
 | Matizeta | [matizeta.com](https://matizeta.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://matizeta.com/feed/){:target="_blank" rel="noopener" .rss-link} |
 
@@ -92,14 +92,12 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 | Lean Rada | [leanrada.com](https://leanrada.com/){:target="_blank" rel="noopener"} | |
 | Limes.pink | [limes.pink](https://limes.pink/){:target="_blank" rel="noopener"} | |
 | LMNT | [lmnt.me](https://lmnt.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://lmnt.me/feed.xml){:target="_blank" rel="noopener" .rss-link} |
-| Marco Arment | [marco.org](https://marco.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://marco.org/rss){:target="_blank" rel="noopener" .rss-link} |
-| Matthew Cassinelli | [matthewcassinelli.com](https://matthewcassinelli.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://matthewcassinelli.com/comments/feed/){:target="_blank" rel="noopener" .rss-link} |
 | Nick Simson | [nicksimson.com](https://www.nicksimson.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.nicksimson.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Robb Knight | [rknight.me](https://rknight.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://rknight.me/subscribe/posts/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 | Robert Birming | [robertbirming.com](https://robertbirming.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://robertbirming.com/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
 | Sophie Koonin | [localghost.dev](https://localghost.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://localghost.dev/feed.xml){:target="_blank" rel="noopener" .rss-link} |
+| Stephanie Vee | [stephvee.ca](https://stephvee.ca/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://stephvee.ca/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Tom (ttntm) | [ttntm.me](https://ttntm.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://ttntm.me/everything.xml){:target="_blank" rel="noopener" .rss-link} |
-| Yordi Verkroost | [yordi.me](https://yordi.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://yordi.me/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
 | Zachary Kai | [zacharykai.net](https://zacharykai.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://zacharykai.net/assets/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 
 </div>

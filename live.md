@@ -2,7 +2,7 @@
 layout: livestreams
 title: Live
 description: Aquí transmito en vivo todos mis streams de Twitch.
-image: /assets/images/live.jpg
+image: /assets/images/live.png
 tags: [live, livestream, livestreams, twitch, en-vivo]
 permalink: /live/
 ---

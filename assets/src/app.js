@@ -37,6 +37,7 @@ import "./dismissable-alert";
 import "./blogroll";
 import "./crucialtracks";
 import "./surprise-me";
+import "./audio-players";
 import "./other";
 
 // React components

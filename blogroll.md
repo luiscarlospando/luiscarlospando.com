@@ -56,6 +56,7 @@ Algunos de los sitios y blogs personales en español que más me gustan (como se
 | Nombre | URL | RSS |
 |--------|-----|-----|
 | Diego López | [diegologs.com](https://diegologs.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://diegologs.com/rss/feed.xml){:target="_blank" rel="noopener" .rss-link} |
+| Emmanuel Alejandro Parada | [eapl.mx](https://text.eapl.mx/posts){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://text.eapl.mx/atom.xml){:target="_blank" rel="noopener" .rss-link} |
 | Manu Mateos | [macram.es](https://www.macram.es/){:target="_blank" rel="noopener"} | |
 | Matizeta | [matizeta.com](https://matizeta.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://matizeta.com/feed/){:target="_blank" rel="noopener" .rss-link} |
 

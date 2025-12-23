@@ -5,7 +5,7 @@ description: Esta es una lista de mis juegos favoritos.
 image: /assets/images/logo-games.png
 tags: [games, video-games, favorite-games, favorite-video-games]
 permalink: /games/favorites/
-last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
+last-modified-at: <span id="last-updated-at">2025-12-23 12:13:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -349,6 +349,14 @@ last-modified-at: <span id="last-updated-at">2025-09-11 10:38:00</span>
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3tu2.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man X (1993)" title="Mega Man X (1993)" width="150">
         <figcaption class="figure-caption text-center">Mega Man X (1993)</figcaption>
+      </figure>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/VQI1I7L3BCo">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6o8y.jpg" data-toggle="tooltip" data-placement="top" alt="Mega Man 7 (1995)" title="Mega Man 7 (1995)" width="150">
+        <figcaption class="figure-caption text-center">Mega Man 7 (1995)</figcaption>
       </figure>
     </a>
   </li>

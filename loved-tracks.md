@@ -17,7 +17,7 @@ permalink: /music/loved-tracks/
     </li>
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="/music/playlist/">
-          <i class="fa-solid fa-record-vinyl"></i> Playlist
+          <i class="fa-solid fa-record-vinyl"></i> Playlist (Crucial Tracks)
         </a>
     </li>
 </ul>

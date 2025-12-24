@@ -40,7 +40,7 @@ last-modified-at: <span id="last-updated-at">2025-12-24 15:00:00</span>
 - Levi's
 - Volkswagen/Audi
 
-## 🍺Cervezas
+## 🍺 Cervezas
 - Blue Moon
 - Stella Artois
 - Modelo Especial

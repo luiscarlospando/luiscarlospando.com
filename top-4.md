@@ -53,9 +53,9 @@ last-modified-at: <span id="last-updated-at">2025-12-24 15:00:00</span>
 - Hamburguesas
 
 ## 🌍 Lugares
-- Ciudad de México, Mexico
+- Ciudad de México, México
 - Austin, Texas
-- Londres, UK
+- Londres, Reino Unido
 - Estocolmo, Suecia
 
 ## 📺 Caricaturas
@@ -63,6 +63,8 @@ last-modified-at: <span id="last-updated-at">2025-12-24 15:00:00</span>
 - *The Powerpuff Girls*
 - *Ren & Stimpy*
 - *Space Ghost: Coast to Coast*
+
+---
 
 *Esta página está inspirada en [topfour.net][1]{:rel="me noopener" target="_blank"} y ahí puedes checar el top 4 de otros usuarios.*
 

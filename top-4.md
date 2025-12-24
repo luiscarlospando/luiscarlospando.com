@@ -4,7 +4,7 @@ title: Top 4
 description: Una página `/top4` es una página web personal donde puedes compartir tu lista definitiva de tus 3 favoritos con una mención honorífica en un tema específico (como películas, álbumes, snacks, juegos o cualquier otra cosa que te interese) y esta es mi lista definitiva. Esta página está sujeta a cambios constantes y puede ser actualizada en cualquier momento.
 image: /assets/images/logo.png
 tags: [games, video-games, favorite-games, favorite-video-games]
-permalink: /top4/
+permalink: /top-4/
 last-modified-at: <span id="last-updated-at">2025-12-24 15:00:00</span>
 ---
 

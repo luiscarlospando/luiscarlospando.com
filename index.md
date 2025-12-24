@@ -93,7 +93,6 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
             <a href="/music/loved-tracks/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Estas son las 100 canciones que más me han gustado recientemente" title="Estas son las 100 canciones que más me han gustado recientemente">
                 <i class="fa-solid fa-heart"></i> Canciones favoritas recientes
             </a>
-            <span class="badge badge-success pulse-subtle pulse-fast" style="vertical-align: super;">Nuevo</span>
         </li>
         <li class="list-inline-item">
             <a href="/music/playlist/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Un playlist que actualizo diariamente con música que voy agregando a mi perfil de Crucial Tracks desde septiembre de 2025" title="Un playlist que actualizo diariamente con música que voy agregando a mi perfil de Crucial Tracks desde septiembre de 2025">
@@ -134,6 +133,12 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
             <a href="/blogroll/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa mis blogs y websites favoritos" title="Revisa mis blogs y websites favoritos">
                 <i class="fa-solid fa-bookmark"></i> Blogroll
             </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="/top4/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Una página /top4 es una página web personal donde puedes compartir tu lista definitiva de tus 3 favoritos con una mención honorífica en un tema específico (como películas, álbumes, snacks, juegos o cualquier otra cosa que te interese) y esta es mi lista definitiva. Esta página está sujeta a cambios constantes y puede ser actualizada en cualquier momento." title="Una página /top4 es una página web personal donde puedes compartir tu lista definitiva de tus 3 favoritos con una mención honorífica en un tema específico (como películas, álbumes, snacks, juegos o cualquier otra cosa que te interese) y esta es mi lista definitiva. Esta página está sujeta a cambios constantes y puede ser actualizada en cualquier momento.">
+                <i class="fa-solid fa-trophy"></i> Top 4
+            </a>
+            <span class="badge badge-success pulse-subtle pulse-fast" style="vertical-align: super;">Nuevo</span>
         </li>
     </ul>
 </nav>

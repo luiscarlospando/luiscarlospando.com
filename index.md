@@ -135,7 +135,7 @@ Si te quedaste con ganas de más, [pasa a mi página Acerca de][4] para conecer 
             </a>
         </li>
         <li class="list-inline-item">
-            <a href="/top4/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Una página /top4 es una página web personal donde puedes compartir tu lista definitiva de tus 3 favoritos con una mención honorífica en un tema específico (como películas, álbumes, snacks, juegos o cualquier otra cosa que te interese) y esta es mi lista definitiva. Esta página está sujeta a cambios constantes y puede ser actualizada en cualquier momento." title="Una página /top4 es una página web personal donde puedes compartir tu lista definitiva de tus 3 favoritos con una mención honorífica en un tema específico (como películas, álbumes, snacks, juegos o cualquier otra cosa que te interese) y esta es mi lista definitiva. Esta página está sujeta a cambios constantes y puede ser actualizada en cualquier momento.">
+            <a href="/top4/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Mi top 3 con una mención honorífica en varias categorías." title="Mi top 3 con una mención honorífica en varias categorías.">
                 <i class="fa-solid fa-trophy"></i> Top 4
             </a>
             <span class="badge badge-success pulse-subtle pulse-fast" style="vertical-align: super;">Nuevo</span>

@@ -79,8 +79,12 @@ function updateLastModifiedNotice(mostRecentTrack) {
         const timestamp = mostRecentTrack.date.uts;
         const formattedDate = formatDate(timestamp);
 
-        // Insert just the plain date string - your existing script will wrap it in <time>
+        // Insert just the plain date string
         lastUpdatedElement.textContent = formattedDate;
+
+        // Dispatch a custom event to notify that the date has been updated
+        const event = new CustomEvent("lastUpdatedDateReady");
+        document.dispatchEvent(event);
     }
 }
 

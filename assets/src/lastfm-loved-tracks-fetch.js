@@ -57,6 +57,31 @@ function setupAudioPlayers() {
     });
 }
 
+// Function to format date in YYYY-MM-DD HH:MM:SS format
+function formatDate(timestamp) {
+    const date = new Date(timestamp * 1000);
+
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, "0");
+    const day = String(date.getDate()).padStart(2, "0");
+    const hours = String(date.getHours()).padStart(2, "0");
+    const minutes = String(date.getMinutes()).padStart(2, "0");
+    const seconds = String(date.getSeconds()).padStart(2, "0");
+
+    return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+}
+
+// Function to update the "last updated" notice
+function updateLastModifiedNotice(mostRecentTrack) {
+    const lastUpdatedElement = document.getElementById("last-updated-at");
+
+    if (lastUpdatedElement && mostRecentTrack && mostRecentTrack.date) {
+        const timestamp = mostRecentTrack.date.uts;
+        const formattedDate = formatDate(timestamp);
+        lastUpdatedElement.textContent = formattedDate;
+    }
+}
+
 // Function to display Last.fm loved tracks
 function displayLastFmLovedTracks() {
     // Get current page from URL
@@ -83,6 +108,11 @@ function displayLastFmLovedTracks() {
 
             // Get the list of tracks from the JSON response
             allTracks = data.lovedtracks.track;
+
+            // Update the "last updated" notice with the most recent track's date
+            if (allTracks.length > 0) {
+                updateLastModifiedNotice(allTracks[0]);
+            }
 
             // Validate page number after we know total items
             const totalPages = Math.ceil(allTracks.length / ITEMS_PER_PAGE);

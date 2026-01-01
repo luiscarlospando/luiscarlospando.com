@@ -7,6 +7,12 @@ tags: [music, música, favorite-songs, favorite-tracks, loved-songs, loved-track
 permalink: /music/loved-tracks/
 ---
 
+<div class="card last-updated my-3 text-center">
+<div class="card-body rounded">
+#### <code>Última actualización:</code> <span id="last-updated-at">Cargando...</span>
+</div>
+</div>
+
 <p class="text-center">{{ page.description }}</p>
 
 <ul class="list-inline mb-4 text-center">

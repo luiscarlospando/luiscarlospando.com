@@ -77,8 +77,12 @@ function updateLastModifiedNotice(mostRecentTrack) {
 
     if (lastUpdatedElement && mostRecentTrack && mostRecentTrack.date) {
         const timestamp = mostRecentTrack.date.uts;
+        const date = new Date(timestamp * 1000);
         const formattedDate = formatDate(timestamp);
-        lastUpdatedElement.textContent = formattedDate;
+        const isoDate = date.toISOString();
+
+        // Create a time element with datetime attribute
+        lastUpdatedElement.innerHTML = `<time datetime="${isoDate}">${formattedDate}</time>`;
     }
 }
 

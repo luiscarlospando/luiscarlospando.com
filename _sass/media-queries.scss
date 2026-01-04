@@ -55,6 +55,15 @@
     .w-md-50 {
         width: 50%;
     }
+
+    #latest-posts,
+    #bookmarks {
+        li {
+            .li-content {
+                display: block;
+            }
+        }
+    }
 }
 
 // Large devices (desktops, 992px and up)

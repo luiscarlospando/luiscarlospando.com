@@ -8,7 +8,7 @@ dayjs.extend(relativeTime);
 
 // API URLs
 const latestPosts =
-    "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=10&categories_exclude=986"; // Here we're excluding the "Fotos" category (ID: 986)
+    "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=5&categories_exclude=986"; // Here we're excluding the "Fotos" category (ID: 986)
 const mode7LatestPost =
     "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1&tags=778";
 

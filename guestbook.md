@@ -8,6 +8,15 @@ permalink: /guestbook/
 last-modified-at: <span id="last-updated-at">2025-08-06 16:50:00</span>
 ---
 
+<div class="alert alert-info" role="alert">
+    <p>
+        <strong>Actualización - <em>7 de enero, 2026 @ 6:00 pm</em></strong>
+    </p>
+    <p>
+        El guestbook no está disponible por el momento <a href="https://meadow.cafe/blog/0008-azure-disabled-my-account-trip-to-the-cabin/" target="_blank">debido a un problema técnico</a>. Por favor, inténtalo de nuevo más tarde.
+    </p>
+</div>
+
 <p class="text-center">{{ page.description }}</p>
 
 <p class="text-center">

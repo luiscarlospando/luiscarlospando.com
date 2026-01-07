@@ -37,6 +37,7 @@ function updateURL(page) {
 
 // Audio player management
 let audioPlayers = [];
+let isChangingTrack = false; // Flag to prevent title restoration during track change
 
 // Function to extract domain from URL
 function extractDomain(url) {
@@ -244,10 +245,10 @@ function setupAudioPlayers() {
 
 // Handle audio play event
 function handleAudioPlay(event) {
-    // First restore the title (in case we're switching from another playing track)
-    document.title = originalTitle;
+    // Set flag to prevent title restoration when pausing other tracks
+    isChangingTrack = true;
 
-    // Then pause other players
+    // Pause other players
     pauseOtherPlayers(event.target);
 
     // Update page title with currently playing track
@@ -260,12 +261,19 @@ function handleAudioPlay(event) {
             document.title = `🔉 "${songTitle}" de ${artist} - Luis Carlos Pando`;
         }
     }
+
+    // Reset flag after a short delay
+    setTimeout(() => {
+        isChangingTrack = false;
+    }, 100);
 }
 
 // Handle audio pause/end event
 function handleAudioPause(event) {
-    // Restore original title
-    document.title = originalTitle;
+    // Only restore title if we're not changing tracks
+    if (!isChangingTrack) {
+        document.title = originalTitle;
+    }
 }
 
 // Main function to fetch and display tracks

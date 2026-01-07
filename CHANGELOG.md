@@ -8,6 +8,16 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.67.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.66.2...v2.67.0) - 2026-01-07
+
+- Actualizar CHANGELOG [`78947d6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/78947d6ff02b16d85614ebe73062bb00cbcc72d0)
+- Actualizar título del sitio con la canción que se esté reproduciendo [`c3b3945`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c3b3945c48173b848cceff0d2476bc64ac7c63cb)
+- Mejorar layout de últimos posts y links [`2d65076`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2d650762c78ca7efe915fa891d67a99b1a2fbfa8)
+- Actualizar título del sitio con la canción que se esté reproduciendo [`45140ac`](https://github.com/luiscarlospando/luiscarlospando.com/commit/45140ac3790cf3b768c36e2250ecaef13b5e279d)
+- Actualizar título del sitio con la canción que se esté reproduciendo [`4275b59`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4275b59fca33f6df093532057dd4e54e0d1986c3)
+- Actualizar título del sitio con la canción que se esté reproduciendo [`39d65ab`](https://github.com/luiscarlospando/luiscarlospando.com/commit/39d65aba824570c0f9ef82a70ed09449675fd954)
+- Deploy 2.67.0 [`1054c9c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1054c9c936cb68133c9f5466e0a0d708e6009613)
+
 ## [`v2.66.2`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.66.1...v2.66.2) - 2026-01-03
 
 - Mejorar layout de últimos posts y links [`f90078a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f90078a5888a265c61b2d28841e61097870a9916)

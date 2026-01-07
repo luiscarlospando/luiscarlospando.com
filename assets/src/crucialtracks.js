@@ -398,12 +398,16 @@ function renderPaginatedTracks() {
             }
 
             // Render standard Apple Music version
+            // Use lazy loading for images - load immediately for first 3 items, lazy load the rest
+            const loadingAttr =
+                index < 3 ? 'loading="eager"' : 'loading="lazy"';
+
             const artworkHTML = item.artwork_url
-                ? `<img src="${item.artwork_url}" data-toggle="tooltip" data-placement="top" alt="${item.song}" title="${item.song}" class="track-artwork rounded mb-4 mb-md-0 img-fluid">`
+                ? `<img src="${item.artwork_url}" ${loadingAttr} data-toggle="tooltip" data-placement="top" alt="${item.song}" title="${item.song}" class="track-artwork rounded mb-4 mb-md-0 img-fluid">`
                 : "";
 
             const audioHTML = item.preview_url
-                ? `<audio controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
+                ? `<audio preload="none" controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
                 : "";
 
             return `
@@ -442,6 +446,25 @@ function renderPaginatedTracks() {
         ${separator}`;
         })
         .join("");
+
+    // Use requestIdleCallback for tooltip initialization to not block rendering
+    if ("requestIdleCallback" in window) {
+        requestIdleCallback(() => {
+            initializeTooltips();
+        });
+    } else {
+        // Fallback for browsers that don't support requestIdleCallback
+        setTimeout(() => {
+            initializeTooltips();
+        }, 100);
+    }
+}
+
+// Separate function for tooltip initialization
+function initializeTooltips() {
+    if (typeof $ !== "undefined" && $.fn.tooltip) {
+        $('[data-toggle="tooltip"]').tooltip();
+    }
 }
 
 // Handle page navigation

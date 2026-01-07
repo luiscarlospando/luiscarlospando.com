@@ -6,6 +6,8 @@ const ITEMS_PER_PAGE = 10; // items per page for pagination
 let currentPage = 1;
 let allTracks = [];
 let audioPlayers = [];
+let originalTitle = document.title; // Store original title
+let isChangingTrack = false; // Flag to prevent title restoration during track change
 
 // Function to get page number from URL
 function getPageFromURL() {
@@ -36,7 +38,35 @@ function pauseOtherPlayers(currentPlayer) {
 
 // Handle audio play event
 function handleAudioPlay(event) {
+    // Set flag to prevent title restoration when pausing other tracks
+    isChangingTrack = true;
+
+    // Pause other players
     pauseOtherPlayers(event.target);
+
+    // Update page title with currently playing track
+    const audioElement = event.target;
+    const trackItem = audioElement.closest("li");
+    if (trackItem) {
+        const songTitle = trackItem.querySelector("h2")?.textContent;
+        const artist = trackItem.querySelector(".info p")?.textContent;
+        if (songTitle && artist) {
+            document.title = `🔉 "${songTitle}" de ${artist} - Luis Carlos Pando`;
+        }
+    }
+
+    // Reset flag after a short delay
+    setTimeout(() => {
+        isChangingTrack = false;
+    }, 100);
+}
+
+// Handle audio pause/end event
+function handleAudioPause(event) {
+    // Only restore title if we're not changing tracks
+    if (!isChangingTrack) {
+        document.title = originalTitle;
+    }
 }
 
 // Function to setup audio player event listeners
@@ -51,9 +81,13 @@ function setupAudioPlayers() {
 
         // Remove existing listeners to prevent duplicates
         audio.removeEventListener("play", handleAudioPlay);
+        audio.removeEventListener("pause", handleAudioPause);
+        audio.removeEventListener("ended", handleAudioPause);
 
-        // Add play event listener
+        // Add event listeners
         audio.addEventListener("play", handleAudioPlay);
+        audio.addEventListener("pause", handleAudioPause);
+        audio.addEventListener("ended", handleAudioPause);
     });
 }
 

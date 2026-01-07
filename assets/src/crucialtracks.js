@@ -403,7 +403,7 @@ function renderPaginatedTracks() {
                 index < 3 ? 'loading="eager"' : 'loading="lazy"';
 
             const artworkHTML = item.artwork_url
-                ? `<img src="${item.artwork_url}" ${loadingAttr} data-toggle="tooltip" data-placement="top" alt="${item.song}" title="${item.song}" class="track-artwork rounded mb-4 mb-md-0 img-fluid">`
+                ? `<img src="${item.artwork_url}" ${loadingAttr} data-toggle="tooltip" data-placement="top" alt="${item.artist} - ${item.song}" title="${item.artist} - ${item.song}" class="track-artwork rounded mb-4 mb-md-0 img-fluid">`
                 : "";
 
             const audioHTML = item.preview_url

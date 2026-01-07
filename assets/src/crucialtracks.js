@@ -244,6 +244,10 @@ function setupAudioPlayers() {
 
 // Handle audio play event
 function handleAudioPlay(event) {
+    // First restore the title (in case we're switching from another playing track)
+    document.title = originalTitle;
+
+    // Then pause other players
     pauseOtherPlayers(event.target);
 
     // Update page title with currently playing track
@@ -253,7 +257,7 @@ function handleAudioPlay(event) {
         const songTitle = trackItem.querySelector("h2")?.textContent;
         const artist = trackItem.querySelector(".info p")?.textContent;
         if (songTitle && artist) {
-            document.title = `Reproduciendo: ${artist} - ${songTitle}`;
+            document.title = `🔉 "${songTitle}" de ${artist} - Luis Carlos Pando`;
         }
     }
 }

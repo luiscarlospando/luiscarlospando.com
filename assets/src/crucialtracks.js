@@ -15,6 +15,7 @@ const ITEMS_PER_PAGE = 10; // items per page for pagination
 
 let currentPage = 1;
 let allItems = [];
+let originalTitle = document.title; // Store original title
 
 // Function to get page number from URL
 function getPageFromURL() {
@@ -231,15 +232,36 @@ function setupAudioPlayers() {
 
         // Remove existing listeners to prevent duplicates
         audio.removeEventListener("play", handleAudioPlay);
+        audio.removeEventListener("pause", handleAudioPause);
+        audio.removeEventListener("ended", handleAudioPause);
 
-        // Add play event listener
+        // Add event listeners
         audio.addEventListener("play", handleAudioPlay);
+        audio.addEventListener("pause", handleAudioPause);
+        audio.addEventListener("ended", handleAudioPause);
     });
 }
 
 // Handle audio play event
 function handleAudioPlay(event) {
     pauseOtherPlayers(event.target);
+
+    // Update page title with currently playing track
+    const audioElement = event.target;
+    const trackItem = audioElement.closest("li");
+    if (trackItem) {
+        const songTitle = trackItem.querySelector("h2")?.textContent;
+        const artist = trackItem.querySelector(".info p")?.textContent;
+        if (songTitle && artist) {
+            document.title = `Reproduciendo: ${artist} - ${songTitle}`;
+        }
+    }
+}
+
+// Handle audio pause/end event
+function handleAudioPause(event) {
+    // Restore original title
+    document.title = originalTitle;
 }
 
 // Main function to fetch and display tracks

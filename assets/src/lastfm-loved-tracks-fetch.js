@@ -206,10 +206,14 @@ function renderPaginatedTracks() {
                 albumArtUrl ||
                 "https://placehold.co/300x300?text=Portada+no+encontrada";
 
-            const artworkHTML = `<img src="${finalImageUrl}" data-toggle="tooltip" data-placement="top" alt="${artistName} - ${trackTitle}" title="${artistName} - ${trackTitle}" class="track-artwork rounded w-100 mb-4 mb-md-0 img-fluid">`;
+            // Use lazy loading for images - load immediately for first 3 items, lazy load the rest
+            const loadingAttr =
+                index < 3 ? 'loading="eager"' : 'loading="lazy"';
+
+            const artworkHTML = `<img src="${finalImageUrl}" ${loadingAttr} data-toggle="tooltip" data-placement="top" alt="${artistName} - ${trackTitle}" title="${artistName} - ${trackTitle}" class="track-artwork rounded w-100 mb-4 mb-md-0 img-fluid">`;
 
             const audioHTML = previewUrl
-                ? `<audio controls><source src="${previewUrl}" type="audio/mp4">Tu navegador no soporta el elemento de audio.</audio>`
+                ? `<audio preload="none" controls><source src="${previewUrl}" type="audio/mp4">Tu navegador no soporta el elemento de audio.</audio>`
                 : '<p class="text-muted"><em>Preview no disponible para esta canción.</em></p>';
 
             const separator = index < tracks.length - 1 ? "<hr>" : "";
@@ -242,7 +246,21 @@ function renderPaginatedTracks() {
         })
         .join("");
 
-    // Tooltips initialization
+    // Use requestIdleCallback for tooltip initialization to not block rendering
+    if ("requestIdleCallback" in window) {
+        requestIdleCallback(() => {
+            initializeTooltips();
+        });
+    } else {
+        // Fallback for browsers that don't support requestIdleCallback
+        setTimeout(() => {
+            initializeTooltips();
+        }, 100);
+    }
+}
+
+// Separate function for tooltip initialization
+function initializeTooltips() {
     if (typeof $ !== "undefined" && $.fn.tooltip) {
         $('[data-toggle="tooltip"]').tooltip();
     }

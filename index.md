@@ -40,11 +40,12 @@ Si te quedaste con ganas de más, entonces [pásale a mi página Acerca de][4].
 
 {::nomarkdown}
 <div class="w-100 d-inline-block text-center z-2">
-<a href="/music/">
 <small>
-🎧 Ver mis álbumes más escuchados de los últimos 30 días
-</small>
+🎧
+<a href="/music/">
+Ver mis álbumes más escuchados de los últimos 30 días
 </a>
+</small>
 </div>
 {:/nomarkdown}
 

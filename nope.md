@@ -18,7 +18,7 @@ last-modified-at: <span id="last-updated-at">2026-01-08 10:30:00</span>
 
 ## Lugares donde no me vas a encontrar
 
-- Facebook (en este momento lo estoy usando solamente para poder encontrar casas en renta vía Marketplace, encontrando casa, se cierra)
+- Facebook (en este momento lo estoy usando solamente para poder encontrar casas en renta vía Marketplace, encontrando cantón, se cierra)
 - Pinterest
 - TikTok
 - Twitter/X

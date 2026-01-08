@@ -17,48 +17,56 @@ last-modified-at: <span id="last-updated-at">2025-12-24 15:00:00</span>
 <p class="text-center">{{ page.description }}</p>
 
 ## 🎸 Bandas
+
 - Funeral For A Friend
 - Thursday
 - AFI
 - Touché Amoré
 
 ## 🎮 Videojuegos 
+
 - *Super Mario Bros. 3*
 - *The Legend of Zelda: Breath of the Wild*
 - *Star Fox 64*
 - *Splatoon*
 
 ## 🍿 Películas
+
 - *Buffalo '66*
 - *Paris, Texas*
 - *A Ghost Story*
 - *The Lighthouse*
 
 ## ™️ Marcas
+
 - Apple
 - Nintendo
 - Levi's
 - Volkswagen/Audi
 
 ## 🍺 Cervezas
+
 - Blue Moon
 - Stella Artois
 - Modelo Especial
 - Newcastle Brown Ale
 
 ## 🍽️ Comidas
+
 - Tacos
 - Carne Asada
 - Sushi
 - Hamburguesas
 
 ## 🌍 Lugares
+
 - Ciudad de México, México
 - Austin, Texas
 - Londres, Reino Unido
 - Estocolmo, Suecia
 
 ## 📺 Caricaturas
+
 - *Hey, Arnold!*
 - *The Powerpuff Girls*
 - *Ren & Stimpy*

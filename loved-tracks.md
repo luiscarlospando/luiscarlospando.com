@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Canciones favoritas recientes
-description: Estas son las 100 canciones que más me han gustado recientemente.
+title: Canciones favoritas
+description: Estas son las 100 canciones que me han gustado recientemente.
 image: /assets/images/logo.png
 tags: [music, música, favorite-songs, favorite-tracks, loved-songs, loved-tracks, canciones-favoritas, last.fm]
 permalink: /music/loved-tracks/

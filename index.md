@@ -90,8 +90,8 @@ Si te quedaste con ganas de más, entonces [pásale a mi página Acerca de][4].
             </a>
         </li>
         <li class="list-inline-item">
-            <a href="/music/loved-tracks/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Estas son las 100 canciones que más me han gustado recientemente" title="Estas son las 100 canciones que más me han gustado recientemente">
-                <i class="fa-solid fa-heart"></i> Canciones favoritas recientes
+            <a href="/music/loved-tracks/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Estas son las 100 canciones que me han gustado recientemente" title="Estas son las 100 canciones que me han gustado recientemente">
+                <i class="fa-solid fa-heart"></i> Canciones favoritas
             </a>
         </li>
         <li class="list-inline-item">

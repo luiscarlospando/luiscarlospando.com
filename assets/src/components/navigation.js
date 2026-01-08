@@ -109,7 +109,7 @@ function Navigation() {
                     id: "6-2",
                     url: "https://luiscarlospando.com/music/loved-tracks/",
                     icon: "fa-solid fa-heart",
-                    text: "Canciones favoritas recientes",
+                    text: "Canciones favoritas",
                 },
                 {
                     id: "6-3",

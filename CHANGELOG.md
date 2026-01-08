@@ -8,6 +8,32 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.68.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.67.0...v2.68.0) - 2026-01-08
+
+- Sacar emoji del link [`9e97424`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9e9742470dfccf86da7248c3b639c83248f3eb75)
+- Optimizar fetching y carga [`62e7610`](https://github.com/luiscarlospando/luiscarlospando.com/commit/62e761010337031abac667e85d93bfe53664d5a2)
+- Optimizar fetching y carga [`7e6a9a8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7e6a9a8847b3d931b57dc7e4d08442b61fdefac5)
+- Agregar página /nope [`425f0eb`](https://github.com/luiscarlospando/luiscarlospando.com/commit/425f0eb077500e78116bd290a85fa3bdf3f12960)
+- Optimizar fetching y carga [`171c0b8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/171c0b8d223de8e42fd3d238859c4143be76e498)
+- Optimizar fetching y carga [`e38c0d7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e38c0d74d7d5d9105c82bed09a67e7519640feac)
+- Agregar botón a /nope [`31f62a0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/31f62a04c0ef16b131a5d7bcd55e98207911654e)
+- Reacomodar botones [`b17ac58`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b17ac58e02949dbdc585bfee1245026eb177cc10)
+- Agregar alerta de no funcionamiento del guestbook [`3cd2e28`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3cd2e288f83ca409e10524265bfb4471b5f384a4)
+- Actualizar título de página de canciones favoritas [`5f6e7a1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5f6e7a122d5693f5f9abad63d94bd30a012994bc)
+- Actualizar CHANGELOG [`3bb7cb2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3bb7cb299737392ab6d26eee4dfbee166e9ba99d)
+- Agregar alerta de no funcionamiento del guestbook [`99b12f6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/99b12f64557e75b1c91b9614d1a1c758e209cc89)
+- Mejorar markdown [`ab25e1f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ab25e1fe977ab39a0ed936a85689487a8b6695a7)
+- Quitar badge Nuevo [`9766a44`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9766a442ec67ad1e310c050b324117f093c78f36)
+- Agregar página /nope [`9546623`](https://github.com/luiscarlospando/luiscarlospando.com/commit/954662385107af33d843791156c3efd782ddcc17)
+- Actualizar título de página de canciones favoritas [`06806d9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/06806d96241d74628282449ee27bbf286c8ee209)
+- Agregar badge de omg.lol en markdown [`44b2643`](https://github.com/luiscarlospando/luiscarlospando.com/commit/44b2643e1f209ebdd7536cf56a50c4113193d146)
+- Agregar badge de omg.lol en markdown [`ab152f1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ab152f151844dcd401ceed2ea9f52036a9ba06d8)
+- Deploy v2.68.0 [`58e221b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/58e221b7fe35ef65b4cd7b7deb0d2315c57a4785)
+- Actualizar tags [`2a392ea`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2a392ea7744e3884ceece21f0b1b4778b46f72fe)
+- Cambiar de color el texto de mensaje de error [`89b813e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/89b813e3a4a6f2eeb71977e5c4a5584d9e4d3978)
+- Update crucialtracks.js [`5f98824`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5f98824c904994ee24774f5e1a278758c7e6e24e)
+- Optimizar fetching y carga [`7697384`](https://github.com/luiscarlospando/luiscarlospando.com/commit/76973849e7cab362ea33fa766317154f8fa6c0ee)
+
 ## [`v2.67.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.66.2...v2.67.0) - 2026-01-07
 
 - Actualizar CHANGELOG [`78947d6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/78947d6ff02b16d85614ebe73062bb00cbcc72d0)

@@ -96,7 +96,7 @@ function displayLastFmTopAlbums() {
             console.error("Error fetching data from Last.fm:", error);
             container.innerHTML = `
                 <div class="col-12 text-center py-5">
-                    <p class="text-danger">No se pudieron cargar los álbumes. Por favor, actualiza la página.</p>
+                    <p>No se pudieron cargar los álbumes. Por favor, actualiza la página.</p>
                 </div>`;
         });
 }

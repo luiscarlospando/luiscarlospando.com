@@ -3,7 +3,7 @@ layout: page
 title: Top 4
 description: Mi top 3 con una mención honorífica en varias categorías. Esta página está sujeta a cambios constantes y puede ser actualizada en cualquier momento.
 image: /assets/images/logo.png
-tags: [games, video-games, favorite-games, favorite-video-games]
+tags: [games, video-games, favorite-games, favorite-video-games, bands, favorite-bands, movies, favorite-movies, brands, favorite-brands, beers, favorite-beers, places, favorite-places, cartoons, favorite-cartoons, juegos, videojuegos, videojuegos-favoritos, bandas, bandas-favoritas, películas, películas-favoritas, marcas, marcas-favoritas, cervezas, cervezas-favoritas, comidas, comidas-favoritas, lugares, lugares-favoritos, caricaturas, caricaturas-favoritas]
 permalink: /top4/
 last-modified-at: <span id="last-updated-at">2025-12-24 15:00:00</span>
 ---

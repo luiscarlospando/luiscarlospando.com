@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Playlist (Crucial Tracks)
-description: Un playlist que actualizo diariamente (o eso intento) con música que voy agregando a mi perfil de Crucial Tracks desde septiembre de 2025.
+description: Un playlist que actualizo diariamente (o eso intento) con canciones cruciales en mi vida, escribiendo algo sobre de cada canción. Llevo haciéndolo desde septiembre de 2025.
 image: /assets/images/logo.png
 tags: [playlist, music, música, music-playlist, crucial-tracks, apple-music, apple-music-playlist]
 permalink: /music/playlist/
@@ -9,10 +9,10 @@ permalink: /music/playlist/
 
 <p class="text-center">{{ page.description }}</p>
 
-<p class="text-center">Este es [mi perfil en Crucial Tracks][1]{:rel="alternate noopener" target="_blank"} y en [este post][2] explico de qué se trata esto.</p>
+<p class="text-center">Todo este registro lo llevo en [mi perfil en Crucial Tracks][1]{:rel="alternate noopener" target="_blank"} y en [este post][2] explico más a detalle de qué trata todo esto.</p>
 
 <p class="text-center">
-    ⚠️ <em>Disclaimer: Este log lo escribo en inglés (esperando que no sea un problema). Las preguntas que me da Crucial Tracks están en inglés y me es más natural responderlas así en el mismo idioma.</em>
+    ⚠️ <em>Disclaimer: Este log está escrito en inglés (esperando que no sea un problema). Crucial Tracks me da preguntas (o *prompts*) en inglés y la neta siento más natural escribir así en el mismo idioma.</em>
 </p>
 
 <ul class="list-inline mb-4 text-center">

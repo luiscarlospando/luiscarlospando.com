@@ -40,6 +40,7 @@ last-modified-at: <span id="last-updated-at">2026-01-08 10:30:00</span>
 - No ser dueño de mi música (streaming)
 - Salsas que no pican
 - La gente pretenciosa
+- Los que se sienten el centro del mundo
 - El gobierno actual (no importa cuándo leas esto)
 - Nepotispo y prepotencia de las autoridades
 - El clasismo/racismo/homofobia

@@ -14,47 +14,48 @@ const UPDATE_INTERVAL = 180000; // 3 minutes
 
 // Caching data
 const statusCache = {
-  data: null,
-  timestamp: 0,
+    data: null,
+    timestamp: 0,
 };
 
 // Function to fetch data with retries
 async function fetchWithRetry(url, options, retries = 3) {
-  try {
-    const response = await fetch(url, options);
-    if (!response.ok) throw new Error(response.statusText);
-    return response;
-  } catch (error) {
-    if (retries > 0) {
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      return fetchWithRetry(url, options, retries - 1);
+    try {
+        const response = await fetch(url, options);
+        if (!response.ok) throw new Error(response.statusText);
+        return response;
+    } catch (error) {
+        if (retries > 0) {
+            await new Promise((resolve) => setTimeout(resolve, 1000));
+            return fetchWithRetry(url, options, retries - 1);
+        }
+        throw error;
     }
-    throw error;
-  }
 }
 
 // Function to render latest status
 function renderStatus(data) {
-  const statusElement = document.getElementById("status");
-  if (!statusElement) {
-    console.log("❌ #status no existe en el DOM");
-    return;
-  } else {
-    console.log("✅ #status si existe en el DOM");
-  }
+    const statusElement = document.getElementById("status");
+    if (!statusElement) {
+        console.log("❌ #status no existe en el DOM");
+        return;
+    } else {
+        console.log("✅ #status si existe en el DOM");
+    }
 
-  const lastUpdatedUnix = data.response.statuses[0].created;
-  const lastUpdatedIso = dayjs.unix(lastUpdatedUnix);
-  const lastUpdatedRelative = dayjs().to(lastUpdatedIso);
-  const machineReadableDateTime = lastUpdatedIso.toISOString();
+    const lastUpdatedUnix = data.response.statuses[0].created;
+    const lastUpdatedIso = dayjs.unix(lastUpdatedUnix);
+    const lastUpdatedRelative = dayjs().to(lastUpdatedIso);
+    const machineReadableDateTime = lastUpdatedIso.toISOString();
 
-  statusElement.innerHTML = `
+    statusElement.innerHTML = `
         <div id="container" class="text-center">
-            <a href="https://mijo.status.lol/" rel="me noreferrer noopener" target="_blank">
-                <p>
-                    ${data.response.statuses[0].emoji} ${data.response.statuses[0].content}
-                </p>
-            </a>
+            <p>
+                ${data.response.statuses[0].emoji}
+                <a href="https://mijo.status.lol/" rel="me noreferrer noopener" target="_blank">
+                    ${data.response.statuses[0].content}
+                </a>
+            </p>
             <small class="text-muted">
                 <time datetime="${machineReadableDateTime}">
                     <em><i class="fa-solid fa-clock"></i> ${lastUpdatedRelative}</em>
@@ -66,60 +67,60 @@ function renderStatus(data) {
 
 // Main function to show the latest status
 async function displayLatestStatus(forceUpdate = false) {
-  try {
-    const now = Date.now();
+    try {
+        const now = Date.now();
 
-    // Add logs for debugging
-    console.log("Timestamp actual:", now);
-    console.log("Último timestamp:", statusCache.timestamp);
-    console.log("Diferencia:", now - statusCache.timestamp);
-    console.log("¿Forzar actualización?:", forceUpdate);
-    console.log("¿Hay datos en caché?:", !!statusCache.data);
+        // Add logs for debugging
+        console.log("Timestamp actual:", now);
+        console.log("Último timestamp:", statusCache.timestamp);
+        console.log("Diferencia:", now - statusCache.timestamp);
+        console.log("¿Forzar actualización?:", forceUpdate);
+        console.log("¿Hay datos en caché?:", !!statusCache.data);
 
-    // Only use cache if it's valid and it's not forced
-    if (
-      !forceUpdate &&
-      statusCache.data &&
-      now - statusCache.timestamp < CACHE_DURATION
-    ) {
-      console.log("📦 Usando datos en caché");
-      renderStatus(statusCache.data);
-      return;
-    }
+        // Only use cache if it's valid and it's not forced
+        if (
+            !forceUpdate &&
+            statusCache.data &&
+            now - statusCache.timestamp < CACHE_DURATION
+        ) {
+            console.log("📦 Usando datos en caché");
+            renderStatus(statusCache.data);
+            return;
+        }
 
-    console.log(
-      "🔄 Haciendo nueva petición a la API de omg.lol:",
-      new Date().toLocaleTimeString(),
-    );
+        console.log(
+            "🔄 Haciendo nueva petición a la API de omg.lol:",
+            new Date().toLocaleTimeString()
+        );
 
-    // Show loading indicator
-    const statusElement = document.getElementById("status");
-    if (statusElement) {
-      statusElement.classList.add("updating"); // Add updating styles
-    }
+        // Show loading indicator
+        const statusElement = document.getElementById("status");
+        if (statusElement) {
+            statusElement.classList.add("updating"); // Add updating styles
+        }
 
-    const response = await fetchWithRetry(API_URL, {
-      method: "GET",
-      headers: { "Content-type": "application/json;charset=UTF-8" },
-      cache: forceUpdate ? "no-store" : "default", // Allow cache only when it's not forced
-    });
+        const response = await fetchWithRetry(API_URL, {
+            method: "GET",
+            headers: { "Content-type": "application/json;charset=UTF-8" },
+            cache: forceUpdate ? "no-store" : "default", // Allow cache only when it's not forced
+        });
 
-    const data = await response.json();
+        const data = await response.json();
 
-    statusCache.data = data;
-    statusCache.timestamp = now;
+        statusCache.data = data;
+        statusCache.timestamp = now;
 
-    renderStatus(data);
+        renderStatus(data);
 
-    // Remove loading indicator
-    if (statusElement) {
-      statusElement.classList.remove("updating");
-    }
-  } catch (error) {
-    console.error("Error al actualizar el estado:", error);
-    const statusElement = document.getElementById("status");
-    if (statusElement) {
-      statusElement.innerHTML = `
+        // Remove loading indicator
+        if (statusElement) {
+            statusElement.classList.remove("updating");
+        }
+    } catch (error) {
+        console.error("Error al actualizar el estado:", error);
+        const statusElement = document.getElementById("status");
+        if (statusElement) {
+            statusElement.innerHTML = `
                 <div id="container" class="text-center">
                     <p>Error al cargar el estado. Intentando de nuevo...</p>
                     <button class="btn btn-primary" onclick="window.forceStatusUpdate()">
@@ -127,64 +128,64 @@ async function displayLatestStatus(forceUpdate = false) {
                     </button>
                 </div>
             `;
+        }
     }
-  }
 }
 
 // Function to remove the update
 function forceStatusUpdate() {
-  return displayLatestStatus(true);
+    return displayLatestStatus(true);
 }
 
 // Configure observer for lazy loading
 function setupIntersectionObserver() {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        displayLatestStatus();
-        observer.disconnect();
-      }
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                displayLatestStatus();
+                observer.disconnect();
+            }
+        });
     });
-  });
 
-  const statusElement = document.getElementById("status");
-  if (statusElement) {
-    observer.observe(statusElement);
-  }
+    const statusElement = document.getElementById("status");
+    if (statusElement) {
+        observer.observe(statusElement);
+    }
 }
 
 // Initialization function
 function initStatusManager() {
-  console.log("🚀 Iniciando StatusManager");
+    console.log("🚀 Iniciando StatusManager");
 
-  const statusElement = document.getElementById("status");
-  if (statusElement) {
-    statusElement.innerHTML = `
+    const statusElement = document.getElementById("status");
+    if (statusElement) {
+        statusElement.innerHTML = `
         <div id="container" class="text-center">
             <p><i class="fas fa-spinner fa-spin"></i> Cargando estado...</p>
         </div>
     `;
-  }
+    }
 
-  // Exposes forced update function globally
-  window.forceStatusUpdate = forceStatusUpdate;
+    // Exposes forced update function globally
+    window.forceStatusUpdate = forceStatusUpdate;
 
-  setupIntersectionObserver();
+    setupIntersectionObserver();
 
-  // First load
-  displayLatestStatus();
+    // First load
+    displayLatestStatus();
 
-  // Periodic updates
-  const updateInterval = setInterval(() => {
-    console.log(
-      "⏰ Actualización programada:",
-      new Date().toLocaleTimeString(),
-    );
-    displayLatestStatus(true);
-  }, UPDATE_INTERVAL);
+    // Periodic updates
+    const updateInterval = setInterval(() => {
+        console.log(
+            "⏰ Actualización programada:",
+            new Date().toLocaleTimeString()
+        );
+        displayLatestStatus(true);
+    }, UPDATE_INTERVAL);
 
-  // Verify that the interval was created
-  console.log("✅ Intervalo configurado");
+    // Verify that the interval was created
+    console.log("✅ Intervalo configurado");
 }
 
 // Export required functions

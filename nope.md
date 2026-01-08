@@ -39,6 +39,7 @@ last-modified-at: <span id="last-updated-at">2026-01-08 10:30:00</span>
 - Los pelijuegos, de esos que son más cutscenes que gameplay
 - No ser dueño de mi música (streaming)
 - Salsas que no pican
+- La gente pretenciosa
 - El gobierno actual (no importa cuándo leas esto)
 - Nepotispo y prepotencia de las autoridades
 - El clasismo/racismo/homofobia
@@ -52,6 +53,7 @@ last-modified-at: <span id="last-updated-at">2026-01-08 10:30:00</span>
 - Instalar una app para algo que no necesita ser app
 - Usar dinero físico
 - Tomarme selfies
+- Dejar de agradecer
 
 ---
 

@@ -55,7 +55,7 @@ last-modified-at: <span id="last-updated-at">2026-01-08 10:30:00</span>
 
 ---
 
-*Esta página está inspirada por [Anne Sturdivant][1]{:rel="me noopener" target="_blank"} y [Jack Baty][2]{:rel="me noopener" target="_blank"}*
+*Esta página está inspirada por [Anne Sturdivant][1]{:rel="me noopener" target="_blank"} y [Jack Baty][2]{:rel="me noopener" target="_blank"}.*
 
 [1]: https://weblog.anniegreens.lol/nope
 [2]: https://baty.net/nope/

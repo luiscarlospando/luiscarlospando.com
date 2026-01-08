@@ -56,7 +56,7 @@ async function displayLatestPosts() {
                         "YYYY-MM-DD"
                     );
 
-                    return `<li class="mb-3"><div class="li-content"><a class="post-date badge badge-dark" href="${post.link}"><time datetime="${machineReadableDate}">${postDate}</time></a> <a href="${post.link}" title="" target="_self">${post.title.rendered}</a></div></li>`;
+                    return `<li class="mb-3 mb-md-2"><div class="li-content"><a class="post-date badge badge-dark" href="${post.link}"><time datetime="${machineReadableDate}">${postDate}</time></a> <a href="${post.link}" title="" target="_self">${post.title.rendered}</a></div></li>`;
                 })
                 .join("");
 

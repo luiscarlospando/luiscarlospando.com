@@ -24,7 +24,6 @@ permalink: /music/
         <a class="btn btn-primary btn-sm" href="/music/loved-tracks/">
           <i class="fa-solid fa-heart"></i> Canciones favoritas
         </a>
-        <span class="badge badge-success pulse-subtle pulse-fast">Nuevo</span>
     </li>
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="/music/playlist/">

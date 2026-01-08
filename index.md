@@ -135,10 +135,9 @@ Si te quedaste con ganas de más, entonces [pásale a mi página Acerca de][4].
             </a>
         </li>
         <li class="list-inline-item">
-            <a href="/top4/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Mi top 3 con una mención honorífica en varias categorías." title="Mi top 3 con una mención honorífica en varias categorías.">
+            <a href="/top4/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Mi top 3 con una mención honorífica en varias categorías" title="Mi top 3 con una mención honorífica en varias categorías">
                 <i class="fa-solid fa-trophy"></i> Top 4
             </a>
-            <span class="badge badge-success pulse-subtle pulse-fast" style="vertical-align: super;">Nuevo</span>
         </li>
     </ul>
 </nav>

@@ -36,7 +36,7 @@ last-modified-at: <span id="last-updated-at">2026-01-08 10:30:00</span>
 - LinkedIn
 - Marvel/DC Comics
 - Que [solo me digan "hola"](https://blog.luiscarlospando.com/personal/2025/12/no-solo-digas-hola/)
-- Los pelijuegos, de esos que son más cutscenes que gameplay!
+- Los pelijuegos, de esos que son más cutscenes que gameplay
 - No ser dueño de mi música (streaming)
 - Salsas que no pican
 - El gobierno actual (no importa cuándo leas esto)

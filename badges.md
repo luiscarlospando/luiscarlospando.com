@@ -5,11 +5,23 @@ description: Esta es mi colección de botones 88x31 (o web badges).
 image: /assets/images/logo.png
 tags: [badges, web-badges]
 permalink: /badges/
+last-modified-at: <span id="last-updated-at">2026-01-09 12:00:00</span>
 ---
+
+<div class="card last-updated my-3 text-center">
+<div class="card-body rounded">
+#### <code>Última actualización:</code> {{ page.last-modified-at }}
+</div>
+</div>
 
 <p class="text-center">{{ page.description }}</p>
 
 <ul class="list-inline">
+<li class="list-inline-item mb-3">
+<a rel="me" href="https://luiscarlospando.com/" target="_blank">
+<img class="web-badge" width="88" height="31" src="{{ site.url }}/assets/images/buttons/luis-carlos-pando.gif" alt="Luis Carlos Pando" />
+</a>
+</li>
 <li class="list-inline-item mb-3">
 <a rel="noreferrer noopener" href="https://people.pledge.party/" target="_blank">
 <img class="web-badge" width="88" height="31" src="{{ site.url }}/assets/images/buttons/People-Pledge-Badge-Cream-Pink.svg" alt="The People Pledge" />
@@ -108,6 +120,9 @@ permalink: /badges/
 </li>
 <li class="list-inline-item mb-3">
 <img class="web-badge" src="{{ site.url }}/assets/images/buttons/panic.gif" alt="Panic" width="88" height="31" />
+</li>
+<li class="list-inline-item mb-3">
+<img class="web-badge" src="{{ site.url }}/assets/images/buttons/game-boy.gif" alt="Game Boy" width="88" height="31" />
 </li>
 <li class="list-inline-item mb-3">
 <img class="web-badge" src="{{ site.url }}/assets/images/buttons/super-mario-bros.gif" alt="Super Mario Bros." width="88" height="31" />

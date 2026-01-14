@@ -7,12 +7,6 @@ tags: [twitter, twitter-x, x, twitter-archive, twitter-archivo]
 permalink: /twitter/
 ---
 
-<div class="card last-updated my-3 text-center">
-<div class="card-body rounded">
-#### <code>Última actualización:</code> <span id="last-updated-at">Cargando...</span>
-</div>
-</div>
-
 <p class="text-center">{{ page.description }}</p>
 
 <ul id="archived-tweets" class="list-unstyled"></ul>

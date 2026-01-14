@@ -26,55 +26,37 @@ function updateURL(page) {
 
 // Function to format date for display
 function formatTweetDate(dateString) {
-    // El CSV tiene fechas como "October 31, 2014 at 10:17AM"
-    // Necesitamos parsearlas correctamente
+    // CSV has dates like "October 31, 2014 at 10:17AM"
+    // We need to parse them correctly
     const date = new Date(dateString.replace(" at ", " "));
 
-    // Verificar si la fecha es válida
+    // Check if date is valid
     if (isNaN(date.getTime())) {
-        return dateString; // Retornar el string original si no se puede parsear
+        return dateString; // Return original string if can't parse
     }
 
-    const options = {
-        year: "numeric",
-        month: "short",
-        day: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
-    };
+    const months = [
+        "ene",
+        "feb",
+        "mar",
+        "abr",
+        "may",
+        "jun",
+        "jul",
+        "ago",
+        "sep",
+        "oct",
+        "nov",
+        "dic",
+    ];
 
-    return date.toLocaleDateString("es-MX", options);
-}
+    const day = date.getDate();
+    const month = months[date.getMonth()];
+    const year = date.getFullYear();
+    const hours = String(date.getHours()).padStart(2, "0");
+    const minutes = String(date.getMinutes()).padStart(2, "0");
 
-// Function to update the "last updated" notice
-function updateLastModifiedNotice(mostRecentTweet) {
-    const lastUpdatedElement = document.getElementById("last-updated-at");
-
-    if (lastUpdatedElement && mostRecentTweet) {
-        // Usar dateOriginal en lugar de date (que es ISO)
-        const dateString = mostRecentTweet.dateOriginal || mostRecentTweet.date;
-        const date = new Date(dateString.replace(" at ", " "));
-
-        // Verificar si la fecha es válida
-        if (isNaN(date.getTime())) {
-            lastUpdatedElement.textContent = dateString;
-            return;
-        }
-
-        const year = date.getFullYear();
-        const month = String(date.getMonth() + 1).padStart(2, "0");
-        const day = String(date.getDate()).padStart(2, "0");
-        const hours = String(date.getHours()).padStart(2, "0");
-        const minutes = String(date.getMinutes()).padStart(2, "0");
-        const seconds = String(date.getSeconds()).padStart(2, "0");
-
-        const formattedDate = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
-        lastUpdatedElement.textContent = formattedDate;
-
-        // Dispatch custom event
-        const event = new CustomEvent("lastUpdatedDateReady");
-        document.dispatchEvent(event);
-    }
+    return `${day} ${month} ${year}, ${hours}:${minutes}`;
 }
 
 // Function to make links clickable in tweet text
@@ -109,7 +91,7 @@ function displayArchivedTweets() {
 
     const container = document.getElementById("archived-tweets");
     if (!container) {
-        console.log("❌ #archived-tweets no existe en el DOM");
+        console.log("❌ #archived-tweets does not exist in DOM");
         return;
     }
 
@@ -119,20 +101,13 @@ function displayArchivedTweets() {
             <i class="fas fa-spinner fa-spin"></i> Cargando tweets archivados...
         </li>`;
 
-    // Fetch tweets from JSON file (ajusta la ruta según donde guardes el archivo)
+    // Fetch tweets from JSON file (adjust path to where you save the file)
     fetch("/assets/data/tweets.json")
         .then((response) => response.json())
         .then((data) => {
-            console.log(
-                "✅ #archived-tweets existe en el DOM. Cargando tweets..."
-            );
+            console.log("✅ #archived-tweets exists in DOM. Loading tweets...");
 
             allTweets = data;
-
-            // Update the "last updated" notice with the most recent tweet's date
-            if (allTweets.length > 0) {
-                updateLastModifiedNotice(allTweets[0]);
-            }
 
             // Validate page number after we know total items
             const totalPages = Math.ceil(allTweets.length / ITEMS_PER_PAGE);
@@ -145,7 +120,7 @@ function displayArchivedTweets() {
             setupPagination();
         })
         .catch((error) => {
-            console.error("Error cargando tweets:", error);
+            console.error("Error loading tweets:", error);
             container.innerHTML = `<li>No se pudieron cargar los tweets. Por favor, actualiza la página.</li>`;
         });
 }
@@ -161,7 +136,7 @@ function renderPaginatedTweets() {
 
     list.innerHTML = tweets
         .map((tweet, index) => {
-            // Usar dateOriginal que viene del CSV
+            // Use dateOriginal from CSV
             const dateToFormat = tweet.dateOriginal || tweet.date;
             const formattedDate = formatTweetDate(dateToFormat);
             const linkedText = linkifyTweet(tweet.text);
@@ -308,7 +283,7 @@ window.addEventListener("popstate", (event) => {
 
 // Call the function when the DOM is ready
 document.addEventListener("DOMContentLoaded", () => {
-    // Only run if the container exists
+    // Only run if container exists
     if (document.getElementById("archived-tweets")) {
         displayArchivedTweets();
     }

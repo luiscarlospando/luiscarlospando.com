@@ -27,39 +27,48 @@ function updateURL(page) {
 // Function to format date for display
 function formatTweetDate(dateString) {
     // CSV has dates like "October 31, 2014 at 10:17AM"
-    // Remove " at " to make it parseable
-    let cleanedDate = dateString.replace(" at ", " ");
+    // Parse manually since browser may not understand this format
+    const regex = /(\w+)\s+(\d+),\s+(\d+)\s+at\s+(\d+):(\d+)(AM|PM)/;
+    const match = dateString.match(regex);
 
-    const date = new Date(cleanedDate);
-
-    // Check if date is valid
-    if (isNaN(date.getTime())) {
+    if (!match) {
         console.warn("Could not parse date:", dateString);
-        return dateString; // Return original string if can't parse
+        return dateString;
     }
 
-    const months = [
-        "ene",
-        "feb",
-        "mar",
-        "abr",
-        "may",
-        "jun",
-        "jul",
-        "ago",
-        "sep",
-        "oct",
-        "nov",
-        "dic",
-    ];
+    const monthNames = {
+        January: "ene",
+        February: "feb",
+        March: "mar",
+        April: "abr",
+        May: "may",
+        June: "jun",
+        July: "jul",
+        August: "ago",
+        September: "sep",
+        October: "oct",
+        November: "nov",
+        December: "dic",
+    };
 
-    const day = date.getDate();
-    const month = months[date.getMonth()];
-    const year = date.getFullYear();
-    const hours = String(date.getHours()).padStart(2, "0");
-    const minutes = String(date.getMinutes()).padStart(2, "0");
+    const monthStr = match[1];
+    const day = match[2];
+    const year = match[3];
+    let hours = parseInt(match[4]);
+    const minutes = match[5];
+    const ampm = match[6];
 
-    return `${day} ${month} ${year}, ${hours}:${minutes}`;
+    // Convert to 24-hour format
+    if (ampm === "PM" && hours !== 12) {
+        hours += 12;
+    } else if (ampm === "AM" && hours === 12) {
+        hours = 0;
+    }
+
+    const month = monthNames[monthStr] || monthStr.toLowerCase().slice(0, 3);
+    const hoursStr = String(hours).padStart(2, "0");
+
+    return `${day} ${month} ${year}, ${hoursStr}:${minutes}`;
 }
 
 // Function to make links clickable in tweet text

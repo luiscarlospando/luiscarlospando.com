@@ -27,11 +27,14 @@ function updateURL(page) {
 // Function to format date for display
 function formatTweetDate(dateString) {
     // CSV has dates like "October 31, 2014 at 10:17AM"
-    // We need to parse them correctly
-    const date = new Date(dateString.replace(" at ", " "));
+    // Remove " at " to make it parseable
+    let cleanedDate = dateString.replace(" at ", " ");
+
+    const date = new Date(cleanedDate);
 
     // Check if date is valid
     if (isNaN(date.getTime())) {
+        console.warn("Could not parse date:", dateString);
         return dateString; // Return original string if can't parse
     }
 
@@ -136,7 +139,7 @@ function renderPaginatedTweets() {
 
     list.innerHTML = tweets
         .map((tweet, index) => {
-            // Use dateOriginal from CSV
+            // Always use dateOriginal and format it
             const dateToFormat = tweet.dateOriginal || tweet.date;
             const formattedDate = formatTweetDate(dateToFormat);
             const linkedText = linkifyTweet(tweet.text);

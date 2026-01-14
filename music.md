@@ -25,12 +25,12 @@ permalink: /music/
 <ul class="list-inline mb-4 text-center">
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="{{ site.apple_music_url}}" target="_blank" rel="me noopener noreferrer">
-          <i class="fa-brands fa-apple"></i> Apple Music
+          <i class="fa-brands fa-apple"></i> Mi perfil en Apple Music
         </a>
     </li>
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="{{ site.lastfm_url}}" target="_blank" rel="me noopener noreferrer">
-          <i class="fa-brands fa-lastfm"></i> Last.fm
+          <i class="fa-brands fa-lastfm"></i> Mi perfil en Last.fm
         </a>
     </li>
 </ul>

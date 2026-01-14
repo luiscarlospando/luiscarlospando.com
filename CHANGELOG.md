@@ -8,6 +8,32 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.69.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.68.0...v2.69.0) - 2026-01-13
+
+- Implementar archivo de tweets [`ec37a9c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ec37a9c94225da3d643e52de8459d047827aad8a)
+- Implementar archivo de tweets [`c2e5238`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c2e52388a4dcf97ace384e8419dc775d56155f46)
+- Usar fechas en español y quitar #last-updated [`5154e9c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5154e9c14adf3fb1aa7a5362f984fcf559de3b69)
+- Corregir parseo de fechas [`1fe1d4c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1fe1d4cf4496d675411539acf3be90daeb9b8269)
+- Optimizar código para asegurar que solo corran cuando sea necesario y no siempre [`aec7309`](https://github.com/luiscarlospando/luiscarlospando.com/commit/aec73097a0981b522790338ff0ba3b4043fc108a)
+- Corregir error en fechas para usar dateOriginal [`2ae4c51`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2ae4c51f929bf2d73d222254b3f38a7ed2ed3e33)
+- Implementar etiqueta time para mejorar accesibilidad y semántica [`1781362`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1781362291281b2cd86488cc31764c7786044223)
+- Actualizar CHANGELOG [`a84428b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a84428bc1a7b01ba69310c0a77a15deb20455003)
+- Agregar badges [`f1a09dc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f1a09dc2edafc3fbfdd807da06b25536c3f60171)
+- Usar formato AM/PM para las fechas [`57ad3f3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/57ad3f32080fd06480f67766b57e03455eccff20)
+- Corregir parseo de fechas [`95c0171`](https://github.com/luiscarlospando/luiscarlospando.com/commit/95c017146fad1e9bda6b6aec1cf615363225b297)
+- Update index.md [`4563e00`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4563e0030ca79fa5b7ed2c7fbcab780c6a14e16c)
+- Actualizar textos [`a4a3f91`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a4a3f914784e327688cc39f223fbfb680a76a890)
+- Actualizar textos [`f15fbc9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f15fbc946a01208dba0679fddacfb0dfe6183b38)
+- Invertir orden cronológico de los tweets con reverse() [`04f9fc8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/04f9fc8df795f8800215c9582b9f0f8b25f76e5f)
+- Deploy 2.69.0 [`5de79f3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5de79f30aa6dcd7b94ccc3f4bc445b47661cc301)
+- Update blogroll.md [`a6f8a19`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a6f8a19af924112de44fe884036f52ac4f624366)
+- Actualizar /nope [`20d3029`](https://github.com/luiscarlospando/luiscarlospando.com/commit/20d30299d4fe5cae67a46506f5e819c608d4a4c0)
+- Actualizar /nope [`dca0b74`](https://github.com/luiscarlospando/luiscarlospando.com/commit/dca0b74f99f5eeb3975770e9020b288b0895ed73)
+- Reducir separación de posts del bog y aumentar a 10 cantidad de posts a mostrar [`bd7df29`](https://github.com/luiscarlospando/luiscarlospando.com/commit/bd7df29b26028c95b21554dc03c7d10332c2090f)
+- Corregir puntuación en texto inferior [`6fcfa75`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6fcfa75fc726bb8c246f18529e04ac593c89be32)
+- Quitar caracter innecesario [`6433ff8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6433ff80796cffee423d3a8d8b13caf455592e77)
+- Actualizar /nope [`c0ef8f7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c0ef8f73d1975dbbc12c494af1b33587c143a980)
+
 ## [`v2.68.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.67.0...v2.68.0) - 2026-01-08
 
 - Sacar emoji del link [`9e97424`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9e9742470dfccf86da7248c3b639c83248f3eb75)

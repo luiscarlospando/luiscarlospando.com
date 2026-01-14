@@ -129,7 +129,7 @@ function displayLastFmLovedTracks() {
 
     const container = document.getElementById("loved-tracks");
     if (!container) {
-        console.log("❌ #loved-tracks no existe en el DOM");
+        console.log("❌ #loved-tracks does not exist in DOM");
         return;
     }
 
@@ -142,9 +142,7 @@ function displayLastFmLovedTracks() {
     fetch("https://luiscarlospando.com/api/lastfmLovedTracks")
         .then((response) => response.json())
         .then((data) => {
-            console.log(
-                "✅ #loved-tracks existe en el DOM. Cargando canciones..."
-            );
+            console.log("✅ #loved-tracks exists in DOM. Loading tracks...");
 
             // Get the list of tracks from the JSON response
             allTracks = data.lovedtracks.track;
@@ -320,7 +318,7 @@ function setupPagination() {
       <button id="lovedTracksNextPage" class="btn btn-primary" aria-label="Siguiente" ${currentPage === totalPages ? "disabled" : ""}>Siguiente »</button>
     </div>
     <hr>
-    <div class="pagination-go-to" margin-bottom: 1rem;>
+    <div class="pagination-go-to" style="margin-bottom: 1rem;">
       <div>
         <label for="lovedTracksPageJumpInput" style="margin: 0; white-space: nowrap;">Ir a página:</label>
         <input
@@ -381,4 +379,9 @@ window.addEventListener("popstate", (event) => {
 });
 
 // Call the function when the DOM is ready
-document.addEventListener("DOMContentLoaded", displayLastFmLovedTracks);
+document.addEventListener("DOMContentLoaded", () => {
+    // Only run if container exists
+    if (document.getElementById("loved-tracks")) {
+        displayLastFmLovedTracks();
+    }
+});

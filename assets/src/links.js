@@ -1,3 +1,5 @@
+// Links
+
 // Require dayjs from 'dayjs'
 const locale_es_mx = require("dayjs/locale/es-mx");
 const dayjs = require("dayjs");
@@ -59,15 +61,15 @@ function checkElements() {
     const linksElement = document.getElementById("links");
 
     if (bookmarksElement) {
-        console.log("✅ #bookmarks si existe en el DOM");
+        console.log("✅ #bookmarks exists in DOM");
     } else {
-        console.log("❌ #bookmarks no existe en el DOM");
+        console.log("❌ #bookmarks does not exist in DOM");
     }
 
     if (linksElement) {
-        console.log("✅ #links si existe en el DOM");
+        console.log("✅ #links exists in DOM");
     } else {
-        console.log("❌ #links no existe en el DOM");
+        console.log("❌ #links does not exist in DOM");
     }
 
     return {
@@ -369,4 +371,12 @@ window.addEventListener("popstate", (event) => {
 });
 
 // Initialize main function
-document.addEventListener("DOMContentLoaded", displayContent);
+document.addEventListener("DOMContentLoaded", () => {
+    // Only run if at least one of the containers exists
+    const bookmarksElement = document.getElementById("bookmarks");
+    const linksElement = document.getElementById("links");
+
+    if (bookmarksElement || linksElement) {
+        displayContent();
+    }
+});

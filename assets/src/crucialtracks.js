@@ -1,3 +1,5 @@
+// Playlist (Crucial Tracks)
+
 // Import and configure dayjs with Spanish (Mexico) locale
 const locale_es_mx = require("dayjs/locale/es-mx");
 const dayjs = require("dayjs");
@@ -279,7 +281,10 @@ function handleAudioPause(event) {
 // Main function to fetch and display tracks
 async function displayTracks() {
     const listContainer = document.getElementById("tracks");
-    if (!listContainer) return;
+    if (!listContainer) {
+        console.log("❌ #tracks does not exist in DOM");
+        return;
+    }
 
     // Get current page from URL
     currentPage = getPageFromURL();
@@ -290,8 +295,10 @@ async function displayTracks() {
         const data = await fetchTracksJSON();
 
         if (!Array.isArray(data)) {
-            throw new Error("La respuesta del API no es un arreglo.");
+            throw new Error("API response is not an array.");
         }
+
+        console.log("✅ #tracks exists in DOM. Loading tracks...");
 
         allItems = data;
 
@@ -601,4 +608,9 @@ window.addEventListener("popstate", (event) => {
 });
 
 // Initialize on DOM load
-document.addEventListener("DOMContentLoaded", displayTracks);
+document.addEventListener("DOMContentLoaded", () => {
+    // Only run if container exists
+    if (document.getElementById("tracks")) {
+        displayTracks();
+    }
+});

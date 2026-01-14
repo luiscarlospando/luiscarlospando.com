@@ -4,7 +4,7 @@
 function displayLastFmTopAlbums() {
     const container = document.getElementById("lastfm-albums-grid");
     if (!container) {
-        console.log("❌ #lastfm-albums-grid no existe en el DOM");
+        console.log("❌ #lastfm-albums-grid does not exist in DOM");
         return;
     }
 
@@ -18,7 +18,7 @@ function displayLastFmTopAlbums() {
         .then((response) => response.json())
         .then((data) => {
             console.log(
-                "✅ #lastfm-albums-grid existe en el DOM. Cargando álbumes..."
+                "✅ #lastfm-albums-grid exists in DOM. Loading albums..."
             );
 
             // Get the list of albums from the JSON response
@@ -109,4 +109,9 @@ function initializeAlbumsTooltips() {
 }
 
 // Call the function when the DOM is ready
-document.addEventListener("DOMContentLoaded", displayLastFmTopAlbums);
+document.addEventListener("DOMContentLoaded", () => {
+    // Only run if container exists
+    if (document.getElementById("lastfm-albums-grid")) {
+        displayLastFmTopAlbums();
+    }
+});

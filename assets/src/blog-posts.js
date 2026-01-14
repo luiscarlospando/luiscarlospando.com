@@ -1,3 +1,5 @@
+// Blog posts
+
 // WP REST API
 // Require dayjs from 'dayjs'
 const locale_es_mx = require("dayjs/locale/es-mx");

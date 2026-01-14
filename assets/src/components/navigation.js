@@ -268,7 +268,7 @@ function Navigation() {
         },
         {
             id: "17",
-            url: "https://luiscarlospando.com/",
+            url: "https://luiscarlospando.com/#mm-7",
             icon: "fa-solid fa-ellipsis",
             text: "Otros",
             subButtons: [

@@ -9,4 +9,10 @@ permalink: /twitter/
 
 <p class="text-center">{{ page.description }}</p>
 
+<p class="text-center">
+    ⚠️ <em>Disclaimer: En junio de 2025 alguien ofreció comprar mi cuenta de Twitter, accedí y ya no la controlo yo. Entonces los tweets asociados a la cuenta [@mijo][1]{:rel="alternate noopener" target="_blank"} ya no tienen nada que ver conmigo.</em>
+</p>
+
 <ul id="archived-tweets" class="list-unstyled"></ul>
+
+[1]: https://x.com/mijo

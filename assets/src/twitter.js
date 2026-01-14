@@ -51,16 +51,46 @@ function formatTweetDate(dateString) {
         December: "dic",
     };
 
+    const monthNumbers = {
+        January: "01",
+        February: "02",
+        March: "03",
+        April: "04",
+        May: "05",
+        June: "06",
+        July: "07",
+        August: "08",
+        September: "09",
+        October: "10",
+        November: "11",
+        December: "12",
+    };
+
     const monthStr = match[1];
-    const day = match[2];
+    const day = String(match[2]).padStart(2, "0");
     const year = match[3];
-    const hours = match[4];
+    let hours = parseInt(match[4]);
     const minutes = match[5];
     const ampm = match[6];
 
-    const month = monthNames[monthStr] || monthStr.toLowerCase().slice(0, 3);
+    // Convert to 24-hour format for datetime attribute
+    if (ampm === "PM" && hours !== 12) {
+        hours += 12;
+    } else if (ampm === "AM" && hours === 12) {
+        hours = 0;
+    }
 
-    return `${day} ${month} ${year}, ${hours}:${minutes} ${ampm}`;
+    const month = monthNames[monthStr] || monthStr.toLowerCase().slice(0, 3);
+    const monthNum = monthNumbers[monthStr] || "01";
+    const hoursStr = String(hours).padStart(2, "0");
+
+    // ISO 8601 format for datetime attribute
+    const datetime = `${year}-${monthNum}-${day}T${hoursStr}:${minutes}:00`;
+
+    // Display format with original AM/PM
+    const displayText = `${parseInt(day)} ${month} ${year}, ${match[4]}:${minutes} ${ampm}`;
+
+    return `<time datetime="${datetime}"><em>${displayText}</em></time>`;
 }
 
 // Function to make links clickable in tweet text

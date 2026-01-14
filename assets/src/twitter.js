@@ -54,21 +54,13 @@ function formatTweetDate(dateString) {
     const monthStr = match[1];
     const day = match[2];
     const year = match[3];
-    let hours = parseInt(match[4]);
+    const hours = match[4];
     const minutes = match[5];
     const ampm = match[6];
 
-    // Convert to 24-hour format
-    if (ampm === "PM" && hours !== 12) {
-        hours += 12;
-    } else if (ampm === "AM" && hours === 12) {
-        hours = 0;
-    }
-
     const month = monthNames[monthStr] || monthStr.toLowerCase().slice(0, 3);
-    const hoursStr = String(hours).padStart(2, "0");
 
-    return `${day} ${month} ${year}, ${hoursStr}:${minutes}`;
+    return `${day} ${month} ${year}, ${hours}:${minutes} ${ampm}`;
 }
 
 // Function to make links clickable in tweet text

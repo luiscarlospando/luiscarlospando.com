@@ -141,7 +141,8 @@ function displayArchivedTweets() {
         .then((data) => {
             console.log("✅ #archived-tweets exists in DOM. Loading tweets...");
 
-            allTweets = data;
+            // Reverse array to show most recent tweets first
+            allTweets = data.reverse();
 
             // Validate page number after we know total items
             const totalPages = Math.ceil(allTweets.length / ITEMS_PER_PAGE);

@@ -25,8 +25,15 @@ function updateURL(page) {
 }
 
 // Function to format date for display
-function formatTweetDate(isoDate) {
-    const date = new Date(isoDate);
+function formatTweetDate(dateString) {
+    // El CSV tiene fechas como "October 31, 2014 at 10:17AM"
+    // Necesitamos parsearlas correctamente
+    const date = new Date(dateString.replace(" at ", " "));
+
+    // Verificar si la fecha es válida
+    if (isNaN(date.getTime())) {
+        return dateString; // Retornar el string original si no se puede parsear
+    }
 
     const options = {
         year: "numeric",
@@ -43,8 +50,17 @@ function formatTweetDate(isoDate) {
 function updateLastModifiedNotice(mostRecentTweet) {
     const lastUpdatedElement = document.getElementById("last-updated-at");
 
-    if (lastUpdatedElement && mostRecentTweet && mostRecentTweet.date) {
-        const date = new Date(mostRecentTweet.date);
+    if (lastUpdatedElement && mostRecentTweet) {
+        // Usar dateOriginal en lugar de date (que es ISO)
+        const dateString = mostRecentTweet.dateOriginal || mostRecentTweet.date;
+        const date = new Date(dateString.replace(" at ", " "));
+
+        // Verificar si la fecha es válida
+        if (isNaN(date.getTime())) {
+            lastUpdatedElement.textContent = dateString;
+            return;
+        }
+
         const year = date.getFullYear();
         const month = String(date.getMonth() + 1).padStart(2, "0");
         const day = String(date.getDate()).padStart(2, "0");
@@ -145,7 +161,9 @@ function renderPaginatedTweets() {
 
     list.innerHTML = tweets
         .map((tweet, index) => {
-            const formattedDate = formatTweetDate(tweet.date);
+            // Usar dateOriginal que viene del CSV
+            const dateToFormat = tweet.dateOriginal || tweet.date;
+            const formattedDate = formatTweetDate(dateToFormat);
             const linkedText = linkifyTweet(tweet.text);
             const separator = index < tweets.length - 1 ? "<hr>" : "";
 
@@ -156,15 +174,15 @@ function renderPaginatedTweets() {
                             <div class="row">
                                 <div class="col-md-2 col-lg-1 text-center">
                                     <img src="https://luiscarlospando.com/assets/images/avatar.webp"
-                                         alt="Luis Carlos Pando"
-                                         class="rounded-circle img-fluid"
+                                         alt="L. Carlos Pando"
+                                         class="rounded-circle img-fluid mb-4"
                                          style="max-width: 48px;"
                                          loading="${index < 3 ? "eager" : "lazy"}">
                                 </div>
                                 <div class="col-md-10 col-lg-11">
                                     <div class="tweet-content">
                                         <div class="tweet-header mb-2">
-                                            <strong>Luis Carlos Pando</strong>
+                                            <strong>L. Carlos Pando</strong>
                                             <span class="text-muted">${tweet.handle}</span>
                                             <span class="text-muted"> · ${formattedDate}</span>
                                         </div>
@@ -289,4 +307,9 @@ window.addEventListener("popstate", (event) => {
 });
 
 // Call the function when the DOM is ready
-document.addEventListener("DOMContentLoaded", displayArchivedTweets);
+document.addEventListener("DOMContentLoaded", () => {
+    // Only run if the container exists
+    if (document.getElementById("archived-tweets")) {
+        displayArchivedTweets();
+    }
+});

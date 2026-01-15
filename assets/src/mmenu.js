@@ -7,8 +7,9 @@
     ready(() => {
         /* Do things after DOM has fully loaded */
 
-        // Variable para almacenar los facts
+        // Variable to store the facts
         let randomFacts = [];
+        let menuAPI = null;
 
         // Function to get a random text from the randomFacts array
         function getRandomFact() {
@@ -18,31 +19,57 @@
             return randomFacts[Math.floor(Math.random() * randomFacts.length)];
         }
 
-        // Función para cargar los facts desde el JSON
+        // Function to update the menu footer
+        function updateMenuFooter() {
+            // Try different common mmenu selectors
+            const footerSelectors = [
+                ".mm-footer",
+                "#mm-1 .mm-footer",
+                ".mm-menu .mm-footer",
+            ];
+
+            for (const selector of footerSelectors) {
+                const footerElement = document.querySelector(selector);
+                if (footerElement) {
+                    // Look for the span or text container
+                    const textElement =
+                        footerElement.querySelector("span") || footerElement;
+                    textElement.textContent = getRandomFact();
+                    console.log(
+                        "Footer updated with:",
+                        textElement.textContent
+                    );
+                    return;
+                }
+            }
+            console.warn("Menu footer element not found");
+        }
+
+        // Function to load facts from JSON
         async function loadRandomFacts() {
             try {
                 const response = await fetch("/assets/data/random-facts.json");
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
                 const data = await response.json();
                 randomFacts = data.facts;
 
-                // Actualizar el footer del menú después de cargar los datos
-                const footerElement = document.querySelector(
-                    "#mm-1 .mm-footer span"
-                );
-                if (footerElement) {
-                    footerElement.textContent = getRandomFact();
-                }
+                console.log("Facts loaded:", randomFacts.length);
+
+                // Update the footer after loading data
+                updateMenuFooter();
             } catch (error) {
-                console.error("Error al cargar random facts:", error);
-                randomFacts = ["Error cargando facts 😕"];
+                console.error("Error loading random facts:", error);
+                randomFacts = ["Error loading facts 😕"];
+                updateMenuFooter();
             }
         }
 
-        // Cargar los facts antes de inicializar el menú
-        loadRandomFacts();
-
         // Enable nav menu
-        $("#navigation").mmenu({
+        menuAPI = $("#navigation").mmenu({
             classes: "mm-slide",
             slidingSubmenus: true,
             header: {
@@ -52,11 +79,11 @@
             },
             footer: {
                 add: true,
-                title: getRandomFact(),
+                title: "Loading...",
             },
             searchfield: {
-                placeholder: "Buscar",
-                noResults: "No se encontraron resultados.",
+                placeholder: "Search",
+                noResults: "No results found.",
                 add: true,
                 search: false,
             },
@@ -64,6 +91,12 @@
                 open: true,
             },
         });
+
+        // Load facts after initializing the menu
+        // Wait a bit to ensure the menu is fully rendered
+        setTimeout(() => {
+            loadRandomFacts();
+        }, 100);
 
         // Search input
         document

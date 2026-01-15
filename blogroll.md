@@ -5,6 +5,7 @@ description: Esta es mi colección personal de blogs y websites favoritos, los q
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
+last-modified-at: <span id="last-updated-at">2026-01-15 10:10:00</span>
 ---
 
 <p class="text-center">{{ page.description }}</p>
@@ -59,6 +60,7 @@ Algunos de los sitios y blogs personales en español que más me gustan (como se
 | Emmanuel Alejandro Parada | [eapl.mx](https://text.eapl.mx/posts){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://text.eapl.mx/atom.xml){:target="_blank" rel="noopener" .rss-link} |
 | Manu Mateos | [macram.es](https://www.macram.es/){:target="_blank" rel="noopener"} | |
 | Matizeta | [matizeta.com](https://matizeta.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://matizeta.com/feed/){:target="_blank" rel="noopener" .rss-link} |
+| Mono | [simplemono.neocities.org](https://simplemono.neocities.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://simplemono.neocities.org/index.xml){:target="_blank" rel="noopener" .rss-link} |
 
 </div>
 

@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Nope
-description: Cosas que no me gustan y lugares donde no me vas a encontrar.
+description: Lugares donde no me vas a encontrar, cosas que no me gustan y cosas que no quiero hacer.
 image: /assets/images/logo.png
 tags: [nope]
 permalink: /nope/
-last-modified-at: <span id="last-updated-at">2026-01-08 10:30:00</span>
+last-modified-at: <span id="last-updated-at">2026-01-14 20:51:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -18,7 +18,8 @@ last-modified-at: <span id="last-updated-at">2026-01-08 10:30:00</span>
 
 ## Lugares donde no me vas a encontrar
 
-- Facebook (en este momento lo estoy usando solamente para poder encontrar casas en renta vía Marketplace, encontrando cantón, se cierra)
+- Facebook (ahorita lo tengo abierto porque ando buscando cantón en marketplace 😣)
+- Threads
 - Pinterest
 - TikTok
 - Twitter/X
@@ -26,34 +27,51 @@ last-modified-at: <span id="last-updated-at">2026-01-08 10:30:00</span>
 ## Cosas que no me gustan
 
 - Mi cabello
-- Recibir newsletters de cosas que no recuerdo haberme suscrito
-- Hacer/recibir llamadas por teléfono
+- Mi cara
+- Mi cuerpo
+- Todo yo, al chilindrín jaja
+- Recibir correos de cosas que no recuerdo haberme suscrito
+- Hablar por fono/recibir llamadas
 - El calor
 - Los [Social Justice Warriors](https://es.wikipedia.org/wiki/Guerrero_de_la_justicia_social)
 - Que me contacten para ofrecerme algo que no necesito sin el intento de establecer una conexión personal primero
 - Mi OCD
 - WhatsApp
 - LinkedIn
-- Marvel/DC Comics
+- Los monos y pelis de Marvel
 - Que [solo me digan "hola"](https://blog.luiscarlospando.com/personal/2025/12/no-solo-digas-hola/)
 - Los pelijuegos, de esos que son más cutscenes que gameplay
 - No ser dueño de mi música (streaming)
+- No ser dueño de mis videojuegos (compras digitales)
 - Salsas que no pican
-- La gente pretenciosa
+- El Starbucks
+- El autotune
+- El FOMO
+- La raza pretenciosa
 - Los que se sienten el centro del mundo
 - El gobierno actual (no importa cuándo leas esto)
-- Nepotispo y prepotencia de las autoridades
+- Nepotispo, prepotencia y la negligencia de las autoridades
 - El clasismo/racismo/homofobia
 - Ads en YouTube/Netflix/Prime
-- Que le quieran meter IA a todo cuando no se necesita
+- Que le quieran meter IA a todo cuando no se requiere que todo tenga
+- Las reuniones que pudieron ser un email
+- Paywalls para leer una noticia de un periódico digital random
+- La raza que anda en Razors
+- Claudia Sheinbaum
+- Normalizar todo
+- El rediseño innecesario a la app del BBVA
 
 ## Cosas que no quiero hacer
 
 - Pagar suscripciones para todo
 - Pagar para quitar anuncios
-- Instalar una app para algo que no necesita ser app
+- Twener que bajar una app para algo que no necesita ser app
 - Usar dinero físico
+- Responder inmediatamente
+- Estar conectado y disponible 24/7
 - Tomarme selfies
+- Doomscrolling
+- Cambiar mi stack por seguir modas
 - Dejar de agradecer
 
 ---

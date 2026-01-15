@@ -336,11 +336,11 @@ import { initStatusManager } from "./statuslog.js";
 
             // Determining the greeting based on the time of day
             if (hour >= 5 && hour < 12) {
-                timeGreeting = "Buenos días ☀️";
+                timeGreeting = "Qué onda, buenos días ☀️";
             } else if (hour >= 12 && hour < 20) {
-                timeGreeting = "Buenas tardes 🌤️";
+                timeGreeting = "Hola, buenas tardes 🌤️";
             } else {
-                timeGreeting = "Buenas noches 🌙";
+                timeGreeting = "¡Hey!, buenas noches 🌙";
             }
 
             // Combining the greetings

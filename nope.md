@@ -50,7 +50,7 @@ last-modified-at: <span id="last-updated-at">2026-01-14 20:51:00</span>
 - La raza pretenciosa
 - Los que se sienten el centro del mundo
 - El gobierno actual (no importa cuándo leas esto)
-- Nepotispo, prepotencia y negligencia de las autoridades
+- Nepotismo, prepotencia y negligencia de las autoridades
 - El clasismo/racismo/homofobia
 - Ads en YouTube/Netflix/Prime
 - Que le quieran meter IA a todo cuando no se requiere que todo tenga
@@ -59,7 +59,7 @@ last-modified-at: <span id="last-updated-at">2026-01-14 20:51:00</span>
 - La raza que anda en Razors
 - Claudia Sheinbaum
 - Normalizar todo
-- El rediseño innecesario a la app del BBVA
+- El rediseño innecesario a la app del BBVA, ¡ya jalaba chido!
 
 ## Cosas que no quiero hacer
 

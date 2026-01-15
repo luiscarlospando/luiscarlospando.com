@@ -8,6 +8,12 @@ permalink: /blogroll/
 last-modified-at: <span id="last-updated-at">2026-01-15 10:10:00</span>
 ---
 
+<div class="card last-updated my-3 text-center">
+<div class="card-body rounded">
+#### <code>Última actualización:</code> {{ page.last-modified-at }}
+</div>
+</div>
+
 <p class="text-center">{{ page.description }}</p>
 
 <div class="text-center">

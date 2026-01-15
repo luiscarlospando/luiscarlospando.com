@@ -50,7 +50,7 @@ last-modified-at: <span id="last-updated-at">2026-01-14 20:51:00</span>
 - La raza pretenciosa
 - Los que se sienten el centro del mundo
 - El gobierno actual (no importa cuándo leas esto)
-- Nepotispo, prepotencia y la negligencia de las autoridades
+- Nepotispo, prepotencia y negligencia de las autoridades
 - El clasismo/racismo/homofobia
 - Ads en YouTube/Netflix/Prime
 - Que le quieran meter IA a todo cuando no se requiere que todo tenga
@@ -65,7 +65,7 @@ last-modified-at: <span id="last-updated-at">2026-01-14 20:51:00</span>
 
 - Pagar suscripciones para todo
 - Pagar para quitar anuncios
-- Twener que bajar una app para algo que no necesita ser app
+- Tener que bajar una app para algo que no necesita ser app
 - Usar dinero físico
 - Responder inmediatamente
 - Estar conectado y disponible 24/7

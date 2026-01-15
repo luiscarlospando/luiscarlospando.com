@@ -96,7 +96,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
             </a>
         </li>
         <li class="list-inline-item">
-            <a href="/music/playlist/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Un playlist que actualizo diariamente (o eso intento) con canciones cruciales en mi vida y donde escribo algo sobre cada canción. Llevo haciéndolo desde septiembre de 2025" title="Un playlist que actualizo diariamente (o eso intento) con canciones cruciales en mi vida y donde escribo algo sobre cada canción. Llevo haciéndolo desde septiembre de 2025">
+            <a href="/music/playlist/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Desde septiembre de 2025 actualizo este playlist diariamente (o eso intento) con canciones cruciales en mi vida y donde escribo algo sobre cada canción" title="Desde septiembre de 2025 actualizo este playlist diariamente (o eso intento) con canciones cruciales en mi vida y donde escribo algo sobre cada canción">
                 <i class="fa-solid fa-record-vinyl"></i> Playlist (Crucial Tracks)
             </a>
         </li>

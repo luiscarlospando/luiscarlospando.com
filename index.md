@@ -135,11 +135,6 @@ Ver mis álbumes más escuchados de los últimos 30 días
                 <i class="fa-solid fa-bookmark"></i> Blogroll
             </a>
         </li>
-        <li class="list-inline-item">
-            <a href="/top4/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Mi top 3 con una mención honorífica en varias categorías" title="Mi top 3 con una mención honorífica en varias categorías">
-                <i class="fa-solid fa-trophy"></i> Top 4
-            </a>
-        </li>
     </ul>
 </nav>
 {:/nomarkdown}

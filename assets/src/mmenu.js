@@ -79,11 +79,11 @@
             },
             footer: {
                 add: true,
-                title: "Loading...",
+                title: "Cargando...",
             },
             searchfield: {
-                placeholder: "Search",
-                noResults: "No results found.",
+                placeholder: "Buscar",
+                noResults: "No se encontraron resultados.",
                 add: true,
                 search: false,
             },

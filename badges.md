@@ -155,4 +155,9 @@ last-modified-at: <span id="last-updated-at">2026-01-09 12:00:00</span>
 <img class="web-badge" src="{{ site.url }}/assets/images/buttons/zed.gif" alt="Zed - The editor for what's next" width="88" height="31" />
 </a>
 </li>
+<li class="list-inline-item mb-3">
+<a rel="noreferrer noopener" href="https://kagi.com/smallweb" target="_blank">
+<img class="web-badge" src="{{ site.url }}/assets/images/buttons/kagi-small-web.png" alt="Kagi Small Web" width="88" height="31" />
+</a>
+</li>
 </ul>

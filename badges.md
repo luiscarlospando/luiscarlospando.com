@@ -5,7 +5,7 @@ description: Esta es mi colección de botones 88x31 (o web badges).
 image: /assets/images/logo.png
 tags: [badges, web-badges]
 permalink: /badges/
-last-modified-at: <span id="last-updated-at">2026-01-09 12:00:00</span>
+last-modified-at: <span id="last-updated-at">2026-01-15 20:00:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">

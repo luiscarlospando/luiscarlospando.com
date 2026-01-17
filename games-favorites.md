@@ -5,7 +5,7 @@ description: Esta es una lista de mis juegos favoritos.
 image: /assets/images/logo-games.png
 tags: [games, video-games, favorite-games, favorite-video-games]
 permalink: /games/favorites/
-last-modified-at: <span id="last-updated-at">2025-12-23 12:13:00</span>
+last-modified-at: <span id="last-updated-at">2026-01-16 20:50:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -434,6 +434,14 @@ last-modified-at: <span id="last-updated-at">2025-12-23 12:13:00</span>
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ups.jpg" data-toggle="tooltip" data-placement="top" alt="Sonic & Knuckles (1994)" title="Sonic & Knuckles (1994)" width="150">
         <figcaption class="figure-caption text-center">Sonic & Knuckles (1994)</figcaption>
+      </figure>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/6uf5lN435hw">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob94j.jpg" data-toggle="tooltip" data-placement="top" alt="Castlevania: Bloodlines (1994)" title="Castlevania: Bloodlines (1994)" width="150">
+        <figcaption class="figure-caption text-center">Castlevania: Bloodlines (1994)</figcaption>
       </figure>
     </a>
   </li>

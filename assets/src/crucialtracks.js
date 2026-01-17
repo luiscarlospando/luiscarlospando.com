@@ -1,4 +1,4 @@
-// Playlist (Crucial Tracks)
+// Playlist (Crucial Tracks) - With YouTube/Audio Player Sync
 
 // Import and configure dayjs with Spanish (Mexico) locale
 const locale_es_mx = require("dayjs/locale/es-mx");
@@ -12,12 +12,39 @@ const { marked } = require("marked");
 const DOMPurify = require("dompurify");
 
 // Config
-const TRACKS_API = "/api/getCrucialTracks"; // API endpoint
-const ITEMS_PER_PAGE = 10; // items per page for pagination
+const TRACKS_API = "/api/getCrucialTracks";
+const ITEMS_PER_PAGE = 10;
 
 let currentPage = 1;
 let allItems = [];
-let originalTitle = document.title; // Store original title
+let originalTitle = document.title;
+
+// Audio and YouTube player management
+let audioPlayers = [];
+let youtubePlayers = [];
+let isChangingTrack = false;
+let youtubeAPIReady = false;
+
+// Load YouTube IFrame API
+function loadYouTubeAPI() {
+    if (window.YT) {
+        youtubeAPIReady = true;
+        return;
+    }
+
+    const tag = document.createElement("script");
+    tag.src = "https://www.youtube.com/iframe_api";
+    const firstScriptTag = document.getElementsByTagName("script")[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+}
+
+// This function is called automatically by YouTube API when ready
+window.onYouTubeIframeAPIReady = function () {
+    youtubeAPIReady = true;
+    console.log("YouTube API ready");
+    // Initialize any existing YouTube players
+    initializeYouTubePlayers();
+};
 
 // Function to get page number from URL
 function getPageFromURL() {
@@ -36,10 +63,6 @@ function updateURL(page) {
     }
     window.history.pushState({ page }, "", url);
 }
-
-// Audio player management
-let audioPlayers = [];
-let isChangingTrack = false; // Flag to prevent title restoration during track change
 
 // Function to extract domain from URL
 function extractDomain(url) {
@@ -81,74 +104,60 @@ function decodeHTMLEntities(text) {
 
 // Function to check if item has YouTube embed
 function hasYouTubeEmbed(item) {
-    // Check if note contains YouTube embed
     if (item.note && item.note.includes("youtube.com/embed")) {
         return true;
     }
-    // Check if Apple Music fields are missing (indicates non-Apple Music source)
     if (!item.preview_url && !item.artwork_url) {
         return true;
     }
     return false;
 }
 
-// Function to extract YouTube embed from note HTML
-function extractYouTubeEmbed(html) {
+// Extract YouTube video ID from iframe src
+function extractYouTubeVideoId(iframeSrc) {
+    const match = iframeSrc.match(/youtube\.com\/embed\/([^?&]+)/);
+    return match ? match[1] : null;
+}
+
+// Function to extract YouTube embed from note HTML and make it API-compatible
+function extractYouTubeEmbed(html, itemIndex) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, "text/html");
 
-    // Find the div with the YouTube iframe
     const embedDiv = doc.querySelector('div[style*="position: relative"]');
+    let iframe = embedDiv ? embedDiv.querySelector("iframe") : null;
 
-    if (embedDiv) {
-        // Configure DOMPurify to allow iframes and necessary attributes
-        const cleanHTML = DOMPurify.sanitize(embedDiv.outerHTML, {
-            ADD_TAGS: ["iframe"],
-            ADD_ATTR: [
-                "allow",
-                "allowfullscreen",
-                "frameborder",
-                "scrolling",
-                "src",
-                "style",
-            ],
-        });
-        return cleanHTML;
+    if (!iframe) {
+        iframe = doc.querySelector('iframe[src*="youtube.com"]');
     }
 
-    // Fallback: try to find any iframe with youtube.com
-    const iframe = doc.querySelector('iframe[src*="youtube.com"]');
     if (iframe) {
-        // Create a wrapper div with responsive styling
-        const wrapper = `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">${iframe.outerHTML}</div>`;
-        const cleanHTML = DOMPurify.sanitize(wrapper, {
-            ADD_TAGS: ["iframe"],
-            ADD_ATTR: [
-                "allow",
-                "allowfullscreen",
-                "frameborder",
-                "scrolling",
-                "src",
-                "style",
-            ],
-        });
-        return cleanHTML;
+        const videoId = extractYouTubeVideoId(iframe.src);
+        if (videoId) {
+            // Create a unique ID for this player
+            const playerId = `youtube-player-${itemIndex}`;
+
+            // Create wrapper with player div
+            const wrapper = `
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                    <div id="${playerId}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+                </div>
+            `;
+
+            return { html: wrapper, playerId, videoId };
+        }
     }
 
     return null;
 }
 
 function extractQuestionContent(html) {
-    // Create a DOM parser to read the HTML string
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, "text/html");
 
-    // For YouTube posts, skip the first div (which contains the iframe)
-    // and look for the second div which contains the content
     const allDivs = doc.querySelectorAll("div");
     let contentDiv = null;
 
-    // Find the div that doesn't contain an iframe (that's our content div)
     for (const div of allDivs) {
         if (!div.querySelector("iframe")) {
             contentDiv = div;
@@ -156,22 +165,18 @@ function extractQuestionContent(html) {
         }
     }
 
-    // If no content div found, fall back to the original logic
     if (!contentDiv) {
         contentDiv = doc.querySelector("div");
     }
 
-    // If no div is found, search in the main body
     const mainContainer = contentDiv || doc.body;
     const paragraphs = mainContainer.querySelectorAll("p");
 
-    // If paragraphs are found, use a refined logic
     if (paragraphs.length > 0) {
         let questionHTML = "";
         let answerParagraphs = Array.from(paragraphs);
 
         if (contentDiv) {
-            // Question/Answer format
             const questionParagraph = paragraphs[0];
             questionHTML = `<h3>${DOMPurify.sanitize(
                 questionParagraph.innerHTML
@@ -190,22 +195,17 @@ function extractQuestionContent(html) {
 
         const finalAnswerHTML = `<div class="crucial-tracks-answer">${answerHTML}</div>`;
         return questionHTML + finalAnswerHTML;
-    }
-    // If there are NO paragraphs, process the entire container's content
-    else {
+    } else {
         const rawContent = mainContainer.innerHTML;
 
-        // If there's no content, show nothing
         if (!rawContent.trim()) {
             return "";
         }
 
-        // Since there are no paragraphs, treat everything as the "answer"
         const decodedContent = decodeHTMLEntities(rawContent);
         const dirtyParsedHTML = marked.parse(decodedContent);
         const cleanParsedHTML = DOMPurify.sanitize(dirtyParsedHTML);
 
-        // Avoid showing an empty paragraph if the content was only whitespace
         if (cleanParsedHTML.trim() === "<p></p>" || !cleanParsedHTML.trim()) {
             return "";
         }
@@ -214,31 +214,130 @@ function extractQuestionContent(html) {
     }
 }
 
-// Function to pause all other audio players except the current one
+// Pause all audio players
+function pauseAllAudioPlayers() {
+    audioPlayers.forEach((player) => {
+        if (!player.paused) {
+            player.pause();
+        }
+    });
+}
+
+// Pause all YouTube players
+function pauseAllYouTubePlayers() {
+    youtubePlayers.forEach((player) => {
+        if (
+            player &&
+            player.getPlayerState &&
+            player.getPlayerState() === YT.PlayerState.PLAYING
+        ) {
+            player.pauseVideo();
+        }
+    });
+}
+
+// Pause all players except the current audio player
 function pauseOtherPlayers(currentPlayer) {
     audioPlayers.forEach((player) => {
         if (player !== currentPlayer && !player.paused) {
             player.pause();
         }
     });
+    pauseAllYouTubePlayers();
+}
+
+// Initialize YouTube players
+function initializeYouTubePlayers() {
+    if (!youtubeAPIReady || !window.YT) {
+        return;
+    }
+
+    // Clear previous players
+    youtubePlayers = [];
+
+    // Find all YouTube player divs
+    const playerDivs = document.querySelectorAll('[id^="youtube-player-"]');
+
+    playerDivs.forEach((div) => {
+        const videoId = div.dataset.videoId;
+        if (!videoId) return;
+
+        try {
+            const player = new YT.Player(div.id, {
+                videoId: videoId,
+                playerVars: {
+                    enablejsapi: 1,
+                    origin: window.location.origin,
+                },
+                events: {
+                    onStateChange: onYouTubePlayerStateChange,
+                },
+            });
+
+            youtubePlayers.push(player);
+        } catch (error) {
+            console.error("Error creating YouTube player:", error);
+        }
+    });
+}
+
+// Handle YouTube player state changes
+function onYouTubePlayerStateChange(event) {
+    if (event.data === YT.PlayerState.PLAYING) {
+        isChangingTrack = true;
+
+        // Pause all audio players
+        pauseAllAudioPlayers();
+
+        // Pause other YouTube players
+        youtubePlayers.forEach((player) => {
+            if (
+                player !== event.target &&
+                player.getPlayerState &&
+                player.getPlayerState() === YT.PlayerState.PLAYING
+            ) {
+                player.pauseVideo();
+            }
+        });
+
+        // Update page title
+        const playerDiv = document.getElementById(event.target.getIframe().id);
+        if (playerDiv) {
+            const trackItem = playerDiv.closest("li");
+            if (trackItem) {
+                const songTitle = trackItem.querySelector("h2")?.textContent;
+                const artist = trackItem.querySelector(".info p")?.textContent;
+                if (songTitle && artist) {
+                    document.title = `🔉 "${songTitle}" de ${artist} - Luis Carlos Pando`;
+                }
+            }
+        }
+
+        setTimeout(() => {
+            isChangingTrack = false;
+        }, 100);
+    } else if (
+        event.data === YT.PlayerState.PAUSED ||
+        event.data === YT.PlayerState.ENDED
+    ) {
+        if (!isChangingTrack) {
+            document.title = originalTitle;
+        }
+    }
 }
 
 // Function to setup audio player event listeners
 function setupAudioPlayers() {
-    // Clear previous references
     audioPlayers = [];
 
-    // Find all audio elements and add event listeners
     const audioElements = document.querySelectorAll("#tracks audio");
     audioElements.forEach((audio) => {
         audioPlayers.push(audio);
 
-        // Remove existing listeners to prevent duplicates
         audio.removeEventListener("play", handleAudioPlay);
         audio.removeEventListener("pause", handleAudioPause);
         audio.removeEventListener("ended", handleAudioPause);
 
-        // Add event listeners
         audio.addEventListener("play", handleAudioPlay);
         audio.addEventListener("pause", handleAudioPause);
         audio.addEventListener("ended", handleAudioPause);
@@ -247,13 +346,10 @@ function setupAudioPlayers() {
 
 // Handle audio play event
 function handleAudioPlay(event) {
-    // Set flag to prevent title restoration when pausing other tracks
     isChangingTrack = true;
 
-    // Pause other players
     pauseOtherPlayers(event.target);
 
-    // Update page title with currently playing track
     const audioElement = event.target;
     const trackItem = audioElement.closest("li");
     if (trackItem) {
@@ -264,7 +360,6 @@ function handleAudioPlay(event) {
         }
     }
 
-    // Reset flag after a short delay
     setTimeout(() => {
         isChangingTrack = false;
     }, 100);
@@ -272,7 +367,6 @@ function handleAudioPlay(event) {
 
 // Handle audio pause/end event
 function handleAudioPause(event) {
-    // Only restore title if we're not changing tracks
     if (!isChangingTrack) {
         document.title = originalTitle;
     }
@@ -286,7 +380,6 @@ async function displayTracks() {
         return;
     }
 
-    // Get current page from URL
     currentPage = getPageFromURL();
 
     setLoadingState(true);
@@ -302,7 +395,6 @@ async function displayTracks() {
 
         allItems = data;
 
-        // Validate page number after we know total items
         const totalPages = Math.ceil(allItems.length / ITEMS_PER_PAGE);
         if (currentPage > totalPages) {
             currentPage = 1;
@@ -311,7 +403,12 @@ async function displayTracks() {
 
         renderPaginatedTracks();
         setupPagination();
-        setupAudioPlayers(); // Setup audio player management
+        setupAudioPlayers();
+
+        // Initialize YouTube players after a short delay to ensure DOM is ready
+        setTimeout(() => {
+            initializeYouTubePlayers();
+        }, 500);
     } catch (error) {
         handleError(error);
     }
@@ -323,7 +420,6 @@ async function fetchTracksJSON() {
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     const data = await response.json();
 
-    // The API already returns the transformed data, so just return it
     if (!Array.isArray(data)) {
         console.error("Unexpected API response structure:", data);
         throw new Error("Invalid API response structure");
@@ -353,6 +449,7 @@ function renderPaginatedTracks() {
 
     list.innerHTML = items
         .map((item, index) => {
+            const globalIndex = startIndex + index; // For unique YouTube player IDs
             const machineDate = dayjs(item.created).format("YYYY-MM-DD");
             const isYouTube = hasYouTubeEmbed(item);
 
@@ -370,10 +467,11 @@ function renderPaginatedTracks() {
 
             // Render YouTube embed version
             if (isYouTube) {
-                const youtubeEmbed = extractYouTubeEmbed(item.note);
+                const youtubeData = extractYouTubeEmbed(item.note, globalIndex);
                 const questionAnswer = extractQuestionContent(item.note);
 
-                return `
+                if (youtubeData) {
+                    return `
         <li class="mb-4">
           <ul class="list-inline mb-3">
             <li class="list-inline-item">
@@ -387,7 +485,9 @@ function renderPaginatedTracks() {
             <div class="card-body">
               <div class="row">
                 <div class="col-12">
-                  ${youtubeEmbed || ""}
+                  <div data-video-id="${youtubeData.videoId}">
+                    ${youtubeData.html}
+                  </div>
                 </div>
                 <div class="col-12 mt-3">
                   <div class="info">
@@ -402,10 +502,10 @@ function renderPaginatedTracks() {
           ${questionAnswer}
         </li>
         ${separator}`;
+                }
             }
 
             // Render standard Apple Music version
-            // Use lazy loading for images - load immediately for first 3 items, lazy load the rest
             const loadingAttr =
                 index < 3 ? 'loading="eager"' : 'loading="lazy"';
 
@@ -454,13 +554,21 @@ function renderPaginatedTracks() {
         })
         .join("");
 
-    // Use requestIdleCallback for tooltip initialization to not block rendering
+    // Store video IDs in the DOM for later initialization
+    const playerDivs = list.querySelectorAll("[data-video-id]");
+    playerDivs.forEach((div) => {
+        const videoId = div.dataset.videoId;
+        const playerDiv = div.querySelector('[id^="youtube-player-"]');
+        if (playerDiv) {
+            playerDiv.dataset.videoId = videoId;
+        }
+    });
+
     if ("requestIdleCallback" in window) {
         requestIdleCallback(() => {
             initializeTooltips();
         });
     } else {
-        // Fallback for browsers that don't support requestIdleCallback
         setTimeout(() => {
             initializeTooltips();
         }, 100);
@@ -478,7 +586,6 @@ function initializeTooltips() {
 function handlePageChange(newPage) {
     const totalPages = Math.ceil(allItems.length / ITEMS_PER_PAGE);
 
-    // Validate page number
     if (newPage < 1 || newPage > totalPages) {
         return;
     }
@@ -487,7 +594,12 @@ function handlePageChange(newPage) {
     updateURL(currentPage);
     renderPaginatedTracks();
     setupPagination();
-    setupAudioPlayers(); // Re-setup audio players after pagination
+    setupAudioPlayers();
+
+    setTimeout(() => {
+        initializeYouTubePlayers();
+    }, 500);
+
     document.getElementById("tracks")?.scrollIntoView({ behavior: "smooth" });
 }
 
@@ -514,7 +626,6 @@ function setupPagination() {
     container.className = "pagination";
     container.style.textAlign = "center";
 
-    // Check if we're on the last page (page 5)
     const isLastPage = currentPage === totalPages;
     const ctProfileMessage = isLastPage
         ? `
@@ -568,12 +679,10 @@ function setupPagination() {
         if (currentPage < totalPages) handlePageChange(currentPage + 1);
     });
 
-    // Page jump button
     document
         .getElementById("pageJumpBtn")
         ?.addEventListener("click", handlePageJump);
 
-    // Allow Enter key in input
     document
         .getElementById("pageJumpInput")
         ?.addEventListener("keypress", (e) => {
@@ -599,18 +708,20 @@ window.addEventListener("popstate", (event) => {
         currentPage = getPageFromURL();
     }
 
-    // Only re-render if we have data loaded
     if (allItems.length > 0) {
         renderPaginatedTracks();
         setupPagination();
         setupAudioPlayers();
+        setTimeout(() => {
+            initializeYouTubePlayers();
+        }, 500);
     }
 });
 
 // Initialize on DOM load
 document.addEventListener("DOMContentLoaded", () => {
-    // Only run if container exists
     if (document.getElementById("tracks")) {
+        loadYouTubeAPI();
         displayTracks();
     }
 });

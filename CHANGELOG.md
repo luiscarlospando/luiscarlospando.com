@@ -8,6 +8,36 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.70.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.69.0...v2.70.0) - 2026-01-16
+
+- Implementar sincronización de reproductores de audio con reproductores de YouTube [`7c8c200`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7c8c2001ecddbd0d5e43c8ada379ec8295f8e535)
+- Actualizar random facts personales y la manera de consumirse [`77f1872`](https://github.com/luiscarlospando/luiscarlospando.com/commit/77f1872187e270e67a356d987e4cdeda0f9a3257)
+- Debuggear random facts en footer [`633376d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/633376d6c3b12d51af45ce40ef54bbd2974c62e9)
+- Agregar nuevo botón Otros con sub-botones [`e0a4ce0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e0a4ce07e0f465564ce62b73447f21364f7c16ee)
+- Agregar nuevo botón Otros con sub-botones [`0745c9a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0745c9a74d5f89f27b628ea78a832f8cc440e004)
+- Mejorar acomodo de elementos [`8571116`](https://github.com/luiscarlospando/luiscarlospando.com/commit/857111641c732e984aa7c37c2c6966e24f14da1a)
+- Actualizar /nope [`de4ef87`](https://github.com/luiscarlospando/luiscarlospando.com/commit/de4ef87da5aa57f19db37b24851aeebce4fbd889)
+- Actualizar CHANGELOG [`3884689`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3884689972bf0b75030e779fb8156397daa0d9fc)
+- Terminar cambios [`45b07cd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/45b07cd111c0c9820d1e450cdeb12e6c935d4763)
+- Ajustes menores [`0fcbacf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0fcbacf512b4999e8c524873a18a5da4dc17f5df)
+- Actualizar placeholders a español [`6337aad`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6337aadeab9580b94449ff76af4c6f3946ca2387)
+- Actualizar saludos de la hora del día [`80f4c8b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/80f4c8bbba531f60037e26d00979cea288d9e4d5)
+- Agregar disclaimer [`1d08de1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1d08de1f6bed77d96f76293c1294af3b10a79761)
+- Actualizar texto de botones [`b503209`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b5032093c048e24432efa141b478b2224eb1c908)
+- Agregar badge de Kagi Small Web [`da4bee4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/da4bee425145e5fda2f3f89c143e051c90f0e801)
+- Quitar botón a /top4 [`693403e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/693403ee85d91fdd5793217e5df6ba7d976a274b)
+- Corregir typo [`ec179a2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ec179a2c7f5657b5f28f04f2a47a709769592fa5)
+- Corregir typo [`87df6de`](https://github.com/luiscarlospando/luiscarlospando.com/commit/87df6decce28f69af281e9d0f1a358f9ed7c6d60)
+- Deploy v2.70.0 [`04f4bf9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/04f4bf95a21ca4366d5d4eff7acd94e8928782dd)
+- Deploy v2.69.1 [`76a2896`](https://github.com/luiscarlospando/luiscarlospando.com/commit/76a2896fce99dab238d8205b0826b640599e6b1e)
+- Agregar badge de Kagi Small Web [`103d4ca`](https://github.com/luiscarlospando/luiscarlospando.com/commit/103d4ca0c3983cd2237db5f3444b9c75b990c634)
+- Corregir error gramatical [`14f8784`](https://github.com/luiscarlospando/luiscarlospando.com/commit/14f878410761bb617cc7d4c4eabd67d02eb34af7)
+- Actualizar fact [`2e67bfc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2e67bfc611317361c057180b69a318cd6109456a)
+- Ajustes menores [`360bd4e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/360bd4e8e1291a523471406c5f589ca31a2f3326)
+- Actualizar blogroll [`7f7d35b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7f7d35b038dba784b54960d2009113a3a0b3b7f7)
+- Disminuir separación de avatar en móvil [`5c06ad3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5c06ad36a541bccc767ba6af131ee40ac8ccb79a)
+- Actualizar comportamiento del botón Otros [`7e3a393`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7e3a393de04ba869157798ed28550f5592ce47f7)
+
 ## [`v2.69.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.68.0...v2.69.0) - 2026-01-13
 
 - Implementar archivo de tweets [`ec37a9c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ec37a9c94225da3d643e52de8459d047827aad8a)

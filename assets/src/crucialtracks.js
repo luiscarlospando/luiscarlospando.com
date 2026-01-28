@@ -372,6 +372,50 @@ function handleAudioPause(event) {
     }
 }
 
+// NEW: Function to setup album artwork click handlers
+function setupAlbumArtworkClickHandlers() {
+    const artworkElements = document.querySelectorAll("#tracks .artwork a");
+
+    artworkElements.forEach((artworkLink) => {
+        // Find the associated audio element in the same track item
+        const trackItem = artworkLink.closest("li");
+        const audioElement = trackItem?.querySelector("audio");
+
+        // Only add click handler if there's an audio element
+        if (audioElement) {
+            // Remove default link behavior
+            artworkLink.addEventListener("click", (event) => {
+                event.preventDefault();
+
+                // Toggle play/pause
+                if (audioElement.paused) {
+                    audioElement.play();
+                } else {
+                    audioElement.pause();
+                }
+            });
+
+            // Add visual feedback - change cursor to pointer
+            artworkLink.style.cursor = "pointer";
+
+            // Optional: Add a subtle visual indicator that it's playable
+            const img = artworkLink.querySelector("img");
+            if (img) {
+                img.style.transition = "opacity 0.2s ease";
+
+                artworkLink.addEventListener("mouseenter", () => {
+                    img.style.opacity = "0.8";
+                });
+
+                artworkLink.addEventListener("mouseleave", () => {
+                    img.style.opacity = "1";
+                });
+            }
+        }
+        // If no audio element, leave the link as-is (goes to Last.fm)
+    });
+}
+
 // Main function to fetch and display tracks
 async function displayTracks() {
     const listContainer = document.getElementById("tracks");
@@ -404,6 +448,7 @@ async function displayTracks() {
         renderPaginatedTracks();
         setupPagination();
         setupAudioPlayers();
+        setupAlbumArtworkClickHandlers(); // NEW: Setup artwork click handlers
 
         // Initialize YouTube players after a short delay to ensure DOM is ready
         setTimeout(() => {
@@ -595,6 +640,7 @@ function handlePageChange(newPage) {
     renderPaginatedTracks();
     setupPagination();
     setupAudioPlayers();
+    setupAlbumArtworkClickHandlers(); // NEW: Setup artwork click handlers after page change
 
     setTimeout(() => {
         initializeYouTubePlayers();
@@ -712,6 +758,7 @@ window.addEventListener("popstate", (event) => {
         renderPaginatedTracks();
         setupPagination();
         setupAudioPlayers();
+        setupAlbumArtworkClickHandlers(); // NEW: Setup artwork click handlers after navigation
         setTimeout(() => {
             initializeYouTubePlayers();
         }, 500);

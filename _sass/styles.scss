@@ -966,21 +966,11 @@ a.bmac {
     .artwork-play-indicator {
         opacity: 0.9;
         background: rgba(0, 0, 0, 0.75);
-        animation: subtle-pulse 2s ease-in-out infinite;
+        animation: pulse-subtle 2s ease-in-out infinite;
     }
 
     img {
         opacity: 0.85;
-    }
-}
-
-@keyframes subtle-pulse {
-    0%,
-    100% {
-        transform: translate(-50%, -50%) scale(1);
-    }
-    50% {
-        transform: translate(-50%, -50%) scale(1.05);
     }
 }
 
@@ -1043,6 +1033,16 @@ a.bmac {
 /**
  * Additional pulse animation variations
  */
+@keyframes pulse-subtle {
+    0%,
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.05);
+    }
+}
+
 @keyframes pulse-glow {
     0% {
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
@@ -1062,6 +1062,25 @@ a.bmac {
     }
     50% {
         transform: scale(1.05);
+    }
+}
+
+/**
+ * Subtle animation
+ */
+.pulse-subtle {
+    animation: pulse-subtle 2s ease-in-out infinite;
+
+    &.pulse-fast {
+        animation-duration: 1.5s;
+    }
+
+    &.pulse-slow {
+        animation-duration: 3s;
+    }
+
+    &:hover {
+        animation-play-state: paused;
     }
 }
 

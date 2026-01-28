@@ -8,6 +8,14 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.71.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.70.0...v2.71.0) - 2026-01-28
+
+- Agregar funcionalidad para que las portadas de los álbumes reproduzcan la canción correspondiente [`b4c7f8f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b4c7f8fe5d1183637ebe7312c4c3949b9fdbbf95)
+- Agregar funcionalidad para que las portadas de los álbumes reproduzcan la canción correspondiente [`e51f848`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e51f848ca1c09184ee028ec510279b2fab68c536)
+- Agregar funcionalidad para que las portadas de los álbumes reproduzcan la canción correspondiente [`468d0b0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/468d0b006df718c131c2fb8b2cb8c3936a5123a5)
+- Actualizar CHANGELOG [`fd87e10`](https://github.com/luiscarlospando/luiscarlospando.com/commit/fd87e10f5f8dcd857f8bda6812248ac4dff8a602)
+- Agregar Castlevania: Bloodlines [`4fdafec`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4fdafeca542d6f180b73522509324127bc29ad5b)
+
 ## [`v2.70.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.69.0...v2.70.0) - 2026-01-16
 
 - Implementar sincronización de reproductores de audio con reproductores de YouTube [`7c8c200`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7c8c2001ecddbd0d5e43c8ada379ec8295f8e535)

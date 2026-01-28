@@ -908,7 +908,7 @@ a.bmac {
 }
 
 /* ==========================================================================
-   CRUCIAL TRACKS
+   AUDIO PLAYERS
    ========================================================================== */
 
 #tracks {
@@ -919,6 +919,73 @@ a.bmac {
     .card p {
         margin-bottom: 0;
     }
+}
+
+/**
+* Crucial Tracks/Loved Tracks - Album Artwork Play/Pause Indicator Styles
+*/
+.artwork-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.artwork-play-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    backdrop-filter: blur(4px);
+
+    i {
+        color: white;
+        font-size: 24px;
+        margin-left: 3px;
+    }
+
+    &.pause-icon i {
+        margin-left: 0;
+    }
+}
+
+.artwork-wrapper:hover .artwork-play-indicator {
+    opacity: 1;
+}
+
+.artwork-wrapper.is-playing {
+    .artwork-play-indicator {
+        opacity: 0.9;
+        background: rgba(0, 0, 0, 0.75);
+        animation: subtle-pulse 2s ease-in-out infinite;
+    }
+
+    img {
+        opacity: 0.85;
+    }
+}
+
+@keyframes subtle-pulse {
+    0%,
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.05);
+    }
+}
+
+.artwork-wrapper img {
+    transition: opacity 0.3s ease;
 }
 
 /* ==========================================================================

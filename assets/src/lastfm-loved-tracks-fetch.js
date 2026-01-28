@@ -69,6 +69,94 @@ function handleAudioPause(event) {
     }
 }
 
+// Function to update play/pause indicator
+function updatePlayPauseIndicator(artworkWrapper, isPlaying) {
+    const indicator = artworkWrapper.querySelector(".artwork-play-indicator");
+    const icon = indicator?.querySelector("i");
+
+    if (!indicator || !icon) return;
+
+    if (isPlaying) {
+        artworkWrapper.classList.add("is-playing");
+        indicator.classList.add("pause-icon");
+        icon.className = "fas fa-pause";
+    } else {
+        artworkWrapper.classList.remove("is-playing");
+        indicator.classList.remove("pause-icon");
+        icon.className = "fas fa-play";
+    }
+}
+
+// Function to setup album artwork click handlers
+function setupAlbumArtworkClickHandlers() {
+    const artworkElements = document.querySelectorAll(
+        "#loved-tracks .artwork a"
+    );
+
+    artworkElements.forEach((artworkLink) => {
+        // Find the associated audio element in the same track item
+        const trackItem = artworkLink.closest("li");
+        const audioElement = trackItem?.querySelector("audio");
+
+        // Only add click handler if there's an audio element
+        if (audioElement) {
+            // Wrap the link content in a positioned container if not already wrapped
+            if (!artworkLink.querySelector(".artwork-wrapper")) {
+                const img = artworkLink.querySelector("img");
+                if (img) {
+                    const wrapper = document.createElement("div");
+                    wrapper.className = "artwork-wrapper";
+
+                    // Create play/pause indicator
+                    const indicator = document.createElement("div");
+                    indicator.className = "artwork-play-indicator";
+                    indicator.innerHTML = '<i class="fas fa-play"></i>';
+
+                    // Wrap the image
+                    img.parentNode.insertBefore(wrapper, img);
+                    wrapper.appendChild(img);
+                    wrapper.appendChild(indicator);
+
+                    // Set initial state
+                    updatePlayPauseIndicator(wrapper, !audioElement.paused);
+                }
+            }
+
+            // Remove default link behavior
+            artworkLink.addEventListener("click", (event) => {
+                event.preventDefault();
+
+                // Toggle play/pause
+                if (audioElement.paused) {
+                    audioElement.play();
+                } else {
+                    audioElement.pause();
+                }
+            });
+
+            // Add visual feedback - change cursor to pointer
+            artworkLink.style.cursor = "pointer";
+
+            // Update indicator when audio state changes
+            const wrapper = artworkLink.querySelector(".artwork-wrapper");
+            if (wrapper) {
+                audioElement.addEventListener("play", () => {
+                    updatePlayPauseIndicator(wrapper, true);
+                });
+
+                audioElement.addEventListener("pause", () => {
+                    updatePlayPauseIndicator(wrapper, false);
+                });
+
+                audioElement.addEventListener("ended", () => {
+                    updatePlayPauseIndicator(wrapper, false);
+                });
+            }
+        }
+        // If no audio element, leave the link as-is (goes to Last.fm)
+    });
+}
+
 // Function to setup audio player event listeners
 function setupAudioPlayers() {
     // Clear previous references
@@ -162,6 +250,7 @@ function displayLastFmLovedTracks() {
             renderPaginatedTracks();
             setupPagination();
             setupAudioPlayers();
+            setupAlbumArtworkClickHandlers();
         })
         .catch((error) => {
             console.error("Error fetching data from Last.fm:", error);
@@ -278,6 +367,7 @@ function handlePageChange(newPage) {
     renderPaginatedTracks();
     setupPagination();
     setupAudioPlayers();
+    setupAlbumArtworkClickHandlers();
 
     // Scroll to top of the list
     document
@@ -375,6 +465,7 @@ window.addEventListener("popstate", (event) => {
         renderPaginatedTracks();
         setupPagination();
         setupAudioPlayers();
+        setupAlbumArtworkClickHandlers();
     }
 });
 

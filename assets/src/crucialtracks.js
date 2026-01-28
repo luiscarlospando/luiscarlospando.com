@@ -372,88 +372,6 @@ function handleAudioPause(event) {
     }
 }
 
-// NEW: Function to inject styles for play/pause indicator
-function injectPlayPauseStyles() {
-    // Check if styles are already injected
-    if (document.getElementById("artwork-play-pause-styles")) {
-        return;
-    }
-
-    const styleElement = document.createElement("style");
-    styleElement.id = "artwork-play-pause-styles";
-    styleElement.textContent = `
-        .artwork-wrapper {
-            position: relative;
-            display: inline-block;
-            width: 100%;
-        }
-
-        .artwork-play-indicator {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 60px;
-            height: 60px;
-            background: rgba(0, 0, 0, 0.7);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-            pointer-events: none;
-            backdrop-filter: blur(4px);
-        }
-
-        .artwork-play-indicator i {
-            color: white;
-            font-size: 24px;
-            margin-left: 3px;
-        }
-
-        .artwork-play-indicator.pause-icon i {
-            margin-left: 0;
-        }
-
-        /* Show on hover */
-        .artwork-wrapper:hover .artwork-play-indicator {
-            opacity: 1;
-        }
-
-        /* Always show when playing */
-        .artwork-wrapper.is-playing .artwork-play-indicator {
-            opacity: 0.9;
-            background: rgba(0, 0, 0, 0.75);
-        }
-
-        /* Subtle pulse animation when playing */
-        .artwork-wrapper.is-playing .artwork-play-indicator {
-            animation: subtle-pulse 2s ease-in-out infinite;
-        }
-
-        @keyframes subtle-pulse {
-            0%, 100% {
-                transform: translate(-50%, -50%) scale(1);
-            }
-            50% {
-                transform: translate(-50%, -50%) scale(1.05);
-            }
-        }
-
-        /* Dim image slightly when playing */
-        .artwork-wrapper.is-playing img {
-            opacity: 0.85;
-        }
-
-        .artwork-wrapper img {
-            transition: opacity 0.3s ease;
-        }
-    `;
-
-    document.head.appendChild(styleElement);
-}
-
 // NEW: Function to update play/pause indicator
 function updatePlayPauseIndicator(artworkWrapper, isPlaying) {
     const indicator = artworkWrapper.querySelector(".artwork-play-indicator");
@@ -892,7 +810,6 @@ window.addEventListener("popstate", (event) => {
 // Initialize on DOM load
 document.addEventListener("DOMContentLoaded", () => {
     if (document.getElementById("tracks")) {
-        injectPlayPauseStyles(); // Inject CSS styles first
         loadYouTubeAPI();
         displayTracks();
     }

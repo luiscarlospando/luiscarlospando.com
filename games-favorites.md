@@ -5,7 +5,7 @@ description: Esta es una lista de mis juegos favoritos.
 image: /assets/images/logo-games.png
 tags: [games, video-games, favorite-games, favorite-video-games]
 permalink: /games/favorites/
-last-modified-at: <span id="last-updated-at">2026-01-16 20:50:00</span>
+last-modified-at: <span id="last-updated-at">2026-01-29 11:26:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -986,6 +986,14 @@ last-modified-at: <span id="last-updated-at">2026-01-16 20:50:00</span>
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6029.jpg" data-toggle="tooltip" data-placement="top" alt="Cuphead (2020)" title="Cuphead (2020)" width="150">
         <figcaption class="figure-caption text-center">Cuphead (2020)</figcaption>
+      </figure>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/WtcYQtng9rY">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8qmo.jpg" data-toggle="tooltip" data-placement="top" alt="Cuphead (2020)" title="Tetris Forever (2024)" width="150">
+        <figcaption class="figure-caption text-center">Tetris Forever (2024)</figcaption>
       </figure>
     </a>
   </li>

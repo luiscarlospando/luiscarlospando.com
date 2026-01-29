@@ -150,7 +150,7 @@ function fetchLastPlayed() {
                 const lastPlayedSongEl =
                     document.getElementById("last-played-song");
                 if (lastPlayedSongEl) {
-                    lastPlayedSongEl.innerHTML = `<small class="text-muted">No se pudo cargar la información.</small>`;
+                    lastPlayedSongEl.innerHTML = `<small class="text-muted"><em>No se pudo cargar la información.</em></small>`;
                 }
             }
         });

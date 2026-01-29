@@ -5,7 +5,7 @@ description: Esta es mi colección personal de blogs y websites favoritos, los q
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-01-15 10:10:00</span>
+last-modified-at: <span id="last-updated-at">2026-01-29 10:59:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -90,6 +90,7 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 | Derek Sivers | [sive.rs](https://sive.rs/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://sive.rs/en.atom){:target="_blank" rel="noopener" .rss-link} |
 | Eva Decker | [eva.town](https://eva.town/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://eva.town/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 | Frills | [frills.dev](https://frills.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://frills.dev/all.xml){:target="_blank" rel="noopener" .rss-link} |
+| gobino's bites | [gobino.be](https://gobino.be/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://gobino.be/feed/){:target="_blank" rel="noopener" .rss-link} |
 | James' Coffee Blog | [jamesg.blog](https://jamesg.blog/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://subscribeopenly.net/subscribe/?url=https://jamesg.blog/feeds/posts.xml){:target="_blank" rel="noopener" .rss-link} |
 | Jarrod Blundy | [heydingus.net](https://heydingus.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://heydingus.net/feed.rss){:target="_blank" rel="noopener" .rss-link} |
 | Jason Burk | [grepjason.sh](https://grepjason.sh/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://grepjason.sh/rss.xml){:target="_blank" rel="noopener" .rss-link} |
@@ -98,6 +99,7 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 | Jim Nielsen | [blog.jim-nielsen.com](https://blog.jim-nielsen.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blog.jim-nielsen.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Jose Munoz | [josemunozmatos.com](https://www.josemunozmatos.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://www.josemunozmatos.com/blog/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 | Keenan (A Very Good Blog) | [gkeenan.co/avgb](https://gkeenan.co/avgb/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://gkeenan.co/avgb/feed.xml){:target="_blank" rel="noopener" .rss-link} |
+| Kev Quirk | [kevquirk.com](https://kevquirk.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://kevquirk.com/feed){:target="_blank" rel="noopener" .rss-link} |
 | Lean Rada | [leanrada.com](https://leanrada.com/){:target="_blank" rel="noopener"} | |
 | Limes.pink | [limes.pink](https://limes.pink/){:target="_blank" rel="noopener"} | |
 | LMNT | [lmnt.me](https://lmnt.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://lmnt.me/feed.xml){:target="_blank" rel="noopener" .rss-link} |

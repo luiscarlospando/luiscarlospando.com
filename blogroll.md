@@ -5,7 +5,7 @@ description: Esta es mi colección personal de blogs y websites favoritos, los q
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-01-29 10:59:00</span>
+last-modified-at: <span id="last-updated-at">2026-01-29 18:06:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -83,7 +83,7 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 | Ashur Cabrera | [multiline.co/mment](https://multiline.co/mment){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://multiline.co/mment/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Andy Bell | [bell.bz](https://bell.bz/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://bell.bz/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Anh | [anhvn.com](https://anhvn.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://anhvn.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
-| Binary Digit | [binarydigit.city](https://binarydigit.city/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://binarydigit.city/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
+| BinaryDigit | [binarydigit.dev](https://binarydigit.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://binarydigit.dev/feed/?type=rss/){:target="_blank" rel="noopener" .rss-link} |
 | Brandon | [krrd.ing](https://krrd.ing/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://krrd.ing/rss/){:target="_blank" rel="noopener" .rss-link} |
 | Cory Dransfeldt | [coryd.dev](https://www.coryd.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.coryd.dev/feeds/all.xml){:target="_blank" rel="noopener" .rss-link} |
 | Dave Rupert | [daverupert.com](https://daverupert.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://daverupert.com/atom.xml){:target="_blank" rel="noopener" .rss-link} |

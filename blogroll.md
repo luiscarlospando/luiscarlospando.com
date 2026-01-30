@@ -5,7 +5,7 @@ description: Esta es mi colección personal de blogs y websites favoritos, los q
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-01-29 18:06:00</span>
+last-modified-at: <span id="last-updated-at">2026-01-29 18:40:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -268,6 +268,7 @@ Podcasts que escucho actualmente.
 | My Life in Gaming | [@mylifeingaming](https://www.youtube.com/@mylifeingaming){:target="_blank" rel="noopener" .youtube-link} |
 | NakeyJakey | [@NakeyJakey](https://www.youtube.com/@NakeyJakey){:target="_blank" rel="noopener" .youtube-link} |
 | Nintendo Memo | [@nintendomemo](https://www.youtube.com/@nintendomemo){:target="_blank" rel="noopener" .youtube-link} |
+| Ryukahr | [@Ryu](https://www.youtube.com/@Ryu){:target="_blank" rel="noopener" .youtube-link} |
 | strafefox (Splash Wave) | [@strafefox](https://www.youtube.com/@strafefox){:target="_blank" rel="noopener" .youtube-link} |
 | videogamedunkey | [@videogamedunkey](https://www.youtube.com/@videogamedunkey){:target="_blank" rel="noopener" .youtube-link} |
 | WULFF DEN | [@WulffDen](https://www.youtube.com/@WulffDen){:target="_blank" rel="noopener" .youtube-link} |

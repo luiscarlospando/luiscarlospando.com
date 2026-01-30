@@ -5,7 +5,7 @@ description: Esta es mi colección personal de blogs y websites favoritos, los q
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-01-29 18:40:00</span>
+last-modified-at: <span id="last-updated-at">2026-01-29 20:41:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -357,6 +357,7 @@ Podcasts que escucho actualmente.
 |---------------------|-----------------------------------------------------------------------|
 | bald and bankrupt | [@baldandbankrupt](https://www.youtube.com/@baldandbankrupt){:target="_blank" rel="noopener" .youtube-link} |
 | Beardbrand | [@Beardbrand](https://www.youtube.com/@Beardbrand){:target="_blank" rel="noopener" .youtube-link} |
+| Simon Wilson | [@SimonWilson12](https://www.youtube.com/@SimonWilson12){:target="_blank" rel="noopener" .youtube-link} |
 
 </div>
 

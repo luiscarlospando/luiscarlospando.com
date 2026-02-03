@@ -580,6 +580,17 @@ footer {
     font-size: 100%;
     text-decoration: none;
 
+    // Reset button-specific browser defaults when .badge is on a <button>
+    &button,
+    button& {
+        border: none;
+        cursor: pointer;
+        line-height: inherit;
+        vertical-align: middle;
+        appearance: none;
+        -webkit-appearance: none;
+    }
+
     &.badge-primary {
         background-color: $primary;
     }

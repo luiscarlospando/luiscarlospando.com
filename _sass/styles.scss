@@ -624,6 +624,10 @@ footer {
             background-color: darken($badgeCustomColor, 10%);
             text-decoration: none;
         }
+
+        &.active {
+            background-color: darken($badgeCustomColor, 20%);
+        }
     }
 }
 

@@ -14,6 +14,10 @@ const ITEMS_PER_PAGE = 10;
 
 let currentPage = 1;
 let allItems = [];
+let activeTag = null; // Tracks the currently selected tag (null = all)
+let filteredItems = []; // Holds the items after tag filtering
+
+// ─── URL Helpers ────────────────────────────────────────────────────────────
 
 // Function to get page number from URL
 function getPageFromURL() {
@@ -22,16 +26,34 @@ function getPageFromURL() {
     return page && page > 0 ? page : 1;
 }
 
-// Function to update URL with current page
-function updateURL(page) {
+// Function to get tag from URL
+function getTagFromURL() {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get("tag") || null;
+}
+
+// Function to update URL with current page and tag
+function updateURL(page, tag) {
     const url = new URL(window.location);
+
+    // Page param
     if (page === 1) {
         url.searchParams.delete("page");
     } else {
         url.searchParams.set("page", page);
     }
-    window.history.pushState({ page }, "", url);
+
+    // Tag param
+    if (tag) {
+        url.searchParams.set("tag", tag);
+    } else {
+        url.searchParams.delete("tag");
+    }
+
+    window.history.pushState({ page, tag }, "", url);
 }
+
+// ─── URL Extraction ─────────────────────────────────────────────────────────
 
 // Function to extract domain from URL
 function extractDomain(url) {
@@ -54,6 +76,8 @@ function getRootDomainURL(url) {
         return url; // Fallback to original URL
     }
 }
+
+// ─── DOM Checks & Loading ───────────────────────────────────────────────────
 
 // Check if elements exist in the DOM
 function checkElements() {
@@ -98,44 +122,7 @@ function setLoadingState(isLoading) {
     });
 }
 
-// Main function for fetching and displaying content
-async function displayContent() {
-    const { hasBookmarks, hasLinks } = checkElements();
-
-    if (!hasBookmarks && !hasLinks) return;
-
-    console.log("⭐ displayContent started");
-
-    // Get current page from URL
-    currentPage = getPageFromURL();
-
-    // Show loading state
-    setLoadingState(true);
-
-    try {
-        console.log("Fetching links...");
-        const data = await fetchBookmarksJSON();
-        allItems = data;
-
-        if (hasBookmarks) {
-            renderBookmarks(allItems.slice(0, MAX_POSTS)); // MAX_POSTS = 5
-        }
-
-        if (hasLinks) {
-            // Validate page number after we know total items
-            const totalPages = Math.ceil(allItems.length / ITEMS_PER_PAGE);
-            if (currentPage > totalPages) {
-                currentPage = 1;
-                updateURL(currentPage);
-            }
-
-            renderPaginatedLinks(); // uses ITEMS_PER_PAGE = 10
-            setupPagination();
-        }
-    } catch (error) {
-        handleError(error);
-    }
-}
+// ─── Fetch ──────────────────────────────────────────────────────────────────
 
 // Get the JSON
 async function fetchBookmarksJSON() {
@@ -154,6 +141,115 @@ async function fetchBookmarksJSON() {
     }
 }
 
+// ─── Tag Helpers ─────────────────────────────────────────────────────────────
+
+// Extract all unique tags from the full dataset, sorted alphabetically.
+// Items without a `tags` array (or with an empty one) are simply skipped.
+function extractAllTags(items) {
+    const tagSet = new Set();
+    items.forEach((item) => {
+        if (Array.isArray(item.tags)) {
+            item.tags.forEach((tag) => {
+                if (tag && tag.trim() !== "") {
+                    tagSet.add(tag.trim());
+                }
+            });
+        }
+    });
+    return Array.from(tagSet).sort((a, b) => a.localeCompare(b));
+}
+
+// Return items that match the active tag; if no tag is selected return everything.
+function getFilteredItems() {
+    if (!activeTag) return allItems;
+    return allItems.filter(
+        (item) => Array.isArray(item.tags) && item.tags.includes(activeTag)
+    );
+}
+
+// ─── Tag UI ──────────────────────────────────────────────────────────────────
+
+// Render the tag filter bar.
+// Looks for a container with id="tag-filters".
+// If it doesn't exist yet it is created and injected right before #links.
+function renderTagFilters() {
+    const tags = extractAllTags(allItems);
+
+    // If there are no tags at all, don't render anything
+    if (tags.length === 0) {
+        console.log("📌 No tags found – tag filter bar will not be rendered.");
+        return;
+    }
+
+    const linksElement = document.getElementById("links");
+    if (!linksElement) return;
+
+    // Re-use or create the container
+    let container = document.getElementById("tag-filters");
+    if (!container) {
+        container = document.createElement("div");
+        container.id = "tag-filters";
+        // Insert the bar right before the <ul id="links">
+        linksElement.parentNode.insertBefore(container, linksElement);
+    }
+
+    // "Todos" is active when no tag is selected
+    const allActiveClass = !activeTag ? " active" : "";
+
+    const tagButtons = tags
+        .map((tag) => {
+            const isActive = activeTag === tag ? " active" : "";
+            return `<button
+                class="badge badge-custom${isActive}"
+                data-tag="${tag}"
+                aria-pressed="${activeTag === tag}"
+            >${tag}</button>`;
+        })
+        .join("");
+
+    container.innerHTML = `
+        <div class="d-flex flex-wrap align-items-center gap-1 mb-3">
+            <button
+                class="badge badge-custom${allActiveClass}"
+                data-tag=""
+                aria-pressed="${!activeTag}"
+            >Todos</button>
+            ${tagButtons}
+        </div>`;
+
+    // Single delegated listener on the container so we don't stack listeners
+    // on every re-render.  Remove any previous one first.
+    const freshContainer = document.getElementById("tag-filters");
+    const clone = freshContainer.cloneNode(true);
+    freshContainer.parentNode.replaceChild(clone, freshContainer);
+
+    clone.addEventListener("click", (e) => {
+        const btn = e.target.closest("button[data-tag]");
+        if (!btn) return;
+
+        const tag = btn.dataset.tag || null; // empty string → null (= "Todos")
+
+        // If the user clicked the already-active tag, do nothing
+        if (tag === activeTag) return;
+
+        activeTag = tag;
+        currentPage = 1; // Reset to page 1 whenever the filter changes
+
+        // Rebuild filtered set, re-render everything
+        filteredItems = getFilteredItems();
+        updateURL(currentPage, activeTag);
+        renderTagFilters();
+        renderPaginatedLinks();
+        setupPagination();
+    });
+
+    console.log(
+        `📌 Tag filter bar rendered with ${tags.length} tags. Active: "${activeTag || "Todos"}"`
+    );
+}
+
+// ─── Date Formatting ────────────────────────────────────────────────────────
+
 // Format date using dayjs
 function formatDate(dateString) {
     try {
@@ -169,80 +265,21 @@ function formatDate(dateString) {
     }
 }
 
-// Render recent bookmarks in the DOM
-function renderBookmarks(items) {
-    const bookmarksList = document.getElementById("bookmarks");
-    if (!bookmarksList) return;
+// ─── Rendering ──────────────────────────────────────────────────────────────
 
-    console.log(`📊 Rendering ${items.length} bookmarks`);
+// Shared helper – builds the <li> HTML for a single bookmark item.
+// Extracted to avoid duplicating the template in renderBookmarks & renderPaginatedLinks.
+function renderItemHTML(item) {
+    const domain = extractDomain(item.link);
+    const rootDomainURL = getRootDomainURL(item.link);
+    const machineReadableDate = dayjs(item.created).format("YYYY-MM-DD");
 
-    const bookmarksHTML = items
-        .map((item) => {
-            const domain = extractDomain(item.link);
-            const rootDomainURL = getRootDomainURL(item.link);
-            const machineReadableDate = dayjs(item.created).format(
-                "YYYY-MM-DD"
-            );
+    let noteHTML = "";
+    if (item.note && item.note.trim() !== "") {
+        noteHTML = `<p><small>${item.note}</small></p>`;
+    }
 
-            let noteHTML = "";
-            if (item.note && item.note.trim() !== "") {
-                noteHTML = `<p><small>${item.note}</small></p>`;
-            }
-
-            return `
-    <li class="mb-3">
-      <div class="li-content">
-          <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener">
-            <time datetime="${machineReadableDate}">
-              ${formatDate(item.created)}
-            </time>
-          </a>
-          <a href="${item.link}" target="_blank" rel="noopener">
-            ${item.title}
-            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-          </a>
-          <small class="text-muted"><em> vía
-            <a href="${rootDomainURL}" target="_blank" rel="noopener" class="text-muted">
-              ${domain}
-            </a>
-          </em></small>
-          ${noteHTML}
-      </div>
-    </li>`;
-        })
-        .join("");
-
-    bookmarksList.innerHTML = bookmarksHTML;
-}
-
-// Render paginated links
-function renderPaginatedLinks() {
-    const linksList = document.getElementById("links");
-    if (!linksList) return;
-
-    console.log(`📊 Total items for pagination: ${allItems.length}`);
-
-    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-    const endIndex = startIndex + ITEMS_PER_PAGE;
-    console.log(`📊 Displaying items from index ${startIndex} to ${endIndex}`);
-
-    const paginatedItems = allItems.slice(startIndex, endIndex);
-    console.log(`📊 Items in current page: ${paginatedItems.length}`);
-
-    const linksHTML = paginatedItems
-        .map((item) => {
-            const domain = extractDomain(item.link);
-            const rootDomainURL = getRootDomainURL(item.link);
-            const machineReadableDate = dayjs(item.created).format(
-                "YYYY-MM-DD"
-            );
-
-            let noteHTML = "";
-            if (item.note && item.note.trim() !== "") {
-                noteHTML = `<p><small>${item.note}</small></p>`;
-            }
-
-            return `
+    return `
     <li class="mb-3">
       <div class="li-content">
         <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener">
@@ -262,25 +299,59 @@ function renderPaginatedLinks() {
         ${noteHTML}
       </div>
     </li>`;
-        })
-        .join("");
-
-    linksList.innerHTML = linksHTML;
 }
+
+// Render recent bookmarks in the DOM (sidebar / homepage widget).
+// These are always the first MAX_POSTS items from the FULL list –
+// tag filtering intentionally does NOT apply here.
+function renderBookmarks(items) {
+    const bookmarksList = document.getElementById("bookmarks");
+    if (!bookmarksList) return;
+
+    console.log(`📊 Rendering ${items.length} bookmarks`);
+    bookmarksList.innerHTML = items.map(renderItemHTML).join("");
+}
+
+// Render the paginated links list, using filteredItems (which respects the active tag).
+function renderPaginatedLinks() {
+    const linksList = document.getElementById("links");
+    if (!linksList) return;
+
+    console.log(`📊 Total items for pagination: ${filteredItems.length}`);
+
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    const endIndex = startIndex + ITEMS_PER_PAGE;
+    console.log(`📊 Displaying items from index ${startIndex} to ${endIndex}`);
+
+    const paginatedItems = filteredItems.slice(startIndex, endIndex);
+    console.log(`📊 Items in current page: ${paginatedItems.length}`);
+
+    if (paginatedItems.length === 0) {
+        linksList.innerHTML = `
+            <li class="text-muted">
+                No se encontraron links con la etiqueta "<strong>${activeTag}</strong>".
+            </li>`;
+        return;
+    }
+
+    linksList.innerHTML = paginatedItems.map(renderItemHTML).join("");
+}
+
+// ─── Pagination ─────────────────────────────────────────────────────────────
 
 // Handles page changes and scrolls to the top of the list.
 function handlePageChange(newPage) {
     currentPage = newPage;
-    updateURL(currentPage);
+    updateURL(currentPage, activeTag);
     renderPaginatedLinks();
     setupPagination();
     // Scroll to the top of the #links element smoothly
     document.getElementById("links")?.scrollIntoView({ behavior: "smooth" });
 }
 
-// Setup pagination controls
+// Setup pagination controls – now paginates over filteredItems.
 function setupPagination() {
-    const totalPages = Math.ceil(allItems.length / ITEMS_PER_PAGE);
+    const totalPages = Math.ceil(filteredItems.length / ITEMS_PER_PAGE);
     const linksList = document.getElementById("links");
     if (!linksList) return;
 
@@ -292,6 +363,9 @@ function setupPagination() {
         existingPagination.remove();
     }
 
+    // Don't render pagination controls when everything fits on one page
+    if (totalPages <= 1) return;
+
     // Create pagination container
     const paginationContainer = document.createElement("div");
     paginationContainer.className = "pagination";
@@ -302,7 +376,7 @@ function setupPagination() {
         <hr>
         <div class="pagination-info" style="margin-bottom: 1rem;">
             Página ${currentPage} de ${totalPages}
-            (${allItems.length} links en total)
+            (${filteredItems.length} links en total)
         </div>
         <div class="pagination-controls" style="display: flex; justify-content: center; gap: 0.5rem;">
             <button id="prevPage" class="btn btn-primary" aria-label="Anterior" ${
@@ -338,6 +412,8 @@ function setupPagination() {
     });
 }
 
+// ─── Error Handling ─────────────────────────────────────────────────────────
+
 // Error handling
 function handleError(error) {
     console.error("Error:", error);
@@ -355,20 +431,77 @@ function handleError(error) {
     });
 }
 
+// ─── Main ────────────────────────────────────────────────────────────────────
+
+// Main function for fetching and displaying content
+async function displayContent() {
+    const { hasBookmarks, hasLinks } = checkElements();
+
+    if (!hasBookmarks && !hasLinks) return;
+
+    console.log("⭐ displayContent started");
+
+    // Restore page and tag from URL (supports bookmarked / shared URLs)
+    currentPage = getPageFromURL();
+    activeTag = getTagFromURL();
+
+    // Show loading state
+    setLoadingState(true);
+
+    try {
+        console.log("Fetching links...");
+        const data = await fetchBookmarksJSON();
+        allItems = data;
+
+        // Bookmarks widget: always shows the first MAX_POSTS from the full list
+        if (hasBookmarks) {
+            renderBookmarks(allItems.slice(0, MAX_POSTS));
+        }
+
+        if (hasLinks) {
+            // Build the filtered set based on the active tag
+            filteredItems = getFilteredItems();
+
+            // Validate page number against the filtered total
+            const totalPages = Math.ceil(filteredItems.length / ITEMS_PER_PAGE);
+            if (currentPage > totalPages) {
+                currentPage = 1;
+                updateURL(currentPage, activeTag);
+            }
+
+            // Render tag bar (only on the links page)
+            renderTagFilters();
+
+            renderPaginatedLinks();
+            setupPagination();
+        }
+    } catch (error) {
+        handleError(error);
+    }
+}
+
+// ─── Browser Navigation ─────────────────────────────────────────────────────
+
 // Handle browser back/forward navigation
 window.addEventListener("popstate", (event) => {
-    if (event.state && event.state.page) {
-        currentPage = event.state.page;
+    if (event.state) {
+        currentPage = event.state.page || 1;
+        activeTag = event.state.tag || null;
     } else {
         currentPage = getPageFromURL();
+        activeTag = getTagFromURL();
     }
 
     // Only re-render if we have data loaded
     if (allItems.length > 0) {
+        filteredItems = getFilteredItems();
+        renderTagFilters();
         renderPaginatedLinks();
         setupPagination();
     }
 });
+
+// ─── Init ────────────────────────────────────────────────────────────────────
 
 // Initialize main function
 document.addEventListener("DOMContentLoaded", () => {

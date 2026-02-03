@@ -65,6 +65,7 @@ function displayLastFmTopAlbums() {
                                 title="${fullTitle}"
                                 alt="${fullTitle}"
                                 ${loadingAttr}
+                                onerror="this.onerror=null; this.src='https://placehold.co/300x300?text=Portada+no+encontrada'"
                             />
                             <figcaption class="figure-caption text-center">
                                 ${fullTitle}

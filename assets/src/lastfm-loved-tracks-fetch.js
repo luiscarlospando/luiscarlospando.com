@@ -297,7 +297,7 @@ function renderPaginatedTracks() {
             const loadingAttr =
                 index < 3 ? 'loading="eager"' : 'loading="lazy"';
 
-            const artworkHTML = `<img src="${finalImageUrl}" ${loadingAttr} data-toggle="tooltip" data-placement="top" alt="${artistName} - ${trackTitle}" title="${artistName} - ${trackTitle}" class="track-artwork rounded w-100 mb-4 mb-md-0 img-fluid">`;
+            const artworkHTML = `<img src="${finalImageUrl}" ${loadingAttr} data-toggle="tooltip" data-placement="top" alt="${artistName} - ${trackTitle}" title="${artistName} - ${trackTitle}" class="track-artwork rounded w-100 mb-4 mb-md-0 img-fluid" onerror="this.onerror=null; this.src='https://placehold.co/300x300?text=Portada+no+encontrada'">`;
 
             const audioHTML = previewUrl
                 ? `<audio preload="none" controls><source src="${previewUrl}" type="audio/mp4">Tu navegador no soporta el elemento de audio.</audio>`

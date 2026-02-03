@@ -484,6 +484,9 @@ async function displayContent() {
 
 // Handle browser back/forward navigation
 window.addEventListener("popstate", (event) => {
+    // Only act if the links page is actually rendered
+    if (!document.getElementById("links")) return;
+
     if (event.state) {
         currentPage = event.state.page || 1;
         activeTag = event.state.tag || null;

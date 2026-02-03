@@ -583,6 +583,7 @@ footer {
     // Reset button-specific browser defaults when .badge is on a <button>
     &:is(button) {
         border: none;
+        color: $mainColor;
         cursor: pointer;
         vertical-align: middle;
         appearance: none;

@@ -5,7 +5,7 @@ description: Me tomo tu privacidad y seguridad en serio. En esta página describ
 image: /assets/images/logo.png
 tags: [privacy, privacy-policy, privacidad, politica-de-privacidad]
 permalink: /privacy/
-last-modified-at: <span id="last-updated-at">2025-12-17 17:35:00</span>
+last-modified-at: <span id="last-updated-at">2026-02-02 19:55:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -22,6 +22,14 @@ Aquí hago todo lo posible para no hacer uso de cookies u otro tipo de cosas que
 
 En mi sitio no vendo nada directamente, así que no estoy interesado en rastrear tus movimientos ni en conocer tus datos personales. Eso sí, uso [Tinylytics][1]{:target="_blank" rel="noreferrer noopener"} para echar un vistazo de vez en cuando a las estadísticas de mi sitio, pero es un servicio nada intrusivo y solo me da estadísticas generales sobre el tráfico que recibo en mi sitio. Además, es un servicio que cumple con el [RGPD][2]{:target="_blank" rel="noreferrer noopener"}.
 
+También quiero informar que estoy en proceso de dejar de usar Tinylytics para reemplazarlo completamente por [NeatStats][3]{:target="_blank" rel="noreferrer noopener"}. Al día de escribir esto, ya estoy usando NeatStats en mi sitio aunque el servicio todavía se encuentra en fase beta.
+
+NeatStats es un servicio que se centra en la privacidad, ya que solo cuenta vistas y no rastrea mis visitantes. No se hace ningún tipo de fingerprinting ni seguimiento de comportamiento. El contador de vistas de NeatStats no establece cookies ni utiliza `localStorage` del navegador.
+
+Solamente se almacena la información más básica sobre la *page view*: el URL de la página, el referente (si el navegador lo proporciona), el encabezado del *user agent* y el [GeoName][4]{:target="_blank" rel="noreferrer noopener"}. Los GeoNames son indicadores coarsos de la ubicación, que generalmente se alinean con el centro de la ciudad más cercana. NeatStats no recopila ni almacena información de ubicación precisa, solo GeoNames.
+
+NeatStats no almacena ninguna información personal y no realiza ningún intento de identificar personas con los datos recopilados.
+
 ### Cookies
 
 #### Contenido incrustado de otros sitios web
@@ -32,9 +40,9 @@ De repente comparto cosas en mi sitio, como por ejemplo videos, reproductores mu
 
 ### Información enviada por el usuario
 
-Hay algunas secciones en mi sitio donde es posible enviar información. Aunque realmente nunca pido tus datos reales, es necesario que sepas qué información tuya podría quedar expuesta. Por ejemplo, si interactúas de alguna manera con los posts que comparto a través de [Mastodon][3]{:rel="noreferrer noopener" target="_blank"}, tu comentario puede aparecer en el post correspondiente dentro de mi blog.
+Hay algunas secciones en mi sitio donde es posible enviar información. Aunque realmente nunca pido tus datos reales, es necesario que sepas qué información tuya podría quedar expuesta. Por ejemplo, si interactúas de alguna manera con los posts que comparto a través de [Mastodon][5]{:rel="noreferrer noopener" target="_blank"}, tu comentario puede aparecer en el post correspondiente dentro de mi blog.
 
-Lo mismo sucede en el [Guestbook][4]: aquí tienes la posibilidad de dejar comentarios o saludos, pero depende de ti si decides usar datos reales.
+Lo mismo sucede en el [Guestbook][6]: aquí tienes la posibilidad de dejar comentarios o saludos, pero depende de ti si decides usar datos reales.
 
 Si decides interactuar conmigo en Mastodon, Bluesky o cualquier otro servicio similar, te sujetas a sus respectivas políticas de privacidad y yo no me hago responsable de cómo manejan tus datos.
 
@@ -52,5 +60,7 @@ Siempre procuraré indicar cuando algún link o botón en mi sitio sea un link d
 
 [1]: https://tinylytics.app/
 [2]: https://es.wikipedia.org/wiki/Reglamento_General_de_Protecci%C3%B3n_de_Datos
-[3]: {{ site.mastodon_url }}
-[4]: {{ site.url }}/guestbook/
+[3]: https://neatstats.net/
+[4]: https://www.geonames.org/
+[5]: {{ site.mastodon_url }}
+[6]: {{ site.url }}/guestbook/

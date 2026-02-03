@@ -8,6 +8,17 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.72.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.71.1...v2.72.0) - 2026-02-02
+
+- Implementar filtrado por tags [`a3e932d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a3e932d609125944caa08a2213476757638488ec)
+- Actualizar Política de Privacidad [`74cf77e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/74cf77ed2c6a704278578a800319fadb914aaf47)
+- Actualizar CHANGELOG [`9ad24fb`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9ad24fb0d231a273d24f3d204809e2ae950b7bff)
+- Implementar filtrado por tags [`3703c51`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3703c51e8c06a556a2d24e478887c1114c778814)
+- Implementar filtrado por tags [`1fb7d37`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1fb7d3747aec4333f2658b7ec7895b18da8b784c)
+- Implementar filtrado por tags [`f57e5dc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f57e5dc5ec2b31881869533d5bed179a8e0f8ac4)
+- Implementar filtrado por tags [`b320456`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b3204565d52cb6ea9ab1565ac6a58db78173cfa7)
+- Deploy v2.72.0 [`3172783`](https://github.com/luiscarlospando/luiscarlospando.com/commit/31727834b8f85c7e82641f5dfe9107e2dc85e948)
+
 ## [`v2.71.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.71.0...v2.71.1) - 2026-02-02
 
 - Archivar /now del 31-12-2025 [`7a06158`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7a0615824b82a322ffe952d2aa2e3dea7ed8862e)

@@ -8,6 +8,25 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.71.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.71.0...v2.71.1) - 2026-02-02
+
+- Archivar /now del 31-12-2025 [`7a06158`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7a0615824b82a322ffe952d2aa2e3dea7ed8862e)
+- Fix subtle animation [`8261d4f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8261d4f21fcb06d0134fa7cc7f1a4fb1b4f18cff)
+- Agregar Tetris Forever [`f4a3c55`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f4a3c5544698a2ff9df31714f8f03b95ae788aba)
+- Quitar alerta [`3322b88`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3322b88488e844fb9529c986709d9c8d17350c19)
+- Actualizar CHANGELOG [`4763cef`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4763cef4a873678623fb30582cfe4378ae75bb40)
+- Arreglar chequeo de placeholders en caso de que no se encuentren portadas de álbumes [`c4dc5e7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c4dc5e7d01590f7cf112d97cc77bcf0eecaa6512)
+- Actualizar blogroll [`f615e6e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f615e6ee09d9635162f0241006f6d500d64d48fd)
+- Actualizar blogroll [`2997353`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2997353c47741790ce9a75924a6d84fdf4d8f574)
+- Agregar script de NeatStats [`cbfb6d9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cbfb6d9054673827ba85bb95dd953afda38661af)
+- Actualizar blogroll [`d6263f9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d6263f95809e61ddca5f43025dd0522347143f19)
+- Actualizar blogroll [`47780df`](https://github.com/luiscarlospando/luiscarlospando.com/commit/47780df46761b064b5fa4b00686f367290400cdb)
+- Deploy v2.71.1 [`ab44e51`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ab44e51166d5137759d76e3be864ec02390efebd)
+- Update live.md [`64bbde9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/64bbde9518fec74085dd64e4fc79a74e0addfea6)
+- Estilizar mensaje de error [`ed1b5b3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ed1b5b3783ef04ca355f8d5d1759c0974577667b)
+- Deploy v2.71.0 [`0d25dd4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0d25dd41ea0dc4fea43f70bf38ef4be875ef7810)
+- Archivar /now del 31-12-2025 [`bfbe048`](https://github.com/luiscarlospando/luiscarlospando.com/commit/bfbe04821ce93ae4bc79d501dc7daaf0f2e12f6a)
+
 ## [`v2.71.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.70.0...v2.71.0) - 2026-01-28
 
 - Agregar funcionalidad para que las portadas de los álbumes reproduzcan la canción correspondiente [`b4c7f8f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b4c7f8fe5d1183637ebe7312c4c3949b9fdbbf95)

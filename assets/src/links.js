@@ -208,7 +208,7 @@ function renderTagFilters() {
         .join("");
 
     container.innerHTML = `
-        <div class="d-flex flex-wrap align-items-center mb-3" style="gap: 0.5rem;">
+        <div class="d-flex flex-wrap align-items-center mb-4" style="gap: 0.5rem;">
             <button
                 class="badge badge-custom${allActiveClass}"
                 data-tag=""

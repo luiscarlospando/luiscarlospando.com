@@ -581,8 +581,7 @@ footer {
     text-decoration: none;
 
     // Reset button-specific browser defaults when .badge is on a <button>
-    &button,
-    button& {
+    &:is(button) {
         border: none;
         cursor: pointer;
         line-height: inherit;

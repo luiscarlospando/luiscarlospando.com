@@ -1,13 +1,31 @@
 export default async function handler(req, res) {
+    // --- CORS ---
     res.setHeader("Access-Control-Allow-Origin", "*");
-    res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+    res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
+    // Preflight
+    if (req.method === "OPTIONS") {
+        return res.status(200).end();
+    }
+
+    // Only GET
+    if (req.method !== "GET") {
+        return res.status(405).json({ error: "Method Not Allowed" });
+    }
+
+    // IMPORTANT: cache at the edge
+    // Top artists (1 month) changes slowly → cache longer
+    res.setHeader(
+        "Cache-Control",
+        "public, s-maxage=21600, stale-while-revalidate=86400"
+    );
+    // 21600 = 6 hours
 
     const apiKey = process.env.LASTFM_API_KEY;
     const username = "luiscarlospando";
 
     if (!apiKey) {
-        console.error("Missing Last.fm API key");
         return res.status(500).json({
             error: "Server misconfiguration: Missing Last.fm API key",
         });
@@ -15,17 +33,19 @@ export default async function handler(req, res) {
 
     try {
         const fetch = (await import("node-fetch")).default;
-        const response = await fetch(
-            `https://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=${username}&api_key=${apiKey}&format=json&period=1month&limit=10`
-        );
+
+        const url = new URL("https://ws.audioscrobbler.com/2.0/");
+        url.searchParams.set("method", "user.gettopartists");
+        url.searchParams.set("user", username);
+        url.searchParams.set("api_key", apiKey);
+        url.searchParams.set("format", "json");
+        url.searchParams.set("period", "1month");
+        url.searchParams.set("limit", "10");
+
+        const response = await fetch(url.toString());
 
         if (!response.ok) {
             const errorText = await response.text();
-            console.error(
-                "Failed to fetch data from Last.fm",
-                response.status,
-                errorText
-            );
             return res.status(response.status).json({
                 error: "Failed to fetch data from Last.fm",
                 details: errorText,
@@ -33,12 +53,11 @@ export default async function handler(req, res) {
         }
 
         const data = await response.json();
-        console.log("Top artists data fetched successfully from Last.fm");
         return res.status(200).json(data);
     } catch (error) {
-        console.error("Error fetching Last.fm top artists:", error);
-        return res
-            .status(500)
-            .json({ error: "Internal Server Error", details: error.message });
+        return res.status(500).json({
+            error: "Internal Server Error",
+            details: error.message,
+        });
     }
 }

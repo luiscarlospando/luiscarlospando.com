@@ -51,7 +51,7 @@ function handleAudioPlay(event) {
         const songTitle = trackItem.querySelector("h2")?.textContent;
         const artist = trackItem.querySelector(".info p")?.textContent;
         if (songTitle && artist) {
-            document.title = `🔉 "${songTitle}" de ${artist} - Luis Carlos Pando`;
+            document.title = `"${songTitle}" de ${artist} - Luis Carlos Pando`;
         }
     }
 

@@ -1,13 +1,31 @@
 export default async function handler(req, res) {
+    // --- CORS (keep yours) ---
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
+    // Handle preflight
+    if (req.method === "OPTIONS") {
+        return res.status(200).end();
+    }
+
+    // Only allow GET (this helps prevent accidental POST spam)
+    if (req.method !== "GET") {
+        return res.status(405).json({ error: "Method Not Allowed" });
+    }
+
+    // --- IMPORTANT: CACHE ---
+    // Cache at the Vercel Edge for 5 minutes.
+    // Serve stale while revalidating for 1 hour.
+    res.setHeader(
+        "Cache-Control",
+        "public, s-maxage=300, stale-while-revalidate=3600"
+    );
 
     const apiKey = process.env.LASTFM_API_KEY;
     const username = "luiscarlospando";
 
     if (!apiKey) {
-        console.error("Missing Last.fm API key");
         return res.status(500).json({
             error: "Server misconfiguration: Missing Last.fm API key",
         });
@@ -15,17 +33,23 @@ export default async function handler(req, res) {
 
     try {
         const fetch = (await import("node-fetch")).default;
-        const response = await fetch(
-            `http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${username}&api_key=${apiKey}&format=json&limit=1`
-        );
+
+        // Use HTTPS (important)
+        const url = new URL("https://ws.audioscrobbler.com/2.0/");
+        url.searchParams.set("method", "user.getrecenttracks");
+        url.searchParams.set("user", username);
+        url.searchParams.set("api_key", apiKey);
+        url.searchParams.set("format", "json");
+        url.searchParams.set("limit", "1");
+
+        const response = await fetch(url.toString(), {
+            headers: {
+                "User-Agent": "luiscarlospando.com (Vercel Function)",
+            },
+        });
 
         if (!response.ok) {
             const errorText = await response.text();
-            console.error(
-                "Failed to fetch data from Last.fm",
-                response.status,
-                errorText
-            );
             return res.status(response.status).json({
                 error: "Failed to fetch data from Last.fm",
                 details: errorText,
@@ -33,12 +57,15 @@ export default async function handler(req, res) {
         }
 
         const data = await response.json();
-        console.log("Data fetched successfully from Last.fm:", data);
+
+        // Optional: remove noisy logging
+        // console.log("Data fetched successfully from Last.fm");
+
         return res.status(200).json(data);
     } catch (error) {
-        console.error("Error fetching Last.fm status:", error);
-        return res
-            .status(500)
-            .json({ error: "Internal Server Error", details: error.message });
+        return res.status(500).json({
+            error: "Internal Server Error",
+            details: error.message,
+        });
     }
 }

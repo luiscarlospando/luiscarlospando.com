@@ -15,11 +15,11 @@ export default async function handler(req, res) {
     }
 
     // --- IMPORTANT: CACHE ---
-    // Cache at the Vercel Edge for 5 minutes.
-    // Serve stale while revalidating for 1 hour.
+    // Cache at the Vercel Edge for 30 seconds.
+    // Serve stale while revalidating for 1 minute.
     res.setHeader(
         "Cache-Control",
-        "public, s-maxage=300, stale-while-revalidate=3600"
+        "public, s-maxage=30, stale-while-revalidate=60"
     );
 
     const apiKey = process.env.LASTFM_API_KEY;

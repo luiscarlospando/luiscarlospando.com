@@ -102,7 +102,7 @@ Cuando necesito generar links rápidamente, utilizo [omg.lol][6]{:target="_blank
 
 En [mi perfil de Crucial Tracks][16]{:rel="me noopener" target="_blank"} llevo un diario, no de mis canciones favoritas, sino de las canciones que me han marcado y definido de alguna manera.
 
-## <i class="fa-solid fa-user"></i> Perfectly Imperfect
+## <i class="fa-solid fa-star"></i> Perfectly Imperfect
 
 Acabo de abrir mi perfil en [Perfectly Imperfect][18]{:rel="me noopener" target="_blank"}. Es una red social quienes estamos hartos de *doomscrollear*, de los algoritmos y de la IA.
 

@@ -10,20 +10,20 @@ tags: [home, homepage, portada, inicio, luis-carlos-pando, mijo]
 
 <h1 class="text-center">{{ site.title }}</h1>
 
-<span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando, aka `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊), un vato de [Chihuahua, México][1]{:rel="noreferrer noopener" target="_blank"} que [hace cosas para el Internet][3]{:rel="me" target="_blank"}. Mi interés por las computadoras 👨‍💻 y el Internet 🌐 me hicieron crear este sitio. Tuve necesidad de [tener mi propio lugar en la web][4], donde pudiera hablar de lo que yo quiera, experimentar sin miedo a equivocarme, compartir y aprender. Y este sitio es básicamente eso, un lugar que concentra todo lo que hago y <strong>todo lo que soy</strong>.
+<span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando, aka `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊), un vato de [Chihuahua, México][1]{:rel="noreferrer noopener" target="_blank"} que [hace cosas para el Internet][2]{:rel="me" target="_blank"}. Siempre me han gustado las computadoras 👨‍💻 y el Internet 🌐 y eso me inspiró a [crear mi propio sitio][3], un lugar donde pudiera hablar de lo que yo quiera, experimentar sin miedo a equivocarme, compartir y aprender. Y este sitio es básicamente eso, un lugar que concentra todo lo que hago y <strong>todo lo que soy</strong>.
 
 <div class="collapse" id="collapseIntro">
-Amo la música, es una parte importante de mi y los géneros que más me gustan son el punk, metal y el hardcore. Algunos tal vez me ubiquen por haber creado [Hitz-Musik.net][5]{:target="_blank" rel="noopener"} (RIP 🪦) junto a unos buenos amigos. "El Hitz" era una comunidad dedicada a apoyar la escena local de Chihuahua. Estaba chido el cotorreo de armar toquines pero de eso solo me quedan puros buenos recuerdos.
+Amo la música, siempre ha sido una parte importante de mi vida. Los géneros que más consumo son hardcore, punk y metal. Algunos tal vez me ubiquen por haber creado el [Hitz-Musik.net][4]{:target="_blank" rel="noopener"} (RIP 🪦) junto a unos buenos amigos. "El Hitz" era una comunidad dedicada a apoyar la escena local de Chihuahua. Estaba chido el cotorreo de armar toquines pero de eso solo me quedan puros buenos recuerdos.
 
-No es ningún secreto el amor que le tengo a Nintendo 🕹️ y [aquí][7] llevo un registro de los videojuegos que tengo en mi colección. También armé la comunidad de [Mode 7 🎮 🕹️][8] (✨ *All are welcome!* ✨) en Discord junto a unos amigos. Ahí platicamos de nuestros juegos favoritos, cotorreamos todo el día y arreglamos nuestras diferencias [en este frenético torneo de *Mario Kart* 🏁][9]. Todos los jueves en la noche [transmitimos el torneo][10].
+También llevo un registro de toda [la música que escucho 🎧][5] en mi perfil de [Last.fm 🎵][6]{:rel="me noreferrer noopener" target="_blank"} (que llevo usando desde 2005 baby!).
 
-De vez en cuando comparto cosas en [Mastodon][11]{:rel="me noreferrer noopener" target="_blank"}, [Bluesky][12]{:rel="me noreferrer noopener" target="_blank"}  y en [omg.lol][13]{:rel="me noreferrer noopener" target="_blank"}.
+Me gustan mucho los videojuegos 🕹️ y [aquí][7] llevo un registro de los juegos que tengo en mi colección. También armé la comunidad de [Mode 7 🎮 🕹️][8] (✨ *All are welcome!* ✨) en Discord con unos amigos para platicar de nuestros juegos favoritos, cotorrear todo el día y disfrutar de la bonita tradición [de jugar en el *Mode 7 Grand Prix* 🏁][9] todos los jueves por la noche. [Aquí mero transmitimos en vivo el caos][10].
 
-También llevo un registro de toda [la música que escucho 🎧][14] en mi perfil de [Last.fm 🎵][15]{:rel="me noreferrer noopener" target="_blank"} (*been doin' it since '05 baby!*).
+He usado prácticamente todas las redes sociales habidas y por haber pero ahora estoy principalmente en [Mastodon][11]{:rel="me noreferrer noopener" target="_blank"}, [Bluesky][12]{:rel="me noreferrer noopener" target="_blank"}, [omg.lol][13]{:rel="me noreferrer noopener" target="_blank"} e [Instagram][14]{:rel="me noreferrer noopener" target="_blank"}.
 
-[Aquí ando compartiendo mis fotos][6] 📸 y tengo un guestbook 📖, que si te animas, puedes [pasar a firmarlo][16] y saludar. ✌️
+[Aquí ando compartiendo fotos][15] 📸 y tengo un guestbook 📖, que si te animas, puedes [pasar a firmarlo][16]  saludar. ✌️
 
-Si te quedaste con ganas de más, entonces [pásale a mi página Acerca de][4].
+Ya no sé qué más decir, pero si te quedaste con ganas de saber más de mi nada interesante vida, entonces [pásale a mi página Acerca de][17].
 </div>
 
 <button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">
@@ -178,11 +178,11 @@ Ver mis álbumes más escuchados de los últimos 30 días
 </a>
 
 [1]: https://es.wikipedia.org/wiki/Chihuahua_(Chihuahua)
-[2]: https://www.instagram.com/primitivegirl
-[3]: https://github.com/{{ site.github_username }}
-[4]: /about/
-[5]: http://hitz-musik.net/
-[6]: /photos/
+[2]: https://github.com/{{ site.github_username }}
+[3]: /about/
+[4]: http://hitz-musik.net/
+[5]: /music/
+[6]: {{ site.lastfm_url }}
 [7]: {{ site.backloggd_url }}
 [8]: /discord/
 [9]: /games/mario-kart/
@@ -190,6 +190,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
 [11]: {{ site.mastodon_url }}
 [12]: {{ site.bluesky_url }}
 [13]: https://home.omg.lol/referred-by/{{ site.omglol_username }}
-[14]: /music/
-[15]: {{ site.lastfm_url }}
+[14]: {{ site.instagram_url }}
+[15]: /photos/
 [16]: /guestbook/
+[17]: /about/

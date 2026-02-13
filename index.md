@@ -17,7 +17,7 @@ Amo la música, siempre ha sido una parte importante de mi vida. Los géneros qu
 
 También llevo un registro de toda [la música que escucho 🎧][5] en mi perfil de [Last.fm 🎵][6]{:rel="me noreferrer noopener" target="_blank"} (que llevo usando desde 2005 baby!).
 
-Me gustan mucho los videojuegos 🕹️ y [aquí llevo un registro][7] de los juegos que tengo en mi colección. También armé la comunidad de [Mode 7 🎮 🕹️][8] (*All are welcome!*) en Discord con unos amigos para platicar de nuestros juegos favoritos, cotorrear todo el día y disfrutar de la bonita tradición de [jugar en el *Mode 7 Grand Prix* 🏁][9] todos los jueves por la noche. [Aquí mero transmitimos en vivo el caos][10].
+Me gustan mucho los videojuegos 🕹️ y [aquí llevo un registro][7] de los juegos que tengo en mi colección. También armé la comunidad de [Mode 7 🎮 🕹️][8] en Discord con unos amigos (*All are welcome!*) para platicar de nuestros juegos favoritos, cotorrear todo el día y disfrutar de la bonita tradición de [jugar en el *Mode 7 Grand Prix* 🏁][9] todos los jueves por la noche. [Aquí mero transmitimos en vivo el caos][10].
 
 He usado prácticamente todas las redes sociales habidas y por haber pero ahora estoy principalmente en [Mastodon][11]{:rel="me noreferrer noopener" target="_blank"}, [Bluesky][12]{:rel="me noreferrer noopener" target="_blank"}, [omg.lol][13]{:rel="me noreferrer noopener" target="_blank"} e [Instagram][14]{:rel="me noreferrer noopener" target="_blank"}.
 

@@ -16,49 +16,47 @@ permalink: /about/
 
 ## El vato detrás de esto
 
-Soy Luis Carlos Pando 👋, pero muchos me conocen como `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊). Nací, crecí y vivo en Chihuahua, México 🇲🇽, una ciudad que amo profundamente. No solo por ser mi hogar, sino por toda la cultura que respiramos aquí, la comida que nos une 🌮 y esa influencia gringa que nos llega por la cercanía con Estados Unidos ("El Chuco" para los chihuahuenses) y que de alguna manera nos hace únicos.
+Soy Luis Carlos Pando 👋, pero algunos me conocen como `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊). Nací, crecí y vivo en Chihuahua, México 🇲🇽, una ciudad que me gusta profundamente. No solo por ser mi hogar, sino por la idiosincrasia de la gente, la cultura local, la comida y lo que nos hace diferente a otros lugares del país.
 
 ## Mis inicios
 
-Desde que tengo memoria, siempre he tenido una curiosidad insaciable por entender cómo funcionan las cosas 🔧. De chavito recuerdo que la curiosidad a veces me hacía desarmar mis juguetes para ver qué había adentro. Me gustaba estar descubriendo engranajes, circuitos y mecanismos. Esa curiosidad nunca se fue; simplemente evolucionó hacia las computadoras.
+Desde que tengo memoria, siempre he tenido una curiosidad insaciable por entender cómo jalan las cosas 🔧. De chavito recuerdo que la curiosidad a veces me hacía desarmar mis juguetes para ver qué había adentro. Me gustaba ver engranajes, circuitos y mecanismos. Esa curiosidad nunca se fue; simplemente evolucionó hacia las computadoras.
 
-Soy autodidacta por naturaleza. Si algo me llama la atención, me obsesiono con ello. Así aprendí a tocar guitarra 🎸 (no soy taaan bueno, pero me creo que me defiendo), así me metí de lleno al desarrollo web y así es como sigo aprendiendo cosas nuevas todos los días.
+Casi todo lo que sé ha sido de manera autodidacta. Si algo me llama la atención, me obsesiono con machín con ello. Así aprendí a tocar guitarra 🎸 (no soy bueno, pero me medio me defiendo), así me metí de lleno al desarrollo web y así es como sigo aprendiendo cosas nuevas todos los días.
 
 ## El parteaguas musical
 
-Hay un momento que marcó mi vida para siempre: cuando conocí MTV 2 y Fuse 📺. Literal, mi mundo cambió. De ahí creo que nació mi amor profundo por la música (aunque también hubo algo de influencia de mi papá) y surgió un hambre de descubrir nuevas bandas, que aunque considero que tengo una apreciación por varios géneros, la verdad es que el punk, metal y el hardcore, siempre serán mis géneros mis favoritos sobre todo lo demás. Y pues si, esos canales me abrieron las puertas a un universo sonoro que no sabía que existía y desde entonces la música se volvió parte esencial de mi identidad.
+Hay un momento que marcó mi vida para siempre, cuando conocí MTV 2 y Fuse 📺. A partir de ahí, mi mundo cambió. El descubrir música, bandas y artistas confmirmó que mi gusto por la música era parte fundamental de mi personalidad (algo que la influencia de mi papá ayudó a forjar). Y pues si, esos canales me abrieron las puertas a un universo sonoro que no sabía que existía y desde entonces la música se volvió parte esencial de mi identidad.
 
-Por eso, junto a unos buenos compas, fundé [Hitz-Musik.net][1]{:target="_blank" rel="noopener"} (RIP 🪦). "El Hitz" era más que una página web; era una comunidad real que apoyaba la escena local de nuestra bella ciudad, Chihuahua. Organizábamos toquines, compartíamos música, y creamos un espacio donde amantes de la música podían conectar con bandas locales. Aunque el proyecto ya no existe, guardo esos recuerdos con mucho cariño porque representan una época donde el cotorreo y el amor por la música nos unían (y nos sigue uniendo hasta la fecha).
+En mis 20s, junto a unos compas, fundé [Hitz-Musik.net][1]{:target="_blank" rel="noopener"} (RIP 🪦). "El Hitz" era más que una página web; era una comunidad real que apoyaba la escena local de Chihuahua. Organizábamos toquines, compartíamos música y creamos un espacio donde amantes de la música podían conectar con bandas locales. Aunque el proyecto ya murió, guardo esos recuerdos con mucho cariño porque representan una época donde el cotorreo y el amor por la música nos unían (y nos sigue uniendo hasta la fecha).
 
-## Mis cosas favoritas
+## El gaming
 
-No puedo hablar de mí sin mencionar que la neta soy muy fan de Apple 🍎 y de Nintendo 🎮. Cada una representa algo diferente para mí. Apple por su diseño impecable, filosofía y funcionalidad y Nintendo por haberme acompañado desde la infancia con experiencias de juego inolvidables.
-
-Mi colección de videojuegos de Nintendo es algo de lo que estoy orgulloso y por me di a la tarea de crear la comunidad de [Mode 7 🎮][2] en Discord junto a unos amigos. Ahí cotorreamos todo el día sobre nuestros juegos favoritos y cada jueves en la noche [transmitimos][3] nuestro frenético torneo de Mario Kart 🏁. Es un espacio donde todos son bienvenidos (✨ *All are welcome!* ✨).
+Mi colección de videojuegos me enorgullece y mi gusto por el gaming me hizo crear la comunidad de [Mode 7 🎮][2] en Discord junto a unos amigos. Ahí cotorreamos todo el día sobre nuestros juegos favoritos y cada jueves en la noche [transmitimos][3] nuestro frenético torneo de Mario Kart 🏁. Es un espacio donde todos son bienvenidos (*All are welcome!*).
 
 ## La parte más personal
 
-Aunque muchos no lo crean por como me desenvuelvo en línea, soy algo introvertido 🫣. Me siento más cómodo expresándome a través de la escritura o la música que en conversaciones cara a cara. Tal vez por eso este sitio web significa tanto para mí: es mi forma más auténtica de conectar con el mundo.
+Aunque muchos no lo crean por como me desenvuelvo en línea, soy bastante introvertido, al menos al inicio. Me siento más cómodo expresándome a través de la escritura o la música que en conversaciones cara a cara. Tal vez por eso este sitio web significa tanto para mí: es mi forma más auténtica de conectar con el mundo.
 
 También mi fe es algo muy importante para mí. Soy cristiano y tengo toda mi confianza puesta en Jesús ✝️. Esta parte de mi vida me da tranquilidad, seguridad, sostén y propósito. Especialmente en esos momentos donde mis inseguridades me atacan.
 
 ## Los pequeños placeres
 
-Mi bebida favorita es la cerveza 🍺 (claro, sin caer en excesos) y tomarme una mientras escucho música es una manera que me relaja y me ayuda a desconectarme del mundo. Llevo registrando toda la música que escucho en [Last.fm 🎵][4]{:rel="me noreferrer noopener" target="_blank"} desde 2005 y siempre me sorprende ver cómo han evolucionado mis gustos a lo largo de los años.
+Llevo registrando toda la música que escucho en [mi perfil en Last.fm 🎵][4]{:rel="me noreferrer noopener" target="_blank"} desde 2005 y siempre me sorprende ver cómo han evolucionado mis gustos a lo largo de los años.
 
 También me gusta tocar guitarra cuando necesito desconectarme del mundo. Y como casi todo lo que hago, lo aprendí por mi cuenta y aunque no soy un virtuoso, me sirve como válvula de escape y forma de expresión.
 
-Estoy reaprendiendo a apreciar el tiempo con amigos 👥 y conocer gente nueva (aunque sea introvertido), esas conversaciones espontáneas que pueden durar horas y donde aprendes cosas que jamás habías considerado. Cuando las circunstancias lo permiten, disfruto mucho viajar y conocer lugares nuevos ✈️. No necesito destinos exóticos; a veces los mejores momentos surgen explorando un pueblo cercano o redescubriendo rincones de mi propia ciudad que había pasado por alto.
+Ahorita estoy reaprendiendo a apreciar el tiempo con mis amigos 👥 y conocer gente nueva (a pesar de mi introversión), y tener esas conversaciones espontáneas que pueden durar horas y donde aprendes cosas que jamás habías considerado. Cuando las circunstancias lo permiten, disfruto mucho viajar y conocer lugares nuevos ✈️. No necesito destinos exóticos; a veces los mejores momentos surgen explorando un pueblo cercano o redescubriendo rincones de mi propia ciudad que había pasado por alto.
 
-<span id="indie-web"></span> Otro de mis hobbies favoritos es coleccionar vinilos 📀 (👈 odio que no haya todavía un emoji de discos de vinilo). Este cotorreo lo comencé junto a mi ex-esposa, y aunque nuestros caminos se separaron, siempre le agradeceré haber compartido conmigo esa pasión por el formato físico y la experiencia completa que representa escuchar un disco de vinilo. Hay algo mágico en el ritual de poner el disco, ajustar la aguja y dejarte llevar por esa calidez sonora que solo el vinilo puede ofrecer. Cada disco en mi colección cuenta una historia, no solo musical, sino también personal.
+<span id="indie-web"></span> Otro de mis hobbies favoritos es coleccionar vinilos 📀 (👈 me desespera que no haya todavía un emoji de discos de vinilo). Este cotorreo lo comencé junto a mi ex-esposa, y aunque nuestros caminos se separaron, siempre le agradeceré haber compartido conmigo esa pasión por el formato físico y la experiencia completa que representa escuchar un disco de vinilo. Lo mágico en el ritual de poner el disco, ajustar la aguja y dejarte llevar por esa calidez sonora que solo el vinilo puede ofrecer. Cada disco en mi colección cuenta una historia, no solo musical, sino también personal.
 
 ## El IndieWeb (porque no solamente me gusta la música y películas indies)
 
-Estoy orgulloso de ser parte del [Internet independiente y descentralizado][5]{:target="_blank" rel="noreferrer noopener"} 🌐. Este es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, desde el *look & feel*, el layout, colores, del contenido, de los *features*, de las reglas y todo, todo, todo. Al tener mi propio sitio web no dependo de ninguna empresa como lo son Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok (que son las más grandes plataformas de la web). Todos sabemos que el futuro de esas plataformas es incierto (y ya hemos sido testigos que esas plataformas desaparecen o cambian de dueños/directivos y luego valen sh!t).
+Estoy orgulloso de ser parte del [Internet independiente y descentralizado][5]{:target="_blank" rel="noreferrer noopener"} 🌐. Este sitio es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, desde el *look & feel*, el layout, colores, el contenido, los *features*, las reglas y absolutamente todo. Al tener mi propio sitio web no dependo de ninguna compañía como Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok. Todos sabemos que el futuro de esas plataformas es incierto (y ya hemos sido testigos que esas plataformas desaparecen o cambian de dueños/directivos y luego valen sh!t).
 
-En la web comercial, estamos también sometidos a sus reglas y políticas, si no seguimos sus reglas pueden bloquearnos nuestras cuentas y/o contenido (¿eso no es una real libertad de expresión, verdad?). Así que yo prefiero no ser parte de ese sistema ni invertir mi tiempo en crear contenido para ellos.
+En la web comercial, estamos también sometidos a sus reglas y políticas y si no seguimos sus reglas pueden bloquearnos nuestras cuentas y/o contenido (¿eso no es una real libertad de expresión, verdad?). Así que yo prefiero no ser parte de ese sistema ni invertir mi tiempo en crear contenido para ellos.
 
-Todo esto lo menciono para generar consciencia de que ahí no tenemos control real, ni somos propietarios de nuestro contenido y/o cuentas (aunque nos hagan creer eso).
+Lo anterior solo lo menciono para generar consciencia de que ahí no tenemos control real, ni somos propietarios de nuestro contenido y/o cuentas (aunque nos hagan creer eso).
 
 En el IndieWeb podemos subir contenido, crear páginas, compartir enlaces, comentar y mucho más, aparte de que la comunidad es súper inclusiva y colaborativa.
 
@@ -71,20 +69,14 @@ Sé que la IndieWeb no es para todos y no te voy a juzgar por no estar ahí. Per
 
 La única red social de la que sigo siendo prisionero es Instagram (y en cierta manera, ¿Discord?), pero es porque todos mis amigos están ahí y no puedo aislarme 100% de todo mundo. Eso sí, tampoco es de que soy "influencer", solo un usuario común que quiere compartir su vida con sus compas.
 
-## El presente
-
-Estudié una carrera que, seamos honestos, no me gustó tanto (Ingeniería en Sistemas) 🎓, aunque a veces me pregunto si fue la carrera o la escuela lo que no me gustó, ya que mi inclinación por las computadoras y el coding siguen aquí.
-
 ## That's pretty much it! (perdón, también soy muy dado a usar [Espanglish][34]{:target="_blank" rel="noopener"} al escribir/hablar)
 
 Y pues eso es básicamente todo. Gracias por llegar hasta aquí y tomarte el tiempo de conocerme un poco mejor. Si quieres cotorrear o simplemente saludar, no dudes en firmar mi [guestbook 📖][6] o [buscarme por aquí][7].
 
-Al final del día, solo soy un vato de Chihuahua que ama hacer cosas para el Internet y que encuentra en la música, la tecnología y la fe las piezas que le dan sentido a su vida.
-
 *¡Muchas gracias por tu visita!* ✨
 
 ## TL;DR
-Vato de Chihuahua, autodidacta y desarrollador web, apasionado por la música, la tecnología y el IndieWeb; encuentro sentido en crear, en la fe y en compartir desde un espacio propio en Internet.
+Al final del día, solo soy un vato de Chihuahua, apasionado y romántico del Internet y la computación que a su vez encuentra en la música y en la fe las piezas que le dan sentido a su vida.
 
 ---
 
@@ -118,7 +110,7 @@ Suscríbete a mis diferentes feeds:
 - [<i class="fas fa-rss"></i> RSS (Statuslog)][29]
 - [<i class="fas fa-rss"></i> RSS (Playlist)][30]
 - [<i class="fa-brands fa-mastodon"></i> Mastodon][31]{:rel="me noreferrer noopener" target="_blank"}
-- [<i class="fa-solid fa-envelope"></i> Newsletter][32] <span class="badge badge-success pulse-subtle pulse-fast">Nuevo</span>
+- [<i class="fa-solid fa-envelope"></i> Newsletter][32]
 
 ## Errores en el sitio
 

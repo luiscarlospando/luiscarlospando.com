@@ -23,7 +23,7 @@ He usado prácticamente todas las redes sociales habidas y por haber pero ahora 
 
 [Aquí ando compartiendo fotos][15] 📸 y tengo un guestbook 📖, que si te animas, puedes [pasar a firmarlo][16]  saludar. ✌️
 
-Ya no sé qué más decir, pero si te quedaste con ganas de saber más de mi nada interesante vida, entonces [pásale a mi página Acerca de][17].
+Ya no sé qué más decir, pero si te quedaste con ganas de saber más de mi nada interesante vida, entonces [pásale a mi página Acerca de][3].
 </div>
 
 <button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">
@@ -193,4 +193,3 @@ Ver mis álbumes más escuchados de los últimos 30 días
 [14]: {{ site.instagram_url }}
 [15]: /photos/
 [16]: /guestbook/
-[17]: /about/

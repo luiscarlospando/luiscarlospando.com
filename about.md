@@ -22,7 +22,7 @@ Soy Luis Carlos Pando 👋, pero algunos me conocen como `Mijo` (<a href="#" dat
 
 Desde que tengo memoria, siempre he tenido una curiosidad insaciable por entender cómo jalan las cosas 🔧. De chavito recuerdo que la curiosidad a veces me hacía desarmar mis juguetes para ver qué había adentro. Me gustaba ver engranajes, circuitos y mecanismos. Esa curiosidad nunca se fue; simplemente evolucionó hacia las computadoras.
 
-Casi todo lo que sé ha sido de manera autodidacta. Si algo me llama la atención, me obsesiono con machín con ello. Así aprendí a tocar guitarra 🎸 (no soy bueno, pero me medio me defiendo), así me metí de lleno al desarrollo web y así es como sigo aprendiendo cosas nuevas todos los días.
+Casi todo lo que sé ha sido de manera autodidacta. Si algo me llama la atención, me obsesiono machín con ello. Así aprendí a tocar guitarra 🎸 (no soy bueno, pero me medio me defiendo), así me metí de lleno al desarrollo web y así es como sigo aprendiendo cosas nuevas todos los días.
 
 ## El parteaguas musical
 
@@ -69,9 +69,11 @@ Sé que la IndieWeb no es para todos y no te voy a juzgar por no estar ahí. Per
 
 La única red social de la que sigo siendo prisionero es Instagram (y en cierta manera, ¿Discord?), pero es porque todos mis amigos están ahí y no puedo aislarme 100% de todo mundo. Eso sí, tampoco es de que soy "influencer", solo un usuario común que quiere compartir su vida con sus compas.
 
-## That's pretty much it! (perdón, también soy muy dado a usar [Espanglish][34]{:target="_blank" rel="noopener"} al escribir/hablar)
+## *And... that's pretty much it!*
 
 Y pues eso es básicamente todo. Gracias por llegar hasta aquí y tomarte el tiempo de conocerme un poco mejor. Si quieres cotorrear o simplemente saludar, no dudes en firmar mi [guestbook 📖][6] o [buscarme por aquí][7].
+
+Perdón, también soy muy dado a usar [Espanglish][34]{:target="_blank" rel="noopener"} al escribir/hablar.
 
 *¡Muchas gracias por tu visita!* ✨
 

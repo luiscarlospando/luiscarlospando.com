@@ -32,7 +32,7 @@ En mis 20s, junto a unos compas, fundé [Hitz-Musik.net][1]{:target="_blank" rel
 
 ## El gaming
 
-Mi colección de videojuegos me enorgullece y mi gusto por el gaming me hizo crear la comunidad de [Mode 7 🎮][2] en Discord junto a unos amigos. Ahí cotorreamos todo el día sobre nuestros juegos favoritos y cada jueves en la noche [transmitimos][3] nuestro frenético torneo de Mario Kart 🏁. Es un espacio donde todos son bienvenidos (*All are welcome!*).
+Mi colección de videojuegos me enorgullece y mi gusto por el gaming me hizo crear la comunidad de [Mode 7 🎮][2] en Discord junto a unos amigos. Ahí cotorreamos todo el día sobre nuestros juegos favoritos y cada jueves en la noche [transmitimos][3] nuestro frenético torneo de *Mario Kart* 🏁. Es un espacio donde todos son bienvenidos (*All are welcome!*).
 
 ## La parte más personal
 

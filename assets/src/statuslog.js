@@ -117,12 +117,12 @@ async function displayLatestStatus(forceUpdate = false) {
             statusElement.classList.remove("updating");
         }
     } catch (error) {
-        console.error("Error al actualizar el estado:", error);
+        console.error("Error al actualizar el Statuslog:", error);
         const statusElement = document.getElementById("status");
         if (statusElement) {
             statusElement.innerHTML = `
                 <div id="container" class="text-center">
-                    <p>Error al cargar el estado. Intentando de nuevo...</p>
+                    <p>Error al cargar Statuslog. Intentando de nuevo...</p>
                     <button class="btn btn-primary" onclick="window.forceStatusUpdate()">
                         <i class="fa-solid fa-rotate-right"></i> Reintentar
                     </button>

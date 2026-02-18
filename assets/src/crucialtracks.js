@@ -1,4 +1,4 @@
-// Playlist (Crucial Tracks) - With Bandcamp/YouTube/Audio Player Sync
+// Playlist (Crucial Tracks) - With YouTube/Audio Player Sync
 
 // Import and configure dayjs with Spanish (Mexico) locale
 const locale_es_mx = require("dayjs/locale/es-mx");
@@ -502,7 +502,9 @@ function handleAudioPause(event) {
     }
 }
 
-// Setup Bandcamp player sync
+// Setup Bandcamp player sync.
+// Bandcamp requires an explicit "subscribe" handshake via postMessage before
+// it will emit play/pause/finish events. We send it once the iframe has loaded.
 function setupBandcampPlayers() {
     bandcampPlayers = [];
     const iframes = document.querySelectorAll(
@@ -510,18 +512,42 @@ function setupBandcampPlayers() {
     );
     iframes.forEach((iframe) => {
         bandcampPlayers.push(iframe);
+
+        // Subscribe to Bandcamp events after the iframe loads.
+        // If already loaded, send immediately; otherwise wait for load.
+        const subscribe = () => {
+            try {
+                iframe.contentWindow.postMessage(
+                    JSON.stringify({ method: "subscribe" }),
+                    "*"
+                );
+            } catch (e) {
+                // ignore
+            }
+        };
+
+        if (iframe.dataset.bcSubscribed) {
+            // Already subscribed from a previous setup call — skip re-attaching load handler
+            subscribe();
+        } else {
+            iframe.dataset.bcSubscribed = "1";
+            iframe.addEventListener("load", subscribe);
+            // Also try immediately in case it's already loaded
+            subscribe();
+        }
     });
 }
 
-// Listen for Bandcamp play events via postMessage and pause all other players
+// Listen for Bandcamp play/pause/finish events via postMessage
 function setupBandcampMessageListener() {
-    // Remove any existing listener to avoid duplicates
     window.removeEventListener("message", handleBandcampMessage);
     window.addEventListener("message", handleBandcampMessage);
 }
 
 function handleBandcampMessage(event) {
+    // Accept messages from any bandcamp.com origin (including f.bandcamp.com etc.)
     if (!event.origin.includes("bandcamp.com")) return;
+
     let data;
     try {
         data =
@@ -531,28 +557,27 @@ function handleBandcampMessage(event) {
     } catch (e) {
         return;
     }
-    // Bandcamp emits { event: "play" } when playback starts
-    if (data && data.event === "play") {
+
+    if (!data || !data.event) return;
+
+    if (data.event === "play") {
         isChangingTrack = true;
 
         // Pause all audio and YouTube players
         pauseAllAudioPlayers();
         pauseAllYouTubePlayers();
 
-        // Pause other Bandcamp players (not the one that just started)
+        // Pause all Bandcamp iframes except the one that just started
         bandcampPlayers.forEach((iframe) => {
-            try {
-                // We can't identify which iframe sent the message directly,
-                // so we pause all and let Bandcamp resume the active one naturally.
-                // Instead, only pause iframes that are NOT the event source.
-                if (iframe.contentWindow !== event.source) {
+            if (iframe.contentWindow !== event.source) {
+                try {
                     iframe.contentWindow.postMessage(
                         JSON.stringify({ method: "pause" }),
-                        "https://bandcamp.com"
+                        "*"
                     );
+                } catch (e) {
+                    // ignore
                 }
-            } catch (e) {
-                // ignore
             }
         });
 
@@ -574,7 +599,7 @@ function handleBandcampMessage(event) {
         setTimeout(() => {
             isChangingTrack = false;
         }, 100);
-    } else if (data && (data.event === "pause" || data.event === "finish")) {
+    } else if (data.event === "pause" || data.event === "finish") {
         if (!isChangingTrack) {
             document.title = originalTitle;
         }

@@ -14,6 +14,10 @@ permalink: /about/
 <small>🤫 <em>¿Solo quieres conocer los detalles técnicos de mi sitio? Entonces [skippea y ve directo al colofón](#colofon).</em></small>
 </div>
 
+<div class="col-12 text-center">
+    <img src="./assets/images/profile/pic.web" alt="Selfie mía con un efecto de dithering" class="rounded img-fluid" style="max-width: 300px;">
+</div>
+
 ## El vato detrás de esto
 
 Soy Luis Carlos Pando 👋, pero algunos me conocen como `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊). Nací, crecí y vivo en Chihuahua, México 🇲🇽, una ciudad que me gusta profundamente. No solo por ser mi hogar, sino por la idiosincrasia de la gente, la cultura local, la comida y lo que nos hace diferente a otros lugares del país.

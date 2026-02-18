@@ -151,35 +151,6 @@ function extractYouTubeEmbed(html, itemIndex) {
     return null;
 }
 
-// Extract only the question title (first paragraph) from note HTML
-function extractQuestionTitle(html) {
-    if (!html) return "";
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, "text/html");
-    const paragraphs = doc.querySelectorAll("p");
-    if (paragraphs.length > 0) {
-        return `<h3>${DOMPurify.sanitize(paragraphs[0].innerHTML)}</h3>`;
-    }
-    return "";
-}
-
-// Extract only the answer body (all paragraphs after the first) from note HTML
-function extractAnswerContent(html) {
-    if (!html) return "";
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, "text/html");
-    const paragraphs = Array.from(doc.querySelectorAll("p")).slice(1);
-    if (paragraphs.length === 0) return "";
-    let answerHTML = "";
-    paragraphs.forEach((p) => {
-        const decodedContent = decodeHTMLEntities(p.innerHTML);
-        const dirtyParsedHTML = marked.parse(decodedContent);
-        answerHTML += DOMPurify.sanitize(dirtyParsedHTML);
-    });
-    if (!answerHTML.trim()) return "";
-    return `<div class="crucial-tracks-answer">${answerHTML}</div>`;
-}
-
 function extractQuestionContent(html) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, "text/html");
@@ -519,7 +490,7 @@ async function displayTracks() {
         renderPaginatedTracks();
         setupPagination();
         setupAudioPlayers();
-        setupAlbumArtworkClickHandlers();
+        setupAlbumArtworkClickHandlers(); // NEW: Setup artwork click handlers
 
         // Initialize YouTube players after a short delay to ensure DOM is ready
         setTimeout(() => {
@@ -584,8 +555,7 @@ function renderPaginatedTracks() {
             // Render YouTube embed version
             if (isYouTube) {
                 const youtubeData = extractYouTubeEmbed(item.note, globalIndex);
-                const questionTitle = extractQuestionTitle(item.note);
-                const questionAnswer = extractAnswerContent(item.note);
+                const questionAnswer = extractQuestionContent(item.note);
 
                 if (youtubeData) {
                     return `
@@ -598,7 +568,6 @@ function renderPaginatedTracks() {
             </li>
             ${newBadgeHTML}
           </ul>
-          ${questionTitle}
           <div class="card mb-4">
             <div class="card-body">
               <div class="row">
@@ -635,9 +604,6 @@ function renderPaginatedTracks() {
                 ? `<audio preload="none" controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
                 : "";
 
-            const questionTitle = extractQuestionTitle(item.note);
-            const questionAnswer = extractAnswerContent(item.note);
-
             return `
         <li class="mb-4">
           <ul class="list-inline mb-3">
@@ -648,7 +614,6 @@ function renderPaginatedTracks() {
             </li>
             ${newBadgeHTML}
           </ul>
-          ${questionTitle}
           <div class="card mb-4">
             <div class="card-body">
               <div class="row">
@@ -670,7 +635,7 @@ function renderPaginatedTracks() {
               </div>
             </div>
           </div>
-          ${questionAnswer}
+          ${extractQuestionContent(item.note)}
         </li>
         ${separator}`;
         })
@@ -717,7 +682,7 @@ function handlePageChange(newPage) {
     renderPaginatedTracks();
     setupPagination();
     setupAudioPlayers();
-    setupAlbumArtworkClickHandlers();
+    setupAlbumArtworkClickHandlers(); // NEW: Setup artwork click handlers after page change
 
     setTimeout(() => {
         initializeYouTubePlayers();
@@ -835,7 +800,7 @@ window.addEventListener("popstate", (event) => {
         renderPaginatedTracks();
         setupPagination();
         setupAudioPlayers();
-        setupAlbumArtworkClickHandlers();
+        setupAlbumArtworkClickHandlers(); // NEW: Setup artwork click handlers after navigation
         setTimeout(() => {
             initializeYouTubePlayers();
         }, 500);

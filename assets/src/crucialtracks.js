@@ -1,4 +1,4 @@
-// Playlist (Crucial Tracks) - With YouTube/Audio Player Sync
+// Playlist (Crucial Tracks) - With Bandcamp/YouTube/Audio Player Sync
 
 // Import and configure dayjs with Spanish (Mexico) locale
 const locale_es_mx = require("dayjs/locale/es-mx");
@@ -22,6 +22,7 @@ let originalTitle = document.title;
 // Audio and YouTube player management
 let audioPlayers = [];
 let youtubePlayers = [];
+let bandcampPlayers = [];
 let isChangingTrack = false;
 let youtubeAPIReady = false;
 
@@ -347,6 +348,20 @@ function pauseAllYouTubePlayers() {
     });
 }
 
+// Pause all Bandcamp players via postMessage
+function pauseAllBandcampPlayers() {
+    bandcampPlayers.forEach((iframe) => {
+        try {
+            iframe.contentWindow.postMessage(
+                JSON.stringify({ method: "pause" }),
+                "https://bandcamp.com"
+            );
+        } catch (e) {
+            // ignore cross-origin errors
+        }
+    });
+}
+
 // Pause all players except the current audio player
 function pauseOtherPlayers(currentPlayer) {
     audioPlayers.forEach((player) => {
@@ -355,6 +370,7 @@ function pauseOtherPlayers(currentPlayer) {
         }
     });
     pauseAllYouTubePlayers();
+    pauseAllBandcampPlayers();
 }
 
 // Initialize YouTube players
@@ -399,6 +415,9 @@ function onYouTubePlayerStateChange(event) {
 
         // Pause all audio players
         pauseAllAudioPlayers();
+
+        // Pause all Bandcamp players
+        pauseAllBandcampPlayers();
 
         // Pause other YouTube players
         youtubePlayers.forEach((player) => {
@@ -480,6 +499,85 @@ function handleAudioPlay(event) {
 function handleAudioPause(event) {
     if (!isChangingTrack) {
         document.title = originalTitle;
+    }
+}
+
+// Setup Bandcamp player sync
+function setupBandcampPlayers() {
+    bandcampPlayers = [];
+    const iframes = document.querySelectorAll(
+        '#tracks iframe[src*="bandcamp.com"]'
+    );
+    iframes.forEach((iframe) => {
+        bandcampPlayers.push(iframe);
+    });
+}
+
+// Listen for Bandcamp play events via postMessage and pause all other players
+function setupBandcampMessageListener() {
+    // Remove any existing listener to avoid duplicates
+    window.removeEventListener("message", handleBandcampMessage);
+    window.addEventListener("message", handleBandcampMessage);
+}
+
+function handleBandcampMessage(event) {
+    if (!event.origin.includes("bandcamp.com")) return;
+    let data;
+    try {
+        data =
+            typeof event.data === "string"
+                ? JSON.parse(event.data)
+                : event.data;
+    } catch (e) {
+        return;
+    }
+    // Bandcamp emits { event: "play" } when playback starts
+    if (data && data.event === "play") {
+        isChangingTrack = true;
+
+        // Pause all audio and YouTube players
+        pauseAllAudioPlayers();
+        pauseAllYouTubePlayers();
+
+        // Pause other Bandcamp players (not the one that just started)
+        bandcampPlayers.forEach((iframe) => {
+            try {
+                // We can't identify which iframe sent the message directly,
+                // so we pause all and let Bandcamp resume the active one naturally.
+                // Instead, only pause iframes that are NOT the event source.
+                if (iframe.contentWindow !== event.source) {
+                    iframe.contentWindow.postMessage(
+                        JSON.stringify({ method: "pause" }),
+                        "https://bandcamp.com"
+                    );
+                }
+            } catch (e) {
+                // ignore
+            }
+        });
+
+        // Update page title
+        const playingIframe = bandcampPlayers.find(
+            (iframe) => iframe.contentWindow === event.source
+        );
+        if (playingIframe) {
+            const trackItem = playingIframe.closest("li");
+            if (trackItem) {
+                const songTitle = trackItem.querySelector("h2")?.textContent;
+                const artist = trackItem.querySelector(".info p")?.textContent;
+                if (songTitle && artist) {
+                    document.title = `"${songTitle}" de ${artist} - Luis Carlos Pando`;
+                }
+            }
+        }
+
+        setTimeout(() => {
+            isChangingTrack = false;
+        }, 100);
+    } else if (data && (data.event === "pause" || data.event === "finish")) {
+        if (!isChangingTrack) {
+            document.title = originalTitle;
+        }
     }
 }
 
@@ -601,6 +699,8 @@ async function displayTracks() {
         renderPaginatedTracks();
         setupPagination();
         setupAudioPlayers();
+        setupBandcampPlayers();
+        setupBandcampMessageListener();
         setupAlbumArtworkClickHandlers();
 
         // Initialize YouTube players after a short delay to ensure DOM is ready
@@ -969,6 +1069,8 @@ window.addEventListener("popstate", (event) => {
         renderPaginatedTracks();
         setupPagination();
         setupAudioPlayers();
+        setupBandcampPlayers();
+        setupBandcampMessageListener();
         setupAlbumArtworkClickHandlers();
         setTimeout(() => {
             initializeYouTubePlayers();

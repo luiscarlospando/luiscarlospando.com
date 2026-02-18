@@ -348,16 +348,20 @@ function pauseAllYouTubePlayers() {
     });
 }
 
-// Pause all Bandcamp players via postMessage
+// Pause all Bandcamp players by reloading their src (resets playback)
+// and re-showing their overlay so they can be clicked again.
 function pauseAllBandcampPlayers() {
     bandcampPlayers.forEach((iframe) => {
-        try {
-            iframe.contentWindow.postMessage(
-                JSON.stringify({ method: "pause" }),
-                "https://bandcamp.com"
-            );
-        } catch (e) {
-            // ignore cross-origin errors
+        const src = iframe.src;
+        if (src) {
+            iframe.src = "";
+            iframe.src = src;
+        }
+        // Re-show the overlay
+        const wrapper = iframe.closest(".bandcamp-wrapper");
+        if (wrapper) {
+            const overlay = wrapper.querySelector(".bandcamp-overlay");
+            if (overlay) overlay.style.display = "block";
         }
     });
 }
@@ -502,9 +506,11 @@ function handleAudioPause(event) {
     }
 }
 
-// Setup Bandcamp player sync.
-// Bandcamp requires an explicit "subscribe" handshake via postMessage before
-// it will emit play/pause/finish events. We send it once the iframe has loaded.
+// Setup Bandcamp player sync using an overlay intercept approach.
+// Since Bandcamp's postMessage API is unreliable, we place a transparent overlay
+// on top of each iframe. On first mousedown, we pause all other players and
+// update the title, then remove the overlay so the iframe becomes fully interactive.
+// When any other player starts, we reset the iframe src to stop Bandcamp playback.
 function setupBandcampPlayers() {
     bandcampPlayers = [];
     const iframes = document.querySelectorAll(
@@ -512,99 +518,63 @@ function setupBandcampPlayers() {
     );
     iframes.forEach((iframe) => {
         bandcampPlayers.push(iframe);
+    });
 
-        // Subscribe to Bandcamp events after the iframe loads.
-        // If already loaded, send immediately; otherwise wait for load.
-        const subscribe = () => {
-            try {
-                iframe.contentWindow.postMessage(
-                    JSON.stringify({ method: "subscribe" }),
-                    "*"
-                );
-            } catch (e) {
-                // ignore
-            }
-        };
-
-        if (iframe.dataset.bcSubscribed) {
-            // Already subscribed from a previous setup call — skip re-attaching load handler
-            subscribe();
-        } else {
-            iframe.dataset.bcSubscribed = "1";
-            iframe.addEventListener("load", subscribe);
-            // Also try immediately in case it's already loaded
-            subscribe();
-        }
+    // Attach mousedown listeners to each overlay
+    const overlays = document.querySelectorAll("#tracks .bandcamp-overlay");
+    overlays.forEach((overlay) => {
+        overlay.addEventListener("mousedown", handleBandcampOverlayClick);
     });
 }
 
-// Listen for Bandcamp play/pause/finish events via postMessage
-function setupBandcampMessageListener() {
-    window.removeEventListener("message", handleBandcampMessage);
-    window.addEventListener("message", handleBandcampMessage);
-}
+function handleBandcampOverlayClick(event) {
+    const overlay = event.currentTarget;
+    const bcId = overlay.dataset.bcId;
+    const iframe = document.getElementById(bcId);
+    if (!iframe) return;
 
-function handleBandcampMessage(event) {
-    // Accept messages from any bandcamp.com origin (including f.bandcamp.com etc.)
-    if (!event.origin.includes("bandcamp.com")) return;
+    isChangingTrack = true;
 
-    let data;
-    try {
-        data =
-            typeof event.data === "string"
-                ? JSON.parse(event.data)
-                : event.data;
-    } catch (e) {
-        return;
-    }
+    // Pause all other players
+    pauseAllAudioPlayers();
+    pauseAllYouTubePlayers();
 
-    if (!data || !data.event) return;
-
-    if (data.event === "play") {
-        isChangingTrack = true;
-
-        // Pause all audio and YouTube players
-        pauseAllAudioPlayers();
-        pauseAllYouTubePlayers();
-
-        // Pause all Bandcamp iframes except the one that just started
-        bandcampPlayers.forEach((iframe) => {
-            if (iframe.contentWindow !== event.source) {
-                try {
-                    iframe.contentWindow.postMessage(
-                        JSON.stringify({ method: "pause" }),
-                        "*"
-                    );
-                } catch (e) {
-                    // ignore
-                }
-            }
-        });
-
-        // Update page title
-        const playingIframe = bandcampPlayers.find(
-            (iframe) => iframe.contentWindow === event.source
-        );
-        if (playingIframe) {
-            const trackItem = playingIframe.closest("li");
-            if (trackItem) {
-                const songTitle = trackItem.querySelector("h2")?.textContent;
-                const artist = trackItem.querySelector(".info p")?.textContent;
-                if (songTitle && artist) {
-                    document.title = `"${songTitle}" de ${artist} - Luis Carlos Pando`;
-                }
+    // Stop all other Bandcamp iframes by reloading their src
+    bandcampPlayers.forEach((otherIframe) => {
+        if (otherIframe !== iframe) {
+            const src = otherIframe.src;
+            otherIframe.src = "";
+            otherIframe.src = src;
+            // Re-show its overlay so it can be clicked again
+            const otherWrapper = otherIframe.closest(".bandcamp-wrapper");
+            if (otherWrapper) {
+                const otherOverlay =
+                    otherWrapper.querySelector(".bandcamp-overlay");
+                if (otherOverlay) otherOverlay.style.display = "block";
             }
         }
+    });
 
-        setTimeout(() => {
-            isChangingTrack = false;
-        }, 100);
-    } else if (data.event === "pause" || data.event === "finish") {
-        if (!isChangingTrack) {
-            document.title = originalTitle;
+    // Update page title
+    const trackItem = iframe.closest("li");
+    if (trackItem) {
+        const songTitle = trackItem.querySelector("h2")?.textContent;
+        const artist = trackItem.querySelector(".info p")?.textContent;
+        if (songTitle && artist) {
+            document.title = `"${songTitle}" de ${artist} - Luis Carlos Pando`;
         }
     }
+
+    // Hide this overlay so the iframe is now fully interactive
+    overlay.style.display = "none";
+
+    setTimeout(() => {
+        isChangingTrack = false;
+    }, 100);
 }
+
+// No-op kept for call-site compatibility
+function setupBandcampMessageListener() {}
 
 // NEW: Function to update play/pause indicator
 function updatePlayPauseIndicator(artworkWrapper, isPlaying) {
@@ -849,7 +819,15 @@ function renderPaginatedTracks() {
                     item.artwork_url || extractEntryImage(item.note);
 
                 if (bandcampSrc) {
-                    const bandcampPlayer = `<iframe src="${bandcampSrc}" seamless style="border: 0; width: 100%; height: 120px;"></iframe>`;
+                    const bcId = `bandcamp-player-${globalIndex}`;
+                    // Wrap in a relative container with a transparent overlay div.
+                    // The overlay sits on top and detects the first click (mousedown),
+                    // pauses all other players, then removes itself so the iframe is interactive.
+                    const bandcampPlayer = `
+                        <div class="bandcamp-wrapper" style="position: relative;">
+                            <iframe id="${bcId}" src="${bandcampSrc}" seamless style="border: 0; width: 100%; height: 120px;"></iframe>
+                            <div class="bandcamp-overlay" data-bc-id="${bcId}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer; z-index: 1;"></div>
+                        </div>`;
 
                     const cardBody = artworkSrc
                         ? `<div class="row">

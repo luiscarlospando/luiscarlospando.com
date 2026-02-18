@@ -15,7 +15,7 @@ permalink: /about/
 </div>
 
 <div class="col-12 text-center">
-<img src="./assets/images/profile-pic.web" alt="Selfie mía con un efecto de dithering" class="rounded img-fluid" style="max-width: 300px;">
+<img src="../assets/images/profile-pic.web" alt="Selfie mía con un efecto de dithering" class="rounded img-fluid" style="max-width: 300px;">
 </div>
 
 ## El vato detrás de esto

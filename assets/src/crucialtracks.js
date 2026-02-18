@@ -151,68 +151,37 @@ function extractYouTubeEmbed(html, itemIndex) {
     return null;
 }
 
-// Returns true if a paragraph is genuine text content (not an embed/media/link wrapper)
-function isTextParagraph(p) {
-    // Skip paragraphs that are inside or contain iframes, audio, or embed containers
-    if (p.querySelector("iframe, audio, embed, object")) return false;
-    // Skip paragraphs whose only meaningful content is a single Apple Music / embed link
-    const links = p.querySelectorAll("a");
-    if (links.length === 1) {
-        const href = links[0].href || "";
-        const text = p.textContent.trim();
-        // If the paragraph text is basically just the link text, it's a nav/embed link — skip it
-        if (
-            text === links[0].textContent.trim() &&
-            (href.includes("music.apple.com") ||
-                href.includes("embed.music.apple") ||
-                href.includes("youtube.com") ||
-                href.includes("spotify.com") ||
-                text.toLowerCase().includes("listen on") ||
-                text.toLowerCase().includes("listen to") ||
-                text.toLowerCase().includes("apple music"))
-        ) {
-            return false;
-        }
-    }
-    // Skip paragraphs that are inside a div that also contains an iframe (embed wrappers)
-    const parentDiv = p.closest("div");
-    if (parentDiv && parentDiv.querySelector("iframe, audio")) return false;
-    // Skip empty paragraphs
-    if (!p.textContent.trim()) return false;
-    return true;
-}
-
-// Extract only the question title (first clean text paragraph) from note HTML
-function extractQuestionTitle(html) {
-    if (!html) return "";
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, "text/html");
-    const paragraphs = Array.from(doc.querySelectorAll("p")).filter(
-        isTextParagraph
-    );
-    if (paragraphs.length > 0) {
-        return `<h3>${DOMPurify.sanitize(paragraphs[0].innerHTML)}</h3>`;
+// Extract the question title from item.content (clean markdown field from _song_details).
+// The question is always the first line when it's wrapped in underscores: _Question text_
+function extractQuestionTitleFromContent(content) {
+    if (!content) return "";
+    const firstLine = content.split("\n")[0].trim();
+    // Check if it's an italic markdown question (starts and ends with _)
+    const match = firstLine.match(/^_(.+)_$/);
+    if (match) {
+        const dirtyHTML = marked.parse(firstLine);
+        const cleanHTML = DOMPurify.sanitize(dirtyHTML);
+        // marked wraps it in <p><em>...</em></p> — promote to h3
+        const inner = cleanHTML.replace(/^<p>(.*)<\/p>\s*$/s, "$1");
+        return `<h3>${inner}</h3>`;
     }
     return "";
 }
 
-// Extract only the answer body (clean text paragraphs after the first) from note HTML
-function extractAnswerContent(html) {
-    if (!html) return "";
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, "text/html");
-    const paragraphs = Array.from(doc.querySelectorAll("p"))
-        .filter(isTextParagraph)
-        .slice(1);
-    if (paragraphs.length === 0) return "";
-    let answerHTML = "";
-    paragraphs.forEach((p) => {
-        const decodedContent = decodeHTMLEntities(p.innerHTML);
-        const dirtyParsedHTML = marked.parse(decodedContent);
-        answerHTML += DOMPurify.sanitize(dirtyParsedHTML);
-    });
-    if (!answerHTML.trim()) return "";
-    return `<div class="crucial-tracks-answer">${answerHTML}</div>`;
+// Extract the answer body from item.content (everything after the first line).
+function extractAnswerContentFromContent(content) {
+    if (!content) return "";
+    const lines = content.split("\n");
+    const firstLine = lines[0].trim();
+    // If first line is the italic question, skip it; otherwise include everything
+    const isQuestion = /^_.+_$/.test(firstLine);
+    const bodyLines = isQuestion ? lines.slice(1) : lines;
+    const body = bodyLines.join("\n").trim();
+    if (!body) return "";
+    const dirtyHTML = marked.parse(body);
+    const cleanHTML = DOMPurify.sanitize(dirtyHTML);
+    if (!cleanHTML.trim()) return "";
+    return `<div class="crucial-tracks-answer">${cleanHTML}</div>`;
 }
 
 function extractQuestionContent(html) {
@@ -619,8 +588,12 @@ function renderPaginatedTracks() {
             // Render YouTube embed version
             if (isYouTube) {
                 const youtubeData = extractYouTubeEmbed(item.note, globalIndex);
-                const questionTitle = extractQuestionTitle(item.note);
-                const questionAnswer = extractAnswerContent(item.note);
+                const questionTitle = extractQuestionTitleFromContent(
+                    item.content
+                );
+                const questionAnswer = extractAnswerContentFromContent(
+                    item.content
+                );
 
                 if (youtubeData) {
                     return `
@@ -670,8 +643,10 @@ function renderPaginatedTracks() {
                 ? `<audio preload="none" controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
                 : "";
 
-            const questionTitle = extractQuestionTitle(item.note);
-            const questionAnswer = extractAnswerContent(item.note);
+            const questionTitle = extractQuestionTitleFromContent(item.content);
+            const questionAnswer = extractAnswerContentFromContent(
+                item.content
+            );
 
             return `
         <li class="mb-4">

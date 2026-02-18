@@ -151,70 +151,6 @@ function extractYouTubeEmbed(html, itemIndex) {
     return null;
 }
 
-// Returns true if a paragraph is genuine text content (not an embed/media/link wrapper)
-function isTextParagraph(p) {
-    // Skip paragraphs that are inside or contain iframes, audio, or embed containers
-    if (p.querySelector("iframe, audio, embed, object")) return false;
-    // Skip paragraphs whose only meaningful content is a single Apple Music / embed link
-    const links = p.querySelectorAll("a");
-    if (links.length === 1) {
-        const href = links[0].href || "";
-        const text = p.textContent.trim();
-        // If the paragraph text is basically just the link text, it's a nav/embed link — skip it
-        if (
-            text === links[0].textContent.trim() &&
-            (href.includes("music.apple.com") ||
-                href.includes("embed.music.apple") ||
-                href.includes("youtube.com") ||
-                href.includes("spotify.com") ||
-                text.toLowerCase().includes("listen on") ||
-                text.toLowerCase().includes("listen to") ||
-                text.toLowerCase().includes("apple music"))
-        ) {
-            return false;
-        }
-    }
-    // Skip paragraphs that are inside a div that also contains an iframe (embed wrappers)
-    const parentDiv = p.closest("div");
-    if (parentDiv && parentDiv.querySelector("iframe, audio")) return false;
-    // Skip empty paragraphs
-    if (!p.textContent.trim()) return false;
-    return true;
-}
-
-// Extract only the question title (first clean text paragraph) from note HTML
-function extractQuestionTitle(html) {
-    if (!html) return "";
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, "text/html");
-    const paragraphs = Array.from(doc.querySelectorAll("p")).filter(
-        isTextParagraph
-    );
-    if (paragraphs.length > 0) {
-        return `<h3>${DOMPurify.sanitize(paragraphs[0].innerHTML)}</h3>`;
-    }
-    return "";
-}
-
-// Extract only the answer body (clean text paragraphs after the first) from note HTML
-function extractAnswerContent(html) {
-    if (!html) return "";
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, "text/html");
-    const paragraphs = Array.from(doc.querySelectorAll("p"))
-        .filter(isTextParagraph)
-        .slice(1);
-    if (paragraphs.length === 0) return "";
-    let answerHTML = "";
-    paragraphs.forEach((p) => {
-        const decodedContent = decodeHTMLEntities(p.innerHTML);
-        const dirtyParsedHTML = marked.parse(decodedContent);
-        answerHTML += DOMPurify.sanitize(dirtyParsedHTML);
-    });
-    if (!answerHTML.trim()) return "";
-    return `<div class="crucial-tracks-answer">${answerHTML}</div>`;
-}
-
 function extractQuestionContent(html) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, "text/html");
@@ -554,7 +490,7 @@ async function displayTracks() {
         renderPaginatedTracks();
         setupPagination();
         setupAudioPlayers();
-        setupAlbumArtworkClickHandlers();
+        setupAlbumArtworkClickHandlers(); // NEW: Setup artwork click handlers
 
         // Initialize YouTube players after a short delay to ensure DOM is ready
         setTimeout(() => {
@@ -619,8 +555,7 @@ function renderPaginatedTracks() {
             // Render YouTube embed version
             if (isYouTube) {
                 const youtubeData = extractYouTubeEmbed(item.note, globalIndex);
-                const questionTitle = extractQuestionTitle(item.note);
-                const questionAnswer = extractAnswerContent(item.note);
+                const questionAnswer = extractQuestionContent(item.note);
 
                 if (youtubeData) {
                     return `
@@ -633,7 +568,6 @@ function renderPaginatedTracks() {
             </li>
             ${newBadgeHTML}
           </ul>
-          ${questionTitle}
           <div class="card mb-4">
             <div class="card-body">
               <div class="row">
@@ -670,9 +604,6 @@ function renderPaginatedTracks() {
                 ? `<audio preload="none" controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
                 : "";
 
-            const questionTitle = extractQuestionTitle(item.note);
-            const questionAnswer = extractAnswerContent(item.note);
-
             return `
         <li class="mb-4">
           <ul class="list-inline mb-3">
@@ -683,7 +614,6 @@ function renderPaginatedTracks() {
             </li>
             ${newBadgeHTML}
           </ul>
-          ${questionTitle}
           <div class="card mb-4">
             <div class="card-body">
               <div class="row">
@@ -705,7 +635,7 @@ function renderPaginatedTracks() {
               </div>
             </div>
           </div>
-          ${questionAnswer}
+          ${extractQuestionContent(item.note)}
         </li>
         ${separator}`;
         })
@@ -752,7 +682,7 @@ function handlePageChange(newPage) {
     renderPaginatedTracks();
     setupPagination();
     setupAudioPlayers();
-    setupAlbumArtworkClickHandlers();
+    setupAlbumArtworkClickHandlers(); // NEW: Setup artwork click handlers after page change
 
     setTimeout(() => {
         initializeYouTubePlayers();
@@ -870,7 +800,7 @@ window.addEventListener("popstate", (event) => {
         renderPaginatedTracks();
         setupPagination();
         setupAudioPlayers();
-        setupAlbumArtworkClickHandlers();
+        setupAlbumArtworkClickHandlers(); // NEW: Setup artwork click handlers after navigation
         setTimeout(() => {
             initializeYouTubePlayers();
         }, 500);

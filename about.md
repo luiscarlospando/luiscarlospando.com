@@ -14,7 +14,7 @@ permalink: /about/
 <small>🤫 <em>¿Solo quieres conocer los detalles técnicos de mi sitio? Entonces [skippea y ve directo al colofón](#colofon).</em></small>
 </div>
 
-<div class="col-12 text-center">
+<div class="text-center">
 <img src="../assets/images/profile-pic.webp" alt="Selfie mía con un efecto de dithering" class="rounded img-fluid" style="max-width: 300px;">
 </div>
 

@@ -151,39 +151,37 @@ function extractYouTubeEmbed(html, itemIndex) {
     return null;
 }
 
-// Extract the question title from item.content (clean markdown field from _song_details).
-// The question is always the first line when it's wrapped in underscores: _Question text_
+// Extract the question title from item.content (clean markdown from _song_details).
+// The question is always the first line wrapped in underscores: _Question text_
+// Returns empty string if there is no question.
 function extractQuestionTitleFromContent(content) {
     if (!content) return "";
-    const firstLine = content.split("\n")[0].trim();
-    // Check if it's an italic markdown question (starts and ends with _)
+    const firstLine = content.split("
+")[0].trim();
     const match = firstLine.match(/^_(.+)_$/);
     if (match) {
-        const dirtyHTML = marked.parse(firstLine);
-        const cleanHTML = DOMPurify.sanitize(dirtyHTML);
-        // marked wraps it in <p><em>...</em></p> — promote to h3
-        const inner = cleanHTML.replace(/^<p>(.*)<\/p>\s*$/s, "$1");
-        return `<h3>${inner}</h3>`;
+        return `<h3><em>${DOMPurify.sanitize(match[1])}</em></h3>`;
     }
     return "";
 }
 
-// Extract the answer body from item.content (everything after the first line).
+// Extract the answer body from item.content (everything after the question line, if any).
+// Handles: question+answer, question only, answer only, no content at all.
 function extractAnswerContentFromContent(content) {
     if (!content) return "";
-    const lines = content.split("\n");
+    const lines = content.split("
+");
     const firstLine = lines[0].trim();
-    // If first line is the italic question, skip it; otherwise include everything
-    const isQuestion = /^_.+_$/.test(firstLine);
-    const bodyLines = isQuestion ? lines.slice(1) : lines;
-    const body = bodyLines.join("\n").trim();
+    const firstIsQuestion = /^_.+_$/.test(firstLine);
+    const bodyLines = firstIsQuestion ? lines.slice(1) : lines;
+    const body = bodyLines.join("
+").trim();
     if (!body) return "";
-    const dirtyHTML = marked.parse(body);
-    const cleanHTML = DOMPurify.sanitize(dirtyHTML);
-    if (!cleanHTML.trim()) return "";
-    return `<div class="crucial-tracks-answer">${cleanHTML}</div>`;
+    const dirty = marked.parse(body);
+    const clean = DOMPurify.sanitize(dirty);
+    if (!clean.trim() || clean.trim() === "<p></p>") return "";
+    return `<div class="crucial-tracks-answer">${clean}</div>`;
 }
-
 function extractQuestionContent(html) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, "text/html");
@@ -588,12 +586,8 @@ function renderPaginatedTracks() {
             // Render YouTube embed version
             if (isYouTube) {
                 const youtubeData = extractYouTubeEmbed(item.note, globalIndex);
-                const questionTitle = extractQuestionTitleFromContent(
-                    item.content
-                );
-                const questionAnswer = extractAnswerContentFromContent(
-                    item.content
-                );
+                const questionTitle = extractQuestionTitleFromContent(item.content);
+                const questionAnswer = extractAnswerContentFromContent(item.content);
 
                 if (youtubeData) {
                     return `
@@ -644,9 +638,7 @@ function renderPaginatedTracks() {
                 : "";
 
             const questionTitle = extractQuestionTitleFromContent(item.content);
-            const questionAnswer = extractAnswerContentFromContent(
-                item.content
-            );
+            const questionAnswer = extractAnswerContentFromContent(item.content);
 
             return `
         <li class="mb-4">

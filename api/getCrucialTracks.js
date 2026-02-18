@@ -18,6 +18,7 @@ export default async function handler(req, res) {
             link: entry.url,
             created: entry.date_published,
             note: entry.content_html || "",
+            content: entry._song_details?.content || "",
             song: entry._song_details?.song || "",
             artist: entry._song_details?.artist || "",
             artwork_url: entry._song_details?.artwork_url || "",

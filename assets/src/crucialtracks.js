@@ -151,37 +151,94 @@ function extractYouTubeEmbed(html, itemIndex) {
     return null;
 }
 
-// Extract the question title from item.content (clean markdown from _song_details).
-// The question is always the first line wrapped in underscores: _Question text_
-// Returns empty string if there is no question.
-function extractQuestionTitleFromContent(content) {
-    if (!content) return "";
-    const firstLine = content.split("
-")[0].trim();
-    const match = firstLine.match(/^_(.+)_$/);
-    if (match) {
-        return `<h3><em>${DOMPurify.sanitize(match[1])}</em></h3>`;
+// Extract the question title. Uses item.content (clean markdown) when available,
+// falls back to parsing item.note (raw HTML) if content is empty.
+function extractQuestionTitleFromContent(content, noteFallback) {
+    // Try clean markdown first
+    if (content && content.trim()) {
+        const firstLine = content.split("\n")[0].trim();
+        const match = firstLine.match(/^_(.+?)_\s*$/);
+        if (match) {
+            return `<h3><em>${DOMPurify.sanitize(match[1])}</em></h3>`;
+        }
+    }
+    // Fallback: parse note HTML for italic-only first paragraph in content div
+    if (noteFallback) {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(noteFallback, "text/html");
+        // Find the text content div (not an embed wrapper)
+        let contentDiv = null;
+        for (const div of doc.querySelectorAll("body > div")) {
+            if (!div.querySelector("iframe") && !div.style.paddingBottom) {
+                contentDiv = div;
+                break;
+            }
+        }
+        if (contentDiv) {
+            const paras = contentDiv.querySelectorAll("p");
+            if (paras.length > 0) {
+                const first = paras[0];
+                const em = first.querySelector("em");
+                if (em && first.textContent.trim() === em.textContent.trim()) {
+                    return `<h3><em>${DOMPurify.sanitize(em.innerHTML)}</em></h3>`;
+                }
+            }
+        }
     }
     return "";
 }
 
-// Extract the answer body from item.content (everything after the question line, if any).
+// Extract the answer body. Uses item.content (clean markdown) when available,
+// falls back to parsing item.note (raw HTML) if content is empty.
 // Handles: question+answer, question only, answer only, no content at all.
-function extractAnswerContentFromContent(content) {
-    if (!content) return "";
-    const lines = content.split("
-");
-    const firstLine = lines[0].trim();
-    const firstIsQuestion = /^_.+_$/.test(firstLine);
-    const bodyLines = firstIsQuestion ? lines.slice(1) : lines;
-    const body = bodyLines.join("
-").trim();
-    if (!body) return "";
-    const dirty = marked.parse(body);
-    const clean = DOMPurify.sanitize(dirty);
-    if (!clean.trim() || clean.trim() === "<p></p>") return "";
-    return `<div class="crucial-tracks-answer">${clean}</div>`;
+function extractAnswerContentFromContent(content, noteFallback) {
+    // Try clean markdown first
+    if (content && content.trim()) {
+        const lines = content.split("\n");
+        const firstLine = lines[0].trim();
+        const firstIsQuestion = /^_.+?_\s*$/.test(firstLine);
+        const bodyLines = firstIsQuestion ? lines.slice(1) : lines;
+        const body = bodyLines.join("\n").trim();
+        if (body) {
+            const dirty = marked.parse(body);
+            const clean = DOMPurify.sanitize(dirty);
+            if (clean.trim() && clean.trim() !== "<p></p>") {
+                return `<div class="crucial-tracks-answer">${clean}</div>`;
+            }
+        }
+        return "";
+    }
+    // Fallback: parse note HTML
+    if (noteFallback) {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(noteFallback, "text/html");
+        let contentDiv = null;
+        for (const div of doc.querySelectorAll("body > div")) {
+            if (!div.querySelector("iframe") && !div.style.paddingBottom) {
+                contentDiv = div;
+                break;
+            }
+        }
+        if (!contentDiv) return "";
+        const paras = Array.from(contentDiv.querySelectorAll("p"));
+        if (paras.length === 0) return "";
+        const first = paras[0];
+        const em = first.querySelector("em");
+        const firstIsQuestion =
+            em && first.textContent.trim() === em.textContent.trim();
+        const answerParas = firstIsQuestion ? paras.slice(1) : paras;
+        if (answerParas.length === 0) return "";
+        let answerHTML = "";
+        answerParas.forEach((p) => {
+            const decoded = decodeHTMLEntities(p.innerHTML);
+            answerHTML += DOMPurify.sanitize(marked.parse(decoded));
+        });
+        if (!answerHTML.trim()) return "";
+        return `<div class="crucial-tracks-answer">${answerHTML}</div>`;
+    }
+    return "";
 }
+
 function extractQuestionContent(html) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, "text/html");
@@ -586,8 +643,14 @@ function renderPaginatedTracks() {
             // Render YouTube embed version
             if (isYouTube) {
                 const youtubeData = extractYouTubeEmbed(item.note, globalIndex);
-                const questionTitle = extractQuestionTitleFromContent(item.content);
-                const questionAnswer = extractAnswerContentFromContent(item.content);
+                const questionTitle = extractQuestionTitleFromContent(
+                    item.content,
+                    item.note
+                );
+                const questionAnswer = extractAnswerContentFromContent(
+                    item.content,
+                    item.note
+                );
 
                 if (youtubeData) {
                     return `
@@ -637,8 +700,14 @@ function renderPaginatedTracks() {
                 ? `<audio preload="none" controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
                 : "";
 
-            const questionTitle = extractQuestionTitleFromContent(item.content);
-            const questionAnswer = extractAnswerContentFromContent(item.content);
+            const questionTitle = extractQuestionTitleFromContent(
+                item.content,
+                item.note
+            );
+            const questionAnswer = extractAnswerContentFromContent(
+                item.content,
+                item.note
+            );
 
             return `
         <li class="mb-4">

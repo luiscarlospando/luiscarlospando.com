@@ -102,15 +102,38 @@ function decodeHTMLEntities(text) {
     return textarea.value;
 }
 
-// Function to check if item has YouTube embed
+// Check embed type for an item
 function hasYouTubeEmbed(item) {
-    if (item.note && item.note.includes("youtube.com/embed")) {
-        return true;
+    return !!(item.note && item.note.includes("youtube.com/embed"));
+}
+
+function hasBandcampEmbed(item) {
+    return !!(item.note && item.note.includes("bandcamp.com/EmbeddedPlayer"));
+}
+
+// Extract Bandcamp iframe src from note HTML
+function extractBandcampEmbed(html) {
+    if (!html) return null;
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, "text/html");
+    const iframe = doc.querySelector('iframe[src*="bandcamp.com"]');
+    if (!iframe) return null;
+    return iframe.getAttribute("src");
+}
+
+// Extract entry image from note HTML (manually attached images)
+function extractEntryImage(html) {
+    if (!html) return null;
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, "text/html");
+    // Look for <img> tags that are NOT inside the embed wrappers
+    const imgs = doc.querySelectorAll("body > p > img, body > div > p > img");
+    for (const img of imgs) {
+        const src = img.getAttribute("src") || "";
+        // Skip placeholder images
+        if (src && !src.includes("placehold.co")) return src;
     }
-    if (!item.preview_url && !item.artwork_url) {
-        return true;
-    }
-    return false;
+    return null;
 }
 
 // Extract YouTube video ID from iframe src
@@ -640,21 +663,18 @@ function renderPaginatedTracks() {
 
             const separator = index < items.length - 1 ? "<hr>" : "";
 
-            // Render YouTube embed version
-            if (isYouTube) {
-                const youtubeData = extractYouTubeEmbed(item.note, globalIndex);
-                const questionTitle = extractQuestionTitleFromContent(
-                    item.content,
-                    item.note
-                );
-                const questionAnswer = extractAnswerContentFromContent(
-                    item.content,
-                    item.note
-                );
+            const questionTitle = extractQuestionTitleFromContent(
+                item.content,
+                item.note
+            );
+            const questionAnswer = extractAnswerContentFromContent(
+                item.content,
+                item.note
+            );
+            const loadingAttr =
+                index < 3 ? 'loading="eager"' : 'loading="lazy"';
 
-                if (youtubeData) {
-                    return `
-        <li class="mb-4">
+            const dateBadgeHTML = `
           <ul class="list-inline mb-3">
             <li class="list-inline-item">
               <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener">
@@ -662,7 +682,15 @@ function renderPaginatedTracks() {
               </a>
             </li>
             ${newBadgeHTML}
-          </ul>
+          </ul>`;
+
+            // --- Render YouTube embed version ---
+            if (isYouTube) {
+                const youtubeData = extractYouTubeEmbed(item.note, globalIndex);
+                if (youtubeData) {
+                    return `
+        <li class="mb-4">
+          ${dateBadgeHTML}
           ${questionTitle}
           <div class="card mb-4">
             <div class="card-body">
@@ -688,10 +716,61 @@ function renderPaginatedTracks() {
                 }
             }
 
-            // Render standard Apple Music version
-            const loadingAttr =
-                index < 3 ? 'loading="eager"' : 'loading="lazy"';
+            // --- Render Bandcamp embed version ---
+            if (hasBandcampEmbed(item)) {
+                const bandcampSrc = extractBandcampEmbed(item.note);
+                // Artwork: prefer item.artwork_url, then look for entry image in note HTML
+                const artworkSrc =
+                    item.artwork_url || extractEntryImage(item.note);
 
+                if (bandcampSrc) {
+                    const bandcampPlayer = `<iframe src="${bandcampSrc}" seamless style="border: 0; width: 100%; height: 120px;"></iframe>`;
+
+                    const cardBody = artworkSrc
+                        ? `<div class="row">
+                <div class="col-md-4 col-lg-3">
+                  <div class="artwork">
+                    <a href="${item.link}" target="_blank" rel="noopener">
+                      <img src="${artworkSrc}" ${loadingAttr} alt="${item.artist} - ${item.song}" title="${item.artist} - ${item.song}" class="track-artwork rounded mb-4 mb-md-0 img-fluid" onerror="this.onerror=null; this.src='https://placehold.co/300x300?text=Portada+no+encontrada'">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-8 col-lg-9">
+                  <div class="info">
+                    <h2 style="margin: 0 0 0.13em !important;">${item.song}</h2>
+                    <p>${item.artist}</p>
+                    ${bandcampPlayer}
+                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                  </div>
+                </div>
+              </div>`
+                        : `<div class="row">
+                <div class="col-12">
+                  <div class="info">
+                    <h2 style="margin: 0 0 0.13em !important;">${item.song}</h2>
+                    <p>${item.artist}</p>
+                    ${bandcampPlayer}
+                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                  </div>
+                </div>
+              </div>`;
+
+                    return `
+        <li class="mb-4">
+          ${dateBadgeHTML}
+          ${questionTitle}
+          <div class="card mb-4">
+            <div class="card-body">
+              ${cardBody}
+            </div>
+          </div>
+          ${questionAnswer}
+        </li>
+        ${separator}`;
+                }
+            }
+
+            // --- Render standard Apple Music version ---
             const artworkHTML = item.artwork_url
                 ? `<img src="${item.artwork_url}" ${loadingAttr} data-toggle="tooltip" data-placement="top" alt="${item.artist} - ${item.song}" title="${item.artist} - ${item.song}" class="track-artwork rounded mb-4 mb-md-0 img-fluid" onerror="this.onerror=null; this.src='https://placehold.co/300x300?text=Portada+no+encontrada'">`
                 : "";
@@ -700,25 +779,9 @@ function renderPaginatedTracks() {
                 ? `<audio preload="none" controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
                 : "";
 
-            const questionTitle = extractQuestionTitleFromContent(
-                item.content,
-                item.note
-            );
-            const questionAnswer = extractAnswerContentFromContent(
-                item.content,
-                item.note
-            );
-
             return `
         <li class="mb-4">
-          <ul class="list-inline mb-3">
-            <li class="list-inline-item">
-              <a class="post-date badge badge-dark" href="${item.link}" target="_blank" rel="noopener">
-                <time datetime="${machineDate}">${formatDate(item.created)}</time>
-              </a>
-            </li>
-            ${newBadgeHTML}
-          </ul>
+          ${dateBadgeHTML}
           ${questionTitle}
           <div class="card mb-4">
             <div class="card-body">

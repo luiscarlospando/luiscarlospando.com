@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blogroll
-description: Esta es mi colección personal de blogs y websites favoritos, los que más frecuento pues. Están ordenados alfabéticamente para que sea fácil explorarlos. ¡Así que date vuelo! 🏄‍♂️
+description: Esta es mi colección personal de blogs y websites favoritos, los que más frecuento pues. Están ordenados alfabéticamente para que sea fácil explorarlos. ¡Date vuelo explorando! 🏄‍♂️
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
@@ -16,11 +16,18 @@ last-modified-at: <span id="last-updated-at">2026-01-29 20:41:00</span>
 
 <p class="text-center">{{ page.description }}</p>
 
-<div class="text-center">
-<button id="btn-random-link" class="btn btn-primary">
-    <i class="fa-solid fa-shuffle"></i> Abrir un sitio aleatorio
-</button>
-</div>
+<ul class="list-inline mb-4 text-center">
+    <li class="list-inline-item">
+        <button id="btn-random-link" class="btn btn-primary btn-sm">
+            <i class="fa-solid fa-shuffle"></i> Abrir un sitio aleatorio
+        </button>
+    </li>
+    <li class="list-inline-item">
+        <a class="btn btn-primary btn-sm" href="blogroll.opml" download>
+          <i class="fa-solid fa-heart"></i> Descargar OPML
+        </a>
+    </li>
+</ul>
 
 <details>
 <summary>

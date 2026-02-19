@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Blogroll</title>
+    <dateCreated>Wed, 29 Jan 2026 20:41:00 GMT</dateCreated>
+    <ownerName>Luis Carlos Pando</ownerName>
+  </head>
+
+  <body>
+
+    <!-- Amigos -->
+    <outline text="🫂 Amigos (en la vida real)">
+      <outline text="Bart"
+               type="rss"
+               xmlUrl="https://www.yosoybartsolo.com/feed.xml"
+               htmlUrl="https://www.yosoybartsolo.com/" />
+    </outline>
+
+    <!-- Español -->
+    <outline text="🇪🇸 Blogs personales (Español)">
+      <outline text="Diego López"
+               type="rss"
+               xmlUrl="http://diegologs.com/rss/feed.xml"
+               htmlUrl="https://diegologs.com/" />
+
+      <outline text="Emmanuel Alejandro Parada"
+               type="rss"
+               xmlUrl="https://text.eapl.mx/atom.xml"
+               htmlUrl="https://text.eapl.mx/posts" />
+
+      <outline text="Matizeta"
+               type="rss"
+               xmlUrl="https://matizeta.com/feed/"
+               htmlUrl="https://matizeta.com/" />
+
+      <outline text="Mono"
+               type="rss"
+               xmlUrl="https://simplemono.neocities.org/index.xml"
+               htmlUrl="https://simplemono.neocities.org/" />
+    </outline>
+
+    <!-- Inglés -->
+    <outline text="🇬🇧 Blogs personales (Inglés)">
+
+      <outline text="Adam Newbold"
+               type="rss"
+               xmlUrl="https://notes.neatnik.net/rss.xml"
+               htmlUrl="https://notes.neatnik.net/" />
+
+      <outline text="Ashur Cabrera"
+               type="rss"
+               xmlUrl="https://multiline.co/mment/feed.xml"
+               htmlUrl="https://multiline.co/mment" />
+
+      <outline text="Andy Bell"
+               type="rss"
+               xmlUrl="https://bell.bz/feed.xml"
+               htmlUrl="https://bell.bz/" />
+
+      <outline text="Anh"
+               type="rss"
+               xmlUrl="https://anhvn.com/feed.xml"
+               htmlUrl="https://anhvn.com/" />
+
+      <outline text="BinaryDigit"
+               type="rss"
+               xmlUrl="https://binarydigit.dev/feed/?type=rss/"
+               htmlUrl="https://binarydigit.dev/" />
+
+      <outline text="Brandon"
+               type="rss"
+               xmlUrl="https://krrd.ing/rss/"
+               htmlUrl="https://krrd.ing/" />
+
+      <outline text="Cory Dransfeldt"
+               type="rss"
+               xmlUrl="https://www.coryd.dev/feeds/all.xml"
+               htmlUrl="https://www.coryd.dev/" />
+
+      <outline text="Dave Rupert"
+               type="rss"
+               xmlUrl="https://daverupert.com/atom.xml"
+               htmlUrl="https://daverupert.com/" />
+
+      <outline text="Derek Sivers"
+               type="rss"
+               xmlUrl="https://sive.rs/en.atom"
+               htmlUrl="https://sive.rs/" />
+
+      <outline text="Eva Decker"
+               type="rss"
+               xmlUrl="https://eva.town/rss.xml"
+               htmlUrl="https://eva.town/" />
+
+      <outline text="Frills"
+               type="rss"
+               xmlUrl="https://frills.dev/all.xml"
+               htmlUrl="https://frills.dev/" />
+
+      <outline text="gobino's bites"
+               type="rss"
+               xmlUrl="https://gobino.be/feed/"
+               htmlUrl="https://gobino.be/" />
+
+      <outline text="James' Coffee Blog"
+               type="rss"
+               xmlUrl="https://jamesg.blog/feeds/posts.xml"
+               htmlUrl="https://jamesg.blog/" />
+
+      <outline text="Jarrod Blundy"
+               type="rss"
+               xmlUrl="https://heydingus.net/feed.rss"
+               htmlUrl="https://heydingus.net/" />
+
+      <outline text="Jason Burk"
+               type="rss"
+               xmlUrl="https://grepjason.sh/rss.xml"
+               htmlUrl="https://grepjason.sh/" />
+
+      <outline text="Jason White"
+               type="rss"
+               xmlUrl="https://jasonwhite.us/index.xml"
+               htmlUrl="https://jasonwhite.us/" />
+
+      <outline text="JCProbably"
+               type="rss"
+               xmlUrl="https://notes.jeddacp.com/feed/?type=rss"
+               htmlUrl="https://jeddacp.com/" />
+
+      <outline text="Jim Nielsen"
+               type="rss"
+               xmlUrl="https://blog.jim-nielsen.com/feed.xml"
+               htmlUrl="https://blog.jim-nielsen.com/" />
+
+      <outline text="Jose Munoz"
+               type="rss"
+               xmlUrl="http://www.josemunozmatos.com/blog/rss.xml"
+               htmlUrl="https://www.josemunozmatos.com/" />
+
+      <outline text="Keenan (A Very Good Blog)"
+               type="rss"
+               xmlUrl="https://gkeenan.co/avgb/feed.xml"
+               htmlUrl="https://gkeenan.co/avgb/" />
+
+      <outline text="Kev Quirk"
+               type="rss"
+               xmlUrl="https://kevquirk.com/feed"
+               htmlUrl="https://kevquirk.com/" />
+
+      <outline text="LMNT"
+               type="rss"
+               xmlUrl="https://lmnt.me/feed.xml"
+               htmlUrl="https://lmnt.me/" />
+
+      <outline text="Nick Simson"
+               type="rss"
+               xmlUrl="https://www.nicksimson.com/feed.xml"
+               htmlUrl="https://www.nicksimson.com/" />
+
+      <outline text="Robb Knight"
+               type="rss"
+               xmlUrl="https://rknight.me/subscribe/posts/rss.xml"
+               htmlUrl="https://rknight.me/" />
+
+      <outline text="Robert Birming"
+               type="rss"
+               xmlUrl="https://robertbirming.com/feed/?type=rss"
+               htmlUrl="https://robertbirming.com/" />
+
+      <outline text="Sophie Koonin"
+               type="rss"
+               xmlUrl="https://localghost.dev/feed.xml"
+               htmlUrl="https://localghost.dev/" />
+
+      <outline text="Stephanie Vee"
+               type="rss"
+               xmlUrl="https://stephvee.ca/feed.xml"
+               htmlUrl="https://stephvee.ca/" />
+
+      <outline text="Tom (ttntm)"
+               type="rss"
+               xmlUrl="https://ttntm.me/everything.xml"
+               htmlUrl="https://ttntm.me/" />
+
+      <outline text="Zachary Kai"
+               type="rss"
+               xmlUrl="https://zacharykai.net/assets/rss.xml"
+               htmlUrl="https://zacharykai.net/" />
+    </outline>
+
+    <!-- Directorios -->
+    <outline text="📖 Directorios">
+      <outline text="Ye Olde Blogroll"
+               type="rss"
+               xmlUrl="https://blogroll.org/feed"
+               htmlUrl="https://blogroll.org/" />
+
+      <outline text="¡Blog!¡Blog!"
+               type="rss"
+               xmlUrl="https://blogsencastellano.wordpress.com/feed/"
+               htmlUrl="https://blogblog.es/" />
+    </outline>
+
+    <!-- Gaming -->
+    <outline text="🎮 Gaming">
+      <outline text="My Nintendo News"
+               type="rss"
+               xmlUrl="https://mynintendonews.com/feed/"
+               htmlUrl="https://mynintendonews.com/" />
+
+      <outline text="Retronauts"
+               type="rss"
+               xmlUrl="https://retronauts.com/feed/rss"
+               htmlUrl="https://retronauts.com/" />
+
+      <outline text="Wavelengths"
+               type="rss"
+               xmlUrl="https://wavelengths.online/posts_feed"
+               htmlUrl="https://wavelengths.online/" />
+    </outline>
+
+    <!-- Música -->
+    <outline text="🎵 Música">
+      <outline text="Brooklyn Vegan"
+               type="rss"
+               xmlUrl="https://www.brooklynvegan.com/feed/"
+               htmlUrl="https://www.brooklynvegan.com/" />
+
+      <outline text="Chorus.fm"
+               type="rss"
+               xmlUrl="https://chorus.fm/feed/"
+               htmlUrl="https://chorus.fm/" />
+
+      <outline text="Crucial Tracks"
+               type="rss"
+               xmlUrl="https://www.crucialtracks.org/rss/"
+               htmlUrl="https://www.crucialtracks.org/" />
+
+      <outline text="GORILLA VS. BEAR"
+               type="rss"
+               xmlUrl="https://www.gorillavsbear.net/feed/"
+               htmlUrl="https://www.gorillavsbear.net/" />
+
+      <outline text="Heavy Blog Is Heavy"
+               type="rss"
+               xmlUrl="https://www.heavyblogisheavy.com/rss/"
+               htmlUrl="https://www.heavyblogisheavy.com/" />
+
+      <outline text="Metal Injection"
+               type="rss"
+               xmlUrl="https://metalinjection.net/feed"
+               htmlUrl="https://metalinjection.net/" />
+
+      <outline text="Metal Sucks"
+               type="rss"
+               xmlUrl="https://feeds.feedburner.com/Metalsucks"
+               htmlUrl="https://metalsucks.net/" />
+    </outline>
+
+    <!-- Noticias -->
+    <outline text="📰 Noticias">
+      <outline text="404 Media"
+               type="rss"
+               xmlUrl="https://www.404media.co/rss/"
+               htmlUrl="https://404media.co/" />
+
+      <outline text="512 Pixels"
+               type="rss"
+               xmlUrl="https://feedpress.me/512pixels"
+               htmlUrl="https://512pixels.net/" />
+
+      <outline text="Daring Fireball"
+               type="rss"
+               xmlUrl="https://daringfireball.net/feeds/main"
+               htmlUrl="https://daringfireball.net/" />
+
+      <outline text="Jason Kottke"
+               type="rss"
+               xmlUrl="https://feeds.kottke.org/main"
+               htmlUrl="https://kottke.org/" />
+
+      <outline text="MacStories"
+               type="rss"
+               xmlUrl="https://www.macstories.net/feed/"
+               htmlUrl="https://macstories.net/" />
+    </outline>
+
+    <!-- Podcasts -->
+    <outline text="🎙️ Podcasts">
+      <outline text="Comfort Zone"
+               type="rss"
+               xmlUrl="https://feeds.libsyn.com/531557/rss"
+               htmlUrl="https://www.macstories.net/comfort-zone/" />
+
+      <outline text="Platicando con Rolman y Artemio"
+               type="rss"
+               xmlUrl="https://anchor.fm/s/43a9467c/podcast/rss"
+               htmlUrl="https://youtube.com/playlist?list=PLBG1h7BR7fLaUyhwNWJCxdy6bSU6k79t2" />
+
+      <outline text="The First Ever Podcast"
+               type="rss"
+               xmlUrl="https://feeds.libsyn.com/342104/rss"
+               htmlUrl="https://the-first-ever-podcast.libsyn.com/" />
+    </outline>
+
+  </body>
+</opml>

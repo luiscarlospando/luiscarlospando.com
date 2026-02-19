@@ -24,7 +24,7 @@ last-modified-at: <span id="last-updated-at">2026-01-29 20:41:00</span>
     </li>
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="blogroll.opml" download>
-          <i class="fa-solid fa-heart"></i> Descargar OPML
+          <i class="fa-solid fa-rss"></i> Descargar OPML
         </a>
     </li>
 </ul>

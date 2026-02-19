@@ -52,7 +52,7 @@ Este es el feed principal de mi blog personal.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="{{ site.blog_url }}/rss/" rel="me">
+  <a class="btn btn-primary btn-lg" href="https://subscribeopenly.net/subscribe/?url={{ site.blog_url }}/rss/" rel="me">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -72,7 +72,7 @@ Este es el feed donde comparto mis fotos.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="{{ site.blog_url }}/photos/rss/" rel="me">
+<a class="btn btn-primary btn-lg" href="https://subscribeopenly.net/subscribe/?url={{ site.blog_url }}/photos/rss/" rel="me">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -92,7 +92,7 @@ Aquí comparto mis links favoritos.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://bg.raindrop.io/rss/public/50598757" rel="noopener">
+<a class="btn btn-primary btn-lg" href="https://subscribeopenly.net/subscribe/?url=https://bg.raindrop.io/rss/public/50598757" rel="noopener">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -112,7 +112,7 @@ Aquí comparto mis links favoritos.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://mijo.status.lol/feed/rss" rel="me noopener">
+<a class="btn btn-primary btn-lg" href="https://subscribeopenly.net/subscribe/?url=https://mijo.status.lol/feed/rss" rel="me noopener">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -132,7 +132,7 @@ Mi log de canciones diarias que representan algo para mi.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://app.crucialtracks.org/profile/mijo/feed" rel="me noopener">
+<a class="btn btn-primary btn-lg" href="https://subscribeopenly.net/subscribe/?url=https://app.crucialtracks.org/profile/mijo/feed" rel="me noopener">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>

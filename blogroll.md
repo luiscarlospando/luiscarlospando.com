@@ -5,7 +5,7 @@ description: Esta es mi colección personal de blogs y websites favoritos, los q
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-02-20 13:05:00</span>
+last-modified-at: <span id="last-updated-at">2026-02-20 13:10:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -266,6 +266,7 @@ Podcasts que escucho actualmente.
 |---------------------|-----------------------------------------------------------------------|
 | Bible Time With Melonie Mac | [@BibleTimeWithMelonieMac](https://www.youtube.com/@BibleTimeWithMelonieMac){:target="_blank" rel="noopener" .youtube-link} |
 | Pastor Robert | [@roberthoughton7127](https://www.youtube.com/@roberthoughton7127){:target="_blank" rel="noopener" .youtube-link} |
+| Pregúntale a Dann | [@preguntaleadann](https://www.youtube.com/@preguntaleadann){:target="_blank" rel="noopener" .youtube-link} |
 | SO BE IT! | [@SOBEIT32AD](https://www.youtube.com/@SOBEIT32AD){:target="_blank" rel="noopener" .youtube-link} |
 
 </div>

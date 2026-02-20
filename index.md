@@ -106,12 +106,12 @@ Ver mis álbumes más escuchados de los últimos 30 días
         </li>
         <li class="list-inline-item">
             <a href="/music/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Checa los álbumes que he escuchado en los últimos 30 días" title="Checa los álbumes que he escuchado en los últimos 30 días">
-                <i class="fa-solid fa-headphones"></i> Música
+                <i class="fa-solid fa-headphones"></i> Lo que escucho
             </a>
         </li>
         <li class="list-inline-item">
             <a href="/music/playlist/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Desde septiembre de 2025 actualizo este playlist diariamente (o eso intento) con canciones cruciales en mi vida y donde escribo algo sobre cada canción" title="Desde septiembre de 2025 actualizo este playlist diariamente (o eso intento) con canciones cruciales en mi vida y donde escribo algo sobre cada canción">
-                <i class="fa-solid fa-record-vinyl"></i> Playlist (Crucial Tracks)
+                <i class="fa-solid fa-record-vinyl"></i> Crucial Tracks
             </a>
         </li>
         <li class="list-inline-item">

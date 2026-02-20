@@ -175,7 +175,7 @@ function renderPaginatedTweets() {
             const dateToFormat = tweet.dateOriginal || tweet.date;
             const formattedDate = formatTweetDate(dateToFormat);
             const linkedText = linkifyTweet(tweet.text);
-            const separator = index < tweets.length - 1 ? "<hr>" : "";
+            // const separator = index < tweets.length - 1 ? "<hr>" : "";
 
             return `
                 <li class="mb-4">
@@ -204,8 +204,7 @@ function renderPaginatedTweets() {
                             </div>
                         </div>
                     </div>
-                </li>
-                ${separator}`;
+                </li>`;
         })
         .join("");
 }

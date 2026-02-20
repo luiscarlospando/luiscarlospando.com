@@ -169,7 +169,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
         <h2><i class="fa-solid fa-file-pen"></i> Blog</h2>
     </li>
     <li class="list-inline-item">
-        <a class="btn btn-primary btn-sm" href="{{ site.blog_url }}/rss/" rel="me" style="vertical-align: super;">
+        <a class="btn btn-primary btn-sm" href="https://subscribeopenly.net/subscribe/?url={{ site.blog_url }}/rss/" rel="me" style="vertical-align: super;">
             <i class="fa-solid fa-rss"></i> Suscribirse
         </a>
     </li>
@@ -188,7 +188,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
         <h2><i class="fa-solid fa-link"></i> Links <i class="ico-links-info fa-solid fa-circle-info" data-toggle="tooltip" data-placement="top" data-html="true" title="Esta es mi colección de links (o bookmarks) que voy encontrando navegando en Internet. Los pongo en mi sitio a manera de 'retweets'. La mayoría de los links son en inglés."></i></h2>
     </li>
     <li class="list-inline-item">
-        <a class="btn btn-primary btn-sm" href="https://bg.raindrop.io/rss/public/50598757" rel="me noopener" style="vertical-align: super;">
+        <a class="btn btn-primary btn-sm" href="https://subscribeopenly.net/subscribe/?url=https://bg.raindrop.io/rss/public/50598757" rel="me noopener" style="vertical-align: super;">
             <i class="fa-solid fa-rss"></i> Suscribirse
         </a>
     </li>

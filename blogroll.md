@@ -5,7 +5,7 @@ description: Esta es mi colección personal de blogs y websites favoritos, los q
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-01-29 20:41:00</span>
+last-modified-at: <span id="last-updated-at">2026-02-20 13:05:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -41,6 +41,7 @@ last-modified-at: <span id="last-updated-at">2026-01-29 20:41:00</span>
 - [🎮 Gaming](#gaming)
 - [🎵 Música](#musica)
 - [📰 Noticias](#noticias)
+- [🌎 Documentales](#documentales)
 - [🎙️ Podcasts](#podcasts)
 - [📺 Canales de YouTube favoritos](#canales-de-youtube)
 </details>
@@ -186,6 +187,19 @@ Noticias sobre cultura general, lifestyle, tecnología, gadgets, etc.
 | Jason Kottke | [kottke.org](https://kottke.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.kottke.org/main){:target="_blank" rel="noopener" .rss-link} |
 | MacStories | [macstories.net](https://macstories.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.macstories.net/feed/){:target="_blank" rel="noopener" .rss-link} |
 | The Verge | [theverge.com](https://theverge.com/){:target="_blank" rel="noopener"} | |
+
+</div>
+
+---
+
+## <i id="documentales" class="fa-solid fa-earth-americas"></i> Documentales
+Documentales gratuitos para ver en línea, sobre astronomía, naturaleza, física, economía, creatividad, ciencia, salud y más.
+
+<div class="table-responsive">
+
+| Nombre | URL | RSS |
+|--------|-----|-----|
+| ihavenotv.com | [ihavenotv.com](https://ihavenotv.com/){:target="_blank" rel="noopener"} | |
 
 </div>
 
@@ -356,7 +370,7 @@ Podcasts que escucho actualmente.
 
 </div>
 
-### 🌍 Viajes y lifestyle
+### 🌎 Viajes y lifestyle
 
 <div class="table-responsive">
 

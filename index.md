@@ -68,7 +68,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
 <nav>
     <ul class="list-inline">
         <li class="list-inline-item">
-            <a href="/about/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Conoce más sobre mi" title="Conoce más sobre mi">
+            <a href="/about/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Conoce más sobre mí" title="Conoce más sobre mí">
                 <i class="fa-solid fa-circle-info"></i> Acerca de
             </a>
         </li>

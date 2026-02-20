@@ -144,7 +144,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
 <nav>
     <ul class="list-inline">
         <li class="list-inline-item">
-            <a href="/links/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Colección de links que me encuentro navegando en Internet" title="Colección de links que me encuentro navegando en Internet">
+            <a href="/links/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Colección de links que encuentro navegando en Internet" title="Colección de links que encuentro navegando en Internet">
                 <i class="fa-solid fa-link"></i> Links
             </a>
         </li>

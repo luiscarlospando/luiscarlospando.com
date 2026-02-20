@@ -63,6 +63,8 @@ Ver mis álbumes más escuchados de los últimos 30 días
 </ul>
 
 {::nomarkdown}
+<h3><i class="fa-solid fa-user"></i> Sobre mí</h3>
+
 <nav>
     <ul class="list-inline">
         <li class="list-inline-item">
@@ -75,6 +77,23 @@ Ver mis álbumes más escuchados de los últimos 30 días
                 <i class="fa-solid fa-clock"></i> Now
             </a>
         </li>
+        <li class="list-inline-item">
+            <a href="/uses/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="El stack de apps que uso a diario" title="El stack de apps que uso a diario">
+                <i class="fa-solid fa-wrench"></i> Uses
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="/contact/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa las maneras de ponerte en contacto conmigo" title="Revisa las maneras de ponerte en contacto conmigo">
+                <i class="fa-solid fa-address-card"></i> Contacto
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<h3><i class="fa-solid fa-pen"></i> Contenido</h3>
+
+<nav>
+    <ul class="list-inline">
         <li class="list-inline-item">
             <a href="{{ site.blog_url }}" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Explora mi blog" title="Explora mi blog">
                 <i class="fa-solid fa-message"></i> Blog
@@ -91,15 +110,22 @@ Ver mis álbumes más escuchados de los últimos 30 días
             </a>
         </li>
         <li class="list-inline-item">
-            <a href="/music/loved-tracks/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Estas son las 100 canciones que me han gustado recientemente" title="Estas son las 100 canciones que me han gustado recientemente">
-                <i class="fa-solid fa-heart"></i> Canciones favoritas
-            </a>
-        </li>
-        <li class="list-inline-item">
             <a href="/music/playlist/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Desde septiembre de 2025 actualizo este playlist diariamente (o eso intento) con canciones cruciales en mi vida y donde escribo algo sobre cada canción" title="Desde septiembre de 2025 actualizo este playlist diariamente (o eso intento) con canciones cruciales en mi vida y donde escribo algo sobre cada canción">
                 <i class="fa-solid fa-record-vinyl"></i> Playlist (Crucial Tracks)
             </a>
         </li>
+        <li class="list-inline-item">
+            <a href="/music/loved-tracks/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Estas son las 100 canciones que me han gustado recientemente" title="Estas son las 100 canciones que me han gustado recientemente">
+                <i class="fa-solid fa-heart"></i> Canciones favoritas
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<h3><i class="fa-solid fa-gamepad"></i> Fun/Geek</h3>
+
+<nav>
+    <ul class="list-inline">
         <li class="list-inline-item">
             <a href="/games/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa lo que estoy jugando actualmente" title="Revisa lo que estoy jugando actualmente">
                 <i class="fa-solid fa-gamepad"></i> Games
@@ -110,21 +136,13 @@ Ver mis álbumes más escuchados de los últimos 30 días
                 <i class="fa-solid fa-star"></i> Mis juegos favoritos
             </a>
         </li>
-        <li class="list-inline-item">
-            <a href="/uses/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="El stack de apps que uso a diario" title="El stack de apps que uso a diario">
-                <i class="fa-solid fa-wrench"></i> Uses
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="/contact/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa las maneras de ponerte en contacto conmigo" title="Revisa las maneras de ponerte en contacto conmigo">
-                <i class="fa-solid fa-address-card"></i> Contacto
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="/guestbook/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Deja un mensaje en mi guestbook" title="Deja un mensaje en mi guestbook">
-                <i class="fa-solid fa-pen-nib"></i> Guestbook
-            </a>
-        </li>
+    </ul>
+</nav>
+
+<h3><i class="fa-solid fa-globe"></i> Web y Comunidad</h3>
+
+<nav>
+    <ul class="list-inline">
         <li class="list-inline-item">
             <a href="/links/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Colección de links que me encuentro navegando en Internet" title="Colección de links que me encuentro navegando en Internet">
                 <i class="fa-solid fa-link"></i> Links
@@ -133,6 +151,11 @@ Ver mis álbumes más escuchados de los últimos 30 días
         <li class="list-inline-item">
             <a href="/blogroll/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa mis blogs y websites favoritos" title="Revisa mis blogs y websites favoritos">
                 <i class="fa-solid fa-bookmark"></i> Blogroll
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a href="/guestbook/" class="btn btn-primary mb-3" data-toggle="tooltip" data-placement="top" aria-label="Deja un mensaje en mi guestbook" title="Deja un mensaje en mi guestbook">
+                <i class="fa-solid fa-pen-nib"></i> Guestbook
             </a>
         </li>
     </ul>

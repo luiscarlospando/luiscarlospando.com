@@ -993,7 +993,7 @@ a.bmac {
 }
 
 /* ==========================================================================
-   GUESTBOOKS
+   GUESTBOOK
    ========================================================================== */
 
 .guestbook-message {
@@ -1008,11 +1008,15 @@ a.bmac {
     z-index: 1;
 
     p {
-        font-family: "Raleway", sans-serif;
         line-height: $headings-lh;
         letter-spacing: 0;
-        font-size: 1.25rem;
         margin-bottom: 0.5rem;
+    }
+
+    small {
+        color: #6c757d;
+        font-size: 100%;
+        font-style: italic;
     }
 
     blockquote {

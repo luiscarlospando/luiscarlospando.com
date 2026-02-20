@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-description: Esta es mi colección de links (o bookmarks) que voy encontrando navegando en Internet. Los pongo en mi sitio a manera de 'retweets'. La mayoría de los links son en inglés.
+description: Esta es una colección de links (o bookmarks) que voy encontrando navegando en Internet. La mayoría de los links son en inglés.
 image: /assets/images/logo.png
 tags: [links, linkroll, favorite-links, bookmarks, raindrop.io]
 permalink: /links/

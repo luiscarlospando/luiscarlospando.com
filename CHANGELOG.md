@@ -8,6 +8,32 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.72.2`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.72.1...v2.72.2) - 2026-02-20
+
+- Agregar archivo blogroll.opml [`3bdf4ae`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3bdf4ae878c4c3c7bbe87160eabb467d222ca494)
+- Agregar soporte para post que usan player de Bandcamp [`9910959`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9910959af7c0d3b435ea8a0e464264c24e3d6799)
+- Actualizar navmenu [`684beba`](https://github.com/luiscarlospando/luiscarlospando.com/commit/684bebaa07a87bdf3f89f1942df1c8f0c71adbf5)
+- Agregar soporte para post que usan player de Bandcamp [`4bcac6f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4bcac6fc5720208ae9a76fdbaf8e2c0f5e47bed8)
+- Agregar soporte para post que usan player de Bandcamp [`8f4baae`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8f4baae0639311a36d5911e66f00851b427bfda3)
+- Mejorar UX [`3a55c31`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3a55c31a9c7c4af8b07520945568e3372810c9a3)
+- Agregar soporte para post que usan player de Bandcamp [`b0f4716`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b0f47166659944049ba6204943d9617375e9c724)
+- Actualizar CHANGELOG [`ab3a205`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ab3a205c8eff2e2dfff46c33649c857414f4e508)
+- Actualizar /uses [`93d3335`](https://github.com/luiscarlospando/luiscarlospando.com/commit/93d33358cba7896d5147c0db1ad4d56657feae8b)
+- Renombrar secciones [`5626fcd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5626fcd618425e3311f0ca1e61d07ea2082c23bb)
+- Agregar ihavenotv.com [`abfac6a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/abfac6ae8adc9c85bef33f84e45626c8eca66260)
+- Actualizar navmenu [`20dea2c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/20dea2cceeb3368f6bfa1d476e73c9405bb04a4e)
+- Unificar estilos de comentarios [`aaed5f5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/aaed5f5790bf510a5086f7145e9486b316e3aa4a)
+- Implementar Subscribe Openly [`d35f856`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d35f85634c681cd9b47d2f5dd92cdd78ba2cf915)
+- Quitar separador [`e7c143a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e7c143a592b06dc8d8b5408cb106768ba7031e6a)
+- Agregar youtube.com/@preguntaleadann [`70cf8c4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/70cf8c49a842efcb2fb5d090c3e666c864543bb9)
+- Deploy v2.72.2 [`4c2808d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4c2808db7027a70e052c41d803e8cb305cd5738d)
+- Actualizar descripción de Links [`6499cbd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6499cbddcb1bfb2a1f3552edcce4346109d02844)
+- Actualizar descripción de Links [`356d6d8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/356d6d8abbdad04cd58400f2a649600e8daee5fe)
+- Unificar estilos de comentarios [`4e20864`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4e2086461172cb6a65ab0c37d1ec8d2446ec5ec2)
+- Corregir anchor de Figma [`a2859ab`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a2859ab7322de14d894839f1e305ba33e349f498)
+- Agregar archivo blogroll.opml [`639d0bb`](https://github.com/luiscarlospando/luiscarlospando.com/commit/639d0bbcba9a9ba5486ce92b591d07d70159fc90)
+- Agregar archivo blogroll.opml [`3d783de`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3d783dee24c02d8d57c55580c038dd26fc424d40)
+
 ## [`v2.72.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.72.0...v2.72.1) - 2026-02-18
 
 - Optimizar deepl.js [`983d713`](https://github.com/luiscarlospando/luiscarlospando.com/commit/983d713fa6b4009649804fb2f2be38a8ebcb9243)

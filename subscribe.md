@@ -52,7 +52,7 @@ Este es el feed principal de mi blog personal.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-  <a class="btn btn-primary btn-lg" href="{{ site.blog_feed }}" rel="me">
+  <a class="btn btn-primary" href="{{ site.blog_feed }}" rel="me">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -72,7 +72,7 @@ Este es el feed donde comparto mis fotos.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="{{ site.photos_feed }}" rel="me">
+<a class="btn btn-primary" href="{{ site.photos_feed }}" rel="me">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -92,7 +92,7 @@ Aquí comparto mis links favoritos.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="{{ site.links_feed }}" rel="noopener">
+<a class="btn btn-primary" href="{{ site.links_feed }}" rel="noopener">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -112,7 +112,7 @@ Aquí comparto mis links favoritos.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="{{ site.statuslog_feed }}" rel="me noopener">
+<a class="btn btn-primary" href="{{ site.statuslog_feed }}" rel="me noopener">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -132,7 +132,7 @@ Mi log de canciones diarias que representan algo para mi.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="{{ site.crucialtracks_feed }}" rel="me noopener">
+<a class="btn btn-primary" href="{{ site.crucialtracks_feed }}" rel="me noopener">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>
@@ -169,7 +169,7 @@ Esta es una cuenta automatizada con posts de mi sitio.
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://hachyderm.io/@luiscarlospando" rel="me noopener noreferrer" target="_blank">
+<a class="btn btn-primary" href="https://hachyderm.io/@luiscarlospando" rel="me noopener noreferrer" target="_blank">
 <i class="fa-brands fa-mastodon"></i> Seguir
 </a>
 </div>
@@ -205,7 +205,7 @@ Suscríbete para recibir mi contenido en tu bandeja de entrada una vez al mes.</
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="/newsletter/" rel="me">
+<a class="btn btn-primary" href="/newsletter/" rel="me">
 <i class="fa-solid fa-envelope"></i> Suscribirse
 </a>
 </div>

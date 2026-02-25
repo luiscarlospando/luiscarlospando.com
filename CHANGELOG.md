@@ -8,6 +8,18 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.72.3`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.72.2...v2.72.3) - 2026-02-25
+
+- Ajustar tamaño de botones de navegación del home [`b6e7b00`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b6e7b00af6f7b193164975ab48737ae95e911f13)
+- Actualizar CHANGELOG [`42e2c08`](https://github.com/luiscarlospando/luiscarlospando.com/commit/42e2c08234bee2d5bf3fdc246d7acfe10e0c771f)
+- Actualizar referencias a los links de los feeds para facilitar mantenimiento desde _config.yml [`bbd6399`](https://github.com/luiscarlospando/luiscarlospando.com/commit/bbd6399c3405f60f4f5ca8671bed73423e47cc09)
+- Reducir tamaño de botones [`556911c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/556911c7d74906647da3173c00317fedef08b4f7)
+- Reducir tamaño de botones [`9983cbb`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9983cbb67bb9be5e43b003f5f2f859b0c29e211f)
+- Agregar links de Subscribe Openly [`ecbd2f6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ecbd2f6731c80fff6f0866fe9e5128195689bfc3)
+- Deploy v2.72.3 [`42f86b3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/42f86b36e52598f8ea4c0cf76fd393c992a11c1f)
+- Actualizar tooltip de información de links [`f3ac4cd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f3ac4cd2a7ee3fb89dfd117d594a42945edc46b1)
+- Corregir error de ortografía [`4a5c84b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4a5c84b0772f51b16dfdef21b381fd69b882bf98)
+
 ## [`v2.72.2`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.72.1...v2.72.2) - 2026-02-20
 
 - Agregar archivo blogroll.opml [`3bdf4ae`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3bdf4ae878c4c3c7bbe87160eabb467d222ca494)

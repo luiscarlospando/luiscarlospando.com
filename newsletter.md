@@ -25,7 +25,7 @@ last-modified-at: <span id="last-updated-at">2025-08-06 16:50:00</span>
   class="embeddable-buttondown-form"
 >
 <input class="form-control mb-3" type="email" name="email" id="bd-email" placeholder="Introduce tu email" />
-<input class="btn btn-primary btn-lg" type="submit" value="Suscríbete" />
+<input class="btn btn-primary" type="submit" value="Suscríbete" />
 </form>
 <hr>
 <small>💡 Puedes <a href="https://buttondown.com/luiscarlospando/archive/" target="_blank">checar el archivo de newsletters</a> que ya he enviado, para que te des una idea de lo que recibirás al suscribirte.</small>

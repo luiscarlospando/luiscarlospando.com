@@ -26,7 +26,7 @@ Soy Luis Carlos Pando 👋, pero algunos me conocen como `Mijo` (<a href="#" dat
 
 Desde que tengo memoria, siempre he tenido una curiosidad insaciable por entender cómo jalan las cosas 🔧. De chavito recuerdo que la curiosidad a veces me hacía desarmar mis juguetes para ver qué había adentro. Me gustaba ver engranajes, circuitos y mecanismos. Esa curiosidad nunca se fue; simplemente evolucionó hacia las computadoras.
 
-Casi todo lo que sé ha sido de manera autodidacta. Si algo me llama la atención, me obsesiono machín con ello. Así aprendí a tocar guitarra 🎸 (no soy bueno, pero me medio me defiendo), así me metí de lleno al desarrollo web y así es como sigo aprendiendo cosas nuevas todos los días.
+Casi todo lo que sé ha sido de manera autodidacta. Si algo me llama la atención, me obsesiono machín con ello. Así aprendí a tocar guitarra 🎸 (no me considero bueno, pero quiero creer que medio me defiendo), así me metí de lleno al desarrollo web y así es como sigo aprendiendo cosas nuevas todos los días.
 
 ## El parteaguas musical
 

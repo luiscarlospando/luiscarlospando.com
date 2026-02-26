@@ -26,7 +26,7 @@ Otra parte de mi jale también se puede encontrar [aquí][5]{:rel="me" target="_
 [omg.lol tiene su propio host de código][6]{:rel="me" target="_blank"}, donde tengo los espejos de los repositorios de este sitio y de mi blog.
 
 ## <i class="fa-solid fa-clipboard"></i> Pastebin
-Aquí tengo [algunos Pastebins][7]{:rel="me" target="_blank"}.
+Aquí tengo mis [pastebins][7]{:rel="me" target="_blank"}.
 
 ## <i class="fa-brands fa-stack-overflow"></i> Stack Overflow [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-2197860-blue)][8]{:rel="me" target="_blank"}
 

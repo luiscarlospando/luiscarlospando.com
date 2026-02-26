@@ -2,6 +2,6 @@ Contact: https://luiscarlospando.com/contact
 Contact: mailto:hey@luiscarlospando.com
 Contact: mailto:mijo@omg.lol
 Expires: 2051-01-01T05:59:00.000Z
-Encryption: https://luiscarlospando.com/keys
+Encryption: https://luiscarlospando.com/pgp-key.txt
 Preferred-Languages: en, es
 Canonical: https://luiscarlospando.com/.well-known/security.txt

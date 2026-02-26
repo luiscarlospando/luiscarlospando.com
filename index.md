@@ -66,7 +66,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
 <h5><i class="fa-solid fa-user"></i> Sobre mí</h5>
 
 <nav>
-    <ul class="list-inline">
+    <ul class="list-inline mb-0">
         <li class="list-inline-item">
             <a href="/about/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Conoce más sobre mí" title="Conoce más sobre mí">
                 <i class="fa-solid fa-circle-info"></i> Acerca de
@@ -93,7 +93,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
 <h5><i class="fa-solid fa-pen"></i> Contenido</h5>
 
 <nav>
-    <ul class="list-inline">
+    <ul class="list-inline mb-0">
         <li class="list-inline-item">
             <a href="{{ site.blog_url }}" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Explora mi blog" title="Explora mi blog">
                 <i class="fa-solid fa-message"></i> Blog
@@ -125,7 +125,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
 <h5><i class="fa-solid fa-gamepad"></i> Fun/Geek</h5>
 
 <nav>
-    <ul class="list-inline">
+    <ul class="list-inline mb-0">
         <li class="list-inline-item">
             <a href="/games/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa lo que estoy jugando actualmente" title="Revisa lo que estoy jugando actualmente">
                 <i class="fa-solid fa-gamepad"></i> Games
@@ -142,7 +142,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
 <h5><i class="fa-solid fa-globe"></i> Web y Comunidad</h5>
 
 <nav>
-    <ul class="list-inline">
+    <ul class="list-inline mb-0">
         <li class="list-inline-item">
             <a href="/links/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Colección de links que encuentro navegando en Internet" title="Colección de links que encuentro navegando en Internet">
                 <i class="fa-solid fa-link"></i> Links

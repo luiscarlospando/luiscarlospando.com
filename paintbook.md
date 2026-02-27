@@ -100,5 +100,5 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 <p>Este cotorreo solo funciona en desktop.</p>
 </div>
 
-[1]: /contacto/
+[1]: /contact/
 [2]: https://codepen.io/alperentalaslioglu/pen/yPGgvP

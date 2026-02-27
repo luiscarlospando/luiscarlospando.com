@@ -1,20 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
     const paintbook = document.getElementById("paintbook");
-
-    // Si no existe el componente, no hacemos nada
     if (!paintbook) return;
 
     const canvas = paintbook.querySelector("#paint-canvas");
     const context = canvas.getContext("2d");
-    const boundings = canvas.getBoundingClientRect();
 
+    let isDrawing = false;
     let mouseX = 0;
     let mouseY = 0;
-    let isDrawing = false;
 
     context.strokeStyle = "black";
     context.lineWidth = 1;
 
+    // ========================
+    // Fondo blanco real
+    // ========================
     function fillWhiteBackground() {
         context.save();
         context.globalCompositeOperation = "destination-over";
@@ -23,64 +23,110 @@ document.addEventListener("DOMContentLoaded", () => {
         context.restore();
     }
 
+    // ========================
+    // Historial
+    // ========================
+    const history = [];
+    const maxHistory = 50;
+
+    function saveState() {
+        if (history.length >= maxHistory) {
+            history.shift();
+        }
+        history.push(context.getImageData(0, 0, canvas.width, canvas.height));
+    }
+
+    function undo() {
+        if (history.length <= 1) return;
+
+        history.pop(); // elimina estado actual
+        const previousState = history[history.length - 1];
+        context.putImageData(previousState, 0, 0);
+    }
+
     fillWhiteBackground();
+    saveState();
 
-    // Colors
-    const colors = paintbook.querySelector(".colors");
-    colors.addEventListener("click", (event) => {
+    // ========================
+    // Colores
+    // ========================
+    paintbook.querySelector(".colors").addEventListener("click", (event) => {
         if (event.target.tagName === "BUTTON") {
-            context.strokeStyle = event.target.value || "black";
+            context.strokeStyle = event.target.value;
         }
     });
 
+    // ========================
     // Brushes
-    const brushes = paintbook.querySelector(".brushes");
-    brushes.addEventListener("click", (event) => {
+    // ========================
+    paintbook.querySelector(".brushes").addEventListener("click", (event) => {
         if (event.target.tagName === "BUTTON") {
-            context.lineWidth = event.target.value || 1;
+            context.lineWidth = event.target.value;
         }
     });
 
-    // Drawing
+    // ========================
+    // Dibujo
+    // ========================
     canvas.addEventListener("mousedown", (event) => {
-        setMouseCoordinates(event);
+        const rect = canvas.getBoundingClientRect();
+        mouseX = event.clientX - rect.left;
+        mouseY = event.clientY - rect.top;
+
         isDrawing = true;
         context.beginPath();
         context.moveTo(mouseX, mouseY);
     });
 
     canvas.addEventListener("mousemove", (event) => {
-        setMouseCoordinates(event);
-        if (isDrawing) {
-            context.lineTo(mouseX, mouseY);
-            context.stroke();
-        }
+        if (!isDrawing) return;
+
+        const rect = canvas.getBoundingClientRect();
+        mouseX = event.clientX - rect.left;
+        mouseY = event.clientY - rect.top;
+
+        context.lineTo(mouseX, mouseY);
+        context.stroke();
     });
 
     canvas.addEventListener("mouseup", () => {
+        if (!isDrawing) return;
         isDrawing = false;
+        saveState();
     });
 
-    function setMouseCoordinates(event) {
-        mouseX = event.clientX - boundings.left;
-        mouseY = event.clientY - boundings.top;
-    }
+    // ========================
+    // Botones
+    // ========================
+    paintbook.querySelector("#undo").addEventListener("click", undo);
 
-    // Clear
     paintbook.querySelector("#clear").addEventListener("click", () => {
         context.clearRect(0, 0, canvas.width, canvas.height);
         fillWhiteBackground();
+        saveState();
     });
 
-    // Save
     paintbook.querySelector("#save").addEventListener("click", () => {
         fillWhiteBackground();
         const imageName = prompt("Please enter image name");
-        const canvasDataURL = canvas.toDataURL("image/png");
+        const dataURL = canvas.toDataURL("image/png");
 
         const a = document.createElement("a");
-        a.href = canvasDataURL;
+        a.href = dataURL;
         a.download = (imageName || "drawing") + ".png";
         a.click();
+    });
+
+    // ========================
+    // Ctrl/Cmd + Z
+    // ========================
+    document.addEventListener("keydown", (event) => {
+        if (
+            (event.ctrlKey || event.metaKey) &&
+            event.key.toLowerCase() === "z"
+        ) {
+            event.preventDefault();
+            undo();
+        }
     });
 });

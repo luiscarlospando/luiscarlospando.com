@@ -79,6 +79,7 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
             <button type="button" value="5"></button>
         </div>
         <div class="buttons">
+            <button id="undo" type="button">Deshacer</button>
             <button id="clear" type="button">Limpiar</button>
             <button id="save" type="button">Guardar</button>
         </div>

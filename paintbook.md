@@ -104,7 +104,7 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 
 ## Dibujos recibidos
 
-<ul class="list-unstyled paintbook-gallery">
+<ul id="paintbook-gallery" class="list-unstyled">
     <li class="mb-5">
         <article class="paintbook-entry text-center">
             <header class="mb-2">

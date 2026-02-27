@@ -158,6 +158,14 @@ Ver mis álbumes más escuchados de los últimos 30 días
                 <i class="fa-solid fa-pen-nib"></i> Guestbook
             </a>
         </li>
+        <li class="list-inline-item">
+            <a href="/paintbook/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Deja un dibujo en mi paintbook" title="Deja un dibujo en mi paintbook">
+                <i class="fa-solid fa-paintbrush"></i> Paintbook
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <span class="badge badge-success pulse-subtle position-relative" style="top: 0.8rem; left: 1.6rem;">Nuevo</span>
+        </li>
     </ul>
 </nav>
 {:/nomarkdown}

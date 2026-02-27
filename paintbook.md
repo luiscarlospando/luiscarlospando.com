@@ -10,10 +10,9 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 
 <p class="text-center">{{ page.description }}</p>
 
+<p class="text-center">¿Quieres escribir en vez de dibujar? 👇</p>
+
 <ul class="list-inline mb-4 text-center">
-    <li class="list-inline-item">
-        ¿Quieres escribir en vez de dibujar? 👉
-    </li>
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="/guestbook/">
           <i class="fa-solid fa-pen-nib"></i> Guestbook
@@ -97,7 +96,10 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 
 ---
 
-Basado en el trabajo de [Alperen][2]{:target="_blank"}.
+<div class="text-center">
+<small>Basado en el trabajo de [Alperen][2]{:target="_blank"}.</small>
+</div>
+
 
 [1]: /contacto/
 [2]: https://codepen.io/alperentalaslioglu/pen/yPGgvP

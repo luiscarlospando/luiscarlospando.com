@@ -10,10 +10,9 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 
 <p class="text-center">{{ page.description }}</p>
 
+<p class="text-center">¿Quieres dibujar en vez de escribir? 👇</p>
+
 <ul class="list-inline mb-4 text-center">
-    <li class="list-inline-item">
-        ¿Quieres dibujar en vez de escribir? 👉
-    </li>
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="/paintbook/">
           <i class="fa-solid fa-paintbrush"></i> Paintbook

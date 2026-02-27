@@ -89,8 +89,6 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 </main>
 {:/nomarkdown}
 
----
-
 <div class="text-center">
 <small>Basado en el trabajo de [Alperen][2]{:target="_blank"}.</small>
 </div>

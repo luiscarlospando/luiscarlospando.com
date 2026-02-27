@@ -85,7 +85,9 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
         </div>
     </div>
     <div class="right-block">
-        <canvas id="paint-canvas" width="640" height="400"></canvas>
+        <div class="canvas-wrapper">
+            <canvas id="paint-canvas"></canvas>
+        </div>
     </div>
 </main>
 {:/nomarkdown}

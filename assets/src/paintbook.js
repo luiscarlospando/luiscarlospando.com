@@ -15,12 +15,17 @@ document.addEventListener("DOMContentLoaded", () => {
     let mouseX = 0;
     let mouseY = 0;
 
+    context.lineCap = "round";
+    context.lineJoin = "round";
     context.strokeStyle = "black";
     context.lineWidth = 1;
 
-    // ========================
-    // Real white background
-    // ========================
+    // =========================
+    // Responsive Canvas
+    // =========================
+    const history = [];
+    const maxHistory = 50;
+
     function fillWhiteBackground() {
         context.save();
         context.globalCompositeOperation = "destination-over";
@@ -29,89 +34,97 @@ document.addEventListener("DOMContentLoaded", () => {
         context.restore();
     }
 
-    // ========================
-    // Historial
-    // ========================
-    const history = [];
-    const maxHistory = 50;
-
     function saveState() {
-        if (history.length >= maxHistory) {
-            history.shift();
-        }
+        if (history.length >= maxHistory) history.shift();
         history.push(context.getImageData(0, 0, canvas.width, canvas.height));
     }
 
     function undo() {
         if (history.length <= 1) return;
-
         history.pop();
-        const previousState = history[history.length - 1];
-        context.putImageData(previousState, 0, 0);
+        context.putImageData(history[history.length - 1], 0, 0);
     }
 
     function hasDrawing() {
         return history.length > 1;
     }
 
-    fillWhiteBackground();
-    saveState();
+    function resizeCanvas() {
+        const rect = canvas.getBoundingClientRect();
+        const dpr = window.devicePixelRatio || 1;
 
-    // ========================
+        canvas.width = rect.width * dpr;
+        canvas.height = rect.height * dpr;
+
+        context.setTransform(1, 0, 0, 1, 0, 0);
+        context.scale(dpr, dpr);
+
+        fillWhiteBackground();
+        history.length = 0;
+        saveState();
+    }
+
+    window.addEventListener("resize", resizeCanvas);
+    resizeCanvas();
+
+    // =========================
     // Colors
-    // ========================
-    colorsEl.addEventListener("click", (event) => {
-        if (event.target.tagName === "BUTTON") {
-            context.strokeStyle = event.target.value;
+    // =========================
+    colorsEl.addEventListener("click", (e) => {
+        if (e.target.tagName === "BUTTON") {
+            context.strokeStyle = e.target.value;
         }
     });
 
-    // ========================
+    // =========================
     // Brushes
-    // ========================
-    brushesEl.addEventListener("click", (event) => {
-        if (event.target.tagName === "BUTTON") {
-            context.lineWidth = event.target.value;
+    // =========================
+    brushesEl.addEventListener("click", (e) => {
+        if (e.target.tagName === "BUTTON") {
+            context.lineWidth = e.target.value;
         }
     });
 
-    // ========================
-    // Drawing
-    // ========================
+    // =========================
+    // Pointer Drawing
+    // =========================
     function updateCoordinates(event) {
         const rect = canvas.getBoundingClientRect();
         mouseX = event.clientX - rect.left;
         mouseY = event.clientY - rect.top;
     }
 
-    canvas.addEventListener("mousedown", (event) => {
+    canvas.addEventListener("pointerdown", (event) => {
+        event.preventDefault();
+        canvas.setPointerCapture(event.pointerId);
+
         updateCoordinates(event);
         isDrawing = true;
         context.beginPath();
         context.moveTo(mouseX, mouseY);
     });
 
-    canvas.addEventListener("mousemove", (event) => {
+    canvas.addEventListener("pointermove", (event) => {
         if (!isDrawing) return;
-
         updateCoordinates(event);
         context.lineTo(mouseX, mouseY);
         context.stroke();
     });
 
-    canvas.addEventListener("mouseup", () => {
+    canvas.addEventListener("pointerup", (event) => {
         if (!isDrawing) return;
         isDrawing = false;
+        canvas.releasePointerCapture(event.pointerId);
         saveState();
     });
 
-    canvas.addEventListener("mouseleave", () => {
+    canvas.addEventListener("pointercancel", () => {
         isDrawing = false;
     });
 
-    // ========================
+    // =========================
     // Buttons
-    // ========================
+    // =========================
     undoBtn.addEventListener("click", undo);
 
     clearBtn.addEventListener("click", () => {
@@ -150,7 +163,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
             alert("¡Dibujo enviado correctamente!");
 
-            // clean canvas after sending the drawing
             context.clearRect(0, 0, canvas.width, canvas.height);
             fillWhiteBackground();
             history.length = 0;
@@ -163,9 +175,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    // ========================
-    // Ctrl / Cmd + Z
-    // ========================
     document.addEventListener("keydown", (event) => {
         if (
             (event.ctrlKey || event.metaKey) &&

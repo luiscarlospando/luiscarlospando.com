@@ -65,7 +65,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
 {::nomarkdown}
 <div class="row">
   <!-- Sobre mí -->
-  <div class="col-12 col-md-6 col-lg-3 mb-4">
+  <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
     <h5 class="mb-3">
       <i class="fa-solid fa-user"></i> Sobre mí
     </h5>
@@ -104,7 +104,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
   </div>
 
   <!-- Contenido -->
-  <div class="col-12 col-md-6 col-lg-3 mb-4">
+  <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
     <h5 class="mb-3">
       <i class="fa-solid fa-pen"></i> Contenido
     </h5>
@@ -150,7 +150,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
   </div>
 
   <!-- Fun/Geek -->
-  <div class="col-12 col-md-6 col-lg-3 mb-4">
+  <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
     <h5 class="mb-3">
       <i class="fa-solid fa-gamepad"></i> Fun/Geek
     </h5>
@@ -175,7 +175,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
   </div>
 
   <!-- Web y Comunidad -->
-  <div class="col-12 col-md-6 col-lg-3 mb-4">
+  <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
     <h5 class="mb-3">
       <i class="fa-solid fa-globe"></i> Web y Comunidad
     </h5>

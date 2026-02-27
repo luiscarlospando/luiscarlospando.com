@@ -8,6 +8,45 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.73.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.72.3...v2.73.0) - 2026-02-26
+
+- Implementar Paintbook [`75501f2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/75501f2e7fcf5dd470115adeca511494766886d2)
+- Implementar Paintbook [`c952a14`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c952a14c3dcabaf9afe40f3b6a719bbdb87c17e2)
+- Implementar Paintbook [`51ec9ab`](https://github.com/luiscarlospando/luiscarlospando.com/commit/51ec9abc1efaf7fca7bdd33418d997c7ad09442f)
+- Implementar Paintbook [`4701eec`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4701eec19452efc956f86cc1bd718471fd4bb9f8)
+- Implementar Paintbook [`4a9b7dc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4a9b7dc461149d5fb9d213569f644d572a0536bf)
+- Implementar Paintbook [`2ddfbfe`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2ddfbfe563b766c8e2e1022ec11ac37979ae55c7)
+- Implementar Paintbook [`9ec2640`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9ec26401856e49331bcb0b590d39bf8c200369dd)
+- Actualizar CHANGELOG [`94be05a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/94be05ad9f86d1e37cc62cc0bc9056a56b6fdafb)
+- Implementar Paintbook [`16bbbc1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/16bbbc15e5f04ceb518aaa64eac9a4d357016428)
+- Implementar Paintbook [`09364cd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/09364cd3693a138ef8eca2221798b9c0d992346b)
+- Actualizar descripción [`9def64a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9def64a6960cfe25adcf2d4a265d2767bc044b85)
+- Disminuir espaciados [`3d35240`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3d35240c89fe78eac4ddf73a062adf2f6adc92a0)
+- Agregar botones para ver código raw [`e2af706`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e2af70678d1419bb4a84ed34d3b2d3cf8026a94e)
+- Firmar security.txt [`1d53ac1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1d53ac14fbfc136e579530acf23801c0131ca5c5)
+- Implementar Paintbook [`045fd91`](https://github.com/luiscarlospando/luiscarlospando.com/commit/045fd913f220fc5f7a7c2c8749affa4f29e92be1)
+- Implementar Paintbook [`f440230`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f4402300280ae77859fdbd428146d3b5694f79a6)
+- Actualizar security.txt [`196786c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/196786c890accb8c96e139b8143e47df2fbe0e21)
+- Deploy v2.73.0 [`0fb5c41`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0fb5c412c0983fe8b47c8cd07bc09cd28867dc35)
+- Implementar Paintbook [`9cd987f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9cd987f940e3c05231391a6927c6626f7b5934da)
+- Implementar Paintbook [`767f5cf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/767f5cfa6bbe521326df615c46023f2c5c0e9c05)
+- Implementar Paintbook [`673c9e7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/673c9e728a6e318f9e3749f870886c8c2088c8f6)
+- Implementar Paintbook [`a101ce8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a101ce822d479acc4c642ea815aad64f1b13698b)
+- Implementar Paintbook [`5557ccb`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5557ccbd5cc780f0a7a3d5b8ff746dba3baa7bf2)
+- Implementar Paintbook [`3d9bc43`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3d9bc434781b2462ab3d9fd8bf05a6c3f0c457c7)
+- Implementar Paintbook [`b8b605c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b8b605cbac5fdb1f9a749c9472f77eda883f1b69)
+- Implementar Paintbook [`24043ff`](https://github.com/luiscarlospando/luiscarlospando.com/commit/24043ff36bea51646072962fa56f37581e960709)
+- Actualizar descripción [`eafc692`](https://github.com/luiscarlospando/luiscarlospando.com/commit/eafc6927d8c67a0ff3a5708e5e94fc2e27301fdd)
+- Actualizar descripción [`70c377e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/70c377ebd35ff73e9ab800c991f3de4379a58ddd)
+- Actualizar descripción [`58b5da7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/58b5da76c3518ef5afa8e75cd972dfd6c500650e)
+- Actualizar fecha de última modificación [`cf1751d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cf1751dfa4687115568907b8eee22bd31d1c8aad)
+- Cambio menor [`a640560`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a640560aa3323b8cc54a54affd31fe0697e65ed1)
+- Update about.md [`3856320`](https://github.com/luiscarlospando/luiscarlospando.com/commit/385632061a0adb02d8e82471dc697878f0319382)
+- Actualizar security.txt [`9b4930a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9b4930a13bf844170ac712e8a989ff4c70459d0e)
+- Agregar botones para ver código raw [`f1514e1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f1514e160bffd530d707f1b372f4ed94e6578014)
+- Actualizar texto [`54e7a13`](https://github.com/luiscarlospando/luiscarlospando.com/commit/54e7a13bfa53c69a619703c452b9b1be037005c0)
+- Actualizar texto [`5148bb1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5148bb134eeee92a6a1948ba01dffa4729a251a9)
+
 ## [`v2.72.3`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.72.2...v2.72.3) - 2026-02-25
 
 - Ajustar tamaño de botones de navegación del home [`b6e7b00`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b6e7b00af6f7b193164975ab48737ae95e911f13)

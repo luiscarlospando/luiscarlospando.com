@@ -103,12 +103,16 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 </div>
 
 <ul class="list-unstyled">
-    <li>
+    <li class="mb-3">
         <time datetime="2026-02-27T05:28:57.377Z"><em></em></time>
+    </li>
+    <li class="mb-4 text-center">
         <img class="img-fluid" src="../assets/images/paintbook/2.png" alt="Dibujo enviado desde Paintbook" />
     </li>
-    <li>
+    <li class="mb-3">
         <time datetime="2026-02-27T05:28:42.070Z"><em></em></time>
+    </li>
+    <li class="mb-4 text-center">
         <img class="img-fluid" src="../assets/images/paintbook/1.png" alt="Dibujo enviado desde Paintbook" />
     </li>
 </ul>

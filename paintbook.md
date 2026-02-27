@@ -40,43 +40,43 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 <main id="paintbook" class="my-4">
     <div class="left-block">
         <div class="colors">
-            <button type="button" value="#0000ff"></button>
-            <button type="button" value="#009fff"></button>
-            <button type="button" value="#0fffff"></button>
-            <button type="button" value="#bfffff"></button>
-            <button type="button" value="#000000"></button>
-            <button type="button" value="#333333"></button>
-            <button type="button" value="#666666"></button>
-            <button type="button" value="#999999"></button>
-            <button type="button" value="#ffcc66"></button>
-            <button type="button" value="#ffcc00"></button>
-            <button type="button" value="#ffff00"></button>
-            <button type="button" value="#ffff99"></button>
-            <button type="button" value="#003300"></button>
-            <button type="button" value="#555000"></button>
-            <button type="button" value="#00ff00"></button>
-            <button type="button" value="#99ff99"></button>
-            <button type="button" value="#f00000"></button>
-            <button type="button" value="#ff6600"></button>
-            <button type="button" value="#ff9933"></button>
-            <button type="button" value="#f5deb3"></button>
-            <button type="button" value="#330000"></button>
-            <button type="button" value="#663300"></button>
-            <button type="button" value="#cc6600"></button>
-            <button type="button" value="#deb887"></button>
-            <button type="button" value="#aa0fff"></button>
-            <button type="button" value="#cc66cc"></button>
-            <button type="button" value="#ff66ff"></button>
-            <button type="button" value="#ff99ff"></button>
-            <button type="button" value="#e8c4e8"></button>
-            <button type="button" value="#ffffff"></button>
+            <button type="button" value="#0000ff" aria-label="Azul"></button>
+            <button type="button" value="#009fff" aria-label="Azul claro"></button>
+            <button type="button" value="#0fffff" aria-label="Cian"></button>
+            <button type="button" value="#bfffff" aria-label="Cian claro"></button>
+            <button type="button" value="#000000" aria-label="Negro"></button>
+            <button type="button" value="#333333" aria-label="Gris oscuro"></button>
+            <button type="button" value="#666666" aria-label="Gris medio"></button>
+            <button type="button" value="#999999" aria-label="Gris claro"></button>
+            <button type="button" value="#ffcc66" aria-label="Naranja claro"></button>
+            <button type="button" value="#ffcc00" aria-label="Amarillo oscuro"></button>
+            <button type="button" value="#ffff00" aria-label="Amarillo"></button>
+            <button type="button" value="#ffff99" aria-label="Amarillo claro"></button>
+            <button type="button" value="#003300" aria-label="Verde oscuro"></button>
+            <button type="button" value="#555000" aria-label="Oliva"></button>
+            <button type="button" value="#00ff00" aria-label="Verde"></button>
+            <button type="button" value="#99ff99" aria-label="Verde claro"></button>
+            <button type="button" value="#f00000" aria-label="Rojo"></button>
+            <button type="button" value="#ff6600" aria-label="Naranja"></button>
+            <button type="button" value="#ff9933" aria-label="Naranja claro intenso"></button>
+            <button type="button" value="#f5deb3" aria-label="Beige"></button>
+            <button type="button" value="#330000" aria-label="Vino oscuro"></button>
+            <button type="button" value="#663300" aria-label="Marrón"></button>
+            <button type="button" value="#cc6600" aria-label="Marrón claro"></button>
+            <button type="button" value="#deb887" aria-label="Madera clara"></button>
+            <button type="button" value="#aa0fff" aria-label="Morado"></button>
+            <button type="button" value="#cc66cc" aria-label="Lila"></button>
+            <button type="button" value="#ff66ff" aria-label="Fucsia"></button>
+            <button type="button" value="#ff99ff" aria-label="Rosa claro"></button>
+            <button type="button" value="#e8c4e8" aria-label="Rosa pastel"></button>
+            <button type="button" value="#ffffff" aria-label="Blanco"></button>
         </div>
         <div class="brushes">
-            <button type="button" value="1"></button>
-            <button type="button" value="2"></button>
-            <button type="button" value="3"></button>
-            <button type="button" value="4"></button>
-            <button type="button" value="5"></button>
+            <button type="button" value="1" aria-label="Pincel fino"></button>
+            <button type="button" value="2" aria-label="Pincel medio fino"></button>
+            <button type="button" value="3" aria-label="Pincel medio"></button>
+            <button type="button" value="4" aria-label="Pincel grueso"></button>
+            <button type="button" value="5" aria-label="Pincel extra grueso"></button>
         </div>
         <div class="buttons">
             <button id="undo" type="button">Deshacer</button>

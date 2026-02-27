@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Guestbook
-description: Recordemos un rato lo divertido que era el Internet en los 2000s 🌎. Déjame un mensaje o un saludo por aquí y si quieres también puedes leer los mensajes de los demás. ✌️😉
+description: Este es mi pequeño rincón tipo 2004. Si pasaste por aquí, deja un saludo, una recomendación o lo que traigas en la cabeza. Internet era más raro antes… y eso lo hacía más divertido.
 image: /assets/images/logo.png
 tags: [guestbook, libro-de-visitas]
 permalink: /guestbook/

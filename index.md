@@ -164,7 +164,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
             </a>
         </li>
         <li class="list-inline-item">
-            <span class="badge badge-success pulse-subtle position-relative" style="top: 0.8rem; left: 1.6rem;">Nuevo</span>
+            <span class="badge badge-success pulse-subtle position-relative" style="top: 0.35rem; left: 1.6rem;">Nuevo</span>
         </li>
     </ul>
 </nav>

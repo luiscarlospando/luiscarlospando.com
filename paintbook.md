@@ -102,4 +102,15 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 <p>Una vez que envíes tu dibujo, dame chanza de revisarlo antes de publicarlo aquí abajo. 👇</p>
 </div>
 
+<ul class="list-unstyled">
+    <li>
+        <time datetime="2026-02-27T05:28:57.377Z"><em></em></time>
+        <img class="img-fluid" src="../assets/images/paintbook/2.png" alt="Dibujo enviado desde Paintbook" />
+    </li>
+    <li>
+        <time datetime="2026-02-27T05:28:42.070Z"><em></em></time>
+        <img class="img-fluid" src="../assets/images/paintbook/1.png" alt="Dibujo enviado desde Paintbook" />
+    </li>
+</ul>
+
 [1]: https://codepen.io/alperentalaslioglu/pen/yPGgvP

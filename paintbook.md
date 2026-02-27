@@ -109,7 +109,7 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
         <article class="paintbook-entry text-center">
             <header class="mb-2">
                 <time datetime="2026-02-27T05:28:57.377Z">
-                    <em></em>
+                    <em class="text-muted"></em>
                 </time>
             </header>
             <figure class="mb-0">
@@ -125,7 +125,7 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
         <article class="paintbook-entry text-center">
             <header class="mb-2">
                 <time datetime="2026-02-27T05:28:42.070Z">
-                    <em></em>
+                    <em class="text-muted"></em>
                 </time>
             </header>
             <figure class="mb-0">

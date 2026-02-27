@@ -104,18 +104,38 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 
 ## Dibujos recibidos
 
-<ul class="list-unstyled">
-    <li class="mb-3">
-        <time datetime="2026-02-27T05:28:57.377Z"><em></em></time>
+<ul class="list-unstyled paintbook-gallery">
+    <li class="mb-5">
+        <article class="paintbook-entry text-center">
+            <header class="mb-2">
+                <time datetime="2026-02-27T05:28:57.377Z">
+                    <em></em>
+                </time>
+            </header>
+            <figure class="mb-0">
+                <img
+                    class="img-fluid"
+                    src="../assets/images/paintbook/2.png"
+                    alt="Dibujo enviado desde Paintbook"
+                />
+            </figure>
+        </article>
     </li>
-    <li class="mb-5 text-center">
-        <img class="img-fluid" src="../assets/images/paintbook/2.png" alt="Dibujo enviado desde Paintbook" />
-    </li>
-    <li class="mb-3">
-        <time datetime="2026-02-27T05:28:42.070Z"><em></em></time>
-    </li>
-    <li class="mb-5 text-center">
-        <img class="img-fluid" src="../assets/images/paintbook/1.png" alt="Dibujo enviado desde Paintbook" />
+    <li class="mb-5">
+        <article class="paintbook-entry text-center">
+            <header class="mb-2">
+                <time datetime="2026-02-27T05:28:42.070Z">
+                    <em></em>
+                </time>
+            </header>
+            <figure class="mb-0">
+                <img
+                    class="img-fluid"
+                    src="../assets/images/paintbook/1.png"
+                    alt="Dibujo enviado desde Paintbook"
+                />
+            </figure>
+        </article>
     </li>
 </ul>
 

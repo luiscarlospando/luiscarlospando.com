@@ -39,6 +39,7 @@ import "./crucialtracks";
 import "./surprise-me";
 import "./audio-players";
 import "./twitter";
+import "./paintbook";
 import "./other";
 
 // React components

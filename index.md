@@ -63,111 +63,159 @@ Ver mis álbumes más escuchados de los últimos 30 días
 </ul>
 
 {::nomarkdown}
-<h5><i class="fa-solid fa-user"></i> Sobre mí</h5>
+<div class="row">
+  <!-- Sobre mí -->
+  <div class="col-12 col-md-6 col-lg-3 mb-4">
+    <h5 class="mb-3">
+      <i class="fa-solid fa-user"></i> Sobre mí
+    </h5>
+    <nav>
+      <ul class="list-unstyled mb-0">
+        <li class="mb-2">
+          <a href="/about/" class="btn btn-primary btn-sm btn-block text-left"
+             data-toggle="tooltip" data-placement="top"
+             title="Conoce más sobre mí">
+            <i class="fa-solid fa-circle-info"></i> Acerca de
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="/now/" class="btn btn-primary btn-sm btn-block text-left"
+             data-toggle="tooltip" data-placement="top"
+             title="Ve en qué ando actualmente">
+            <i class="fa-solid fa-clock"></i> Now
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="/uses/" class="btn btn-primary btn-sm btn-block text-left"
+             data-toggle="tooltip" data-placement="top"
+             title="El stack de apps que uso a diario">
+            <i class="fa-solid fa-wrench"></i> Uses
+          </a>
+        </li>
+        <li>
+          <a href="/contact/" class="btn btn-primary btn-sm btn-block text-left"
+             data-toggle="tooltip" data-placement="top"
+             title="Revisa las maneras de ponerte en contacto conmigo">
+            <i class="fa-solid fa-address-card"></i> Contacto
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+  <!-- Contenido -->
+  <div class="col-12 col-md-6 col-lg-3 mb-4">
+    <h5 class="mb-3">
+      <i class="fa-solid fa-pen"></i> Contenido
+    </h5>
+    <nav>
+      <ul class="list-unstyled mb-0">
+        <li class="mb-2">
+          <a href="{{ site.blog_url }}" class="btn btn-primary btn-sm btn-block text-left"
+             data-toggle="tooltip" data-placement="top"
+             title="Explora mi blog">
+            <i class="fa-solid fa-message"></i> Blog
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="/photos/" class="btn btn-primary btn-sm btn-block text-left"
+             data-toggle="tooltip" data-placement="top"
+             title="Ve las fotos que he tomado con mi iPhone">
+            <i class="fa-solid fa-camera"></i> Fotos
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="/music/" class="btn btn-primary btn-sm btn-block text-left"
+             data-toggle="tooltip" data-placement="top"
+             title="Checa los álbumes que he escuchado en los últimos 30 días">
+            <i class="fa-solid fa-headphones"></i> Lo que escucho
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="/music/playlist/" class="btn btn-primary btn-sm btn-block text-left"
+             data-toggle="tooltip" data-placement="top"
+             title="Playlist que actualizo frecuentemente con canciones cruciales en mi vida">
+            <i class="fa-solid fa-record-vinyl"></i> Crucial Tracks
+          </a>
+        </li>
+        <li>
+          <a href="/music/loved-tracks/" class="btn btn-primary btn-sm btn-block text-left"
+             data-toggle="tooltip" data-placement="top"
+             title="Estas son las 100 canciones que me han gustado recientemente">
+            <i class="fa-solid fa-heart"></i> Canciones favoritas
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
-<nav>
-    <ul class="list-inline mb-0">
-        <li class="list-inline-item">
-            <a href="/about/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Conoce más sobre mí" title="Conoce más sobre mí">
-                <i class="fa-solid fa-circle-info"></i> Acerca de
+  <!-- Fun/Geek -->
+  <div class="col-12 col-md-6 col-lg-3 mb-4">
+    <h5 class="mb-3">
+      <i class="fa-solid fa-gamepad"></i> Fun/Geek
+    </h5>
+    <nav>
+      <ul class="list-unstyled mb-0">
+        <li class="mb-2">
+          <a href="/games/" class="btn btn-primary btn-sm btn-block text-left"
+             data-toggle="tooltip" data-placement="top"
+             title="Revisa lo que estoy jugando actualmente">
+            <i class="fa-solid fa-gamepad"></i> Games
+          </a>
+        </li>
+        <li>
+          <a href="/games/favorites/" class="btn btn-primary btn-sm btn-block text-left"
+             data-toggle="tooltip" data-placement="top"
+             title="Esta es una lista de mis juegos favoritos">
+            <i class="fa-solid fa-star"></i> Mis juegos favoritos
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+  <!-- Web y Comunidad -->
+  <div class="col-12 col-md-6 col-lg-3 mb-4">
+    <h5 class="mb-3">
+      <i class="fa-solid fa-globe"></i> Web y Comunidad
+    </h5>
+    <nav>
+      <ul class="list-unstyled mb-0">
+        <li class="mb-2">
+          <a href="/links/" class="btn btn-primary btn-sm btn-block text-left"
+             data-toggle="tooltip" data-placement="top"
+             title="Colección de links que encuentro navegando en Internet">
+            <i class="fa-solid fa-link"></i> Links
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="/blogroll/" class="btn btn-primary btn-sm btn-block text-left"
+             data-toggle="tooltip" data-placement="top"
+             title="Revisa mis blogs y websites favoritos">
+            <i class="fa-solid fa-bookmark"></i> Blogroll
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="/guestbook/" class="btn btn-primary btn-sm btn-block text-left"
+             data-toggle="tooltip" data-placement="top"
+             title="Deja un mensaje en mi guestbook">
+            <i class="fa-solid fa-pen-nib"></i> Guestbook
+          </a>
+        </li>
+        <li>
+          <div class="d-flex align-items-center">
+            <a href="/paintbook/" class="btn btn-primary btn-sm btn-block text-left position-relative"
+               data-toggle="tooltip" data-placement="top"
+               title="Deja un dibujo en mi paintbook">
+              <i class="fa-solid fa-paintbrush"></i> Paintbook
             </a>
+            <span class="badge badge-success ml-2 pulse-subtle">Nuevo</span>
+          </div>
         </li>
-        <li class="list-inline-item">
-            <a href="/now/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Ve en qué ando actualmente" title="Ve en qué ando actualmente">
-                <i class="fa-solid fa-clock"></i> Now
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="/uses/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="El stack de apps que uso a diario" title="El stack de apps que uso a diario">
-                <i class="fa-solid fa-wrench"></i> Uses
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="/contact/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa las maneras de ponerte en contacto conmigo" title="Revisa las maneras de ponerte en contacto conmigo">
-                <i class="fa-solid fa-address-card"></i> Contacto
-            </a>
-        </li>
-    </ul>
-</nav>
-
-<h5><i class="fa-solid fa-pen"></i> Contenido</h5>
-
-<nav>
-    <ul class="list-inline mb-0">
-        <li class="list-inline-item">
-            <a href="{{ site.blog_url }}" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Explora mi blog" title="Explora mi blog">
-                <i class="fa-solid fa-message"></i> Blog
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="/photos/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Ve las fotos que he tomado con mi iPhone" title="Ve las fotos que he tomado con mi iPhone">
-                <i class="fa-solid fa-camera"></i> Fotos
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="/music/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Checa los álbumes que he escuchado en los últimos 30 días" title="Checa los álbumes que he escuchado en los últimos 30 días">
-                <i class="fa-solid fa-headphones"></i> Lo que escucho
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="/music/playlist/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Desde septiembre de 2025 actualizo este playlist diariamente (o eso intento) con canciones cruciales en mi vida y donde escribo algo sobre cada canción" title="Desde septiembre de 2025 actualizo este playlist diariamente (o eso intento) con canciones cruciales en mi vida y donde escribo algo sobre cada canción">
-                <i class="fa-solid fa-record-vinyl"></i> Crucial Tracks
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="/music/loved-tracks/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Estas son las 100 canciones que me han gustado recientemente" title="Estas son las 100 canciones que me han gustado recientemente">
-                <i class="fa-solid fa-heart"></i> Canciones favoritas
-            </a>
-        </li>
-    </ul>
-</nav>
-
-<h5><i class="fa-solid fa-gamepad"></i> Fun/Geek</h5>
-
-<nav>
-    <ul class="list-inline mb-0">
-        <li class="list-inline-item">
-            <a href="/games/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa lo que estoy jugando actualmente" title="Revisa lo que estoy jugando actualmente">
-                <i class="fa-solid fa-gamepad"></i> Games
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="/games/favorites/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Esta es una lista de mis juegos favoritos" title="Esta es una lista de mis juegos favoritos">
-                <i class="fa-solid fa-star"></i> Mis juegos favoritos
-            </a>
-        </li>
-    </ul>
-</nav>
-
-<h5><i class="fa-solid fa-globe"></i> Web y Comunidad</h5>
-
-<nav>
-    <ul class="list-inline mb-0">
-        <li class="list-inline-item">
-            <a href="/links/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Colección de links que encuentro navegando en Internet" title="Colección de links que encuentro navegando en Internet">
-                <i class="fa-solid fa-link"></i> Links
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="/blogroll/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Revisa mis blogs y websites favoritos" title="Revisa mis blogs y websites favoritos">
-                <i class="fa-solid fa-bookmark"></i> Blogroll
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="/guestbook/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Deja un mensaje en mi guestbook" title="Deja un mensaje en mi guestbook">
-                <i class="fa-solid fa-pen-nib"></i> Guestbook
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="/paintbook/" class="btn btn-primary btn-sm mb-3" data-toggle="tooltip" data-placement="top" aria-label="Deja un dibujo en mi paintbook" title="Deja un dibujo en mi paintbook">
-                <i class="fa-solid fa-paintbrush"></i> Paintbook
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <span class="badge badge-success pulse-subtle position-relative" style="top: 0.35rem; left: 1.6rem;">Nuevo</span>
-        </li>
-    </ul>
-</nav>
+      </ul>
+    </nav>
+  </div>
+</div>
 {:/nomarkdown}
 
 ---

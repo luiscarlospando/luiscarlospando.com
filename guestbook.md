@@ -21,7 +21,7 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
         </a>
     </li>
     <li class="list-inline-item">
-        <span class="badge badge-primary pulse-subtle">Nuevo</span>
+        <span class="badge badge-success pulse-subtle position-relative" style="top: 0.8rem; left: 1.6rem;">Nuevo</span>
     </li>
 </ul>
 

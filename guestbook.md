@@ -5,7 +5,7 @@ description: Este es mi pequeño rincón tipo 2004. Si pasaste por aquí, deja u
 image: /assets/images/logo.png
 tags: [guestbook, libro-de-visitas]
 permalink: /guestbook/
-last-modified-at: <span id="last-updated-at">2025-08-06 16:50:00</span>
+last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 ---
 
 <p class="text-center">{{ page.description }}</p>

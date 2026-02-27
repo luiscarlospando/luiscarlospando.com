@@ -111,13 +111,11 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
   {% for drawing in drawings %}
     <li class="mb-5">
       <article class="paintbook-entry text-center">
-
         <header class="mb-2">
           <time datetime="{{ drawing.date }}">
             <em></em>
           </time>
         </header>
-
         <figure class="mb-0">
           <img
             class="img-fluid"
@@ -125,7 +123,6 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
             alt="{{ drawing.alt }}"
           />
         </figure>
-
       </article>
     </li>
   {% endfor %}

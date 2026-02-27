@@ -89,17 +89,18 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 </main>
 {:/nomarkdown}
 
-<div class="text-center">
-<p>Dibuja lo que quieras. El rollo es que no se publica automáticamente. Entonces por favor guarda tu dibujo y [mándamelo por email][1] para ponerlo aquí abajito. 👇</p>
-<p>Este cotorreo solo funciona en desktop.</p>
-</div>
-
 ---
 
 <div class="text-center">
 <small>Basado en el trabajo de [Alperen][2]{:target="_blank"}.</small>
 </div>
 
+---
+
+<div class="text-center">
+<p>Dibuja lo que quieras. El rollo es que no se publica automáticamente. Entonces por favor guarda tu dibujo y [mándamelo por email][1] para ponerlo aquí abajito. 👇</p>
+<p>Este cotorreo solo funciona en desktop.</p>
+</div>
 
 [1]: /contacto/
 [2]: https://codepen.io/alperentalaslioglu/pen/yPGgvP

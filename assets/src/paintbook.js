@@ -106,15 +106,27 @@ document.addEventListener("DOMContentLoaded", () => {
         saveState();
     });
 
-    paintbook.querySelector("#save").addEventListener("click", () => {
+    paintbook.querySelector("#send").addEventListener("click", async () => {
         fillWhiteBackground();
-        const imageName = prompt("Please enter image name");
+
         const dataURL = canvas.toDataURL("image/png");
 
-        const a = document.createElement("a");
-        a.href = dataURL;
-        a.download = (imageName || "drawing") + ".png";
-        a.click();
+        const response = await fetch("/api/send-drawing", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                image: dataURL,
+                date: new Date().toISOString(),
+            }),
+        });
+
+        if (response.ok) {
+            alert("¡Dibujo enviado correctamente!");
+        } else {
+            alert("Hubo un error al enviar el dibujo.");
+        }
     });
 
     // ========================

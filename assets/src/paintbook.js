@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         /* =============================
            APPLY COLOR TO BUTTONS
         ============================= */
+
         colorsEl.querySelectorAll("button").forEach((btn) => {
             btn.style.backgroundColor = btn.value;
         });
@@ -34,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         /* =============================
            HISTORIAL
         ============================= */
+
         const history = [];
         const maxHistory = 50;
 
@@ -65,6 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
         /* =============================
            RESPONSIVE CANVAS
         ============================= */
+
         function resizeCanvas() {
             const rect = canvas.getBoundingClientRect();
             const dpr = window.devicePixelRatio || 1;
@@ -86,6 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
         /* =============================
            COLOR & BRUSHES
         ============================= */
+
         colorsEl.addEventListener("click", (e) => {
             if (e.target.tagName === "BUTTON") {
                 context.strokeStyle = e.target.value;
@@ -111,6 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
         /* =============================
            POINTER DRAWING
         ============================= */
+
         function updateCoordinates(event) {
             const rect = canvas.getBoundingClientRect();
             mouseX = event.clientX - rect.left;
@@ -148,6 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
         /* =============================
            BUTTONS
         ============================= */
+
         undoBtn.addEventListener("click", undo);
 
         clearBtn.addEventListener("click", () => {
@@ -213,26 +219,36 @@ document.addEventListener("DOMContentLoaded", () => {
        DATE FORMATTING <time>
     ================================================== */
 
-    const timeElements = document.querySelectorAll("time[datetime]");
+    function formatMexDate(isoString) {
+        const date = new Date(isoString);
 
-    if (timeElements.length > 0) {
-        const formatter = new Intl.DateTimeFormat("es-MX", {
+        const parts = new Intl.DateTimeFormat("es-MX", {
             day: "numeric",
             month: "long",
             year: "numeric",
             hour: "numeric",
             minute: "2-digit",
             hour12: true,
+        }).formatToParts(date);
+
+        const map = {};
+        parts.forEach((p) => {
+            map[p.type] = p.value;
         });
 
-        timeElements.forEach((timeEl) => {
-            const iso = timeEl.getAttribute("datetime");
-            if (!iso) return;
+        // Turn AM/PM into uppercase
+        const dayPeriod = (map.dayPeriod || "").toUpperCase();
 
-            const date = new Date(iso);
-            const formatted = formatter.format(date);
-
-            timeEl.innerHTML = `<em>${formatted}</em>`;
-        });
+        return `${map.day} ${map.month} ${map.year}, ${map.hour}:${map.minute} ${dayPeriod}`;
     }
+
+    const timeElements = document.querySelectorAll("time[datetime]");
+
+    timeElements.forEach((timeEl) => {
+        const iso = timeEl.getAttribute("datetime");
+        if (!iso) return;
+
+        const formatted = formatMexDate(iso);
+        timeEl.innerHTML = `<em>${formatted}</em>`;
+    });
 });

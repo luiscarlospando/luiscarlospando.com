@@ -5,6 +5,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const canvas = paintbook.querySelector("#paint-canvas");
     const context = canvas.getContext("2d");
 
+    const colorsEl = paintbook.querySelector(".colors");
+    const brushesEl = paintbook.querySelector(".brushes");
+    const undoBtn = paintbook.querySelector("#undo");
+    const clearBtn = paintbook.querySelector("#clear");
+    const sendBtn = paintbook.querySelector("#send");
+
     let isDrawing = false;
     let mouseX = 0;
     let mouseY = 0;
@@ -13,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     context.lineWidth = 1;
 
     // ========================
-    // Fondo blanco real
+    // Real white background
     // ========================
     function fillWhiteBackground() {
         context.save();
@@ -39,18 +45,22 @@ document.addEventListener("DOMContentLoaded", () => {
     function undo() {
         if (history.length <= 1) return;
 
-        history.pop(); // elimina estado actual
+        history.pop();
         const previousState = history[history.length - 1];
         context.putImageData(previousState, 0, 0);
+    }
+
+    function hasDrawing() {
+        return history.length > 1;
     }
 
     fillWhiteBackground();
     saveState();
 
     // ========================
-    // Colores
+    // Colors
     // ========================
-    paintbook.querySelector(".colors").addEventListener("click", (event) => {
+    colorsEl.addEventListener("click", (event) => {
         if (event.target.tagName === "BUTTON") {
             context.strokeStyle = event.target.value;
         }
@@ -59,20 +69,23 @@ document.addEventListener("DOMContentLoaded", () => {
     // ========================
     // Brushes
     // ========================
-    paintbook.querySelector(".brushes").addEventListener("click", (event) => {
+    brushesEl.addEventListener("click", (event) => {
         if (event.target.tagName === "BUTTON") {
             context.lineWidth = event.target.value;
         }
     });
 
     // ========================
-    // Dibujo
+    // Drawing
     // ========================
-    canvas.addEventListener("mousedown", (event) => {
+    function updateCoordinates(event) {
         const rect = canvas.getBoundingClientRect();
         mouseX = event.clientX - rect.left;
         mouseY = event.clientY - rect.top;
+    }
 
+    canvas.addEventListener("mousedown", (event) => {
+        updateCoordinates(event);
         isDrawing = true;
         context.beginPath();
         context.moveTo(mouseX, mouseY);
@@ -81,10 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
     canvas.addEventListener("mousemove", (event) => {
         if (!isDrawing) return;
 
-        const rect = canvas.getBoundingClientRect();
-        mouseX = event.clientX - rect.left;
-        mouseY = event.clientY - rect.top;
-
+        updateCoordinates(event);
         context.lineTo(mouseX, mouseY);
         context.stroke();
     });
@@ -95,42 +105,66 @@ document.addEventListener("DOMContentLoaded", () => {
         saveState();
     });
 
-    // ========================
-    // Botones
-    // ========================
-    paintbook.querySelector("#undo").addEventListener("click", undo);
+    canvas.addEventListener("mouseleave", () => {
+        isDrawing = false;
+    });
 
-    paintbook.querySelector("#clear").addEventListener("click", () => {
+    // ========================
+    // Buttons
+    // ========================
+    undoBtn.addEventListener("click", undo);
+
+    clearBtn.addEventListener("click", () => {
         context.clearRect(0, 0, canvas.width, canvas.height);
         fillWhiteBackground();
+        history.length = 0;
         saveState();
     });
 
-    paintbook.querySelector("#send").addEventListener("click", async () => {
-        fillWhiteBackground();
+    sendBtn.addEventListener("click", async () => {
+        if (!hasDrawing()) {
+            alert("Primero dibuja algo 😉");
+            return;
+        }
 
-        const dataURL = canvas.toDataURL("image/png");
+        if (sendBtn.disabled) return;
 
-        const response = await fetch("/api/send-drawing", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-                image: dataURL,
-                date: new Date().toISOString(),
-            }),
-        });
+        sendBtn.disabled = true;
+        sendBtn.textContent = "Enviando...";
 
-        if (response.ok) {
+        try {
+            fillWhiteBackground();
+
+            const dataURL = canvas.toDataURL("image/png");
+
+            const response = await fetch("/api/send-drawing", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    image: dataURL,
+                    date: new Date().toISOString(),
+                }),
+            });
+
+            if (!response.ok) throw new Error();
+
             alert("¡Dibujo enviado correctamente!");
-        } else {
+
+            // clean canvas after sending the drawing
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            fillWhiteBackground();
+            history.length = 0;
+            saveState();
+        } catch (err) {
             alert("Hubo un error al enviar el dibujo.");
+        } finally {
+            sendBtn.disabled = false;
+            sendBtn.textContent = "Enviar";
         }
     });
 
     // ========================
-    // Ctrl/Cmd + Z
+    // Ctrl / Cmd + Z
     // ========================
     document.addEventListener("keydown", (event) => {
         if (

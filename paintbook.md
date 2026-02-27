@@ -91,15 +91,13 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 {:/nomarkdown}
 
 <div class="text-center">
-<small>Basado en el trabajo de [Alperen][2]{:target="_blank"}.</small>
+<small>Basado en el trabajo de [Alperen][1]{:target="_blank"}.</small>
 </div>
 
 ---
 
 <div class="text-center">
-<p>Dibuja lo que quieras, el rollo es que lo que dibujes no se publica automáticamente. Entonces por favor guarda tu dibujo y [mándamelo por correo][1] (<code>{{ site.email }}</code>) para ponerlo aquí abajito. 👇</p>
 <p>⚠️ Este cotorreo solo funciona en desktop.</p>
 </div>
 
-[1]: mailto:{{ site.email }}
 [2]: https://codepen.io/alperentalaslioglu/pen/yPGgvP

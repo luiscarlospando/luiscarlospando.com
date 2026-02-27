@@ -232,7 +232,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const date = new Date(iso);
             const formatted = formatter.format(date);
 
-            timeEl.innerHTML = `<em>${formatted}</em>`;
+            timeEl.innerHTML = `<em class="text-muted">${formatted}</em>`;
         });
     }
 });

@@ -32,7 +32,7 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 <li>🚫 No spam</li>
 <li>🚫 No publicidad</li>
 <li>🔒 No compartas información privada</li>
-<li>🤝 Sé respetuoso/a conmigo y con los demás en los comentarios</li>
+<li>🤝 Sé respetuoso/a conmigo</li>
 </ul>
 </div>
 

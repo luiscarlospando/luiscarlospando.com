@@ -105,54 +105,31 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 ## Dibujos recibidos
 
 <ul id="paintbook-gallery" class="list-unstyled">
+
+  {% assign drawings = site.paintbook | sort: "date" | reverse %}
+
+  {% for drawing in drawings %}
     <li class="mb-5">
-        <article class="paintbook-entry text-center">
-            <header class="mb-2">
-                <time datetime="2026-02-27T06:19:10.464Z">
-                    <em></em>
-                </time>
-            </header>
-            <figure class="mb-0">
-                <img
-                    class="img-fluid"
-                    src="../assets/images/paintbook/3.png"
-                    alt="Dibujo enviado desde Paintbook"
-                />
-            </figure>
-        </article>
+      <article class="paintbook-entry text-center">
+
+        <header class="mb-2">
+          <time datetime="{{ drawing.date }}">
+            <em></em>
+          </time>
+        </header>
+
+        <figure class="mb-0">
+          <img
+            class="img-fluid"
+            src="{{ '/assets/images/paintbook/' | append: drawing.image | relative_url }}"
+            alt="{{ drawing.alt }}"
+          />
+        </figure>
+
+      </article>
     </li>
-    <li class="mb-5">
-        <article class="paintbook-entry text-center">
-            <header class="mb-2">
-                <time datetime="2026-02-27T05:28:57.377Z">
-                    <em></em>
-                </time>
-            </header>
-            <figure class="mb-0">
-                <img
-                    class="img-fluid"
-                    src="../assets/images/paintbook/2.png"
-                    alt="Dibujo enviado desde Paintbook"
-                />
-            </figure>
-        </article>
-    </li>
-    <li class="mb-5">
-        <article class="paintbook-entry text-center">
-            <header class="mb-2">
-                <time datetime="2026-02-27T05:28:42.070Z">
-                    <em></em>
-                </time>
-            </header>
-            <figure class="mb-0">
-                <img
-                    class="img-fluid"
-                    src="../assets/images/paintbook/1.png"
-                    alt="Dibujo enviado desde Paintbook"
-                />
-            </figure>
-        </article>
-    </li>
+  {% endfor %}
+
 </ul>
 
 [1]: https://codepen.io/alperentalaslioglu/pen/yPGgvP

@@ -73,6 +73,11 @@ nintendo_switch_code: SW-3920-3330-9820
 m7gp_code: 0746-6549-8155
 timezone: America/Chihuahua
 
+# Collections
+collections:
+    paintbook:
+        output: false
+
 # Build settings
 markdown: kramdown
 kramdown:

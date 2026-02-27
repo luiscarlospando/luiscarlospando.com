@@ -208,7 +208,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
              title="Deja un dibujo en mi paintbook">
             <i class="fa-solid fa-paintbrush mr-2"></i> Paintbook
           </a>
-          <span class="badge badge-success ml-2 pulse-subtle">Nuevo</span>
+          <span class="badge badge-success ml-2 pulse-subtle position-relative" style="top: 0.35rem; left: 1.6rem;">Nuevo</span>
         </li>
       </ul>
     </nav>

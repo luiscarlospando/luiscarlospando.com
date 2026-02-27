@@ -74,12 +74,20 @@
         flex: 1;
         padding: 10px;
 
+        .canvas-wrapper {
+            width: 100%;
+            height: 100%;
+            min-height: 400px;
+            display: flex;
+        }
+
         #paint-canvas {
             width: 100%;
-            height: 400px;
+            height: 100%;
             background: #ffffff;
             touch-action: none;
             display: block;
+            border: 1px solid #e0e0e0;
         }
     }
 }

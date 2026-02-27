@@ -72,37 +72,37 @@ Ver mis álbumes más escuchados de los últimos 30 días
     <nav>
       <ul class="list-unstyled mb-0">
         <li class="mb-2">
-          <a href="/about/" class="btn btn-primary btn-sm btn-block text-left"
+          <a href="/about/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Conoce más sobre mí">
-            <i class="fa-solid fa-circle-info"></i> Acerca de
+            <i class="fa-solid fa-circle-info mr-2"></i> Acerca de
           </a>
         </li>
         <li class="mb-2">
-          <a href="/now/" class="btn btn-primary btn-sm btn-block text-left"
+          <a href="/now/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Ve en qué ando actualmente">
-            <i class="fa-solid fa-clock"></i> Now
+            <i class="fa-solid fa-clock mr-2"></i> Now
           </a>
         </li>
         <li class="mb-2">
-          <a href="/uses/" class="btn btn-primary btn-sm btn-block text-left"
+          <a href="/uses/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="El stack de apps que uso a diario">
-            <i class="fa-solid fa-wrench"></i> Uses
+            <i class="fa-solid fa-wrench mr-2"></i> Uses
           </a>
         </li>
         <li>
-          <a href="/contact/" class="btn btn-primary btn-sm btn-block text-left"
+          <a href="/contact/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Revisa las maneras de ponerte en contacto conmigo">
-            <i class="fa-solid fa-address-card"></i> Contacto
+            <i class="fa-solid fa-address-card mr-2"></i> Contacto
           </a>
         </li>
       </ul>
     </nav>
   </div>
-  
+
   <!-- Contenido -->
   <div class="col-12 col-md-6 col-lg-3 mb-4">
     <h5 class="mb-3">
@@ -111,38 +111,38 @@ Ver mis álbumes más escuchados de los últimos 30 días
     <nav>
       <ul class="list-unstyled mb-0">
         <li class="mb-2">
-          <a href="{{ site.blog_url }}" class="btn btn-primary btn-sm btn-block text-left"
+          <a href="{{ site.blog_url }}" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Explora mi blog">
-            <i class="fa-solid fa-message"></i> Blog
+            <i class="fa-solid fa-message mr-2"></i> Blog
           </a>
         </li>
         <li class="mb-2">
-          <a href="/photos/" class="btn btn-primary btn-sm btn-block text-left"
+          <a href="/photos/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Ve las fotos que he tomado con mi iPhone">
-            <i class="fa-solid fa-camera"></i> Fotos
+            <i class="fa-solid fa-camera mr-2"></i> Fotos
           </a>
         </li>
         <li class="mb-2">
-          <a href="/music/" class="btn btn-primary btn-sm btn-block text-left"
+          <a href="/music/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Checa los álbumes que he escuchado en los últimos 30 días">
-            <i class="fa-solid fa-headphones"></i> Lo que escucho
+            <i class="fa-solid fa-headphones mr-2"></i> Lo que escucho
           </a>
         </li>
         <li class="mb-2">
-          <a href="/music/playlist/" class="btn btn-primary btn-sm btn-block text-left"
+          <a href="/music/playlist/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Playlist que actualizo frecuentemente con canciones cruciales en mi vida">
-            <i class="fa-solid fa-record-vinyl"></i> Crucial Tracks
+            <i class="fa-solid fa-record-vinyl mr-2"></i> Crucial Tracks
           </a>
         </li>
         <li>
-          <a href="/music/loved-tracks/" class="btn btn-primary btn-sm btn-block text-left"
+          <a href="/music/loved-tracks/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Estas son las 100 canciones que me han gustado recientemente">
-            <i class="fa-solid fa-heart"></i> Canciones favoritas
+            <i class="fa-solid fa-heart mr-2"></i> Canciones favoritas
           </a>
         </li>
       </ul>
@@ -157,23 +157,23 @@ Ver mis álbumes más escuchados de los últimos 30 días
     <nav>
       <ul class="list-unstyled mb-0">
         <li class="mb-2">
-          <a href="/games/" class="btn btn-primary btn-sm btn-block text-left"
+          <a href="/games/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Revisa lo que estoy jugando actualmente">
-            <i class="fa-solid fa-gamepad"></i> Games
+            <i class="fa-solid fa-gamepad mr-2"></i> Games
           </a>
         </li>
         <li>
-          <a href="/games/favorites/" class="btn btn-primary btn-sm btn-block text-left"
+          <a href="/games/favorites/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Esta es una lista de mis juegos favoritos">
-            <i class="fa-solid fa-star"></i> Mis juegos favoritos
+            <i class="fa-solid fa-star mr-2"></i> Mis juegos favoritos
           </a>
         </li>
       </ul>
     </nav>
   </div>
-  
+
   <!-- Web y Comunidad -->
   <div class="col-12 col-md-6 col-lg-3 mb-4">
     <h5 class="mb-3">
@@ -182,35 +182,33 @@ Ver mis álbumes más escuchados de los últimos 30 días
     <nav>
       <ul class="list-unstyled mb-0">
         <li class="mb-2">
-          <a href="/links/" class="btn btn-primary btn-sm btn-block text-left"
+          <a href="/links/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Colección de links que encuentro navegando en Internet">
-            <i class="fa-solid fa-link"></i> Links
+            <i class="fa-solid fa-link mr-2"></i> Links
           </a>
         </li>
         <li class="mb-2">
-          <a href="/blogroll/" class="btn btn-primary btn-sm btn-block text-left"
+          <a href="/blogroll/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Revisa mis blogs y websites favoritos">
-            <i class="fa-solid fa-bookmark"></i> Blogroll
+            <i class="fa-solid fa-bookmark mr-2"></i> Blogroll
           </a>
         </li>
         <li class="mb-2">
-          <a href="/guestbook/" class="btn btn-primary btn-sm btn-block text-left"
+          <a href="/guestbook/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Deja un mensaje en mi guestbook">
-            <i class="fa-solid fa-pen-nib"></i> Guestbook
+            <i class="fa-solid fa-pen-nib mr-2"></i> Guestbook
           </a>
         </li>
-        <li>
-          <div class="d-flex align-items-center">
-            <a href="/paintbook/" class="btn btn-primary btn-sm btn-block text-left position-relative"
-               data-toggle="tooltip" data-placement="top"
-               title="Deja un dibujo en mi paintbook">
-              <i class="fa-solid fa-paintbrush"></i> Paintbook
-            </a>
-            <span class="badge badge-success ml-2 pulse-subtle">Nuevo</span>
-          </div>
+        <li class="d-flex align-items-center">
+          <a href="/paintbook/" class="hub-link d-flex align-items-center"
+             data-toggle="tooltip" data-placement="top"
+             title="Deja un dibujo en mi paintbook">
+            <i class="fa-solid fa-paintbrush mr-2"></i> Paintbook
+          </a>
+          <span class="badge badge-success ml-2 pulse-subtle">Nuevo</span>
         </li>
       </ul>
     </nav>

@@ -31,7 +31,6 @@ function Navigation() {
             text: "Live",
             subButtons: [],
         },
-
         {
             id: "blog",
             url: "https://blog.luiscarlospando.com/",
@@ -94,7 +93,6 @@ function Navigation() {
                 },
             ],
         },
-
         {
             id: "photos",
             url: "https://luiscarlospando.com/photos/",
@@ -102,7 +100,6 @@ function Navigation() {
             text: "Fotos",
             subButtons: [],
         },
-
         {
             id: "music",
             url: "https://luiscarlospando.com/music/",
@@ -129,7 +126,6 @@ function Navigation() {
                 },
             ],
         },
-
         {
             id: "games",
             url: "https://luiscarlospando.com/games/",
@@ -156,7 +152,6 @@ function Navigation() {
                 },
             ],
         },
-
         {
             id: "development",
             url: "https://luiscarlospando.com/developer/",
@@ -171,7 +166,6 @@ function Navigation() {
                 },
             ],
         },
-
         {
             id: "uses",
             url: "https://luiscarlospando.com/uses/",
@@ -179,7 +173,6 @@ function Navigation() {
             text: "Uses",
             subButtons: [],
         },
-
         {
             id: "discord",
             url: "https://luiscarlospando.com/discord/",
@@ -194,7 +187,6 @@ function Navigation() {
                 },
             ],
         },
-
         {
             id: "guestbook",
             url: "https://luiscarlospando.com/guestbook/",
@@ -202,7 +194,13 @@ function Navigation() {
             text: "Guestbook",
             subButtons: [],
         },
-
+        {
+            id: "paintbook",
+            url: "https://luiscarlospando.com/paintbook/",
+            icon: "fa-solid fa-paintbrush",
+            text: "Paintbook",
+            subButtons: [],
+        },
         {
             id: "contact",
             url: "https://luiscarlospando.com/contact/",
@@ -210,7 +208,6 @@ function Navigation() {
             text: "Contacto",
             subButtons: [],
         },
-
         {
             id: "links",
             url: "https://luiscarlospando.com/links/",
@@ -218,7 +215,6 @@ function Navigation() {
             text: "Links",
             subButtons: [],
         },
-
         {
             id: "blogroll",
             url: "https://luiscarlospando.com/blogroll/",
@@ -226,7 +222,6 @@ function Navigation() {
             text: "Blogroll",
             subButtons: [],
         },
-
         {
             id: "subscribe",
             url: "https://luiscarlospando.com/subscribe/",
@@ -277,7 +272,6 @@ function Navigation() {
                 },
             ],
         },
-
         {
             id: "other",
             url: "https://luiscarlospando.com/other/",

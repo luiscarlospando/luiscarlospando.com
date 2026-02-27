@@ -106,6 +106,7 @@ Al final del día, solo soy un vato de Chihuahua, apasionado y romántico del In
 - 💬 Traducción del sitio en tiempo real: [DeepL][23]{:rel="noreferrer noopener" target="_blank"}
 - 📔 Guestbook: [Guestbooks][24]{:rel="noreferrer noopener" target="_blank"}
 - 📫 Newsletter: [Buttondown][25]{:rel="noreferrer noopener" target="_blank"}
+- 🖌️ Paintbook: [Resend][35]{:rel="noreferrer noopener" target="_blank"} para el envío de los dibujos en mi Paintbook
 
 ## Suscríbete
 
@@ -156,3 +157,4 @@ Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. 
 [32]: /newsletter/
 [33]: https://github.com/{{ site.github_username}}/{{ site.domain }}/issues/new
 [34]: https://es.wikipedia.org/wiki/Espanglish
+[35]: https://resend.com/

@@ -90,7 +90,7 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 {:/nomarkdown}
 
 <div class="text-center">
-<p>Dibuja lo que quieras, guárdalo y [mándamelo][1] para ponerlo aquí abajito. 👇</p>
+<p>Dibuja lo que quieras. El rollo es que no se publica automáticamente. Entonces por favor guarda tu dibujo y [mándamelo por email][1] para ponerlo aquí abajito. 👇</p>
 <p>Este cotorreo solo funciona en desktop.</p>
 </div>
 

@@ -11,7 +11,7 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 <p class="text-center">{{ page.description }}</p>
 
 <p class="text-center">
-    👉 <em>Psst, psst... If you speak English or any other language, feel free to leave a message!</em> ✨
+    👉 <em>Psst, psst... If you speak English or any other language, feel free to draw something and send it to me!</em> ✨
 </p>
 
 <ul class="list-inline mb-4 text-center">
@@ -39,7 +39,7 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 </div>
 
 {::nomarkdown}
-<main>
+<main class="my-4">
     <div class="left-block">
         <div class="colors">
             <button type="button" value="#0000ff"></button>
@@ -93,7 +93,7 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 
 Este rollo solamente funciona en desktop. Dibuja lo que quieras, guárdalo y [mándamelo][1] para ponerlo aquí abajito. 👇
 
---
+---
 
 Basado en el trabajo de [Alperen][2]{:target="_blank"}.
 

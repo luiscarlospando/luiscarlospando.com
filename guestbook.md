@@ -20,6 +20,9 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
           <i class="fa-solid fa-paintbrush"></i> Paintbook
         </a>
     </li>
+    <li class="list-inline-item">
+        <span class="badge badge-primary pulse-subtle">Nuevo</span>
+    </li>
 </ul>
 
 <div class="text-center">
@@ -38,35 +41,37 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 </ul>
 </div>
 
+{::nomarkdown}
 <script async src="https://guestbooks.meadow.cafe/resources/js/embed_script/754/script.js"></script>
 <div id="guestbooks___guestbook-form-container">
-<div class="card mt-4 mb-3">
-<div class="card-header text-center">
-<h4 class="card-title">
-<i class="fa-solid fa-pen-nib"></i> Guestbook
-</h4>
-</div>
-<div class="card-body text-center">
-<form id="guestbooks___guestbook-form" action="https://guestbooks.meadow.cafe/guestbook/754/submit" method="post">
-<div class="guestbooks___input-container">
-<input class="form-control mb-3" placeholder="Nombre/Nickname" type="text" id="name" name="name" required>
-</div>
-<div class="guestbooks___input-container">
-<input class="form-control mb-3" placeholder="Sitio/Perfil personal (opcional)" type="url" id="website" name="website">
-</div>
-<div id="guestbooks___challenge-answer-container"></div>
-<div class="guestbooks___input-container">
-<textarea class="form-control mb-3" placeholder="Mensaje" id="text" name="text" style="width: 100%; box-sizing: border-box; resize: vertical;" required></textarea>
-</div>
-<input class="btn btn-primary" type="submit" value="Publicar mensaje">
-<div id="guestbooks___error-message"></div>
-</form>
-</div>
-</div>
+    <div class="card mt-4 mb-3">
+        <div class="card-header text-center">
+            <h4 class="card-title">
+                <i class="fa-solid fa-pen-nib"></i> Guestbook
+            </h4>
+        </div>
+        <div class="card-body text-center">
+            <form id="guestbooks___guestbook-form" action="https://guestbooks.meadow.cafe/guestbook/754/submit" method="post">
+                <div class="guestbooks___input-container">
+                    <input class="form-control mb-3" placeholder="Nombre/Nickname" type="text" id="name" name="name" required>
+                </div>
+                <div class="guestbooks___input-container">
+                    <input class="form-control mb-3" placeholder="Sitio/Perfil personal (opcional)" type="url" id="website" name="website">
+                </div>
+                <div id="guestbooks___challenge-answer-container"></div>
+                <div class="guestbooks___input-container">
+                    <textarea class="form-control mb-3" placeholder="Mensaje" id="text" name="text" style="width: 100%; box-sizing: border-box; resize: vertical;" required></textarea>
+                </div>
+                <input class="btn btn-primary" type="submit" value="Publicar mensaje">
+                <div id="guestbooks___error-message"></div>
+            </form>
+        </div>
+    </div>
 </div>
 <div id="guestbooks___guestbook-made-with" class="text-center">
-<small>Hecho con cariño usando <a rel="noreferrer noopener" target="_blank" href="https://guestbooks.meadow.cafe">Guestbooks</a></small>
+    <small>Hecho con cariño usando <a rel="noreferrer noopener" target="_blank" href="https://guestbooks.meadow.cafe">Guestbooks</a></small>
 </div>
 <hr style="margin: 1em 0;"/>
 <h2 id="guestbooks___guestbook-messages-header">Mensajes</h2>
 <div id="guestbooks___guestbook-messages-container"></div>
+{:/nomarkdown}

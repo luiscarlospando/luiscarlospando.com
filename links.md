@@ -10,7 +10,7 @@ permalink: /links/
 <p class="text-center">{{ page.description }}</p>
 
 <p class="text-center">
-    <a class="btn btn-primary btn-sm" href="https://bg.raindrop.io/rss/public/50598757" rel="me noopener">
+    <a class="btn btn-primary btn-sm" href="{{ site.links_feed }}" rel="me noopener">
         <i class="fa-solid fa-rss"></i> Suscribirse
     </a>
 </p>

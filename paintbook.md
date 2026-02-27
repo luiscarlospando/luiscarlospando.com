@@ -10,11 +10,10 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 
 <p class="text-center">{{ page.description }}</p>
 
-<p class="text-center">
-    👉 <em>Psst, psst... If you speak English or any other language, feel free to draw something and send it to me!</em> ✨
-</p>
-
 <ul class="list-inline mb-4 text-center">
+    <li class="list-inline-item">
+        ¿Quieres escribir en vez de dibujar? 👉
+    </li>
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="/guestbook/">
           <i class="fa-solid fa-pen-nib"></i> Guestbook

@@ -99,7 +99,6 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 ---
 
 <div class="text-center">
-<p>⚠️ Este cotorreo solo funciona en desktop.</p>
 <p>Una vez que envíes tu dibujo, dame chanza de revisarlo antes de publicarlo aquí abajo. 👇</p>
 </div>
 

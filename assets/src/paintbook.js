@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const context = canvas.getContext("2d");
 
     const colorsEl = paintbook.querySelector(".colors");
+    colorsEl.querySelectorAll("button").forEach((btn) => {
+        btn.style.backgroundColor = btn.value;
+    });
     const brushesEl = paintbook.querySelector(".brushes");
     const undoBtn = paintbook.querySelector("#undo");
     const clearBtn = paintbook.querySelector("#clear");

@@ -1,31 +1,44 @@
 #paintbook {
     font-family: "Raleway", sans-serif;
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     border: 1px solid #e0e0e0;
     margin: 0 auto;
     display: flex;
     background: #fff;
 
     .left-block {
-        width: 160px;
+        width: 180px;
         border-right: 1px solid #e0e0e0;
         background: #f8f8f8;
+        display: flex;
+        flex-direction: column;
 
         .colors {
             background-color: #ece8e8;
             padding: 10px;
             display: grid;
-            grid-template-columns: repeat(auto-fill, 22px);
+            grid-template-columns: repeat(auto-fill, 24px);
             gap: 6px;
             justify-content: center;
 
             button {
-                width: 22px;
-                height: 22px;
+                width: 24px;
+                height: 24px;
                 border: 1px solid #00000026;
                 cursor: pointer;
                 padding: 0;
+                transition:
+                    transform 0.1s ease,
+                    box-shadow 0.1s ease;
+
+                &:hover {
+                    transform: scale(1.08);
+                }
+
+                &.active {
+                    box-shadow: 0 0 0 2px #000;
+                }
             }
         }
 
@@ -38,12 +51,21 @@
                 width: 100%;
                 border: 0;
                 background-color: #ece8e8;
-                margin-bottom: 6px;
+                margin-bottom: 8px;
                 padding: 6px;
-                height: 34px;
+                height: 36px;
                 cursor: pointer;
                 font-size: 14px;
                 color: #000;
+                transition: background 0.15s ease;
+
+                &:hover {
+                    background: #e0e0e0;
+                }
+
+                &.active {
+                    background: #d0d0d0;
+                }
             }
         }
 
@@ -51,33 +73,39 @@
             content: "";
             display: block;
             background: #000;
+            margin: 0 auto;
         }
 
         .brushes button:nth-of-type(1)::after {
             height: 1px;
+            width: 80%;
         }
         .brushes button:nth-of-type(2)::after {
             height: 2px;
+            width: 80%;
         }
         .brushes button:nth-of-type(3)::after {
             height: 3px;
+            width: 80%;
         }
         .brushes button:nth-of-type(4)::after {
             height: 4px;
+            width: 80%;
         }
         .brushes button:nth-of-type(5)::after {
             height: 5px;
+            width: 80%;
         }
     }
 
     .right-block {
         flex: 1;
-        padding: 10px;
+        padding: 12px;
+        display: flex;
 
         .canvas-wrapper {
             width: 100%;
-            height: 100%;
-            min-height: 400px;
+            min-height: 500px;
             display: flex;
         }
 
@@ -100,7 +128,7 @@
             width: 100%;
             border-right: 0;
             border-bottom: 1px solid #e0e0e0;
-            display: flex;
+            flex-direction: row;
             flex-wrap: wrap;
 
             .colors {
@@ -110,6 +138,14 @@
             .brushes,
             .buttons {
                 width: 50%;
+            }
+        }
+
+        .right-block {
+            padding: 10px;
+
+            .canvas-wrapper {
+                min-height: 350px;
             }
         }
     }

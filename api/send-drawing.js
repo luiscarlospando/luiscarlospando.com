@@ -19,7 +19,10 @@ function formatMexDate(isoString) {
         map[p.type] = p.value;
     });
 
-    const dayPeriod = (map.dayPeriod || "").toUpperCase();
+    const dayPeriod = (map.dayPeriod || "")
+        .replace(/\./g, "") // remove punctuation
+        .replace(/\s/g, "") // remove spaces
+        .toUpperCase();
 
     return `${map.day} ${map.month} ${map.year}, ${map.hour}:${map.minute} ${dayPeriod}`;
 }

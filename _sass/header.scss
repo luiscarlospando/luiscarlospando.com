@@ -46,7 +46,7 @@
 }
 
 .scrolled-position {
-    background-color: rgba(10, 12, 40, 0.4); !important;
+    background-color: rgba(10, 12, 40, 0.4) !important;
     @include backdrop-filter(160%, 30px);
     @include transition-bar(ease, 0.2s);
     z-index: 1071;

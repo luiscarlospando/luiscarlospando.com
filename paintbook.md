@@ -97,7 +97,7 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 
 <div class="text-center">
 <p>Dibuja lo que quieras, el rollo es que lo que dibujes no se publica automáticamente. Entonces por favor guarda tu dibujo y [mándamelo por correo][1] <code>{{ site.email }}</code> para ponerlo aquí abajito. 👇</p>
-<p>Este cotorreo solo funciona en desktop.</p>
+<p>⚠️ Este cotorreo solo funciona en desktop.</p>
 </div>
 
 [1]: mailto:{{ site.email }}

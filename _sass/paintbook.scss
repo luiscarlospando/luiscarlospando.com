@@ -1,4 +1,5 @@
 #paintbook {
+    font-family: "Raleway", sans-serif;
     width: 800px;
     border: 1px solid #e0e0e0;
     margin: 0 auto;
@@ -175,6 +176,7 @@
                 position: relative;
                 cursor: pointer;
                 font-size: 16px;
+                color: #000000;
             }
         }
     }

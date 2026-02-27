@@ -35,6 +35,10 @@ Y si tienes mi número por favor no me marques, por lo general no respondo llama
 
 Una manera rápida y sencilla de mandarme algo (anónimamente o no) es [ir a mi guestbook][15] y dejarme un mensaje por ahí.
 
+## <i class="fa-solid fa-paintbrush"></i> Paintbook
+
+O si quieres, puedes dibujarme algo en [mi paintbook][19] y mandarme tu dibujo por ahí.
+
 ## <i class="fa-brands fa-signal-messenger"></i> Signal
 
 También me puedes contactar de manera segura por [Signal][1]{:rel="me noopener" target="_blank"}, mi username es <a href="{{ site.signal_url }}" rel="me noopener" target="_blank"><code>{{ site.signal_username }}</code></a>.
@@ -148,3 +152,4 @@ En [Backloggd][14]{:rel="me noopener" target="_blank"} llevo el control de los v
 [16]: {{ site.crucial_tracks_url }}
 [17]: {{ site.spacehey_url }}
 [18]: {{ site.pi_referal_url }}
+[19]: /paintbook/

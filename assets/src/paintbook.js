@@ -226,9 +226,7 @@ document.addEventListener("DOMContentLoaded", () => {
             day: "numeric",
             month: "long",
             year: "numeric",
-            hour: "numeric",
-            minute: "2-digit",
-            hour12: true,
+            timeZone: "America/Chihuahua",
         }).formatToParts(date);
 
         const map = {};
@@ -236,12 +234,7 @@ document.addEventListener("DOMContentLoaded", () => {
             map[p.type] = p.value;
         });
 
-        const dayPeriod = (map.dayPeriod || "")
-            .replace(/\./g, "") // remove punctuation
-            .replace(/\s/g, "") // remove spaces
-            .toUpperCase();
-
-        return `${map.day} ${map.month} ${map.year}, ${map.hour}:${map.minute} ${dayPeriod}`;
+        return `${map.day} ${map.month} ${map.year}`;
     }
 
     const gallery = document.getElementById("paintbook-gallery");

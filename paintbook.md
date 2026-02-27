@@ -91,7 +91,10 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 </main>
 {:/nomarkdown}
 
-Este rollo solamente funciona en desktop. Dibuja lo que quieras, guárdalo y [mándamelo][1] para ponerlo aquí abajito. 👇
+<div class="text-center">
+    <p>Dibuja lo que quieras, guárdalo y [mándamelo][1] para ponerlo aquí abajito. 👇</p>
+    <p>Este cotorreo solo funciona en desktop.</p>
+</div>
 
 ---
 

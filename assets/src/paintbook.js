@@ -216,7 +216,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     /* ==================================================
-       DATE FORMATTING <time>
+       DATE FORMATTING — PAINTBOOK ONLY
     ================================================== */
 
     function formatMexDate(isoString) {
@@ -236,19 +236,22 @@ document.addEventListener("DOMContentLoaded", () => {
             map[p.type] = p.value;
         });
 
-        // Turn AM/PM into uppercase
         const dayPeriod = (map.dayPeriod || "").toUpperCase();
 
         return `${map.day} ${map.month} ${map.year}, ${map.hour}:${map.minute} ${dayPeriod}`;
     }
 
-    const timeElements = document.querySelectorAll("time[datetime]");
+    const gallery = document.getElementById("paintbook-gallery");
 
-    timeElements.forEach((timeEl) => {
-        const iso = timeEl.getAttribute("datetime");
-        if (!iso) return;
+    if (gallery) {
+        const timeElements = gallery.querySelectorAll("time[datetime]");
 
-        const formatted = formatMexDate(iso);
-        timeEl.innerHTML = `<em>${formatted}</em>`;
-    });
+        timeElements.forEach((timeEl) => {
+            const iso = timeEl.getAttribute("datetime");
+            if (!iso) return;
+
+            const formatted = formatMexDate(iso);
+            timeEl.innerHTML = `<em>${formatted}</em>`;
+        });
+    }
 });

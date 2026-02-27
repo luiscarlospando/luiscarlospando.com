@@ -208,7 +208,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
              title="Deja un dibujo en mi paintbook">
             <i class="fa-solid fa-paintbrush mr-2"></i> Paintbook
           </a>
-          <span class="badge badge-success ml-2 pulse-subtle position-relative" style="top: 0.35rem; left: 1.6rem;">Nuevo</span>
+          <span class="badge badge-success ml-2 pulse-subtle position-relative" style="top: 0.7rem; left: 1.8rem;">Nuevo</span>
         </li>
       </ul>
     </nav>
@@ -220,7 +220,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
 
 <ul class="list-inline">
     <li class="list-inline-item">
-        <h2><i class="fa-solid fa-file-pen"></i> Blog</h2>
+        <h2><i class="fa-solid fa-message"></i> Blog</h2>
     </li>
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="{{ site.blog_feed }}" rel="me" style="vertical-align: super;">

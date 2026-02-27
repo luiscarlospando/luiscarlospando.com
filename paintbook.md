@@ -38,6 +38,7 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 </ul>
 </div>
 
+{::nomarkdown}
 <main>
     <div class="left-block">
         <div class="colors">
@@ -88,6 +89,7 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
         <canvas id="paint-canvas" width="640" height="400"></canvas>
     </div>
 </main>
+{:/nomarkdown}
 
 Este rollo solamente funciona en desktop. Dibuja lo que quieras, guárdalo y [mándamelo][1] para ponerlo aquí abajito. 👇
 

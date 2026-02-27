@@ -3,7 +3,7 @@ layout: page
 title: Guestbook
 description: Este es mi pequeño rincón tipo 2004. Si pasaste por aquí, deja un saludo, una recomendación o lo que traigas en la cabeza. Internet era más raro antes… y eso lo hacía más divertido.
 image: /assets/images/logo.png
-tags: [guestbook, libro-de-visitas]
+tags: [guestbook, paintbook, libro-de-visitas]
 permalink: /guestbook/
 last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 ---

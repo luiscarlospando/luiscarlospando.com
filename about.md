@@ -20,7 +20,7 @@ permalink: /about/
 
 ## El vato detrás de esto
 
-Soy Luis Carlos Pando 👋, pero algunos me conocen como `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊). Nací, crecí y vivo en Chihuahua, México 🇲🇽, una ciudad que me gusta profundamente. No solo por ser mi hogar, sino por la idiosincrasia de la gente, la cultura local, la comida y lo que nos hace diferente a otros lugares del país.
+Soy Luis Carlos Pando 👋, pero algunos me conocen como `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊). Nací, crecí y vivo en Chihuahua, México 🇲🇽, una ciudad amo profundamente. No solo por ser mi hogar y ser una ciudad hermosa, sino por la idiosincrasia de la gente, la cultura local, la comida y lo que nos hace diferente a otros lugares del país.
 
 ## Mis inicios
 

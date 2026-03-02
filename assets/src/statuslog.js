@@ -47,6 +47,7 @@ function renderStatus(data) {
     const lastUpdatedIso = dayjs.unix(lastUpdatedUnix);
     const lastUpdatedRelative = dayjs().to(lastUpdatedIso);
     const machineReadableDateTime = lastUpdatedIso.toISOString();
+    const externalURL = data.response.statuses[0].external_url;
 
     statusElement.innerHTML = `
         <div id="container" class="text-center">
@@ -59,7 +60,10 @@ function renderStatus(data) {
             <small class="text-muted">
                 <time datetime="${machineReadableDateTime}">
                     <em><i class="fa-solid fa-clock"></i> ${lastUpdatedRelative}</em>
-                </time>
+                </time> ·
+                <a href="${externalURL} rel="me noreferrer noopener" target="_blank">
+                    <em><i class="fa-solid fa-reply"></i> Responder</em>
+                </a>
             </small>
         </div>
     `;

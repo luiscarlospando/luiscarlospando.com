@@ -48,6 +48,7 @@ import { initStatusManager } from "./statuslog.js";
             });
 
             // Initialize scroll handling - Don't disconnect the observer
+            /*
             const observer = new MutationObserver(() => {
                 const stuffILike = document.querySelector("#stuff-i-like");
 
@@ -59,6 +60,13 @@ import { initStatusManager } from "./statuslog.js";
             });
 
             observer.observe(document.body, { childList: true, subtree: true });
+            */
+
+            /*
+            En este momento, como #stuff-i-like está comentado en el DOM, entonces hay que llamar directamente esta función.
+            Esa es la razón por la cual el fragmento de código de arriba está comentado.
+            */
+            initScrollHandling(backToTopButton);
         }
 
         function initScrollHandling(backToTopButton) {
@@ -68,7 +76,7 @@ import { initStatusManager } from "./statuslog.js";
 
                 // Search elements on each execution because they're dynamic
                 const nowPlaying = document.querySelector(".nowplaying");
-                const stuffILike = document.querySelector("#stuff-i-like");
+                // const stuffILike = document.querySelector("#stuff-i-like");
 
                 if (scrollY > 300) {
                     backToTopButton.classList.add("cd-is-visible");
@@ -78,9 +86,11 @@ import { initStatusManager } from "./statuslog.js";
                         nowPlaying.classList.add("nowplaying-scrolled");
                     }
 
+                    /*
                     if (stuffILike) {
                         stuffILike.classList.add("stuff-i-like-scrolled");
                     }
+                     */
                 } else {
                     backToTopButton.classList.remove("cd-is-visible");
 
@@ -88,9 +98,11 @@ import { initStatusManager } from "./statuslog.js";
                         nowPlaying.classList.remove("nowplaying-scrolled");
                     }
 
+                    /*
                     if (stuffILike) {
                         stuffILike.classList.remove("stuff-i-like-scrolled");
                     }
+                   */
                 }
             };
 
@@ -375,6 +387,6 @@ import { initStatusManager } from "./statuslog.js";
         }
 
         // Manual tooltip init for #stuff-i-like
-        $("#stuff-i-like").tooltip();
+        // $("#stuff-i-like").tooltip();
     });
 })();

@@ -61,7 +61,7 @@ function renderStatus(data) {
                 <time datetime="${machineReadableDateTime}">
                     <em><i class="fa-solid fa-clock"></i> ${lastUpdatedRelative}</em>
                 </time> ·
-                <a href="${externalURL} rel="me noreferrer noopener" target="_blank">
+                <a href="${externalURL}" rel="me noreferrer noopener" target="_blank">
                     <em><i class="fa-solid fa-reply"></i> Responder</em>
                 </a>
             </small>

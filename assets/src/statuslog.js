@@ -33,7 +33,6 @@ async function fetchWithRetry(url, options, retries = 3) {
     }
 }
 
-// Function to render latest status
 function renderStatus(data) {
     const statusElement = document.getElementById("status");
     if (!statusElement) {
@@ -49,6 +48,12 @@ function renderStatus(data) {
     const machineReadableDateTime = lastUpdatedIso.toISOString();
     const externalURL = data.response.statuses[0].external_url;
 
+    const replyLink = externalURL
+        ? `· <a href="${externalURL}" rel="me noreferrer noopener" target="_blank">
+               <em><i class="fa-solid fa-reply"></i> Responder</em>
+           </a>`
+        : "";
+
     statusElement.innerHTML = `
         <div id="container" class="text-center">
             <p>
@@ -60,10 +65,8 @@ function renderStatus(data) {
             <small class="text-muted">
                 <time datetime="${machineReadableDateTime}">
                     <em><i class="fa-solid fa-clock"></i> ${lastUpdatedRelative}</em>
-                </time> ·
-                <a href="${externalURL}" rel="me noreferrer noopener" target="_blank">
-                    <em><i class="fa-solid fa-reply"></i> Responder</em>
-                </a>
+                </time>
+                ${replyLink}
             </small>
         </div>
     `;

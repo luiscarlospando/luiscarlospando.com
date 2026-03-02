@@ -63,8 +63,8 @@ import { initStatusManager } from "./statuslog.js";
             */
 
             /*
-            En este momento, como #stuff-i-like está comentado en el DOM, entonces hay que llamar directamente esta función.
-            Esa es la razón por la cual el fragmento de código de arriba está comentado.
+            Since #stuff-i-like is currently commented out in the DOM, you have to call this function directly.
+            That's why the code snippet above is commented out.
             */
             initScrollHandling(backToTopButton);
         }
@@ -76,7 +76,7 @@ import { initStatusManager } from "./statuslog.js";
 
                 // Search elements on each execution because they're dynamic
                 const nowPlaying = document.querySelector(".nowplaying");
-                // const stuffILike = document.querySelector("#stuff-i-like");
+                const stuffILike = document.querySelector("#stuff-i-like");
 
                 if (scrollY > 300) {
                     backToTopButton.classList.add("cd-is-visible");
@@ -86,11 +86,9 @@ import { initStatusManager } from "./statuslog.js";
                         nowPlaying.classList.add("nowplaying-scrolled");
                     }
 
-                    /*
                     if (stuffILike) {
                         stuffILike.classList.add("stuff-i-like-scrolled");
                     }
-                     */
                 } else {
                     backToTopButton.classList.remove("cd-is-visible");
 
@@ -98,11 +96,9 @@ import { initStatusManager } from "./statuslog.js";
                         nowPlaying.classList.remove("nowplaying-scrolled");
                     }
 
-                    /*
                     if (stuffILike) {
                         stuffILike.classList.remove("stuff-i-like-scrolled");
                     }
-                   */
                 }
             };
 

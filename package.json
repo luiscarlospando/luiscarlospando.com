@@ -55,7 +55,6 @@
         "clipboard": "^2.0.4",
         "dayjs": "^1.11.8",
         "dompurify": "^3.2.6",
-        "fluentui-emoji-js": "^1.2.1",
         "imagesloaded": "^5.0.0",
         "jquery": "^3.4.1",
         "jquery-rss": "^3.3.0",

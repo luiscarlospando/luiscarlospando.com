@@ -1,7 +1,4 @@
 // Display Statuslog entries with pagination
-// Requires: npm install fluentui-emoji-js
-
-import * as fluentEmoji from "fluentui-emoji-js";
 
 // Config
 const ITEMS_PER_PAGE = 10;
@@ -67,21 +64,34 @@ function formatStatusDate(unixTimestamp) {
 
 // Render
 
-// Builds a Fluent 3D emoji <img> tag using fluentui-emoji-js + jsDelivr
-async function buildEmojiImg(emoji) {
-    if (!emoji) return "";
-
-    try {
-        const emojiPath = await fluentEmoji.fromGlyph(emoji, "3D");
-        const src = `${FLUENT_CDN}${emojiPath}`;
-        return `<img src="${src}" alt="${emoji}" style="width:48px; height:48px; object-fit:contain;" loading="lazy">`;
-    } catch {
-        // Fallback: render the emoji as plain text at a readable size
-        return `<span style="font-size: 2.5rem; line-height: 1;">${emoji}</span>`;
-    }
+// Converts an emoji to its hex codepoints (e.g. "😄" → "1f604")
+// Strips variation selectors (FE0F) that aren't part of the filename
+function emojiToCodepoints(emoji) {
+    return [...emoji]
+        .map((char) => char.codePointAt(0).toString(16))
+        .filter((cp) => cp !== "fe0f")
+        .join("-");
 }
 
-async function renderPaginatedStatuses() {
+// Builds a Fluent 3D emoji <img> using the Microsoft repo on jsDelivr
+// The repo structure is: /assets/{Emoji Name}/3D/{codepoints}_3d.png
+// We use the flat codepoint path which jsDelivr can resolve directly
+function buildEmojiImg(emoji) {
+    if (!emoji) return "";
+
+    const codepoints = emojiToCodepoints(emoji);
+    const src = `${FLUENT_CDN}/${encodeURIComponent(emoji)}/3D/${codepoints}_color.png`;
+
+    // Fallback to plain text emoji if the image fails to load
+    return `<img
+        src="${src}"
+        onerror="this.replaceWith(document.createTextNode('${emoji}'))"
+        alt="${emoji}"
+        style="width:48px; height:48px; object-fit:contain;"
+        loading="lazy">`;
+}
+
+function renderPaginatedStatuses() {
     const list = document.getElementById("status-list");
     if (!list) return;
 
@@ -89,14 +99,10 @@ async function renderPaginatedStatuses() {
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const statuses = allStatuses.slice(startIndex, endIndex);
 
-    // Resolve all emoji images in parallel before rendering
-    const emojiImgs = await Promise.all(
-        statuses.map((status) => buildEmojiImg(status.emoji))
-    );
-
     list.innerHTML = statuses
-        .map((status, index) => {
+        .map((status) => {
             const formattedDate = formatStatusDate(status.created);
+            const emojiImg = buildEmojiImg(status.emoji);
             // Make URLs in content clickable
             const linkedContent = (status.content || "").replace(
                 /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim,
@@ -109,7 +115,7 @@ async function renderPaginatedStatuses() {
                         <div class="card-body">
                             <div class="row align-items-center">
                                 <div class="col-md-2 col-lg-1 text-center">
-                                    ${emojiImgs[index]}
+                                    ${emojiImg}
                                 </div>
                                 <div class="col-md-10 col-lg-11">
                                     <div class="status-content">
@@ -131,13 +137,13 @@ async function renderPaginatedStatuses() {
 }
 
 // Pagination
-async function handlePageChange(newPage) {
+function handlePageChange(newPage) {
     const totalPages = Math.ceil(allStatuses.length / ITEMS_PER_PAGE);
     if (newPage < 1 || newPage > totalPages) return;
 
     currentPage = newPage;
     updateURL(currentPage);
-    await renderPaginatedStatuses();
+    renderPaginatedStatuses();
     setupPagination();
 
     document
@@ -239,7 +245,7 @@ function displayStatuses() {
                 updateURL(currentPage);
             }
 
-            await renderPaginatedStatuses();
+            renderPaginatedStatuses();
             setupPagination();
         })
         .catch((error) => {
@@ -249,10 +255,10 @@ function displayStatuses() {
 }
 
 // Browser navigation
-window.addEventListener("popstate", async (event) => {
+window.addEventListener("popstate", (event) => {
     currentPage = event.state?.page || getPageFromURL();
     if (allStatuses.length > 0) {
-        await renderPaginatedStatuses();
+        renderPaginatedStatuses();
         setupPagination();
     }
 });

@@ -5,8 +5,6 @@ description: Todos mis estatus en un solo lugar. Reflexiones cortas, lo que esto
 image: /assets/images/logo.png
 tags: [status, statuslog, thoughts, status-archivo, estatus, estatus-archivo]
 permalink: /status/
-custom_scripts:
-  - https://emoji.fluent-cdn.com/latest/fluentemoji.min.js
 ---
 
 <p class="text-center">{{ page.description }}</p>

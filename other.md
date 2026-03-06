@@ -14,7 +14,7 @@ permalink: /other/
 - 🚫 [Nope][3]
 - 🐦 [Twitter][4]
 
-[1]: {{ site.url }}/estatus/
+[1]: {{ site.url }}/status/
 [2]: {{ site.url }}/top4/
 [3]: {{ site.url }}/nope/
 [4]: {{ site.url }}/twitter/

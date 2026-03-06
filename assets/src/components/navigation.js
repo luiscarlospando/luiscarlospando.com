@@ -280,7 +280,7 @@ function Navigation() {
             subButtons: [
                 {
                     id: "other-estatus",
-                    url: "https://luiscarlospando.com/estatus/",
+                    url: "https://luiscarlospando.com/status/",
                     icon: "fa-solid fa-clock",
                     text: "Estatus",
                 },

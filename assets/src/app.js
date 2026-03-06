@@ -14,6 +14,7 @@ import "./jquery.rss.min";
 import "./prism";
 import "./jquery.mmenu.min.all";
 import "./statuslog";
+import "./statuslog-archive";
 import "./last-updated-at";
 import "./blog-posts";
 import "./links";

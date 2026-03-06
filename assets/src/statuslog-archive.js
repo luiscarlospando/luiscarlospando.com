@@ -112,7 +112,7 @@ function renderPaginatedStatuses() {
                                                 <a href="${statusURL}" rel="me noreferrer noopener" target="_blank">@${OMG_ADDRESS}</a>
                                             </strong>
                                         </div>
-                                        <div class="status-text">
+                                        <div class="status-text mb-2">
                                             <p style="white-space: pre-wrap; margin: 0;">${linkedContent}</p>
                                         </div>
                                         <div class="status-footer">

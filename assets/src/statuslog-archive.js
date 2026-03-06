@@ -101,7 +101,9 @@ function renderPaginatedStatuses() {
                         <div class="card-body">
                             <div class="row align-items-center">
                                 <div class="col-md-2 col-lg-1 text-center">
-                                    ${emojiImg}
+                                    <h1 class="mb-0">
+                                        ${emojiImg}
+                                    </h1>
                                 </div>
                                 <div class="col-md-10 col-lg-11">
                                     <div class="status-content">
@@ -109,10 +111,14 @@ function renderPaginatedStatuses() {
                                             <strong>
                                                 <a href="${statusURL}" rel="me noreferrer noopener" target="_blank">@${OMG_ADDRESS}</a>
                                             </strong>
-                                            <span class="text-muted"> · <time datetime="${isoString}"><em><i class="fa-solid fa-clock"></i> ${relative}</em></time>${replyLink}</span>
                                         </div>
                                         <div class="status-text">
                                             <p style="white-space: pre-wrap; margin: 0;">${linkedContent}</p>
+                                        </div>
+                                        <div class="status-footer">
+                                            <small class="text-muted">
+                                                <time datetime="${isoString}"><em><i class="fa-solid fa-clock"></i> ${relative}</em></time>${replyLink}
+                                            </small>
                                         </div>
                                     </div>
                                 </div>

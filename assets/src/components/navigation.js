@@ -279,6 +279,12 @@ function Navigation() {
             text: "Otros",
             subButtons: [
                 {
+                    id: "other-estatus",
+                    url: "https://luiscarlospando.com/estatus/",
+                    icon: "fa-solid fa-clock",
+                    text: "Estatus",
+                },
+                {
                     id: "other-top4",
                     url: "https://luiscarlospando.com/top4/",
                     icon: "fa-solid fa-trophy",

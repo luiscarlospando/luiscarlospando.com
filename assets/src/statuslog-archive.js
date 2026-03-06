@@ -3,7 +3,6 @@
 const dayjs = require("dayjs");
 const locale_es_mx = require("dayjs/locale/es-mx");
 const relativeTime = require("dayjs/plugin/relativeTime");
-const fluentEmoji = require("fluentui-emoji-js");
 
 dayjs.locale("es-mx");
 dayjs.extend(relativeTime);
@@ -12,9 +11,11 @@ dayjs.extend(relativeTime);
 const ITEMS_PER_PAGE = 10;
 const OMG_ADDRESS = "mijo";
 
-// jsDelivr sirve los assets del repo oficial de Microsoft en GitHub
+// fluentui-emoji-unicode by shuding — organizes Fluent emojis by unicode codepoint
+// URL format: /assets/{codepoints}_3d.png (e.g. 1f44b_3d.png)
+// Repo: https://github.com/shuding/fluentui-emoji-unicode
 const FLUENT_CDN =
-    "https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@latest/assets";
+    "https://cdn.jsdelivr.net/gh/shuding/fluentui-emoji-unicode/assets";
 
 let currentPage = 1;
 let allStatuses = [];
@@ -47,21 +48,33 @@ function formatStatusDate(unixTimestamp) {
 
 // Render
 
-// Builds a Fluent 3D emoji <img> using fluentui-emoji-js + jsDelivr
-// fluentui-emoji-js returns the correct path for each emoji (e.g. /Grinning Face/3D/grinning_face_3d.png)
-async function buildEmojiImg(emoji) {
-    if (!emoji) return "";
-
-    try {
-        const emojiPath = await fluentEmoji.fromGlyph(emoji, "3D");
-        const src = `${FLUENT_CDN}${emojiPath}`;
-        return `<img src="${src}" alt="${emoji}" style="width:48px; height:48px; object-fit:contain;" loading="lazy">`;
-    } catch {
-        return `<span style="font-size: 2.5rem; line-height: 1;">${emoji}</span>`;
-    }
+// Converts an emoji to its hex codepoints joined by hyphens (e.g. "😄" → "1f604")
+// Strips variation selectors (fe0f) that aren't part of the filename
+function emojiToCodepoints(emoji) {
+    return [...emoji]
+        .map((char) => char.codePointAt(0).toString(16))
+        .filter((cp) => cp !== "fe0f")
+        .join("-");
 }
 
-async function renderPaginatedStatuses() {
+// Builds a Fluent 3D emoji <img> using fluentui-emoji-unicode + jsDelivr
+// No Node.js dependencies — works entirely in the browser
+function buildEmojiImg(emoji) {
+    if (!emoji) return "";
+
+    const codepoints = emojiToCodepoints(emoji);
+    const src = `${FLUENT_CDN}/${codepoints}_3d.png`;
+
+    // Fallback to plain text emoji if the image fails to load
+    return `<img
+        src="${src}"
+        onerror="this.replaceWith(document.createTextNode('${emoji}'))"
+        alt="${emoji}"
+        style="width:48px; height:48px; object-fit:contain;"
+        loading="lazy">`;
+}
+
+function renderPaginatedStatuses() {
     const list = document.getElementById("status-list");
     if (!list) return;
 
@@ -69,15 +82,10 @@ async function renderPaginatedStatuses() {
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const statuses = allStatuses.slice(startIndex, endIndex);
 
-    // Resolve all emoji images in parallel before rendering
-    const emojiImgs = await Promise.all(
-        statuses.map((status) => buildEmojiImg(status.emoji))
-    );
-
     list.innerHTML = statuses
-        .map((status, index) => {
+        .map((status) => {
             const { relative, isoString } = formatStatusDate(status.created);
-            const emojiImg = emojiImgs[index];
+            const emojiImg = buildEmojiImg(status.emoji);
             const statusURL = `https://${OMG_ADDRESS}.status.lol/${status.id}`;
             // Make URLs in content clickable
             const linkedContent = (status.content || "").replace(
@@ -124,13 +132,13 @@ async function renderPaginatedStatuses() {
 }
 
 // Pagination
-async function handlePageChange(newPage) {
+function handlePageChange(newPage) {
     const totalPages = Math.ceil(allStatuses.length / ITEMS_PER_PAGE);
     if (newPage < 1 || newPage > totalPages) return;
 
     currentPage = newPage;
     updateURL(currentPage);
-    await renderPaginatedStatuses();
+    renderPaginatedStatuses();
     setupPagination();
 
     document
@@ -221,7 +229,7 @@ function displayStatuses() {
 
     fetch(`https://api.omg.lol/address/${OMG_ADDRESS}/statuses/`)
         .then((response) => response.json())
-        .then(async (data) => {
+        .then((data) => {
             console.log("✅ Estatus cargados correctamente.");
 
             allStatuses = data.response.statuses; // already newest-first from the API
@@ -232,7 +240,7 @@ function displayStatuses() {
                 updateURL(currentPage);
             }
 
-            await renderPaginatedStatuses();
+            renderPaginatedStatuses();
             setupPagination();
         })
         .catch((error) => {
@@ -242,10 +250,10 @@ function displayStatuses() {
 }
 
 // Browser navigation
-window.addEventListener("popstate", async (event) => {
+window.addEventListener("popstate", (event) => {
     currentPage = event.state?.page || getPageFromURL();
     if (allStatuses.length > 0) {
-        await renderPaginatedStatuses();
+        renderPaginatedStatuses();
         setupPagination();
     }
 });

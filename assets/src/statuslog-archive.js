@@ -7,8 +7,9 @@ import * as fluentEmoji from "fluentui-emoji-js";
 const ITEMS_PER_PAGE = 10;
 const OMG_ADDRESS = "mijo";
 
-// jsDelivr sirve los assets del repo oficial de Microsoft en GitHub
-const FLUENT_CDN = "https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@latest/assets";
+// jsDelivr serves assets from official Microsoft repo over at GitHub
+const FLUENT_CDN =
+    "https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@latest/assets";
 
 let currentPage = 1;
 let allStatuses = [];
@@ -31,13 +32,22 @@ function updateURL(page) {
 }
 
 // Date formatting
-
 function formatStatusDate(unixTimestamp) {
     const date = new Date(unixTimestamp * 1000);
 
     const months = [
-        "ene", "feb", "mar", "abr", "may", "jun",
-        "jul", "ago", "sep", "oct", "nov", "dic",
+        "ene",
+        "feb",
+        "mar",
+        "abr",
+        "may",
+        "jun",
+        "jul",
+        "ago",
+        "sep",
+        "oct",
+        "nov",
+        "dic",
     ];
 
     const day = date.getDate();
@@ -218,7 +228,7 @@ function displayStatuses() {
 
     fetch(`https://api.omg.lol/address/${OMG_ADDRESS}/statuses/`)
         .then((response) => response.json())
-        .then((data) => {
+        .then(async (data) => {
             console.log("✅ Estatus cargados correctamente.");
 
             allStatuses = data.response.statuses; // already newest-first from the API

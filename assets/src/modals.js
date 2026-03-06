@@ -119,6 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // #stuff-i-like modal
+/*
 document.addEventListener("DOMContentLoaded", function () {
     // Button that opens up the modal
     const stuffILikeBtn = document.getElementById("stuff-i-like");
@@ -147,3 +148,4 @@ document.addEventListener("DOMContentLoaded", function () {
         modalBody.appendChild(script);
     });
 });
+*/

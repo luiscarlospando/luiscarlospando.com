@@ -3,6 +3,7 @@
 const dayjs = require("dayjs");
 const locale_es_mx = require("dayjs/locale/es-mx");
 const relativeTime = require("dayjs/plugin/relativeTime");
+const fluentEmoji = require("fluentui-emoji-js");
 
 dayjs.locale("es-mx");
 dayjs.extend(relativeTime);
@@ -11,7 +12,7 @@ dayjs.extend(relativeTime);
 const ITEMS_PER_PAGE = 10;
 const OMG_ADDRESS = "mijo";
 
-// jsDelivr Fluent Emoji
+// jsDelivr sirve los assets del repo oficial de Microsoft en GitHub
 const FLUENT_CDN =
     "https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@latest/assets";
 
@@ -46,34 +47,21 @@ function formatStatusDate(unixTimestamp) {
 
 // Render
 
-// Converts an emoji to its hex codepoints (e.g. "😄" → "1f604")
-// Strips variation selectors (FE0F) that aren't part of the filename
-function emojiToCodepoints(emoji) {
-    return [...emoji]
-        .map((char) => char.codePointAt(0).toString(16))
-        .filter((cp) => cp !== "fe0f")
-        .join("-");
-}
-
-// Builds a Fluent 3D emoji <img> using the Microsoft repo on jsDelivr
-// The repo structure is: /assets/{Emoji Name}/3D/{codepoints}_3d.png
-// We use the flat codepoint path which jsDelivr can resolve directly
-function buildEmojiImg(emoji) {
+// Builds a Fluent 3D emoji <img> using fluentui-emoji-js + jsDelivr
+// fluentui-emoji-js returns the correct path for each emoji (e.g. /Grinning Face/3D/grinning_face_3d.png)
+async function buildEmojiImg(emoji) {
     if (!emoji) return "";
 
-    const codepoints = emojiToCodepoints(emoji);
-    const src = `${FLUENT_CDN}/${encodeURIComponent(emoji)}/3D/${codepoints}_color.png`;
-
-    // Fallback to plain text emoji if the image fails to load
-    return `<img
-        src="${src}"
-        onerror="this.replaceWith(document.createTextNode('${emoji}'))"
-        alt="${emoji}"
-        style="width:48px; height:48px; object-fit:contain;"
-        loading="lazy">`;
+    try {
+        const emojiPath = await fluentEmoji.fromGlyph(emoji, "3D");
+        const src = `${FLUENT_CDN}${emojiPath}`;
+        return `<img src="${src}" alt="${emoji}" style="width:48px; height:48px; object-fit:contain;" loading="lazy">`;
+    } catch {
+        return `<span style="font-size: 2.5rem; line-height: 1;">${emoji}</span>`;
+    }
 }
 
-function renderPaginatedStatuses() {
+async function renderPaginatedStatuses() {
     const list = document.getElementById("status-list");
     if (!list) return;
 
@@ -81,10 +69,15 @@ function renderPaginatedStatuses() {
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const statuses = allStatuses.slice(startIndex, endIndex);
 
+    // Resolve all emoji images in parallel before rendering
+    const emojiImgs = await Promise.all(
+        statuses.map((status) => buildEmojiImg(status.emoji))
+    );
+
     list.innerHTML = statuses
-        .map((status) => {
+        .map((status, index) => {
             const { relative, isoString } = formatStatusDate(status.created);
-            const emojiImg = buildEmojiImg(status.emoji);
+            const emojiImg = emojiImgs[index];
             const statusURL = `https://${OMG_ADDRESS}.status.lol/${status.id}`;
             // Make URLs in content clickable
             const linkedContent = (status.content || "").replace(
@@ -131,13 +124,13 @@ function renderPaginatedStatuses() {
 }
 
 // Pagination
-function handlePageChange(newPage) {
+async function handlePageChange(newPage) {
     const totalPages = Math.ceil(allStatuses.length / ITEMS_PER_PAGE);
     if (newPage < 1 || newPage > totalPages) return;
 
     currentPage = newPage;
     updateURL(currentPage);
-    renderPaginatedStatuses();
+    await renderPaginatedStatuses();
     setupPagination();
 
     document
@@ -239,7 +232,7 @@ function displayStatuses() {
                 updateURL(currentPage);
             }
 
-            renderPaginatedStatuses();
+            await renderPaginatedStatuses();
             setupPagination();
         })
         .catch((error) => {
@@ -249,10 +242,10 @@ function displayStatuses() {
 }
 
 // Browser navigation
-window.addEventListener("popstate", (event) => {
+window.addEventListener("popstate", async (event) => {
     currentPage = event.state?.page || getPageFromURL();
     if (allStatuses.length > 0) {
-        renderPaginatedStatuses();
+        await renderPaginatedStatuses();
         setupPagination();
     }
 });

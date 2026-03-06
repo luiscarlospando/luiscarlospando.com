@@ -14,6 +14,9 @@ module.exports = {
         clean: true,
     },
     resolve: {
+        fallback: {
+            path: require.resolve("path-browserify"),
+        },
         modules: [path.resolve(__dirname, "node_modules"), "node_modules"],
     },
     devtool: "source-map",
@@ -40,7 +43,9 @@ module.exports = {
                         options: {
                             implementation: require("sass"),
                             sassOptions: {
-                                includePaths: [path.resolve(__dirname, "_sass")],
+                                includePaths: [
+                                    path.resolve(__dirname, "_sass"),
+                                ],
                                 outputStyle: "compressed",
                                 silenceDeprecations: ["legacy-js-api"],
                             },

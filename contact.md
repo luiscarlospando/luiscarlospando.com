@@ -145,7 +145,7 @@ En [Backloggd][14]{:rel="me noopener" target="_blank"} llevo el control de los v
 [9]: {{ site.apple_music_url }}
 [10]: {{ site.lastfm_url }}
 [11]: {{ site.reddit_url }}
-[12]: {{ site.twitch_purl }}
+[12]: {{ site.twitch_url }}
 [13]: /live/
 [14]: {{ site.backloggd_url }}
 [15]: /guestbook/

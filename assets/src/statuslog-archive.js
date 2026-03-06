@@ -1,10 +1,17 @@
 // Display Statuslog entries with pagination
 
+const dayjs = require("dayjs");
+const locale_es_mx = require("dayjs/locale/es-mx");
+const relativeTime = require("dayjs/plugin/relativeTime");
+
+dayjs.locale("es-mx");
+dayjs.extend(relativeTime);
+
 // Config
 const ITEMS_PER_PAGE = 10;
 const OMG_ADDRESS = "mijo";
 
-// jsDelivr serves assets from official Microsoft repo over at GitHub
+// jsDelivr Fluent Emoji
 const FLUENT_CDN =
     "https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@latest/assets";
 
@@ -30,36 +37,11 @@ function updateURL(page) {
 
 // Date formatting
 function formatStatusDate(unixTimestamp) {
-    const date = new Date(unixTimestamp * 1000);
-
-    const months = [
-        "ene",
-        "feb",
-        "mar",
-        "abr",
-        "may",
-        "jun",
-        "jul",
-        "ago",
-        "sep",
-        "oct",
-        "nov",
-        "dic",
-    ];
-
-    const day = date.getDate();
-    const month = months[date.getMonth()];
-    const year = date.getFullYear();
-
-    let hours = date.getHours();
-    const minutes = String(date.getMinutes()).padStart(2, "0");
-    const ampm = hours >= 12 ? "PM" : "AM";
-    hours = hours % 12 || 12;
-
+    const date = dayjs.unix(unixTimestamp);
+    const relative = dayjs().to(date);
     const isoString = date.toISOString();
-    const displayText = `${day} ${month} ${year}, ${hours}:${minutes} ${ampm}`;
 
-    return `<time datetime="${isoString}"><em>${displayText}</em></time>`;
+    return { relative, isoString };
 }
 
 // Render
@@ -101,13 +83,17 @@ function renderPaginatedStatuses() {
 
     list.innerHTML = statuses
         .map((status) => {
-            const formattedDate = formatStatusDate(status.created);
+            const { relative, isoString } = formatStatusDate(status.created);
             const emojiImg = buildEmojiImg(status.emoji);
+            const statusURL = `https://${OMG_ADDRESS}.status.lol/${status.id}`;
             // Make URLs in content clickable
             const linkedContent = (status.content || "").replace(
                 /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim,
                 '<a href="$1" target="_blank" rel="noopener">$1</a>'
             );
+            const replyLink = status.external_url
+                ? ` · <a href="${status.external_url}" rel="me noreferrer noopener" target="_blank"><em><i class="fa-solid fa-reply"></i> Responder</em></a>`
+                : "";
 
             return `
                 <li class="mb-4">
@@ -120,8 +106,10 @@ function renderPaginatedStatuses() {
                                 <div class="col-md-10 col-lg-11">
                                     <div class="status-content">
                                         <div class="status-header mb-2">
-                                            <strong>@${OMG_ADDRESS}</strong>
-                                            <span class="text-muted"> · ${formattedDate}</span>
+                                            <strong>
+                                                <a href="${statusURL}" rel="me noreferrer noopener" target="_blank">@${OMG_ADDRESS}</a>
+                                            </strong>
+                                            <span class="text-muted"> · <time datetime="${isoString}"><em><i class="fa-solid fa-clock"></i> ${relative}</em></time>${replyLink}</span>
                                         </div>
                                         <div class="status-text">
                                             <p style="white-space: pre-wrap; margin: 0;">${linkedContent}</p>

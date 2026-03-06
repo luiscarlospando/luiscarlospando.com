@@ -13,7 +13,7 @@ permalink: /status/
 <ul class="list-inline">
 <li class="list-inline-item">
 <a class="btn btn-primary btn-sm" href="https://status.{{ site.domain }}" rel="alternate">
-<i class="fa-solid fa-heart"></i> Reflejo en omg.lol
+<i class="fa-solid fa-heart"></i> Reflejo en Statuslog
 </a>
 </li>
 </ul>

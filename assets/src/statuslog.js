@@ -58,7 +58,7 @@ function renderStatus(data) {
         <div id="container" class="text-center">
             <p>
                 ${data.response.statuses[0].emoji}
-                <a href="https://luiscarlospando.com/status">
+                <a href="https://luiscarlospando.com/status" data-toggle="tooltip" data-placement="bottom" aria-label="Último estatus" title="Haz clic aquí para ver todos mis estatus" data-original-title="Haz clic aquí para ver todos mis estatus">
                     ${data.response.statuses[0].content}
                 </a>
             </p>

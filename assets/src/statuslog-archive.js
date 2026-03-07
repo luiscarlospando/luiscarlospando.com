@@ -70,7 +70,7 @@ function buildEmojiImg(emoji) {
         src="${src}"
         onerror="this.replaceWith(document.createTextNode('${emoji}'))"
         alt="${emoji}"
-        style="width:48px; height:48px; object-fit:contain;"
+        style="width:60px; height:60px; object-fit:contain;"
         loading="lazy">`;
 }
 

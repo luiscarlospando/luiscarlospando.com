@@ -101,12 +101,12 @@ function renderPaginatedStatuses() {
                     <div class="card mb-4">
                         <div class="card-body">
                             <div class="row align-items-center">
-                                <div class="col-md-2 col-lg-1 text-center">
+                                <div class="col-2 text-center">
                                     <h1 class="mb-0">
                                         ${emojiImg}
                                     </h1>
                                 </div>
-                                <div class="col-md-10 col-lg-11">
+                                <div class="col-10">
                                     <div class="status-content">
                                         <div class="status-header mb-2">
                                             <strong>

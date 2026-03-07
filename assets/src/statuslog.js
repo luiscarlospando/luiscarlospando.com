@@ -129,7 +129,7 @@ async function displayLatestStatus(forceUpdate = false) {
         if (statusElement) {
             statusElement.innerHTML = `
                 <div id="container" class="text-center">
-                    <p>Error al cargar Statuslog. Intentando de nuevo...</p>
+                    <p>Error al cargar último estatus. Intentando de nuevo...</p>
                     <button class="btn btn-primary" onclick="window.forceStatusUpdate()">
                         <i class="fa-solid fa-rotate-right"></i> Reintentar
                     </button>

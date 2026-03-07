@@ -169,7 +169,7 @@ function initStatusManager() {
     if (statusElement) {
         statusElement.innerHTML = `
         <div id="container" class="text-center">
-            <p><i class="fas fa-spinner fa-spin"></i> Cargando estado...</p>
+            <p><i class="fas fa-spinner fa-spin"></i> Cargando estatus...</p>
         </div>
     `;
     }

@@ -70,6 +70,9 @@ function renderStatus(data) {
             </small>
         </div>
     `;
+
+    // Re-initialize Bootstrap tooltips on the newly injected elements
+    $('[data-toggle="tooltip"]').tooltip();
 }
 
 // Main function to show the latest status

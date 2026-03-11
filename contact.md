@@ -11,7 +11,7 @@ permalink: /contact/
 
 ## <i class="fa-solid fa-envelope"></i> Email
 
-Mi correo es: <code>{{ site.email }}</code>
+Mi correo personal es: <code>{{ site.email }}</code>
 
 <ul class="list-inline">
 <li class="list-inline-item">

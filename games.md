@@ -5,7 +5,7 @@ description: Esto es lo que ando jugando actualmente y mis perfiles de Discord, 
 image: /assets/images/logo-games.png
 tags: [games, video-games, current-games, currently-playing]
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2025-12-03 12:39:00</span>
+last-modified-at: <span id="last-updated-at">2026-03-11 15:47:00</span>
 ---
 
 <p class="text-center">
@@ -22,7 +22,7 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <div class="card text-center mb-0">
 <div class="card-header">
 <h4 class="card-title">
-<i class="fa-solid fa-gamepad"></i> Ahora estoy jugando
+<i class="fa-solid fa-gamepad"></i> Lo que ando jugando
 </h4>
 </div>
 <div class="card-body">
@@ -86,28 +86,7 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 <div class="row">
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
-<li class="mb-2">
-<a href="https://backloggd.com/games/star-fox-64/" rel="noreferrer noopener" target="_blank">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2e4k.jpg" alt="Star Fox 64" width="100">
-</a>
-</li>
-<li class="mb-4">
-<a href="https://backloggd.com/games/star-fox-64/" rel="noreferrer noopener" target="_blank">
-<em>Star Fox 64</em>
-</a>
-</li>
-
-<li class="mb-2">
-<a href="https://backloggd.com/games/mega-man-x/" rel="noreferrer noopener" target="_blank">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3tu2.jpg" alt="Mega Man X" width="100">
-</a>
-</li>
-<li class="mb-4">
-<a href="https://backloggd.com/games/mega-man-x/" rel="noreferrer noopener" target="_blank">
-<em>Mega Man X</em>
-</a>
-</li>
-    
+   
 <li class="mb-2">
 <a href="https://backloggd.com/games/angry-video-game-nerd-8-bit/" rel="noreferrer noopener" target="_blank">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9b5b.jpg" alt="Angry Video Game Nerd 8-bit (Nintendo Switch)" width="100">
@@ -118,6 +97,7 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 <em>Angry Video Game Nerd 8-bit (Nintendo Switch)</em>
 </a>
 </li>
+
 </ul>
 </div>
 <div class="col-md-6 my-auto text-monospace">

@@ -111,6 +111,8 @@ Mi username en Discord es <a href="{{ site.discord_profile }}" rel="me noopener"
  - ### <i class="fa-solid fa-camera"></i> some.pics (pics.luiscarlospando.com)
 🤫 También [comparto fotos aquí][7]{:rel="me noopener" target="_blank"} de vez en cuando.
 
+---
+
  - ### <i class="fa-solid fa-terminal"></i> Finger me
 ```bash
 $ finger {{ site.omglol_username }}@omg.lol

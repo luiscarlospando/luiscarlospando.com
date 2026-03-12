@@ -160,4 +160,9 @@ last-modified-at: <span id="last-updated-at">2026-01-15 20:00:00</span>
 <img class="web-badge" src="{{ site.url }}/assets/images/buttons/kagi-small-web.png" alt="Kagi Small Web" width="88" height="31" />
 </a>
 </li>
+<li class="list-inline-item mb-3">
+<a rel="me noreferrer noopener" href="https://url.town/@mijo" target="_blank">
+<img class="web-badge" src="{{ site.url }}/assets/images/buttons/url-town.png" alt="url.town" width="88" height="31" />
+</a>
+</li>
 </ul>

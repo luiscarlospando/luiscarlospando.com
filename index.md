@@ -210,6 +210,13 @@ Ver mis álbumes más escuchados de los últimos 30 días
           </a>
           <span class="badge badge-success ml-2 pulse-subtle position-relative" style="top: 0.7rem; left: 1.8rem;">Nuevo</span>
         </li>
+        <li class="d-flex align-items-center">
+          <a href="/chat/" class="hub-link d-flex align-items-center"
+             data-toggle="tooltip" data-placement="top"
+             title="Únete a Mode 7">
+            <i class="fa-brands fa-discord mr-2"></i> Chat
+          </a>
+        </li>
       </ul>
     </nav>
   </div>

@@ -202,7 +202,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
             <i class="fa-solid fa-pen-nib mr-2"></i> Guestbook
           </a>
         </li>
-        <li class="d-flex align-items-center">
+        <li class="mb-2 d-flex align-items-center">
           <a href="/paintbook/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Deja un dibujo en mi paintbook">
@@ -210,7 +210,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
           </a>
           <span class="badge badge-success ml-2 pulse-subtle position-relative" style="top: 0.7rem; left: 1.8rem;">Nuevo</span>
         </li>
-        <li class="d-flex align-items-center">
+        <li>
           <a href="/chat/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Únete a Mode 7">

@@ -178,14 +178,7 @@ function Navigation() {
             url: "https://luiscarlospando.com/chat/",
             icon: "fa-brands fa-discord",
             text: "Chat",
-            subButtons: [
-                {
-                    id: "podcast",
-                    url: "https://blog.luiscarlospando.com/hashtag/mode-7-podcast/",
-                    icon: "fa-solid fa-podcast",
-                    text: "Mode 7 Podcast",
-                },
-            ],
+            subButtons: [],
         },
         {
             id: "guestbook",

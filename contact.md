@@ -175,7 +175,7 @@ En [Backloggd][14]{:rel="me noopener" target="_blank"} llevo el control de los v
 [1]: {{ site.signal_url }}
 [2]: {{ site.instagram_url }}
 [3]: {{ site.discord_profile }}
-[4]: /discord/
+[4]: /chat/
 [5]: https://{{ site.omglol_username }}.{{ site.domain }}/
 [6]: https://home.omg.lol/referred-by/{{ site.omglol_username }}
 [7]: https://pics.{{ site.domain }}/

@@ -174,13 +174,13 @@ function Navigation() {
             subButtons: [],
         },
         {
-            id: "discord",
-            url: "https://luiscarlospando.com/discord/",
+            id: "chat",
+            url: "https://luiscarlospando.com/chat/",
             icon: "fa-brands fa-discord",
-            text: "Discord (Mode 7)",
+            text: "Chat",
             subButtons: [
                 {
-                    id: "discord-podcast",
+                    id: "podcast",
                     url: "https://blog.luiscarlospando.com/hashtag/mode-7-podcast/",
                     icon: "fa-solid fa-podcast",
                     text: "Mode 7 Podcast",

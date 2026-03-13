@@ -1,21 +1,21 @@
 ---
 layout: page
-title: Discord (Mode 7)
+title: Chat
 description: Videojuegos clásicos y modernos. Aquí solo hablamos de los juegos que más nos gustan. 🎮 🕹️
 image: /assets/images/mode-7.png
-tags: [discord, mode-7, gaming, discord-server, discord-community]
-permalink: /discord/
+tags: [chat, discord, mode-7, gaming, discord-server, discord-community]
+permalink: /chat/
 ---
 
 <div class="row mb-3">
 <div class="col-12 col-sm-4 col-md-3 col-lg-2 my-auto text-center">
 <a href="javascript:void(0)" data-toggle="modal" data-target="#modal">
-<img class="rounded img-fluid" src="/assets/images/mode-7-logo.jpg" alt="" />
+<img class="enlarge-transition rounded img-fluid" src="/assets/images/mode-7-logo.jpg" alt="" />
 </a>
 </div>
 <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-auto">
 ## <i class="fa-brands fa-discord"></i> Mode 7
-[Mode 7][1]{:target="_blank" rel="noreferrer noopener"} (`Mode7gg` para los compas) es una comunidad que armamos unos amigos y yo para compartir el amor que sentimos por el gaming. Mode 7 es básicamente un servidor en Discord y un [podcast][2] para hablar de nuestros juegos favoritos y por supuesto, jugarlos.
+[Mode 7][1]{:target="_blank" rel="noreferrer noopener"} (`Mode7gg` para los compas) es una comunidad que armamos unos amigos y yo para compartir el amor que sentimos por el gaming. Mode 7 es básicamente un servidor de Discord y un [podcast][2] para hablar de nuestros juegos favoritos y por supuesto, jugarlos.
 </div>
 </div>
 
@@ -23,7 +23,7 @@ permalink: /discord/
 <div class="col-md-12 col-lg-6 my-auto">
 [![Discord Presence](https://lanyard.cnrad.dev/api/86571896581132288?showDisplayName=true)](https://discord.com/users/86571896581132288)
 
-Entra y únete al servidor de [Mode 7 en Discord][1]{:target="_blank" rel="noreferrer noopener"} para conversar y jugar junto a nuestra comunidad.
+Únete al servidor de [Mode 7 en Discord][1]{:target="_blank" rel="noreferrer noopener"} para conversar y jugar junto otros miembros de la comunidad.
 
 En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7:
 - [*Mario Kart 8 Deluxe*][3]

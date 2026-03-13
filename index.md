@@ -261,7 +261,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
 [5]: /music/
 [6]: {{ site.lastfm_url }}
 [7]: {{ site.backloggd_url }}
-[8]: /discord/
+[8]: /chat/
 [9]: /games/mario-kart/
 [10]: /live/
 [11]: {{ site.mastodon_url }}

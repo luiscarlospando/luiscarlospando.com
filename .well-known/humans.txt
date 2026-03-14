@@ -1,5 +1,5 @@
 This site is developed and maintained by Luis Carlos Pando.
-All of this is dedicated mainly to my wonderful wife, family and friends.
+All of this is dedicated mainly to God, family and friends.
 Made with love from sunny Chihuahua, Mexico.
 
 /* AUTHOR */
@@ -12,16 +12,16 @@ GitHub: https://github.com/luiscarlospando
 Location: Chihuahua, Mexico (GMT-6)
 
 /* SITE */
-Last update: 02-22-2025
+Last update: 03-14-2026
 Standards: HTML, CSS, JSON, Markdown, XML, RSS
-Components/libraries: React, Bootstrap, Animate.css, Font Awesome, Bunny Fonts, Axios
+Components/libraries: React, Bootstrap, Animate.css, Font Awesome, Bunny Fonts, Axios, DeepL, Resend
 Language: Spanish
-Software: Zed, Ghostty, Pixelmator Pro, Git, GitHub, npm, SCSS, Jekyll, WordPress
-Main site deployment: Vercel - https://vercel.com/
-Blog deployment: DigitalOcean - https://digitalocean.com/
+Software: Zed, Ghostty, Pixelmator Pro, Git, GitHub, npm, SCSS, Jekyll, WordPress, Guestbooks, Buttondown
+Main site depolyet at: Vercel - https://vercel.com/
+Blog deployed at: DigitalOcean - https://digitalocean.com/
 
 /* TECHNOLOGY COLOPHON */
 DNS: Cloudflare
 SSL: Cloudflare
-Analytics: Tinylytics
+Analytics: NeatStats/Tinylytics
 CDN: Cloudflare

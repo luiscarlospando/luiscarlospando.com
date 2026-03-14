@@ -9,8 +9,6 @@ permalink: /keys/
 
 <p class="text-center">{{ page.description }}</p>
 
-## Llave PGP pública
-
 <ul class="list-inline">
     <li class="list-inline-item">
         <h2> Llave PGP pública</h2>

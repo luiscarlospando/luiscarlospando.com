@@ -11,7 +11,7 @@ permalink: /keys/
 
 <ul class="list-inline">
     <li class="list-inline-item">
-        <h2> Llave PGP pública</h2>
+        <h2>Llave PGP pública</h2>
     </li>
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="{{ site.url }}/.well-known/pgp-key.txt" style="vertical-align: super;">
@@ -48,7 +48,7 @@ GGdKBwD+J/l3r/CK5g0ebqZnYNcywrZj5L9q9ikvqaD+yjQ1Qws=
 
 <ul class="list-inline">
     <li class="list-inline-item">
-        <h2><i class="fa-solid fa-signs-post"></i> Llave SSH pública</h2>
+        <h2>Llave SSH pública</h2>
     </li>
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="{{ site.url }}/.well-known/ssh-key.txt" style="vertical-align: super;">

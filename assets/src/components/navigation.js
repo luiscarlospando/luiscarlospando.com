@@ -74,6 +74,12 @@ function Navigation() {
                     text: "Diseño",
                 },
                 {
+                    id: "blog-podcast",
+                    url: "https://blog.luiscarlospando.com/podcast/",
+                    icon: "fa-solid fa-podcast",
+                    text: "Podcast",
+                },
+                {
                     id: "blog-misc",
                     url: "https://blog.luiscarlospando.com/todo-lo-demas/",
                     icon: "fa-solid fa-arrow-pointer",

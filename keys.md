@@ -39,6 +39,8 @@ GGdKBwD+J/l3r/CK5g0ebqZnYNcywrZj5L9q9ikvqaD+yjQ1Qws=
     <i class="fa-solid fa-code"></i> Ver código raw
 </a>
 
+---
+
 ## Llave SSH pública
 
 ```

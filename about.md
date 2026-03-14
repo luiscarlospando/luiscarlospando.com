@@ -101,7 +101,7 @@ Al final del día, solo soy un vato de Chihuahua, apasionado y romántico del In
 - ✅ Monitoreo del sistema: [Instatus][18]{:target="_blank"}
 - 🆎 Fonts: [Bunny.net][19]{:rel="noreferrer noopener" target="_blank"}
 - 🖼️ Íconos: [Font Awesome][20]{:rel="noreferrer noopener" target="_blank"}
-- 📊 Analytics: [Tinylytics][21]{:rel="noreferrer noopener" target="_blank"}
+- 📊 Analytics: [NeatStats][36]{:rel="noreferrer noopener" target="_blank"}/[Tinylytics][21]{:rel="noreferrer noopener" target="_blank"}
 - 😉 Misceláneo: [omg.lol][22]{:rel="noreferrer noopener" target="_blank"} para Mastodon y otras cosas muy chidas
 - 💬 Traducción del sitio en tiempo real: [DeepL][23]{:rel="noreferrer noopener" target="_blank"}
 - 📔 Guestbook: [Guestbooks][24]{:rel="noreferrer noopener" target="_blank"}
@@ -158,3 +158,4 @@ Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. 
 [33]: https://github.com/{{ site.github_username}}/{{ site.domain }}/issues/new
 [34]: https://es.wikipedia.org/wiki/Espanglish
 [35]: https://resend.com/
+[36]: https://neatstats.net/

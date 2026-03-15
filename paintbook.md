@@ -119,6 +119,7 @@ Una vez que envÃ­es tu dibujo, dame chanza de revisarlo antes de publicarlo aquÃ
             class="img-fluid"
             src="{{ '/assets/images/paintbook/' | append: drawing.image | relative_url }}"
             alt="{{ drawing.alt }}"
+            loading="lazy"
           />
         </figure>
       </article>

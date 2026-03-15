@@ -41,6 +41,7 @@ import "./surprise-me";
 import "./audio-players";
 import "./twitter";
 import "./paintbook";
+import "./paintbook-pagination";
 import "./other";
 
 // React components

@@ -2,7 +2,7 @@
     const gallery = document.getElementById("paintbook-gallery");
     if (!gallery) return; // No estamos en la página del Paintbook, salir
 
-    const ITEMS_PER_PAGE = 12;
+    const ITEMS_PER_PAGE = 6;
 
     let currentPage = 1;
     let allItems = [];

@@ -1,7 +1,7 @@
 // Display Paintbook entries with pagination
 
 // Config
-const ITEMS_PER_PAGE = 6;
+const ITEMS_PER_PAGE = 12;
 
 let currentPage = 1;
 let allDrawings = [];

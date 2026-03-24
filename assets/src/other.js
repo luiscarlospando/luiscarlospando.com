@@ -198,14 +198,20 @@ import { initStatusManager } from "./statuslog.js";
         }
 
         // Tooltips
-        $('[data-toggle="tooltip"]').tooltip({
-            title: function () {
-                if (this.id === "greetingTooltip") return getGreeting();
-                return (
-                    $(this).attr("title") || $(this).attr("data-original-title")
-                );
-            },
-        });
+        const isTouchDevice =
+            "ontouchstart" in window || navigator.maxTouchPoints > 0;
+
+        if (!isTouchDevice) {
+            $('[data-toggle="tooltip"]').tooltip({
+                title: function () {
+                    if (this.id === "greetingTooltip") return getGreeting();
+                    return (
+                        $(this).attr("title") ||
+                        $(this).attr("data-original-title")
+                    );
+                },
+            });
+        }
 
         // Progress bar
         const progressBar = document.getElementById("progress-bar");

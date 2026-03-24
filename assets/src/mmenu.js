@@ -62,8 +62,8 @@
                 // Update the footer after loading data
                 updateMenuFooter();
             } catch (error) {
-                console.error("Error loading random facts:", error);
-                randomFacts = ["Error loading facts 😕"];
+                console.error("Error al cargar datos random:", error);
+                randomFacts = ["Error al cargar datos random 😕"];
                 updateMenuFooter();
             }
         }

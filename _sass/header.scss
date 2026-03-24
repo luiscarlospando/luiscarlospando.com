@@ -91,14 +91,18 @@
     span {
         display: none;
     }
+}
 
-    &:hover,
-    &:focus {
-        transform: scale(1.1);
+@media (hover: hover) and (pointer: fine) {
+    #logo {
+        &:hover,
+        &:focus {
+            transform: scale(1.1);
 
-        & + #logo-blur {
-            filter: blur(20px);
-            transform: scale(1.2);
+            & + #logo-blur {
+                filter: blur(20px);
+                transform: scale(1.2);
+            }
         }
     }
 }

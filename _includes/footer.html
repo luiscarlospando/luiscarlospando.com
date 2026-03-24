@@ -109,14 +109,7 @@
 
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <a href="/subscribe/" class="badge badge-rss" data-toggle="tooltip" data-placement="top" title="Suscríbete">
-                                        <i class="fa-solid fa-rss"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a rel="me noreferrer noopener" href="https://{{ site.omglol_username }}.{{ site.domain }}/" target="_blank">
-                                        <img alt="omg.lol" src="https://img.shields.io/badge/%40mijo%20-%20%40mijo?label=omg.lol&labelColor=%235C5C5C&color=%23ED85A8&link=https%3A%2F%2Fmijo.omg.lol%2F">
-                                    </a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="103" height="20"><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="103" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#r)"><rect width="68" height="20" fill="#555"/><rect x="68" width="35" height="20" fill="#f783ac"/><rect width="103" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><image x="5" y="3" width="14" height="14" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsBAMAAACLU5NGAAAAD1BMVEUAAAANQRfSTpbtc6v///8Hl2ruAAAAAXRSTlMAQObYZgAAAAFiS0dEBI9o2VEAAAEYSURBVHja7dxBCoMwEEDRQE8g3qAnSOv97+aq3QRkYo0d8f2tZHzLESSlSJIkSZIk/bklUm3PPUIHsbCwsLCwsLCwsC7Lig09MCwsLCwsLCwsLKyLsE7XhD4LsLCwsLCwsLCwbsVaUoaFhYWFhYWFhYWVmvV+brT3PZ0zd7OmT3M74dU+w8LCwsLCwsLCwhrISro0Y2FhYWFhYWFhYSVkfRf3aWu9x8LCwsLCwsLCwgqw/GqNhYWFhYWFhYWFFWW5PQMLCwsLCwsLCwur/2bkXBosLCwsLCwsLCyshKwR630tx4WFhYWFhYWFhXVL1u97dBkbFhYWFhYWFhYWVh5Wn6+Ws8PCwsLCwsLCwsLKw5IkSZIkSepoBXqlnU9WJ5gOAAAAAElFTkSuQmCC"/><a target="_blank" href="https://home.omg.lol/referred-by/8bit"><rect width="68" x="19" height="20" fill="rgba(0,0,0,0)"/><text aria-hidden="true" x="435" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="410">omg.lol</text><text x="435" y="140" transform="scale(.1)" fill="#fff" textLength="410">omg.lol</text></a><a target="_blank" href="https://{{ site.omglol_username }}.{{ site.domain }}/"><rect width="35" x="68" height="20" fill="rgba(0,0,0,0)"/><text aria-hidden="true" x="845" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="250">mijo</text><text x="845" y="140" transform="scale(.1)" fill="#fff" textLength="250">mijo</text></a></g></svg>
                                 </li>
                                 <li class="list-inline-item">
                                     <a rel="me noreferrer noopener" href="{{ site.discord_profile }}" target="_blank">
@@ -171,23 +164,28 @@
                         <div class="col-12 text-center">
                             <ul id="social" class="list-inline mt-0">
                                 <li class="list-inline-item">
-                                    <a rel="me noreferrer noopener" href="{{ site.mastodon_url }}" data-toggle="tooltip" data-placement="top" aria-label="Sígueme en Mastodon" title="Sígueme en Mastodon" target="_blank">
+                                    <a rel="me noreferrer noopener" href="{{ site.mastodon_url }}" data-toggle="tooltip" data-placement="top" aria-label="Mastodon" title="Mastodon" target="_blank">
                                         <i class="fa-brands fa-mastodon"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a rel="me noreferrer noopener" href="{{ site.bluesky_url }}" data-toggle="tooltip" data-placement="top" aria-label="Sígueme en Bluesky" title="Sígueme en Bluesky" target="_blank">
+                                    <a rel="me noreferrer noopener" href="{{ site.bluesky_url }}" data-toggle="tooltip" data-placement="top" aria-label="Bluesky" title="Bluesky" target="_blank">
                                         <i class="fa-brands fa-bluesky"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a rel="me noreferrer noopener" href="{{ site.instagram_url }}" data-toggle="tooltip" data-placement="top" aria-label="Sígueme en Instagram" title="Sígueme en Instagram" target="_blank">
+                                    <a rel="me noreferrer noopener" href="{{ site.instagram_url }}" data-toggle="tooltip" data-placement="top" aria-label="Instagram" title="Instagram" target="_blank">
                                         <i class="fa-brands fa-instagram"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a rel="me noreferrer noopener" href="{{ site.discord_profile }}" data-toggle="tooltip" data-placement="top" aria-label="Contáctame vía Discord" title="Contáctame vía Discord" target="_blank">
+                                    <a rel="me noreferrer noopener" href="{{ site.discord_profile }}" data-toggle="tooltip" data-placement="top" aria-label="Discord" title="Discord" target="_blank">
                                         <i class="fa-brands fa-discord"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="/subscribe/" data-toggle="tooltip" data-placement="top" aria-label="RSS" title="RSS">
+                                        <i class="fa-solid fa-rss"></i>
                                     </a>
                                 </li>
                             </ul>

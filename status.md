@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Estatus
-description: Todos mis estatus en un solo lugar. Reflexiones cortas, lo que estoy escuchando, lo que siento, lo que pasa por mi cabeza. Una especie de diario minimalista en tiempo real.
+description: Todos mis estatus en un solo lugar. Lo que está pasando, lo que estoy pensando, lo que estoy sintiendo. Todo en esto en tiempo real.
 image: /assets/images/logo.png
 tags: [status, statuslog, thoughts, status-archivo, estatus, estatus-archivo]
 permalink: /status/

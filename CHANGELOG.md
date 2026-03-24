@@ -8,6 +8,18 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.74.2`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.74.1...v2.74.2) - 2026-03-24
+
+- Actualizar CHANGELOG [`c6f7596`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c6f75965cec15a536b34bb65def9b828daa96c26)
+- Implementar Web Audio API [`e026615`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e026615be4b36a684ffa24a240a06bc41fa862c0)
+- Desactivar tooltips en dispositivos touch [`be7f999`](https://github.com/luiscarlospando/luiscarlospando.com/commit/be7f9991d06b867041624f0239093015a3693637)
+- Desactivar tooltips en dispositivos touch [`75a01be`](https://github.com/luiscarlospando/luiscarlospando.com/commit/75a01be3a72e1c8c0bc8aef50120f6b44f509cd2)
+- Quitar bagde Octorphes [`c8ca3f7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c8ca3f724e73fb9f7dfa4e5526df382244628f93)
+- Deply v2.74.2 [`f694f2a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f694f2a9c91bca3cdc1641eb60c83e3eb0715973)
+- Update logo container div in header.html [`0ae2a47`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0ae2a47dc996ffffeb72d7ce8ce40e217abec489)
+- Update status.md [`a4bd51c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a4bd51caa7e77a16066d3715cbea8d4a29cff9c0)
+- Update status.md [`798ac69`](https://github.com/luiscarlospando/luiscarlospando.com/commit/798ac698c249ee4a76beff23bededb7360df156f)
+
 ## [`v2.74.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.74.0...v2.74.1) - 2026-03-14
 
 - Implementar Fluent Emojis [`e11a7c8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e11a7c8004ba72073b1b8e75ef6e2b20a5385db7)

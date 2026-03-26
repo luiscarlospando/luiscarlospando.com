@@ -30,7 +30,7 @@ permalink: /live/
 <div class="row">
 <div class="col text-center">
 <a id="btn-heymijotv" class="btn btn-primary" href="{{ site.twitch_url }}" rel="me noreferrer noopener" target="_blank">
-<i class="fa-solid fa-external-link-alt" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i> Ver directamente en Twitch
+<i class="fa-brands fa-twitch" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i> Ver directamente en Twitch
 </a>
 </div>
 </div>

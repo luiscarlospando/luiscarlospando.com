@@ -17,7 +17,7 @@ last-modified-at: <span id="last-updated-at">2026-01-29 11:26:00</span>
 <p class="text-center">{{ page.description }}</p>
 
 <p class="text-center">
-[Aquí está lo que estoy jugando actualmente][1].
+[Ve lo que estoy jugando actualmente][1].
 </p>
 
 <details>

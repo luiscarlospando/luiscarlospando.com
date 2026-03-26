@@ -15,4 +15,4 @@ permalink: /links/
     </a>
 </p>
 
-<ul id="links"></ul>
+<ul id="links" class="list-unstyled"></ul>

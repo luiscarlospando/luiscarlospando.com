@@ -236,7 +236,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
     </li>
 </ul>
 
-<ul id="latest-posts"></ul>
+<ul id="latest-posts" class="list-unstyled mb-4"></ul>
 
 <a class="btn btn-primary" href="{{ site.blog_url }}">
     <i class="fa-solid fa-list-ul"></i> Ver todos
@@ -255,7 +255,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
     </li>
 </ul>
 
-<ul id="bookmarks"></ul>
+<ul id="bookmarks" class="list-unstyled mb-4"></ul>
 
 <a class="btn btn-primary" href="https://{{ site.domain }}/links/">
     <i class="fa-solid fa-list-ul"></i> Ver todos

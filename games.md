@@ -5,7 +5,7 @@ description: Esto es lo que ando jugando actualmente y mis perfiles de Discord, 
 image: /assets/images/logo-games.png
 tags: [games, video-games, current-games, currently-playing]
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2026-03-25 23:54:00</span>
+last-modified-at: <span id="last-updated-at">2026-03-25 23:58:00</span>
 ---
 
 <p class="text-center">
@@ -50,15 +50,15 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <ul class="list-unstyled">
 <li class="mb-4">
 
-<a class="btn btn-primary btn-lg" href="https://discord.gg/U77J5c6" target="_blank">
+<a class="btn btn-primary" href="https://discord.gg/U77J5c6" target="_blank">
 <i class="fa-brands fa-discord"></i> Discord
 </a>
 
 </li>
 <li>
 
-<a class="btn btn-primary btn-lg" href="/live/">
-<i class="fa-brands fa-discord"></i> Stream en vivo
+<a class="btn btn-primary" href="/live/">
+<i class="fa-brands fa-twitch"></i> Stream en vivo
 </a>
 
 </li>
@@ -90,7 +90,7 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <ul class="list-unstyled">
 <li>
 
-<a class="btn btn-primary btn-lg" href="https://discord.gg/NUSDKeJ" rel="noreferrer noopener" target="_blank">
+<a class="btn btn-primary" href="https://discord.gg/NUSDKeJ" rel="noreferrer noopener" target="_blank">
 <i class="fa-brands fa-discord"></i> Discord
 </a>
 

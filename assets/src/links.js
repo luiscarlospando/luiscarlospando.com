@@ -146,17 +146,21 @@ async function fetchBookmarksJSON() {
 // Extract all unique tags from the full dataset, sorted alphabetically.
 // Items without a `tags` array (or with an empty one) are simply skipped.
 function extractAllTags(items) {
-    const tagSet = new Set();
+    const tagMap = new Map();
     items.forEach((item) => {
         if (Array.isArray(item.tags)) {
             item.tags.forEach((tag) => {
                 if (tag && tag.trim() !== "") {
-                    tagSet.add(tag.trim());
+                    const t = tag.trim();
+                    tagMap.set(t, (tagMap.get(t) || 0) + 1);
                 }
             });
         }
     });
-    return Array.from(tagSet).sort((a, b) => a.localeCompare(b));
+    // Return them alphabetically sorted
+    return new Map(
+        [...tagMap.entries()].sort((a, b) => a[0].localeCompare(b[0]))
+    );
 }
 
 // Return items that match the active tag; if no tag is selected return everything.
@@ -173,10 +177,10 @@ function getFilteredItems() {
 // Looks for a container with id="tag-filters".
 // If it doesn't exist yet it is created and injected right before #links.
 function renderTagFilters() {
-    const tags = extractAllTags(allItems);
+    const tagMap = extractAllTags(allItems); // it's now a map
 
     // If there are no tags at all, don't render anything
-    if (tags.length === 0) {
+    if (tagMap.size === 0) {
         console.log("📌 No tags found – tag filter bar will not be rendered.");
         return;
     }
@@ -189,21 +193,20 @@ function renderTagFilters() {
     if (!container) {
         container = document.createElement("div");
         container.id = "tag-filters";
-        // Insert the bar right before the <ul id="links">
         linksElement.parentNode.insertBefore(container, linksElement);
     }
 
     // "Todos" is active when no tag is selected
     const allActiveClass = !activeTag ? " active" : "";
 
-    const tagButtons = tags
-        .map((tag) => {
+    const tagButtons = [...tagMap.entries()]
+        .map(([tag, count]) => {
             const isActive = activeTag === tag ? " active" : "";
             return `<button
                 class="badge badge-custom${isActive}"
                 data-tag="${tag}"
                 aria-pressed="${activeTag === tag}"
-            >${tag}</button>`;
+            >${tag} (${count})</button>`;
         })
         .join("");
 
@@ -213,12 +216,11 @@ function renderTagFilters() {
                 class="badge badge-custom${allActiveClass}"
                 data-tag=""
                 aria-pressed="${!activeTag}"
-            >Todos</button>
+            >Todos (${allItems.length})</button>
             ${tagButtons}
         </div>`;
 
-    // Single delegated listener on the container so we don't stack listeners
-    // on every re-render.  Remove any previous one first.
+    // Re-attach listener
     const freshContainer = document.getElementById("tag-filters");
     const clone = freshContainer.cloneNode(true);
     freshContainer.parentNode.replaceChild(clone, freshContainer);
@@ -233,7 +235,7 @@ function renderTagFilters() {
         if (tag === activeTag) return;
 
         activeTag = tag;
-        currentPage = 1; // Reset to page 1 whenever the filter changes
+        currentPage = 1; // reset to page 1 whenever the filter changes
 
         // Rebuild filtered set, re-render everything
         filteredItems = getFilteredItems();
@@ -244,7 +246,7 @@ function renderTagFilters() {
     });
 
     console.log(
-        `📌 Tag filter bar rendered with ${tags.length} tags. Active: "${activeTag || "Todos"}"`
+        `📌 Tag filter bar rendered with ${tagMap.size} tags. Active: "${activeTag || "Todos"}"`
     );
 }
 

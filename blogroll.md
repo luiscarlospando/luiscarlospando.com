@@ -5,7 +5,7 @@ description: Esta es mi colección personal de blogs y websites favoritos, los q
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-02-20 13:10:00</span>
+last-modified-at: <span id="last-updated-at">2026-03-26 11:34:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -92,32 +92,26 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 | Andy Bell | [bell.bz](https://bell.bz/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://bell.bz/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Anh | [anhvn.com](https://anhvn.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://anhvn.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | BinaryDigit | [binarydigit.dev](https://binarydigit.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://binarydigit.dev/feed/?type=rss/){:target="_blank" rel="noopener" .rss-link} |
-| Brandon | [krrd.ing](https://krrd.ing/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://krrd.ing/rss/){:target="_blank" rel="noopener" .rss-link} |
 | Cory Dransfeldt | [coryd.dev](https://www.coryd.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.coryd.dev/feeds/all.xml){:target="_blank" rel="noopener" .rss-link} |
 | Dave Rupert | [daverupert.com](https://daverupert.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://daverupert.com/atom.xml){:target="_blank" rel="noopener" .rss-link} |
 | Derek Sivers | [sive.rs](https://sive.rs/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://sive.rs/en.atom){:target="_blank" rel="noopener" .rss-link} |
-| Eva Decker | [eva.town](https://eva.town/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://eva.town/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 | Frills | [frills.dev](https://frills.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://frills.dev/all.xml){:target="_blank" rel="noopener" .rss-link} |
-| gobino's bites | [gobino.be](https://gobino.be/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://gobino.be/feed/){:target="_blank" rel="noopener" .rss-link} |
 | James' Coffee Blog | [jamesg.blog](https://jamesg.blog/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://subscribeopenly.net/subscribe/?url=https://jamesg.blog/feeds/posts.xml){:target="_blank" rel="noopener" .rss-link} |
 | Jarrod Blundy | [heydingus.net](https://heydingus.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://heydingus.net/feed.rss){:target="_blank" rel="noopener" .rss-link} |
 | Jason Burk | [grepjason.sh](https://grepjason.sh/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://grepjason.sh/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 | Jason White | [jasonwhite.us](https://jasonwhite.us/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://jasonwhite.us/index.xml){:target="_blank" rel="noopener" .rss-link} |
 | JCProbably | [jeddacp.com](https://jeddacp.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://notes.jeddacp.com/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
-| Jim Nielsen | [blog.jim-nielsen.com](https://blog.jim-nielsen.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blog.jim-nielsen.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
-| Jose Munoz | [josemunozmatos.com](https://www.josemunozmatos.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://www.josemunozmatos.com/blog/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 | Keenan (A Very Good Blog) | [gkeenan.co/avgb](https://gkeenan.co/avgb/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://gkeenan.co/avgb/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Kev Quirk | [kevquirk.com](https://kevquirk.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://kevquirk.com/feed){:target="_blank" rel="noopener" .rss-link} |
+| Ky Decker | [ky.fyi](https://ky.fyi/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://ky.fyi/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 | Lean Rada | [leanrada.com](https://leanrada.com/){:target="_blank" rel="noopener"} | |
 | Limes.pink | [limes.pink](https://limes.pink/){:target="_blank" rel="noopener"} | |
 | LMNT | [lmnt.me](https://lmnt.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://lmnt.me/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Nick Simson | [nicksimson.com](https://www.nicksimson.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.nicksimson.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Robb Knight | [rknight.me](https://rknight.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://rknight.me/subscribe/posts/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 | Robert Birming | [robertbirming.com](https://robertbirming.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://robertbirming.com/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
-| Sophie Koonin | [localghost.dev](https://localghost.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://localghost.dev/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Stephanie Vee | [stephvee.ca](https://stephvee.ca/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://stephvee.ca/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Tom (ttntm) | [ttntm.me](https://ttntm.me/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://ttntm.me/everything.xml){:target="_blank" rel="noopener" .rss-link} |
-| Zachary Kai | [zacharykai.net](https://zacharykai.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://zacharykai.net/assets/rss.xml){:target="_blank" rel="noopener" .rss-link} |
 
 </div>
 
@@ -130,9 +124,10 @@ Estos son algunos directorios de blogs y sitios.
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
+| ¡Blog!¡Blog! | [blogblog.es](https://blogblog.es/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blogsencastellano.wordpress.com/feed/){:target="_blank" rel="noopener" .rss-link} |
 | Ye Olde Blogroll | [blogroll.org](https://blogroll.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blogroll.org/feed){:target="_blank" rel="noopener" .rss-link} |
 | powRSS | [powrss.com](https://powrss.com/){:target="_blank" rel="noopener"} | |
-| ¡Blog!¡Blog! | [blogblog.es](https://blogblog.es/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blogsencastellano.wordpress.com/feed/){:target="_blank" rel="noopener" .rss-link} |
+| url.town | [url.town](https://url.town/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://url.town/rss){:target="_blank" rel="noopener" .rss-link} |
 
 </div>
 
@@ -155,7 +150,7 @@ Noticias, podcasts y artículos sobre videojuegos.
 ---
 
 ## <i id="musica" class="fa-solid fa-music"></i> Música
-Algunos blogs de música que me gusta leer.
+Algunos blogs de música que me gustan.
 
 <div class="table-responsive">
 
@@ -186,7 +181,6 @@ Noticias sobre cultura general, lifestyle, tecnología, gadgets, etc.
 | Daring Fireball | [daringfireball.net](https://daringfireball.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://daringfireball.net/feeds/main){:target="_blank" rel="noopener" .rss-link} |
 | Jason Kottke | [kottke.org](https://kottke.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.kottke.org/main){:target="_blank" rel="noopener" .rss-link} |
 | MacStories | [macstories.net](https://macstories.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.macstories.net/feed/){:target="_blank" rel="noopener" .rss-link} |
-| The Verge | [theverge.com](https://theverge.com/){:target="_blank" rel="noopener"} | |
 
 </div>
 
@@ -281,6 +275,7 @@ Podcasts que escucho actualmente.
 | Artemio Urbina | [@ArtemioUrbina](https://www.youtube.com/@ArtemioUrbina){:target="_blank" rel="noopener" .youtube-link} |
 | BRCDEvg | [@BRCDEvg](https://www.youtube.com/@BRCDEvg){:target="_blank" rel="noopener" .youtube-link} |
 | Cinemassacre | [@JamesNintendoNerd](https://www.youtube.com/@JamesNintendoNerd){:target="_blank" rel="noopener" .youtube-link} |
+| EmWins | [@EmWins](https://www.youtube.com/@Em_Wins){:target="_blank" rel="noopener" .youtube-link} |
 | Famicom Dojo | [@FamicomDojo](https://www.youtube.com/@FamicomDojo){:target="_blank" rel="noopener" .youtube-link} |
 | Game Maker's Toolkit | [@GMTK](https://www.youtube.com/@GMTK){:target="_blank" rel="noopener" .youtube-link} |
 | Happy Console Gamer | [@HappyConsoleGamer](https://www.youtube.com/@HappyConsoleGamer){:target="_blank" rel="noopener .youtube-link"} |

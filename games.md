@@ -5,7 +5,7 @@ description: Esto es lo que ando jugando actualmente y mis perfiles de Discord, 
 image: /assets/images/logo-games.png
 tags: [games, video-games, current-games, currently-playing]
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2026-03-25 23:58:00</span>
+last-modified-at: <span id="last-updated-at">2026-03-26 00:01:00</span>
 ---
 
 <p class="text-center">
@@ -104,7 +104,7 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <div class="row">
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
-<li class="mb-4">
+<li class="mb-5">
 
 <a href="https://backloggd.com/games/sonic-the-hedgehog-3/" rel="noreferrer noopener" target="_blank">
 <img class="enlarge-transition rounded img-fluid mb-2" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1zut.jpg" alt="Sonic the Hedgehog 3 (Nintendo Switch)" width="100">

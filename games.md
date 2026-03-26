@@ -5,7 +5,7 @@ description: Esto es lo que ando jugando actualmente y mis perfiles de Discord, 
 image: /assets/images/logo-games.png
 tags: [games, video-games, current-games, currently-playing]
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2026-03-25 23:44:00</span>
+last-modified-at: <span id="last-updated-at">2026-03-25 23:54:00</span>
 ---
 
 <p class="text-center">
@@ -47,9 +47,22 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 </ul>
 </div>
 <div class="col-md-6 my-auto">
+<ul class="list-unstyled">
+<li class="mb-4">
+
 <a class="btn btn-primary btn-lg" href="https://discord.gg/U77J5c6" target="_blank">
 <i class="fa-brands fa-discord"></i> Discord
 </a>
+
+</li>
+<li>
+
+<a class="btn btn-primary btn-lg" href="/live/">
+<i class="fa-brands fa-discord"></i> Stream en vivo
+</a>
+
+</li>
+</ul>
 </div>
 </div>
 
@@ -74,9 +87,15 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 </ul>
 </div>
 <div class="col-md-6 my-auto">
+<ul class="list-unstyled">
+<li>
+
 <a class="btn btn-primary btn-lg" href="https://discord.gg/NUSDKeJ" rel="noreferrer noopener" target="_blank">
 <i class="fa-brands fa-discord"></i> Discord
 </a>
+
+</li>
+</ul>
 </div>
 </div>
 
@@ -192,5 +211,3 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 [2]: #nintendo-switch
 [3]: {{ site.backloggd_url }}
 [4]: /games/favorites/
-[5]: /games/mario-kart/
-[6]: /games/splatoon/

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Apoya mi sitio
+title: Apóyame
 description: Este sitio es un hobby para mi y no espero ganar dinero de él realmente. Tampoco es necesario que me ayudes de alguna manera, pero si te gusta lo que hago aquí, eres libre de apoyarme con lo que gustes.
 image: /assets/images/logo.png
 tags: [support, support-me, apoyo, apóyame, buy-me-a-coffee]

@@ -8,6 +8,36 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.74.3`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.74.2...v2.74.3) - 2026-03-26
+
+- Actualzar blogroll [`526e2c2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/526e2c2072327592ce8442e3dbd022453080e490)
+- Reemplazar Reeder por Current [`8de5540`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8de55404a31aefaf07d3c7551cd0c2dea7a3b152)
+- Mejorar markup [`bf079cf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/bf079cf6aed7a597ad0b16604d070e7bcdd68d03)
+- Organizar código [`5f83147`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5f8314760f1d181b473363504c759e764c2aab13)
+- Mostrar contador de elementos en los botones de filtrado [`71df105`](https://github.com/luiscarlospando/luiscarlospando.com/commit/71df105841dea4d6c7d3d80a353b5d945b9e6ee9)
+- Mejorar markup [`3f51fdd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3f51fdd15d1a39658933eef4f86305ad31bceba3)
+- Mejorar markup [`e6755e9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e6755e965e018474b2defebaa96bc301d3b04881)
+- Reorganizar bardges [`cd525c9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cd525c940b97ffae71fbbda606c8d3cac2bb4c99)
+- Actualizar juegos [`ded8b5d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ded8b5d6b62f081c2823c9dd816696cd1a2cabf2)
+- Reorganizar bardges [`dc25425`](https://github.com/luiscarlospando/luiscarlospando.com/commit/dc254259094731a331c6e5a2d73ff6a9721c83ae)
+- Actualizar CHANGELOG [`8911a6f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8911a6fe253f10d86d760b876473bf45e3742b2a)
+- Mejorar markup [`cb351bd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cb351bde9453a5cb7f41975bf243df713231fd1c)
+- Update footer.html [`0169e5e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0169e5e0120723613bf9d4aab010ca01c14c965b)
+- Reorganizar bardges [`497f307`](https://github.com/luiscarlospando/luiscarlospando.com/commit/497f3075237991c6281c861feaa9ad7d597768be)
+- Quitar bullets [`2569464`](https://github.com/luiscarlospando/luiscarlospando.com/commit/256946482d92f14ec8a5537e96ca52b3593908a7)
+- Mejorar markup [`9dca309`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9dca309761ed188f8ac579a5cf9d764d1efb27ac)
+- Actualizar ícono de botón Ver directamente en Twitch [`c1dc8aa`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c1dc8aa68b617d3e0ff2da6d83ffcba62326adaf)
+- Ajustar mensajes de error [`6f7e2dd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6f7e2dd1557296cb23a51a762593863550569fe7)
+- Poner badge url.town [`8e3ff8d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8e3ff8d9b4a81a9d6f6b768d4c9e971addf3d35f)
+- Deploy v2.74.3 [`846ec8f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/846ec8f2f79ba235db0cc8300c38a05e5dccc44a)
+- Priorizar utility class .me-2 [`0eee450`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0eee450246be3b7b584046911db53a2f06f4cf4d)
+- Actualizar título [`b28f101`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b28f10166ee0df9f9a58076035289f6da28b893b)
+- Cambiar texto de botón de apoyo [`b0eff6f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b0eff6fa8b835e6b9d0a4472c23974ecfa0c3d4b)
+- Reorganizar bardges [`6944e12`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6944e12db3658738f4ac20990f90686db32ef6e1)
+- Reorganizar bardges [`7032974`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7032974af6106166f09c69f0042568479958bfbf)
+- Mejorar markup [`91c30f4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/91c30f49e902845e60aa675268cd07b5e7a7e677)
+- Agregar ícono de Current [`dc1e733`](https://github.com/luiscarlospando/luiscarlospando.com/commit/dc1e733099f299fd88de65c6633ae3e135675f0b)
+
 ## [`v2.74.2`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.74.1...v2.74.2) - 2026-03-24
 
 - Actualizar CHANGELOG [`c6f7596`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c6f75965cec15a536b34bb65def9b828daa96c26)

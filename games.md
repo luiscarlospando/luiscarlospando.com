@@ -5,7 +5,7 @@ description: Esto es lo que ando jugando actualmente y mis perfiles de Discord, 
 image: /assets/images/logo-games.png
 tags: [games, video-games, current-games, currently-playing]
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2026-03-25 23:40:00</span>
+last-modified-at: <span id="last-updated-at">2026-03-25 23:44:00</span>
 ---
 
 <p class="text-center">
@@ -29,13 +29,13 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <div class="row">
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
-<li class="mb-2">
+<li>
 
 <a href="/games/mario-kart/">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213p.jpg" alt="Mario Kart 8 Deluxe" width="100">
+<img class="enlarge-transition rounded img-fluid mb-2" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213p.jpg" alt="Mario Kart 8 Deluxe" width="100">
 </a>
 
-<a class="d-block" href="/games/mario-kart/">
+<a class="d-block mb-3" href="/games/mario-kart/">
 <em>Mario Kart 8 Deluxe</em>
 </a>
 
@@ -58,13 +58,13 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <div class="row">
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
-<li class="mb-2">
+<li>
 
 <a href="/games/splatoon/">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" alt="Splatoon 3" width="100">
+<img class="enlarge-transition rounded img-fluid mb-2" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" alt="Splatoon 3" width="100">
 </a>
 
-<a class="d-block" href="/games/splatoon/">
+<a class="d-block mb-3" href="/games/splatoon/">
 <em>Splatoon 3</em>
 </a>
 
@@ -85,10 +85,10 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <div class="row">
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
-<li class="mb-2">
+<li class="mb-4">
 
 <a href="https://backloggd.com/games/sonic-the-hedgehog-3/" rel="noreferrer noopener" target="_blank">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1zut.jpg" alt="Sonic the Hedgehog 3 (Nintendo Switch)" width="100">
+<img class="enlarge-transition rounded img-fluid mb-2" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1zut.jpg" alt="Sonic the Hedgehog 3 (Nintendo Switch)" width="100">
 </a>
 
 <a class="d-block" href="https://backloggd.com/games/sonic-the-hedgehog-3/" rel="noreferrer noopener" target="_blank">
@@ -97,10 +97,10 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 
 </li>
 
-<li class="mb-2">
+<li>
 
 <a href="https://backloggd.com/games/doom/" rel="noreferrer noopener" target="_blank">
-<img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6vy5.jpg" alt="Doom (Nintendo Switch)" width="100">
+<img class="enlarge-transition rounded img-fluid mb-2" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6vy5.jpg" alt="Doom (Nintendo Switch)" width="100">
 </a>
 
 <a class="d-block" href="https://backloggd.com/games/doom/" rel="noreferrer noopener" target="_blank">

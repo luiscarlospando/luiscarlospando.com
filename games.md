@@ -189,7 +189,7 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 </div>
 </div>
 <ul class="list-inline mt-4">
-<li class="list-inline-item">
+<li class="list-inline-item mb-2 mb-sm-0">
 <a class="btn btn-primary btn-sm" href="https://lounge.nintendo.com/friendcode/3920-3330-9820/DLkJcWQ1L6" rel="me noreferrer noopener" target="_blank">
 <i class="fa-solid fa-user-plus"></i> Agrégame como amigo
 </a>

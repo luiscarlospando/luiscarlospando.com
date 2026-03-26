@@ -115,7 +115,6 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 </a>
 
 </li>
-
 <li>
 
 <a href="https://backloggd.com/games/doom/" rel="noreferrer noopener" target="_blank">

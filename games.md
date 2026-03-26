@@ -5,7 +5,7 @@ description: Esto es lo que ando jugando actualmente y mis perfiles de Discord, 
 image: /assets/images/logo-games.png
 tags: [games, video-games, current-games, currently-playing]
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2026-03-25 23:26:00</span>
+last-modified-at: <span id="last-updated-at">2026-03-25 23:40:00</span>
 ---
 
 <p class="text-center">
@@ -30,20 +30,19 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li class="mb-2">
+
 <a href="/games/mario-kart/">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213p.jpg" alt="Mario Kart 8 Deluxe" width="100">
 </a>
-</li>
-<li>
-<a href="/games/mario-kart/">
+
+<a class="d-block" href="/games/mario-kart/">
 <em>Mario Kart 8 Deluxe</em>
 </a>
-</li>
-<li>
-Mode 7 Grand Prix todos los jueves @ 9:00 pm (hora central de México)
-</li>
-<li>
-Código del torneo: <code>{{ site.m7gp_code }}</code>
+
+<p>Mode 7 Grand Prix todos los jueves @ 9:00 pm (hora central de México)</p>
+
+<p>Código del torneo: <code>{{ site.m7gp_code }}</code></p>
+
 </li>
 </ul>
 </div>
@@ -60,17 +59,17 @@ Código del torneo: <code>{{ site.m7gp_code }}</code>
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li class="mb-2">
+
 <a href="/games/splatoon/">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59x3.jpg" alt="Splatoon 3" width="100">
 </a>
-</li>
-<li>
-<a href="/games/splatoon/">
+
+<a class="d-block" href="/games/splatoon/">
 <em>Splatoon 3</em>
 </a>
-</li>
-<li>
-Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a eso de las 9:00 pm, hora central de México)
+
+<p>Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a eso de las 9:00 pm, hora central de México)</p>
+
 </li>
 </ul>
 </div>
@@ -86,28 +85,29 @@ Partidas de <em>Splatoon 3</em>, días aleatorios por la noche (generalmente a e
 <div class="row">
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
-   
 <li class="mb-2">
+
 <a href="https://backloggd.com/games/sonic-the-hedgehog-3/" rel="noreferrer noopener" target="_blank">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1zut.jpg" alt="Sonic the Hedgehog 3 (Nintendo Switch)" width="100">
 </a>
-</li>
-<li>
-<a href="https://backloggd.com/games/sonic-the-hedgehog-3/" rel="noreferrer noopener" target="_blank">
+
+<a class="d-block" href="https://backloggd.com/games/sonic-the-hedgehog-3/" rel="noreferrer noopener" target="_blank">
 <em>Sonic the Hedgehog 3 (Nintendo Switch)</em>
 </a>
+
 </li>
+
 <li class="mb-2">
+
 <a href="https://backloggd.com/games/doom/" rel="noreferrer noopener" target="_blank">
 <img class="enlarge-transition rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6vy5.jpg" alt="Doom (Nintendo Switch)" width="100">
 </a>
-</li>
-<li>
-<a href="https://backloggd.com/games/doom/" rel="noreferrer noopener" target="_blank">
+
+<a class="d-block" href="https://backloggd.com/games/doom/" rel="noreferrer noopener" target="_blank">
 <em>Doom (Nintendo Switch)</em>
 </a>
-</li>
 
+</li>
 </ul>
 </div>
 <div class="col-md-6 my-auto text-monospace">

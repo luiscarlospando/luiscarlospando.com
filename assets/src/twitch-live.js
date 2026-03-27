@@ -1,6 +1,6 @@
 // Function to fetch live status from your serverless function
 async function checkLiveStatus() {
-    const liveAlert = document.getElementById("heymijotv-live-alert");
+    const liveAlert = document.getElementById("live-alert");
 
     // Skip everything if we're already on the /live page
     const currentPath = window.location.pathname;

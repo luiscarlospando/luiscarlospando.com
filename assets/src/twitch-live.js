@@ -1,6 +1,6 @@
 // Function to fetch live status from your serverless function
 async function checkLiveStatus() {
-    const heymijotvLiveAlert = document.getElementById("heymijotv-live-alert");
+    const liveAlert = document.getElementById("heymijotv-live-alert");
 
     // Skip everything if we're already on the /live page
     const currentPath = window.location.pathname;
@@ -10,8 +10,8 @@ async function checkLiveStatus() {
         currentPath === "/live/" ||
         currentPath.endsWith("/live")
     ) {
-        if (heymijotvLiveAlert) {
-            heymijotvLiveAlert.style.display = "none";
+        if (liveAlert) {
+            liveAlert.style.display = "none";
         }
         return; // Don't even call the API
     }
@@ -29,9 +29,9 @@ async function checkLiveStatus() {
         console.log(data);
 
         if (data.data && data.data.length > 0) {
-            heymijotvLiveAlert.style.display = "block";
+            liveAlert.style.display = "block";
         } else {
-            heymijotvLiveAlert.style.display = "none";
+            liveAlert.style.display = "none";
         }
     } catch (error) {
         console.error("Error fetching live status:", error);

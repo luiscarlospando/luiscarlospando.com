@@ -19,17 +19,12 @@ import { initStatusManager } from "./statuslog.js";
 
         // Animate.css
         const header = document.querySelector("header");
-        const heymijotvLiveHeader = document.getElementById(
-            "heymijotv-live-alert"
-        );
+        const liveHeader = document.getElementById("live-alert");
         const siteBody = document.querySelector(".site-body");
         const footer = document.querySelector("footer");
 
         setTimeout(() => header?.classList.add("animated", "fadeInDown"), 800);
-        setTimeout(
-            () => heymijotvLiveHeader?.classList.add("animated", "fadeIn"),
-            1800
-        );
+        setTimeout(() => liveHeader?.classList.add("animated", "fadeIn"), 1800);
         siteBody?.classList.add("animated", "fadeIn");
         footer?.classList.add("animated", "fadeIn");
 

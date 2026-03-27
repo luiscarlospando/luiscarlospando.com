@@ -25,6 +25,12 @@ function Navigation() {
             subButtons: [],
         },
         {
+            id: "other-estatus",
+            url: "https://luiscarlospando.com/status/",
+            icon: "fa-solid fa-clock",
+            text: "Estatus",
+        },
+        {
             id: "live",
             url: "https://luiscarlospando.com/live/",
             icon: "fa-solid fa-video",
@@ -240,16 +246,16 @@ function Navigation() {
                     text: "Fotos",
                 },
                 {
+                    id: "subscribe-status",
+                    url: "https://subscribeopenly.net/subscribe/?url=https://mijo.status.lol/feed/rss",
+                    icon: "fa-solid fa-square-rss",
+                    text: "Estatus",
+                },
+                {
                     id: "subscribe-links",
                     url: "https://subscribeopenly.net/subscribe/?url=https://bg.raindrop.io/rss/public/50598757",
                     icon: "fa-solid fa-square-rss",
                     text: "Links",
-                },
-                {
-                    id: "subscribe-statuslog",
-                    url: "https://subscribeopenly.net/subscribe/?url=https://mijo.status.lol/feed/rss",
-                    icon: "fa-solid fa-square-rss",
-                    text: "Statuslog",
                 },
                 {
                     id: "subscribe-crucial-tracks",
@@ -277,12 +283,6 @@ function Navigation() {
             icon: "fa-solid fa-ellipsis",
             text: "Otros",
             subButtons: [
-                {
-                    id: "other-estatus",
-                    url: "https://luiscarlospando.com/status/",
-                    icon: "fa-solid fa-clock",
-                    text: "Estatus",
-                },
                 {
                     id: "other-top4",
                     url: "https://luiscarlospando.com/top4/",

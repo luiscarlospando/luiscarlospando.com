@@ -82,6 +82,26 @@ Este es el feed donde comparto mis fotos.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
+<a href="{{ site.blog_url }}/status/" rel="me"
+    🕒 Estatus
+</a>
+</li>
+<li>
+    Sigue mis actualizaciones en tiempo real para ver en que ando actualmente.
+</li>
+</ul>
+</div>
+<div class="col-md-6 my-auto">
+<a class="btn btn-primary" href="{{ site.statuslog_feed }}" rel="me noopener">
+<i class="fa-solid fa-rss"></i> Suscribirse
+</a>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-md-6 my-auto">
+<ul class="list-unstyled">
+<li>
 <a href="/links/">
     🔗 Links
 </a>
@@ -93,26 +113,6 @@ Aquí comparto mis links favoritos.
 </div>
 <div class="col-md-6 my-auto">
 <a class="btn btn-primary" href="{{ site.links_feed }}" rel="noopener">
-<i class="fa-solid fa-rss"></i> Suscribirse
-</a>
-</div>
-</div>
-<hr>
-<div class="row">
-<div class="col-md-6 my-auto">
-<ul class="list-unstyled">
-<li>
-<a href="https://status.luiscarlospando.com/" rel="me noopener" target="_blank">
-    🕒 Statuslog
-</a>
-</li>
-<li>
-    En mi Statuslog comparto lo que estoy haciendo actualmente.
-</li>
-</ul>
-</div>
-<div class="col-md-6 my-auto">
-<a class="btn btn-primary" href="{{ site.statuslog_feed }}" rel="me noopener">
 <i class="fa-solid fa-rss"></i> Suscribirse
 </a>
 </div>

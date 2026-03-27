@@ -25,7 +25,7 @@ function Navigation() {
             subButtons: [],
         },
         {
-            id: "other-estatus",
+            id: "other-status",
             url: "https://luiscarlospando.com/status/",
             icon: "fa-solid fa-clock",
             text: "Estatus",

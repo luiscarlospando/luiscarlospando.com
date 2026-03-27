@@ -170,14 +170,14 @@ Ver mis álbumes más escuchados de los últimos 30 días
             <i class="fa-solid fa-gamepad mr-2"></i> Games
           </a>
         </li>
-        <li>
+        <li class="mb-2">
           <a href="/games/favorites/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Esta es una lista de mis juegos favoritos">
             <i class="fa-solid fa-star mr-2"></i> Mis juegos favoritos
           </a>
         </li>
-        <li>
+        <li class="mb-2">
           <a href="/live/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Esta es una lista de mis juegos favoritos">

@@ -50,7 +50,7 @@ function Navigation() {
         },
         {
             id: "content-group",
-            url: "https://luiscarlospando.com/",
+            url: "https://blog.luiscarlospando.com/",
             icon: "fa-solid fa-pen",
             text: "Contenido",
             subButtons: [
@@ -75,16 +75,22 @@ function Navigation() {
             ],
         },
         {
-            id: "fun-geek-group",
+            id: "geek-games-group",
             url: "https://luiscarlospando.com/live/",
             icon: "fa-solid fa-gamepad",
-            text: "Fun/Geek",
+            text: "Geek & Games",
             subButtons: [
                 {
                     id: "games",
                     url: "https://luiscarlospando.com/games/",
                     icon: "fa-solid fa-gamepad",
                     text: "Games",
+                },
+                {
+                    id: "games-favorites",
+                    url: "https://luiscarlospando.com/games/favorites/",
+                    icon: "fa-solid fa-star",
+                    text: "Mis juegos favoritos",
                 },
                 {
                     id: "live",
@@ -97,6 +103,12 @@ function Navigation() {
                     url: "https://luiscarlospando.com/developer/",
                     icon: "fa-solid fa-code",
                     text: "Development Stuff",
+                },
+                {
+                    id: "development-keys",
+                    url: "https://luiscarlospando.com/keys/",
+                    icon: "fa-solid fa-key",
+                    text: "Llaves públicas",
                 },
             ],
         },
@@ -139,7 +151,7 @@ function Navigation() {
             ],
         },
         {
-            id: "subscribe",
+            id: "subscribe-group",
             url: "https://luiscarlospando.com/subscribe/",
             icon: "fa-solid fa-square-rss",
             text: "Suscríbete",
@@ -189,7 +201,7 @@ function Navigation() {
             ],
         },
         {
-            id: "other",
+            id: "other-group",
             url: "https://luiscarlospando.com/other/",
             icon: "fa-solid fa-ellipsis",
             text: "Otros",
@@ -211,12 +223,6 @@ function Navigation() {
                     url: "https://luiscarlospando.com/twitter/",
                     icon: "fa-brands fa-twitter",
                     text: "Twitter (Archivo de tweets)",
-                },
-                {
-                    id: "development-keys",
-                    url: "https://luiscarlospando.com/keys/",
-                    icon: "fa-solid fa-key",
-                    text: "Llaves públicas",
                 },
             ],
         },

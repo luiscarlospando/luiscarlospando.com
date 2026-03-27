@@ -170,7 +170,7 @@
    ========================================================================== */
 
 @media (min-width: 1400px) {
-    #live-alert {
+    #live #live-alert {
         position: fixed;
         right: 15px;
         top: 0;
@@ -203,7 +203,7 @@
    ========================================================================== */
 
 @media (min-width: 1600px) {
-    #live-alert {
+    header #live-alert {
         width: 300px;
     }
 

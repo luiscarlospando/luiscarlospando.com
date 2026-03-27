@@ -27,7 +27,7 @@ function Navigation() {
         {
             id: "other-status",
             url: "https://luiscarlospando.com/status/",
-            icon: "fa-solid fa-clock",
+            icon: "fa-solid fa-comment-dots",
             text: "Estatus",
             subButtons: [],
         },

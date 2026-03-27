@@ -82,7 +82,7 @@ Este es el feed donde comparto mis fotos.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="{{ site.blog_url }}/status/" rel="me">
+<a href="/status/" rel="me">
     🕒 Estatus
 </a>
 </li>

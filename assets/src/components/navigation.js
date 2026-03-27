@@ -71,26 +71,6 @@ function Navigation() {
                     url: "https://luiscarlospando.com/music/",
                     icon: "fa-solid fa-headphones",
                     text: "Música",
-                    subButtons: [
-                        {
-                            id: "blog",
-                            url: "https://luiscarlospando.com/music/",
-                            icon: "fa-solid fa-headphones",
-                            text: "Lo que escucho",
-                        },
-                        {
-                            id: "photos",
-                            url: "https://luiscarlospando.com/music/playlist/",
-                            icon: "fa-solid fa-record-vinyl",
-                            text: "Crucial Tracks",
-                        },
-                        {
-                            id: "music",
-                            url: "https://luiscarlospando.com/music/loved-tracks/",
-                            icon: "fa-solid fa-heart",
-                            text: "Canciones Favoritas",
-                        },
-                    ],
                 },
             ],
         },

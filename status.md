@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Estatus
-description: Todos mis estatus en un solo lugar. Lo que está pasando, lo que estoy pensando, lo que estoy sintiendo. Todo esto en tiempo real.
+description: Lo que está pasando, lo que estoy pensando, lo que estoy haciendo, lo que estoy sintiendo. Todo esto en tiempo real.
 image: /assets/images/logo.png
 tags: [status, statuslog, thoughts, status-archivo, estatus, estatus-archivo]
 permalink: /status/

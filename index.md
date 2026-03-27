@@ -156,10 +156,10 @@ Ver mis álbumes más escuchados de los últimos 30 días
     </nav>
   </div>
 
-  <!-- Fun/Geek -->
+  <!-- Geek & Games -->
   <div class="col-6 col-lg-3 mb-4 mb-lg-0">
     <h5 class="mb-3">
-      <i class="fa-solid fa-gamepad"></i> Fun/Geek
+      <i class="fa-solid fa-gamepad"></i> Geek & Games
     </h5>
     <nav>
       <ul class="list-unstyled mb-0">
@@ -175,6 +175,20 @@ Ver mis álbumes más escuchados de los últimos 30 días
              data-toggle="tooltip" data-placement="top"
              title="Esta es una lista de mis juegos favoritos">
             <i class="fa-solid fa-star mr-2"></i> Mis juegos favoritos
+          </a>
+        </li>
+        <li>
+          <a href="/live/" class="hub-link d-flex align-items-center"
+             data-toggle="tooltip" data-placement="top"
+             title="Esta es una lista de mis juegos favoritos">
+            <i class="fa-solid fa-video mr-2"></i> Live
+          </a>
+        </li>
+        <li>
+          <a href="/developer/" class="hub-link d-flex align-items-center"
+             data-toggle="tooltip" data-placement="top"
+             title="Esta es una lista de mis juegos favoritos">
+            <i class="fa-solid fa-code mr-2"></i> Development Stuff
           </a>
         </li>
       </ul>

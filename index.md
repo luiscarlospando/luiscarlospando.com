@@ -86,6 +86,13 @@ Ver mis álbumes más escuchados de los últimos 30 días
           </a>
         </li>
         <li class="mb-2">
+          <a href="/status/" class="hub-link d-flex align-items-center"
+             data-toggle="tooltip" data-placement="top"
+             title="Qué está pasando ahorita (micro updates)">
+            <i class="fa-solid fa-comment-dots mr-2"></i> Estatus
+          </a>
+        </li>
+        <li class="mb-2">
           <a href="/uses/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="El stack de apps que uso a diario">

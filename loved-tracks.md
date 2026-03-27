@@ -28,4 +28,12 @@ permalink: /music/loved-tracks/
     </li>
 </ul>
 
+<ul class="list-inline mb-4 text-center">
+    <li class="list-inline-item">
+        <a class="btn btn-primary btn-sm" href="https://music.apple.com/mx/playlist/canciones-favoritas-p%C3%BAblica/pl.u-84rjIN8L7V3?l=en" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-apple"></i> Escuchar este playlist en Apple Music
+        </a>
+    </li>
+</ul>
+
 <ul id="loved-tracks" class="list-unstyled"></ul>

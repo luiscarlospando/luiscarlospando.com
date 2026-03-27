@@ -65,7 +65,7 @@ export default async function handler(req, res) {
 
     const clientId = process.env.TWITCH_CLIENT_ID;
     const clientSecret = process.env.TWITCH_CLIENT_SECRET;
-    const channelName = "heymijotv";
+    const channelName = "mijostreams";
 
     if (!clientId || !clientSecret) {
         return res.status(500).json({

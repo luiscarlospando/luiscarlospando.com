@@ -29,6 +29,7 @@ function Navigation() {
             url: "https://luiscarlospando.com/status/",
             icon: "fa-solid fa-clock",
             text: "Estatus",
+            subButtons: [],
         },
         {
             id: "live",
@@ -308,9 +309,10 @@ function Navigation() {
     return (
         <ul>
             {siteButtons.map((siteButton, i) => {
-                if (siteButton.subButtons.length === 0) {
+                const subButtons = siteButton.subButtons ?? [];
+                if (subButtons.length === 0) {
                     return (
-                        <li key={i}>
+                        <li key={siteButton.id}>
                             <a href={siteButton.url}>
                                 <i className={siteButton.icon}></i>{" "}
                                 {siteButton.text}
@@ -319,14 +321,14 @@ function Navigation() {
                     );
                 } else {
                     return (
-                        <li key={i}>
+                        <li key={siteButton.id}>
                             <a href={siteButton.url}>
                                 <i className={siteButton.icon}></i>{" "}
                                 {siteButton.text}
                             </a>
                             <ul>
-                                {siteButton.subButtons.map((subButton, i) => (
-                                    <li key={i}>
+                                {subButtons.map((subButton) => (
+                                    <li key={subButton.id}>
                                         <a href={subButton.url}>
                                             <i className={subButton.icon}></i>{" "}
                                             {subButton.text}

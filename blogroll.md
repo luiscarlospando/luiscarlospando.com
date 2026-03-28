@@ -5,7 +5,7 @@ description: Esta es mi colección personal de blogs y websites favoritos, los q
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-03-28 13:45:00</span>
+last-modified-at: <span id="last-updated-at">2026-03-28 13:49:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -87,7 +87,7 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
-| Adam Newbold | [notes.neatnik.net](https://neatnik.net/){:target="_blank" rel="noopener"} | |
+| Adam Newbold | [neatnik.net](https://neatnik.net/){:target="_blank" rel="noopener"} | |
 | Ashur Cabrera | [multiline.co/mment](https://multiline.co/mment){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://multiline.co/mment/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Andy Bell | [bell.bz](https://bell.bz/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://bell.bz/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Anh | [anhvn.com](https://anhvn.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://anhvn.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |

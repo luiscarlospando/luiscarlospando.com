@@ -219,6 +219,13 @@ code {
     background-color: #222 !important;
 }
 
+/* Mark */
+mark {
+    background-color: $fifthColor;
+    border-radius: $borderRadius;
+    color: $mainColor;
+}
+
 /* ==========================================================================
    CONTENT ELEMENTS
    ========================================================================== */

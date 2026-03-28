@@ -74,7 +74,7 @@ Estoy consciente de que el IndieWeb no es para todos y no te voy a juzgar por no
 
 La única red social de la que sigo siendo prisionero es Instagram (y en cierta manera, ¿Discord?), pero es porque todos mis amigos están ahí y si me salgo, me aislaría completamente de mis amigos más cercanos.
 
-## *And... that's pretty much it!*
+## And, that's pretty much it!
 
 Y pues eso es básicamente todo. La neta gracias por llegar hasta aquí y tomarte el tiempo. Si quieres cotorrear o simplemente saludar, puedes pasar a firmar mi <s>muro 😝</s> [guestbook 📖][6] o [buscarme por aquí][7].
 

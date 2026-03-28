@@ -110,11 +110,11 @@ Al final del día, solo soy un vato de Chihuahua, apasionado y romántico del In
 
 ## Suscríbete
 
-Suscríbete a mis diferentes feeds:
+Sigue mis diferentes feeds:
 - [<i class="fas fa-rss"></i> RSS (Blog)][26]
 - [<i class="fas fa-rss"></i> RSS (Fotos)][27]
-- [<i class="fas fa-rss"></i> RSS (Links)][28]
-- [<i class="fas fa-rss"></i> RSS (Statuslog)][29]
+- [<i class="fas fa-rss"></i> RSS (Estatus)][28]
+- [<i class="fas fa-rss"></i> RSS (Links)][29]
 - [<i class="fas fa-rss"></i> RSS (Playlist)][30]
 - [<i class="fa-brands fa-mastodon"></i> Mastodon][31]{:rel="me noreferrer noopener" target="_blank"}
 - [<i class="fa-solid fa-envelope"></i> Newsletter][32]
@@ -148,11 +148,11 @@ Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. 
 [23]: https://www.deepl.com/en/translator
 [24]: https://guestbooks.meadow.cafe/
 [25]: https://buttondown.com/refer/luiscarlospando
-[26]: https://blog.{{ site.domain }}/rss/
-[27]: https://blog.{{ site.domain }}/photos/rss
-[28]: https://bg.raindrop.io/rss/public/50598757
-[29]: https://mijo.status.lol/feed/rss
-[30]: https://app.crucialtracks.org/profile/mijo/feed
+[26]: https://subscribeopenly.net/subscribe/?url=https://blog.luiscarlospando.com/rss
+[27]: https://subscribeopenly.net/subscribe/?url=https://blog.luiscarlospando.com/photos/rss
+[28]: https://subscribeopenly.net/subscribe/?url=https://mijo.status.lol/feed/rss
+[29]: https://subscribeopenly.net/subscribe/?url=https://bg.raindrop.io/rss/public/50598757
+[30]: https://subscribeopenly.net/subscribe/?url=https://app.crucialtracks.org/profile/mijo/feed
 [31]: https://hachyderm.io/@{{ site.mastodon_feed }}
 [32]: /newsletter/
 [33]: https://github.com/{{ site.github_username}}/{{ site.domain }}/issues/new

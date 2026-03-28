@@ -51,7 +51,7 @@
     <outline text="Música" title="Música">
       <outline type="rss" text="Brooklyn Vegan" title="Brooklyn Vegan" htmlUrl="https://www.brooklynvegan.com/" xmlUrl="https://www.brooklynvegan.com/feed/"/>
       <outline type="rss" text="Chorus.fm" title="Chorus.fm" htmlUrl="https://chorus.fm/" xmlUrl="https://chorus.fm/feed/"/>
-      <outline type="rss" text="Crucial Tracks" title="Crucial Tracks" htmlUrl="https://www.crucialtracks.org/" xmlUrl="https://www.crucialtracks.org/blog/feed.xml"/>
+      <outline type="rss" text="Crucial Tracks Blog" title="Crucial Tracks Blog" htmlUrl="https://www.crucialtracks.org/" xmlUrl="https://www.crucialtracks.org/blog/feed.xml"/>
       <outline type="rss" text="GORILLA VS. BEAR" title="GORILLA VS. BEAR" htmlUrl="https://www.gorillavsbear.net/" xmlUrl="https://www.gorillavsbear.net/feed/"/>
       <outline type="rss" text="Heavy Blog Is Heavy" title="Heavy Blog Is Heavy" htmlUrl="https://www.heavyblogisheavy.com/" xmlUrl="https://www.heavyblogisheavy.com/rss/"/>
       <outline type="rss" text="Metal Injection" title="Metal Injection" htmlUrl="https://metalinjection.net/" xmlUrl="https://metalinjection.net/feed"/>

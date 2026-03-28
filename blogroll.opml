@@ -16,11 +16,10 @@
       <outline type="rss" text="Mono" title="Mono" htmlUrl="https://simplemono.neocities.org/" xmlUrl="https://simplemono.neocities.org/index.xml"/>
     </outline>
     <outline text="Sitios y blogs personales (Inglés)" title="Sitios y blogs personales (Inglés)">
-      <outline type="rss" text="Adam Newbold" title="Adam Newbold" htmlUrl="https://notes.neatnik.net/" xmlUrl="https://notes.neatnik.net/rss.xml"/>
       <outline type="rss" text="Ashur Cabrera" title="Ashur Cabrera" htmlUrl="https://multiline.co/mment" xmlUrl="https://multiline.co/mment/feed.xml"/>
       <outline type="rss" text="Andy Bell" title="Andy Bell" htmlUrl="https://bell.bz/" xmlUrl="https://bell.bz/feed.xml"/>
       <outline type="rss" text="Anh" title="Anh" htmlUrl="https://anhvn.com/" xmlUrl="https://anhvn.com/feed.xml"/>
-      <outline type="rss" text="BinaryDigit" title="BinaryDigit" htmlUrl="https://binarydigit.dev/" xmlUrl="https://binarydigit.dev/feed/?type=rss/"/>
+      <outline type="rss" text="BinaryDigit" title="BinaryDigit" htmlUrl="https://binarydigit.dev/" xmlUrl="https://binarydigit.net/feed/?type=rss"/>
       <outline type="rss" text="Cory Dransfeldt" title="Cory Dransfeldt" htmlUrl="https://www.coryd.dev/" xmlUrl="https://www.coryd.dev/feeds/all.xml"/>
       <outline type="rss" text="Dave Rupert" title="Dave Rupert" htmlUrl="https://daverupert.com/" xmlUrl="https://daverupert.com/atom.xml"/>
       <outline type="rss" text="Derek Sivers" title="Derek Sivers" htmlUrl="https://sive.rs/" xmlUrl="https://sive.rs/en.atom"/>
@@ -28,7 +27,6 @@
       <outline type="rss" text="James' Coffee Blog" title="James' Coffee Blog" htmlUrl="https://jamesg.blog/" xmlUrl="https://jamesg.blog/feeds/posts.xml"/>
       <outline type="rss" text="Jarrod Blundy" title="Jarrod Blundy" htmlUrl="https://heydingus.net/" xmlUrl="https://heydingus.net/feed.rss"/>
       <outline type="rss" text="Jason Burk" title="Jason Burk" htmlUrl="https://grepjason.sh/" xmlUrl="https://grepjason.sh/rss.xml"/>
-      <outline type="rss" text="Jason White" title="Jason White" htmlUrl="https://jasonwhite.us/" xmlUrl="https://jasonwhite.us/index.xml"/>
       <outline type="rss" text="JCProbably" title="JCProbably" htmlUrl="https://jeddacp.com/" xmlUrl="https://notes.jeddacp.com/feed/?type=rss"/>
       <outline type="rss" text="Keenan (A Very Good Blog)" title="Keenan (A Very Good Blog)" htmlUrl="https://gkeenan.co/avgb/" xmlUrl="https://gkeenan.co/avgb/feed.xml"/>
       <outline type="rss" text="Kev Quirk" title="Kev Quirk" htmlUrl="https://kevquirk.com/" xmlUrl="https://kevquirk.com/feed"/>

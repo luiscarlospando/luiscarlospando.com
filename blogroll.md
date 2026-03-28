@@ -5,7 +5,7 @@ description: Esta es mi colección personal de blogs y websites favoritos, los q
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-03-26 11:34:00</span>
+last-modified-at: <span id="last-updated-at">2026-03-28 13:36:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -87,11 +87,11 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
-| Adam Newbold | [notes.neatnik.net](https://notes.neatnik.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://notes.neatnik.net/rss.xml){:target="_blank" rel="noopener" .rss-link} |
+| Adam Newbold | [notes.neatnik.net](https://neatnik.net/){:target="_blank" rel="noopener"} | |
 | Ashur Cabrera | [multiline.co/mment](https://multiline.co/mment){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://multiline.co/mment/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Andy Bell | [bell.bz](https://bell.bz/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://bell.bz/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Anh | [anhvn.com](https://anhvn.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://anhvn.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
-| BinaryDigit | [binarydigit.dev](https://binarydigit.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://binarydigit.dev/feed/?type=rss/){:target="_blank" rel="noopener" .rss-link} |
+| BinaryDigit | [binarydigit.net](https://binarydigit.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://binarydigit.net/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
 | Cory Dransfeldt | [coryd.dev](https://www.coryd.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.coryd.dev/feeds/all.xml){:target="_blank" rel="noopener" .rss-link} |
 | Dave Rupert | [daverupert.com](https://daverupert.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://daverupert.com/atom.xml){:target="_blank" rel="noopener" .rss-link} |
 | Derek Sivers | [sive.rs](https://sive.rs/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://sive.rs/en.atom){:target="_blank" rel="noopener" .rss-link} |
@@ -99,7 +99,7 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 | James' Coffee Blog | [jamesg.blog](https://jamesg.blog/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://subscribeopenly.net/subscribe/?url=https://jamesg.blog/feeds/posts.xml){:target="_blank" rel="noopener" .rss-link} |
 | Jarrod Blundy | [heydingus.net](https://heydingus.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://heydingus.net/feed.rss){:target="_blank" rel="noopener" .rss-link} |
 | Jason Burk | [grepjason.sh](https://grepjason.sh/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://grepjason.sh/rss.xml){:target="_blank" rel="noopener" .rss-link} |
-| Jason White | [jasonwhite.us](https://jasonwhite.us/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://jasonwhite.us/index.xml){:target="_blank" rel="noopener" .rss-link} |
+| Jason White | [jasonwhite.us](https://jasonwhite.us/){:target="_blank" rel="noopener"} | |
 | JCProbably | [jeddacp.com](https://jeddacp.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://notes.jeddacp.com/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
 | Keenan (A Very Good Blog) | [gkeenan.co/avgb](https://gkeenan.co/avgb/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://gkeenan.co/avgb/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Kev Quirk | [kevquirk.com](https://kevquirk.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://kevquirk.com/feed){:target="_blank" rel="noopener" .rss-link} |

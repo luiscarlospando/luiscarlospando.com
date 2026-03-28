@@ -220,7 +220,8 @@ code {
 }
 
 /* Mark */
-mark {
+mark,
+.mark {
     background-color: $fifthColor;
     border-radius: $borderRadius;
     color: $mainColor;

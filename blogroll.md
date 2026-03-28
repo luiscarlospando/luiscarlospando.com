@@ -159,7 +159,7 @@ Algunos blogs de música que me gustan.
 | Brooklyn Vegan | [brooklynvegan.com](https://www.brooklynvegan.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.brooklynvegan.com/feed/){:target="_blank" rel="noopener" .rss-link} |
 | Chorus.fm | [chorus.fm](https://chorus.fm/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://chorus.fm/feed/){:target="_blank" rel="noopener" .rss-link} |
 | Consequence | [consequence.net](https://consequence.net/){:target="_blank" rel="noopener"} | |
-| Crucial Tracks Blog | [crucialtracks.org/blog](https://www.crucialtracks.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.crucialtracks.org/blog/feed.xml){:target="_blank" rel="noopener" .rss-link} |
+| Crucial Tracks Blog | [crucialtracks.org/blog](https://www.crucialtracks.org/blog){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.crucialtracks.org/blog/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | GORILLA VS. BEAR | [gorillavsbear.net](https://www.gorillavsbear.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.gorillavsbear.net/feed/){:target="_blank" rel="noopener" .rss-link} |
 | Heavy Blog Is Heavy | [heavyblogisheavy.com](https://www.heavyblogisheavy.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.heavyblogisheavy.com/rss/){:target="_blank" rel="noopener" .rss-link} |
 | Metal Injection | [metalinjection.net](https://metalinjection.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://metalinjection.net/feed){:target="_blank" rel="noopener" .rss-link} |

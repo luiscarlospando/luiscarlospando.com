@@ -118,6 +118,34 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+// WP blog modal — auto-clickable post images
+document.addEventListener("DOMContentLoaded", function () {
+    // Only run on the WP blog (subdomain: blog.*)
+    if (!window.location.hostname.startsWith("blog.")) return;
+
+    const postImages = document.querySelectorAll(".e-content img");
+
+    postImages.forEach((img) => {
+        // Skip images that are already wrapped in a modal trigger
+        if (img.closest('[data-toggle="modal"]')) return;
+
+        img.style.cursor = "pointer";
+
+        img.addEventListener("click", function () {
+            const modalImg = document.querySelector("#modal .modal-body img");
+            if (modalImg) {
+                modalImg.setAttribute("src", this.getAttribute("src"));
+                modalImg.setAttribute("alt", this.getAttribute("alt") || "");
+            }
+
+            hideNavContainer();
+
+            // Trigger the Bootstrap modal
+            $("#modal").modal("show");
+        });
+    });
+});
+
 // #stuff-i-like modal
 /*
 document.addEventListener("DOMContentLoaded", function () {

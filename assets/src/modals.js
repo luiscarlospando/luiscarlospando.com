@@ -133,14 +133,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
         img.addEventListener("click", function () {
             const modalImg = document.querySelector("#modal .modal-body img");
+            const modalCaption = document.querySelector("#modal-caption");
+
             if (modalImg) {
                 modalImg.setAttribute("src", this.getAttribute("src"));
                 modalImg.setAttribute("alt", this.getAttribute("alt") || "");
             }
 
-            hideNavContainer();
+            if (modalCaption) {
+                const figcaption =
+                    this.closest("figure")?.querySelector("figcaption");
+                modalCaption.textContent = figcaption
+                    ? figcaption.textContent
+                    : "";
+            }
 
-            // Trigger the Bootstrap modal
+            hideNavContainer();
             $("#modal").modal("show");
         });
     });

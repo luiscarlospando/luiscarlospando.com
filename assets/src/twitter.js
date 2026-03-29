@@ -185,7 +185,7 @@ function renderPaginatedTweets() {
                                 <div class="col-3 col-md-2 my-auto text-center">
                                     <img src="https://luiscarlospando.com/assets/images/avatar.webp"
                                          alt="L. Carlos Pando"
-                                         class="rounded-circle img-fluid mb-3"
+                                         class="rounded-circle img-fluid"
                                          style="max-width: 48px;"
                                          loading="${index < 3 ? "eager" : "lazy"}">
                                 </div>

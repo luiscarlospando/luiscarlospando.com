@@ -217,6 +217,18 @@ figcaption,
     }
 }
 
+/* Jetpack Carousel */
+.wp-block-jetpack-slideshow
+    .wp-block-jetpack-slideshow_pagination.swiper-pagination-bullets
+    .swiper-pagination-simple,
+.wp-block-jetpack-slideshow
+    .wp-block-jetpack-slideshow_pagination.swiper-pagination-custom
+    .swiper-pagination-simple {
+    font-size: 0.8331rem !important;
+    font-style: italic !important;
+    text-align: center !important;
+}
+
 /* ==========================================================================
    VIDEO & EMBEDS
    ========================================================================== */

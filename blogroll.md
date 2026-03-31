@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Blogroll
-description: Esta es mi colección personal de blogs y websites favoritos, los que más frecuento pues. Están ordenados alfabéticamente para que sea fácil explorarlos. ¡Date vuelo explorando! 🏄‍♂️
+description: Estos son los blogs y sitios que sigo, ordenados alfabéticamente para tu comodidad. ¡Date vuelo exporando! 🏄‍♂️
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-03-28 13:49:00</span>
+last-modified-at: <span id="last-updated-at">2026-03-31 16:51:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">

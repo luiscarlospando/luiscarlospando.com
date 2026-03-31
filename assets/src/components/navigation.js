@@ -31,7 +31,7 @@ function Navigation() {
                 {
                     id: "other-status",
                     url: "https://luiscarlospando.com/status/",
-                    icon: "fa-solid fa-clock",
+                    icon: "fa-solid fa-icons",
                     text: "Estatus",
                 },
                 {
@@ -145,7 +145,7 @@ function Navigation() {
                 {
                     id: "chat",
                     url: "https://luiscarlospando.com/chat/",
-                    icon: "fa-brands fa-discord",
+                    icon: "fa-solid fa-comment-dots",
                     text: "Chat",
                 },
             ],

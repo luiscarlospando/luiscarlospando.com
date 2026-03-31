@@ -40,16 +40,16 @@ En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7
 
 ---
 
-<ul class="list-inline">
+<ul class="list-inline mb-0">
     <li class="list-inline-item">
         <h2>Fluxer</h2>
     </li>
     <li class="list-inline-item">
-        <span class="badge badge-success ml-2 pulse-subtle position-relative" style="top: 0.7rem; left: 1.8rem;">Nuevo</span>
+        <span class="badge badge-success ml-2 pulse-subtle position-relative" style="top: 0.4rem; left: 1.2rem;">Nuevo</span>
     </li>
 </ul>
 
-[Actualmente busco dejar de usar Discord](https://blog.luiscarlospando.com/gaming/2026/03/quiero-salirme-de-discord/), y previendo eso, me hice una cuenta en Fluxer y también [abrí la comunidad de Mode 7][5].
+[Actualmente busco dejar de usar Discord](https://blog.luiscarlospando.com/gaming/2026/03/quiero-salirme-de-discord/), y previendo eso, me hice una cuenta en [Fluxer][5]{:target="_blank" rel="noopener"} y también [abrí la comunidad de Mode 7][6].
 
 <!-- div class="row">
 <div class="col-12">
@@ -75,4 +75,5 @@ En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7
 [2]: https://blog.{{ site.domain }}/hashtag/mode-7-podcast/
 [3]: /games/mario-kart/
 [4]: /games/splatoon/
-[5]: {{ site.mode7_fluxer }}
+[5]: https://fluxer.app/
+[6]: {{ site.mode7_fluxer }}

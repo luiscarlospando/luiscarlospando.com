@@ -12,7 +12,7 @@ function Navigation() {
         },
         {
             id: "about-group",
-            url: "https://luiscarlospando.com/about/",
+            url: "",
             icon: "fa-solid fa-user",
             text: "Sobre mí",
             subButtons: [
@@ -50,7 +50,7 @@ function Navigation() {
         },
         {
             id: "content-group",
-            url: "https://blog.luiscarlospando.com/",
+            url: "",
             icon: "fa-solid fa-pen",
             text: "Contenido",
             subButtons: [
@@ -76,7 +76,7 @@ function Navigation() {
         },
         {
             id: "geek-games-group",
-            url: "https://luiscarlospando.com/live/",
+            url: "",
             icon: "fa-solid fa-gamepad",
             text: "Geek & Games",
             subButtons: [
@@ -114,7 +114,7 @@ function Navigation() {
         },
         {
             id: "community-group",
-            url: "https://luiscarlospando.com/links/",
+            url: "",
             icon: "fa-solid fa-globe",
             text: "Web y Comunidad",
             subButtons: [
@@ -244,10 +244,17 @@ function Navigation() {
                 } else {
                     return (
                         <li key={siteButton.id}>
-                            <a href={siteButton.url}>
-                                <i className={siteButton.icon}></i>{" "}
-                                {siteButton.text}
-                            </a>
+                            {siteButton.url !== "" ? (
+                                <a href={siteButton.url}>
+                                    <i className={siteButton.icon}></i>{" "}
+                                    {siteButton.text}
+                                </a>
+                            ) : (
+                                <span>
+                                    <i className={siteButton.icon}></i>{" "}
+                                    {siteButton.text}
+                                </span>
+                            )}
                             <ul>
                                 {subButtons.map((subButton) => (
                                     <li key={subButton.id}>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Chat
-description: Videojuegos clásicos y modernos. Aquí solo hablamos de los juegos que más nos gustan. 🎮 🕹️
+description: Principalmente uso Discord para chatear, pero ya ando buscando otras alternativas.
 image: /assets/images/mode-7.png
 tags: [chat, discord, mode-7, gaming, discord-server, discord-community]
 permalink: /chat/
@@ -14,8 +14,8 @@ permalink: /chat/
 </a>
 </div>
 <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-auto">
-## <i class="fa-brands fa-discord"></i> Mode 7
-[Mode 7][1]{:target="_blank" rel="noreferrer noopener"} (`Mode7gg` para los compas) es una comunidad que armamos unos amigos y yo para compartir el amor que sentimos por el gaming. Mode 7 es básicamente un servidor de Discord y un [podcast][2] para hablar de nuestros juegos favoritos y por supuesto, jugarlos.
+## <i class="fa-brands fa-discord"></i> Discord
+[Mode 7][1]{:target="_blank" rel="noreferrer noopener"} (`Mode7gg` para los compas) es mi comunidad en Discord enfocada en gaming y retro gaming. En algún punto, Mode 7 también [fue un podcast][2] donde dicutíamos nuestros juegos favoritos con un toque de humor.
 </div>
 </div>
 
@@ -37,6 +37,19 @@ En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7
 </a>
 </div>
 </div>
+
+---
+
+<ul class="list-inline">
+    <li class="list-inline-item">
+        <h2>Fluxer</h2>
+    </li>
+    <li class="list-inline-item">
+        <span class="badge badge-success ml-2 pulse-subtle position-relative" style="top: 0.7rem; left: 1.8rem;">Nuevo</span>
+    </li>
+</ul>
+
+[Actualmente busco dejar de usar Discord](https://blog.luiscarlospando.com/gaming/2026/03/quiero-salirme-de-discord/), y previendo eso, me hice una cuenta en Fluxer y también [abrí la comunidad de Mode 7][5].
 
 <!-- div class="row">
 <div class="col-12">
@@ -62,3 +75,4 @@ En lo personal, estos son los juegos en lo que más ando activo dentro de Mode 7
 [2]: https://blog.{{ site.domain }}/hashtag/mode-7-podcast/
 [3]: /games/mario-kart/
 [4]: /games/splatoon/
+[5]: {{ site.mode7_fluxer }}

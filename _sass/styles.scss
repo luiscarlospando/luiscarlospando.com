@@ -149,9 +149,17 @@ a {
     outline: 0 !important;
     @include transition;
 
+    i {
+        text-decoration: none;
+    }
+
     &:hover {
         color: $hoverColor;
         text-decoration-color: $underlineHoverColor;
+
+        i {
+            text-decoration: none;
+        }
     }
 }
 

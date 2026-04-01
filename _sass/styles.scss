@@ -144,21 +144,24 @@ a {
     text-decoration-color: $underlineColor;
     text-decoration-thickness: 2px;
     text-underline-offset: 2px;
-    text-decoration-skip-ink: none;
     border-bottom-style: none;
     position: relative;
     outline: 0 !important;
     @include transition;
 
+    &:hover {
+        color: $hoverColor;
+        text-decoration-color: $underlineHoverColor;
+    }
+}
+
+a.hub-link {
     i {
         color: transparent;
         text-shadow: 0 0 0 $linkColor;
     }
 
     &:hover {
-        color: $hoverColor;
-        text-decoration-color: $underlineHoverColor;
-
         i {
             text-shadow: 0 0 0 $hoverColor;
         }

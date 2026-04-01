@@ -156,15 +156,17 @@ a {
 }
 
 a.hub-link {
-    i {
-        color: transparent;
-        text-shadow: 0 0 0 $linkColor;
+    text-decoration: none;
+
+    span {
+        text-decoration: underline;
+        text-decoration-color: $underlineColor;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 2px;
     }
 
-    &:hover {
-        i {
-            text-shadow: 0 0 0 $hoverColor;
-        }
+    &:hover span {
+        text-decoration-color: $underlineHoverColor;
     }
 }
 

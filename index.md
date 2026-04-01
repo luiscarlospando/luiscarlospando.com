@@ -75,35 +75,35 @@ Ver mis álbumes más escuchados de los últimos 30 días
           <a href="/about/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Conoce más sobre mí">
-            <i class="fa-solid fa-circle-info mr-2"></i> Acerca de
+            <i class="fa-solid fa-circle-info mr-2"></i> <span>Acerca de</span>
           </a>
         </li>
         <li class="mb-2">
           <a href="/now/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Ve en qué ando actualmente">
-            <i class="fa-solid fa-clock mr-2"></i> Now
+            <i class="fa-solid fa-clock mr-2"></i> <span>Now</span>
           </a>
         </li>
         <li class="mb-2">
           <a href="/status/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Qué está pasando ahorita (micro updates)">
-            <i class="fa-solid fa-icons mr-2"></i> Estatus
+            <i class="fa-solid fa-icons mr-2"></i> <span>Estatus</span>
           </a>
         </li>
         <li class="mb-2">
           <a href="/uses/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="El stack de apps que uso a diario">
-            <i class="fa-solid fa-wrench mr-2"></i> Uses
+            <i class="fa-solid fa-wrench mr-2"></i> <span>Uses</span>
           </a>
         </li>
         <li>
           <a href="/contact/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Revisa las maneras de ponerte en contacto conmigo">
-            <i class="fa-solid fa-address-card mr-2"></i> Contacto
+            <i class="fa-solid fa-address-card mr-2"></i> <span>Contacto</span>
           </a>
         </li>
       </ul>
@@ -121,35 +121,35 @@ Ver mis álbumes más escuchados de los últimos 30 días
           <a href="{{ site.blog_url }}" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Explora mi blog">
-            <i class="fa-solid fa-message mr-2"></i> Blog
+            <i class="fa-solid fa-message mr-2"></i> <span>Blog</span>
           </a>
         </li>
         <li class="mb-2">
           <a href="/photos/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Ve las fotos que he tomado con mi iPhone">
-            <i class="fa-solid fa-camera mr-2"></i> Fotos
+            <i class="fa-solid fa-camera mr-2"></i> <span>Fotos</span>
           </a>
         </li>
         <li class="mb-2">
           <a href="/music/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Checa los álbumes que he escuchado en los últimos 30 días">
-            <i class="fa-solid fa-headphones mr-2"></i> Lo que escucho
+            <i class="fa-solid fa-headphones mr-2"></i> <span>Lo que escucho</span>
           </a>
         </li>
         <li class="mb-2">
           <a href="/music/playlist/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Playlist que actualizo frecuentemente con canciones cruciales en mi vida">
-            <i class="fa-solid fa-record-vinyl mr-2"></i> Crucial Tracks
+            <i class="fa-solid fa-record-vinyl mr-2"></i> <span>Crucial Tracks</span>
           </a>
         </li>
         <li>
           <a href="/music/loved-tracks/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Estas son las 100 canciones que me han gustado recientemente">
-            <i class="fa-solid fa-heart mr-2"></i> Canciones favoritas
+            <i class="fa-solid fa-heart mr-2"></i> <span>Canciones favoritas</span>
           </a>
         </li>
       </ul>
@@ -167,28 +167,28 @@ Ver mis álbumes más escuchados de los últimos 30 días
           <a href="/games/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Revisa lo que ando jugando actualmente">
-            <i class="fa-solid fa-gamepad mr-2"></i> Games
+            <i class="fa-solid fa-gamepad mr-2"></i> <span>Games</span>
           </a>
         </li>
         <li class="mb-2">
           <a href="/games/favorites/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Esta es una lista de mis juegos favoritos">
-            <i class="fa-solid fa-star mr-2"></i> Mis juegos favoritos
+            <i class="fa-solid fa-star mr-2"></i> <span>Mis juegos favoritos</span>
           </a>
         </li>
         <li class="mb-2">
           <a href="/live/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Esta es una lista de mis juegos favoritos">
-            <i class="fa-solid fa-video mr-2"></i> Live
+            <i class="fa-solid fa-video mr-2"></i> <span>Live</span>
           </a>
         </li>
         <li>
           <a href="/developer/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Esta es una lista de mis juegos favoritos">
-            <i class="fa-solid fa-code mr-2"></i> Development Stuff
+            <i class="fa-solid fa-code mr-2"></i> <span>Development Stuff</span>
           </a>
         </li>
       </ul>
@@ -206,28 +206,28 @@ Ver mis álbumes más escuchados de los últimos 30 días
           <a href="/links/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Colección de links que encuentro navegando en Internet">
-            <i class="fa-solid fa-link mr-2"></i> Links
+            <i class="fa-solid fa-link mr-2"></i> <span>Links</span>
           </a>
         </li>
         <li class="mb-2">
           <a href="/blogroll/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Revisa mis blogs y websites favoritos">
-            <i class="fa-solid fa-bookmark mr-2"></i> Blogroll
+            <i class="fa-solid fa-bookmark mr-2"></i> <span>Blogroll</span>
           </a>
         </li>
         <li class="mb-2">
           <a href="/guestbook/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Deja un mensaje en mi guestbook">
-            <i class="fa-solid fa-pen-nib mr-2"></i> Guestbook
+            <i class="fa-solid fa-pen-nib mr-2"></i> <span>Guestbook</span>
           </a>
         </li>
         <li class="mb-2 d-flex align-items-center">
           <a href="/paintbook/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Deja un dibujo en mi paintbook">
-            <i class="fa-solid fa-paintbrush mr-2"></i> Paintbook
+            <i class="fa-solid fa-paintbrush mr-2"></i> <span>Paintbook</span>
           </a>
           <span class="badge badge-success ml-2 pulse-subtle position-relative" style="top: 0.7rem; left: 1.8rem;">Nuevo</span>
         </li>
@@ -235,7 +235,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
           <a href="/chat/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Únete a Mode 7">
-            <i class="fa-solid fa-comment-dots mr-2"></i> Chat
+            <i class="fa-solid fa-comment-dots mr-2"></i> <span>Chat</span>
           </a>
         </li>
       </ul>

@@ -16,6 +16,11 @@ permalink: /status/
 <i class="fa-solid fa-heart"></i> Reflejo en Statuslog
 </a>
 </li>
+<li class="list-inline-item">
+<a class="btn btn-primary btn-sm" href="{{ site.statuslog_feed }}" rel="me noopener">
+<i class="fa-solid fa-rss"></i> Suscribirse
+</a>
+</li>
 </ul>
 </div>
 

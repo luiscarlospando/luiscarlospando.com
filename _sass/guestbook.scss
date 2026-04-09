@@ -1,0 +1,65 @@
+.guestbook-message {
+    background-color: $cardBgColor;
+    border: 1px solid $cardBorderColor;
+    border-radius: $borderRadius;
+    flex: 1 1 auto;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    padding: 1.25rem;
+    position: relative;
+    z-index: 1;
+
+    p {
+        line-height: $headings-lh;
+        letter-spacing: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    small {
+        color: #6c757d;
+        font-size: 100%;
+        font-style: italic;
+    }
+
+    blockquote {
+        border-left: none;
+        font-family: "Libre Baskerville", serif;
+        font-size: 1rem;
+        font-style: normal;
+        line-height: 1.8;
+        color: $mainColor;
+        margin: 0;
+        padding: 0;
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $cardBgColor;
+        border-radius: $borderRadius;
+        box-shadow: 0px 0px 160px $cardBoxShadowColor;
+        z-index: -1;
+    }
+}
+
+.guestbook-message-reply {
+    background-color: $cardHeaderBgColor;
+    margin-inline-start: 1.6rem;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset-block-start: -1rem;
+        inset-inline-start: -0.9rem;
+        width: 0.7rem;
+        height: 1.6rem;
+        border-inline-start: 2px solid $cardBorderColor;
+        border-block-end: 2px solid $cardBorderColor;
+        border-end-start-radius: 5px;
+        opacity: 1;
+    }
+}

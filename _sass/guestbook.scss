@@ -4,7 +4,7 @@
     border-radius: $borderRadius;
     flex: 1 1 auto;
     margin-bottom: 1.5rem;
-    overflow: hidden;
+    // overflow: hidden;
     padding: 1.25rem;
     position: relative;
     z-index: 1;
@@ -50,7 +50,8 @@
     background-color: $cardHeaderBgColor;
     margin-inline-start: 1.6rem;
 
-    &::before {
+    &:before {
+        background-color: transparent !important;
         content: "";
         position: absolute;
         inset-block-start: -1rem;
@@ -59,7 +60,8 @@
         height: 1.6rem;
         border-inline-start: 2px solid $cardBorderColor;
         border-block-end: 2px solid $cardBorderColor;
-        border-end-start-radius: 5px;
+        border-radius: 0;
+        border-end-start-radius: 5px !important;
         opacity: 1;
     }
 }

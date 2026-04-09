@@ -8,6 +8,29 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.75.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.75.0...v2.75.1) - 2026-04-09
+
+- Archivar /now del 28-02-2026 [`cf5c770`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cf5c770a2026d1e27ffb081093856eed3ee86a87)
+- Agregar estilos para los replies del guestbook [`22f8276`](https://github.com/luiscarlospando/luiscarlospando.com/commit/22f82767fc138aa6a8fa56dcba93bce7e44888de)
+- Actualizar CHANGELOG [`2c5d8fb`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2c5d8fb777c111cde6e6e9fccbecc303e98fe242)
+- Quitar subrayado a íconos [`331996e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/331996e58ea23ef1b744470643eb1f30a6ed86f1)
+- Mejorar navegación [`770766f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/770766f63a32f4ab277d3ee087e1cda479342540)
+- Agregar server de Mode 7 en Fluxer [`9f4af2d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9f4af2d52fef3207ec17adcc1ac075693482d4b0)
+- Mejorar navegación [`dcf8b42`](https://github.com/luiscarlospando/luiscarlospando.com/commit/dcf8b42e6e3e09ae423d92a5854fc72bcdca642b)
+- Quitar subrayado a íconos [`01c7171`](https://github.com/luiscarlospando/luiscarlospando.com/commit/01c71717cfc786c82daac9cddb1b1b278684fbda)
+- Alinear elementos [`90e22f1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/90e22f14324c64f0b3294123884678f0d985e4cc)
+- Agregar estilos para los replies del guestbook [`8a7c52d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8a7c52d307fce4cc6ab2445a0ae7cacea77edbb5)
+- Quitar subrayado a íconos [`aefd882`](https://github.com/luiscarlospando/luiscarlospando.com/commit/aefd882ba104ea8bb52dc8d0174f98bfb35b2a85)
+- Quitar subrayado a íconos [`a3e912d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a3e912dbf19ced25844bf80d9f6470d6a478f579)
+- Agregar link a feed RSS [`fd9ac59`](https://github.com/luiscarlospando/luiscarlospando.com/commit/fd9ac59b51bfb16f4d6773910e27a693861f4231)
+- Actualizar íconos [`02e793a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/02e793adf31cd9b48db70153c0f1dbe0cbc8cc58)
+- Actualizar íconos [`862e127`](https://github.com/luiscarlospando/luiscarlospando.com/commit/862e127ddafb1744fc46c52c27252a00c4a89345)
+- Actualizar descripción [`1027cbc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1027cbc9c7307e3e121cca947d79774aa49c75cd)
+- Deploy v2.75.1 [`12846ba`](https://github.com/luiscarlospando/luiscarlospando.com/commit/12846ba62c258415ed49777c4107c5dc1959b539)
+- Separar imagen del modal del figcaption [`c538e4c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c538e4c9bf07671399a256edfb3f2fac1006e3d5)
+- Actualizar invite del server de Mode 7 en Fluxer [`5f4e792`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5f4e792bef9e15a972e2a17a547175b79988871b)
+- Archivar /now del 28-02-2026 [`a2ed52e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a2ed52e9e98da7777dafe7eb7bde9d81bf78c908)
+
 ## [`v2.75.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.74.3...v2.75.0) - 2026-03-28
 
 - Actualizar PrismJS [`91a68db`](https://github.com/luiscarlospando/luiscarlospando.com/commit/91a68db64b170c7d6ebfed1bdac1f726bba78039)

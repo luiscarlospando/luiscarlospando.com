@@ -1,7 +1,7 @@
 ---
 layout: livestreams
 title: Live
-description: Aquí puedes ver mis transmisiones en vivo de Twitch.
+description: Aquí puedes ver mis transmisiones, por lo general estoy en vivo los jueves por la noche.
 image: /assets/images/live.png
 tags: [live, livestream, livestreams, twitch, en-vivo]
 permalink: /live/

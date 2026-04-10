@@ -4,7 +4,7 @@ title: Crucial Tracks
 description: Este es un playlist que actualizo diariamente (o eso intento) con canciones cruciales en mi vida y donde escribo algo sobre cada canción. Llevo haciéndolo desde septiembre de 2025.
 image: /assets/images/logo.png
 tags: [playlist, music, música, music-playlist, crucial-tracks, apple-music, apple-music-playlist]
-permalink: /music/playlist/
+permalink: /music/crucial-tracks/
 ---
 
 <p class="text-center">{{ page.description }}</p>
@@ -18,7 +18,7 @@ permalink: /music/playlist/
 <ul class="list-inline mb-4 text-center">
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="/music/">
-          <i class="fa-solid fa-headphones"></i> Lo que escucho
+          <i class="fa-solid fa-headphones"></i> Qué estoy escuchando
         </a>
     </li>
     <li class="list-inline-item">

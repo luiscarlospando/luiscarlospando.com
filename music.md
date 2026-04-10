@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lo que escucho
+title: Qué estoy escuchando
 description: Estos son los 18 álbumes que más he escuchado en los últimos 30 días (vía Last.fm).
 image: /assets/images/logo.png
 tags: [music, música, most-listened, most-listened-albums, álbumes-más-escuchados, last.fm]
@@ -11,7 +11,7 @@ permalink: /music/
 
 <ul class="list-inline mb-4 text-center">
     <li class="list-inline-item">
-        <a class="btn btn-primary btn-sm" href="/music/playlist/">
+        <a class="btn btn-primary btn-sm" href="/music/crucial-tracks/">
           <i class="fa-solid fa-record-vinyl"></i> Crucial Tracks
         </a>
     </li>

@@ -70,11 +70,11 @@ function Navigation() {
                     id: "music",
                     url: "https://luiscarlospando.com/music/",
                     icon: "fa-solid fa-headphones",
-                    text: "Lo que escucho",
+                    text: "Qué estoy escuchando",
                 },
                 {
                     id: "music-playlist",
-                    url: "https://luiscarlospando.com/music/playlist/",
+                    url: "https://luiscarlospando.com/music/crucial-tracks/",
                     icon: "fa-solid fa-record-vinyl",
                     text: "Crucial Tracks",
                 },

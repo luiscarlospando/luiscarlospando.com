@@ -134,12 +134,12 @@ Ver mis álbumes más escuchados de los últimos 30 días
         <li class="mb-2">
           <a href="/music/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
-             title="Checa los álbumes que he escuchado en los últimos 30 días">
-            <i class="fa-solid fa-headphones mr-2"></i> <span>Lo que escucho</span>
+             title="Checa los álbumes que he estado escuchado los últimos 30 días">
+            <i class="fa-solid fa-headphones mr-2"></i> <span>Qué estoy escuchando</span>
           </a>
         </li>
         <li class="mb-2">
-          <a href="/music/playlist/" class="hub-link d-flex align-items-center"
+          <a href="/music/crucial-tracks/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Playlist que actualizo frecuentemente con canciones cruciales en mi vida">
             <i class="fa-solid fa-record-vinyl mr-2"></i> <span>Crucial Tracks</span>

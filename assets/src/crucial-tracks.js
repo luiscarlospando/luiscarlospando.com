@@ -183,7 +183,7 @@ function extractQuestionTitleFromContent(content, noteFallback) {
         const firstLine = content.split("\n")[0].trim();
         const match = firstLine.match(/^_(.+?)_\s*$/);
         if (match) {
-            return `<h3><em>${DOMPurify.sanitize(match[1])}</em></h3>`;
+            return `<h3>Prompt: <em>${DOMPurify.sanitize(match[1])}</em></h3>`;
         }
     }
     // Fallback: parse note HTML for italic-only first paragraph in content div

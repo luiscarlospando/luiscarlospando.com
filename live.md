@@ -11,7 +11,7 @@ permalink: /live/
 <div id="mijostreams-livestream" class="col-12 col-lg-8">
 <div class="embed-responsive embed-responsive-16by9 mb-0">
 <iframe
-src="https://www.youtube.com/live_chat?v=live_stream&channel=UCYPxthHLMvx9exdHlqRDIiQ"
+src="https://www.youtube.com/live_chat?v=live_stream&channel=UCYPxthHLMvx9exdHlqRDIiQ&embed_domain=luiscarlospando.com"
 width="100%"
 height="600"
 frameborder="0">
@@ -20,7 +20,7 @@ frameborder="0">
 </div>
 <div id="mijostreams-chat" class="col-12 col-lg-4">
 <iframe
-src="https://www.youtube.com/live_chat?v=live_stream&channel=UCYPxthHLMvx9exdHlqRDIiQ"
+src="https://www.youtube.com/live_chat?v=live_stream&channel=UCYPxthHLMvx9exdHlqRDIiQ&embed_domain=luiscarlospando.com"
 width="100%"
 height="600"
 frameborder="0">

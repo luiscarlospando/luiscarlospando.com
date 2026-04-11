@@ -43,7 +43,7 @@ async function loadYouTubeEmbed() {
                     <iframe
                         src="https://www.youtube.com/live_chat?v=${videoId}&embed_domain=luiscarlospando.com"
                         width="100%"
-                        height="100%"
+                        height="422"
                         frameborder="0">
                     </iframe>
                 `;

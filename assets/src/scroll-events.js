@@ -2,7 +2,7 @@
 const navContainer = document.querySelector(".nav-container");
 const backToTop = document.querySelector(".cd-top");
 const nowPlaying = document.querySelector(".nowplaying");
-const liveAlert = document.querySelector("#heymijotv-live-alert");
+const liveAlert = document.querySelector("#live-alert");
 
 // Use throttle with requestAnimationFrame to optimize scroll performance
 function throttleRAF(func) {

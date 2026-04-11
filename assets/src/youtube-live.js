@@ -12,7 +12,7 @@ async function checkYouTubeLiveStatus() {
         if (liveAlert) {
             liveAlert.style.display = "none";
         }
-        return;
+        return; // Don't even call the API
     }
 
     try {
@@ -27,7 +27,7 @@ async function checkYouTubeLiveStatus() {
         const data = await response.json();
         console.log(data);
 
-        // YouTube API returns "items" con type "liveStreamingDetails" cuando está en vivo
+        // YouTube API returns "items" with type "liveStreamingDetails" when it's live
         if (data.items && data.items.length > 0) {
             liveAlert.style.display = "block";
         } else {
@@ -38,8 +38,10 @@ async function checkYouTubeLiveStatus() {
     }
 }
 
+// Call the function after the document is fully loaded
 document.addEventListener("DOMContentLoaded", function () {
     checkYouTubeLiveStatus();
 
+    // Call the function every 1 minute (or adjust the interval as needed)
     setInterval(checkYouTubeLiveStatus, 60000);
 });

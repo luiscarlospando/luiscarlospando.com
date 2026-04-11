@@ -23,6 +23,7 @@ import "./lastfm-albums-fetch";
 import "./lastfm-loved-tracks-fetch";
 import "./now";
 import "./youtube-live";
+import "./youtube-embeds";
 //import "./twitch-live";
 import "./mmenu";
 import "./instatus";

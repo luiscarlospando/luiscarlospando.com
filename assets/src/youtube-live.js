@@ -1,8 +1,7 @@
 // Function to fetch live status from serverless function
-async function checkLiveStatus() {
+async function checkYouTubeLiveStatus() {
     const liveAlert = document.getElementById("live-alert");
 
-    // Skip everything if we're already on the /live page
     const currentPath = window.location.pathname;
 
     if (
@@ -13,12 +12,12 @@ async function checkLiveStatus() {
         if (liveAlert) {
             liveAlert.style.display = "none";
         }
-        return; // Don't even call the API
+        return;
     }
 
     try {
         const response = await fetch(
-            "https://luiscarlospando.com/api/checkLiveStatus"
+            "https://luiscarlospando.com/api/checkYouTubeLiveStatus"
         );
 
         if (!response.ok) {
@@ -28,20 +27,19 @@ async function checkLiveStatus() {
         const data = await response.json();
         console.log(data);
 
-        if (data.data && data.data.length > 0) {
+        // YouTube API returns "items" con type "liveStreamingDetails" cuando está en vivo
+        if (data.items && data.items.length > 0) {
             liveAlert.style.display = "block";
         } else {
             liveAlert.style.display = "none";
         }
     } catch (error) {
-        console.error("Error fetching live status:", error);
+        console.error("Error fetching YouTube live status:", error);
     }
 }
 
-// Call the function after the document is fully loaded
 document.addEventListener("DOMContentLoaded", function () {
-    checkLiveStatus();
+    checkYouTubeLiveStatus();
 
-    // Call the function every 1 minute (or adjust the interval as needed)
-    setInterval(checkLiveStatus, 60000);
+    setInterval(checkYouTubeLiveStatus, 60000);
 });

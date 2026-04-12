@@ -31,7 +31,7 @@ async function loadYouTubeEmbed() {
         const data = await response.json();
 
         if (data.items && data.items.length > 0) {
-            // EN VIVO
+            // When the stream is up and running
             const videoId = data.items[0].id.videoId;
 
             if (livestreamContainer) {
@@ -73,7 +73,7 @@ async function loadYouTubeEmbed() {
                 `;
             }
         } else {
-            // NO HAY STREAM
+            // While there's no stream
             if (livestreamContainer) {
                 livestreamContainer.classList.remove("col-lg-8");
             }

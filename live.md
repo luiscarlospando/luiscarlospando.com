@@ -20,7 +20,7 @@ permalink: /live/
 
 <div class="row">
 <div class="col text-center">
-<a id="btn-heymijotv" class="btn btn-primary" href="{{ site.twitch_url }}" rel="me noreferrer noopener" target="_blank">
+<a id="btn-mijostreams" class="btn btn-primary" href="{{ site.twitch_url }}" rel="me noreferrer noopener" target="_blank">
 <i class="fa-brands fa-youtube" data-toggle="tooltip" data-placement="top" title="Abrir en nueva pestaña"></i> Ver directamente en YouTube
 </a>
 </div>

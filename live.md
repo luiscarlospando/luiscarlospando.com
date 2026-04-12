@@ -8,7 +8,7 @@ permalink: /live/
 ---
 
 <div class="row no-gutters mb-4">
-<div id="mijostreams-livestream" class="col-12 col-lg-8">
+<div id="mijostreams-livestream" class="col-12">
 <div class="embed-responsive embed-responsive-16by9 mb-0">
 <div id="youtube-player"></div>
 </div>

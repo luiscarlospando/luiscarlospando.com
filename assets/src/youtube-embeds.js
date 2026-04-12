@@ -6,11 +6,18 @@ async function loadYouTubeEmbed() {
         currentPath !== "/live/" &&
         !currentPath.endsWith("/live")
     ) {
-        return; // It only runs on /live
+        return;
     }
 
     const playerContainer = document.getElementById("youtube-player");
-    const chatContainer = document.getElementById("youtube-chat");
+    const chatContainer = document.getElementById("mijostreams-chat");
+    const livestreamContainer = document.getElementById(
+        "mijostreams-livestream"
+    );
+    const embedResponsive = livestreamContainer
+        ? livestreamContainer.querySelector(".embed-responsive")
+        : null;
+    const btnContainer = document.getElementById("btn-mijostreams");
 
     try {
         const response = await fetch(
@@ -24,7 +31,24 @@ async function loadYouTubeEmbed() {
         const data = await response.json();
 
         if (data.items && data.items.length > 0) {
+            // EN VIVO
             const videoId = data.items[0].id.videoId;
+
+            if (livestreamContainer) {
+                livestreamContainer.classList.add("col-lg-8");
+            }
+
+            if (embedResponsive) {
+                embedResponsive.classList.add("embed-responsive-16by9");
+            }
+
+            if (chatContainer) {
+                chatContainer.classList.remove("d-none");
+            }
+
+            if (btnContainer) {
+                btnContainer.classList.remove("d-none");
+            }
 
             if (playerContainer) {
                 playerContainer.innerHTML = `
@@ -39,7 +63,7 @@ async function loadYouTubeEmbed() {
             }
 
             if (chatContainer) {
-                chatContainer.innerHTML = `
+                chatContainer.innerHTML += `
                     <iframe
                         src="https://www.youtube.com/live_chat?v=${videoId}&embed_domain=luiscarlospando.com"
                         width="100%"
@@ -49,11 +73,25 @@ async function loadYouTubeEmbed() {
                 `;
             }
         } else {
+            // NO HAY STREAM
+            if (livestreamContainer) {
+                livestreamContainer.classList.remove("col-lg-8");
+            }
+
+            if (embedResponsive) {
+                embedResponsive.classList.remove("embed-responsive-16by9");
+            }
+
+            if (chatContainer) {
+                chatContainer.classList.add("d-none");
+            }
+
+            if (btnContainer) {
+                btnContainer.classList.add("d-none");
+            }
+
             if (playerContainer) {
                 playerContainer.innerHTML = `<p>No hay stream activo en este momento.</p>`;
-            }
-            if (chatContainer) {
-                chatContainer.style.display = "none";
             }
         }
     } catch (error) {

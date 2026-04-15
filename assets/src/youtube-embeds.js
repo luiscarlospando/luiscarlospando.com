@@ -101,4 +101,6 @@ async function loadYouTubeEmbed() {
 
 document.addEventListener("DOMContentLoaded", function () {
     loadYouTubeEmbed();
+
+    setInterval(loadYouTubeEmbed, 300000); // 5 minutes
 });

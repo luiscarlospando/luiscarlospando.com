@@ -42,6 +42,6 @@ async function checkYouTubeLiveStatus() {
 document.addEventListener("DOMContentLoaded", function () {
     checkYouTubeLiveStatus();
 
-    // Call the function every 1 minute (or adjust the interval as needed)
-    setInterval(checkYouTubeLiveStatus, 60000);
+    // Call the function every 5 minutes (or adjust the interval as needed)
+    setInterval(checkYouTubeLiveStatus, 300000);
 });

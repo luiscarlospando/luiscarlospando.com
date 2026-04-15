@@ -5,7 +5,7 @@ description: Estos son los blogs y sitios que sigo, ordenados alfabéticamente p
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-03-31 16:51:00</span>
+last-modified-at: <span id="last-updated-at">2026-04-14 21:14:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -72,6 +72,7 @@ Algunos de los sitios y blogs personales en español que más me gustan (como se
 |--------|-----|-----|
 | Diego López | [diegologs.com](https://diegologs.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://diegologs.com/rss/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Emmanuel Alejandro Parada | [eapl.mx](https://text.eapl.mx/posts){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://text.eapl.mx/atom.xml){:target="_blank" rel="noopener" .rss-link} |
+| Fausto César | [esuntipazo.com](https://www.esuntipazo.com/){:target="_blank" rel="noopener"} | |
 | Manu Mateos | [macram.es](https://www.macram.es/){:target="_blank" rel="noopener"} | |
 | Matizeta | [matizeta.com](https://matizeta.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://matizeta.com/feed/){:target="_blank" rel="noopener" .rss-link} |
 | Mono | [simplemono.neocities.org](https://simplemono.neocities.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://simplemono.neocities.org/index.xml){:target="_blank" rel="noopener" .rss-link} |

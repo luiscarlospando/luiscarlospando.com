@@ -18,8 +18,13 @@ last-modified-at: <span id="last-updated-at">2026-03-11 22:50:00</span>
 
 <ul class="list-inline">
 <li class="list-inline-item mb-3">
-<a rel="me" href="https://luiscarlospando.com/" target="_blank">
+<a href="https://luiscarlospando.com/" target="_blank">
 <img class="web-badge" width="88" height="31" src="{{ site.url }}/assets/images/buttons/luis-carlos-pando.gif" alt="Luis Carlos Pando" />
+</a>
+</li>
+<li class="list-inline-item mb-3">
+<a rel="noopener" href="https://www.esuntipazo.com/" target="_blank">
+<img class="web-badge" width="88" height="31" src="{{ site.url }}/assets/images/buttons/esuntipazo.gif" alt="Fausto César" />
 </a>
 </li>
 <li class="list-inline-item mb-3">

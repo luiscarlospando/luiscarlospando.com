@@ -1,10 +1,42 @@
-let cachedVideoId = null;
-let cachedStatus = null; // 'live' | 'offline'
-let lastChecked = 0;
+import { get } from "@vercel/edge-config";
 
-async function fetchWithNode(url) {
+async function fetchWithNode(url, options = {}) {
     const fetch = (await import("node-fetch")).default;
-    return fetch(url);
+    return fetch(url, options);
+}
+
+async function setEdgeConfig(key, value) {
+    const token = process.env.VERCEL_API_TOKEN;
+    const edgeConfigId = process.env.EDGE_CONFIG_ID;
+
+    const fetch = (await import("node-fetch")).default;
+
+    const response = await fetch(
+        `https://api.vercel.com/v1/edge-config/${edgeConfigId}/items`,
+        {
+            method: "PATCH",
+            headers: {
+                Authorization: `Bearer ${token}`,
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                items: [
+                    {
+                        operation: "upsert",
+                        key,
+                        value,
+                    },
+                ],
+            }),
+        }
+    );
+
+    if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(
+            `Edge Config write failed: ${response.status} ${errorText}`
+        );
+    }
 }
 
 async function searchLiveStream(apiKey, channelId) {
@@ -77,6 +109,10 @@ export default async function handler(req, res) {
     }
 
     try {
+        // Read persisted state from Edge Config
+        const cachedStatus = await get("liveStatus");
+        const cachedVideoId = await get("liveVideoId");
+
         if (cachedStatus === "live" && cachedVideoId) {
             // We know the stream was live — check if it's still active (1 unit)
             const stillLive = await checkVideoStillLive(apiKey, cachedVideoId);
@@ -87,38 +123,25 @@ export default async function handler(req, res) {
                     source: "cache",
                 });
             } else {
-                // Stream ended — clear cache
-                cachedVideoId = null;
-                cachedStatus = "offline";
+                // Stream ended — clear persisted state
+                await setEdgeConfig("liveStatus", "offline");
+                await setEdgeConfig("liveVideoId", null);
                 return res.status(200).json({ items: [], source: "cache" });
             }
-        } else if (cachedStatus === "offline") {
-            // We know the stream was offline — use /search to detect if it started (100 units)
-            const videoId = await searchLiveStream(apiKey, channelId);
-
-            if (videoId) {
-                cachedVideoId = videoId;
-                cachedStatus = "live";
-                return res.status(200).json({
-                    items: [{ id: { videoId } }],
-                    source: "search",
-                });
-            } else {
-                return res.status(200).json({ items: [], source: "search" });
-            }
         } else {
-            // First call — no cache yet (100 units)
+            // Stream is offline — use /search to detect if it started (100 units)
             const videoId = await searchLiveStream(apiKey, channelId);
 
             if (videoId) {
-                cachedVideoId = videoId;
-                cachedStatus = "live";
+                // Stream just started — persist state
+                await setEdgeConfig("liveStatus", "live");
+                await setEdgeConfig("liveVideoId", videoId);
                 return res.status(200).json({
                     items: [{ id: { videoId } }],
                     source: "search",
                 });
             } else {
-                cachedStatus = "offline";
+                await setEdgeConfig("liveStatus", "offline");
                 return res.status(200).json({ items: [], source: "search" });
             }
         }

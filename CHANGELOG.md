@@ -8,6 +8,37 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.76.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.75.1...v2.76.0) - 2026-04-21
+
+- Mejorar persistencia de estatus en vivo vía edge-config [`4d4df68`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4d4df687c4896587b2f1baaf5004301a60b74482)
+- Opmimizar arquitectura para no hacer tantos requests al API de YouTube [`82adb27`](https://github.com/luiscarlospando/luiscarlospando.com/commit/82adb27e60bbfadf1f27ddaf55039926b6626b73)
+- Agregar endpoint para revisar estatus en vivo de canal de YouTube [`547ec78`](https://github.com/luiscarlospando/luiscarlospando.com/commit/547ec783bef810955ee8794448a4fc91f4686b0d)
+- Agregar funcionalidad para mostrar el clima actual en Chihuahua [`c0e30bb`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c0e30bb5e9b6d162c105eca47a68696f7708f791)
+- Agregar embeds de YouTube dinámicamente [`51e9f65`](https://github.com/luiscarlospando/luiscarlospando.com/commit/51e9f657aa8dd21d9cce89f55f598d1ff88e7675)
+- Ajustes referentes a streaming en YouTube [`398835b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/398835b9d5b2df76300d749bc24831490f9b4c3a)
+- Agregar embed de YouTube Live [`3d1d1c6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3d1d1c6f3ce66d7916347cfe6a1e6040ea26c90d)
+- Actualizar CHANGELOG [`ef5f605`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ef5f6052c6f66f54812877e0f22aeb22d32f6498)
+- Actualizar nombre de sección /music [`f5077dc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f5077dccccef911a62fdc7d84358ca746dd17dd4)
+- Agregar funcionalidad para mostrar el clima actual en Chihuahua [`f23bb4f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f23bb4f17d4d505842a70fe0e686b9c0fdce4ddb)
+- Agregar botón de Fausto César [`a843759`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a8437593c28f4eb581b44f10b19ce7d30a5bc89c)
+- Agregar canal de YouTube [`ac3c95b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ac3c95b1c6ab5a7e6c41da58b2832c6dd7aae6c9)
+- Ajustes para no consultar el API de YouTube tan seguido [`a11b6eb`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a11b6eba66e1c89e8aa6f1f2914a341dd212021f)
+- Agregar endpoint para revisar estatus en vivo de canal de YouTube [`b230609`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b2306093b04271b37594e0db0e8819ae80849cd8)
+- Ajustes referentes a streaming en YouTube [`2eba8c1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2eba8c1ae1bb57a109f147867cc99a52b5a31a9f)
+- Agregar embed de YouTube Live [`430f780`](https://github.com/luiscarlospando/luiscarlospando.com/commit/430f780f1ad38d541117e431d417893a5b8dd742)
+- Agregar prefijo Prompt: a los prompts [`0797c91`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0797c9121639329486a63a5df00580c5f1ffda12)
+- Actualizar descripción de /live [`086b585`](https://github.com/luiscarlospando/luiscarlospando.com/commit/086b58552d147ef38144ed30f1030a60c9837d53)
+- Actualizar blogroll [`37f286b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/37f286b718a6686b8465ec583b4bd806b5f99290)
+- Deploy v2.76.0 [`3b6e540`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3b6e5401812aae16c6d1d2e03252e03b641cdd7b)
+- Agregar funcionalidad para mostrar el clima actual en Chihuahua [`b469568`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b4695680bbde7d8f3eb2f09872bf9b8617217599)
+- Agregar canal de YouTube [`0834c03`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0834c03af17488ce574d8b42bb060b83e739ea53)
+- Actualizar URL del botón de Dausto César [`59a43e1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/59a43e115dca4c4499245b5bae00923cd83b8669)
+- Actualizar ícono de Streeam en vivo [`2ef5e87`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2ef5e8783fde756b6d46434214ad70a75875d340)
+- Ajustes referentes a streaming en YouTube [`d3df340`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d3df340f3051fb2a64323fdab62169ae50974a08)
+- Agregar embeds de YouTube dinámicamente [`678ab60`](https://github.com/luiscarlospando/luiscarlospando.com/commit/678ab609d5e6cfcf0c0fe028eed47e292d1cf572)
+- Corregir posicionamiento de alerta en vivo al hacer scroll [`14485f2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/14485f24d3934c3c41b5aa37c5e21483b496df65)
+- Agregar embeds de YouTube dinámicamente [`6978997`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6978997364fac02b62df2bce64cff4ca64e99a71)
+
 ## [`v2.75.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.75.0...v2.75.1) - 2026-04-09
 
 - Archivar /now del 28-02-2026 [`cf5c770`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cf5c770a2026d1e27ffb081093856eed3ee86a87)

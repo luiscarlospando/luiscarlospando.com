@@ -48,7 +48,9 @@
         // Function to load facts from JSON
         async function loadRandomFacts() {
             try {
-                const response = await fetch("/assets/data/random-facts.json");
+                const response = await fetch(
+                    "https://luiscarlospando.com/assets/data/random-facts.json"
+                );
 
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);

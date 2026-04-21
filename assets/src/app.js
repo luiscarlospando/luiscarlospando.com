@@ -44,8 +44,8 @@ import "./audio-players";
 import "./twitter";
 import "./paintbook";
 import "./paintbook-pagination";
-import "./other";
 import "./weather";
+import "./other";
 
 // React components
 import "./components/navigation";

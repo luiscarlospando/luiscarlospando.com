@@ -113,12 +113,49 @@ export default async function handler(req, res) {
         const cachedStatus = await get("liveStatus");
         const cachedVideoId = await get("liveVideoId");
 
-        // Temporary debug — remove after diagnosis
-        return res.status(200).json({
-            debug: true,
-            cachedStatus,
-            cachedVideoId,
-        });
+        if (cachedStatus === "live" && cachedVideoId) {
+            // We know the stream was live — check if it's still active (1 unit)
+            const stillLive = await checkVideoStillLive(apiKey, cachedVideoId);
+
+            if (stillLive) {
+                return res.status(200).json({
+                    items: [{ id: { videoId: cachedVideoId } }],
+                    source: "cache",
+                });
+            } else {
+                // Stream ended — clear persisted state
+                await setEdgeConfig("liveStatus", "offline");
+                await setEdgeConfig("liveVideoId", null);
+                return res.status(200).json({ items: [], source: "cache" });
+            }
+        } else {
+            // Stream is offline — use /search to detect if it started (100 units)
+            let videoId;
+            try {
+                videoId = await searchLiveStream(apiKey, channelId);
+            } catch (searchError) {
+                // If quota is exceeded, return offline gracefully without throwing
+                if (searchError.message.includes("403")) {
+                    return res
+                        .status(200)
+                        .json({ items: [], source: "quota_exceeded" });
+                }
+                throw searchError;
+            }
+
+            if (videoId) {
+                // Stream just started — persist state
+                await setEdgeConfig("liveStatus", "live");
+                await setEdgeConfig("liveVideoId", videoId);
+                return res.status(200).json({
+                    items: [{ id: { videoId } }],
+                    source: "search",
+                });
+            } else {
+                await setEdgeConfig("liveStatus", "offline");
+                return res.status(200).json({ items: [], source: "search" });
+            }
+        }
     } catch (error) {
         return res.status(500).json({
             error: "Internal Server Error",

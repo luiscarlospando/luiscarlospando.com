@@ -108,6 +108,7 @@ Soy un vato chihuahuense, apasionado y romántico del Internet de antes, de la m
 - 📔 Guestbook: [Guestbooks][24]{:rel="noreferrer noopener" target="_blank"}
 - 📫 Newsletter: [Buttondown][25]{:rel="noreferrer noopener" target="_blank"}
 - 🖌️ Paintbook: [Resend][35]{:rel="noreferrer noopener" target="_blank"} para el envío de los dibujos en mi Paintbook
+- 🌧️ Clima: [OpenWeather][37]{:rel="noreferrer noopener" target="_blank"} para obtener y mostrar el clima actual
 
 ## Suscríbete
 
@@ -160,3 +161,4 @@ Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. 
 [34]: https://es.wikipedia.org/wiki/Espanglish
 [35]: https://resend.com/
 [36]: https://neatstats.net/
+[37]: https://openweathermap.org/

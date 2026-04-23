@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 const dataURL = canvas.toDataURL("image/png");
 
-                const response = await fetch("/api/send-drawing", {
+                const response = await fetch("/api/sendDrawing", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({

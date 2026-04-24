@@ -8,7 +8,7 @@ permalink: /live/
 ---
 
 <div class="row no-gutters mb-4">
-<div id="mijostreams-livestream" class="col-12">
+<div id="mijostreams-livestream" class="col-12 col-lg-8">
 <div class="embed-responsive embed-responsive-16by9 mb-0">
 <iframe id="stream_embed" src="https://player.twitch.tv/?channel={{ site.twitch_username }}&parent={{ site.domain }}" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
 </div>

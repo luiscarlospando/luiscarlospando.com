@@ -58,7 +58,7 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <li>
 
 <a class="btn btn-primary" href="/live/">
-<i class="fa-brands fa-youtube"></i> Stream en vivo
+<i class="fa-brands fa-twitch"></i> Stream en vivo
 </a>
 
 </li>

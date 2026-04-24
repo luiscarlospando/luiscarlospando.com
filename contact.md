@@ -170,7 +170,7 @@ Este es [mi perfil en Reddit][11]{:rel="me noopener" target="_blank"}.
 
 ## <i class="fa-brands fa-twitch"></i> Twitch [![Twitch Status](https://img.shields.io/twitch/status/{{ site.twitch_username }}?style=flat&logo=twitch&logoColor=%23A172F7&link=https%3A%2F%2Fluiscarlospando.com%2Flive)][12]{:rel="me noopener" target="_blank"}
 
-[Tengo un canal en Twitch][13], que tengo en pausa por el momento.
+Checa también [mi canal en Twitch][13].
 
 ---
 

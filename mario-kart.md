@@ -63,7 +63,7 @@ permalink: /games/mario-kart/
 </a>
 </div>
 
-## <i class="fa-brands fa-youtube"></i> Stream en vivo
+## <i class="fa-brands fa-twitch"></i> Stream en vivo
 - Transmitimos los torneos en vivo cada jueves por la noche y [puedes ver el stream aquí][3].
 
 ## <i class="fa-solid fa-hashtag"></i> Posts sobre *Mario Kart 8*

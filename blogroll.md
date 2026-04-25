@@ -5,7 +5,7 @@ description: Estos son los blogs y sitios que sigo, ordenados alfabéticamente p
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-04-14 21:14:00</span>
+last-modified-at: <span id="last-updated-at">2026-04-25 23:36:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -126,6 +126,7 @@ Estos son algunos directorios de blogs y sitios.
 | Nombre | URL | RSS |
 |--------|-----|-----|
 | ¡Blog!¡Blog! | [blogblog.es](https://blogblog.es/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blogsencastellano.wordpress.com/feed/){:target="_blank" rel="noopener" .rss-link} |
+| Bubbles | [bubbles.town](https://bubbles.town/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://bubbles.town/feed){:target="_blank" rel="noopener" .rss-link} |
 | Ye Olde Blogroll | [blogroll.org](https://blogroll.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://blogroll.org/feed){:target="_blank" rel="noopener" .rss-link} |
 | powRSS | [powrss.com](https://powrss.com/){:target="_blank" rel="noopener"} | |
 | url.town | [url.town](https://url.town/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://url.town/rss){:target="_blank" rel="noopener" .rss-link} |

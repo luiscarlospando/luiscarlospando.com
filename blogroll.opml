@@ -40,6 +40,7 @@
     </outline>
     <outline text="Directorios" title="Directorios">
       <outline type="rss" text="¡Blog!¡Blog!" title="¡Blog!¡Blog!" htmlUrl="https://blogblog.es/" xmlUrl="https://blogsencastellano.wordpress.com/feed/"/>
+      <outline type="rss" text="Bubbles" title="Bubbles" htmlUrl="https://bubbles.town/" xmlUrl="https://bubbles.town/feed"/>
       <outline type="rss" text="Ye Olde Blogroll" title="Ye Olde Blogroll" htmlUrl="https://blogroll.org/" xmlUrl="https://blogroll.org/feed"/>
       <outline type="rss" text="url.town" title="url.town" htmlUrl="https://url.town/" xmlUrl="https://url.town/rss"/>
     </outline>

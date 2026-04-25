@@ -4,9 +4,16 @@ title: Acerca de
 description: Este URL ha sido mi hogar en línea como desde octubre de 2014. Este es mi hub central, en donde comparto lo que me gusta, lo que pienso, lo que hago y enlazo a todos mis perfiles y proyectos.
 tags: [about-me, acerca-de]
 permalink: /about/
+last-modified-at: <span id="last-updated-at">2026-04-25 9:40:00</span>
 ---
 
 <h2 class="subtitulo text-center"><small>{{ site.capitalized_domain }} <code>v{{ site.version }}</code></small></h2>
+
+<div class="card last-updated my-3 text-center">
+<div class="card-body rounded">
+#### <code>Última actualización:</code> {{ page.last-modified-at }}
+</div>
+</div>
 
 <p class="text-center">{{ page.description }}</p>
 
@@ -20,27 +27,27 @@ permalink: /about/
 
 ## El vato detrás de esto
 
-Qué onda, soy Luis Carlos Pando 👋, pero algunos me conocen como `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊). Soy un vato de Chihuahua, México 🇲🇽, una ciudad que amo profundamente, no solo por ser mi hogar y ser una ciudad hermosa, sino por la idiosincrasia de la gente, la cultura local, la comida y por lo que nos hace diferentes a otros lugares del país.
+Qué tranza, soy Luis Carlos Pando 👋, pero algunos me conocen como `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊). Soy un vato de Chihuahua, México 🇲🇽, una ciudad que amo, no solo por ser mi hogar (y ser una ciudad hermosa), sino por la idiosincrasia de la gente, la cultura local, la comida y por lo que nos hace diferentes a otros lugares del país.
 
 ## Mis inicios
 
-Desde que tengo uso de razón siempre he sentido mucha curiosidad por entender cómo funcionan las cosas 🔧. Me acuerdo que de chavito esa curiosidad me hacía desarmar mis juguetes para ver qué había adentro. Esa curiosidad nunca se fue; simplemente evolucionó hacia las computadoras.
+Desde que tengo uso de razón siempre he tenido curiosidad por saber cómo funcionan las cosas 🔧. Me acuerdo que de chavito esa curiosidad me hacía desarmar mis juguetes para ver qué había adentro.
 
-Soy alguien que se considera autodidacta y creo que he aprendido más por mi cuenta que lo que aprendí en la escuela. Si algo me llama la atención, me obsesiono mucho con ello. Así aprendí a tocar guitarra 🎸 (aunque no soy un virtuoso, pero medio me defiendo), así aprendí a hacer páginas de internet y es así como sigo aprendiendo cosas nuevas todos los días.
+Me considero una persona autodidacta, honestamente creo que he aprendido más por mi cuenta que lo que aprendí en la escuela. Si algo me llama la atención, me obsesiono con ello. Así aprendí a tocar guitarra 🎸 (que aunque no soy un virtuoso, medio me defiendo), así aprendí a hacer websites y es así como sigo aprendiendo cosas nuevas todos los días.
 
 ## La música
 
-Hay un momentos que marcaron mi vida para siempre, uno de ellos fue cuando conocí MTV 2 y Fuse 📺. A partir de ahí, mi mundo cambió. El descubrir música nueva, bandas y artistas confirmó que mi gusto por la música era parte fundamental de mi personalidad (definitivamente influenciado por mi papá). Esos canales me abrieron las puertas a un universo sonoro que no sabía que existía y desde entonces la música se volvió parte esencial de mi identidad.
+Hay un momentos que marcaron mi vida para siempre, uno de ellos fue cuando conocí MTV 2 y Fuse. A partir de ahí, mi mundo cambió. El descubrir música nueva, bandas y artistas confirmó que mi gusto por la música era parte fundamental de mi personalidad (definitivamente influenciado por mi papá). Esos canales me abrieron las puertas a un universo sonoro que no sabía que existía y desde entonces la música se volvió parte esencial de mi identidad.
 
 En mis 20s, junto a unos compas, fundé [Hitz-Musik.net][1]{:target="_blank" rel="noopener"} (RIP 🪦). "El Hitz" era más que una página web; era una comunidad real que apoyaba la escena local de Chihuahua. Organizábamos toquines, compartíamos música y creamos un espacio donde amantes de la música podían conectar con bandas locales. Aunque el proyecto ya murió, guardo esos recuerdos con mucho cariño porque representan una época donde el cotorreo y el amor por la música nos unían (y nos sigue uniendo hasta la fecha).
 
 ## El gaming
 
-También me gustan los videojuegos, aunque hay temporadas en los que ando bien clavado y otras en las que me desconecto por completo del hobbie. Anyways, mi gusto por el gaming me hizo crear la comunidad de [Mode 7 🎮][2] en Discord junto a otros compas. Ahí cotorreamos todo el día sobre nuestros juegos favoritos y cada jueves en la noche [transmitimos][3] nuestro frenético torneo de *Mario Kart* 🏁.
+También me gustan los videojuegos, aunque hay temporadas en los que ando bien clavado y otras en las que me desconecto por completo del hobbie. Como sea, mi gusto por el gaming me hizo crear la comunidad de [Mode 7 🎮][2] en Discord junto a otros compas. Ahí cotorreamos todo el día sobre nuestros juegos favoritos y cada jueves en la noche [transmitimos][3] nuestro frenético torneo de *Mario Kart* 🏁.
 
 Es un espacio en donde todos son bienvenidos.
 
-## La parte más íntima y personal
+## Mi persona
 
 Aunque muchos no lo crean por como me desenvuelvo en línea, me considero alguien bastante introvertido, al menos al inicio. Me siento más cómodo expresándome a través de la escritura o de la música que en conversaciones cara a cara. Tal vez por eso este sitio significa tanto para mí. Es mi forma más auténtica de conectar con el mundo.
 
@@ -48,17 +55,17 @@ Mi fe también es algo súper importante para mí. Soy cristiano y tengo toda mi
 
 ## ¿Qué más?
 
-A ver, ahí les van algunas cosas random:
+Ahí les van algunas cosas random:
 
 - Llevo registrando toda la música que escucho en [mi perfil en Last.fm 🎵][4]{:rel="me noreferrer noopener" target="_blank"} desde 2005 y siempre me sorprende ver cómo ha evolucionado mi gusto musical a lo largo de los años.
-- También me gusta tocar guitarra cuando necesito desconectarme del mundo.
-- En esta etapa de mi vida estoy aprendiendo a apreciar el tiempo con mis amigos 👥 y conocer gente nueva (a pesar de mi introversión), y tener esas conversaciones espontáneas que pueden durar horas y donde aprendes cosas que jamás habías considerado.
+- Me gusta tocar guitarra cuando necesito desconectarme del mundo.
+- En esta etapa de mi vida estoy aprendiendo a apreciar más el tiempo con mis amigos 👥 y conocer gente nueva (a pesar de mi introversión), y tener esas conversaciones espontáneas que pueden durar horas y donde aprendes cosas que jamás habías considerado.
 - Cuando las circunstancias lo permiten, disfruto mucho viajar y conocer lugares nuevos ✈️. No necesito destinos exóticos, la neta es que a veces los mejores momentos surgen explorando un pueblo cercano o redescubriendo rincones de mi propia ciudad que había pasado por alto.
 - <span id="indie-web"></span>Otro de mis hobbies favoritos es coleccionar vinilos 📀 (👈 me desespera que no haya todavía un emoji de discos de vinilo 😂). Este cotorreo del coleccionismo de discos lo comencé junto a mi ex-esposa, y aunque nuestros caminos se separaron, siempre le agradeceré haber compartido conmigo esa pasión por la música y por el formato físico. Lo mágico en el ritual de poner el disco en la tornamesa, ajustar la aguja (sí, sí, "stylus" para los puristas) y dejarte llevar por esa calidez sonora que solo el disco de vinil puede ofrecer. Cada disco en mi colección cuenta una historia, no solo musical, sino también personal.
 
 ## El IndieWeb (porque no solamente me gusta la música y películas indies 😜)
 
-Soy alguien que apoya los valores del [Internet independiente y descentralizado][5]{:target="_blank" rel="noreferrer noopener"} 🌐. 
+Soy alguien que apoya los valores del [internet independiente y descentralizado][5]{:target="_blank" rel="noreferrer noopener"} 🌐. 
 
 Este sitio es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, el *look & feel*, el layout, los colores, el contenido, los *features*, las reglas y absolutamente todo.
 
@@ -83,7 +90,7 @@ Y de antemano perdón, soy muy dado a usar [Espanglish][34]{:target="_blank" rel
 *¡Gracias por caerle!* ✨
 
 ## TL;DR
-Soy un vato chihuahuense, apasionado y romántico del Internet de antes, de la música y que encuentra en la fe las piezas que le dan sentido a su vida.
+Soy un vato chihuahuense, apasionado y romántico del internet de antes, de la música y que encuentra en la fe las piezas que le dan sentido a su vida.
 
 ---
 

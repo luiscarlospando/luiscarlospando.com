@@ -5,7 +5,7 @@ description: Estos son los blogs y sitios que sigo, ordenados alfabéticamente p
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-04-25 23:36:00</span>
+last-modified-at: <span id="last-updated-at">2026-04-24 23:45:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">

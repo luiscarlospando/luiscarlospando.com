@@ -5,7 +5,7 @@ description: Esto es lo que ando jugando actualmente y mis perfiles de Discord, 
 image: /assets/images/logo-games.png
 tags: [games, video-games, current-games, currently-playing]
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2026-03-26 00:01:00</span>
+last-modified-at: <span id="last-updated-at">2026-04-27 1:13:00</span>
 ---
 
 <p class="text-center">
@@ -26,6 +26,46 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 </h4>
 </div>
 <div class="card-body">
+<div class="row">
+<div class="col-md-6 my-auto">
+<ul class="list-unstyled">
+<li>
+
+<a href="/games/mario-kart/">
+<img class="enlarge-transition rounded img-fluid mb-2" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9s9.jpg" alt="Mario Kart World" width="100">
+</a>
+
+<a class="d-block mb-3" href="/games/mario-kart/">
+<em>Mario Kart World</em>
+</a>
+
+<p>Mode 7 World Championship todos los domingos @ 8:00 pm (hora central de México)</p>
+
+</li>
+</ul>
+</div>
+<div class="col-md-6 my-auto">
+<ul class="list-unstyled">
+<li class="mb-4">
+
+<a class="btn btn-primary" href="https://discord.gg/U77J5c6" target="_blank">
+<i class="fa-brands fa-discord"></i> Discord
+</a>
+
+</li>
+<li>
+
+<a class="btn btn-primary" href="/live/">
+<i class="fa-brands fa-twitch"></i> Stream en vivo
+</a>
+
+</li>
+</ul>
+</div>
+</div>
+
+<hr>
+
 <div class="row">
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">

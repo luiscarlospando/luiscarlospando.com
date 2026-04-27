@@ -1001,6 +1001,15 @@ last-modified-at: <span id="last-updated-at">2026-01-29 11:26:00</span>
 
 ## <span id="nsw2"></span> Nintendo Switch 2
 
-Próximamente. 🙏
+<ul class="games-list list-inline">
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/O2wz3OtpbQE">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9s9.jpg" data-toggle="tooltip" data-placement="top" alt="Mario Kart World (2025)" title="Mario Kart World (2025)" width="150">
+        <figcaption class="figure-caption text-center">Mario Kart World (2025)</figcaption>
+      </figure>
+    </a>
+  </li>
+</ul>
 
 [1]: /games/

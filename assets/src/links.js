@@ -10,7 +10,7 @@ dayjs.extend(relativeTime);
 // Configuration
 const BOOKMARKS_API = "/api/getBookmarkedLinks";
 const MAX_POSTS = 5;
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 30;
 
 let currentPage = 1;
 let allItems = [];

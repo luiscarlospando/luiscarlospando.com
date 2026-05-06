@@ -14,3 +14,5 @@ permalink: /twitter/
 </p>
 
 <ul id="archived-tweets" class="list-unstyled"></ul>
+
+[1]: https://x.com/mijo

@@ -345,15 +345,15 @@ import { initStatusManager } from "./statuslog.js";
 
             // Determining the greeting based on the time of day
             if (hour >= 5 && hour < 12) {
-                timeGreeting = "Qué onda, buenos días ☀️";
+                timeGreeting = "Buenos días ☀️";
             } else if (hour >= 12 && hour < 20) {
-                timeGreeting = "Hola, buenas tardes 🌤️";
+                timeGreeting = "Buenas tardes 🌤️";
             } else {
-                timeGreeting = "¡Hey!, buenas noches 🌙";
+                timeGreeting = "Buenas noches 🌙";
             }
 
             // Combining the greetings
-            return `${timeGreeting}, feliz ${daysOfWeek[day]}.`;
+            return `${timeGreeting}, espero que estés teniendo un gran ${daysOfWeek[day]}.`;
         }
 
         // Greeting emoji

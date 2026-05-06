@@ -16,9 +16,13 @@ last-modified-at: <span id="last-updated-at">2026-04-27 1:13:00</span>
 
 <p class="text-center">{{ page.description }}</p>
 
-<p class="text-center">
-[Ve lo que estoy jugando actualmente][1].
-</p>
+<ul class="list-inline mb-4 text-center">
+    <li class="list-inline-item">
+        <a class="btn btn-primary btn-sm" href="/games/">
+          <i class="fa-solid fa-gamepad"></i> Qué estoy jugando ahorita
+        </a>
+    </li>
+</ul>
 
 <details>
 <summary>
@@ -1011,5 +1015,3 @@ last-modified-at: <span id="last-updated-at">2026-04-27 1:13:00</span>
     </a>
   </li>
 </ul>
-
-[1]: /games/

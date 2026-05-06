@@ -13,8 +13,16 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 </p>
 
 <p class="text-center">
-¿Curiosidad por saber cuáles son mis juegos favoritos ever? Entonces [ve aquí][4]. 😁
+¿Curiosidad por saber cuáles son mis juegos favoritos ever?
 </p>
+
+<ul class="list-inline mb-4 text-center">
+    <li class="list-inline-item">
+        <a class="btn btn-primary btn-sm" href="/games/favorites/">
+          <i class="fa-solid fa-star"></i> Mis juegos favoritos
+        </a>
+    </li>
+</ul>
 
 <div class="row">
 <div class="col-12 my-auto">
@@ -249,4 +257,3 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 [1]: #discord-tag
 [2]: #nintendo-switch
 [3]: {{ site.backloggd_url }}
-[4]: /games/favorites/

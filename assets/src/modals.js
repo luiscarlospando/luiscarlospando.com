@@ -120,14 +120,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // WP blog modal — auto-clickable post images
 document.addEventListener("DOMContentLoaded", function () {
-    // Only run on the WP blog (subdomain: blog.*)
     if (!window.location.hostname.startsWith("blog.")) return;
 
     const postImages = document.querySelectorAll(".e-content img");
 
     postImages.forEach((img) => {
-        // Skip images that are already wrapped in a modal trigger
+        // Skip images already wrapped in a modal trigger
         if (img.closest('[data-toggle="modal"]')) return;
+
+        // Skip images that are part of a Jetpack gallery
+        if (
+            img.closest(
+                ".tiled-gallery, .wp-block-jetpack-tiled-gallery, " +
+                    ".gallery, .wp-block-gallery, " +
+                    ".jetpack-gallery"
+            )
+        )
+            return;
 
         img.style.cursor = "pointer";
 

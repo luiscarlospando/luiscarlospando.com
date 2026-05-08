@@ -8,6 +8,34 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.76.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.76.0...v2.76.1) - 2026-05-08
+
+- Archivar /now del 31-03-2026 [`afed1c9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/afed1c97208e2d77408da8f1e8b575f1c1d0d91c)
+- Actualizar random facts [`a1bb99d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a1bb99df0ed94a37cf23c5cabe15a4c4fa46fbe3)
+- Persistir estado en vivo [`c93ae84`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c93ae848981afe4d6dd47acbe02084c4d77f93b8)
+- Agregar Mario Kart World [`9b2c7fc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9b2c7fc97ffb972a6fe7b0b8122fc9781572d610)
+- Debuguear agotamiento de cuota [`face147`](https://github.com/luiscarlospando/luiscarlospando.com/commit/face14792575c1977e7e70de4668769344198534)
+- Corregir URLs al fetchear endpoint, para corregir error en el blog [`299dd77`](https://github.com/luiscarlospando/luiscarlospando.com/commit/299dd77a13dd883373b258a184bdc2cb29805880)
+- Actualizar CHANGELOG [`e78bb94`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e78bb94e64cd10c4e780c4410f95b4baf859d63a)
+- Actualizar Acerca de [`db8a39c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/db8a39c85799f6ab0ebb298be14e22d889aa2ee4)
+- Revertir infraestructura en vivo a Twitch [`2526bb0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2526bb0a6c260b5bd2b448bc154d7f7857e6d78e)
+- Actualizar intro [`a67460d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a67460d01facfe436a08c4f686529458df06a638)
+- Evitar triggerear modal si las imágenes clickeadas son parte de una galería de Jetpack [`a14b1ff`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a14b1fff514a68ac7d01b42cf7ef3db51e9f8997)
+- Agregar botón a página /games [`8d08a67`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8d08a672a0fad6a815280aade982cf0354300e72)
+- Agregasr botón a página /games/favorites [`15a16d2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/15a16d29d1a1aa041d4437c5bbc8d18b6a3ff8dd)
+- Agregar Mario Kart World [`12895ae`](https://github.com/luiscarlospando/luiscarlospando.com/commit/12895ae57c5350c832c315ca3cbe27a939a9de79)
+- Actualizar saludos del Memoji [`ada4e39`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ada4e397f2d1ded959bd39a308f1df146bdba895)
+- Actualizar descripción [`2b6601e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2b6601e079a0f52b71b7968b106f17abf570e545)
+- Actualizar blogroll [`9fdcfd7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9fdcfd72394770f89ca70727a68fdd690fc44a66)
+- Deploy v2.76.1 [`ba18b1c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ba18b1c788aa634dbac3b4e7fde30048c72df6a5)
+- Actualizar descripción [`acf3e29`](https://github.com/luiscarlospando/luiscarlospando.com/commit/acf3e2939f5129824cb55f5dc9d8a7b9d1af510d)
+- Ajustar texto [`9e26eeb`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9e26eeb362b2d41e828d9ac4983291b4fc29c0f4)
+- Aumentar cantidad de elementos por página [`171e0f9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/171e0f93668e148ed6e02c6fb0d366210b7815fe)
+- Corregir timestamp [`7583b6d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7583b6da133d496c7cdd04a7de2a416e967b6b17)
+- Revertir infraestructura en vivo a Twitch [`ed1d074`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ed1d074ae6bfc9d04a16562bbef0f8f4b3cafcfd)
+- Actualizar nombre de endpoint [`0cdec66`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0cdec66e0831a27106f26edfe9b00c183c6a967a)
+- Agregar border-radius a elemento video [`7f141df`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7f141df23202cc6531fcdeb25553d356fb539b21)
+
 ## [`v2.76.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.75.1...v2.76.0) - 2026-04-21
 
 - Mejorar persistencia de estatus en vivo vía edge-config [`4d4df68`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4d4df687c4896587b2f1baaf5004301a60b74482)

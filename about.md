@@ -11,7 +11,7 @@ last-modified-at: <span id="last-updated-at">2026-05-08 17:11:00</span>
 
 <div class="card last-updated my-3 text-center">
 <div class="card-body rounded">
-#### <code>Última actualización:</code> {{ page.last-modified-at }}
+#### <code>Última actualización:</code> {{ page.last-modified-at }}<br />
 #### TL;DR
 Soy un vato chihuahuense, apasionado y romántico del internet de antes, de la música y que encuentra en la fe las piezas que le dan sentido a su vida.
 </div>

@@ -8,6 +8,21 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.77.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.76.1...v2.77.0) - 2026-05-14
+
+- Reacomodar elementos [`1411de2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1411de23d71d821d92d40c77548910ba2040e5ff)
+- Actualizar CHANGELOG [`7551804`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7551804eef79dc0b57c9cb33fc71148ba3e2686e)
+- Agregar botón de estatus [`8ac089e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8ac089e1969b0ef048d58ab169ee7c8b6f5b6e51)
+- Agregar botón de estatus [`eab1fc7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/eab1fc7e6676fe958fdcede0b29273a0dc5ee8b1)
+- Reacomodar elementos [`3a0beb1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3a0beb1bc38e375c41c0dc23e040d600b5660854)
+- Mover de lugar el TL;DR [`991fd58`](https://github.com/luiscarlospando/luiscarlospando.com/commit/991fd58e10e0ecdcdb94cc4ba5ae2183811b0aaa)
+- Agregar botón de estatus [`9d575bf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9d575bf50fcf405718538c1f2d7e53a54000e978)
+- Agregar dibujo [`dd3d59e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/dd3d59ec12c6302d82b0dd3fa92c0873cab155ca)
+- Mover de lugar el TL;DR [`ea55027`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ea55027036d1f7b5c719dd89d78884bb1da30900)
+- Deploy v2.77.0 [`5d2b1aa`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5d2b1aacd8b7d6b0294ae7ceddc95c106095ce15)
+- Reacomodar elementos [`808fd3d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/808fd3d4ef29f2c0f5947086151608dfbfe9c12b)
+- Mover de lugar el TL;DR [`fbc53c2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/fbc53c2e6a509037dde70f278eff41358ad853e4)
+
 ## [`v2.76.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.76.0...v2.76.1) - 2026-05-08
 
 - Archivar /now del 31-03-2026 [`afed1c9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/afed1c97208e2d77408da8f1e8b575f1c1d0d91c)

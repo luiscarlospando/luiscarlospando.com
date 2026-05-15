@@ -18,7 +18,16 @@
                     <hr>
                     <div class="row">
                         <div class="col-12 col-lg-5 text-center text-lg-left">
-                            <p id="copyright">&copy; {{ 'now' | date: "%Y" }} {{ site.author }}</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    &copy; {{ 'now' | date: "%Y" }} {{ site.author }}
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn btn-primary btn-sm" href="/status/" data-toggle="tooltip" data-placement="top" aria-label="Qué está pasando ahorita" title="Qué está pasando ahorita">
+                                        <i class="fa-solid fa-icons"></i> Estatus
+                                    </a>
+                                </li>
+                            </ul>
 
                             <p>Parte del <a href="https://cs.sjoy.lol/" rel="noopener noreferrer" target="_blank">CSS JOY Webring 🕸️💍</a></p>
 

@@ -182,7 +182,7 @@ function renderPaginatedTweets() {
                     <div class="card mb-4">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-3 col-md-2 my-auto text-center">
+                                <div class="col-3 col-md-2 my-md-auto text-center">
                                     <img src="https://luiscarlospando.com/assets/images/avatar.webp"
                                          alt="L. Carlos Pando"
                                          class="rounded-circle img-fluid"

@@ -90,7 +90,7 @@ function formatTweetDate(dateString) {
     // Display format with original AM/PM
     const displayText = `${parseInt(day)} ${month} ${year}, ${match[4]}:${minutes} ${ampm}`;
 
-    return `<time datetime="${datetime}"><em>${displayText}</em></time>`;
+    return `<time datetime="${datetime}"><em><i class="fa-solid fa-clock"></i> ${displayText}</em></time>`;
 }
 
 // Function to make links clickable in tweet text

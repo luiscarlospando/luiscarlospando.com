@@ -194,10 +194,12 @@ function renderPaginatedTweets() {
                                         <div class="tweet-header mb-2">
                                             <strong>L. Carlos Pando</strong>
                                             <span class="text-muted">${tweet.handle}</span>
-                                            <span class="text-muted"> · ${formattedDate}</span>
                                         </div>
                                         <div class="tweet-text mb-2">
                                             <p style="white-space: pre-wrap; margin: 0;">${linkedText}</p>
+                                        </div>
+                                        <div class="tweet-footer">
+                                            <small class="text-muted">${formattedDate}</small>
                                         </div>
                                     </div>
                                 </div>

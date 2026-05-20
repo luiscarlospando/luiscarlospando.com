@@ -5,7 +5,7 @@ description: Estos son los blogs y sitios que sigo, ordenados alfabéticamente p
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-05-20 10:17:00</span>
+last-modified-at: <span id="last-updated-at">2026-05-20 10:22:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -70,7 +70,6 @@ Algunos de los sitios y blogs personales en español que más me gustan (como se
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
-| Axel Valdez | [axel.mx](https://axel.mx/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://axel.mx/feed/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Diego López | [diegologs.com](https://diegologs.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://diegologs.com/rss/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Emmanuel Alejandro Parada | [eapl.mx](https://text.eapl.mx/posts){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://text.eapl.mx/atom.xml){:target="_blank" rel="noopener" .rss-link} |
 | Fausto César | [esuntipazo.com](https://www.esuntipazo.com/){:target="_blank" rel="noopener"} | |
@@ -90,9 +89,10 @@ Algunos de los sitios y blogs personales en inglés que más me gustan.
 | Nombre | URL | RSS |
 |--------|-----|-----|
 | Adam Newbold | [neatnik.net](https://neatnik.net/){:target="_blank" rel="noopener"} | |
-| Ashur Cabrera | [multiline.co/mment](https://multiline.co/mment){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://multiline.co/mment/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Andy Bell | [bell.bz](https://bell.bz/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://bell.bz/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Anh | [anhvn.com](https://anhvn.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://anhvn.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
+| Ashur Cabrera | [multiline.co/mment](https://multiline.co/mment){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://multiline.co/mment/feed.xml){:target="_blank" rel="noopener" .rss-link} |
+| Axel Valdez | [axel.mx](https://axel.mx/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://axel.mx/feed/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | BinaryDigit | [binarydigit.net](https://binarydigit.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://binarydigit.net/feed/?type=rss){:target="_blank" rel="noopener" .rss-link} |
 | Cory Dransfeldt | [coryd.dev](https://www.coryd.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.coryd.dev/feeds/all.xml){:target="_blank" rel="noopener" .rss-link} |
 | Dave Rupert | [daverupert.com](https://daverupert.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://daverupert.com/atom.xml){:target="_blank" rel="noopener" .rss-link} |

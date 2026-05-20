@@ -5,7 +5,7 @@ description: Estos son los blogs y sitios que sigo, ordenados alfabéticamente p
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-04-24 23:45:00</span>
+last-modified-at: <span id="last-updated-at">2026-05-20 10:17:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -70,6 +70,7 @@ Algunos de los sitios y blogs personales en español que más me gustan (como se
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
+| Axel Valdez | [axel.mx](https://axel.mx/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://axel.mx/feed/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Diego López | [diegologs.com](https://diegologs.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://diegologs.com/rss/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Emmanuel Alejandro Parada | [eapl.mx](https://text.eapl.mx/posts){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://text.eapl.mx/atom.xml){:target="_blank" rel="noopener" .rss-link} |
 | Fausto César | [esuntipazo.com](https://www.esuntipazo.com/){:target="_blank" rel="noopener"} | |

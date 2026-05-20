@@ -10,6 +10,7 @@
       <outline type="rss" text="Bart" title="Bart" htmlUrl="https://www.yosoybartsolo.com/" xmlUrl="https://www.yosoybartsolo.com/feed.xml"/>
     </outline>
     <outline text="Sitios y blogs personales (Español)" title="Sitios y blogs personales (Español)">
+      <outline type="rss" text="Axel Valdez" title="Axel Valdez" htmlUrl="https://axel.mx/" xmlUrl="https://axel.mx/feed/feed.xml"/>
       <outline type="rss" text="Diego López" title="Diego López" htmlUrl="https://diegologs.com/" xmlUrl="http://diegologs.com/rss/feed.xml"/>
       <outline type="rss" text="Emmanuel Alejandro Parada" title="Emmanuel Alejandro Parada" htmlUrl="https://text.eapl.mx/posts" xmlUrl="https://text.eapl.mx/atom.xml"/>
       <outline type="rss" text="Matizeta" title="Matizeta" htmlUrl="https://matizeta.com/" xmlUrl="https://matizeta.com/feed/"/>

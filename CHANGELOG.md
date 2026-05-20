@@ -8,6 +8,21 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.77.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.77.0...v2.77.1) - 2026-05-20
+
+- Agregar Pica [`c4a4e39`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c4a4e39119550b47095578c83ef9f003493f97f8)
+- Actualizar /uses [`cf0bc58`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cf0bc589c30890e8703f88462b4bc52fedca9ac3)
+- Actualizar CHANGELOG [`b219778`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b219778601f04769daca693da6aa2e922496e00d)
+- Actualizar /blogroll [`c865552`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c865552d34decab6b92b6fa957ec360ba7ca0f6c)
+- Reacomodar elementos [`d62959e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d62959ee9d1d4a2103d213a05d86c09f1aa95bbd)
+- Ajustar espacio entre botones [`ec0f0f9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ec0f0f942677615c293e1cff5501910e1d5f6ef0)
+- Actualizar /blogroll [`e7e9016`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e7e90165d390638ebe845270d6d1e2dbf13f807e)
+- Ajustar posición de timestamp [`dc1cfa0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/dc1cfa0ef24de85cfb41eb6c3224790c36b9326c)
+- Deploy v2.77.1 [`4143ed8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4143ed877751f434ea0bc85da048b826b809e841)
+- Aumentar número de canciones desplegadas [`1ee24f0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1ee24f016bea193f6cfee862aeebb10e051d3382)
+- Ajustar posición de timestamp [`2243825`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2243825cf7e6937768e2d7b11486872c02b75ef8)
+- Ajustar posición de avatar [`aaef7c3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/aaef7c36e62f4c24c113f03a6a1c0fe5aa7e0dd1)
+
 ## [`v2.77.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.76.1...v2.77.0) - 2026-05-14
 
 - Reacomodar elementos [`1411de2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1411de23d71d821d92d40c77548910ba2040e5ff)

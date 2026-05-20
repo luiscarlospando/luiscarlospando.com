@@ -15,7 +15,7 @@ permalink: /music/crucial-tracks/
     ⚠️ <em>Disclaimer: Este log lo escribo en inglés (esperando que no sea un problema). Crucial Tracks me genera *prompts* en inglés y siento más natural responderlos en el mismo idioma.</em>
 </p>
 
-<ul class="list-inline mb-4 text-center">
+<ul class="list-inline mb-2 text-center">
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="/music/">
           <i class="fa-solid fa-headphones"></i> Qué estoy escuchando

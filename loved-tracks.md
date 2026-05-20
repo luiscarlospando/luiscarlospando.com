@@ -15,7 +15,7 @@ permalink: /music/loved-tracks/
 
 <p class="text-center">{{ page.description }}</p>
 
-<ul class="list-inline mb-4 text-center">
+<ul class="list-inline mb-2 text-center">
     <li class="list-inline-item">
         <a class="btn btn-primary btn-sm" href="/music/">
           <i class="fa-solid fa-headphones"></i> Qué estoy escuchando

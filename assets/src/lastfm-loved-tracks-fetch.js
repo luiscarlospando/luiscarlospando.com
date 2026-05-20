@@ -1,7 +1,7 @@
 // Most recent loved tracks from Last.fm
 
 // Config
-const ITEMS_PER_PAGE = 10; // items per page for pagination
+const ITEMS_PER_PAGE = 20; // items per page for pagination
 
 let currentPage = 1;
 let allTracks = [];

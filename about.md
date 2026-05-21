@@ -4,7 +4,7 @@ title: Acerca de
 description: Este URL ha sido mi hogar en línea como desde octubre de 2014. Este es mi hub central, en donde comparto lo que me gusta, lo que pienso, lo que hago y enlazo a todos mis perfiles y proyectos.
 tags: [about-me, acerca-de]
 permalink: /about/
-last-modified-at: <span id="last-updated-at">2026-05-08 17:11:00</span>
+last-modified-at: <span id="last-updated-at">2026-05-20 17:28:00</span>
 ---
 
 <h2 class="subtitulo text-center"><small>{{ site.capitalized_domain }} <code>v{{ site.version }}</code></small></h2>
@@ -12,8 +12,7 @@ last-modified-at: <span id="last-updated-at">2026-05-08 17:11:00</span>
 <div class="card last-updated my-3 text-center">
 <div class="card-body rounded">
 #### <code>Última actualización:</code> {{ page.last-modified-at }}
-<br />
-<br />
+<hr>
 #### TL;DR
 Soy un vato chihuahuense, apasionado y romántico del internet de antes, de la música y que encuentra en la fe las piezas que le dan sentido a su vida.
 </div>

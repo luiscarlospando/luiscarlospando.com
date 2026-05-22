@@ -8,7 +8,7 @@ dayjs.locale("es-mx");
 dayjs.extend(relativeTime);
 
 // Config
-const ITEMS_PER_PAGE = 20;
+const ITEMS_PER_PAGE = 30;
 const OMG_ADDRESS = "mijo";
 
 // fluentui-emoji-unicode by shuding — organizes Fluent emojis by unicode codepoint

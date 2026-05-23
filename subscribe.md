@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Suscríbete
-description: Puedes suscribirte a mi sitio con estos RSS feeds, en Mastodon o a través de mi Newsletter para recibir actualizaciones de mi contenido.
+description: Puedes seguirme con estos RSS feeds, en Mastodon o a través de mi Newsletter para recibir actualizaciones de mi contenido.
 image: /assets/images/logo.png
 tags: [subscribe, rss, rss-feeds, mastodon, newsletter, newsletters]
 permalink: /subscribe/
-last-modified-at: <span id="last-updated-at">2026-02-26 15:45:00</span>
+last-modified-at: <span id="last-updated-at">2026-05-23 10:0:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -15,7 +15,7 @@ last-modified-at: <span id="last-updated-at">2026-02-26 15:45:00</span>
 </div>
 
 <div class="text-center">
-Puedes suscribirte a mi sitio con estos [<i class="fa-solid fa-link"></i> RSS feeds][1], en [<i class="fa-solid fa-link"></i> Mastodon][2] o a través de mi [<i class="fa-solid fa-link"></i> Newsletter][3] para recibir actualizaciones de mi contenido.
+Puedes seguir mi sitio con estos [<i class="fa-solid fa-link"></i> RSS feeds][1], en [<i class="fa-solid fa-link"></i> Mastodon][2] o a través de mi [<i class="fa-solid fa-link"></i> Newsletter][3] para recibir actualizaciones de mi contenido.
 </div>
 
 <details class="mb-3">
@@ -23,9 +23,9 @@ Puedes suscribirte a mi sitio con estos [<i class="fa-solid fa-link"></i> RSS fe
 ## <i class="fa-solid fa-list-ul"></i> ¿Qué es un feed?
 </summary>
 
-Es una forma de recibir contenido sin necesidad de visitar el sitio web. Es una manera de suscribirte a tus contenidos favoritos y recibir actualizaciones en tiempo real (como si le dieras 'seguir' a otro usuario en otra red social).
+Es una forma de recibir contenido sin necesidad de visitar el sitio web. Es una manera de suscribirte a tus contenidos favoritos y recibir actualizaciones en tiempo real (como si le dieras 'seguir' a otro usuario en una red social).
 
-Hay una ligera curva de aprendizaje, pero créeme que vale la pena. Conoce más [aquí](https://aboutfeeds-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=en&_x_tr_pto=wapp){:rel="noopener" target="_blank"}.
+Hay una ligera curva de aprendizaje, pero vale la pena. Conoce más [aquí](https://aboutfeeds-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=en&_x_tr_pto=wapp){:rel="noopener" target="_blank"}.
 </details>
 
 <div class="row">

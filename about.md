@@ -13,8 +13,7 @@ last-modified-at: <span id="last-updated-at">2026-05-20 17:28:00</span>
 <div class="card-body rounded">
 #### <code>Última actualización:</code> {{ page.last-modified-at }}
 <hr>
-#### TL;DR
-Soy un vato chihuahuense, apasionado y romántico del internet de antes, de la música y que encuentra en la fe las piezas que le dan sentido a su vida.
+<small><strong>TL;DR</strong> Soy un vato chihuahuense, apasionado y romántico del internet de antes, de la música y que encuentra en la fe las piezas que le dan sentido a su vida.</small>
 </div>
 </div>
 

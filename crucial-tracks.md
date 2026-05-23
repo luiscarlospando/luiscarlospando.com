@@ -9,10 +9,10 @@ permalink: /music/crucial-tracks/
 
 <p class="text-center">{{ page.description }}</p>
 
-<p class="text-center">Para armar este playlist [uso mi perfil en Crucial Tracks][1]{:rel="alternate noopener" target="_blank"}. En [este post][2] explico más a detalle de qué va todo esto.</p>
+<p class="text-center">Para armar este playlist [uso Crucial Tracks][1]{:rel="alternate noopener" target="_blank"}. En [este post][2] explico más a detalle todo esto.</p>
 
 <p class="text-center">
-    ⚠️ <em>Disclaimer: Este log lo escribo en inglés (esperando que no sea un problema). Crucial Tracks me genera *prompts* en inglés y siento más natural responderlos en el mismo idioma.</em>
+    ⚠️ <em>Disclaimer: Estos posts lo escribo en inglés (espero que no sea un problema). Crucial Tracks me genera *prompts* en inglés y siento más natural responderlos en el mismo idioma.</em>
 </p>
 
 <ul class="list-inline mb-2 text-center">

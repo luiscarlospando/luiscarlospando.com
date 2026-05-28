@@ -243,6 +243,8 @@ function renderTagFilters() {
         renderTagFilters();
         renderPaginatedLinks();
         setupPagination();
+        // Scroll to the links list so mobile users don't have to swipe down
+        document.getElementById("links")?.scrollIntoView({ behavior: "smooth" });
     });
 
     console.log(

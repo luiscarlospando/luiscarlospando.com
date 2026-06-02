@@ -8,6 +8,25 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.77.2`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.77.1...v2.77.2) - 2026-06-02
+
+- Archivar /now del 30-04-2026 [`add4da2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/add4da28b40e8bcfd4da8c3b6b6292b1f6e69826)
+- Incrementar levemente brillo de bordes [`6993d05`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6993d05e2a6afbe2522610296bf36316dd5cf52c)
+- Actualizar CHANGELOG [`66bec9a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/66bec9a19caf142e9c746c0a7eb49aa2084f9e65)
+- Fetchear fecha de creación del post real [`e01b844`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e01b844d61e4d27d6a892fbc67d8eaae49d4fcd4)
+- Resaltar disclaimer [`a2eeb11`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a2eeb1156c0cb703b9d842e2e49a1e8c6a081c6e)
+- Actualizar textos [`04adee5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/04adee50644eba1adf873ef3006f1f48efed5ae7)
+- Incrementar levemente brillo de componentes [`113814e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/113814e7eb4f068798406802eb0b554820353efc)
+- Ajustar espacios [`355e4a8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/355e4a8825867f49bf93d84aa45b1a8c374931bb)
+- Actualizar textos [`71cfc7b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/71cfc7b945a4548a871c3ba494f105157b4a990b)
+- Ajustar TL;DR [`52d626b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/52d626b6d4e2bb3461fbc11dbe6dc860521aea20)
+- Deploy v2.77.2 [`83fe6dd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/83fe6dd6322bc175d6bba4d85792d74bdbf9485f)
+- Mejorar experiencia al hacer clic en algún filtro [`415abc6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/415abc690f8ef59702206e4dba64a58861d0af28)
+- Actualizar textos [`4bfa559`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4bfa5594dbdb62e74d8721d3316c8d8253b9f97a)
+- Ajustar TL;DR [`fff6df4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/fff6df4fadf9574c18b19c1f66a91bae63268efc)
+- Aumentar número de elementos desplegados [`3e2b3c3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3e2b3c3097db3d639b822ca45cb1e7ef7ac4875b)
+- Aumentar número de elementos desplegados [`bbf5107`](https://github.com/luiscarlospando/luiscarlospando.com/commit/bbf5107af9eef8057456269604a5b14127e46a2d)
+
 ## [`v2.77.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.77.0...v2.77.1) - 2026-05-20
 
 - Agregar Pica [`c4a4e39`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c4a4e39119550b47095578c83ef9f003493f97f8)

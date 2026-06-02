@@ -1,4 +1,14 @@
 // API route to fetch and normalize Crucial Tracks JSON Feed
+
+// The URL path encodes the intended track date (e.g. /profile/mijo/20260601),
+// which is more reliable than date_published when entries are posted late.
+function extractDateFromEntryURL(url) {
+    const match = url?.match(/\/(\d{8})(?:\?.*)?$/);
+    if (!match) return null;
+    const d = match[1];
+    return `${d.slice(0, 4)}-${d.slice(4, 6)}-${d.slice(6, 8)}`;
+}
+
 export default async function handler(req, res) {
     const FEED_URL = "https://app.crucialtracks.org/profile/mijo/feed.json";
 
@@ -16,7 +26,7 @@ export default async function handler(req, res) {
             id: entry.id,
             title: entry.title,
             link: entry.url,
-            created: entry.date_published,
+            created: extractDateFromEntryURL(entry.url) || entry.date_published,
             note: entry.content_html || "",
             content: entry._song_details?.content || "",
             song: entry._song_details?.song || "",

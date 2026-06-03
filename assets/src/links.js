@@ -262,7 +262,7 @@ function formatDate(dateString) {
             console.warn(`Invalid date string: ${dateString}`);
             return "Fecha desconocida";
         }
-        return date.format("DD MMM, YYYY").toLowerCase();
+        return date.format("D MMM, YYYY").toLowerCase();
     } catch (error) {
         console.error(`Error formatting date: ${dateString}`, error);
         return "Fecha desconocida";

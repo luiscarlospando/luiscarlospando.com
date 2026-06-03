@@ -1,11 +1,18 @@
 ---
 layout: page
 title: Contacto
-description: Gracias por tu interés en ponerte en contacto conmigo. Si quieres hablar sobre un proyecto, una idea o simplemente saludar, este es un buen lugar para hacerlo.
+description: Gracias por tu interés en ponerte en contacto conmigo. Si quieres hablar sobre un proyecto, una idea o simplemente saludar, este es el lugar para hacerlo.
 image: /assets/images/logo.png
 tags: [contact, contacto]
 permalink: /contact/
+last-modified-at: <span id="last-updated-at">2026-02-06 21:57:00</span>
 ---
+
+<div class="card last-updated my-3 text-center">
+<div class="card-body rounded">
+#### <code>Última actualización:</code> {{ page.last-modified-at }}
+</div>
+</div>
 
 <p class="text-center">{{ page.description }}</p>
 
@@ -25,13 +32,13 @@ Mi correo personal es: <code>{{ site.email }}</code>
 
 ## <i class="fa-brands fa-apple"></i> iMessage (Código de verificación)
 
-Si tienes mi número personal me puedes contactar _preferentemente_ por iMessage y opcionalmente puedes usar este código de abajo para [verificarme](https://support.apple.com/es-mx/118246){:target="_blank"}.
+Si tienes mi número personal me puedes [verificar](https://support.apple.com/es-mx/118246){:target="_blank"} en iMessage usando este código de abajo.
 
 ```
 APKTIDqddeGKq1HgGGc9_rnoTBa9Pl5qoeZSlNhMBw1bky9JPefQ
 ```
 
-Y si tienes mi número por favor no me marques, por lo general no respondo llamadas.
+Por lo general no respondo llamadas, mensajes de preferencia siempre.
 
 ---
 
@@ -129,18 +136,6 @@ Cuando necesito generar links rápidamente, utilizo [omg.lol][6]{:target="_blank
 ## <i class="fa-solid fa-record-vinyl"></i> Crucial Tracks
 
 En [mi perfil de Crucial Tracks][16]{:rel="me noopener" target="_blank"} llevo un diario, no de mis canciones favoritas, sino de las canciones que me han marcado y definido de alguna manera.
-
----
-
-## <i class="fa-solid fa-star"></i> Perfectly Imperfect
-
-Acabo de abrir mi perfil en [Perfectly Imperfect][18]{:rel="me noopener" target="_blank"}. Es una red social quienes estamos hartos de *doomscrollear*, de los algoritmos y de la IA.
-
----
-
-## <i class="fa-solid fa-user"></i> SpaceHey
-
-Estoy en [SpaceHey][17]{:rel="me noopener" target="_blank"}, una red social que es un throwback a los tiempos del MySpace. Agrégame para poder decirte *"Thank you for the add!"*.
 
 ---
 

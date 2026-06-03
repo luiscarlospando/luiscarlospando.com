@@ -31,9 +31,9 @@ async function loadWeather() {
 
         const data = await response.json();
         const emoji = WEATHER_ICONS[data.icon] || "🌡️";
-        const tooltip = `${emoji} ${data.temp}°C — ${data.description}<br><small>Sensación: ${data.feels_like}°C · Humedad: ${data.humidity}%</small>`;
+        const tooltip = `${emoji} ${data.temp}°C — ${data.description}`;
 
-        // Update Bootstrap 4 tooltip
+        // Update Bootstrap tooltip
         $(el).attr("data-original-title", tooltip).tooltip("dispose").tooltip();
     } catch (e) {
         console.warn("Weather fetch failed:", e);

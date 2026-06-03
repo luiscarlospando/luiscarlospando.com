@@ -5,7 +5,7 @@ description: Gracias por tu interés en ponerte en contacto conmigo. Si quieres 
 image: /assets/images/logo.png
 tags: [contact, contacto]
 permalink: /contact/
-last-modified-at: <span id="last-updated-at">2026-02-06 21:57:00</span>
+last-modified-at: <span id="last-updated-at">2026-06-02 22:00:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">

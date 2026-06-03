@@ -244,7 +244,9 @@ function renderTagFilters() {
         renderPaginatedLinks();
         setupPagination();
         // Scroll to the links list so mobile users don't have to swipe down
-        document.getElementById("links")?.scrollIntoView({ behavior: "smooth" });
+        document
+            .getElementById("links")
+            ?.scrollIntoView({ behavior: "smooth" });
     });
 
     console.log(
@@ -262,7 +264,7 @@ function formatDate(dateString) {
             console.warn(`Invalid date string: ${dateString}`);
             return "Fecha desconocida";
         }
-        return date.format("D MMM, YYYY").toLowerCase();
+        return date.format("DD MMM, YYYY").toLowerCase();
     } catch (error) {
         console.error(`Error formatting date: ${dateString}`, error);
         return "Fecha desconocida";

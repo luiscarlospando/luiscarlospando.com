@@ -53,7 +53,7 @@ async function displayLatestPosts() {
             const latestPostsEl = document.getElementById("latest-posts");
             const postsHTML = data
                 .map((post) => {
-                    const postDate = dayjs(post.date).format("D MMM, YYYY");
+                    const postDate = dayjs(post.date).format("DD MMM, YYYY");
                     const machineReadableDate = dayjs(post.date).format(
                         "YYYY-MM-DD"
                     );

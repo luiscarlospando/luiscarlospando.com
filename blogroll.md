@@ -5,7 +5,7 @@ description: Estos son los blogs y sitios que sigo, ordenados alfabéticamente p
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-05-20 10:22:00</span>
+last-modified-at: <span id="last-updated-at">2026-06-03 18:25:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -210,8 +210,10 @@ Podcasts que escucho actualmente.
 | Nombre | URL | RSS |
 |--------|-----|-----|
 | Comfort Zone | [macstories.net/comfort-zone](https://www.macstories.net/comfort-zone/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.libsyn.com/531557/rss){:target="_blank" rel="noopener" .rss-link} |
+| DramaMex | [sonoromedia.com/podcasts/dramamex](https://sonoromedia.com/podcasts/dramamex){:target="_blank" rel="noopener"} | |
 | Platicando con Rolman y Artemio | [youtube.com/@ArtemioUrbina/podcasts](https://youtube.com/playlist?list=PLBG1h7BR7fLaUyhwNWJCxdy6bSU6k79t2&si=N1I9_5OWXDvDMrLM){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://anchor.fm/s/43a9467c/podcast/rss){:target="_blank" rel="noopener" .rss-link} |
 | The First Ever Podcast | [the-first-ever-podcast.libsyn.com](https://the-first-ever-podcast.libsyn.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.libsyn.com/342104/rss){:target="_blank" rel="noopener" .rss-link} |
+| Wonders of Web Weaving | [web-weaving.jamesg.blog](https://web-weaving.jamesg.blog/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://web-weaving.jamesg.blog/episodes.xml){:target="_blank" rel="noopener" .rss-link} |
 
 </div>
 

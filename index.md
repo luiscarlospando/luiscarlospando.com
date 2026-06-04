@@ -10,20 +10,20 @@ tags: [home, homepage, portada, inicio, luis-carlos-pando, mijo]
 
 <h1 class="text-center">{{ site.title }}</h1>
 
-<span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando, aka `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊), un [desarrollador web][1]{:rel="me" target="_blank"}, punk rocker y lo que se ofrezca de [Chihuahua, México][2]{:rel="noreferrer noopener" target="_blank"}. Siempre me han llamado la atención las computadoras, el código 👨‍💻 y el internet. 🌐 Eso me inspiró a [crear este sitio][3], que es un lugar donde puedo hablar de lo que quiera, experimentar sin miedo a equivocarme, compartir y aprender. Y también sirve como un lugar que concentra todo lo que hago, todo lo que me gusta, y <strong>todo lo que soy</strong>.
+<span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando, aka `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊), un [desarrollador web][1]{:rel="me" target="_blank"}, punk rocker y lo que se ofrezca de [Chihuahua, México][2]{:rel="noreferrer noopener" target="_blank"}. Toda la vida me han cautivado las computadoras, el código 👨‍💻 y el internet. 🌐 Ello me inspiró a [crear este sitio][3], que es mi lugar para hablar de lo que quiera, experimentar sin miedo a equivocarme, compartir y aprender a la vez que también me sirve como un lugar que concentra todo lo que hago, todo lo que me gusta, y <strong>todo lo que soy</strong>.
 
 <div class="collapse" id="collapseIntro">
-Amo machín la música, siempre ha sido una parte importante de mi vida. Los géneros que más te consumo son hardcore, punk, metal y alternativo. Algunos tal vez me ubiquen por haber fundado [Hitz-Musik.net][4]{:target="_blank" rel="noopener"} (RIP 🪦) junto a unos buenos amigos. "El Hitz" era una comunidad dedicada a apoyar la escena local de Chihuahua. Estaba chido todo ese cotorreo de armar toquines pero de eso ya solo me quedan puros buenos recuerdos.
+Amo la música, siempre ha sido una parte importante de mi vida. Los géneros que más te consumo son hardcore, punk, metal, death y alternativo. Algunos tal vez me ubiquen por haber fundado [Hitz-Musik.net][4]{:target="_blank" rel="noopener"} (RIP 🪦) junto a unos viejos amigos. "El Hitz" era una comunidad dedicada a apoyar la escena local de Chihuahua. Estaba muy chido el cotorreo de armar toquines pero de eso ya solo me quedan puros buenos recuerdos.
 
-Llevo un registro de toda [la música que escucho 🎧][5] en mi perfil de [Last.fm 🎵][6]{:rel="me noreferrer noopener" target="_blank"} (que llevo usando desde 2005 baby!).
+A su vez, llevo registrando toda [la música que escucho 🎧][5] en mi perfil de [Last.fm 🎵][6]{:rel="me noreferrer noopener" target="_blank"}, desde 2005 baby!
 
-También me gustan los videojuegos 🕹️ y [aquí llevo un registro][7] de los juegos que tengo en mi colección. Debido a mi interés por el gaming, armé la comunidad de [Mode 7 🎮 🕹️][8] en Discord con unos compas (*All are welcome!*). Ahí platicamos de nuestros juegos favoritos, cotorreamos todo el día y disfrutamos de la bonita tradición de [jugar en el *Mode 7 Grand Prix* 🏁][9] todos los jueves por la noche. [Aquí mero transmito en vivo el caos][10].
+También me gustan los videojuegos 🕹️ y [aquí llevo un registro][7] de los juegos que tengo en mi colección. Debido a mi interés por el gaming, armé la comunidad de [Mode 7 🎮 🕹️][8] en Discord con unos compas (*All are welcome!*). Ahí platicamos de nuestros juegos favoritos, cotorreamos todo el día y disfrutamos de la bonita tradición de [jugar en el *Mode 7 Grand Prix* 🏁][9] todos los jueves y domingos por la noche. [Aquí mero transmito en vivo el caos][10].
 
-He usado prácticamente todas las redes sociales habidas y por haber, pero ahora estoy principalmente en [Mastodon][11]{:rel="me noreferrer noopener" target="_blank"}, [Bluesky][12]{:rel="me noreferrer noopener" target="_blank"}, [omg.lol][13]{:rel="me noreferrer noopener" target="_blank"} e [Instagram][14]{:rel="me noreferrer noopener" target="_blank"}.
+He usado prácticamente todas las redes sociales habidas y por haber (no es cierto, pero si he usado un montón), pero ahora estoy principalmente en [Mastodon][11]{:rel="me noreferrer noopener" target="_blank"}, [Bluesky][12]{:rel="me noreferrer noopener" target="_blank"}, [omg.lol][13]{:rel="me noreferrer noopener" target="_blank"} e [Instagram][14]{:rel="me noreferrer noopener" target="_blank"}.
 
-[Aquí ando les ando compartiendo fotos][15] 📸 y también tengo un guestbook 📖, que si te animas, puedes [pasar a firmarlo][16] y saludar. ✌️
+[Aquí ando les ando compartiendo fotos que tomo con mi cel][15] 📸 y también tengo un guestbook 📖, que si te animas, puedes [pasar a firmarlo][16] y saludar. ✌️
 
-Ya no sé qué más decir, pero si te quedaste con ganas de saber más de mi vida nada interesante, entonces [pásale a mi página Acerca de][3].
+Eso es todo, pero si te quedaste con ganas de saber más de mi vida nada interesante, entonces [pásale a mi página Acerca de][3].
 </div>
 
 <button id="btn-read-more" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapseIntro" role="button" aria-expanded="false" aria-controls="collapseIntro">

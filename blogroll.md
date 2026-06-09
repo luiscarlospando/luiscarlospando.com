@@ -5,7 +5,7 @@ description: Estos son los blogs y sitios que sigo, ordenados alfabéticamente p
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-06-03 18:25:00</span>
+last-modified-at: <span id="last-updated-at">2026-06-09 12:53:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -34,9 +34,8 @@ last-modified-at: <span id="last-updated-at">2026-06-03 18:25:00</span>
 ## <i class="fa-solid fa-list-ul"></i> Tabla de contenido
 </summary>
 
-- [🫂 Amigos (en la vida real)](#amigos-en-la-vida-real)
-- [🇪🇸 Sitios y blogs personales (Español)](#sitios-y-blogs-personales-español)
-- [🇬🇧 Sitios y blogs personales (Inglés)](#sitios-y-blogs-personales-ingles)
+- [🇪🇸 Blogs en español](#blogs-en-español)
+- [🇬🇧 Blogs en inglés](#blogs-en-ingles)
 - [📖 Directorios](#directorios)
 - [🎮 Gaming](#gaming)
 - [🎵 Música](#musica)
@@ -48,40 +47,29 @@ last-modified-at: <span id="last-updated-at">2026-06-03 18:25:00</span>
 
 ---
 
-## <i id="amigos-en-la-vida-real" class="fa-solid fa-users"></i> Amigos (en la vida real)
-Algunos de mis compas en la vida real tienen su propio sitio, son poquitos pero algo es algo.
-
-<div class="table-responsive">
-
-| Nombre | URL | RSS |
-|--------|-----|-----|
-| Bart | [yosoybartsolo.com](https://www.yosoybartsolo.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.yosoybartsolo.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
-| Magiobus | [magiobus.com](https://magiobus.com/){:target="_blank" rel="noopener"} | |
-| MexicanSkynet | [mexicanskynet.com](https://mexicanskynet.com){:target="_blank" rel="noopener"} | |
-
-</div>
-
----
-
-## <i id="sitios-y-blogs-personales-español" class="fa-solid fa-user"></i> Sitios y blogs personales (Español)
+## <i id="blogs-en-español" class="fa-solid fa-user"></i> Blogs en español
 Algunos de los sitios y blogs personales en español que más me gustan (como se podrán dan cuenta, apenas estoy comenzando a descubrir contenido en español).
 
 <div class="table-responsive">
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
+| Bart | [yosoybartsolo.com](https://www.yosoybartsolo.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.yosoybartsolo.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Diego López | [diegologs.com](https://diegologs.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://diegologs.com/rss/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Emmanuel Alejandro Parada | [eapl.mx](https://text.eapl.mx/posts){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://text.eapl.mx/atom.xml){:target="_blank" rel="noopener" .rss-link} |
 | Fausto César | [esuntipazo.com](https://www.esuntipazo.com/){:target="_blank" rel="noopener"} | |
+| Magiobus | [magiobus.com](https://magiobus.com/){:target="_blank" rel="noopener"} | |
 | Manu Mateos | [macram.es](https://www.macram.es/){:target="_blank" rel="noopener"} | |
 | Matizeta | [matizeta.com](https://matizeta.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://matizeta.com/feed/){:target="_blank" rel="noopener" .rss-link} |
+| MexicanSkynet | [mexicanskynet.com](https://mexicanskynet.com){:target="_blank" rel="noopener"} | |
 | Mono | [simplemono.neocities.org](https://simplemono.neocities.org/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://simplemono.neocities.org/index.xml){:target="_blank" rel="noopener" .rss-link} |
+| Oswaldo Miranda | [quiroptero.blog](https://www.quiroptero.blog/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.quiroptero.blog/index.xml){:target="_blank" rel="noopener" .rss-link} |
 
 </div>
 
 ---
 
-## <i id="sitios-y-blogs-personales-ingles" class="fa-solid fa-user"></i> Sitios y blogs personales (Inglés)
+## <i id="blogs-en-ingles" class="fa-solid fa-user"></i> Blogs en inglés
 Algunos de los sitios y blogs personales en inglés que más me gustan.
 
 <div class="table-responsive">

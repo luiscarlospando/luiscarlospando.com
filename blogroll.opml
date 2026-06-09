@@ -6,16 +6,15 @@
     <ownerName>Luis Carlos Pando</ownerName>
   </head>
   <body>
-    <outline text="Amigos (en la vida real)" title="Amigos (en la vida real)">
+    <outline text="Blogs en español" title="Blogs en español">
       <outline type="rss" text="Bart" title="Bart" htmlUrl="https://www.yosoybartsolo.com/" xmlUrl="https://www.yosoybartsolo.com/feed.xml"/>
-    </outline>
-    <outline text="Sitios y blogs personales (Español)" title="Sitios y blogs personales (Español)">
       <outline type="rss" text="Diego López" title="Diego López" htmlUrl="https://diegologs.com/" xmlUrl="http://diegologs.com/rss/feed.xml"/>
       <outline type="rss" text="Emmanuel Alejandro Parada" title="Emmanuel Alejandro Parada" htmlUrl="https://text.eapl.mx/posts" xmlUrl="https://text.eapl.mx/atom.xml"/>
       <outline type="rss" text="Matizeta" title="Matizeta" htmlUrl="https://matizeta.com/" xmlUrl="https://matizeta.com/feed/"/>
       <outline type="rss" text="Mono" title="Mono" htmlUrl="https://simplemono.neocities.org/" xmlUrl="https://simplemono.neocities.org/index.xml"/>
+      <outline type="rss" text="Oswaldo Miranda" title="Oswaldo Miranda" htmlUrl="https://www.quiroptero.blog/" xmlUrl="https://www.quiroptero.blog/index.xml"/>
     </outline>
-    <outline text="Sitios y blogs personales (Inglés)" title="Sitios y blogs personales (Inglés)">
+    <outline text="Blogs en inglés" title="Blogs en inglés">
       <outline type="rss" text="Andy Bell" title="Andy Bell" htmlUrl="https://bell.bz/" xmlUrl="https://bell.bz/feed.xml"/>
       <outline type="rss" text="Anh" title="Anh" htmlUrl="https://anhvn.com/" xmlUrl="https://anhvn.com/feed.xml"/>
       <outline type="rss" text="Ashur Cabrera" title="Ashur Cabrera" htmlUrl="https://multiline.co/mment" xmlUrl="https://multiline.co/mment/feed.xml"/>

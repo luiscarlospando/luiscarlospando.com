@@ -29,7 +29,7 @@ last-modified-at: <span id="last-updated-at">2026-06-09 12:53:00</span>
     </li>
 </ul>
 
-<details>
+<details open>
 <summary>
 ## <i class="fa-solid fa-list-ul"></i> Tabla de contenido
 </summary>

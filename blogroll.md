@@ -5,7 +5,7 @@ description: Estos son los blogs y sitios que sigo, ordenados alfabéticamente p
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-06-09 12:53:00</span>
+last-modified-at: <span id="last-updated-at">2026-06-09 12:57:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -48,7 +48,7 @@ last-modified-at: <span id="last-updated-at">2026-06-09 12:53:00</span>
 ---
 
 ## <i id="blogs-en-español" class="fa-solid fa-user"></i> Blogs en español
-Algunos de los sitios y blogs personales en español que más me gustan (como se podrán dan cuenta, apenas estoy comenzando a descubrir contenido en español).
+Algunos de los sitios y blogs personales en español que sigo.
 
 <div class="table-responsive">
 
@@ -70,7 +70,7 @@ Algunos de los sitios y blogs personales en español que más me gustan (como se
 ---
 
 ## <i id="blogs-en-ingles" class="fa-solid fa-user"></i> Blogs en inglés
-Algunos de los sitios y blogs personales en inglés que más me gustan.
+Algunos de los sitios y blogs personales en inglés que sigo.
 
 <div class="table-responsive">
 

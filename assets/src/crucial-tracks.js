@@ -90,8 +90,8 @@ function setLoadingState(isLoading) {
     const element = document.getElementById("tracks");
     if (element && isLoading) {
         element.innerHTML = `
-      <li class="loading-state">
-        <i class="fas fa-spinner fa-spin"></i> Cargando Crucial Tracks...
+      <li class="loading-state" role="status" aria-live="polite">
+        <i class="fas fa-spinner fa-spin" aria-hidden="true"></i> Cargando Crucial Tracks...
       </li>`;
     }
 }
@@ -439,8 +439,8 @@ function onYouTubePlayerStateChange(event) {
         if (playerDiv) {
             const trackItem = playerDiv.closest("li");
             if (trackItem) {
-                const songTitle = trackItem.querySelector("h2")?.textContent;
-                const artist = trackItem.querySelector(".info p")?.textContent;
+                const songTitle = trackItem.dataset.song;
+                const artist = trackItem.dataset.artist;
                 if (songTitle && artist) {
                     document.title = `"${songTitle}" de ${artist} - Luis Carlos Pando`;
                 }
@@ -487,8 +487,8 @@ function handleAudioPlay(event) {
     const audioElement = event.target;
     const trackItem = audioElement.closest("li");
     if (trackItem) {
-        const songTitle = trackItem.querySelector("h2")?.textContent;
-        const artist = trackItem.querySelector(".info p")?.textContent;
+        const songTitle = trackItem.dataset.song;
+        const artist = trackItem.dataset.artist;
         if (songTitle && artist) {
             document.title = `"${songTitle}" de ${artist} - Luis Carlos Pando`;
         }
@@ -520,10 +520,16 @@ function setupBandcampPlayers() {
         bandcampPlayers.push(iframe);
     });
 
-    // Attach mousedown listeners to each overlay
+    // Attach mousedown and keyboard listeners to each overlay
     const overlays = document.querySelectorAll("#tracks .bandcamp-overlay");
     overlays.forEach((overlay) => {
         overlay.addEventListener("mousedown", handleBandcampOverlayClick);
+        overlay.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                handleBandcampOverlayClick(e);
+            }
+        });
     });
 }
 
@@ -558,8 +564,8 @@ function handleBandcampOverlayClick(event) {
     // Update page title
     const trackItem = iframe.closest("li");
     if (trackItem) {
-        const songTitle = trackItem.querySelector("h2")?.textContent;
-        const artist = trackItem.querySelector(".info p")?.textContent;
+        const songTitle = trackItem.dataset.song;
+        const artist = trackItem.dataset.artist;
         if (songTitle && artist) {
             document.title = `"${songTitle}" de ${artist} - Luis Carlos Pando`;
         }
@@ -583,6 +589,20 @@ function updatePlayPauseIndicator(artworkWrapper, isPlaying) {
 
     if (!indicator || !icon) return;
 
+    icon.setAttribute("aria-hidden", "true");
+
+    const artworkLink = artworkWrapper.parentElement;
+    const trackItem = artworkLink?.closest("li");
+    const song = trackItem?.dataset.song;
+    const artist = trackItem?.dataset.artist;
+    if (artworkLink && song) {
+        const action = isPlaying ? "Pausar" : "Reproducir";
+        artworkLink.setAttribute(
+            "aria-label",
+            `${action}: ${song}${artist ? ` — ${artist}` : ""}`
+        );
+    }
+
     if (isPlaying) {
         artworkWrapper.classList.add("is-playing");
         indicator.classList.add("pause-icon");
@@ -605,6 +625,16 @@ function setupAlbumArtworkClickHandlers() {
 
         // Only add click handler if there's an audio element
         if (audioElement) {
+            artworkLink.setAttribute("role", "button");
+            const song = trackItem?.dataset.song || "";
+            const artist = trackItem?.dataset.artist || "";
+            if (song) {
+                artworkLink.setAttribute(
+                    "aria-label",
+                    `Reproducir: ${song}${artist ? ` — ${artist}` : ""}`
+                );
+            }
+
             // Wrap the link content in a positioned container if not already wrapped
             if (!artworkLink.querySelector(".artwork-wrapper")) {
                 const img = artworkLink.querySelector("img");
@@ -615,7 +645,7 @@ function setupAlbumArtworkClickHandlers() {
                     // Create play/pause indicator
                     const indicator = document.createElement("div");
                     indicator.className = "artwork-play-indicator";
-                    indicator.innerHTML = '<i class="fas fa-play"></i>';
+                    indicator.innerHTML = '<i class="fas fa-play" aria-hidden="true"></i>';
 
                     // Wrap the image
                     img.parentNode.insertBefore(wrapper, img);
@@ -784,7 +814,7 @@ function renderPaginatedTracks() {
                 const youtubeData = extractYouTubeEmbed(item.note, globalIndex);
                 if (youtubeData) {
                     return `
-        <li class="mb-4">
+        <li class="mb-4" data-song="${item.song}" data-artist="${item.artist}">
           ${dateBadgeHTML}
           ${questionTitle}
           <div class="card mb-4">
@@ -797,9 +827,9 @@ function renderPaginatedTracks() {
                 </div>
                 <div class="col-12 mt-3">
                   <div class="info">
-                    <h2 style="margin: 0 0 0.13em !important;">${item.song}</h2>
-                    <p>${item.artist}</p>
-                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                    <h2 style="margin: 0 0 0.13em !important;"><span class="sr-only">Canción: </span>${item.song}</h2>
+                    <p><span class="sr-only">Artista: </span>${item.artist}</p>
+                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
                   </div>
                 </div>
               </div>
@@ -825,8 +855,8 @@ function renderPaginatedTracks() {
                     // pauses all other players, then removes itself so the iframe is interactive.
                     const bandcampPlayer = `
                         <div class="bandcamp-wrapper" style="position: relative;">
-                            <iframe id="${bcId}" src="${bandcampSrc}" seamless style="border: 0; width: 100%; height: 120px;"></iframe>
-                            <div class="bandcamp-overlay" data-bc-id="${bcId}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer; z-index: 1;"></div>
+                            <iframe id="${bcId}" src="${bandcampSrc}" seamless title="Bandcamp: ${item.song} — ${item.artist}" style="border: 0; width: 100%; height: 120px;"></iframe>
+                            <div class="bandcamp-overlay" data-bc-id="${bcId}" role="button" tabindex="0" aria-label="Reproducir: ${item.song} — ${item.artist}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer; z-index: 1;"></div>
                         </div>`;
 
                     const cardBody = artworkSrc
@@ -840,26 +870,26 @@ function renderPaginatedTracks() {
                 </div>
                 <div class="col-md-8 col-lg-9">
                   <div class="info">
-                    <h2 style="margin: 0 0 0.13em !important;">${item.song}</h2>
-                    <p>${item.artist}</p>
+                    <h2 style="margin: 0 0 0.13em !important;"><span class="sr-only">Canción: </span>${item.song}</h2>
+                    <p><span class="sr-only">Artista: </span>${item.artist}</p>
                     ${bandcampPlayer}
-                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
                   </div>
                 </div>
               </div>`
                         : `<div class="row">
                 <div class="col-12">
                   <div class="info">
-                    <h2 style="margin: 0 0 0.13em !important;">${item.song}</h2>
-                    <p>${item.artist}</p>
+                    <h2 style="margin: 0 0 0.13em !important;"><span class="sr-only">Canción: </span>${item.song}</h2>
+                    <p><span class="sr-only">Artista: </span>${item.artist}</p>
                     ${bandcampPlayer}
-                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
                   </div>
                 </div>
               </div>`;
 
                     return `
-        <li class="mb-4">
+        <li class="mb-4" data-song="${item.song}" data-artist="${item.artist}">
           ${dateBadgeHTML}
           ${questionTitle}
           <div class="card mb-4">
@@ -879,11 +909,11 @@ function renderPaginatedTracks() {
                 : "";
 
             const audioHTML = item.preview_url
-                ? `<audio preload="none" controls><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
+                ? `<audio preload="none" controls aria-label="Preview: ${item.song} — ${item.artist}"><source src="${item.preview_url}" type="audio/mp4">Your browser does not support the audio element.</audio>`
                 : "";
 
             return `
-        <li class="mb-4">
+        <li class="mb-4" data-song="${item.song}" data-artist="${item.artist}">
           ${dateBadgeHTML}
           ${questionTitle}
           <div class="card mb-4">
@@ -898,10 +928,10 @@ function renderPaginatedTracks() {
                 </div>
                 <div class="col-md-8 col-lg-9">
                   <div class="info">
-                    <h2 style="margin: 0 0 0.13em !important;">${item.song}</h2>
-                    <p>${item.artist}</p>
+                    <h2 style="margin: 0 0 0.13em !important;"><span class="sr-only">Canción: </span>${item.song}</h2>
+                    <p><span class="sr-only">Artista: </span>${item.artist}</p>
                     ${audioHTML}
-                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
                   </div>
                 </div>
               </div>

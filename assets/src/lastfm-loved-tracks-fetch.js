@@ -48,8 +48,8 @@ function handleAudioPlay(event) {
     const audioElement = event.target;
     const trackItem = audioElement.closest("li");
     if (trackItem) {
-        const songTitle = trackItem.querySelector("h2")?.textContent;
-        const artist = trackItem.querySelector(".info p")?.textContent;
+        const songTitle = trackItem.dataset.song;
+        const artist = trackItem.dataset.artist;
         if (songTitle && artist) {
             document.title = `"${songTitle}" de ${artist} - Luis Carlos Pando`;
         }
@@ -76,6 +76,20 @@ function updatePlayPauseIndicator(artworkWrapper, isPlaying) {
 
     if (!indicator || !icon) return;
 
+    icon.setAttribute("aria-hidden", "true");
+
+    const artworkLink = artworkWrapper.parentElement;
+    const trackItem = artworkLink?.closest("li");
+    const song = trackItem?.dataset.song;
+    const artist = trackItem?.dataset.artist;
+    if (artworkLink && song) {
+        const action = isPlaying ? "Pausar" : "Reproducir";
+        artworkLink.setAttribute(
+            "aria-label",
+            `${action}: ${song}${artist ? ` — ${artist}` : ""}`
+        );
+    }
+
     if (isPlaying) {
         artworkWrapper.classList.add("is-playing");
         indicator.classList.add("pause-icon");
@@ -100,6 +114,16 @@ function setupAlbumArtworkClickHandlers() {
 
         // Only add click handler if there's an audio element
         if (audioElement) {
+            artworkLink.setAttribute("role", "button");
+            const song = trackItem?.dataset.song || "";
+            const artist = trackItem?.dataset.artist || "";
+            if (song) {
+                artworkLink.setAttribute(
+                    "aria-label",
+                    `Reproducir: ${song}${artist ? ` — ${artist}` : ""}`
+                );
+            }
+
             // Wrap the link content in a positioned container if not already wrapped
             if (!artworkLink.querySelector(".artwork-wrapper")) {
                 const img = artworkLink.querySelector("img");
@@ -110,7 +134,7 @@ function setupAlbumArtworkClickHandlers() {
                     // Create play/pause indicator
                     const indicator = document.createElement("div");
                     indicator.className = "artwork-play-indicator";
-                    indicator.innerHTML = '<i class="fas fa-play"></i>';
+                    indicator.innerHTML = '<i class="fas fa-play" aria-hidden="true"></i>';
 
                     // Wrap the image
                     img.parentNode.insertBefore(wrapper, img);
@@ -223,8 +247,8 @@ function displayLastFmLovedTracks() {
 
     // Set loading state
     container.innerHTML = `
-        <li class="loading-state">
-            <i class="fas fa-spinner fa-spin"></i> Cargando canciones favoritas...
+        <li class="loading-state" role="status" aria-live="polite">
+            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i> Cargando canciones favoritas...
         </li>`;
 
     fetch("https://luiscarlospando.com/api/lastfmLovedTracks")
@@ -300,13 +324,13 @@ function renderPaginatedTracks() {
             const artworkHTML = `<img src="${finalImageUrl}" ${loadingAttr} data-toggle="tooltip" data-placement="top" alt="${artistName} - ${trackTitle}" title="${artistName} - ${trackTitle}" class="track-artwork rounded w-100 mb-4 mb-md-0 img-fluid" onerror="this.onerror=null; this.src='https://placehold.co/300x300?text=Portada+no+encontrada'">`;
 
             const audioHTML = previewUrl
-                ? `<audio preload="none" controls><source src="${previewUrl}" type="audio/mp4">Tu navegador no soporta el elemento de audio.</audio>`
+                ? `<audio preload="none" controls aria-label="Preview: ${trackTitle} — ${artistName}"><source src="${previewUrl}" type="audio/mp4">Tu navegador no soporta el elemento de audio.</audio>`
                 : '<p class="text-muted"><em>Preview no disponible para esta canción.</em></p>';
 
             const separator = index < tracks.length - 1 ? "<hr>" : "";
 
             return `
-                <li class="mb-4">
+                <li class="mb-4" data-song="${trackTitle}" data-artist="${artistName}">
                     <div class="card mb-4">
                         <div class="card-body">
                             <div class="row">
@@ -319,10 +343,10 @@ function renderPaginatedTracks() {
                                 </div>
                                 <div class="col-md-8 col-lg-9">
                                     <div class="info">
-                                        <h2 style="margin: 0 0 0.13em !important;">${trackTitle}</h2>
-                                        <p>${artistName}</p>
+                                        <h2 style="margin: 0 0 0.13em !important;"><span class="sr-only">Canción: </span>${trackTitle}</h2>
+                                        <p><span class="sr-only">Artista: </span>${artistName}</p>
                                         ${audioHTML}
-                                        <p><a href="${trackUrl}" target="_blank" rel="noopener">Abrir en Last.fm <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                                        <p><a href="${trackUrl}" target="_blank" rel="noopener">Abrir en Last.fm <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
                                     </div>
                                 </div>
                             </div>

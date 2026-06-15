@@ -8,6 +8,28 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.77.3`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.77.2...v2.77.3) - 2026-06-15
+
+- Mejorar accesibilidad en players [`66dafc0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/66dafc05a5c2964210778d6de7bb9b5423dfde38)
+- Ocultar tags de omg.lol [`15e6812`](https://github.com/luiscarlospando/luiscarlospando.com/commit/15e681263c3bb9a72b9e1a540e58981c20a5155c)
+- Actualizar blogroll [`64201ce`](https://github.com/luiscarlospando/luiscarlospando.com/commit/64201ce6f1e2b6b1efeaa2aa13d834bb76466dfd)
+- Actualizar /contact [`eaba3ce`](https://github.com/luiscarlospando/luiscarlospando.com/commit/eaba3cece42bab4a5bff4a9538f6c4c43df1b6b4)
+- Actualizar CHANGELOG [`670982e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/670982eee92a52d8c868f36f90b67f5f0cc19e70)
+- Actualizar introducción [`3d06854`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3d0685465d15257e98fe9402f48f4a8bf7aa4c9b)
+- Estandarizar formato de fechas con las demás fechas del sitio [`f643180`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f6431808036a0f335cd3c37e7b193868008da66d)
+- Actualizar blogroll [`f9163cc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f9163cc9e1fbf3b64863d938594f22c35ff7baa4)
+- Agregar script del webring de BlogBlog [`0d7cdc1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0d7cdc16071a2cae59248682d9949b5b6d352c30)
+- Actualizar blogroll [`516f014`](https://github.com/luiscarlospando/luiscarlospando.com/commit/516f014b458912924ccdc0bacc3e13b66fa2381c)
+- Comentar scripts relacionados a YouTube [`3600199`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3600199ca50c7d01df9e05565603ae3739735627)
+- Modificar tooltip del clima para mostrar solamente temperatura actual [`d27b628`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d27b628da191aaf552054c6afd6d4baf56c66ff9)
+- Agregar script del webring de BlogBlog [`d36e4cf`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d36e4cff91253f4633037fffe788df65d4a27799)
+- Agregar link a blog [`42eaf1a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/42eaf1afc26b6dd6f78abb8aa1db61f7905f56f0)
+- Deploy v2.77.3 [`5a09115`](https://github.com/luiscarlospando/luiscarlospando.com/commit/5a09115a4b8d697578d538c36f6049c8913449e0)
+- Actualizar textos [`a1ad4b6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a1ad4b670c8c2956fa034a2595770f7961b5b11e)
+- Actualizar blogroll [`b00738c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b00738c7a3d6b1b808811df7ef6a844baf852329)
+- Estandarizar formato de fechas con las demás fechas del sitio [`bd388d8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/bd388d8127c76e39ab721f2692a95da18144d9e9)
+- Actualizar /contact [`81db2fe`](https://github.com/luiscarlospando/luiscarlospando.com/commit/81db2fe27f5448cf56c0b04caad904df85067e66)
+
 ## [`v2.77.2`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.77.1...v2.77.2) - 2026-06-02
 
 - Archivar /now del 30-04-2026 [`add4da2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/add4da28b40e8bcfd4da8c3b6b6292b1f6e69826)

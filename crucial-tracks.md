@@ -9,7 +9,7 @@ permalink: /music/crucial-tracks/
 
 <div class="card last-updated my-3 text-center">
 <div class="card-body rounded">
-<small>⚠️ Disclaimer: Estos posts lo escribo en inglés (espero que no sea un problema). Crucial Tracks me genera *prompts* en inglés y siento más natural responderlos en el mismo idioma.</small>
+<small>⚠️ Estos posts lo escribo en inglés (espero que no sea un problema). Crucial Tracks me genera *prompts* en inglés y siento más natural responderlos en el mismo idioma.</small>
 </div>
 </div>
 

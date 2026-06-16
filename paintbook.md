@@ -100,7 +100,11 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 
 ## Dibujos recibidos
 
-Una vez que envíes tu dibujo, dame chanza de revisarlo antes de publicarlo aquí abajo. 👇
+<div class="card last-updated my-3 text-center">
+<div class="card-body rounded">
+<small>⚠️ Una vez que envíes tu dibujo, dame chanza de revisarlo antes de publicarlo aquí abajo.</small>
+</div>
+</div>
 
 <ul id="paintbook-gallery" class="list-unstyled">
 

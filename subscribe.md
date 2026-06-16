@@ -122,7 +122,7 @@ Aquí comparto mis links favoritos.
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="/music/playlist/">
+<a href="/music/crucial-tracks/">
     📀 Playlist (Crucial Tracks)
 </a>
 </li>

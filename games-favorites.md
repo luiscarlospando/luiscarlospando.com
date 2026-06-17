@@ -5,7 +5,7 @@ description: Esta es una lista de mis juegos favoritos.
 image: /assets/images/logo-games.png
 tags: [games, video-games, favorite-games, favorite-video-games]
 permalink: /games/favorites/
-last-modified-at: <span id="last-updated-at">2026-04-27 1:13:00</span>
+last-modified-at: <span id="last-updated-at">2026-06-17 14:55:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -1011,6 +1011,14 @@ last-modified-at: <span id="last-updated-at">2026-04-27 1:13:00</span>
       <figure class="figure">
         <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9s9.jpg" data-toggle="tooltip" data-placement="top" alt="Mario Kart World (2025)" title="Mario Kart World (2025)" width="150">
         <figcaption class="figure-caption text-center">Mario Kart World (2025)</figcaption>
+      </figure>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/wfRjbTgvgDE">
+      <figure class="figure">
+        <img class="thumb-game rounded img-fluid" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc11a.jpg" data-toggle="tooltip" data-placement="top" alt="Star Fox (2026)" title="Star Fox (2026)" width="150">
+        <figcaption class="figure-caption text-center">Star Fox (2026)</figcaption>
       </figure>
     </a>
   </li>

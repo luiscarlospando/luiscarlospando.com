@@ -127,7 +127,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
         <li class="mb-2">
           <a href="/photos/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
-             title="Ve algunas de las fotos que he tomo con mi teléfono">
+             title="Ve algunas de las fotos que he tomado con mi teléfono">
             <i class="fa-solid fa-camera mr-2"></i> <span>Fotos</span>
           </a>
         </li>

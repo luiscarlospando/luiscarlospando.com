@@ -18,9 +18,6 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
           <i class="fa-solid fa-paintbrush"></i> Paintbook
         </a>
     </li>
-    <li class="list-inline-item">
-        <span class="badge badge-success pulse-subtle position-relative" style="top: 0.8rem; left: 1.6rem;">Nuevo</span>
-    </li>
 </ul>
 
 <div class="text-center">

@@ -5,7 +5,7 @@ description: Esto es lo que ando jugando actualmente y mis perfiles de Discord, 
 image: /assets/images/logo-games.png
 tags: [games, video-games, current-games, currently-playing]
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2026-04-27 1:13:00</span>
+last-modified-at: <span id="last-updated-at">2026-06-29 1:13:00</span>
 ---
 
 <p class="text-center">
@@ -145,41 +145,8 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 </li>
 </ul>
 </div>
-</div>
+</div>    
 
-<hr>
-    
-<div class="row">
-<div class="col-md-6 my-auto">
-<ul class="list-unstyled">
-<li class="mb-5">
-
-<a href="https://backloggd.com/games/sonic-the-hedgehog-3/" rel="noreferrer noopener" target="_blank">
-<img class="enlarge-transition rounded img-fluid mb-2" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1zut.jpg" alt="Sonic the Hedgehog 3 (Nintendo Switch)" width="100">
-</a>
-
-<a class="d-block" href="https://backloggd.com/games/sonic-the-hedgehog-3/" rel="noreferrer noopener" target="_blank">
-<em>Sonic the Hedgehog 3 (Nintendo Switch)</em>
-</a>
-
-</li>
-<li>
-
-<a href="https://backloggd.com/games/doom/" rel="noreferrer noopener" target="_blank">
-<img class="enlarge-transition rounded img-fluid mb-2" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6vy5.jpg" alt="Doom (Nintendo Switch)" width="100">
-</a>
-
-<a class="d-block" href="https://backloggd.com/games/doom/" rel="noreferrer noopener" target="_blank">
-<em>Doom (Nintendo Switch)</em>
-</a>
-
-</li>
-</ul>
-</div>
-<div class="col-md-6 my-auto text-monospace">
-(Offline)
-</div>
-</div>
 </div>
 <div class="card-footer">
 <h6>

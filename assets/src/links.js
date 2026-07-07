@@ -282,7 +282,7 @@ function renderItemHTML(item) {
 
     let noteHTML = "";
     if (item.note && item.note.trim() !== "") {
-        noteHTML = `<p><small>${item.note}</small></p>`;
+        noteHTML = `<p><small style="white-space: pre-line;">${item.note}</small></p>`;
     }
 
     return `

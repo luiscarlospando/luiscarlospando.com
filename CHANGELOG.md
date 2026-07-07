@@ -8,6 +8,23 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.77.4`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.77.3...v2.77.4) - 2026-07-06
+
+- Archivar /now del 31-05-2026 [`29bb593`](https://github.com/luiscarlospando/luiscarlospando.com/commit/29bb593a4b1a72a3828ad178e3efcb2362f58fed)
+- Actualizar jeugos [`f514aea`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f514aea38f89c2c6481423e2a906025d3214c4e5)
+- Actualizar CHANGELOG [`457b33a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/457b33ab6ebb004f4ddc91fdfda5b99c07b549e9)
+- Agregar Star Fox (2026) [`61f004a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/61f004a80295dc87214951b9af42096eaabe478d)
+- Actualizar disclaimer [`cb69342`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cb69342f08d7eadc6e1406f908306744c2c4aa3d)
+- Agregar dibujo [`1764ff6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/1764ff64db2d087cc072201c388d6bb9dfe5ebfe)
+- Quitar badge Nuevo [`0e4662a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/0e4662aca954af69fd77136e914abf08dbda0c87)
+- Deploy v2.77.4 [`cac44f5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cac44f500d709f3e3ec826698f46050cc2a63ba2)
+- Respetar formato de las notas comoestán en Raindrop.io [`ba18bd2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ba18bd2ad0cc8770242a7a1db62e5ed02fa51027)
+- Actualizar descripción de Fotos [`b0d7e63`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b0d7e6341955d2acde975c2b996bcd4c2c666f05)
+- Actualizar descripción de Fotos [`558db9b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/558db9bad2a53d13d202f2778a32c9edc2319f22)
+- Ocultar badge Nuevo [`ac1b6c5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ac1b6c5a134b0a5778201bfc93ed34892e335fd1)
+- Ocultar badge Nuevo [`8dc9fe2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8dc9fe2980bffb9027e69584fe83cccff032df0f)
+- Corregir link roto [`a269ccb`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a269ccbf33ab491edc7de854fd0ccf90e2870a04)
+
 ## [`v2.77.3`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.77.2...v2.77.3) - 2026-06-15
 
 - Mejorar accesibilidad en players [`66dafc0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/66dafc05a5c2964210778d6de7bb9b5423dfde38)

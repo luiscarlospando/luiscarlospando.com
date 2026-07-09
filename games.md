@@ -5,7 +5,7 @@ description: Esto es lo que ando jugando actualmente y mis perfiles de Discord, 
 image: /assets/images/logo-games.png
 tags: [games, video-games, current-games, currently-playing]
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2026-06-29 1:13:00</span>
+last-modified-at: <span id="last-updated-at">2026-07-08 18:59:00</span>
 ---
 
 <p class="text-center">
@@ -141,6 +141,31 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <a class="btn btn-primary" href="https://discord.gg/NUSDKeJ" rel="noreferrer noopener" target="_blank">
 <i class="fa-brands fa-discord"></i> Discord
 </a>
+
+</li>
+</ul>
+</div>
+</div>
+
+<hr>
+    
+<div class="row">
+<div class="col-md-6 my-auto">
+<ul class="list-unstyled">
+<li>
+
+<img class="enlarge-transition rounded img-fluid mb-2" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc11a.jpg" alt="Star Fox" width="100">
+
+<em>Star Fox</em>
+
+</li>
+</ul>
+</div>
+<div class="col-md-6 my-auto">
+<ul class="list-unstyled">
+<li>
+
+<code>(Offline)</code>
 
 </li>
 </ul>

@@ -128,7 +128,7 @@ function setLoadingState(isLoading) {
 async function fetchBookmarksJSON() {
     try {
         console.log("🔄 Attempting to fetch JSON bookmarks...");
-        const response = await fetch(BOOKMARKS_API);
+        const response = await fetch(BOOKMARKS_API, { priority: "high" });
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -513,7 +513,7 @@ window.addEventListener("popstate", (event) => {
 // ─── Init ────────────────────────────────────────────────────────────────────
 
 // Initialize main function
-document.addEventListener("DOMContentLoaded", () => {
+function init() {
     // Only run if at least one of the containers exists
     const bookmarksElement = document.getElementById("bookmarks");
     const linksElement = document.getElementById("links");
@@ -521,4 +521,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (bookmarksElement || linksElement) {
         displayContent();
     }
-});
+}
+
+// This script is loaded as a blocking <script> tag placed after the page
+// content, so the DOM is typically already parsed by the time it runs.
+// Checking readyState lets us start the fetch immediately in that case
+// instead of waiting for DOMContentLoaded to fire.
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+} else {
+    init();
+}

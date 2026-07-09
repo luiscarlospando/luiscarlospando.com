@@ -9,10 +9,12 @@ const relativeTime = require("dayjs/plugin/relativeTime");
 dayjs.extend(relativeTime);
 
 // API URLs
+// _fields trims the WP REST response to just what's rendered below, instead
+// of transferring full post bodies/excerpts/meta we never use.
 const latestPosts =
-    "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=5&categories_exclude=986"; // Here we're excluding the "Fotos" category (ID: 986)
+    "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=5&categories_exclude=986&_fields=date,link,title"; // Here we're excluding the "Fotos" category (ID: 986)
 const mode7LatestPost =
-    "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1&tags=778";
+    "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1&tags=778&_fields=date,link,title";
 
 // Function to set a loading state
 function setLoadingState(isLoading) {
@@ -44,6 +46,7 @@ async function displayLatestPosts() {
         const response = await fetch(latestPosts, {
             method: "GET",
             headers: { "Content-type": "application/json;charset=UTF-8" },
+            priority: "high",
         });
         const data = await response.json();
 
@@ -134,8 +137,10 @@ async function displayMode7LatestPost() {
 
 async function displayTotalPosts() {
     try {
+        // Only the X-WP-Total header is used here, so ask WP for the
+        // smallest possible body instead of the default 10 full posts.
         const response = await fetch(
-            "https://blog.luiscarlospando.com/wp-json/wp/v2/posts",
+            "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1&_fields=id",
             {
                 method: "GET",
                 headers: { "Content-type": "application/json;charset=UTF-8" },
@@ -156,13 +161,26 @@ async function displayTotalPosts() {
     }
 }
 
-// Wait for DOM to be fully loaded before calling functions
-document.addEventListener("DOMContentLoaded", async () => {
+// These three hit independent WP REST endpoints and touch disjoint DOM
+// elements, so run them concurrently instead of awaiting one at a time.
+async function loadContent() {
     try {
-        await displayLatestPosts();
-        await displayMode7LatestPost();
-        await displayTotalPosts();
+        await Promise.all([
+            displayLatestPosts(),
+            displayMode7LatestPost(),
+            displayTotalPosts(),
+        ]);
     } catch (error) {
         console.error("Error loading content:", error);
     }
-});
+}
+
+// This script runs as a blocking <script> tag placed after the page content,
+// so the DOM is typically already parsed by the time it executes. Checking
+// readyState lets these fetches start immediately instead of waiting for
+// DOMContentLoaded.
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", loadContent);
+} else {
+    loadContent();
+}

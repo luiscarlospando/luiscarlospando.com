@@ -154,11 +154,11 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 <ul class="list-unstyled">
 <li>
 
-<span class="d-block mb-3">
 <img class="enlarge-transition rounded img-fluid mb-2" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc11a.jpg" alt="Star Fox" width="100">
-</span>
 
+<span class="d-block">
 <em>Star Fox</em>
+</span>
 
 </li>
 </ul>

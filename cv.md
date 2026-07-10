@@ -5,6 +5,7 @@ description: Currículum de Luis Carlos Pando, desarrollador frontend en Chihuah
 image: /assets/images/logo.png
 tags: [cv, resume, currículum]
 permalink: /cv/
+last-modified-at: <span id="last-updated-at">2026-07-10 11:43:00</span>
 ---
 
 <p class="text-center">{{ page.description }}</p>
@@ -21,6 +22,14 @@ permalink: /cv/
 - 🌐 [LuisCarlosPando.com](https://luiscarlospando.com) (estás aquí)
 - 💬 [Otros medios de contacto](https://luiscarlospando.com/contact)
 </div>
+
+---
+
+<div class="text-center">
+<script src="https://sifa.id/embed.js" data-handle="luiscarlospando.com"></script>
+</div>
+
+---
 
 ## Experiencia Laboral
 

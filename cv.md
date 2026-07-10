@@ -23,14 +23,6 @@ last-modified-at: <span id="last-updated-at">2026-07-10 11:43:00</span>
 - 💬 [Otros medios de contacto](https://luiscarlospando.com/contact)
 </div>
 
----
-
-<div class="text-center">
-<script src="https://sifa.id/embed.js" data-handle="luiscarlospando.com"></script>
-</div>
-
----
-
 ## Experiencia Laboral
 
 ### Frontend Developer

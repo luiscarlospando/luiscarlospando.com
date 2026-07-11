@@ -13,6 +13,7 @@
         "update-p": "node node-scripts/updateLastModifiedPrivacy.js",
         "update-r": "node node-scripts/updateRSSFeeds.js",
         "update-b": "node node-scripts/updateProjects.js",
+        "update-w": "node node-scripts/updateWebring.js",
         "changelog:generate": "auto-changelog --output TEMP_CHANGELOG.md --commit-limit false --template .changelog-template.hbs",
         "changelog": "git fetch --tags origin && npm run changelog:generate && cat _changelog-header.md TEMP_CHANGELOG.md > CHANGELOG.md && rm TEMP_CHANGELOG.md",
         "test": "echo \"Error: no test specified\" && exit 1"

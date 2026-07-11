@@ -64,17 +64,17 @@
                                 <li class="mb-2">
                                     <ul class="list-inline mb-0">
                                         <li class="list-inline-item">
-                                            <a class="btn btn-primary btn-sm" href="https://www.quiroptero.blog/" rel="noopener" target="_blank" data-toggle="tooltip" data-placement="top" aria-label="Anterior" title="Anterior">
+                                            <a class="btn btn-primary btn-sm" href="https://www.quiroptero.blog/" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Anterior" title="Anterior">
                                                 <i class="fa-solid fa-arrow-left"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="btn btn-primary btn-sm" href="{{ webring_random.url }}" rel="noopener" target="_blank" data-toggle="tooltip" data-placement="top" aria-label="Ir a un sitio aleatorio" title="Ir a un sitio aleatorio: {{ webring_random.name }}">
+                                            <a id="webring-blogblog-random" class="btn btn-primary btn-sm" href="{{ webring_random.url }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Ir a un sitio aleatorio" title="Ir a un sitio aleatorio: {{ webring_random.name }}">
                                                 <i class="fa-solid fa-shuffle"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="btn btn-primary btn-sm" href="https://jorgesanz.net/" rel="noopener" target="_blank" data-toggle="tooltip" data-placement="top" aria-label="Siguiente" title="Siguiente">
+                                            <a class="btn btn-primary btn-sm" href="https://jorgesanz.net/" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Siguiente" title="Siguiente">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                             </a>
                                         </li>
@@ -103,6 +103,17 @@
                                     </ul>
                                 </li>
                             </ul>
+                            <script>
+                                (function () {
+                                    var webringOthers = {{ webring_others | jsonify | replace: '</', '<\/' }};
+                                    if (!webringOthers.length) return;
+                                    var pick = webringOthers[Math.floor(Math.random() * webringOthers.length)];
+                                    var link = document.getElementById('webring-blogblog-random');
+                                    if (!link) return;
+                                    link.href = pick.url;
+                                    link.title = 'Ir a un sitio aleatorio: ' + pick.name;
+                                })();
+                            </script>
 
                             <ul id="version" class="list-inline">
                                 <li class="list-inline-item me-2">

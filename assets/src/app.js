@@ -45,6 +45,7 @@ import "./twitter";
 import "./paintbook";
 import "./paintbook-pagination";
 import "./weather";
+import "./webring";
 import "./other";
 
 // React components

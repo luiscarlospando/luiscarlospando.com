@@ -103,17 +103,7 @@
                                     </ul>
                                 </li>
                             </ul>
-                            <script>
-                                (function () {
-                                    var webringOthers = {{ webring_others | jsonify | replace: '</', '<\/' }};
-                                    if (!webringOthers.length) return;
-                                    var pick = webringOthers[Math.floor(Math.random() * webringOthers.length)];
-                                    var link = document.getElementById('webring-blogblog-random');
-                                    if (!link) return;
-                                    link.href = pick.url;
-                                    link.title = 'Ir a un sitio aleatorio: ' + pick.name;
-                                })();
-                            </script>
+                            <script type="application/json" id="webring-blogblog-data">{{ webring_others | jsonify | replace: '</', '<\/' }}</script>
 
                             <ul id="version" class="list-inline">
                                 <li class="list-inline-item me-2">

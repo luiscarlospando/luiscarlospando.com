@@ -50,60 +50,39 @@
                                 </li>
                             </ul>
 
-                            {% assign webring_others = "" | split: "" %}
-                            {% for webring_entry in site.data.webring %}
-                                {% unless webring_entry.url contains site.domain %}
-                                    {% assign webring_others = webring_others | push: webring_entry %}
-                                {% endunless %}
-                            {% endfor %}
-                            {% assign webring_random = webring_others | sample %}
-                            <ul class="list-unstyled my-0">
-                                <li class="mb-2">
-                                    <a href="https://blogblog.es/" rel="noopener noreferrer" target="_blank">¡Blog!¡Blog! Webring</a>
+                            <figure>
+                                <a href="{{ site.blog_url }}/personal/2025/08/el-indieweb-es-metal-y-punk/" data-toggle="tooltip" data-placement="top" aria-label="El IndieWeb es metal (y punk)" title="El IndieWeb es metal (y punk)">
+                                    <img class="img-fluid" width="70" src="{{ site.url }}/assets/images/indieweb@2x.webp" alt="IndieWeb">
+                                </a>
+                            </figure>
+
+                            <ul id="social" class="list-inline mt-0">
+                                <li class="list-inline-item">
+                                    <a rel="me noreferrer noopener" href="{{ site.mastodon_url }}" data-toggle="tooltip" data-placement="top" aria-label="Mastodon" title="Mastodon" target="_blank">
+                                        <i class="fa-brands fa-mastodon"></i>
+                                    </a>
                                 </li>
-                                <li class="mb-3">
-                                    <ul class="list-inline mb-0">
-                                        <li class="list-inline-item">
-                                            <a class="btn btn-primary btn-sm" href="https://www.quiroptero.blog/" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Anterior" title="Anterior">
-                                                <i class="fa-solid fa-arrow-left"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a id="webring-blogblog-random" class="btn btn-primary btn-sm" href="{{ webring_random.url }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Ir a un sitio aleatorio" title="Ir a un sitio aleatorio: {{ webring_random.name }}">
-                                                <i class="fa-solid fa-shuffle"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="btn btn-primary btn-sm" href="https://jorgesanz.net/" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Siguiente" title="Siguiente">
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                <li class="list-inline-item">
+                                    <a rel="me noreferrer noopener" href="{{ site.bluesky_url }}" data-toggle="tooltip" data-placement="top" aria-label="Bluesky" title="Bluesky" target="_blank">
+                                        <i class="fa-brands fa-bluesky"></i>
+                                    </a>
                                 </li>
-                                <li class="mb-2">
-                                    <a href="https://cs.sjoy.lol/" rel="noopener noreferrer" target="_blank">CSS JOY Webring 🕸️💍</a>
+                                <li class="list-inline-item">
+                                    <a rel="me noreferrer noopener" href="{{ site.instagram_url }}" data-toggle="tooltip" data-placement="top" aria-label="Instagram" title="Instagram" target="_blank">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
                                 </li>
-                                <li>
-                                    <ul class="list-inline mb-0">
-                                        <li class="list-inline-item">
-                                            <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/previous?via=https://{{ site.domain }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Anterior" title="Anterior">
-                                                <i class="fa-solid fa-arrow-left"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/random?via=https://{{ site.domain }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Ir a un sitio aleatorio" title="Ir a un sitio aleatorio">
-                                                <i class="fa-solid fa-shuffle"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/next?via=https://{{ site.domain }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Siguiente" title="Siguiente">
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                <li class="list-inline-item">
+                                    <a rel="me noreferrer noopener" href="{{ site.discord_profile }}" data-toggle="tooltip" data-placement="top" aria-label="Discord" title="Discord" target="_blank">
+                                        <i class="fa-brands fa-discord"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="/subscribe/" data-toggle="tooltip" data-placement="top" aria-label="Suscríbete" title="Suscríbete">
+                                        <i class="fa-solid fa-square-rss"></i>
+                                    </a>
                                 </li>
                             </ul>
-                            <script type="application/json" id="webring-blogblog-data">{{ webring_others | jsonify | replace: '</', '<\/' }}</script>
 
                             <ul id="version" class="list-inline">
                                 <li class="list-inline-item me-2">
@@ -195,40 +174,62 @@
                             </ul>
                         </div>
                         <div class="col-12 text-center">
-                            <figure>
-                                <a href="{{ site.blog_url }}/personal/2025/08/el-indieweb-es-metal-y-punk/" data-toggle="tooltip" data-placement="top" aria-label="El IndieWeb es metal (y punk)" title="El IndieWeb es metal (y punk)">
-                                    <img class="img-fluid" width="70" src="{{ site.url }}/assets/images/indieweb@2x.webp" alt="IndieWeb">
-                                </a>
-                            </figure>
-                        </div>
-                        <div class="col-12 text-center">
-                            <ul id="social" class="list-inline mt-0">
-                                <li class="list-inline-item">
-                                    <a rel="me noreferrer noopener" href="{{ site.mastodon_url }}" data-toggle="tooltip" data-placement="top" aria-label="Mastodon" title="Mastodon" target="_blank">
-                                        <i class="fa-brands fa-mastodon"></i>
-                                    </a>
+                            {% assign webring_others = "" | split: "" %}
+                            {% for webring_entry in site.data.webring %}
+                                {% unless webring_entry.url contains site.domain %}
+                                    {% assign webring_others = webring_others | push: webring_entry %}
+                                {% endunless %}
+                            {% endfor %}
+                            {% assign webring_random = webring_others | sample %}
+
+                            <ul class="list-unstyled my-0">
+                                <li class="mb-2">
+                                    <a href="https://blogblog.es/" rel="noopener noreferrer" target="_blank">¡Blog!¡Blog! Webring</a>
                                 </li>
-                                <li class="list-inline-item">
-                                    <a rel="me noreferrer noopener" href="{{ site.bluesky_url }}" data-toggle="tooltip" data-placement="top" aria-label="Bluesky" title="Bluesky" target="_blank">
-                                        <i class="fa-brands fa-bluesky"></i>
-                                    </a>
+                                <li class="mb-3">
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <a class="btn btn-primary btn-sm" href="https://www.quiroptero.blog/" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Anterior" title="Anterior">
+                                                <i class="fa-solid fa-arrow-left"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a id="webring-blogblog-random" class="btn btn-primary btn-sm" href="{{ webring_random.url }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Ir a un sitio aleatorio" title="Ir a un sitio aleatorio: {{ webring_random.name }}">
+                                                <i class="fa-solid fa-shuffle"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="btn btn-primary btn-sm" href="https://jorgesanz.net/" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Siguiente" title="Siguiente">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
-                                <li class="list-inline-item">
-                                    <a rel="me noreferrer noopener" href="{{ site.instagram_url }}" data-toggle="tooltip" data-placement="top" aria-label="Instagram" title="Instagram" target="_blank">
-                                        <i class="fa-brands fa-instagram"></i>
-                                    </a>
+                                <li class="mb-2">
+                                    <a href="https://cs.sjoy.lol/" rel="noopener noreferrer" target="_blank">CSS JOY Webring</a>
                                 </li>
-                                <li class="list-inline-item">
-                                    <a rel="me noreferrer noopener" href="{{ site.discord_profile }}" data-toggle="tooltip" data-placement="top" aria-label="Discord" title="Discord" target="_blank">
-                                        <i class="fa-brands fa-discord"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="/subscribe/" data-toggle="tooltip" data-placement="top" aria-label="Suscríbete" title="Suscríbete">
-                                        <i class="fa-solid fa-square-rss"></i>
-                                    </a>
+                                <li>
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/previous?via=https://{{ site.domain }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Anterior" title="Anterior">
+                                                <i class="fa-solid fa-arrow-left"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/random?via=https://{{ site.domain }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Ir a un sitio aleatorio" title="Ir a un sitio aleatorio">
+                                                <i class="fa-solid fa-shuffle"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/next?via=https://{{ site.domain }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Siguiente" title="Siguiente">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
+
+                            <script type="application/json" id="webring-blogblog-data">{{ webring_others | jsonify | replace: '</', '<\/' }}</script>
                         </div>
                     </div>
                 </div>

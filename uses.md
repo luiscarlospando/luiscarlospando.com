@@ -5,7 +5,7 @@ description: Este es el stack de apps que uso en mi día a día. Disfruto descub
 image: /assets/images/logo.png
 tags: [uses, apps, favorite-apps, apps-favoritas, macos, ios]
 permalink: /uses/
-last-modified-at: <span id="last-updated-at">2026-07-10 10:10:00</span>
+last-modified-at: <span id="last-updated-at">2026-07-16 10:18:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">

@@ -23,6 +23,7 @@
       <outline type="rss" text="Cory Dransfeldt" title="Cory Dransfeldt" htmlUrl="https://www.coryd.dev/" xmlUrl="https://www.coryd.dev/feeds/all.xml"/>
       <outline type="rss" text="Dave Rupert" title="Dave Rupert" htmlUrl="https://daverupert.com/" xmlUrl="https://daverupert.com/atom.xml"/>
       <outline type="rss" text="Derek Sivers" title="Derek Sivers" htmlUrl="https://sive.rs/" xmlUrl="https://sive.rs/en.atom"/>
+      <outline type="rss" text="fnhipster" title="fnhipster" htmlUrl="https://fnhipster.com/" xmlUrl="https://fnhipster.com/rss"/>
       <outline type="rss" text="Frills" title="Frills" htmlUrl="https://frills.dev/" xmlUrl="https://frills.dev/all.xml"/>
       <outline type="rss" text="James' Coffee Blog" title="James' Coffee Blog" htmlUrl="https://jamesg.blog/" xmlUrl="https://jamesg.blog/feeds/posts.xml"/>
       <outline type="rss" text="Jarrod Blundy" title="Jarrod Blundy" htmlUrl="https://heydingus.net/" xmlUrl="https://heydingus.net/feed.rss"/>

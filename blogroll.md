@@ -5,7 +5,7 @@ description: Estos son los blogs y sitios que sigo, ordenados alfabéticamente p
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-06-09 12:57:00</span>
+last-modified-at: <span id="last-updated-at">2026-07-16 13:29:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -85,6 +85,7 @@ Algunos de los sitios y blogs personales en inglés que sigo.
 | Cory Dransfeldt | [coryd.dev](https://www.coryd.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.coryd.dev/feeds/all.xml){:target="_blank" rel="noopener" .rss-link} |
 | Dave Rupert | [daverupert.com](https://daverupert.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://daverupert.com/atom.xml){:target="_blank" rel="noopener" .rss-link} |
 | Derek Sivers | [sive.rs](https://sive.rs/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://sive.rs/en.atom){:target="_blank" rel="noopener" .rss-link} |
+| fnhipster | [fnhipster.com](https://fnhipster.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://fnhipster.com/rss){:target="_blank" rel="noopener" .rss-link} |
 | Frills | [frills.dev](https://frills.dev/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://frills.dev/all.xml){:target="_blank" rel="noopener" .rss-link} |
 | James' Coffee Blog | [jamesg.blog](https://jamesg.blog/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://subscribeopenly.net/subscribe/?url=https://jamesg.blog/feeds/posts.xml){:target="_blank" rel="noopener" .rss-link} |
 | Jarrod Blundy | [heydingus.net](https://heydingus.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://heydingus.net/feed.rss){:target="_blank" rel="noopener" .rss-link} |

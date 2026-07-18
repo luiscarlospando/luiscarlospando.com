@@ -4,7 +4,7 @@ import { initStatusManager } from "./statuslog.js";
 // so dynamically-injected content (e.g. blog-posts.js's reply context links)
 // can re-run this scoped to just its own container after render — this only
 // scans the DOM once on load otherwise, so anything added later gets missed.
-function addExternalLinkIcons(root = document) {
+export function addExternalLinkIcons(root = document) {
     root.querySelectorAll('a[target="_blank"]').forEach((link) => {
         const hasImage = link.querySelector("img");
         if (
@@ -21,8 +21,6 @@ function addExternalLinkIcons(root = document) {
         }
     });
 }
-
-module.exports = { addExternalLinkIcons };
 
 (function () {
     const ready = (callback) => {

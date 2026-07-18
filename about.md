@@ -35,23 +35,23 @@ Qué tranza, soy Luis Carlos Pando 👋, pero algunos me conocen como `Mijo` (<a
 
 Desde que tengo uso de razón siempre he tenido curiosidad por saber cómo funcionan las cosas 🔧. Me acuerdo que de chavito esa curiosidad me hacía desarmar mis juguetes para ver qué había adentro.
 
-Me considero una persona autodidacta, honestamente creo que he aprendido más por mi cuenta que lo que aprendí en la escuela. Si algo me llama la atención, me obsesiono con ello. Así aprendí a tocar guitarra 🎸 (que aunque no soy un virtuoso, medio me defiendo), así aprendí a hacer websites y es así como sigo aprendiendo cosas nuevas todos los días.
+Me considero alguien autodidacta y creo que he aprendido más por mi cuenta que lo que aprendí en la escuela. Si algo me llama la atención, me clavo hasta entender qué onda. Así aprendí a tocar guitarra 🎸 (que aunque no soy un virtuoso, medio me defiendo), así aprendí a hacer websites y es así como sigo aprendiendo cosas nuevas todos los días.
 
 ## La música
 
 Hay un momentos que marcaron mi vida para siempre, uno de ellos fue cuando conocí MTV 2 y Fuse. A partir de ahí, mi mundo cambió. El descubrir música nueva, bandas y artistas confirmó que mi gusto por la música era parte fundamental de mi personalidad (definitivamente influenciado por mi papá). Esos canales me abrieron las puertas a un universo sonoro que no sabía que existía y desde entonces la música se volvió parte esencial de mi identidad.
 
-En mis 20s, junto a unos compas, fundé [Hitz-Musik.net][1]{:target="_blank" rel="noopener"} (RIP 🪦). "El Hitz" era más que una página web; era una comunidad real que apoyaba la escena local de Chihuahua. Organizábamos toquines, compartíamos música y creamos un espacio donde amantes de la música podían conectar con bandas locales. Aunque el proyecto ya murió, guardo esos recuerdos con mucho cariño porque representan una época donde el cotorreo y el amor por la música nos unían (y nos sigue uniendo hasta la fecha).
+Hace un resto, junto a unos compas, fundé [Hitz-Musik.net][1]{:target="_blank" rel="noopener"} (RIP 🪦). "El Hitz" era más que una página web; era una comunidad real que apoyaba la escena local de Chihuahua. Organizábamos toquines, compartíamos música y creamos un espacio donde amantes de la música podían conectar con bandas locales. Aunque el proyecto ya murió, guardo esos recuerdos con mucho cariño porque representan una época donde el cotorreo y el amor por la música nos unían (y nos sigue uniendo hasta la fecha).
 
 ## El gaming
 
-También me gustan los videojuegos, aunque hay temporadas en los que ando bien clavado y otras en las que me desconecto por completo del hobbie. Como sea, mi gusto por el gaming me hizo crear la comunidad de [Mode 7 🎮][2] en Discord junto a otros compas. Ahí cotorreamos todo el día sobre nuestros juegos favoritos y cada jueves en la noche [transmitimos][3] nuestro frenético torneo de *Mario Kart* 🏁.
+Me gustan mucho los videojuegos, aunque hay temporadas en los que ando bien clavado y otras en las que me desconecto por completo del hobbie. Como sea, mi gusto por el gaming me hizo crear la comunidad de [Mode 7 🎮][2] en Discord junto a otros compas. Ahí cotorreamos todo el día sobre nuestros juegos favoritos y cada jueves en la noche [transmitimos][3] nuestro frenético torneo de *Mario Kart* 🏁.
 
 Es un espacio en donde todos son bienvenidos.
 
 ## Mi persona
 
-Aunque muchos no lo crean por como me desenvuelvo en línea, me considero alguien bastante introvertido, al menos al inicio. Me siento más cómodo expresándome a través de la escritura o de la música que en conversaciones cara a cara. Tal vez por eso este sitio significa tanto para mí. Es mi forma más auténtica de conectar con el mundo.
+Aunque algunos no lo crean por como me desenvuelvo en línea, me considero alguien bastante introvertido, al menos al inicio. Me siento más cómodo expresándome a través de la escritura o de la música que en conversaciones cara a cara. Tal vez por eso este sitio significa tanto para mí. Es mi forma más auténtica de conectar con el mundo.
 
 Mi fe también es algo súper importante para mí. Soy cristiano y tengo toda mi confianza puesta en Jesús ✝️. Es la parte de mi vida que me da tranquilidad, seguridad, sostén y propósito. Especialmente en esos momentos donde mis inseguridades y la ansiedad me atacan.
 
@@ -67,21 +67,19 @@ Ahí les van algunas cosas random:
 
 ## El IndieWeb (porque no solamente me gusta la música y películas indies 😜)
 
-Soy alguien que apoya los valores del [internet independiente y descentralizado][5]{:target="_blank" rel="noreferrer noopener"} 🌐. 
+Apoyo los valores del [internet independiente y descentralizado][5]{:target="_blank" rel="noreferrer noopener"} 🌐. 
 
-Este sitio es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, el *look & feel*, el layout, los colores, el contenido, los *features*, las reglas y absolutamente todo.
+Este sitio es un lugar que puedo considerar *100% mío*. Aquí yo tengo el control de todo, del *look & feel*, del layout, de los colores, del contenido, de los *features*, de las reglas y de absolutamente todo.
 
 Al tener mi propio sitio, no dependo de ninguna compañía como Meta, Google, <span data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="🤮">X</span> o TikTok. Todos sabemos que el futuro de esas plataformas es incierto (y ya hemos sido testigos que esas plataformas desaparecen o cambian de dueños/directivos y luego valen sh!t).
 
-En la web comercial/mainstream, nos sometemos a las reglas y políticas de esas compañías y si no las seguimos, pueden bannearnos nuestras cuentas y/o contenido. Eso, en mi opinión no es una verdadera libertad de expresión. Así que yo prefiero no ser parte de ese sistema ni invertir mi tiempo, dinero ni esfuerzo en crear contenido para ellos.
+En la web comercial/mainstream, nos sometemos a las reglas y políticas de esas compañías y si no las seguimos, pueden revocarnos nuestras cuentas y/o contenido. Eso, en mi opinión no es una verdadera libertad de expresión. Así que yo prefiero no ser parte de ese sistema ni invertir mi tiempo, dinero ni esfuerzo en crear contenido para ellos.
 
 Todo esto lo menciono para generar consciencia de que ahí no tenemos control real, ni somos propietarios de nuestro contenido y/o cuentas (aunque nos hagan creer eso).
 
-En el IndieWeb podemos crear contenido, crear páginas, compartir enlaces, comentar y mucho más. Todo esto bajo nuestro propio control.
+En el IndieWeb se puede crear contenido, crear páginas, compartir información, links, comentar y mucho más. Todo esto bajo nuestro propio control.
 
-Estoy consciente de que el IndieWeb no es para todos y no te voy a juzgar por no estar ahí.
-
-La única red social de la que sigo siendo prisionero es Instagram (y en cierta manera, ¿Discord?), pero es porque todos mis amigos están ahí y si me salgo, me aislaría completamente de mis amigos más cercanos.
+Obviamente soy consciente de que el IndieWeb no es para todos y no te voy a juzgar por no estar ahí.
 
 ## And, that's pretty much it!
 

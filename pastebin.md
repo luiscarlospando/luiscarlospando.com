@@ -19,7 +19,7 @@ last-modified-at: <span id="pastebin-updated"></span>
 <div class="text-center">
 <ul class="list-inline">
 <li class="list-inline-item">
-<a class="btn btn-primary btn-sm" href="{{ site.omglol_url }}/pastebin" rel="alternate">
+<a class="btn btn-primary btn-sm" href="https://pastebin.{{ site.domain}}" rel="alternate">
 <i class="fa-solid fa-heart"></i> Reflejo en omg.lol
 </a>
 </li>

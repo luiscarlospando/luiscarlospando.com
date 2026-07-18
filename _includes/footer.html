@@ -302,6 +302,37 @@
         </div>
     </div>
 
+    <!-- Paste Modal -->
+    <div class="modal fade" id="pasteModal" tabindex="-1" role="dialog" aria-labelledby="pasteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pasteModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="modal-body modal-body-jekyll">
+                    <p class="pastebin-modal-meta text-muted">
+                        <span id="pasteModalDate"></span>
+                        <span class="language-badge" id="pasteModalLanguage"></span>
+                    </p>
+                    <div class="pastebin-modal-code">
+                        <button type="button" class="btn btn-primary btn-sm pastebin-modal-copy" id="pasteModalCopyBtn" data-clipboard-text="">
+                            <i class="fa-solid fa-copy"></i> Copiar
+                        </button>
+                        <pre><code id="pasteModalCode"></code></pre>
+                    </div>
+                    <p class="text-center mb-0">
+                        <a class="btn btn-primary btn-sm" id="pasteModalLink" href="#" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-heart"></i> Ver en omg.lol
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 

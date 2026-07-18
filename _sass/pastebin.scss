@@ -1,0 +1,114 @@
+// encoding: UTF-8
+
+/* ==========================================================================
+   PASTEBIN
+   ========================================================================== */
+
+.pastebin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin: 1.5rem 0;
+}
+
+.pastebin-card {
+    display: flex;
+    flex-direction: column;
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .pastebin-card-title {
+        margin-bottom: 0.25rem !important;
+        word-break: break-word;
+    }
+
+    .pastebin-card-meta {
+        font-size: 0.8rem;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        margin-bottom: 0.75rem !important;
+    }
+
+    .pastebin-card-preview {
+        position: relative;
+        flex: 1;
+        max-height: 190px;
+        overflow: hidden;
+        margin: 0 -1.25rem;
+
+        pre {
+            margin: 0 !important;
+            border-radius: 0;
+            box-shadow: none;
+        }
+
+        &.is-truncated::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 48px;
+            background: linear-gradient(to bottom, transparent, #222);
+            pointer-events: none;
+        }
+    }
+
+    .pastebin-card-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1rem;
+        padding-top: 0.75rem;
+        border-top: 1px solid $cardBorderColor;
+        font-size: 0.85rem;
+    }
+
+    .btn-view-paste {
+        color: $mainColor !important;
+
+        &:hover,
+        &:focus {
+            color: $linkColor !important;
+        }
+    }
+}
+
+.language-badge {
+    display: inline-block;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 0.25em 0.6em;
+    margin-left: 0.5em;
+    border-radius: $badgeBorderRadius;
+    background-color: $tertiaryColor;
+    color: #1a1a1a;
+}
+
+.pastebin-modal-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.pastebin-modal-code {
+    position: relative;
+
+    pre {
+        max-height: 60vh;
+    }
+}
+
+.pastebin-modal-copy {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    z-index: 2;
+}

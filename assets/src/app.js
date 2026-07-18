@@ -22,6 +22,7 @@ import "./lastfm-fetch";
 import "./lastfm-albums-fetch";
 import "./lastfm-loved-tracks-fetch";
 import "./now";
+import "./pastebin";
 import "./twitch-live";
 // import "./youtube-live";
 // import "./youtube-embeds";

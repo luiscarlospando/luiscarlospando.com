@@ -8,6 +8,20 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.79.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.78.0...v2.79.0) - 2026-07-18
+
+- Actualizar CHANGELOG [`96cffda`](https://github.com/luiscarlospando/luiscarlospando.com/commit/96cffdacad0d7f9b7dad5de66fd603b565656abb)
+- Agregar Reply Context [`7ca5952`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7ca5952ea88a1abad4a95dd2b972397948d7882c)
+- Implementar /pastebin [`6f859bc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6f859bc4a8e3d6b5c38d1367b31a48df0fa7cd07)
+- Agregar Reply Context [`b253dde`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b253dde476c5e36393e9d5ba0f0b66dceb0dae27)
+- Ajustar textos [`c4af8a3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c4af8a30384f43acdf60e3c14523af20ccf0bcc6)
+- Agregar Reply Context [`aad2574`](https://github.com/luiscarlospando/luiscarlospando.com/commit/aad25748967ca6650927095e9dc42d227c471faf)
+- Agregar botón a /pastebin [`789eb1f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/789eb1f513cab5a51f3cf7a3a40703d741f1a6e4)
+- Agregar Reply Context [`f2a88e8`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f2a88e817653ec7f6e29c7da928a3424adf54398)
+- Deploy v2.79.0 [`441a147`](https://github.com/luiscarlospando/luiscarlospando.com/commit/441a1471f6525fdde4fdf9e5ac524a0769699faa)
+- Corregir link a reglejo del Pastebin en omg.lol [`6a3df20`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6a3df20caf64bc4f1d2398200c15f4b9aa084a84)
+- Agregar botón a /pastebin [`05eb88f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/05eb88fe87c1368264cfd2cbeb91743c8740d244)
+
 ## [`v2.78.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.77.4...v2.78.0) - 2026-07-17
 
 - Implementar /pastebin [`178b739`](https://github.com/luiscarlospando/luiscarlospando.com/commit/178b7395e8458ea0cb98984b2875623864fdfcc3)

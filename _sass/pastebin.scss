@@ -29,8 +29,11 @@
     .pastebin-card-meta {
         font-size: 0.8rem;
         letter-spacing: 0.5px;
-        text-transform: uppercase;
         margin-bottom: 0.75rem !important;
+
+        time {
+            font-style: italic;
+        }
     }
 
     .pastebin-card-preview {
@@ -68,14 +71,6 @@
         font-size: 0.85rem;
     }
 
-    .btn-view-paste {
-        color: $mainColor !important;
-
-        &:hover,
-        &:focus {
-            color: $linkColor !important;
-        }
-    }
 }
 
 .language-badge {
@@ -96,6 +91,10 @@
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
+
+    #pasteModalDate {
+        font-style: italic;
+    }
 }
 
 .pastebin-modal-code {

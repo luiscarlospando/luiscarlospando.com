@@ -5,7 +5,7 @@ description: Esta es mi colección de snippets de código que genero o que me so
 image: /assets/images/logo.png
 tags: [pastebin, snippets, code, código]
 permalink: /pastebin/
-last-modified-at: <span id="last-updated-at">2026-07-17 20:30:00</span>
+last-modified-at: <span id="pastebin-updated"></span>
 ---
 
 <div class="card last-updated my-3 text-center">

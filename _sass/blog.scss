@@ -56,11 +56,18 @@ h6 {
     }
 }
 
-// Compact spacing for the reply-context indicator inside the homepage's
-// "latest posts" widget — the default margin is tuned for sitting above a
-// full post title, not a tight list item.
+// Compact, subdued treatment for the reply-context indicator inside the
+// homepage's "latest posts" widget. The default styling is tuned for sitting
+// above a full post title (where size alone gives it a lower priority) — in
+// this dense list it was competing with the actual post link below it, so
+// it's toned down here to read as a quiet note attached to that entry
+// instead of another entry itself. Border reuses the same left-border accent
+// as blockquote/.alert; the muted color matches .text-muted.
 #latest-posts .reply-context {
     margin: 0 0 0.35rem;
+    padding-left: 0.6rem;
+    border-left: 3px solid $cardBorderColor;
+    color: #6c757d;
 }
 
 .post-details {

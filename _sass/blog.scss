@@ -31,25 +31,24 @@ h6 {
 .reply-context {
     margin: 1.5rem 0 0.5rem;
 
-    &-thread {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 3px;
-        height: 1rem;
-        margin: 0 0 0.35rem 0.15rem;
+    &-icon {
+        position: relative;
+        display: inline-block;
+        margin-right: 0.4em;
 
-        span {
-            width: 3px;
-            height: 3px;
-            border-radius: 50%;
-            background-color: currentColor;
+        // fa-ellipsis-vertical, anchored above the comments icon as a "thread" hint.
+        // Can't use ::before since Font Awesome already uses it to draw the icon glyph.
+        &::after {
+            content: "\f142";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            top: -0.95em;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.65em;
             opacity: 0.5;
         }
-    }
-
-    i {
-        margin-right: 0.4em;
     }
 
     a {

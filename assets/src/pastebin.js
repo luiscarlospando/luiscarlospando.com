@@ -156,7 +156,7 @@ function renderCard(paste, index, language) {
             <h3 class="pastebin-card-title h5">${escapeHtml(paste.title)}</h3>
             <p class="pastebin-card-meta text-muted">
                 <time datetime="${dayjs.unix(paste.modified_on).toISOString()}">${formatDate(paste.modified_on)}</time>
-                <span class="language-badge">${languageLabel(language)}</span>
+                <span class="badge language-badge">${languageLabel(language)}</span>
             </p>
             <div class="pastebin-card-preview${isTruncated ? " is-truncated" : ""}">
                 <pre class="language-${language}"><code class="language-${language}">${escapeHtml(previewContent)}</code></pre>

@@ -34,6 +34,10 @@
         time {
             font-style: italic;
         }
+
+        .badge {
+            margin-left: 0.5em;
+        }
     }
 
     .pastebin-card-preview {
@@ -74,15 +78,6 @@
 }
 
 .language-badge {
-    display: inline-block;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 0.7rem;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    padding: 0.25em 0.6em;
-    margin-left: 0.5em;
-    border-radius: $badgeBorderRadius;
     background-color: $tertiaryColor;
     color: #1a1a1a;
 }
@@ -94,6 +89,10 @@
 
     #pasteModalDate {
         font-style: italic;
+    }
+
+    .badge {
+        margin-left: 0.5em;
     }
 }
 

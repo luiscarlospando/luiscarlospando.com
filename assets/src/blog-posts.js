@@ -12,9 +12,43 @@ dayjs.extend(relativeTime);
 // _fields trims the WP REST response to just what's rendered below, instead
 // of transferring full post bodies/excerpts/meta we never use.
 const latestPosts =
-    "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=5&categories_exclude=986&_fields=date,link,title"; // Here we're excluding the "Fotos" category (ID: 986)
+    "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=5&categories_exclude=986&_fields=date,link,title,reply_context"; // Here we're excluding the "Fotos" category (ID: 986)
 const mode7LatestPost =
     "https://blog.luiscarlospando.com/wp-json/wp/v2/posts?per_page=1&tags=778&_fields=date,link,title";
+
+// Escape HTML entities so reply_title/reply_author (scraped from a third-party
+// page, unlike WP's own already-escaped title.rendered) render safely
+function escapeHtml(str) {
+    return str
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+}
+
+// Reuses the same "reply-context" markup/classes as the WP theme's
+// template-parts/reply-context.php — the compiled CSS is shared (blog.scss),
+// so no extra styles are needed here.
+function renderReplyContext(replyContext) {
+    if (!replyContext || !replyContext.is_reply || !replyContext.reply_url) {
+        return "";
+    }
+
+    const authorHTML = replyContext.reply_author
+        ? ` por ${escapeHtml(replyContext.reply_author)}`
+        : "";
+
+    return `
+        <div class="reply-context">
+            <p class="mb-0">
+                <small>
+                    <i class="fa-solid fa-comments reply-context-icon"></i>
+                    Respondiendo a
+                    <a class="u-in-reply-to" href="${escapeHtml(replyContext.reply_url)}" target="_blank" rel="noopener">&ldquo;${escapeHtml(replyContext.reply_title)}&rdquo;</a>${authorHTML}
+                </small>
+            </p>
+        </div>`;
+}
 
 // Function to set a loading state
 function setLoadingState(isLoading) {
@@ -61,7 +95,7 @@ async function displayLatestPosts() {
                         "YYYY-MM-DD"
                     );
 
-                    return `<li class="mb-3 mb-md-2"><div class="li-content"><a class="post-date badge badge-dark" href="${post.link}"><time datetime="${machineReadableDate}">${postDate}</time></a> <a href="${post.link}" title="" target="_self">${post.title.rendered}</a></div></li>`;
+                    return `<li class="mb-3 mb-md-2"><div class="li-content">${renderReplyContext(post.reply_context)}<a class="post-date badge badge-dark" href="${post.link}"><time datetime="${machineReadableDate}">${postDate}</time></a> <a href="${post.link}" title="" target="_self">${post.title.rendered}</a></div></li>`;
                 })
                 .join("");
 

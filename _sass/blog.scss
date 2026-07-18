@@ -56,6 +56,13 @@ h6 {
     }
 }
 
+// Compact spacing for the reply-context indicator inside the homepage's
+// "latest posts" widget — the default margin is tuned for sitting above a
+// full post title, not a tight list item.
+#latest-posts .reply-context {
+    margin: 0 0 0.35rem;
+}
+
 .post-details {
     font-size: 0.833rem;
     font-style: italic;

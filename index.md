@@ -187,8 +187,15 @@ Ver mis álbumes más escuchados de los últimos 30 días
         <li>
           <a href="/developer/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
-             title="Esta es una lista de mis juegos favoritos">
+             title="Estos son mis perfiles de developer">
             <i class="fa-solid fa-code mr-2"></i> <span>Development Stuff</span>
+          </a>
+        </li>
+        <li>
+          <a href="/pastebin/" class="hub-link d-flex align-items-center"
+             data-toggle="tooltip" data-placement="top"
+             title="Snippets de código, configuraciones y comandos que reciclo seguido">
+            <i class="fa-solid fa-clipboard mr-2"></i> <span>Pastebin</span>
           </a>
         </li>
       </ul>

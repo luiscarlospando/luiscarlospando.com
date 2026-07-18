@@ -65,7 +65,7 @@ Aquí comparto lo que tengo en [mi Brewfile][11]{:rel="me" target="_blank"}.
 [4]: https://github.com/{{ site.github_username }}/ama/issues/new
 [5]: https://gitlab.com/{{ site.gitlab_username }}
 [6]: https://source.tube/{{ site.omglol_username }}
-[7]: https://pastebin.{{ site.domain }}/
+[7]: /pastebin/
 [8]: https://stackoverflow.com/users/2197860/luis-carlos-pando
 [9]: https://dev.to/{{ site.devto_username }}
 [10]: https://codepen.io/{{ site.codepen_username }}

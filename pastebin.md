@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pastebin
-description: Esta es mi colección de snippets de código que genero o que me son útiles.
+description: Snippets de código, configuraciones y comandos que reciclo seguido. Los guardo aquí para no perderlos, y por si a ti también te sirven.
 image: /assets/images/logo.png
 tags: [pastebin, snippets, code, código]
 permalink: /pastebin/

@@ -26,6 +26,18 @@ function escapeHtml(str) {
         .replace(/"/g, "&quot;");
 }
 
+// "por Autor" is redundant when replying to a post on my own blog — mirrors
+// the same check in the WP theme's template-parts/reply-context.php (which
+// reuses the "dominio" ACF option; here there's no PHP context, so the
+// domain is just hardcoded).
+function isOwnDomain(url) {
+    try {
+        return new URL(url).hostname.includes("luiscarlospando.com");
+    } catch (error) {
+        return false;
+    }
+}
+
 // Reuses the same "reply-context" markup/classes as the WP theme's
 // template-parts/reply-context.php — the compiled CSS is shared (blog.scss),
 // so no extra styles are needed here.
@@ -34,7 +46,7 @@ function renderReplyContext(replyContext) {
         return "";
     }
 
-    const authorHTML = replyContext.reply_author
+    const authorHTML = replyContext.reply_author && !isOwnDomain(replyContext.reply_url)
         ? ` por ${escapeHtml(replyContext.reply_author)}`
         : "";
 

@@ -8,6 +8,42 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.78.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.77.4...v2.78.0) - 2026-07-17
+
+- Implementar /pastebin [`178b739`](https://github.com/luiscarlospando/luiscarlospando.com/commit/178b7395e8458ea0cb98984b2875623864fdfcc3)
+- Implementar /pastebin [`b796cce`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b796cced16817f1f7c78cfc3c6c74d97b76ad05b)
+- Reacomodar webrings [`e5a40fe`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e5a40fe39fe0138a1193c59f86fe2fb894c97d10)
+- Reestructurar webrings [`8901497`](https://github.com/luiscarlospando/luiscarlospando.com/commit/89014978b4cd67c356f12bedd40cbd57a1487a79)
+- Optimizar caché y fetch de los bookmarks [`2598348`](https://github.com/luiscarlospando/luiscarlospando.com/commit/25983485afd293d07d88b0924ef240d958b67482)
+- Reacomodar webrings [`6931101`](https://github.com/luiscarlospando/luiscarlospando.com/commit/69311013b55296e1c3d4664947a0ea316cbef0e2)
+- Actualizar /uses [`52ff663`](https://github.com/luiscarlospando/luiscarlospando.com/commit/52ff66377110cd29805ba5c8bda292b2f8f94f97)
+- Optimizar caché y fetching de los últimos posts del blog [`e31d51c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e31d51c361cce1e1c8d6bd3fe51f986e26bbfeb8)
+- Reestructurar webrings [`3bd26d4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3bd26d4dc5b338035506ac268d147ec8ef039ad8)
+- Mantenimiento [`cccb45c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cccb45c3dad2892ff0a2c7e3e8d62b34aaf866ea)
+- Agregar Star Fox [`52eb069`](https://github.com/luiscarlospando/luiscarlospando.com/commit/52eb069b5be04cec29b9ceee15806f1a115b4d24)
+- Reestructurar webrings [`a00d10d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a00d10d477c017566d1356d7d482505a8842aedb)
+- Actualizar CHANGELOG [`8c5c713`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8c5c71381de802a9ad0cf0962f373a1f3f0cc2c1)
+- Reestructurar webrings [`f42a3cd`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f42a3cde346bfe6ed418a0fc4798f2741b9a948f)
+- Agregar profile card de Sifa ID [`3a19a1a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3a19a1a23af9176e10f7a465ed7b253a1fe5f8c0)
+- Reestructurar webrings [`7007eb2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7007eb2e965ac738b73c267ebc66d0c677abd255)
+- Quitar profile card de Sifa ID [`32e546d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/32e546df67bc26535af783bb8d28e65705220b85)
+- Add social media links to header [`c10c833`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c10c8338da81b18518a98bda689efea6e42a6aea)
+- Implementar /pastebin [`f16e3bc`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f16e3bca8f41838930f1693ee993ad0124a9e978)
+- Actualizar /blogroll [`ad4cb4a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ad4cb4adfd0325eb2300210cba3606561b446143)
+- Actualizar /uses [`2ed32c2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2ed32c202e3d2664c9c9e727c8809955c1f6b438)
+- Agregar Star Fox [`8fd54c2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8fd54c256a560f916b6a4c4909c84a7bf1979ee4)
+- Deploy v2.78.0 [`f29a4db`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f29a4dbd9718bf3f3e38450989e979f88394b474)
+- Implementar /pastebin [`7a86b02`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7a86b02e4c5819a600ba2ca4fbd4b7a017472583)
+- Implementar /pastebin [`f526084`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f52608422d5094e098d9fa27a4324cd31c118328)
+- Ajustar texto [`214c171`](https://github.com/luiscarlospando/luiscarlospando.com/commit/214c1715e92fba04becc93d88c7863c4376b59b2)
+- Ajustar texto [`b51d6b0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b51d6b07cb38854975cb56c41b75759dc3e56d7b)
+- Ajustar texto [`7cab24e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7cab24e2bb0d35b2e2e1f0db0276f7bd76d6a071)
+- Agregar noreferrer y noopener a parámetro rel del link al trial de Claude Code [`c1315f6`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c1315f61bc396c2d5c60e67e3ef07abe094a1899)
+- Reestructurar webrings [`17610aa`](https://github.com/luiscarlospando/luiscarlospando.com/commit/17610aab95e86229d7b08a9989842cac3fbc431c)
+- Actualizar handle de Twitter [`9a4f22d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9a4f22da59f50ba36a0d4b0de41d633f7bac8393)
+- Agregar Star Fox [`2138d54`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2138d544775ec430b3bf0e34c6e825edff854d9f)
+- Add link to Sifa profile in header [`39740c2`](https://github.com/luiscarlospando/luiscarlospando.com/commit/39740c247e33319735cb0c653f63df9d2b110f2f)
+
 ## [`v2.77.4`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.77.3...v2.77.4) - 2026-07-06
 
 - Archivar /now del 31-05-2026 [`29bb593`](https://github.com/luiscarlospando/luiscarlospando.com/commit/29bb593a4b1a72a3828ad178e3efcb2362f58fed)

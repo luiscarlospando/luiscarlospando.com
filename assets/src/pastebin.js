@@ -164,7 +164,7 @@ function renderCard(paste, index, language) {
             <div class="pastebin-card-footer">
                 <span>${lineCount} ${lineCount === 1 ? "línea" : "líneas"}</span>
                 <a href="#" class="btn btn-primary btn-sm btn-view-paste" data-toggle="modal" data-target="#pasteModal" data-paste-index="${index}">
-                    Ver <i class="fa-solid fa-chevron-right"></i>
+                    <i class="fa-solid fa-clipboard"></i> Ver
                 </a>
             </div>
         </div>

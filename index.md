@@ -184,7 +184,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
             <i class="fa-solid fa-video mr-2"></i> <span>Live</span>
           </a>
         </li>
-        <li>
+        <li class="mb-2">
           <a href="/developer/" class="hub-link d-flex align-items-center"
              data-toggle="tooltip" data-placement="top"
              title="Estos son mis perfiles de developer">

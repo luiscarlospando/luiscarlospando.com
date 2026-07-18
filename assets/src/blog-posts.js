@@ -7,6 +7,7 @@ const dayjs = require("dayjs");
 dayjs.locale("es-mx");
 const relativeTime = require("dayjs/plugin/relativeTime");
 dayjs.extend(relativeTime);
+const { addExternalLinkIcons } = require("./other");
 
 // API URLs
 // _fields trims the WP REST response to just what's rendered below, instead
@@ -46,9 +47,11 @@ function renderReplyContext(replyContext) {
         return "";
     }
 
-    const authorHTML = replyContext.reply_author && !isOwnDomain(replyContext.reply_url)
+    const isOwn = isOwnDomain(replyContext.reply_url);
+    const authorHTML = replyContext.reply_author && !isOwn
         ? ` por ${escapeHtml(replyContext.reply_author)}`
         : "";
+    const targetHTML = isOwn ? "" : ' target="_blank" rel="noopener"';
 
     return `
         <div class="reply-context">
@@ -56,7 +59,7 @@ function renderReplyContext(replyContext) {
                 <small>
                     <i class="fa-solid fa-comments reply-context-icon"></i>
                     Respondiendo a
-                    <a class="u-in-reply-to" href="${escapeHtml(replyContext.reply_url)}" target="_blank" rel="noopener">&ldquo;${escapeHtml(replyContext.reply_title)}&rdquo;</a>${authorHTML}
+                    <a class="u-in-reply-to" href="${escapeHtml(replyContext.reply_url)}"${targetHTML}>&ldquo;${escapeHtml(replyContext.reply_title)}&rdquo;</a>${authorHTML}
                 </small>
             </p>
         </div>`;
@@ -112,6 +115,9 @@ async function displayLatestPosts() {
                 .join("");
 
             latestPostsEl.innerHTML = postsHTML;
+            // other.js's own pass already finished by the time this content
+            // is injected, so the reply-context links need their own run.
+            addExternalLinkIcons(latestPostsEl);
         } else {
             console.log("❌ #latest-posts no existe en el DOM");
         }

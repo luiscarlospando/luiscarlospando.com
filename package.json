@@ -5,8 +5,11 @@
     "main": "index.js",
     "scripts": {
         "start": "npm run build && bundle exec jekyll serve",
+        "predev": "rm -f assets/css/styles.css assets/css/styles.css.map",
         "dev": "webpack serve",
+        "prewatch": "rm -f assets/css/styles.css assets/css/styles.css.map",
         "watch": "webpack --watch",
+        "prebuild": "rm -f assets/css/styles.css assets/css/styles.css.map",
         "build": "webpack --mode production",
         "update-g": "node node-scripts/updateLastModifiedGames.js",
         "update-u": "node node-scripts/updateLastModifiedUses.js",

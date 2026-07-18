@@ -1,5 +1,29 @@
 import { initStatusManager } from "./statuslog.js";
 
+// Add an icon to external links so it's clear they leave the site. Exported
+// so dynamically-injected content (e.g. blog-posts.js's reply context links)
+// can re-run this scoped to just its own container after render — this only
+// scans the DOM once on load otherwise, so anything added later gets missed.
+function addExternalLinkIcons(root = document) {
+    root.querySelectorAll('a[target="_blank"]').forEach((link) => {
+        const hasImage = link.querySelector("img");
+        if (
+            !link.closest("header") &&
+            !link.closest("footer") &&
+            !link.classList.contains("btn") &&
+            !link.closest(".mastodon") &&
+            !link.classList.contains("btn-app-icon") &&
+            !hasImage
+        ) {
+            const icon = document.createElement("i");
+            icon.className = "fa-solid fa-arrow-up-right-from-square";
+            link.appendChild(icon);
+        }
+    });
+}
+
+module.exports = { addExternalLinkIcons };
+
 (function () {
     const ready = (callback) => {
         if (document.readyState !== "loading") callback();
@@ -290,21 +314,7 @@ import { initStatusManager } from "./statuslog.js";
             .forEach((el) => el.classList.add("btn", "btn-primary"));
 
         // External links icon
-        document.querySelectorAll('a[target="_blank"]').forEach((link) => {
-            const hasImage = link.querySelector("img");
-            if (
-                !link.closest("header") &&
-                !link.closest("footer") &&
-                !link.classList.contains("btn") &&
-                !link.closest(".mastodon") &&
-                !link.classList.contains("btn-app-icon") &&
-                !hasImage
-            ) {
-                const icon = document.createElement("i");
-                icon.className = "fa-solid fa-arrow-up-right-from-square";
-                link.appendChild(icon);
-            }
-        });
+        addExternalLinkIcons();
 
         // Pronunciation audio
         const audio = document.getElementById("pronunciation");

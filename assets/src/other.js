@@ -35,6 +35,9 @@ export function addExternalLinkIcons(root = document) {
         // Update greeting emoji
         updateGreetingEmoji();
 
+        // Update footer greeting text
+        updateGreetingText();
+
         // Burger button blur
         const btnBurger = document.getElementById("btn-burger");
         btnBurger?.addEventListener("click", () => btnBurger.blur());
@@ -333,11 +336,9 @@ export function addExternalLinkIcons(root = document) {
                 );
         });
 
-        // Greeting function
+        // Greeting function (day-of-week wish, shown as the logo tooltip)
         function getGreeting() {
-            const now = new Date();
-            const hour = now.getHours(); // 0-23
-            const day = now.getDay(); // 0 = Sunday, 1 = Monday, ... 6 = Saturday
+            const day = new Date().getDay(); // 0 = Sunday, 1 = Monday, ... 6 = Saturday
 
             const daysOfWeek = [
                 "domingo",
@@ -349,19 +350,26 @@ export function addExternalLinkIcons(root = document) {
                 "sábado",
             ];
 
+            return `Espero que estés teniendo un gran ${daysOfWeek[day]}.`;
+        }
+
+        // Footer greeting text (time-of-day prefix for #weather-location)
+        function updateGreetingText() {
+            const greetingSpan = document.getElementById("greeting");
+            if (!greetingSpan) return;
+
+            const hour = new Date().getHours(); // 0-23
             let timeGreeting;
 
-            // Determining the greeting based on the time of day
             if (hour >= 5 && hour < 12) {
-                timeGreeting = "Buenos días ☀️";
+                timeGreeting = "Buenos días desde";
             } else if (hour >= 12 && hour < 20) {
-                timeGreeting = "Buenas tardes 🌤️";
+                timeGreeting = "Buenas tardes desde";
             } else {
-                timeGreeting = "Buenas noches 🌙";
+                timeGreeting = "Buenas noches desde";
             }
 
-            // Combining the greetings
-            return `${timeGreeting}, espero que estés teniendo un gran ${daysOfWeek[day]}.`;
+            greetingSpan.textContent = timeGreeting;
         }
 
         // Greeting emoji

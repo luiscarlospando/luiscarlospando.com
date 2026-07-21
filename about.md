@@ -24,7 +24,9 @@ last-modified-at: <span id="last-updated-at">2026-05-20 17:28:00</span>
 </div>
 
 <div class="text-center">
+<figure>
 <img src="../assets/images/profile-pic.webp" alt="Selfie mía con un efecto de dithering" class="rounded img-fluid" style="max-width: 300px;">
+</figure>
 </div>
 
 ## El vato detrás de esto

@@ -27,7 +27,7 @@ function escapeHtml(str) {
         .replace(/"/g, "&quot;");
 }
 
-// "por Autor" is redundant when replying to a post on my own blog — mirrors
+// "por Luis Carlos Pando" is redundant when replying to a post on my own blog — mirrors
 // the same check in the WP theme's template-parts/reply-context.php (which
 // reuses the "dominio" ACF option; here there's no PHP context, so the
 // domain is just hardcoded).
@@ -110,7 +110,7 @@ async function displayLatestPosts() {
                         "YYYY-MM-DD"
                     );
 
-                    return `<li class="mb-3 mb-md-2"><div class="li-content">${renderReplyContext(post.reply_context)}<a class="post-date badge badge-dark" href="${post.link}"><time datetime="${machineReadableDate}">${postDate}</time></a> <a href="${post.link}" title="" target="_self">${post.title.rendered}</a></div></li>`;
+                    return `<li class="mb-3 mb-md-2"><div class="li-content"><a class="post-date badge badge-dark" href="${post.link}"><time datetime="${machineReadableDate}">${postDate}</time></a> <a href="${post.link}" title="" target="_self">${post.title.rendered}</a>${renderReplyContext(post.reply_context)}</div></li>`;
                 })
                 .join("");
 

@@ -65,11 +65,13 @@ h6 {
 // than leading it, like the WP theme does) so it doesn't get visually
 // mistaken for belonging to the entry above. Border reuses the same
 // left-border accent as blockquote/.alert; the muted color matches .text-muted.
-#latest-posts .reply-context {
-    margin: 0.35rem 0 0.15rem;
-    padding-left: 0.6rem;
-    border-left: 3px solid $cardBorderColor;
-    color: #6c757d;
+#latest-posts {
+    .reply-context {
+        margin: 0.35rem 0 0.15rem;
+        padding-left: 0.6rem;
+        border-left: 3px solid $cardBorderColor;
+        color: #6c757d;
+    }
 }
 
 .post-details {
@@ -346,7 +348,6 @@ iframe.instagram-media {
 
     .user-thumbnail {
         border: 2px solid $componentBorderColor;
-        margin-right: 5px;
         max-width: 50px;
         padding: 0;
         transition: 0.2s linear;

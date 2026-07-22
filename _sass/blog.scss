@@ -361,6 +361,16 @@ iframe.instagram-media {
     .card {
         margin-bottom: 1.6rem;
     }
+
+    // .card h1..h6,p{margin:0} zeroes out the toot's original <p> breaks,
+    // collapsing every reply into one run-on block — restore spacing here.
+    .reply-text p {
+        margin: 0 0 1rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
 #webmentions-likes,

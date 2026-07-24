@@ -34,6 +34,11 @@ permalink: /music/loved-tracks/
           <i class="fa-brands fa-apple"></i> Escuchar este playlist en Apple Music
         </a>
     </li>
+    <li class="list-inline-item">
+        <a class="btn btn-primary btn-sm" href="{{ site.loved_tracks_feed }}" rel="me noopener">
+          <i class="fa-solid fa-rss"></i> Suscribirse
+        </a>
+    </li>
 </ul>
 
 <ul id="loved-tracks" class="list-unstyled"></ul>

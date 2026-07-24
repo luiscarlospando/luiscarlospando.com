@@ -137,6 +137,26 @@ Mi log de canciones diarias que representan algo para mi.
 </a>
 </div>
 </div>
+<hr>
+<div class="row">
+<div class="col-md-6 my-auto">
+<ul class="list-unstyled">
+<li>
+<a href="/music/loved-tracks/">
+    ❤️ Canciones favoritas
+</a>
+</li>
+<li>
+Las canciones que le he dado "love" en Last.fm.
+</li>
+</ul>
+</div>
+<div class="col-md-6 my-auto">
+<a class="btn btn-primary" href="{{ site.loved_tracks_feed }}" rel="me noopener">
+<i class="fa-solid fa-rss"></i> Suscribirse
+</a>
+</div>
+</div>
 </div>
 </div>
 

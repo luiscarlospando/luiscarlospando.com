@@ -8,6 +8,26 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.80.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.79.0...v2.80.0) - 2026-07-23
+
+- Crear nuevo feed RSS para /loved-tracks [`95797e5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/95797e5c0f5d7afa5403d9e45ed7c51f9be125fb)
+- Fixes faltantes [`e074682`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e0746829083a0b2df5c41728647448aa51e29918)
+- Agregar Reply Context [`3bbd7a4`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3bbd7a4c172993c6cdd0cd8ed6da9aa6376d3be4)
+- Implementar greeting en el footer [`e6d4de7`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e6d4de71c813197d359f240de65a20c6ac52499e)
+- Ocultar autor propio en Reply Context del widget de home [`92653c5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/92653c51ff22379066f15343459fd21f312197d4)
+- Actualizar CHANGELOG [`2deb153`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2deb15379b178cd88005ad24f47cf79e44dc0a91)
+- Ajustar separación entre los webmentions [`995a5ba`](https://github.com/luiscarlospando/luiscarlospando.com/commit/995a5ba274bbe6317d8f6218966d44869a721432)
+- Agregar Reply Context [`a08e279`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a08e279df109df0178e8cc33cfe091c7ee85c27b)
+- Mover reply context a la parte inferior del post citado [`6b5d763`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6b5d76364244c43ed4df44729061641824d7b507)
+- Agregar estilos para corregir renderizado de replies desde Mastodon [`7522c68`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7522c68fa9a9341a54b706b3566c07ccc2e85bce)
+- Actualizar /blogroll [`6af4e68`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6af4e68b80430a47e7d46d763a93f8b050c693d2)
+- Fixes faltantes [`2fc8919`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2fc89191669aeb35ffa5f11ae48e2e0c673d5532)
+- Deploy v2.80.0 [`9145f09`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9145f09f473be0dcaecb80fcad5651b1538b1ee3)
+- Mover un poco reply context para arriba [`cd0917e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/cd0917e6d10a15e86a7fe0bbe49382950a760062)
+- Mover un poco reply context para abajo [`467e156`](https://github.com/luiscarlospando/luiscarlospando.com/commit/467e1569e72d11296c66e57f03648122cd494e21)
+- Update about.md [`21bc3de`](https://github.com/luiscarlospando/luiscarlospando.com/commit/21bc3de7c0cf0941c3e550ee4e8eace1fa92458b)
+- Centrar verticalmente elementos [`c1dc23a`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c1dc23a486b21ea80c7ff1d4bd7146aee3994c6b)
+
 ## [`v2.79.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.78.0...v2.79.0) - 2026-07-18
 
 - Actualizar CHANGELOG [`96cffda`](https://github.com/luiscarlospando/luiscarlospando.com/commit/96cffdacad0d7f9b7dad5de66fd603b565656abb)

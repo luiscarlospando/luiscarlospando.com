@@ -5,7 +5,7 @@ description: Puedes seguirme con estos RSS feeds, en Mastodon o a través de mi 
 image: /assets/images/logo.png
 tags: [subscribe, rss, rss-feeds, mastodon, newsletter, newsletters]
 permalink: /subscribe/
-last-modified-at: <span id="last-updated-at">2026-05-23 12:06:00</span>
+last-modified-at: <span id="last-updated-at">2026-07-23 20:45:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">

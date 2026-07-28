@@ -4,7 +4,7 @@ title: Acerca de
 description: Este URL ha sido mi hogar en línea como desde octubre de 2014. Este es mi hub central, en donde comparto lo que me gusta, lo que pienso, lo que hago y enlazo a todos mis perfiles y proyectos.
 tags: [about-me, acerca-de]
 permalink: /about/
-last-modified-at: <span id="last-updated-at">2026-05-20 17:28:00</span>
+last-modified-at: <span id="last-updated-at">2026-07-28 14:55:00</span>
 ---
 
 <h2 class="subtitulo text-center"><small>{{ site.capitalized_domain }} <code>v{{ site.version }}</code></small></h2>
@@ -87,7 +87,7 @@ Obviamente soy consciente de que el IndieWeb no es para todos y no te voy a juzg
 
 Y pues eso es básicamente todo. La neta gracias por llegar hasta aquí y tomarte el tiempo. Si quieres cotorrear o simplemente saludar, puedes pasar a firmar mi <s>muro 😝</s> [guestbook 📖][6] o [buscarme por aquí][7].
 
-Y de antemano perdón, soy muy dado a usar [Espanglish][34]{:target="_blank" rel="noopener"} al escribir/hablar.
+Y de antemano perdón, soy muy dado a usar [Espanglish][30]{:target="_blank" rel="noopener"} al escribir/hablar.
 
 *¡Gracias por caerle!* ✨
 
@@ -108,28 +108,24 @@ Y de antemano perdón, soy muy dado a usar [Espanglish][34]{:target="_blank" rel
 - ✅ Monitoreo del sistema: [Instatus][18]{:target="_blank"}
 - 🆎 Fonts: [Bunny.net][19]{:rel="noreferrer noopener" target="_blank"}
 - 🖼️ Íconos: [Font Awesome][20]{:rel="noreferrer noopener" target="_blank"}
-- 📊 Analytics: [NeatStats][36]{:rel="noreferrer noopener" target="_blank"}/[Tinylytics][21]{:rel="noreferrer noopener" target="_blank"}
+- 📊 Analytics: [NeatStats][32]{:rel="noreferrer noopener" target="_blank"}/[Tinylytics][21]{:rel="noreferrer noopener" target="_blank"}
 - 😉 Misceláneo: [omg.lol][22]{:rel="noreferrer noopener" target="_blank"} para Mastodon y otras cosas muy chidas
 - 💬 Traducción del sitio en tiempo real: [DeepL][23]{:rel="noreferrer noopener" target="_blank"}
 - 📔 Guestbook: [Guestbooks][24]{:rel="noreferrer noopener" target="_blank"}
 - 📫 Newsletter: [Buttondown][25]{:rel="noreferrer noopener" target="_blank"}
-- 🖌️ Paintbook: [Resend][35]{:rel="noreferrer noopener" target="_blank"} para el envío de los dibujos en mi Paintbook
-- 🌧️ Clima: [OpenWeather][37]{:rel="noreferrer noopener" target="_blank"} para obtener y mostrar el clima actual
+- 🖌️ Paintbook: [Resend][31]{:rel="noreferrer noopener" target="_blank"} para el envío de los dibujos en mi Paintbook
+- 🌧️ Clima: [OpenWeather][33]{:rel="noreferrer noopener" target="_blank"} para obtener y mostrar el clima actual
 
 ## Suscríbete
 
 Sigue mis diferentes feeds:
-- [<i class="fas fa-rss"></i> RSS (Blog)][26]
-- [<i class="fas fa-rss"></i> RSS (Fotos)][27]
-- [<i class="fas fa-rss"></i> RSS (Estatus)][28]
-- [<i class="fas fa-rss"></i> RSS (Links)][29]
-- [<i class="fas fa-rss"></i> RSS (Playlist)][30]
-- [<i class="fa-brands fa-mastodon"></i> Mastodon][31]{:rel="me noreferrer noopener" target="_blank"}
-- [<i class="fa-solid fa-envelope"></i> Newsletter][32]
+- [<i class="fas fa-rss"></i> RSS][26]
+- [<i class="fa-brands fa-mastodon"></i> Mastodon][27]{:rel="me noreferrer noopener" target="_blank"}
+- [<i class="fa-solid fa-envelope"></i> Newsletter][28]
 
 ## Errores en el sitio
 
-Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][7] o [abre un issue en GitHub][33].
+Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][7] o [abre un issue en GitHub][29].
 
 [1]: https://hitz-musik.net/
 [2]: /discord/
@@ -156,15 +152,11 @@ Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. 
 [23]: https://www.deepl.com/en/translator
 [24]: https://guestbooks.meadow.cafe/
 [25]: https://buttondown.com/refer/luiscarlospando
-[26]: https://subscribeopenly.net/subscribe/?url=https://blog.luiscarlospando.com/rss
-[27]: https://subscribeopenly.net/subscribe/?url=https://blog.luiscarlospando.com/photos/rss
-[28]: https://subscribeopenly.net/subscribe/?url=https://mijo.status.lol/feed/rss
-[29]: https://subscribeopenly.net/subscribe/?url=https://bg.raindrop.io/rss/public/50598757
-[30]: https://subscribeopenly.net/subscribe/?url=https://app.crucialtracks.org/profile/mijo/feed
-[31]: https://hachyderm.io/@{{ site.mastodon_feed }}
-[32]: /newsletter/
-[33]: https://github.com/{{ site.github_username}}/{{ site.domain }}/issues/new
-[34]: https://es.wikipedia.org/wiki/Espanglish
-[35]: https://resend.com/
-[36]: https://neatstats.net/
-[37]: https://openweathermap.org/
+[26]: https://luiscarlospando.com/subscribe/
+[27]: https://hachyderm.io/@{{ site.mastodon_feed }}
+[28]: /newsletter/
+[29]: https://github.com/{{ site.github_username}}/{{ site.domain }}/issues/new
+[30]: https://es.wikipedia.org/wiki/Espanglish
+[31]: https://resend.com/
+[32]: https://neatstats.net/
+[33]: https://openweathermap.org/

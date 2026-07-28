@@ -765,12 +765,12 @@ function buildStreamingLinksHTML(item) {
 
     return `
                     <ul class="list-inline mb-0">
-                      ${item.apple_music_url ? `<li class="list-inline-item"><a class="btn btn-primary btn-sm" href="${item.apple_music_url}" target="_blank" rel="noopener"><i class="fa-brands fa-apple" aria-hidden="true"></i> Abrir en Apple Music</a></li>` : ""}
+                      ${item.apple_music_url ? `<li class="list-inline-item"><a class="btn btn-primary btn-sm mb-2 mb-md-0" href="${item.apple_music_url}" target="_blank" rel="noopener"><i class="fa-brands fa-apple" aria-hidden="true"></i> Abrir en Apple Music</a></li>` : ""}
                       <li class="list-inline-item">
-                        <a class="btn btn-primary btn-sm" href="${spotifyUrl}" target="_blank" rel="noopener"><i class="fa-brands fa-spotify" aria-hidden="true"></i> Abrir en Spotify</a>
+                        <a class="btn btn-primary btn-sm mb-2 mb-md-0" href="${spotifyUrl}" target="_blank" rel="noopener"><i class="fa-brands fa-spotify" aria-hidden="true"></i> Abrir en Spotify</a>
                       </li>
                       <li class="list-inline-item">
-                        <a class="btn btn-primary btn-sm" href="${item.link}" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Abrir en Crucial Tracks</a>
+                        <a class="btn btn-primary btn-sm mb-2 mb-md-0" href="${item.link}" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Abrir en Crucial Tracks</a>
                       </li>
                     </ul>`;
 }

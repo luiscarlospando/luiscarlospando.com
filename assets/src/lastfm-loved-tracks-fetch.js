@@ -290,12 +290,12 @@ function buildStreamingLinksHTML(track) {
 
     return `
                     <ul class="list-inline mb-0">
-                      ${track.apple_music_url ? `<li class="list-inline-item"><a href="${track.apple_music_url}" target="_blank" rel="noopener"><i class="fa-brands fa-apple" aria-hidden="true"></i> Abrir en Apple Music</a></li>` : ""}
+                      ${track.apple_music_url ? `<li class="list-inline-item"><a class="btn btn-primary btn-sm" href="${track.apple_music_url}" target="_blank" rel="noopener"><i class="fa-brands fa-apple" aria-hidden="true"></i> Abrir en Apple Music</a></li>` : ""}
                       <li class="list-inline-item">
-                        <a href="${spotifyUrl}" target="_blank" rel="noopener"><i class="fa-brands fa-spotify" aria-hidden="true"></i> Abrir en Spotify</a>
+                        <a class="btn btn-primary btn-sm" href="${spotifyUrl}" target="_blank" rel="noopener"><i class="fa-brands fa-spotify" aria-hidden="true"></i> Abrir en Spotify</a>
                       </li>
                       <li class="list-inline-item">
-                        <a href="${track.url}" target="_blank" rel="noopener"><i class="fa-brands fa-lastfm" aria-hidden="true"></i> Abrir en Last.fm</a>
+                        <a class="btn btn-primary btn-sm" href="${track.url}" target="_blank" rel="noopener"><i class="fa-brands fa-lastfm" aria-hidden="true"></i> Abrir en Last.fm</a>
                       </li>
                     </ul>`;
 }

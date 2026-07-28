@@ -8,6 +8,27 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.81.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.80.0...v2.81.0) - 2026-07-28
+
+- Implementar permalinks locales para mis status updates [`4915208`](https://github.com/luiscarlospando/luiscarlospando.com/commit/4915208310d4b419db6de33349042b7726b3be66)
+- Implementar modal para los álbumes más escuchados del mes [`3853c9f`](https://github.com/luiscarlospando/luiscarlospando.com/commit/3853c9f15f5311016bd1fb570d88bcfc20068951)
+- Mejorar layout del modal de álbumes [`da1f71d`](https://github.com/luiscarlospando/luiscarlospando.com/commit/da1f71d9874644faffa390ba31bf2756bc34469d)
+- Agregar links a Apple Music y Spotify [`8226600`](https://github.com/luiscarlospando/luiscarlospando.com/commit/82266009e362adb1014e8f8a36b395f835475690)
+- Mejorar layout del modal de álbumes [`f17b6ae`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f17b6aed7a377adbc841b1a8481c43629f74f115)
+- Ajustar link de los permalinks [`f579579`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f579579c7bf1d3fee76b4a2d6ec73b75a7a93ed8)
+- Ajustar apariencia de modales de los pastes y los álbumes más escuchados [`a7deb93`](https://github.com/luiscarlospando/luiscarlospando.com/commit/a7deb93405d71dcf273c36c44dcc87ae4d0379fa)
+- Actualizar CHANGELOG [`d31e89e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d31e89e0a8f541f883b6863d15f0a74a493f454f)
+- Mejorar renderizado de links [`8071a53`](https://github.com/luiscarlospando/luiscarlospando.com/commit/8071a53e9a5093811340529786b0afe374826fff)
+- Mejorar renderizado de links [`c659be3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c659be3ae2fbe291239fed808499f59309e9086b)
+- Mejorar renderizado de links [`9e2f575`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9e2f5755e916f4f2a4ed4defd9330f44693a02ce)
+- Mejorar layout del modal de álbumes [`244415e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/244415ec3c98c60cba0b1e1cfd47ec7bb2f18c11)
+- Ajustar espaciados en testos de los audio players [`c8712b3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/c8712b3199040f5e8eaf90f4cb3ce8cae2c84c1a)
+- Ajustar espaciados en testos de los audio players [`19b50b9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/19b50b9216f4cb1331b9c0ba0ca9712d8a7e5543)
+- Mejorar layout del modal de álbumes [`fefa37b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/fefa37ba3a2bde744a5730ba7d3fb89f0436bb7f)
+- Deploy v2.81.0 [`507cc78`](https://github.com/luiscarlospando/luiscarlospando.com/commit/507cc782a56698cdf6f10fbae29b7db953f1385f)
+- Mejorar layout del modal de álbumes [`18cc8a0`](https://github.com/luiscarlospando/luiscarlospando.com/commit/18cc8a0eb9a6adec9254aaf7e9a0a6e8aeded570)
+- Agregar RSS de Canciones favoritas [`2e1a87c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/2e1a87c6ae635680d40bee98192cb9838b9f812f)
+
 ## [`v2.80.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.79.0...v2.80.0) - 2026-07-23
 
 - Crear nuevo feed RSS para /loved-tracks [`95797e5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/95797e5c0f5d7afa5403d9e45ed7c51f9be125fb)

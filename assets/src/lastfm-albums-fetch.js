@@ -115,12 +115,12 @@ function buildAlbumStreamingLinksHTML(album) {
     const spotifyUrl = `https://open.spotify.com/search/${encodeURIComponent(`${artistName} ${albumTitle}`)}`;
 
     return `
-        ${album.apple_music_url ? `<li class="list-inline-item"><a class="btn btn-primary btn-sm mb-2" href="${album.apple_music_url}" target="_blank" rel="noopener"><i class="fa-brands fa-apple" aria-hidden="true"></i> Abrir en Apple Music</a></li>` : ""}
-        <li class="list-inline-item">
-          <a class="btn btn-primary btn-sm mb-2" href="${spotifyUrl}" target="_blank" rel="noopener"><i class="fa-brands fa-spotify" aria-hidden="true"></i> Abrir en Spotify</a>
+        ${album.apple_music_url ? `<li><a class="btn btn-primary btn-sm" href="${album.apple_music_url}" target="_blank" rel="noopener"><i class="fa-brands fa-apple" aria-hidden="true"></i> Abrir en Apple Music</a></li>` : ""}
+        <li>
+          <a class="btn btn-primary btn-sm" href="${spotifyUrl}" target="_blank" rel="noopener"><i class="fa-brands fa-spotify" aria-hidden="true"></i> Abrir en Spotify</a>
         </li>
-        <li class="list-inline-item">
-          <a class="btn btn-primary btn-sm mb-2" href="${album.url}" target="_blank" rel="noopener"><i class="fa-brands fa-lastfm" aria-hidden="true"></i> Abrir en Last.fm</a>
+        <li>
+          <a class="btn btn-primary btn-sm" href="${album.url}" target="_blank" rel="noopener"><i class="fa-brands fa-lastfm" aria-hidden="true"></i> Abrir en Last.fm</a>
         </li>`;
 }
 
@@ -135,8 +135,8 @@ function openAlbumModal(index) {
     const finalImageUrl =
         albumArtUrl || "https://placehold.co/300x300?text=Portada+no+encontrada";
 
-    document.getElementById("albumModalLabel").textContent =
-        `${artistName} - ${albumTitle}`;
+    document.getElementById("albumModalLabel").textContent = albumTitle;
+    document.getElementById("albumModalArtist").textContent = artistName;
 
     const modalArt = document.getElementById("albumModalArt");
     modalArt.setAttribute("src", finalImageUrl);

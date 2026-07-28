@@ -1071,17 +1071,15 @@ a.bmac {
 }
 
 /**
-* Album Modal - Title/Artist Hierarchy
+* Album Modal - Cover + Info (Title/Artist + Streaming Links) Layout
 */
-.album-modal-title {
-    p {
-        font-size: 0.9rem;
-    }
+.album-modal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
-/**
-* Album Modal - Cover + Streaming Links Layout
-*/
 .album-modal-content {
     display: flex;
     flex-direction: column;
@@ -1098,7 +1096,6 @@ a.bmac {
         flex-direction: column;
         align-items: center;
         gap: 0.75rem;
-        width: 100%;
 
         .btn {
             min-width: 190px;
@@ -1107,11 +1104,16 @@ a.bmac {
 
     @media (min-width: 576px) {
         flex-direction: row;
+        justify-content: center;
         align-items: center;
         text-align: left;
 
         img {
             flex-shrink: 0;
+        }
+
+        .album-modal-info {
+            align-items: flex-start;
         }
 
         ul {

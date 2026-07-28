@@ -34,8 +34,45 @@ export default async function handler(req, res) {
     }
 
     const data = await response.json();
-    console.log("Top albums data fetched successfully from Last.fm");
-    return res.status(200).json(data);
+    const albums = data.topalbums.album;
+
+    // Enrich each album with its Apple Music link from iTunes
+    const enrichedAlbums = await Promise.all(
+      albums.map(async (album) => {
+        try {
+          let appleMusicUrl = null;
+          const itunesResponse = await fetch(
+            `https://itunes.apple.com/search?term=${encodeURIComponent(album.artist.name + " " + album.name)}&entity=album&limit=1`,
+          );
+
+          if (itunesResponse.ok) {
+            const itunesData = await itunesResponse.json();
+            if (itunesData.results && itunesData.results.length > 0) {
+              appleMusicUrl = itunesData.results[0].collectionViewUrl;
+            }
+          }
+
+          return {
+            ...album,
+            apple_music_url: appleMusicUrl,
+          };
+        } catch (error) {
+          console.error(
+            `Error fetching iTunes link for ${album.name}:`,
+            error,
+          );
+          return album;
+        }
+      }),
+    );
+
+    console.log("Top albums data fetched and enriched successfully from Last.fm");
+    return res.status(200).json({
+      topalbums: {
+        ...data.topalbums,
+        album: enrichedAlbums,
+      },
+    });
   } catch (error) {
     console.error("Error fetching Last.fm top albums:", error);
     return res

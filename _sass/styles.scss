@@ -1011,6 +1011,42 @@ a.bmac {
     transition: opacity 0.3s ease;
 }
 
+/**
+* Top Albums - Cover Click Indicator Styles
+*/
+.album-cover-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.album-cover-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    backdrop-filter: blur(4px);
+
+    i {
+        color: white;
+        font-size: 24px;
+    }
+}
+
+.album-cover-wrapper:hover .album-cover-indicator {
+    opacity: 1;
+}
+
 /* ==========================================================================
    OPEN WEATHER WIDGET
    ========================================================================== */

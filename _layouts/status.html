@@ -1,0 +1,60 @@
+{% include header.html %}
+
+<section id="main-content" class="container site-body">
+    <div class="row">
+        <div class="col-12 col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col-3 col-md-2 text-center">
+                            <h1 class="mb-0">
+                                {% if page.status.emoji_codepoints %}
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/shuding/fluentui-emoji-unicode/assets/{{ page.status.emoji_codepoints }}_3d.png"
+                                    onerror="this.replaceWith(document.createTextNode('{{ page.status.emoji }}'))"
+                                    alt="{{ page.status.emoji }}"
+                                    style="width:60px; height:60px; object-fit:contain;"
+                                    loading="lazy">
+                                {% else %}
+                                {{ page.status.emoji }}
+                                {% endif %}
+                            </h1>
+                        </div>
+                        <div class="col-9 col-md-10">
+                            <div class="status-content">
+                                <div class="status-header mb-2">
+                                    <strong>
+                                        <a href="https://mijo.status.lol/{{ page.status.id }}" rel="me noreferrer noopener" target="_blank">@mijo</a>
+                                    </strong>
+                                </div>
+                                <div class="status-text mb-2">
+                                    {{ page.status.rendered_markdown }}
+                                </div>
+                                <div class="status-footer">
+                                    <small class="text-muted">
+                                        <time datetime="{{ page.status.created_iso }}">
+                                            <em><i class="fa-solid fa-clock"></i> {{ page.status.created_human }}</em>
+                                        </time>
+                                        {% if page.status.external_url %}
+                                        · <a href="{{ page.status.external_url }}" rel="me noreferrer noopener" target="_blank">
+                                            <em><i class="fa-solid fa-reply"></i> Responder</em>
+                                        </a>
+                                        {% endif %}
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-center">
+                <a class="btn btn-primary btn-sm" href="/status/">
+                    <i class="fa-solid fa-arrow-left"></i> Volver al archivo de estatus
+                </a>
+            </p>
+        </div>
+    </div>
+</section>
+
+{% include footer.html %}

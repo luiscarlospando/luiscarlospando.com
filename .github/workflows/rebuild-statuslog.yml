@@ -1,0 +1,16 @@
+name: Rebuild statuslog
+
+# Keeps /status/<id>/ permalinks in sync with omg.lol even on days with no
+# git push. Requires a repo secret VERCEL_DEPLOY_HOOK_URL pointing at a
+# Vercel Deploy Hook (Project Settings -> Git -> Deploy Hooks).
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  trigger-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel deploy hook
+        run: curl -fsS -X POST "${{ secrets.VERCEL_DEPLOY_HOOK_URL }}"

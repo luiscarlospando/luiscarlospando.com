@@ -87,6 +87,7 @@ function renderPaginatedStatuses() {
             const { relative, isoString } = formatStatusDate(status.created);
             const emojiImg = buildEmojiImg(status.emoji);
             const statusURL = `https://${OMG_ADDRESS}.status.lol/${status.id}`;
+            const permalinkURL = `/status/${status.id}/`;
             // Make URLs in content clickable
             const linkedContent = (status.content || "").replace(
                 /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim,
@@ -118,7 +119,7 @@ function renderPaginatedStatuses() {
                                         </div>
                                         <div class="status-footer">
                                             <small class="text-muted">
-                                                <time datetime="${isoString}"><em><i class="fa-solid fa-clock"></i> ${relative}</em></time>${replyLink}
+                                                <a href="${permalinkURL}"><time datetime="${isoString}"><em><i class="fa-solid fa-clock"></i> ${relative}</em></time></a>${replyLink}
                                             </small>
                                         </div>
                                     </div>

@@ -61,8 +61,9 @@ export default async function handler(req, res) {
                         }
                     }
 
-                    // Get preview from iTunes
+                    // Get preview and Apple Music link from iTunes
                     let previewUrl = null;
+                    let appleMusicUrl = null;
                     try {
                         const itunesResponse = await fetch(
                             `https://itunes.apple.com/search?term=${encodeURIComponent(track.artist.name + " " + track.name)}&entity=song&limit=1`
@@ -75,6 +76,8 @@ export default async function handler(req, res) {
                                 itunesData.results.length > 0
                             ) {
                                 previewUrl = itunesData.results[0].previewUrl;
+                                appleMusicUrl =
+                                    itunesData.results[0].trackViewUrl;
                             }
                         }
                     } catch (error) {
@@ -88,6 +91,7 @@ export default async function handler(req, res) {
                         ...track,
                         image: albumImages,
                         preview_url: previewUrl,
+                        apple_music_url: appleMusicUrl,
                     };
                 } catch (error) {
                     console.error(

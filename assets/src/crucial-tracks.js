@@ -759,6 +759,22 @@ function formatDate(dateString) {
         : "unknown date";
 }
 
+// Build streaming service links (Apple Music, Spotify, Crucial Tracks)
+function buildStreamingLinksHTML(item) {
+    const spotifyUrl = `https://open.spotify.com/search/${encodeURIComponent(`${item.artist} ${item.song}`)}`;
+
+    return `
+                    <ul class="list-inline mb-0">
+                      ${item.apple_music_url ? `<li class="list-inline-item"><a href="${item.apple_music_url}" target="_blank" rel="noopener"><i class="fa-brands fa-apple" aria-hidden="true"></i> Abrir en Apple Music</a></li>` : ""}
+                      <li class="list-inline-item">
+                        <a href="${spotifyUrl}" target="_blank" rel="noopener"><i class="fa-brands fa-spotify" aria-hidden="true"></i> Abrir en Spotify</a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="${item.link}" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Abrir en Crucial Tracks</a>
+                      </li>
+                    </ul>`;
+}
+
 // Render paginated tracks
 function renderPaginatedTracks() {
     const list = document.getElementById("tracks");
@@ -829,7 +845,7 @@ function renderPaginatedTracks() {
                   <div class="info">
                     <h2 style="margin: 0 0 0.13em !important;"><span class="sr-only">Canción: </span>${item.song}</h2>
                     <p><span class="sr-only">Artista: </span>${item.artist}</p>
-                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                    ${buildStreamingLinksHTML(item)}
                   </div>
                 </div>
               </div>
@@ -873,7 +889,7 @@ function renderPaginatedTracks() {
                     <h2 style="margin: 0 0 0.13em !important;"><span class="sr-only">Canción: </span>${item.song}</h2>
                     <p><span class="sr-only">Artista: </span>${item.artist}</p>
                     ${bandcampPlayer}
-                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                    ${buildStreamingLinksHTML(item)}
                   </div>
                 </div>
               </div>`
@@ -883,7 +899,7 @@ function renderPaginatedTracks() {
                     <h2 style="margin: 0 0 0.13em !important;"><span class="sr-only">Canción: </span>${item.song}</h2>
                     <p><span class="sr-only">Artista: </span>${item.artist}</p>
                     ${bandcampPlayer}
-                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                    ${buildStreamingLinksHTML(item)}
                   </div>
                 </div>
               </div>`;
@@ -931,7 +947,7 @@ function renderPaginatedTracks() {
                     <h2 style="margin: 0 0 0.13em !important;"><span class="sr-only">Canción: </span>${item.song}</h2>
                     <p><span class="sr-only">Artista: </span>${item.artist}</p>
                     ${audioHTML}
-                    <p><a href="${item.link}" target="_blank" rel="noopener">Abrir en Crucial Tracks <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                    ${buildStreamingLinksHTML(item)}
                   </div>
                 </div>
               </div>

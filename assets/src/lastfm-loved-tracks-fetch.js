@@ -282,6 +282,24 @@ function displayLastFmLovedTracks() {
         });
 }
 
+// Build streaming service links (Apple Music, Spotify, Last.fm)
+function buildStreamingLinksHTML(track) {
+    const artistName = track.artist.name;
+    const trackTitle = track.name;
+    const spotifyUrl = `https://open.spotify.com/search/${encodeURIComponent(`${artistName} ${trackTitle}`)}`;
+
+    return `
+                    <ul class="list-inline mb-0">
+                      ${track.apple_music_url ? `<li class="list-inline-item"><a href="${track.apple_music_url}" target="_blank" rel="noopener"><i class="fa-brands fa-apple" aria-hidden="true"></i> Abrir en Apple Music</a></li>` : ""}
+                      <li class="list-inline-item">
+                        <a href="${spotifyUrl}" target="_blank" rel="noopener"><i class="fa-brands fa-spotify" aria-hidden="true"></i> Abrir en Spotify</a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="${track.url}" target="_blank" rel="noopener"><i class="fa-brands fa-lastfm" aria-hidden="true"></i> Abrir en Last.fm</a>
+                      </li>
+                    </ul>`;
+}
+
 // Render paginated tracks
 function renderPaginatedTracks() {
     const list = document.getElementById("loved-tracks");
@@ -346,7 +364,7 @@ function renderPaginatedTracks() {
                                         <h2 style="margin: 0 0 0.13em !important;"><span class="sr-only">Canción: </span>${trackTitle}</h2>
                                         <p><span class="sr-only">Artista: </span>${artistName}</p>
                                         ${audioHTML}
-                                        <p><a href="${trackUrl}" target="_blank" rel="noopener">Abrir en Last.fm <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true" style="font-size: 0.8em; margin-left: 0.2em; opacity: 0.7; vertical-align: middle;"></i></a></p>
+                                        ${buildStreamingLinksHTML(track)}
                                     </div>
                                 </div>
                             </div>

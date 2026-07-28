@@ -86,7 +86,6 @@ function renderPaginatedStatuses() {
         .map((status) => {
             const { relative, isoString } = formatStatusDate(status.created);
             const emojiImg = buildEmojiImg(status.emoji);
-            const statusURL = `https://${OMG_ADDRESS}.status.lol/${status.id}`;
             const permalinkURL = `/status/${status.id}/`;
             // Make URLs in content clickable
             const linkedContent = (status.content || "").replace(
@@ -111,7 +110,7 @@ function renderPaginatedStatuses() {
                                     <div class="status-content">
                                         <div class="status-header mb-2">
                                             <strong>
-                                                <a href="${statusURL}" rel="me noreferrer noopener" target="_blank">@${OMG_ADDRESS}</a>
+                                                <a href="${permalinkURL}">@${OMG_ADDRESS}</a>
                                             </strong>
                                         </div>
                                         <div class="status-text mb-2">

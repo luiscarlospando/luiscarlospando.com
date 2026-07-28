@@ -119,7 +119,8 @@ function renderPaginatedStatuses() {
                                         </div>
                                         <div class="status-footer">
                                             <small class="text-muted">
-                                                <a href="${permalinkURL}"><time datetime="${isoString}"><em><i class="fa-solid fa-clock"></i> ${relative}</em></time></a>${replyLink}
+                                                <time datetime="${isoString}"><em><i class="fa-solid fa-clock"></i> ${relative}</em></time>
+                                                · <a href="${permalinkURL}"><em><i class="fa-solid fa-link"></i> Permalink</em></a>${replyLink}
                                             </small>
                                         </div>
                                     </div>

@@ -1,4 +1,9 @@
 module Statuslog
+  SPANISH_MONTHS = %w[
+    enero febrero marzo abril mayo junio
+    julio agosto septiembre octubre noviembre diciembre
+  ].freeze
+
   # One static page per status, generated from _data/statuslog.json
   # (refreshed at build time by node-scripts/updateStatuslog.js).
   class Page < Jekyll::PageWithoutAFile
@@ -10,7 +15,7 @@ module Statuslog
       title = excerpt.length > 70 ? "#{excerpt[0...70]}…" : excerpt
 
       status["created_iso"] = created_time(status).utc.iso8601
-      status["created_human"] = created_time(status).strftime("%d/%m/%Y %H:%M")
+      status["created_human"] = format_created_human(created_time(status))
       status["emoji_codepoints"] = emoji_codepoints(status["emoji"])
 
       self.content = ""
@@ -27,6 +32,17 @@ module Statuslog
 
     def created_time(status)
       Time.at(status["created"].to_i)
+    end
+
+    # "22 julio 2026, 7:25 AM" — same date convention used elsewhere on the
+    # site. Relies on Jekyll having set ENV["TZ"] from site.timezone, so
+    # `time` here is already in America/Chihuahua local time.
+    def format_created_human(time)
+      hour12 = time.hour % 12
+      hour12 = 12 if hour12.zero?
+      meridiem = time.hour < 12 ? "AM" : "PM"
+
+      "#{time.day} #{SPANISH_MONTHS[time.month - 1]} #{time.year}, #{hour12}:#{time.strftime('%M')} #{meridiem}"
     end
 
     # Mirrors emojiToCodepoints() in assets/src/statuslog-archive.js so both

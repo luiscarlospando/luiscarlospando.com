@@ -103,7 +103,7 @@ function renderPaginatedStatuses() {
                             <div class="row align-items-center">
                                 <div class="col-3 col-md-2 text-center">
                                     <h1 class="mb-0">
-                                        ${emojiImg}
+                                        <a href="${permalinkURL}">${emojiImg}</a>
                                     </h1>
                                 </div>
                                 <div class="col-9 col-md-10">

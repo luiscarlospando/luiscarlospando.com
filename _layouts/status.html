@@ -50,6 +50,23 @@
                 </div>
             </div>
 
+            <div class="pagination-controls" style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
+                {% if page.status.prev_id %}
+                <a class="btn btn-primary" href="/status/{{ page.status.prev_id }}/" aria-label="Anterior">
+                    « Anterior
+                </a>
+                {% else %}
+                <button class="btn btn-primary" aria-label="Anterior" disabled>« Anterior</button>
+                {% endif %}
+                {% if page.status.next_id %}
+                <a class="btn btn-primary" href="/status/{{ page.status.next_id }}/" aria-label="Siguiente">
+                    Siguiente »
+                </a>
+                {% else %}
+                <button class="btn btn-primary" aria-label="Siguiente" disabled>Siguiente »</button>
+                {% endif %}
+            </div>
+
             <p class="text-center">
                 <a class="btn btn-primary" href="/status/">
                    « Regresar al archivo de estatus

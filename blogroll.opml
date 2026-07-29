@@ -7,6 +7,7 @@
   </head>
   <body>
     <outline text="Blogs en español" title="Blogs en español">
+      <outline type="rss" text="Axel Valdez (Región Cuatro)" title="Axel Valdez (Región Cuatro)" htmlUrl="https://regioncuatro.blog/" xmlUrl="https://regioncuatro.blog/feed/feed.xml"/>
       <outline type="rss" text="Bart" title="Bart" htmlUrl="https://www.yosoybartsolo.com/" xmlUrl="https://www.yosoybartsolo.com/feed.xml"/>
       <outline type="rss" text="Diego López" title="Diego López" htmlUrl="https://diegologs.com/" xmlUrl="http://diegologs.com/rss/feed.xml"/>
       <outline type="rss" text="Emmanuel Alejandro Parada" title="Emmanuel Alejandro Parada" htmlUrl="https://text.eapl.mx/posts" xmlUrl="https://text.eapl.mx/atom.xml"/>

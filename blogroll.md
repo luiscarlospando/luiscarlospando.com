@@ -5,7 +5,7 @@ description: Estos son los blogs y sitios que sigo, ordenados alfabéticamente p
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-07-23 18:35:00</span>
+last-modified-at: <span id="last-updated-at">2026-07-29 12:47:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -54,6 +54,7 @@ Algunos de los sitios y blogs personales en español que sigo.
 
 | Nombre | URL | RSS |
 |--------|-----|-----|
+| Axel Valdez (Región Cuatro) | [regioncuatro.blog](https://regioncuatro.blog/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://regioncuatro.blog/feed/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Bart | [yosoybartsolo.com](https://www.yosoybartsolo.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.yosoybartsolo.com/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Diego López | [diegologs.com](https://diegologs.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](http://diegologs.com/rss/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Emmanuel Alejandro Parada | [eapl.mx](https://text.eapl.mx/posts){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://text.eapl.mx/atom.xml){:target="_blank" rel="noopener" .rss-link} |

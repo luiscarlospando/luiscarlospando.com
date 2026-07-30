@@ -117,6 +117,12 @@ function Navigation() {
                     text: "Development Stuff",
                 },
                 {
+                    id: "pastebin",
+                    url: "https://luiscarlospando.com/pastebin/",
+                    icon: "fa-solid fa-clipboard",
+                    text: "Pastebin",
+                },
+                {
                     id: "development-keys",
                     url: "https://luiscarlospando.com/keys/",
                     icon: "fa-solid fa-key",

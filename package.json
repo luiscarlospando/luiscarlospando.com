@@ -1,7 +1,7 @@
 {
     "name": "luiscarlospando.com",
-    "version": "2.77.4",
-    "description": "Mijo (/ˈmiːhoʊ/). Punk dude coding his way through chaos. Still losing followers since 2007.",
+    "version": "2.81.0",
+    "description": "Mijo (/ˈmiːhoʊ/). Punk dude. Millennial missing the old internet. Lover of music and the quirky, weird, personal web. Losing followers since 2007.",
     "main": "index.js",
     "scripts": {
         "start": "npm run build && bundle exec jekyll serve",

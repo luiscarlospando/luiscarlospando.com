@@ -18,6 +18,15 @@ module.exports = {
     },
     devtool: "source-map",
     mode: "production",
+    // webpack's default 244 KiB budget assumes route-based code splitting.
+    // This site ships a single shared app/styles bundle on every page
+    // (cached by the browser + served gzip/brotli by Vercel), so that
+    // default doesn't fit. Limits below give headroom over current sizes
+    // (app ~676 KiB, styles ~282 KiB) while still catching real bloat.
+    performance: {
+        maxAssetSize: 900000,
+        maxEntrypointSize: 900000,
+    },
     module: {
         rules: [
             {

@@ -4,7 +4,7 @@ title: Acerca de
 description: Este URL ha sido mi hogar en línea como desde octubre de 2014. Este es mi hub central, en donde comparto lo que me gusta, lo que pienso, lo que hago y enlazo a todos mis perfiles y proyectos.
 tags: [about-me, acerca-de]
 permalink: /about/
-last-modified-at: <span id="last-updated-at">2026-07-28 14:55:00</span>
+last-modified-at: <span id="last-updated-at">2026-08-01 18:28:00</span>
 ---
 
 <h2 class="subtitulo text-center"><small>{{ site.capitalized_domain }} <code>v{{ site.version }}</code></small></h2>
@@ -43,7 +43,7 @@ Me considero alguien autodidacta y creo que he aprendido más por mi cuenta que 
 
 Hay un momentos que marcaron mi vida para siempre, uno de ellos fue cuando conocí MTV 2 y Fuse. A partir de ahí, mi mundo cambió. El descubrir música nueva, bandas y artistas confirmó que mi gusto por la música era parte fundamental de mi personalidad (definitivamente influenciado por mi papá). Esos canales me abrieron las puertas a un universo sonoro que no sabía que existía y desde entonces la música se volvió parte esencial de mi identidad.
 
-Hace un resto, junto a unos compas, fundé [Hitz-Musik.net][1]{:target="_blank" rel="noopener"} (RIP 🪦). "El Hitz" era más que una página web; era una comunidad real que apoyaba la escena local de Chihuahua. Organizábamos toquines, compartíamos música y creamos un espacio donde amantes de la música podían conectar con bandas locales. Aunque el proyecto ya murió, guardo esos recuerdos con mucho cariño porque representan una época donde el cotorreo y el amor por la música nos unían (y nos sigue uniendo hasta la fecha).
+Hace un resto, junto a unos compas, fundé [Hitz-Musik.net][1]{:target="_blank" rel="noopener"}. "El Hitz" era más que una página web; era una comunidad real que apoyaba la escena local de Chihuahua. Organizábamos toquines, compartíamos música y creamos un espacio donde amantes de la música podían conectar con bandas locales. Pasaron 12 años de silencio pero justo desde agosto de este año, mis viejos socios y yo, decidimos reconstruirlo y revivirlo para comenzar una nueva era con el proyecto. 🤙
 
 ## El gaming
 

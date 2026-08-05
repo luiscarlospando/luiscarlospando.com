@@ -5,7 +5,7 @@ description: Estos son los blogs y sitios que sigo, ordenados alfabéticamente p
 image: /assets/images/logo.png
 tags: [blogroll, blogrolls]
 permalink: /blogroll/
-last-modified-at: <span id="last-updated-at">2026-07-29 12:47:00</span>
+last-modified-at: <span id="last-updated-at">2026-08-04 19:53:00</span>
 ---
 
 <div class="card last-updated my-3 text-center">
@@ -155,6 +155,7 @@ Algunos blogs de música que me gustan.
 | Crucial Tracks Blog | [crucialtracks.org/blog](https://www.crucialtracks.org/blog){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.crucialtracks.org/blog/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | GORILLA VS. BEAR | [gorillavsbear.net](https://www.gorillavsbear.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.gorillavsbear.net/feed/){:target="_blank" rel="noopener" .rss-link} |
 | Heavy Blog Is Heavy | [heavyblogisheavy.com](https://www.heavyblogisheavy.com/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.heavyblogisheavy.com/rss/){:target="_blank" rel="noopener" .rss-link} |
+| La Escena (vía Hitz-Musik.net) | [hitz-musik.net](https://hitz-musik.net/la-escena){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://www.hitz-musik.net/la-escena/feed.xml){:target="_blank" rel="noopener" .rss-link} |
 | Metal Injection | [metalinjection.net](https://metalinjection.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://metalinjection.net/feed){:target="_blank" rel="noopener" .rss-link} |
 | Metal Sucks | [metalsucks.net](https://metalsucks.net/){:target="_blank" rel="noopener"} | [<i class="fa-solid fa-square-rss"></i>](https://feeds.feedburner.com/Metalsucks){:target="_blank" rel="noopener" .rss-link} |
 

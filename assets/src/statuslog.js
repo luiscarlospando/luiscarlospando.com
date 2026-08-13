@@ -48,25 +48,26 @@ function renderStatus(data) {
     const machineReadableDateTime = lastUpdatedIso.toISOString();
     const externalURL = data.response.statuses[0].external_url;
 
+    // Make URLs in content clickable, same as statuslog-archive.js
+    const linkedContent = (data.response.statuses[0].content || "").replace(
+        /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim,
+        '<a href="$1" target="_blank" rel="noopener">$1</a>'
+    );
+
     const replyLink = externalURL
-        ? `· <a href="${externalURL}" rel="me noreferrer noopener" target="_blank">
-               <em><i class="fa-solid fa-reply"></i> Responder</em>
-           </a>`
+        ? ` · <a href="${externalURL}" rel="me noreferrer noopener" target="_blank"><em><i class="fa-solid fa-reply"></i> Responder</em></a>`
         : "";
 
     statusElement.innerHTML = `
         <div id="container" class="text-center">
-            <p>
-                ${data.response.statuses[0].emoji}
-                <a href="https://luiscarlospando.com/status" data-toggle="tooltip" data-placement="bottom" aria-label="Último estatus" title="Haz clic aquí para ver todos mis estatus" data-original-title="Haz clic aquí para ver todos mis estatus">
-                    ${data.response.statuses[0].content}
-                </a>
+            <p style="white-space: pre-wrap;">
+                ${data.response.statuses[0].emoji} ${linkedContent}
             </p>
             <small class="text-muted">
                 <time datetime="${machineReadableDateTime}">
                     <em><i class="fa-solid fa-clock"></i> ${lastUpdatedRelative}</em>
                 </time>
-                ${replyLink}
+                · <a href="https://luiscarlospando.com/status" data-toggle="tooltip" data-placement="bottom" aria-label="Ver todos mis estatus" title="Ver todos mis estatus" data-original-title="Ver todos mis estatus"><em><i class="fa-solid fa-list"></i> Ver todos</em></a>${replyLink}
             </small>
         </div>
     `;

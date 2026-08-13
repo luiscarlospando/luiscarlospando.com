@@ -60,7 +60,7 @@ function renderStatus(data) {
 
     statusElement.innerHTML = `
         <div id="container" class="text-center">
-            <p style="white-space: pre-wrap;">
+            <p>
                 ${data.response.statuses[0].emoji} ${linkedContent}
             </p>
             <small class="text-muted">

@@ -1,3 +1,5 @@
+import { getAlbumByIndex } from "./lastfm-albums-fetch";
+
 // Helper functions for nav container visibility
 function hideNavContainer() {
     const navContainer = document.querySelector(".nav-container");
@@ -162,6 +164,65 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+// Album modal — populated with data from lastfm-albums-fetch.js
+function buildAlbumStreamingLinksHTML(album) {
+    const artistName = album.artist.name;
+    const albumTitle = album.name;
+    const spotifyUrl = `https://open.spotify.com/search/${encodeURIComponent(`${artistName} ${albumTitle}`)}`;
+
+    return `
+        ${album.apple_music_url ? `<li><a class="btn btn-primary btn-sm" href="${album.apple_music_url}" target="_blank" rel="noopener"><i class="fa-brands fa-apple" aria-hidden="true"></i> Abrir en Apple Music</a></li>` : ""}
+        <li>
+          <a class="btn btn-primary btn-sm" href="${spotifyUrl}" target="_blank" rel="noopener"><i class="fa-brands fa-spotify" aria-hidden="true"></i> Abrir en Spotify</a>
+        </li>
+        <li>
+          <a class="btn btn-primary btn-sm" href="${album.url}" target="_blank" rel="noopener"><i class="fa-brands fa-lastfm" aria-hidden="true"></i> Abrir en Last.fm</a>
+        </li>`;
+}
+
+function openAlbumModal(index) {
+    const album = getAlbumByIndex(index);
+    if (!album) return;
+
+    const artistName = album.artist.name;
+    const albumTitle = album.name;
+    const albumArtUrl = album.image[3]?.["#text"];
+    const finalImageUrl =
+        albumArtUrl || "https://placehold.co/300x300?text=Portada+no+encontrada";
+
+    document.getElementById("albumModalLabel").textContent = albumTitle;
+    document.getElementById("albumModalArtist").textContent = artistName;
+
+    const modalArt = document.getElementById("albumModalArt");
+    modalArt.setAttribute("src", finalImageUrl);
+    modalArt.setAttribute("alt", `${artistName} - ${albumTitle}`);
+
+    const modalAmbient = document.getElementById("albumModalAmbient");
+    if (modalAmbient) {
+        modalAmbient.style.backgroundImage = `url("${finalImageUrl}")`;
+    }
+
+    document.getElementById("albumModalLinks").innerHTML =
+        buildAlbumStreamingLinksHTML(album);
+}
+
+function setupAlbumClickHandlers() {
+    const container = document.getElementById("lastfm-albums-grid");
+    if (!container) return;
+
+    container.querySelectorAll("[data-album-index]").forEach((trigger) => {
+        trigger.addEventListener("click", (event) => {
+            event.preventDefault();
+            const index = parseInt(trigger.dataset.albumIndex, 10);
+            openAlbumModal(index);
+        });
+    });
+}
+
+// Album covers render asynchronously after the Last.fm fetch resolves,
+// so wait for lastfm-albums-fetch.js to signal the grid is in the DOM.
+document.addEventListener("lastfmAlbumsRendered", setupAlbumClickHandlers);
 
 // #stuff-i-like modal
 /*

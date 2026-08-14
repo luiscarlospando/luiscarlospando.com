@@ -2,6 +2,12 @@
 
 let allAlbums = [];
 
+// Accessor used by modals.js to populate the album modal without
+// duplicating Last.fm's data shape outside this file.
+export function getAlbumByIndex(index) {
+    return allAlbums[index];
+}
+
 // Function to display Last.fm top albums
 function displayLastFmTopAlbums() {
     const container = document.getElementById("lastfm-albums-grid");
@@ -85,7 +91,9 @@ function displayLastFmTopAlbums() {
             // Append all elements at once (single DOM update)
             container.appendChild(fragment);
 
-            setupAlbumClickHandlers();
+            // Let modals.js know the album triggers are in the DOM so it
+            // can wire up the album modal (all modal logic lives there).
+            document.dispatchEvent(new CustomEvent("lastfmAlbumsRendered"));
 
             // Use requestIdleCallback for tooltip initialization to not block rendering
             if ("requestIdleCallback" in window) {
@@ -106,58 +114,6 @@ function displayLastFmTopAlbums() {
                     <p>No se pudieron cargar los álbumes. Por favor, actualiza la página.</p>
                 </div>`;
         });
-}
-
-// Build streaming service links (Apple Music, Spotify, Last.fm) for an album
-function buildAlbumStreamingLinksHTML(album) {
-    const artistName = album.artist.name;
-    const albumTitle = album.name;
-    const spotifyUrl = `https://open.spotify.com/search/${encodeURIComponent(`${artistName} ${albumTitle}`)}`;
-
-    return `
-        ${album.apple_music_url ? `<li><a class="btn btn-primary btn-sm" href="${album.apple_music_url}" target="_blank" rel="noopener"><i class="fa-brands fa-apple" aria-hidden="true"></i> Abrir en Apple Music</a></li>` : ""}
-        <li>
-          <a class="btn btn-primary btn-sm" href="${spotifyUrl}" target="_blank" rel="noopener"><i class="fa-brands fa-spotify" aria-hidden="true"></i> Abrir en Spotify</a>
-        </li>
-        <li>
-          <a class="btn btn-primary btn-sm" href="${album.url}" target="_blank" rel="noopener"><i class="fa-brands fa-lastfm" aria-hidden="true"></i> Abrir en Last.fm</a>
-        </li>`;
-}
-
-// Populate and show the album modal for the given album index
-function openAlbumModal(index) {
-    const album = allAlbums[index];
-    if (!album) return;
-
-    const artistName = album.artist.name;
-    const albumTitle = album.name;
-    const albumArtUrl = album.image[3]?.["#text"];
-    const finalImageUrl =
-        albumArtUrl || "https://placehold.co/300x300?text=Portada+no+encontrada";
-
-    document.getElementById("albumModalLabel").textContent = albumTitle;
-    document.getElementById("albumModalArtist").textContent = artistName;
-
-    const modalArt = document.getElementById("albumModalArt");
-    modalArt.setAttribute("src", finalImageUrl);
-    modalArt.setAttribute("alt", `${artistName} - ${albumTitle}`);
-
-    document.getElementById("albumModalLinks").innerHTML =
-        buildAlbumStreamingLinksHTML(album);
-}
-
-// Setup click handlers on album covers to open the album modal
-function setupAlbumClickHandlers() {
-    const container = document.getElementById("lastfm-albums-grid");
-    if (!container) return;
-
-    container.querySelectorAll("[data-album-index]").forEach((trigger) => {
-        trigger.addEventListener("click", (event) => {
-            event.preventDefault();
-            const index = parseInt(trigger.dataset.albumIndex, 10);
-            openAlbumModal(index);
-        });
-    });
 }
 
 // Separate function for tooltip initialization

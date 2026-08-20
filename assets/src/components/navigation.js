@@ -254,7 +254,10 @@ function Navigation() {
                     return (
                         <li key={siteButton.id}>
                             <a href={siteButton.url}>
-                                <i className={siteButton.icon}></i>{" "}
+                                <i
+                                    className={siteButton.icon}
+                                    aria-hidden="true"
+                                ></i>{" "}
                                 {siteButton.text}
                             </a>
                         </li>
@@ -264,12 +267,18 @@ function Navigation() {
                         <li key={siteButton.id}>
                             {siteButton.url !== "" ? (
                                 <a href={siteButton.url}>
-                                    <i className={siteButton.icon}></i>{" "}
+                                    <i
+                                        className={siteButton.icon}
+                                        aria-hidden="true"
+                                    ></i>{" "}
                                     {siteButton.text}
                                 </a>
                             ) : (
                                 <span>
-                                    <i className={siteButton.icon}></i>{" "}
+                                    <i
+                                        className={siteButton.icon}
+                                        aria-hidden="true"
+                                    ></i>{" "}
                                     {siteButton.text}
                                 </span>
                             )}
@@ -277,7 +286,10 @@ function Navigation() {
                                 {subButtons.map((subButton) => (
                                     <li key={subButton.id}>
                                         <a href={subButton.url}>
-                                            <i className={subButton.icon}></i>{" "}
+                                            <i
+                                                className={subButton.icon}
+                                                aria-hidden="true"
+                                            ></i>{" "}
                                             {subButton.text}
                                         </a>
                                     </li>

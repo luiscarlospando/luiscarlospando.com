@@ -94,6 +94,17 @@
             },
         });
 
+        // mmenu (v4.5.7) inserts its own arrow links to open each submenu
+        // (".mm-subopen") but never gives them an accessible name, since this
+        // version of the plugin adds no ARIA attributes on its own. Label
+        // each one from the text of the menu item it opens.
+        $("#navigation .mm-subopen").each(function () {
+            const label = $(this).next("a, span").text().trim();
+            if (label) {
+                $(this).attr("aria-label", `Abrir submenú de ${label}`);
+            }
+        });
+
         // Load facts after initializing the menu
         // Wait a bit to ensure the menu is fully rendered
         setTimeout(() => {

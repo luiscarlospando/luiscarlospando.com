@@ -86,7 +86,7 @@
 
                             <ul id="version" class="list-inline">
                                 <li class="list-inline-item me-2">
-                                    <a rel="me noreferrer noopener" href="https://proven.lol/a5fae9" data-toggle="tooltip" data-placement="top" title="Proof" target="_blank">
+                                    <a rel="me noreferrer noopener" href="https://proven.lol/a5fae9" data-toggle="tooltip" data-placement="top" aria-label="Proof" title="Proof" target="_blank">
                                         <span class="fa-stack small">
                                             <i class="fa-solid fa-check fa-stack-1x fa-inverse" style="--fa-stack-z-index: 2;"></i>
                                             <i class="fa-solid fa-certificate fa-stack-2x" style="--fa-stack-z-index: 1;"></i>
@@ -187,56 +187,60 @@
 
                             <ul class="list-inline my-0">
                                 <li class="list-inline-item" style="margin-right: 1rem;">
-                                    <ul class="list-unstyled">
-                                        <li class="mb-2">
-                                            <a href="https://blogblog.es/" rel="noopener noreferrer" target="_blank">¡Blog!¡Blog! Webring</a>
-                                        </li>
-                                        <li class="mb-3">
-                                            <ul class="list-inline mb-0">
-                                                <li class="list-inline-item">
-                                                    <a class="btn btn-primary btn-sm" href="https://www.quiroptero.blog/" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Anterior" title="Anterior">
-                                                        <i class="fa-solid fa-arrow-left"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a id="webring-blogblog-random" class="btn btn-primary btn-sm" href="{{ webring_random.url }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Ir a un sitio aleatorio" title="Ir a un sitio aleatorio: {{ webring_random.name }}">
-                                                        <i class="fa-solid fa-shuffle"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="btn btn-primary btn-sm" href="https://jorgesanz.net/" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Siguiente" title="Siguiente">
-                                                        <i class="fa-solid fa-arrow-right"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                    <nav aria-label="Blogblog Webring">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2">
+                                                <a href="https://blogblog.es/" rel="noopener noreferrer" target="_blank">¡Blog!¡Blog! Webring</a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <ul class="list-inline mb-0">
+                                                    <li class="list-inline-item">
+                                                        <a class="btn btn-primary btn-sm" href="https://www.quiroptero.blog/" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Anterior" title="Anterior">
+                                                            <i class="fa-solid fa-arrow-left"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a id="webring-blogblog-random" class="btn btn-primary btn-sm" href="{{ webring_random.url }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Ir a un sitio aleatorio" title="Ir a un sitio aleatorio: {{ webring_random.name }}">
+                                                            <i class="fa-solid fa-shuffle"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="btn btn-primary btn-sm" href="https://jorgesanz.net/" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Siguiente" title="Siguiente">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
                                 </li>
                                 <li class="list-inline-item">
-                                    <ul class="list-unstyled">
-                                        <li class="mb-2">
-                                            <a href="https://cs.sjoy.lol/" rel="noopener noreferrer" target="_blank">CSS JOY Webring</a>
-                                        </li>
-                                        <li>
-                                            <ul class="list-inline mb-0">
-                                                <li class="list-inline-item">
-                                                    <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/previous?via=https://{{ site.domain }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Anterior" title="Anterior">
-                                                        <i class="fa-solid fa-arrow-left"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/random?via=https://{{ site.domain }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Ir a un sitio aleatorio" title="Ir a un sitio aleatorio">
-                                                        <i class="fa-solid fa-shuffle"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/next?via=https://{{ site.domain }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Siguiente" title="Siguiente">
-                                                        <i class="fa-solid fa-arrow-right"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                    <nav aria-label="CSS JOY Webring">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2">
+                                                <a href="https://cs.sjoy.lol/" rel="noopener noreferrer" target="_blank">CSS JOY Webring</a>
+                                            </li>
+                                            <li>
+                                                <ul class="list-inline mb-0">
+                                                    <li class="list-inline-item">
+                                                        <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/previous?via=https://{{ site.domain }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Anterior" title="Anterior">
+                                                            <i class="fa-solid fa-arrow-left"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/random?via=https://{{ site.domain }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Ir a un sitio aleatorio" title="Ir a un sitio aleatorio">
+                                                            <i class="fa-solid fa-shuffle"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="btn btn-primary btn-sm" href="https://webri.ng/webring/cssjoy/next?via=https://{{ site.domain }}" rel="noopener" data-toggle="tooltip" data-placement="top" aria-label="Siguiente" title="Siguiente">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
                                 </li>
                             </ul>
 

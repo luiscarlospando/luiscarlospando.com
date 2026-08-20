@@ -37,6 +37,10 @@
     .mm-footer {
         color: $mainColor;
     }
+
+    .mm-header {
+        border-bottom: none !important;
+    }
 }
 
 .mm-list {

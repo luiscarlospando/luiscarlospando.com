@@ -51,6 +51,10 @@
             }
         }
 
+        > a.mm-subopen:before {
+            border-left: none !important;
+        }
+
         &:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(
                 .mm-noresults
             ):after {

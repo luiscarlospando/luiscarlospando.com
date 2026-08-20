@@ -93,7 +93,7 @@ function renderPaginatedStatuses() {
                 '<a href="$1" target="_blank" rel="noopener">$1</a>'
             );
             const replyLink = status.external_url
-                ? ` · <a href="${status.external_url}" rel="me noreferrer noopener" target="_blank"><em><i class="fa-solid fa-reply"></i> Responder</em></a>`
+                ? ` · <a href="${status.external_url}" rel="me noreferrer noopener" aria-label="Responder" title="Responder" target="_blank"><em><i class="fa-solid fa-reply"></i> Responder</em></a>`
                 : "";
 
             return `

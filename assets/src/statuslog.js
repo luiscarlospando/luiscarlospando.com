@@ -55,7 +55,7 @@ function renderStatus(data) {
     );
 
     const replyLink = externalURL
-        ? ` · <a href="${externalURL}" rel="me noreferrer noopener" target="_blank"><em><i class="fa-solid fa-reply"></i> Responder</em></a>`
+        ? ` · <a href="${externalURL}" rel="me noreferrer noopener" aria-label="Responder" title="Responder" target="_blank"><em><i class="fa-solid fa-reply"></i> Responder</em></a>`
         : "";
 
     statusElement.innerHTML = `
@@ -67,7 +67,7 @@ function renderStatus(data) {
                 <time datetime="${machineReadableDateTime}">
                     <em><i class="fa-solid fa-clock"></i> ${lastUpdatedRelative}</em>
                 </time>
-                · <a href="https://luiscarlospando.com/status" data-toggle="tooltip" data-placement="bottom" aria-label="Ver todos mis estatus" title="Ver todos mis estatus" data-original-title="Ver todos mis estatus"><em><i class="fa-solid fa-list"></i> Ver todos</em></a>${replyLink}
+                · <a href="https://luiscarlospando.com/status" aria-label="Ver todos mis estatus" title="Ver todos mis estatus"><em><i class="fa-solid fa-list"></i> Ver todos</em></a>${replyLink}
             </small>
         </div>
     `;

@@ -68,6 +68,13 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 </a>
 
 </li>
+<li>
+
+<a class="btn btn-primary" href="https://mode7.mexicanskynet.com/series/m7wch">
+<i class="fa-solid fa-chart-simple"></i> Estadísticas
+</a>
+
+</li>
 </ul>
 </div>
 </div>
@@ -107,6 +114,13 @@ Esto es lo que ando jugando actualmente y mis perfiles de [<i class="fa-solid fa
 
 <a class="btn btn-primary" href="/live/">
 <i class="fa-brands fa-twitch"></i> Stream en vivo
+</a>
+
+</li>
+<li>
+
+<a class="btn btn-primary" href="https://mode7.mexicanskynet.com/series/m7gp/">
+<i class="fa-solid fa-chart-simple"></i> Estadísticas
 </a>
 
 </li>

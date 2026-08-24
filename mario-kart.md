@@ -44,6 +44,10 @@ permalink: /games/mario-kart/
     - Sin distinción de rangos
 - Las reglas pueden cambiar dependiendo de si es una fecha especial o algo así. Todo eso lo damos a conocer en el [Discord de Mode 7][1].
 
+## <i class="fa-solid fa-chart-simple"></i> Mis stats
+
+- Consulta mis estadísticas personales: <a href="https://mode7.mexicanskynet.com/players/mijo" class="badge badge-dark" rel="me" target="_blank">Perfil en Mode 7</a>
+
 ## <i class="fa-brands fa-discord"></i> Discord
 
 - Puedes unirte al canal [`# 🏁│mario-kart`][1]{:target="_blank" rel="noreferrer noopener"} en el Discord de Mode 7 para recibir updates y notificaciones de todas las personas que jugamos

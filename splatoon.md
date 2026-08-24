@@ -21,7 +21,7 @@ permalink: /games/splatoon/
 - Anarchy Battles (Series)
 - League Battle (por el canal [`# 🎮│splatoon`][1]{:target="_blank" rel="noreferrer noopener"} dentro del Discord de Mode 7 nos ponemos de acuerdo para jugar algunos amigos y yo, siéntete libre de unirte con toda confianza) 👈 *Esto es lo que más jugamos*
 
-## <i class="fa-solid fa-chart-column"></i> Mis stats
+## <i class="fa-solid fa-chart-simple"></i> Mis stats
 
 - Rango: <a href="https://stat.ink/@mijo/spl3" class="badge badge-dark" rel="me" target="_blank">Rank S</a>
 

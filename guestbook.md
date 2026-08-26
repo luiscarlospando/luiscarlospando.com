@@ -69,4 +69,39 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
 <hr style="margin: 1em 0;"/>
 <h2 id="guestbooks___guestbook-messages-header">Mensajes</h2>
 <div id="guestbooks___guestbook-messages-container"></div>
+<script>
+    // El widget de guestbooks.meadow.cafe inyecta enlaces (perfil/sitio de quien firma)
+    // sin marcar rel="ugc". Los parcheamos en cuanto aparecen en el DOM.
+    (function () {
+        function markAsUgc(container) {
+            container.querySelectorAll('a:not([data-ugc-patched])').forEach(function (a) {
+                a.setAttribute('rel', 'ugc nofollow noopener noreferrer');
+                a.setAttribute('target', '_blank');
+                a.setAttribute('data-ugc-patched', '');
+            });
+        }
+
+        function watch(container) {
+            markAsUgc(container);
+            new MutationObserver(function () {
+                markAsUgc(container);
+            }).observe(container, { childList: true, subtree: true });
+        }
+
+        var existing = document.getElementById('guestbooks___guestbook-messages-container');
+        if (existing) {
+            watch(existing);
+            return;
+        }
+
+        // El contenedor puede no existir aún si este script corre antes que el widget lo pinte.
+        new MutationObserver(function (mutations, rootObserver) {
+            var container = document.getElementById('guestbooks___guestbook-messages-container');
+            if (container) {
+                rootObserver.disconnect();
+                watch(container);
+            }
+        }).observe(document.body, { childList: true, subtree: true });
+    })();
+</script>
 {:/nomarkdown}

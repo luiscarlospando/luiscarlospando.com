@@ -1,30 +1,58 @@
 {
     "version": "0.1.1",
-    "url": "https://luiscarlospando.com/",
+    "url": "https://luiscarlospando.com",
     "vouches": [
-        {
-            "url": "https://www.yosoybartsolo.com/",
-            "vouched_at": "2026-03-14"
-        },
         {
             "url": "https://text.eapl.mx/main-es",
             "vouched_at": "2026-03-14"
         },
         {
-            "url": "https://www.neatnik.net/",
+            "url": "https://www.neatnik.net",
             "vouched_at": "2026-03-14"
         },
         {
-            "url": "https://rknight.me/",
+            "url": "https://rknight.me",
             "vouched_at": "2026-03-14"
         },
         {
-            "url": "https://cory.dev/",
+            "url": "https://cory.dev",
             "vouched_at": "2026-03-14"
         },
         {
-            "url": "https://kevquirk.com/",
+            "url": "https://kevquirk.com",
             "vouched_at": "2026-03-14"
+        },
+        {
+          "url": "https://axel.mx",
+          "vouched_at": "2026-08-26"
+        },
+        {
+          "url": "https://diegologs.com",
+          "vouched_at": "2026-08-26"
+        },
+        {
+          "url": "https://text.eapl.mx/posts",
+          "vouched_at": "2026-08-26"
+        },
+        {
+          "url": "https://www.esuntipazo.com",
+          "vouched_at": "2026-08-26"
+        },
+        {
+          "url": "https://www.macram.es",
+          "vouched_at": "2026-08-26"
+        },
+        {
+          "url": "https://matizeta.com",
+          "vouched_at": "2026-08-26"
+        },
+        {
+          "url": "https://simplemono.neocities.org",
+          "vouched_at": "2026-08-26"
+        },
+        {
+          "url": "https://www.quiroptero.blog",
+          "vouched_at": "2026-08-26"
         }
     ]
 }

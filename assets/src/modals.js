@@ -165,6 +165,30 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+// Webmention reply images — open in the shared image modal.
+// Replies are fetched via AJAX and injected after DOMContentLoaded, so this
+// listener is delegated on document instead of bound to individual images.
+document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("click", function (e) {
+        const img = e.target.closest(
+            "#webmentions-comments .reply-attachment-img"
+        );
+        if (!img) return;
+
+        const modalImg = document.querySelector("#modal .modal-body img");
+        if (modalImg) {
+            modalImg.setAttribute("src", img.getAttribute("src"));
+            modalImg.setAttribute("alt", img.getAttribute("alt") || "");
+        }
+
+        const modalCaption = document.querySelector("#modal-caption");
+        if (modalCaption) modalCaption.textContent = "";
+
+        hideNavContainer();
+        $("#modal").modal("show");
+    });
+});
+
 // Album modal — populated with data from lastfm-albums-fetch.js
 function buildAlbumStreamingLinksHTML(album) {
     const artistName = album.artist.name;

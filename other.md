@@ -9,10 +9,12 @@ permalink: /other/
 
 <p class="text-center">{{ page.description }}</p>
 
-- 🏆 [Top 4][1]
+- 🏆 [Proyectos][1]
 - 🚫 [Nope][2]
-- 🐦 [Twitter][3]
+- 🏆 [Top 4][3]
+- 🐦 [Twitter][4]
 
-[1]: {{ site.url }}/top4/
+[1]: {{ site.url }}/projects/
 [2]: {{ site.url }}/nope/
-[3]: {{ site.url }}/twitter/
+[3]: {{ site.url }}/top4/
+[4]: {{ site.url }}/twitter/

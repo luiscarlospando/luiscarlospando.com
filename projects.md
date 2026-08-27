@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Proyectos
-description: Proyectos que he desarrollado y en los cuales estoy trabajando actualmente. También algunos proyectos personales en los cuales ya no estoy activamente trabajando.
+description: Un registro de mis proyectos personales, los que sigo trabajando activamente y los que ya quedaron archivados.
 image: /assets/images/logo.png
 tags: [projects, personal-projects, proyectos, proyectos-personales]
 permalink: /projects/
@@ -37,7 +37,7 @@ last-modified-at: <span id="last-updated-at">2026-08-27 15:03:00</span>
 </a>
 </li>
 <li>
-Hitz-Musik.net es una plataforma para bandas, venues, colectivos para para publicar toquines y más en un solo lugar. Antes enfocados solo a bandas de Chihuahua, ahora como plataforma para bandas de todo México.
+<small>Hitz-Musik.net es una plataforma para bandas, venues, colectivos para para publicar toquines y más en un solo lugar. Antes enfocados solo a bandas de Chihuahua, ahora como plataforma para bandas de todo México.</small>
 </li>
 </ul>
 </div>
@@ -57,7 +57,7 @@ Hitz-Musik.net es una plataforma para bandas, venues, colectivos para para publi
 </a>
 </li>
 <li>
-Mode 7 (<code>Mode7gg</code> para los compas) es mi comunidad en Discord enfocada en gaming y retro gaming. En algún punto, también fue un podcast donde discutíamos nuestros juegos favoritos con un toque de humor.
+<small>Mode 7 (<code>Mode7gg</code> para los compas) es mi comunidad en Discord enfocada en gaming y retro gaming. En algún punto, también fue un podcast donde discutíamos nuestros juegos favoritos con un toque de humor.</small>
 </li>
 </ul>
 </div>
@@ -88,7 +88,7 @@ Mode 7 (<code>Mode7gg</code> para los compas) es mi comunidad en Discord enfocad
 </a>
 </li>
 <li>
-Tema personalizado para Warp terminal que emula el aspecto de una antigua pantalla CRT y lo mezcla con una hermosa combinación de colores pastel.
+<small>Tema personalizado para Warp terminal que emula el aspecto de una antigua pantalla CRT y lo mezcla con una hermosa combinación de colores pastel.</small>
 </li>
 </ul>
 </div>
@@ -108,7 +108,7 @@ Tema personalizado para Warp terminal que emula el aspecto de una antigua pantal
 </a>
 </li>
 <li>
-Este es el shader que uso en la terminal Ghostty. Añade aberración cromática, brillo, scanlines y matriz de puntos para lograr un aspecto auténtico de CRT.
+<small>Este es el shader que uso en la terminal Ghostty. Añade aberración cromática, brillo, scanlines y matriz de puntos para lograr un aspecto auténtico de CRT.</small>
 </li>
 </ul>
 </div>
@@ -128,7 +128,7 @@ Este es el shader que uso en la terminal Ghostty. Añade aberración cromática,
 </a>
 </li>
 <li>
-Una extensión de Raycast que te permite controlar Discord sin cambiar de ventana. Abre canales rápidamente, busca mensajes, gestiona notificaciones y configura tu presencia, todo desde tu teclado.
+<small>Una extensión de Raycast que te permite controlar Discord sin cambiar de ventana. Abre canales rápidamente, busca mensajes, gestiona notificaciones y configura tu presencia, todo desde tu teclado.</small>
 </li>
 </ul>
 </div>

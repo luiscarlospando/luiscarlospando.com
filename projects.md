@@ -143,9 +143,3 @@ last-modified-at: <span id="last-updated-at">2026-08-27 15:03:00</span>
 
 </div>
 </div>
-
-[1]: #discord-tag
-[2]: #nintendo-switch
-[3]: https://www.backloggd.com/u/mijo/playing/
-[4]: /games/mario-kart/
-[5]: /games/splatoon/

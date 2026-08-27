@@ -9,7 +9,7 @@ permalink: /other/
 
 <p class="text-center">{{ page.description }}</p>
 
-- 🏆 [Proyectos][1]
+- 🚀 [Proyectos][1]
 - 🚫 [Nope][2]
 - 🏆 [Top 4][3]
 - 🐦 [Twitter][4]

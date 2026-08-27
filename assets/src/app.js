@@ -29,6 +29,7 @@ import "./twitch-live";
 import "./mmenu";
 import "./instatus";
 import "./modals";
+import "./webmentions";
 import "./blog";
 import "./scroll-events";
 import "./masonry";

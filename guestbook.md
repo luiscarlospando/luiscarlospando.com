@@ -64,6 +64,8 @@ last-modified-at: <span id="last-updated-at">2026-02-26 19:02:00</span>
     </div>
 </div>
 <div id="guestbooks___guestbook-made-with" class="text-center">
+    <small>📝 Los mensajes no se publican al instante, primero los reviso manualmente, así que tu saludo puede tardar un poco en aparecer. ¡Gracias por la paciencia!</small>
+    <br>
     <small>Hecho con cariño usando <a rel="noreferrer noopener" target="_blank" href="https://guestbooks.meadow.cafe">Guestbooks</a></small>
 </div>
 <hr style="margin: 1em 0;"/>

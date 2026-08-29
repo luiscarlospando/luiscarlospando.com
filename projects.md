@@ -32,17 +32,17 @@ last-modified-at: <span id="last-updated-at">2026-08-27 15:03:00</span>
 <div class="col-md-6 my-auto">
 <ul class="list-unstyled">
 <li>
-<a href="https://hitz-musik.net/" rel="noreferrer noopener" target="_blank">
-    🎸 Hitz-Musik.net
+<a href="https://hitz.mx/" rel="noreferrer noopener" target="_blank">
+    🎸 Hitz.mx
 </a>
 </li>
 <li>
-<small>Hitz-Musik.net es una plataforma para bandas, venues, colectivos para para publicar toquines y más en un solo lugar. Antes enfocados solo a bandas de Chihuahua, ahora como plataforma para bandas de todo México.</small>
+<small>Hitz.mx es una plataforma para bandas, venues, colectivos para para publicar toquines y más en un solo lugar. Antes enfocados solo a bandas de Chihuahua, ahora como plataforma para bandas de todo México.</small>
 </li>
 </ul>
 </div>
 <div class="col-md-6 my-auto">
-<a class="btn btn-primary btn-lg" href="https://hitz-musik.net/" rel="noreferrer noopener" target="_blank">
+<a class="btn btn-primary btn-lg" href="https://hitz.mx/" rel="noreferrer noopener" target="_blank">
 <i class="fa-solid fa-arrow-up-right-from-square"></i> Visitar sitio
 </a>
 </div>

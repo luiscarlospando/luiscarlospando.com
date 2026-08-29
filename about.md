@@ -43,7 +43,7 @@ Me considero alguien autodidacta y creo que he aprendido más por mi cuenta que 
 
 Hay un momentos que marcaron mi vida para siempre, uno de ellos fue cuando conocí MTV 2 y Fuse. A partir de ahí, mi mundo cambió. El descubrir música nueva, bandas y artistas confirmó que mi gusto por la música era parte fundamental de mi personalidad (definitivamente influenciado por mi papá). Esos canales me abrieron las puertas a un universo sonoro que no sabía que existía y desde entonces la música se volvió parte esencial de mi identidad.
 
-Hace un resto, junto a unos compas, fundé [Hitz-Musik.net][1]{:target="_blank" rel="noopener"}. "El Hitz" era más que una página web; era una comunidad real que apoyaba la escena local de Chihuahua. Organizábamos toquines, compartíamos música y creamos un espacio donde amantes de la música podían conectar con bandas locales. Pasaron 12 años de silencio pero justo desde agosto de este año, mis viejos socios y yo, decidimos reconstruirlo y revivirlo para comenzar una nueva era con el proyecto. 🤙
+Hace muchos años, junto a unos compas, fundé [Hitz.mx][1]{:target="_blank" rel="noopener"}. "El Hitz" era más que una página web; era una comunidad real que apoyaba la escena local de Chihuahua. Organizábamos toquines, compartíamos música y creamos un espacio donde amantes de la música podían conectar con bandas locales. Pasaron 12 años de silencio pero justo desde agosto de este año, mis viejos socios y yo, decidimos reconstruirlo y revivirlo para comenzar una nueva era con el proyecto. 🤙
 
 ## El gaming
 
@@ -127,7 +127,7 @@ Sigue mis diferentes feeds:
 
 Los estándares web son importantes y trato de que mi sitio se adhiera a ellos. Si algo se ve mal, notas algo raro o descubres algún bug 🐞, [por favor házmelo saber][7] o [abre un issue en GitHub][29].
 
-[1]: https://hitz-musik.net/
+[1]: https://hitz.mx/
 [2]: /discord/
 [3]: /live/
 [4]: {{ site.lastfm_url }}

@@ -13,7 +13,7 @@ tags: [home, homepage, portada, inicio, luis-carlos-pando, mijo]
 <span class="first-letter">H</span>ola 👋, soy Luis Carlos Pando, aka `Mijo` (<a href="#" data-pronunciation data-toggle="tooltip" data-placement="top" data-html="true" title="Pronounced as /ˈmiːhoʊ/">/ˈmiːhoʊ/</a> 🔊), un [web developer][1]{:rel="me" target="_blank"} y lo que se ofrezca de [Chihuahua, México][2]{:rel="noreferrer noopener" target="_blank"}. Toda la vida me han llamado la atención el código, las computadoras 👨‍💻 y el internet. 🌐 Esto me inspiró a [crear este sitio][3], mi lugar para hablar de lo que quiera, experimentar sin miedo a equivocarme, compartir y aprender. También me sirve como un lugar que concentra todo lo que hago, todo lo que me gusta, y <strong>todo lo que soy</strong>.
 
 <div class="collapse" id="collapseIntro">
-Amo la música, siempre ha sido una parte importante de mi vida. Los géneros que más te consumo son el hardcore, punk, metal, death y alternativo. Algunos tal vez me ubiquen por haber fundado [Hitz-Musik.net][4]{:target="_blank" rel="noopener"} junto a unos viejos amigos. "El Hitz" duró 12 años apagado (de 2014 a 2026), pero desde agosto de este año, mis viejos socios y yo, decidimos reconstruirlo y revivirlo para comenzar una nueva era con el proyecto. 🤙
+Amo la música, siempre ha sido una parte importante de mi vida. Los géneros que más te consumo son el hardcore, punk, metal, death y alternativo. Algunos tal vez me ubiquen por haber fundado [Hitz.mx][4]{:target="_blank" rel="noopener"} junto a unos viejos amigos. "El Hitz" duró 12 años apagado (de 2014 a 2026), pero desde agosto de este año, mis viejos socios y yo, decidimos reconstruirlo y revivirlo para comenzar una nueva era con el proyecto. 🤙
 
 A su vez, llevo registrando toda [la música que escucho 🎧][5] en mi perfil de [Last.fm 🎵][6]{:rel="me noreferrer noopener" target="_blank"}, desde 2005 baby!
 
@@ -292,7 +292,7 @@ Ver mis álbumes más escuchados de los últimos 30 días
 [1]: https://github.com/{{ site.github_username }}
 [2]: https://es.wikipedia.org/wiki/Chihuahua_(Chihuahua)
 [3]: /about/
-[4]: http://hitz-musik.net/
+[4]: https://hitz.mx/
 [5]: /music/
 [6]: {{ site.lastfm_url }}
 [7]: {{ site.backloggd_url }}

@@ -100,7 +100,7 @@ Este cotorreo de agendar llamada conmigo francamente no creo usarlo nunca, pero 
 
 ---
 
-## <i class="fa-solid fa-guitar"></i> Hitz.mx
+## <i class="fa-solid fa-music"></i> Hitz.mx
 
 [Este es mi perfil en Hitz.mx][4]{:rel="me noopener" target="_blank"}, ahí puedes revisar mi última actividad en el Hitz.
 

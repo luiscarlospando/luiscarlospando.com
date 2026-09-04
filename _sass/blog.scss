@@ -56,15 +56,6 @@ h6 {
     }
 }
 
-// Compact, subdued treatment for the reply-context indicator inside the
-// homepage's "latest posts" widget. The default styling is tuned for sitting
-// above a full post title (where size alone gives it a lower priority) — in
-// this dense list it was competing with the actual post link below it, so
-// it's toned down here to read as a quiet note attached to that entry
-// instead of another entry itself. It trails its own post's title (rather
-// than leading it, like the WP theme does) so it doesn't get visually
-// mistaken for belonging to the entry above. Border reuses the same
-// left-border accent as blockquote/.alert; the muted color matches .text-muted.
 #latest-posts {
     .reply-context {
         margin: 0.35rem 0 0.15rem;
@@ -196,6 +187,33 @@ img {
     }
 }
 
+.alignfull,
+.alignwide {
+    width: 100% !important;
+    max-width: 100%;
+
+    img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+.alignleft,
+.alignright {
+    max-width: 50%;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .alignleft,
+    .alignright {
+        float: none;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 .tiled-gallery__gallery {
     margin-bottom: 1rem !important;
 }
@@ -243,6 +261,13 @@ figcaption,
     font-size: 0.8331rem;
     font-style: italic;
     text-align: center;
+}
+
+.alignleft figcaption,
+.alignright figcaption,
+.wp-caption.alignleft .wp-caption-text,
+.wp-caption.alignright .wp-caption-text {
+    text-align: left;
 }
 
 /* Photo thumbnails */

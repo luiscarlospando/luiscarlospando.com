@@ -687,6 +687,15 @@ footer {
     }
 }
 
+// This Bootstrap build predates .modal-xl (added upstream in 4.4), which
+// only had .modal-lg topping out at 800px. Same convention as Bootstrap's
+// own .modal-lg — scale up at the xl breakpoint (1200px) rather than always.
+@media (min-width: 1200px) {
+    .modal-xl {
+        max-width: 1140px;
+    }
+}
+
 /* Card-style modals: text/button content needs an opaque surface to read clearly */
 #pasteModal,
 #albumModal {

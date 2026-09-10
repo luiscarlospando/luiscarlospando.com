@@ -37,7 +37,7 @@ last-modified-at: <span id="last-updated-at">2026-08-27 15:03:00</span>
 </a>
 </li>
 <li>
-<small>Hitz.mx es una plataforma para bandas, venues, colectivos para para publicar toquines y más en un solo lugar. Antes enfocados solo a bandas de Chihuahua, ahora como plataforma para bandas de todo México.</small>
+<small>Hitz.mx es una plataforma pensada para gestionar la escena musical de México y conectar a la gente que la hace posible.</small>
 </li>
 </ul>
 </div>

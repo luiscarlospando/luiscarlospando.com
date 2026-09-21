@@ -152,6 +152,7 @@ a {
     &:hover {
         color: $hoverColor;
         text-decoration-color: $underlineHoverColor;
+        text-decoration-thickness: 2px;
     }
 }
 

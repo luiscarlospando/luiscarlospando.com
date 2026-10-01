@@ -5,7 +5,7 @@ description: Esto es lo que ando jugando actualmente y mis perfiles de Discord, 
 image: /assets/images/logo-games.png
 tags: [games, video-games, current-games, currently-playing]
 permalink: /games/
-last-modified-at: <span id="last-updated-at">2026-10-01 18:59:00</span>
+last-modified-at: <span id="last-updated-at">2026-10-01 15:01:00</span>
 ---
 
 <p class="text-center">

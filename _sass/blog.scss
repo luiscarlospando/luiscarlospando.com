@@ -301,6 +301,10 @@ figcaption,
     text-align: center !important;
 }
 
+.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) {
+    margin-botton: 0 !important;
+}
+
 /* ==========================================================================
    VIDEO & EMBEDS
    ========================================================================== */

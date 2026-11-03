@@ -10,7 +10,7 @@ function extractDateFromEntryURL(url) {
 }
 
 export default async function handler(req, res) {
-    const FEED_URL = "https://app.crucialtracks.org/profile/mijo/feed.json";
+    const FEED_URL = "https://www.crucialtracks.org/profile/mijo/feed.json";
 
     try {
         // Fetch the JSON feed

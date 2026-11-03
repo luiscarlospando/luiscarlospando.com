@@ -1039,7 +1039,7 @@ function setupPagination() {
         <div class="card-body text-center">
           <p>
             ¡Parece que llegaste al final! Aquí solo muestro las últimas 50 canciones, pero te invito a ir a
-            <a href="https://app.crucialtracks.org/profile/mijo?page=6" target="_blank" rel="noopener">mi perfil de Crucial Tracks</a>
+            <a href="https://www.crucialtracks.org/profile/mijo?page=6" target="_blank" rel="noopener">mi perfil de Crucial Tracks</a>
             para ver el resto de las canciones que he compartido.
           </p>
         </div>

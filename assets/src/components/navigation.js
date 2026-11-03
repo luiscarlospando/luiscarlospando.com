@@ -200,7 +200,7 @@ function Navigation() {
                 },
                 {
                     id: "subscribe-crucial-tracks",
-                    url: "https://subscribeopenly.net/subscribe/?url=https://app.crucialtracks.org/profile/mijo/feed",
+                    url: "https://subscribeopenly.net/subscribe/?url=https://www.crucialtracks.org/profile/mijo/feed",
                     icon: "fa-solid fa-square-rss",
                     text: "Playlist (Crucial Tracks)",
                 },

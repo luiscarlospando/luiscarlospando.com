@@ -37,7 +37,7 @@ permalink: /music/crucial-tracks/
         </a>
     </li>
     <li class="list-inline-item">
-        <a class="btn btn-primary btn-sm" href="https://app.crucialtracks.org/profile/mijo/feed" rel="me noopener">
+        <a class="btn btn-primary btn-sm" href="https://www.crucialtracks.org/profile/mijo/feed" rel="me noopener">
             <i class="fa-solid fa-rss"></i> Suscribirse
         </a>
     </li>

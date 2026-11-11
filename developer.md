@@ -11,8 +11,6 @@ permalink: /developer/
 
 ## <i class="fa-solid fa-terminal"></i> cURL
 
-Prueba hacer curl.
-
 ```bash
 $ curl luiscarlospando.com
 ```

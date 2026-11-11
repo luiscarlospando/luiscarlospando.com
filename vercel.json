@@ -1,5 +1,5 @@
 {
-    "buildCommand": "npm install && npm run build && (npm run update-s || true) && bundle exec jekyll build",
+    "buildCommand": "npm install && npm run build && (npm run update-s || true) && bundle exec jekyll build && (npm run build-curl || true)",
     "outputDirectory": "_site",
     "installCommand": "npm install && bundle install",
     "framework": null,
@@ -19,6 +19,41 @@
                     "value": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version"
                 }
             ]
+        },
+        {
+            "source": "/index.txt",
+            "headers": [
+                {
+                    "key": "Content-Type",
+                    "value": "text/plain; charset=utf-8"
+                },
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=0, must-revalidate"
+                }
+            ]
+        },
+        {
+            "source": "/",
+            "headers": [
+                {
+                    "key": "Vary",
+                    "value": "User-Agent"
+                }
+            ]
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/",
+            "has": [
+                {
+                    "type": "header",
+                    "key": "user-agent",
+                    "value": "^(curl|[Ww]get|HTTPie|httpie|xh)/.*"
+                }
+            ],
+            "destination": "/index.txt"
         }
     ]
 }

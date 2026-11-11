@@ -30,6 +30,7 @@ Thumbs.db
 # the Vercel build depends on them at build time)
 node-scripts/*
 !node-scripts/updateStatuslog.js
+!node-scripts/generateCurlHome.js
 
 # Logs
 npm-debug.log*

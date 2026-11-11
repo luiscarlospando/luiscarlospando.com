@@ -8,6 +8,27 @@ permalink: /changelog/
 
 <p class="text-center">Todos los cambios a mi sitio se documentan en este archivo. Este proyecto sigue el formato [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).</p>
 
+## [`v2.82.0`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.81.1...v2.82.0) - 2026-11-11
+
+- Quitar archivos vendor órfanos [`6c2b829`](https://github.com/luiscarlospando/luiscarlospando.com/commit/6c2b8291d08b3aaa3247220e903683cd2d817245)
+- Implementar visualización del sitio vía curl [`758bf0c`](https://github.com/luiscarlospando/luiscarlospando.com/commit/758bf0c07bfd281e2b17bba616d15986a6a7edf6)
+- Archivar /now del 30-09-2026 [`473af9b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/473af9bb6772660aa9d831ad2b19d8f75b4c2655)
+- Archivar /now del 31-08-2026 [`ae8d82b`](https://github.com/luiscarlospando/luiscarlospando.com/commit/ae8d82bf484a77f3735f3cf691c53ebb431a3805)
+- Actualizar /cv [`e380b88`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e380b88da680c040d2fea6629679ae4d37521d79)
+- Actualizar CHANGELOG [`f4305c3`](https://github.com/luiscarlospando/luiscarlospando.com/commit/f4305c39374ef0c4bcb1155eca702094a3c6eb42)
+- Actualizar /uses [`12bf870`](https://github.com/luiscarlospando/luiscarlospando.com/commit/12bf8707171a455f898afe98377732b1fc7a561d)
+- Actualizar /games [`114c920`](https://github.com/luiscarlospando/luiscarlospando.com/commit/114c920504c0b2a82dfa9906aef0e8763d481795)
+- Actualizar /blogroll [`583441e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/583441e3f75adf72769040069ac10a4933858d37)
+- Reemplazar app.crucialtracks.org por www.crucialtracks.org ya que Crucial Tracks actualizó certificados [`35260a1`](https://github.com/luiscarlospando/luiscarlospando.com/commit/35260a16e398c31d627f68092b81e8c85178c290)
+- Actualizar /blogroll [`9c6f499`](https://github.com/luiscarlospando/luiscarlospando.com/commit/9c6f49909d9f6ea29a9b35966081196a03b26b94)
+- Disminuir margen inferior en fotos dentro de una galería [`29e17e9`](https://github.com/luiscarlospando/luiscarlospando.com/commit/29e17e9c8698caf84d4bd688d21eed738145d9f7)
+- Ajustar tamaño del nombre del artista en modal de los álbumes más escuchados [`394dd06`](https://github.com/luiscarlospando/luiscarlospando.com/commit/394dd06a94c2604ef192f30613688cfd9b1bace8)
+- Deploy v2.82.0 [`b9002c5`](https://github.com/luiscarlospando/luiscarlospando.com/commit/b9002c5582f3de8fff5895c48fd0a0db96d79d52)
+- Corregir typo en rule [`7fdcf9e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/7fdcf9ec93a1ac74b8fd5d6b6d75fbc544d5d161)
+- Actualizar /games [`e952812`](https://github.com/luiscarlospando/luiscarlospando.com/commit/e952812b5295b0e8c3fb5e563819f55546cde92c)
+- Actualizar descripción de Hitz.mx [`d128329`](https://github.com/luiscarlospando/luiscarlospando.com/commit/d12832916e5616d4c983cab3890f377dd8518439)
+- Corregir inconsistencia del border-bottom al hacer hover en links [`5424638`](https://github.com/luiscarlospando/luiscarlospando.com/commit/542463844a27853f2369f2d90870d9525dec4c05)
+
 ## [`v2.81.1`](https://github.com/luiscarlospando/luiscarlospando.com/compare/v2.81.0...v2.81.1) - 2026-09-04
 
 - Rediseñar modales de álbumes [`34a261e`](https://github.com/luiscarlospando/luiscarlospando.com/commit/34a261e9e0da0925223c5a190d465f9c2c4e4a53)

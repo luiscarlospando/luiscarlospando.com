@@ -32,28 +32,6 @@
                     "value": "public, max-age=0, must-revalidate"
                 }
             ]
-        },
-        {
-            "source": "/",
-            "headers": [
-                {
-                    "key": "Vary",
-                    "value": "User-Agent"
-                }
-            ]
-        }
-    ],
-    "rewrites": [
-        {
-            "source": "/",
-            "has": [
-                {
-                    "type": "header",
-                    "key": "user-agent",
-                    "value": "^(curl|[Ww]get|HTTPie|httpie|xh)/.*"
-                }
-            ],
-            "destination": "/index.txt"
         }
     ]
 }

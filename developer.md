@@ -9,6 +9,16 @@ permalink: /developer/
 
 <p class="text-center">{{ page.description }}</p>
 
+## <i class="fa-solid fa-terminal"></i> cURL
+
+Prueba hacer curl.
+
+```bash
+$ curl luiscarlospando.com
+```
+
+---
+
 ## <i class="fa-solid fa-key"></i> Llave PGP pública
 Esta es [mi llave PGP pública][1] por si necesitan contactarme de forma segura.
 

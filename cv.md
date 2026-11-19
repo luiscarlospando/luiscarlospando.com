@@ -84,7 +84,6 @@ Desarrollé sitios para medios, eventos y marcas, desde periódicos digitales ha
 - **Back-end y datos:** PHP, Node.js, REST APIs, MySQL, PostgreSQL, Supabase
 - **Diseño:** Figma, implementación de interfaces a partir de sistemas de diseño
 - **Operación:** Git, gestión de servidores y hosting, seguridad WordPress y limpieza de malware, SEO, soporte técnico
-- **Desarrollo asistido por IA:** Claude Code
 
 ---
 

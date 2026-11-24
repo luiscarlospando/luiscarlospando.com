@@ -33,18 +33,18 @@ last-modified-at: <span id="last-updated-at">2026-03-11 22:50:00</span>
 </a>
 </li>
 <li class="list-inline-item mb-3">
-<a rel="noreferrer noopener" href="https://echofeed.app/" target="_blank">
-<img class="web-badge" width="88" height="31" src="{{ site.url }}/assets/images/buttons/powered-by-echofeed-orange-large.svg" alt="Powered by EchoFeed" />
-</a>
-</li>
-<li class="list-inline-item mb-3">
 <a rel="noreferrer noopener" href="https://ko-fi.com/s/4662b19f61" target="_blank">
 <img class="web-badge" src="{{ site.url }}/assets/images/buttons/WrittenByAHuman_04.svg" alt="Written by a human" />
 </a>
 </li>
 <li class="list-inline-item mb-3">
 <a rel="noopener" href="https://blogblog.es/" target="_blank">
-<img class="web-badge" width="88" height="31" src="{{ site.url }}/assets/images/buttons/blogblog.webp" alt="¡Blog! ¡Blog!" />
+<img class="web-badge" width="88" height="31" src="{{ site.url }}/assets/images/buttons/blogblog.webp" alt="¡Blog!¡Blog!" />
+</a>
+</li>
+<li class="list-inline-item mb-3">
+<a rel="noopener" href="https://bubbles.town/source/luiscarlospando.com" target="_blank">
+<img class="web-badge" width="88" height="31" src="{{ site.url }}/assets/images/buttons/bubbles_88x31.png" alt="Bubbles" />
 </a>
 </li>
 <li class="list-inline-item mb-3">
